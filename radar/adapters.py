@@ -52,6 +52,7 @@ def fetch_greenhouse_board(board: dict, timeout: int = 25) -> list[dict]:
 
     results: list[dict] = []
     for job in payload.get("jobs", []):
+        title = _text(job.get("title"))
         location = _text((job.get("location") or {}).get("name"))
         departments = ", ".join(
             _text(item.get("name"))
@@ -69,7 +70,7 @@ def fetch_greenhouse_board(board: dict, timeout: int = 25) -> list[dict]:
             continue
         results.append(
             {
-                "title": _text(job.get("title")),
+                "title": title,
                 "url": job_url,
                 "description": _join(
                     [
@@ -80,6 +81,8 @@ def fetch_greenhouse_board(board: dict, timeout: int = 25) -> list[dict]:
                         body,
                     ]
                 ),
+                # Keep classification metadata separate from free-form advert prose.
+                "role_context": _join([title, departments]),
                 "published": _text(job.get("updated_at")),
                 "source": f"greenhouse:{token}",
                 "source_type": "job_board",
@@ -111,6 +114,7 @@ def fetch_lever_site(site_cfg: dict, timeout: int = 25) -> list[dict]:
 
     results: list[dict] = []
     for job in payload if isinstance(payload, list) else []:
+        title = _text(job.get("text"))
         categories = job.get("categories") or {}
         location = _text(categories.get("location"))
         commitment = _text(categories.get("commitment"))
@@ -140,7 +144,7 @@ def fetch_lever_site(site_cfg: dict, timeout: int = 25) -> list[dict]:
             continue
         results.append(
             {
-                "title": _text(job.get("text")),
+                "title": title,
                 "url": job_url,
                 "description": _join(
                     [
@@ -152,6 +156,7 @@ def fetch_lever_site(site_cfg: dict, timeout: int = 25) -> list[dict]:
                         body,
                     ]
                 ),
+                "role_context": _join([title, team, department]),
                 "published": "",
                 "source": f"lever:{site}",
                 "source_type": "job_board",
@@ -193,6 +198,7 @@ def fetch_reliefweb_jobs(cfg: dict, timeout: int = 20) -> list[dict]:
             if not job_url or job_url in seen:
                 continue
             seen.add(job_url)
+            title = _text(fields.get("title"))
             sources = fields.get("source") or []
             organisation = ", ".join(
                 _text(source.get("name"))
@@ -217,7 +223,7 @@ def fetch_reliefweb_jobs(cfg: dict, timeout: int = 20) -> list[dict]:
             )
             results.append(
                 {
-                    "title": _text(fields.get("title")),
+                    "title": title,
                     "url": job_url,
                     "description": _join(
                         [
@@ -228,6 +234,7 @@ def fetch_reliefweb_jobs(cfg: dict, timeout: int = 20) -> list[dict]:
                             body,
                         ]
                     ),
+                    "role_context": _join([title, categories]),
                     "published": published,
                     "deadline": deadline,
                     "source": "reliefweb-api-v2",
@@ -278,6 +285,7 @@ def fetch_github_issues(cfg: dict, timeout: int = 25) -> list[dict]:
             if not issue_url or issue_url in seen:
                 continue
             seen.add(issue_url)
+            title = _text(issue.get("title"))
             repo_api_url = _text(issue.get("repository_url"))
             repo_name = urlparse(repo_api_url).path.removeprefix("/repos/").strip("/")
             labels = ", ".join(
@@ -287,7 +295,7 @@ def fetch_github_issues(cfg: dict, timeout: int = 25) -> list[dict]:
             )
             results.append(
                 {
-                    "title": _text(issue.get("title")),
+                    "title": title,
                     "url": issue_url,
                     "description": _join(
                         [
@@ -297,6 +305,7 @@ def fetch_github_issues(cfg: dict, timeout: int = 25) -> list[dict]:
                             _text(issue.get("body")),
                         ]
                     ),
+                    "role_context": _join([title, repo_name, labels]),
                     "published": _text(issue.get("updated_at")),
                     "source": "github-issues-api",
                     "source_type": "open_source",
