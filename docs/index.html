@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Opportunity Radar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <p class="eyebrow">SRakaj · Opportunity Radar</p>
+      <h1>High-signal opportunities, without the search-engine noise.</h1>
+      <p class="lede">Legal, policy, privacy, compliance, AI governance, research and international opportunities ranked by personal relevance.</p>
+    </header>
+
+    <section class="toolbar">
+      <input id="search" type="search" placeholder="Search title, topic, organisation…">
+      <select id="minScore">
+        <option value="0">All scores</option>
+        <option value="40">40+</option>
+        <option value="60" selected>60+</option>
+        <option value="80">80+</option>
+      </select>
+      <label><input id="newOnly" type="checkbox"> New in last 7 days</label>
+    </section>
+
+    <section class="stats" id="stats"></section>
+    <section id="results" class="results"></section>
+  </main>
+
+  <template id="cardTemplate">
+    <article class="card">
+      <div class="score"></div>
+      <div class="content">
+        <div class="meta"></div>
+        <h2><a class="title" target="_blank" rel="noopener"></a></h2>
+        <p class="description"></p>
+        <div class="signals"></div>
+        <details>
+          <summary>Why this score?</summary>
+          <div class="reasons"></div>
+        </details>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
