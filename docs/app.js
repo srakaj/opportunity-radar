@@ -53,8 +53,6 @@ function parseStructuredDescription(description = '') {
     ['deadline', 'Application deadline'],
   ];
 
-  // Adapters prepend structured metadata before the free-form advert body.
-  // Peel off only those leading fields so matching words inside the advert are untouched.
   let matched = true;
   while (matched && body) {
     matched = false;
@@ -122,7 +120,7 @@ function render() {
     const node = els.template.content.cloneNode(true);
     const parsed = parseStructuredDescription(item.description || '');
 
-    node.querySelector('.score').textContent = item.score ?? 0;
+    node.querySelector('.score-value').textContent = item.score ?? 0;
 
     const titleLink = node.querySelector('.title');
     titleLink.textContent = item.title || 'Untitled opportunity';
