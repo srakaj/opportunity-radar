@@ -26,9 +26,6 @@ SIGNAL_PATTERNS = {
     "leadership": [r"leadership", r"lead a", r"manage", r"mentor"],
 }
 
-# A result must look like an actual opportunity in its own title/snippet. Search-query
-# vocabulary is intentionally NOT used here, otherwise every result inherits points
-# merely because the query contained words such as "legal" or "fellowship".
 OPPORTUNITY_PATTERNS = [
     r"internship",
     r"\bintern\b",
@@ -58,6 +55,10 @@ OPPORTUNITY_PATTERNS = [
     r"apply (?:now|by|before)",
     r"vacanc(?:y|ies)",
     r"we(?:'re| are) hiring",
+    r"contribution opportunity",
+    r"help wanted",
+    r"good first issue",
+    r"working group",
 ]
 
 NEGATIVE_PATTERNS = {
@@ -68,6 +69,28 @@ NEGATIVE_PATTERNS = {
     "expired": [r"applications closed", r"deadline passed", r"no longer accepting applications"],
     "unpaid_full_time": [r"unpaid"],
 }
+
+# These title penalties are applied only when the title does not itself contain an
+# internship/trainee/fellow/junior-style signal. This prevents a normal senior job
+# from outranking an actual early-career opportunity merely because its description
+# contains many relevant legal and governance keywords.
+ADVANCED_TITLE_PATTERNS = [
+    r"\bsenior\b",
+    r"\bdirector\b",
+    r"\bprincipal\b",
+    r"\bvice president\b",
+    r"\bvp\b",
+    r"\bhead of\b",
+    r"\bmanager\b",
+    r"\blead counsel\b",
+]
+
+QUALIFIED_PROFESSIONAL_TITLE_PATTERNS = [
+    r"\bcounsel\b",
+    r"\battorney\b",
+    r"\bsolicitor\b",
+    r"\blawyer\b",
+]
 
 REFERENCE_HOSTS = {
     "wikipedia.org",
@@ -95,6 +118,7 @@ def score_opportunity(item: dict, config: dict) -> dict:
     text = " ".join(str(item.get(key, "")) for key in ("title", "description"))
     title = str(item.get("title", ""))
     url = str(item.get("url", ""))
+    structured = bool(item.get("structured_opportunity"))
 
     score = 0
     reasons: list[dict] = []
@@ -103,12 +127,32 @@ def score_opportunity(item: dict, config: dict) -> dict:
         score -= 100
         reasons.append({"signal": "reference_page", "points": -100})
 
-    if not _matches(text, OPPORTUNITY_PATTERNS):
+    looks_like_opportunity = _matches(text, OPPORTUNITY_PATTERNS)
+    title_has_opportunity_signal = _matches(title, OPPORTUNITY_PATTERNS)
+
+    if structured:
+        weight = int(config.get("positive_signals", {}).get("structured_source", 10))
+        score += weight
+        reasons.append({"signal": "structured_source", "points": weight})
+    elif not looks_like_opportunity:
         score -= 100
         reasons.append({"signal": "not_an_opportunity", "points": -100})
-    elif _matches(title, OPPORTUNITY_PATTERNS):
+
+    if title_has_opportunity_signal:
         score += 12
         reasons.append({"signal": "opportunity_in_title", "points": 12})
+
+    if not title_has_opportunity_signal:
+        if _matches(title, ADVANCED_TITLE_PATTERNS):
+            weight = int(config.get("negative_signals", {}).get("advanced_role", -50))
+            score += weight
+            reasons.append({"signal": "advanced_role", "points": weight})
+        if _matches(title, QUALIFIED_PROFESSIONAL_TITLE_PATTERNS):
+            weight = int(
+                config.get("negative_signals", {}).get("qualified_professional_title", -35)
+            )
+            score += weight
+            reasons.append({"signal": "qualified_professional_title", "points": weight})
 
     for signal, patterns in SIGNAL_PATTERNS.items():
         if _matches(text, patterns):
