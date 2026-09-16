@@ -57,11 +57,15 @@ ENTRY_LEVEL_EVIDENCE_PATTERNS = [
 PRIORITY_DOMAIN_PATTERNS = [
     r"\blegal\b", r"\blaw\b", r"privacy", r"data protection", r"gdpr",
     r"compliance", r"regulatory", r"public policy", r"\bpolicy\b", r"governance",
-    r"rule of law", r"human rights", r"refugee", r"asylum", r"protection",
+    r"rule of law", r"human rights", r"refugee", r"asylum",
     r"humanitarian law", r"international law", r"contract management",
     r"contract lifecycle", r"legal operations", r"legal tech", r"legal technology",
     r"corporate accountability", r"civic tech", r"open data", r"ai governance", r"ai act",
 ]
+
+# "Protection" is meaningful on humanitarian boards but much too broad for ordinary
+# job boards, where it also describes fraud, revenue and asset-protection roles.
+HUMANITARIAN_DOMAIN_PATTERNS = PRIORITY_DOMAIN_PATTERNS + [r"\bprotection\b"]
 
 OPEN_SOURCE_DOMAIN_PATTERNS = PRIORITY_DOMAIN_PATTERNS + [
     r"license", r"licensing", r"copyright", r"terms of service", r"accessibility",
@@ -154,20 +158,39 @@ def _outside_target_geography(location: str) -> bool:
     normalized = location.lower().strip()
     if not normalized:
         return False
-    # Explicit global/European scopes are valid even when multiple locations appear.
     if any(marker in normalized for marker in ("worldwide", "global", "europe", "emea", "anywhere")):
         return False
     return any(marker in normalized for marker in NON_TARGET_LOCATION_MARKERS)
 
 
 def _open_source_role_context(title: str, description: str) -> str:
-    # Adapter descriptions begin with repository and label metadata. Only that
-    # metadata, not arbitrary prose in the issue body, should determine domain fit.
     if " Labels: " in description:
         prefix, remainder = description.split(" Labels: ", 1)
         labels = remainder.split(". ", 1)[0]
         return f"{title} {prefix} Labels: {labels}"
     return f"{title} {description[:180]}"
+
+
+def _structured_job_role_context(title: str, description: str, explicit: str) -> str:
+    """Use role metadata for domain classification, not incidental advert prose."""
+    if explicit.strip():
+        return f"{title} {explicit}"
+
+    metadata: list[str] = []
+    for field in ("Department", "Team", "Career categories"):
+        match = re.search(
+            rf"{re.escape(field)}:\s*([^.]+)\.",
+            description,
+            flags=re.IGNORECASE,
+        )
+        if match:
+            metadata.append(match.group(1).strip())
+
+    if metadata:
+        return " ".join([title, *metadata])
+
+    # Hand-authored tests and non-standard structured feeds may not expose metadata.
+    return f"{title} {description[:450]}"
 
 
 def score_opportunity(item: dict, config: dict) -> dict:
@@ -181,6 +204,12 @@ def score_opportunity(item: dict, config: dict) -> dict:
 
     if source_type == "open_source":
         role_context = _open_source_role_context(title, description)
+    elif source_type in {"job_board", "humanitarian_job_board"}:
+        role_context = _structured_job_role_context(
+            title,
+            description,
+            str(item.get("role_context", "")),
+        )
     else:
         role_context = " ".join((title, str(item.get("role_context", "")), description[:450]))
 
@@ -208,8 +237,6 @@ def score_opportunity(item: dict, config: dict) -> dict:
 
     title_looks_early_career = _matches(title, EARLY_CAREER_TITLE_PATTERNS)
     if _matches(title, ADVANCED_TITLE_PATTERNS):
-        # "Associate" or "Analyst" must not override an explicitly senior title,
-        # e.g. "Associate General Counsel" or "Senior Legal Associate".
         title_looks_early_career = False
 
     if source_type in {"job_board", "humanitarian_job_board"}:
@@ -220,9 +247,16 @@ def score_opportunity(item: dict, config: dict) -> dict:
         if not has_early_career_evidence:
             score -= 100
             reasons.append({"signal": "not_early_career", "points": -100})
-        if not _matches(role_context, PRIORITY_DOMAIN_PATTERNS):
+
+        domain_patterns = (
+            HUMANITARIAN_DOMAIN_PATTERNS
+            if source_type == "humanitarian_job_board"
+            else PRIORITY_DOMAIN_PATTERNS
+        )
+        if not _matches(role_context, domain_patterns):
             score -= 100
             reasons.append({"signal": "outside_priority_domains", "points": -100})
+
         if _outside_target_geography(location):
             penalty = int(config.get("negative_signals", {}).get("outside_target_geography", -120))
             score += penalty
