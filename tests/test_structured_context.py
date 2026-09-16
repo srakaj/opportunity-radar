@@ -9,7 +9,7 @@ CONFIG = {
         "legal": 15,
         "privacy": 16,
         "compliance": 14,
-        "human_rights": 14,
+        "human_rights": 15,
         "international": 8,
         "remote": 10,
         "leadership": 8,
