@@ -38,8 +38,6 @@ OPPORTUNITY_PATTERNS = [
     r"good first issue", r"working group",
 ]
 
-# Title/evidence patterns are deliberately broader than OPPORTUNITY_PATTERNS because
-# an entry-level ATS posting may simply be called "Legal Operations Analyst".
 EARLY_CAREER_TITLE_PATTERNS = [
     r"\bintern(?:ship)?\b", r"\btrainee(?:ship)?\b", r"\bfellow(?:ship)?\b",
     r"\bgraduate\b", r"\bworking student\b", r"\bwerkstudent", r"\bstudent\b",
@@ -56,8 +54,6 @@ ENTRY_LEVEL_EVIDENCE_PATTERNS = [
     r"1\s*(?:-|–|to)\s*2 years", r"first professional experience",
 ]
 
-# Generic software/data roles should not enter merely because their descriptions say
-# "AI" or "research". These are the substantive domains this radar is meant to cover.
 PRIORITY_DOMAIN_PATTERNS = [
     r"\blegal\b", r"\blaw\b", r"privacy", r"data protection", r"gdpr",
     r"compliance", r"regulatory", r"public policy", r"\bpolicy\b", r"governance",
@@ -105,12 +101,26 @@ def _host(url: str) -> str:
     return urlparse(url).netloc.lower().removeprefix("www.")
 
 
+def _source_type(item: dict) -> str:
+    explicit = str(item.get("source_type", ""))
+    if explicit:
+        return explicit
+    source = str(item.get("source", ""))
+    if source.startswith(("greenhouse:", "lever:")):
+        return "job_board"
+    if source.startswith("reliefweb"):
+        return "humanitarian_job_board"
+    if source.startswith("github-issues"):
+        return "open_source"
+    return ""
+
+
 def score_opportunity(item: dict, config: dict) -> dict:
     text = " ".join(str(item.get(key, "")) for key in ("title", "description"))
     title = str(item.get("title", ""))
     url = str(item.get("url", ""))
     structured = bool(item.get("structured_opportunity"))
-    source_type = str(item.get("source_type", ""))
+    source_type = _source_type(item)
 
     score = 0
     reasons: list[dict] = []
@@ -134,9 +144,6 @@ def score_opportunity(item: dict, config: dict) -> dict:
         score += 12
         reasons.append({"signal": "opportunity_in_title", "points": 12})
 
-    # ATS/humanitarian feeds contain thousands of real jobs, most of which are not
-    # relevant to a student/early-career search. Require evidence of both career
-    # level and substantive domain before allowing them into the ranking pool.
     if source_type in {"job_board", "humanitarian_job_board"}:
         has_early_career_evidence = (
             _matches(title, EARLY_CAREER_TITLE_PATTERNS)
@@ -178,6 +185,7 @@ def score_opportunity(item: dict, config: dict) -> dict:
                 reasons.append({"signal": signal, "points": weight})
 
     item = dict(item)
+    item["source_type"] = source_type
     item["score"] = score
     item["reasons"] = sorted(reasons, key=lambda r: abs(r["points"]), reverse=True)
     return item
