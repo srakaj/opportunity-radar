@@ -165,8 +165,8 @@ def fetch_lever_site(site_cfg: dict, timeout: int = 25) -> list[dict]:
 
 
 def fetch_reliefweb_jobs(cfg: dict, timeout: int = 30) -> list[dict]:
-    """Search ReliefWeb's public jobs API for humanitarian/legal-policy roles."""
-    endpoint = "https://api.reliefweb.int/v1/jobs"
+    """Search ReliefWeb API v2 for current humanitarian/legal-policy roles."""
+    endpoint = "https://api.reliefweb.int/v2/jobs"
     appname = _text(cfg.get("appname")) or "opportunity-radar"
     per_query = int(cfg.get("max_results_per_query", 50))
     queries = cfg.get("queries", []) or []
@@ -178,6 +178,7 @@ def fetch_reliefweb_jobs(cfg: dict, timeout: int = 30) -> list[dict]:
         params = {
             "appname": appname,
             "profile": "full",
+            "preset": "latest",
             "limit": min(per_query, 100),
             "query[value]": _text(query),
         }
@@ -204,9 +205,17 @@ def fetch_reliefweb_jobs(cfg: dict, timeout: int = 30) -> list[dict]:
                 for country in countries
                 if isinstance(country, dict) and country.get("name")
             )
-            body = _html_to_text(fields.get("body"))
+            body = _text(fields.get("body")) or _html_to_text(fields.get("body-html"))
             date = fields.get("date") or {}
             published = _text(date.get("created")) if isinstance(date, dict) else ""
+            deadline = _text(date.get("closing")) if isinstance(date, dict) else ""
+
+            career_categories = fields.get("career_categories") or []
+            categories = ", ".join(
+                _text(category.get("name"))
+                for category in career_categories
+                if isinstance(category, dict) and category.get("name")
+            )
 
             results.append(
                 {
@@ -216,11 +225,14 @@ def fetch_reliefweb_jobs(cfg: dict, timeout: int = 30) -> list[dict]:
                         [
                             f"Organisation: {organisation}." if organisation else "",
                             f"Location: {location}." if location else "",
+                            f"Career categories: {categories}." if categories else "",
+                            f"Application deadline: {deadline}." if deadline else "",
                             body,
                         ]
                     ),
                     "published": published,
-                    "source": "reliefweb-api",
+                    "deadline": deadline,
+                    "source": "reliefweb-api-v2",
                     "organization": organisation,
                     "location": location,
                     "structured_opportunity": True,
