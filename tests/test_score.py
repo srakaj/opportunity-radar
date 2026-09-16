@@ -20,6 +20,7 @@ CONFIG = {
         "open_source_discovery": -25,
         "non_mergeable_contribution": -60,
         "restricted_work_authorization": -120,
+        "outside_target_geography": -120,
         "expired": -100,
     },
 }
@@ -124,10 +125,24 @@ class ScoreOpportunityTests(unittest.TestCase):
         self.assertIn("restricted_work_authorization", signals)
         self.assertLess(scored["score"], 25)
 
+    def test_non_european_onsite_role_is_rejected(self):
+        item = {
+            "title": "Compliance Operations Associate",
+            "description": "Entry-level compliance and legal coordination role.",
+            "url": "https://example.org/jobs/mexico",
+            "source": "greenhouse:test",
+            "location": "Mexico City, MX",
+            "structured_opportunity": True,
+        }
+        scored = score_opportunity(item, CONFIG)
+        signals = {reason["signal"] for reason in scored["reasons"]}
+        self.assertIn("outside_target_geography", signals)
+        self.assertLess(scored["score"], 25)
+
     def test_open_source_issue_is_deprioritised_against_formal_roles(self):
         item = {
             "title": "Improve legal licensing documentation",
-            "description": "Open-source contribution opportunity. Labels: help wanted, legal, licensing.",
+            "description": "Open-source contribution opportunity. Repository: example/project. Labels: help wanted, legal, licensing. Details follow.",
             "url": "https://github.com/example/project/issues/1",
             "source": "github-issues-api",
             "structured_opportunity": True,
@@ -135,6 +150,24 @@ class ScoreOpportunityTests(unittest.TestCase):
         scored = score_opportunity(item, CONFIG)
         signals = {reason["signal"] for reason in scored["reasons"]}
         self.assertIn("open_source_discovery", signals)
+        self.assertNotIn("outside_priority_domains", signals)
+
+    def test_incidental_legal_word_in_github_body_does_not_define_issue_domain(self):
+        item = {
+            "title": "Improve slide deck builder",
+            "description": (
+                "Open-source contribution opportunity. Repository: example/slides. "
+                "Labels: help wanted, enhancement, creative. "
+                "Long body later talks about legal compliance and privacy examples."
+            ),
+            "url": "https://github.com/example/slides/issues/1",
+            "source": "github-issues-api",
+            "structured_opportunity": True,
+        }
+        scored = score_opportunity(item, CONFIG)
+        signals = {reason["signal"] for reason in scored["reasons"]}
+        self.assertIn("outside_priority_domains", signals)
+        self.assertLess(scored["score"], 25)
 
     def test_fellowship_receives_real_opportunity_signal(self):
         item = {
