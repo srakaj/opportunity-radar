@@ -92,6 +92,15 @@ RESTRICTED_LOCATION_NAMES = {
     "united states", "usa", "united kingdom", "uk", "canada", "india", "australia"
 }
 
+# The user's geographic scope is Berlin/Germany/Europe plus genuinely worldwide
+# remote work. These markers catch obvious country-specific roles outside Europe.
+NON_TARGET_LOCATION_MARKERS = {
+    "united states", "usa", "canada", "mexico", "brazil", "argentina", "colombia",
+    "chile", "peru", "india", "singapore", "australia", "new zealand", "japan",
+    "china", "hong kong", "taiwan", "south korea", "philippines", "indonesia",
+    "malaysia", "thailand", "vietnam", "south africa", "latam", "apac",
+}
+
 ADVANCED_TITLE_PATTERNS = [
     r"\bsenior\b", r"\bdirector\b", r"\bprincipal\b", r"\bvice president\b",
     r"\bvp\b", r"\bhead of\b", r"\bmanager\b", r"\blead counsel\b",
@@ -140,20 +149,39 @@ def _has_restricted_work_authorization(text: str, location: str) -> bool:
     )
 
 
+def _outside_target_geography(location: str) -> bool:
+    normalized = location.lower().strip()
+    if not normalized:
+        return False
+    # Explicit global/European scopes are valid even when multiple locations appear.
+    if any(marker in normalized for marker in ("worldwide", "global", "europe", "emea", "anywhere")):
+        return False
+    return any(marker in normalized for marker in NON_TARGET_LOCATION_MARKERS)
+
+
+def _open_source_role_context(title: str, description: str) -> str:
+    # Adapter descriptions begin with repository and label metadata. Only that
+    # metadata, not arbitrary prose in the issue body, should determine domain fit.
+    if " Labels: " in description:
+        prefix, remainder = description.split(" Labels: ", 1)
+        labels = remainder.split(". ", 1)[0]
+        return f"{title} {prefix} Labels: {labels}"
+    return f"{title} {description[:180]}"
+
+
 def score_opportunity(item: dict, config: dict) -> dict:
     description = str(item.get("description", ""))
-    text = " ".join((str(item.get("title", "")), description))
     title = str(item.get("title", ""))
+    text = " ".join((title, description))
     url = str(item.get("url", ""))
     location = str(item.get("location", ""))
     structured = bool(item.get("structured_opportunity"))
     source_type = _source_type(item)
 
-    # The first few hundred characters of structured descriptions contain the
-    # organisation, location, department/team/categories and role summary. Domain
-    # gating uses this context rather than the whole advert, preventing stray words
-    # deep in a generic job description from defining the role's subject matter.
-    role_context = " ".join((title, str(item.get("role_context", "")), description[:450]))
+    if source_type == "open_source":
+        role_context = _open_source_role_context(title, description)
+    else:
+        role_context = " ".join((title, str(item.get("role_context", "")), description[:450]))
 
     score = 0
     reasons: list[dict] = []
@@ -188,6 +216,10 @@ def score_opportunity(item: dict, config: dict) -> dict:
         if not _matches(role_context, PRIORITY_DOMAIN_PATTERNS):
             score -= 100
             reasons.append({"signal": "outside_priority_domains", "points": -100})
+        if _outside_target_geography(location):
+            penalty = int(config.get("negative_signals", {}).get("outside_target_geography", -120))
+            score += penalty
+            reasons.append({"signal": "outside_target_geography", "points": penalty})
 
     if source_type == "open_source":
         if not _matches(role_context, OPEN_SOURCE_DOMAIN_PATTERNS):
