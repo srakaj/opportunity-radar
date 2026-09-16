@@ -8,6 +8,7 @@ CONFIG = {
         "structured_source": 10,
         "legal": 15,
         "privacy": 16,
+        "compliance": 14,
         "policy": 12,
         "research_writing": 12,
         "fellowship": 10,
@@ -16,6 +17,9 @@ CONFIG = {
     "negative_signals": {
         "advanced_role": -50,
         "qualified_professional_title": -35,
+        "open_source_discovery": -25,
+        "non_mergeable_contribution": -60,
+        "restricted_work_authorization": -120,
         "expired": -100,
     },
 }
@@ -61,6 +65,24 @@ class ScoreOpportunityTests(unittest.TestCase):
         self.assertIn("outside_priority_domains", signals)
         self.assertLess(scored["score"], 25)
 
+    def test_finance_fellow_does_not_become_legal_from_late_description_words(self):
+        item = {
+            "title": "Finance Fellow",
+            "description": (
+                "Organisation: Example. Location: Remote. Department: Finance. "
+                "Work on valuation and forecasting with financial models. "
+                + "x" * 600
+                + " Later sections mention compliance, legal policy and governance."
+            ),
+            "url": "https://example.org/jobs/finance",
+            "source": "greenhouse:test",
+            "structured_opportunity": True,
+        }
+        scored = score_opportunity(item, CONFIG)
+        signals = {reason["signal"] for reason in scored["reasons"]}
+        self.assertIn("outside_priority_domains", signals)
+        self.assertLess(scored["score"], 25)
+
     def test_relevant_but_senior_job_is_rejected_from_job_board(self):
         item = {
             "title": "Senior Director, Privacy Policy",
@@ -87,6 +109,32 @@ class ScoreOpportunityTests(unittest.TestCase):
         signals = {reason["signal"] for reason in scored["reasons"]}
         self.assertNotIn("not_early_career", signals)
         self.assertGreaterEqual(scored["score"], 25)
+
+    def test_country_restricted_remote_role_is_penalised(self):
+        item = {
+            "title": "Legal Fellow",
+            "description": "Fully remote. Candidates must be authorized to work in the United States.",
+            "url": "https://example.org/jobs/us",
+            "source": "greenhouse:test",
+            "location": "United States",
+            "structured_opportunity": True,
+        }
+        scored = score_opportunity(item, CONFIG)
+        signals = {reason["signal"] for reason in scored["reasons"]}
+        self.assertIn("restricted_work_authorization", signals)
+        self.assertLess(scored["score"], 25)
+
+    def test_open_source_issue_is_deprioritised_against_formal_roles(self):
+        item = {
+            "title": "Improve legal licensing documentation",
+            "description": "Open-source contribution opportunity. Labels: help wanted, legal, licensing.",
+            "url": "https://github.com/example/project/issues/1",
+            "source": "github-issues-api",
+            "structured_opportunity": True,
+        }
+        scored = score_opportunity(item, CONFIG)
+        signals = {reason["signal"] for reason in scored["reasons"]}
+        self.assertIn("open_source_discovery", signals)
 
     def test_fellowship_receives_real_opportunity_signal(self):
         item = {
