@@ -10,7 +10,7 @@ SIGNAL_PATTERNS = {
     "legal_operations": [r"legal operations", r"contract management", r"document governance"],
     "privacy": [r"privacy", r"data protection", r"gdpr"],
     "compliance": [r"compliance", r"regulatory"],
-    "ai_governance": [r"ai governance", r"artificial intelligence", r"ai act"],
+    "ai_governance": [r"ai governance", r"artificial intelligence governance", r"ai act"],
     "policy": [r"\bpolicy\b", r"public policy"],
     "governance": [r"governance", r"rule of law"],
     "human_rights": [r"human rights", r"refugee", r"asylum"],
@@ -27,38 +27,45 @@ SIGNAL_PATTERNS = {
 }
 
 OPPORTUNITY_PATTERNS = [
-    r"internship",
-    r"\bintern\b",
-    r"traineeship",
-    r"\btrainee\b",
-    r"fellowship",
-    r"\bfellow\b",
-    r"graduate programme",
-    r"graduate program",
-    r"young professional",
-    r"junior professional",
-    r"working student",
-    r"werkstudent",
-    r"volunteer",
-    r"pro[ -]?bono",
-    r"research assistant",
-    r"research associate",
-    r"researcher vacancy",
-    r"policy analyst",
-    r"policy associate",
-    r"legal analyst",
-    r"legal researcher",
-    r"legal assistant",
-    r"legal associate",
-    r"open call",
-    r"applications? (?:are )?open",
-    r"apply (?:now|by|before)",
-    r"vacanc(?:y|ies)",
-    r"we(?:'re| are) hiring",
-    r"contribution opportunity",
-    r"help wanted",
-    r"good first issue",
-    r"working group",
+    r"internship", r"\bintern\b", r"traineeship", r"\btrainee\b",
+    r"fellowship", r"\bfellow\b", r"graduate programme", r"graduate program",
+    r"young professional", r"junior professional", r"working student", r"werkstudent",
+    r"volunteer", r"pro[ -]?bono", r"research assistant", r"research associate",
+    r"researcher vacancy", r"policy analyst", r"policy associate", r"legal analyst",
+    r"legal researcher", r"legal assistant", r"legal associate", r"open call",
+    r"applications? (?:are )?open", r"apply (?:now|by|before)", r"vacanc(?:y|ies)",
+    r"we(?:'re| are) hiring", r"contribution opportunity", r"help wanted",
+    r"good first issue", r"working group",
+]
+
+EARLY_CAREER_TITLE_PATTERNS = [
+    r"\bintern(?:ship)?\b", r"\btrainee(?:ship)?\b", r"\bfellow(?:ship)?\b",
+    r"\bgraduate\b", r"\bworking student\b", r"\bwerkstudent", r"\bstudent\b",
+    r"\bjunior\b", r"\bassistant\b", r"\bassociate\b", r"\banalyst\b",
+    r"\bresearcher\b", r"\bresearch assistant\b", r"\bcoordinator\b",
+    r"\byoung professional\b", r"\bentry[ -]?level\b",
+]
+
+ENTRY_LEVEL_EVIDENCE_PATTERNS = [
+    r"current(?:ly)? (?:enrolled )?student", r"enrolled (?:in|at)", r"law student",
+    r"university student", r"recent graduate", r"recently graduated", r"early career",
+    r"entry[ -]?level", r"no (?:prior|previous) experience required",
+    r"0\s*(?:-|–|to)\s*2 years", r"0\s*(?:-|–|to)\s*1 years?",
+    r"1\s*(?:-|–|to)\s*2 years", r"first professional experience",
+]
+
+PRIORITY_DOMAIN_PATTERNS = [
+    r"\blegal\b", r"\blaw\b", r"privacy", r"data protection", r"gdpr",
+    r"compliance", r"regulatory", r"public policy", r"\bpolicy\b", r"governance",
+    r"rule of law", r"human rights", r"refugee", r"asylum", r"humanitarian law",
+    r"international law", r"contract management", r"contract lifecycle",
+    r"legal operations", r"legal tech", r"legal technology", r"corporate accountability",
+    r"civic tech", r"open data", r"ai governance", r"ai act",
+]
+
+OPEN_SOURCE_DOMAIN_PATTERNS = PRIORITY_DOMAIN_PATTERNS + [
+    r"license", r"licensing", r"copyright", r"terms of service", r"accessibility",
+    r"digital rights", r"public interest tech", r"open knowledge",
 ]
 
 NEGATIVE_PATTERNS = {
@@ -70,38 +77,19 @@ NEGATIVE_PATTERNS = {
     "unpaid_full_time": [r"unpaid"],
 }
 
-# These title penalties are applied only when the title does not itself contain an
-# internship/trainee/fellow/junior-style signal. This prevents a normal senior job
-# from outranking an actual early-career opportunity merely because its description
-# contains many relevant legal and governance keywords.
 ADVANCED_TITLE_PATTERNS = [
-    r"\bsenior\b",
-    r"\bdirector\b",
-    r"\bprincipal\b",
-    r"\bvice president\b",
-    r"\bvp\b",
-    r"\bhead of\b",
-    r"\bmanager\b",
-    r"\blead counsel\b",
+    r"\bsenior\b", r"\bdirector\b", r"\bprincipal\b", r"\bvice president\b",
+    r"\bvp\b", r"\bhead of\b", r"\bmanager\b", r"\blead counsel\b",
 ]
 
 QUALIFIED_PROFESSIONAL_TITLE_PATTERNS = [
-    r"\bcounsel\b",
-    r"\battorney\b",
-    r"\bsolicitor\b",
-    r"\blawyer\b",
+    r"\bcounsel\b", r"\battorney\b", r"\bsolicitor\b", r"\blawyer\b",
 ]
 
 REFERENCE_HOSTS = {
-    "wikipedia.org",
-    "en.wikipedia.org",
-    "en.m.wikipedia.org",
-    "merriam-webster.com",
-    "dictionary.cambridge.org",
-    "thefreedictionary.com",
-    "dictionary.com",
-    "vocabulary.com",
-    "researchgate.net",
+    "wikipedia.org", "en.wikipedia.org", "en.m.wikipedia.org", "merriam-webster.com",
+    "dictionary.cambridge.org", "thefreedictionary.com", "dictionary.com",
+    "vocabulary.com", "researchgate.net",
 }
 
 
@@ -113,12 +101,26 @@ def _host(url: str) -> str:
     return urlparse(url).netloc.lower().removeprefix("www.")
 
 
+def _source_type(item: dict) -> str:
+    explicit = str(item.get("source_type", ""))
+    if explicit:
+        return explicit
+    source = str(item.get("source", ""))
+    if source.startswith(("greenhouse:", "lever:")):
+        return "job_board"
+    if source.startswith("reliefweb"):
+        return "humanitarian_job_board"
+    if source.startswith("github-issues"):
+        return "open_source"
+    return ""
+
+
 def score_opportunity(item: dict, config: dict) -> dict:
-    # Score only evidence supplied by the result itself. Never score the search query.
     text = " ".join(str(item.get(key, "")) for key in ("title", "description"))
     title = str(item.get("title", ""))
     url = str(item.get("url", ""))
     structured = bool(item.get("structured_opportunity"))
+    source_type = _source_type(item)
 
     score = 0
     reasons: list[dict] = []
@@ -142,15 +144,29 @@ def score_opportunity(item: dict, config: dict) -> dict:
         score += 12
         reasons.append({"signal": "opportunity_in_title", "points": 12})
 
+    if source_type in {"job_board", "humanitarian_job_board"}:
+        has_early_career_evidence = (
+            _matches(title, EARLY_CAREER_TITLE_PATTERNS)
+            or _matches(text, ENTRY_LEVEL_EVIDENCE_PATTERNS)
+        )
+        if not has_early_career_evidence:
+            score -= 100
+            reasons.append({"signal": "not_early_career", "points": -100})
+        if not _matches(text, PRIORITY_DOMAIN_PATTERNS):
+            score -= 100
+            reasons.append({"signal": "outside_priority_domains", "points": -100})
+
+    if source_type == "open_source" and not _matches(text, OPEN_SOURCE_DOMAIN_PATTERNS):
+        score -= 100
+        reasons.append({"signal": "outside_priority_domains", "points": -100})
+
     if not title_has_opportunity_signal:
         if _matches(title, ADVANCED_TITLE_PATTERNS):
             weight = int(config.get("negative_signals", {}).get("advanced_role", -50))
             score += weight
             reasons.append({"signal": "advanced_role", "points": weight})
         if _matches(title, QUALIFIED_PROFESSIONAL_TITLE_PATTERNS):
-            weight = int(
-                config.get("negative_signals", {}).get("qualified_professional_title", -35)
-            )
+            weight = int(config.get("negative_signals", {}).get("qualified_professional_title", -35))
             score += weight
             reasons.append({"signal": "qualified_professional_title", "points": weight})
 
@@ -169,6 +185,7 @@ def score_opportunity(item: dict, config: dict) -> dict:
                 reasons.append({"signal": signal, "points": weight})
 
     item = dict(item)
+    item["source_type"] = source_type
     item["score"] = score
     item["reasons"] = sorted(reasons, key=lambda r: abs(r["points"]), reverse=True)
     return item

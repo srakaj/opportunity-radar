@@ -35,7 +35,6 @@ def _join(parts: list[str]) -> str:
 
 
 def fetch_greenhouse_board(board: dict, timeout: int = 25) -> list[dict]:
-    """Fetch all currently published jobs from one public Greenhouse board."""
     token = _text(board.get("token"))
     if not token:
         return []
@@ -65,26 +64,25 @@ def fetch_greenhouse_board(board: dict, timeout: int = 25) -> list[dict]:
             if item.get("name")
         )
         body = _html_to_text(job.get("content"))
-        description = _join(
-            [
-                f"Organisation: {organisation}.",
-                f"Location: {location}." if location else "",
-                f"Department: {departments}." if departments else "",
-                f"Office: {offices}." if offices else "",
-                body,
-            ]
-        )
         job_url = _text(job.get("absolute_url"))
         if not job_url:
             continue
-
         results.append(
             {
                 "title": _text(job.get("title")),
                 "url": job_url,
-                "description": description,
+                "description": _join(
+                    [
+                        f"Organisation: {organisation}.",
+                        f"Location: {location}." if location else "",
+                        f"Department: {departments}." if departments else "",
+                        f"Office: {offices}." if offices else "",
+                        body,
+                    ]
+                ),
                 "published": _text(job.get("updated_at")),
                 "source": f"greenhouse:{token}",
+                "source_type": "job_board",
                 "organization": organisation,
                 "location": location,
                 "structured_opportunity": True,
@@ -94,7 +92,6 @@ def fetch_greenhouse_board(board: dict, timeout: int = 25) -> list[dict]:
 
 
 def fetch_lever_site(site_cfg: dict, timeout: int = 25) -> list[dict]:
-    """Fetch all public postings from one Lever-hosted careers site."""
     site = _text(site_cfg.get("site"))
     if not site:
         return []
@@ -119,13 +116,16 @@ def fetch_lever_site(site_cfg: dict, timeout: int = 25) -> list[dict]:
         commitment = _text(categories.get("commitment"))
         team = _text(categories.get("team"))
         department = _text(categories.get("department"))
-
         list_text = []
         for section in job.get("lists", []) or []:
-            heading = _text(section.get("text"))
-            content = _html_to_text(section.get("content"))
-            list_text.append(_join([heading, content]))
-
+            list_text.append(
+                _join(
+                    [
+                        _text(section.get("text")),
+                        _html_to_text(section.get("content")),
+                    ]
+                )
+            )
         body = _join(
             [
                 _text(job.get("descriptionPlain")),
@@ -135,27 +135,26 @@ def fetch_lever_site(site_cfg: dict, timeout: int = 25) -> list[dict]:
                 _html_to_text(job.get("additional")),
             ]
         )
-        description = _join(
-            [
-                f"Organisation: {organisation}.",
-                f"Location: {location}." if location else "",
-                f"Commitment: {commitment}." if commitment else "",
-                f"Team: {team}." if team else "",
-                f"Department: {department}." if department else "",
-                body,
-            ]
-        )
         job_url = _text(job.get("hostedUrl")) or _text(job.get("applyUrl"))
         if not job_url:
             continue
-
         results.append(
             {
                 "title": _text(job.get("text")),
                 "url": job_url,
-                "description": description,
+                "description": _join(
+                    [
+                        f"Organisation: {organisation}.",
+                        f"Location: {location}." if location else "",
+                        f"Commitment: {commitment}." if commitment else "",
+                        f"Team: {team}." if team else "",
+                        f"Department: {department}." if department else "",
+                        body,
+                    ]
+                ),
                 "published": "",
                 "source": f"lever:{site}",
+                "source_type": "job_board",
                 "organization": organisation,
                 "location": location,
                 "structured_opportunity": True,
@@ -164,16 +163,14 @@ def fetch_lever_site(site_cfg: dict, timeout: int = 25) -> list[dict]:
     return results
 
 
-def fetch_reliefweb_jobs(cfg: dict, timeout: int = 30) -> list[dict]:
-    """Search ReliefWeb API v2 for current humanitarian/legal-policy roles."""
+def fetch_reliefweb_jobs(cfg: dict, timeout: int = 20) -> list[dict]:
     endpoint = "https://api.reliefweb.int/v2/jobs"
     appname = _text(cfg.get("appname")) or "opportunity-radar"
-    per_query = int(cfg.get("max_results_per_query", 50))
+    per_query = int(cfg.get("max_results_per_query", 20))
     queries = cfg.get("queries", []) or []
 
     results: list[dict] = []
     seen: set[str] = set()
-
     for query in queries:
         params = {
             "appname": appname,
@@ -182,8 +179,12 @@ def fetch_reliefweb_jobs(cfg: dict, timeout: int = 30) -> list[dict]:
             "limit": min(per_query, 100),
             "query[value]": _text(query),
         }
-        response = requests.get(endpoint, params=params, headers=HEADERS, timeout=timeout)
-        response.raise_for_status()
+        try:
+            response = requests.get(endpoint, params=params, headers=HEADERS, timeout=timeout)
+            response.raise_for_status()
+        except requests.RequestException:
+            # A single slow ReliefWeb query should not discard successful queries.
+            continue
         payload = response.json()
 
         for item in payload.get("data", []):
@@ -192,7 +193,6 @@ def fetch_reliefweb_jobs(cfg: dict, timeout: int = 30) -> list[dict]:
             if not job_url or job_url in seen:
                 continue
             seen.add(job_url)
-
             sources = fields.get("source") or []
             organisation = ", ".join(
                 _text(source.get("name"))
@@ -209,14 +209,12 @@ def fetch_reliefweb_jobs(cfg: dict, timeout: int = 30) -> list[dict]:
             date = fields.get("date") or {}
             published = _text(date.get("created")) if isinstance(date, dict) else ""
             deadline = _text(date.get("closing")) if isinstance(date, dict) else ""
-
             career_categories = fields.get("career_categories") or []
             categories = ", ".join(
                 _text(category.get("name"))
                 for category in career_categories
                 if isinstance(category, dict) and category.get("name")
             )
-
             results.append(
                 {
                     "title": _text(fields.get("title")),
@@ -233,6 +231,7 @@ def fetch_reliefweb_jobs(cfg: dict, timeout: int = 30) -> list[dict]:
                     "published": published,
                     "deadline": deadline,
                     "source": "reliefweb-api-v2",
+                    "source_type": "humanitarian_job_board",
                     "organization": organisation,
                     "location": location,
                     "structured_opportunity": True,
@@ -242,7 +241,6 @@ def fetch_reliefweb_jobs(cfg: dict, timeout: int = 30) -> list[dict]:
 
 
 def fetch_github_issues(cfg: dict, timeout: int = 25) -> list[dict]:
-    """Find open-source contribution opportunities via GitHub's Issues Search API."""
     endpoint = "https://api.github.com/search/issues"
     token = os.getenv("GITHUB_TOKEN", "").strip()
     headers = {
@@ -256,14 +254,12 @@ def fetch_github_issues(cfg: dict, timeout: int = 25) -> list[dict]:
     per_query = int(cfg.get("max_results_per_query", 20))
     results: list[dict] = []
     seen: set[str] = set()
-
     for configured_query in cfg.get("queries", []) or []:
         query = _text(configured_query)
         if "is:issue" not in query:
             query += " is:issue"
         if "is:open" not in query:
             query += " is:open"
-
         response = requests.get(
             endpoint,
             params={
@@ -277,23 +273,18 @@ def fetch_github_issues(cfg: dict, timeout: int = 25) -> list[dict]:
         )
         response.raise_for_status()
         payload = response.json()
-
         for issue in payload.get("items", []):
             issue_url = _text(issue.get("html_url"))
             if not issue_url or issue_url in seen:
                 continue
             seen.add(issue_url)
-
             repo_api_url = _text(issue.get("repository_url"))
-            parsed = urlparse(repo_api_url)
-            repo_name = parsed.path.removeprefix("/repos/").strip("/")
+            repo_name = urlparse(repo_api_url).path.removeprefix("/repos/").strip("/")
             labels = ", ".join(
                 _text(label.get("name"))
                 for label in issue.get("labels", [])
                 if isinstance(label, dict) and label.get("name")
             )
-            body = _text(issue.get("body"))
-
             results.append(
                 {
                     "title": _text(issue.get("title")),
@@ -303,11 +294,12 @@ def fetch_github_issues(cfg: dict, timeout: int = 25) -> list[dict]:
                             "Open-source contribution opportunity.",
                             f"Repository: {repo_name}." if repo_name else "",
                             f"Labels: {labels}." if labels else "",
-                            body,
+                            _text(issue.get("body")),
                         ]
                     ),
                     "published": _text(issue.get("updated_at")),
                     "source": "github-issues-api",
+                    "source_type": "open_source",
                     "organization": repo_name,
                     "location": "Remote / open source",
                     "structured_opportunity": True,
@@ -317,7 +309,6 @@ def fetch_github_issues(cfg: dict, timeout: int = 25) -> list[dict]:
 
 
 def collect_direct_sources(config: dict) -> tuple[list[dict], list[str], dict[str, int]]:
-    """Collect configured structured sources while isolating individual failures."""
     results: list[dict] = []
     errors: list[str] = []
     stats: dict[str, int] = {}

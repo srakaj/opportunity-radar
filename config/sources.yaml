@@ -21,9 +21,6 @@ greenhouse:
 lever:
   enabled: true
   sites:
-    - site: atlassian
-      name: Atlassian
-      instance: global
     - site: spotify
       name: Spotify
       instance: global
@@ -31,15 +28,12 @@ lever:
 reliefweb:
   enabled: true
   appname: opportunity-radar
-  max_results_per_query: 50
+  max_results_per_query: 20
   queries:
     - legal
-    - law
     - policy
-    - governance
     - human rights
     - protection
-    - compliance
 
 # GitHub Issues are useful for unusual extracurricular work that conventional
 # job boards almost never surface: open-source legal tech, documentation,
