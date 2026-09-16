@@ -11,7 +11,7 @@ if str(ROOT) not in sys.path:
 
 import yaml
 
-from radar.search import build_queries, search_bing_rss
+from radar.search import build_queries, search_web
 from radar.score import score_opportunity
 
 DATA_PATH = ROOT / "data" / "opportunities.json"
@@ -65,7 +65,7 @@ def main() -> None:
 
     for query in queries:
         try:
-            results = search_bing_rss(query, max_results=max_results)
+            results = search_web(query, max_results=max_results)
         except Exception as exc:
             errors.append(f"{query}: {exc}")
             continue
