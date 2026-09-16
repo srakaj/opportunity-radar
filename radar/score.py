@@ -57,10 +57,10 @@ ENTRY_LEVEL_EVIDENCE_PATTERNS = [
 PRIORITY_DOMAIN_PATTERNS = [
     r"\blegal\b", r"\blaw\b", r"privacy", r"data protection", r"gdpr",
     r"compliance", r"regulatory", r"public policy", r"\bpolicy\b", r"governance",
-    r"rule of law", r"human rights", r"refugee", r"asylum", r"humanitarian law",
-    r"international law", r"contract management", r"contract lifecycle",
-    r"legal operations", r"legal tech", r"legal technology", r"corporate accountability",
-    r"civic tech", r"open data", r"ai governance", r"ai act",
+    r"rule of law", r"human rights", r"refugee", r"asylum", r"protection",
+    r"humanitarian law", r"international law", r"contract management",
+    r"contract lifecycle", r"legal operations", r"legal tech", r"legal technology",
+    r"corporate accountability", r"civic tech", r"open data", r"ai governance", r"ai act",
 ]
 
 OPEN_SOURCE_DOMAIN_PATTERNS = PRIORITY_DOMAIN_PATTERNS + [
@@ -75,6 +75,21 @@ NEGATIVE_PATTERNS = {
     "qualified_lawyer_only": [r"qualified lawyer required", r"bar admission required"],
     "expired": [r"applications closed", r"deadline passed", r"no longer accepting applications"],
     "unpaid_full_time": [r"unpaid"],
+}
+
+RESTRICTED_WORK_AUTH_PATTERNS = [
+    r"authorized to work in (?:the )?united states",
+    r"authorized to work in canada",
+    r"authorized to work in (?:the )?united kingdom",
+    r"authorized to work in india",
+    r"authorized to work in australia",
+    r"right to work in (?:the )?(?:uk|united kingdom)",
+    r"must (?:reside|be based|be located) in (?:the )?(?:united states|u\.s\.|usa|canada|uk|united kingdom|india|australia)",
+]
+
+GENERIC_LOCAL_AUTH_PATTERN = r"authorized to work in the country they reside in"
+RESTRICTED_LOCATION_NAMES = {
+    "united states", "usa", "united kingdom", "uk", "canada", "india", "australia"
 }
 
 ADVANCED_TITLE_PATTERNS = [
@@ -115,12 +130,30 @@ def _source_type(item: dict) -> str:
     return ""
 
 
+def _has_restricted_work_authorization(text: str, location: str) -> bool:
+    if _matches(text, RESTRICTED_WORK_AUTH_PATTERNS):
+        return True
+    normalized_location = location.lower().strip()
+    location_is_restricted = any(name in normalized_location for name in RESTRICTED_LOCATION_NAMES)
+    return location_is_restricted and bool(
+        re.search(GENERIC_LOCAL_AUTH_PATTERN, text, flags=re.IGNORECASE)
+    )
+
+
 def score_opportunity(item: dict, config: dict) -> dict:
-    text = " ".join(str(item.get(key, "")) for key in ("title", "description"))
+    description = str(item.get("description", ""))
+    text = " ".join((str(item.get("title", "")), description))
     title = str(item.get("title", ""))
     url = str(item.get("url", ""))
+    location = str(item.get("location", ""))
     structured = bool(item.get("structured_opportunity"))
     source_type = _source_type(item)
+
+    # The first few hundred characters of structured descriptions contain the
+    # organisation, location, department/team/categories and role summary. Domain
+    # gating uses this context rather than the whole advert, preventing stray words
+    # deep in a generic job description from defining the role's subject matter.
+    role_context = " ".join((title, str(item.get("role_context", "")), description[:450]))
 
     score = 0
     reasons: list[dict] = []
@@ -152,13 +185,26 @@ def score_opportunity(item: dict, config: dict) -> dict:
         if not has_early_career_evidence:
             score -= 100
             reasons.append({"signal": "not_early_career", "points": -100})
-        if not _matches(text, PRIORITY_DOMAIN_PATTERNS):
+        if not _matches(role_context, PRIORITY_DOMAIN_PATTERNS):
             score -= 100
             reasons.append({"signal": "outside_priority_domains", "points": -100})
 
-    if source_type == "open_source" and not _matches(text, OPEN_SOURCE_DOMAIN_PATTERNS):
-        score -= 100
-        reasons.append({"signal": "outside_priority_domains", "points": -100})
+    if source_type == "open_source":
+        if not _matches(role_context, OPEN_SOURCE_DOMAIN_PATTERNS):
+            score -= 100
+            reasons.append({"signal": "outside_priority_domains", "points": -100})
+        source_penalty = int(config.get("negative_signals", {}).get("open_source_discovery", -25))
+        score += source_penalty
+        reasons.append({"signal": "open_source_discovery", "points": source_penalty})
+        if re.search(r"(?:will|would) not be merged|independent forks", text, flags=re.IGNORECASE):
+            penalty = int(config.get("negative_signals", {}).get("non_mergeable_contribution", -60))
+            score += penalty
+            reasons.append({"signal": "non_mergeable_contribution", "points": penalty})
+
+    if _has_restricted_work_authorization(text, location):
+        penalty = int(config.get("negative_signals", {}).get("restricted_work_authorization", -120))
+        score += penalty
+        reasons.append({"signal": "restricted_work_authorization", "points": penalty})
 
     if not title_has_opportunity_signal:
         if _matches(title, ADVANCED_TITLE_PATTERNS):
