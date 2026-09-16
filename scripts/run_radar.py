@@ -44,8 +44,18 @@ def main() -> None:
     max_results = int(prefs.get("max_results_per_query", 10))
     minimum_score = int(prefs.get("minimum_score", 25))
 
-    existing = load_existing()
-    by_url = {canonical_url(item.get("url", "")): item for item in existing if item.get("url")}
+    # Re-score history on every run. This means improvements to the scoring rules
+    # automatically clean old false positives instead of preserving them forever.
+    by_url: dict[str, dict] = {}
+    pruned = 0
+    for item in load_existing():
+        if not item.get("url"):
+            continue
+        rescored = score_opportunity(item, prefs)
+        if rescored["score"] < minimum_score:
+            pruned += 1
+            continue
+        by_url[canonical_url(rescored["url"])] = rescored
 
     run_time = datetime.now(timezone.utc).isoformat()
     queries = build_queries(query_cfg, limit=max_queries)
@@ -67,9 +77,10 @@ def main() -> None:
 
             key = canonical_url(scored["url"])
             if key in by_url:
-                by_url[key]["last_seen"] = run_time
-                by_url[key]["score"] = scored["score"]
-                by_url[key]["reasons"] = scored["reasons"]
+                previous_first_seen = by_url[key].get("first_seen", run_time)
+                scored["first_seen"] = previous_first_seen
+                scored["last_seen"] = run_time
+                by_url[key] = scored
             else:
                 scored["first_seen"] = run_time
                 scored["last_seen"] = run_time
@@ -86,6 +97,7 @@ def main() -> None:
 
     print(f"Queries run: {len(queries)}")
     print(f"New opportunities: {discovered}")
+    print(f"Pruned old false positives: {pruned}")
     print(f"Stored opportunities: {len(opportunities)}")
     if errors:
         print(f"Search errors: {len(errors)}")
