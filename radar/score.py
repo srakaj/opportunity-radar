@@ -104,6 +104,7 @@ NON_TARGET_LOCATION_MARKERS = {
 ADVANCED_TITLE_PATTERNS = [
     r"\bsenior\b", r"\bdirector\b", r"\bprincipal\b", r"\bvice president\b",
     r"\bvp\b", r"\bhead of\b", r"\bmanager\b", r"\blead counsel\b",
+    r"\bgeneral counsel\b", r"\bchief legal officer\b", r"\bchief counsel\b",
 ]
 
 QUALIFIED_PROFESSIONAL_TITLE_PATTERNS = [
@@ -205,9 +206,15 @@ def score_opportunity(item: dict, config: dict) -> dict:
         score += 12
         reasons.append({"signal": "opportunity_in_title", "points": 12})
 
+    title_looks_early_career = _matches(title, EARLY_CAREER_TITLE_PATTERNS)
+    if _matches(title, ADVANCED_TITLE_PATTERNS):
+        # "Associate" or "Analyst" must not override an explicitly senior title,
+        # e.g. "Associate General Counsel" or "Senior Legal Associate".
+        title_looks_early_career = False
+
     if source_type in {"job_board", "humanitarian_job_board"}:
         has_early_career_evidence = (
-            _matches(title, EARLY_CAREER_TITLE_PATTERNS)
+            title_looks_early_career
             or _matches(text, ENTRY_LEVEL_EVIDENCE_PATTERNS)
         )
         if not has_early_career_evidence:
@@ -238,15 +245,15 @@ def score_opportunity(item: dict, config: dict) -> dict:
         score += penalty
         reasons.append({"signal": "restricted_work_authorization", "points": penalty})
 
-    if not title_has_opportunity_signal:
-        if _matches(title, ADVANCED_TITLE_PATTERNS):
-            weight = int(config.get("negative_signals", {}).get("advanced_role", -50))
-            score += weight
-            reasons.append({"signal": "advanced_role", "points": weight})
-        if _matches(title, QUALIFIED_PROFESSIONAL_TITLE_PATTERNS):
-            weight = int(config.get("negative_signals", {}).get("qualified_professional_title", -35))
-            score += weight
-            reasons.append({"signal": "qualified_professional_title", "points": weight})
+    if _matches(title, ADVANCED_TITLE_PATTERNS):
+        weight = int(config.get("negative_signals", {}).get("advanced_role", -50))
+        score += weight
+        reasons.append({"signal": "advanced_role", "points": weight})
+
+    if not title_has_opportunity_signal and _matches(title, QUALIFIED_PROFESSIONAL_TITLE_PATTERNS):
+        weight = int(config.get("negative_signals", {}).get("qualified_professional_title", -35))
+        score += weight
+        reasons.append({"signal": "qualified_professional_title", "points": weight})
 
     for signal, patterns in SIGNAL_PATTERNS.items():
         if _matches(text, patterns):
