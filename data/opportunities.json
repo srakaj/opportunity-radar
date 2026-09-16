@@ -65,7 +65,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:57:39.468400+00:00",
+    "last_seen": "2026-09-16T23:08:47.939994+00:00",
     "description_truncated": true
   },
   {
@@ -130,7 +130,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:57:39.468400+00:00",
+    "last_seen": "2026-09-16T23:08:47.939994+00:00",
     "description_truncated": true
   },
   {
@@ -183,35 +183,39 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:57:39.468400+00:00",
+    "last_seen": "2026-09-16T23:08:47.939994+00:00",
     "description_truncated": true
   },
   {
-    "title": "Tax Analyst",
-    "url": "https://jobs.lever.co/spotify/d2489df3-87cb-48bb-81af-83aab5f03bdc",
-    "description": "Organisation: Spotify. Location: Stockholm. Commitment: Permanent. Team: Accounting. Department: Finance. We are currently looking for a new band member to join the Spotify Tax Team. This new band member will be an Analyst, joining the Global Indirect Tax Team. This position will report into the Senior Manager for Indirect Tax in EMEA and APAC and will be based in Stockholm, Sweden.\nIn your role, you will focus on compliance and reporting. Spotify reports indirect taxes in more than 90 countries globally and you will be a key member of the team responsible for ensuring the completeness, timeliness and accuracy of Spotify’s global indirect tax compliance obligations. You will work in close collaboration with global tax team members in both Stockholm and New York, and work cross functionally with various accounting and finance teams.\nWe are a team of highly skilled and dedicated colleagues and we offer a challenging and dynamic role in an ever changing environment with the opportunity to take on much responsibility in a rapidly growing international company. Above all, your work will impact the way the world experiences audio. We are currently looking for a new band member to join the Spotify Tax Team. This new band member will be an Analyst, joining the Global Indirect Tax Team. This position will report into the Senior Manager for Indirect Tax in EMEA and APAC and will be based in Stockholm, Sweden. In your role, you will focus on compliance and reporting. Spotify reports indirect taxes in more than 90 countries globally and you will be a key member of the team responsible for ensuring the completeness, timeliness and accuracy of Spotify’s global indirect tax compliance obligations. You will work in close collaboration with global tax team members in both Stockholm and New York, and work cross functionally with various accounting and finance teams. We are a team of highly skilled and dedicated colleagues and we offer a challenging and dynamic role in an ever changin …",
-    "published": "",
-    "source": "lever:spotify",
+    "title": "Software Engineering Intern (Summer 2027)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730846005",
+    "description": "Organisation: Scale AI. Location: London, UK. Department: University. Office: London, UK. At Scale, our mission is to develop reliable AI systems for the world's most important decisions. For 10 years, Scale has provided the high-quality data and full-stack technologies that power the world's leading models, and has helped enterprises and governments build, deploy, and oversee AI applications that deliver real impact. We work closely with industry leaders like Meta, Ernst & Young, Mayo Clinic, Time Inc., the Government of Qatar, and U.S. government agencies including the Army and Air Force. Scale's internship is not a side project. Interns own real, shipped work on the same roadmaps as full-time engineers, with mentorship from world-class talent and a culture that values ownership, speed, and truth-seeking. Many of our interns return as full-time Scaliens. Scale’s rapidly growing Global Public Sector team is focused on using AI to address critical challenges facing the public sector around the world. Our core work consists of: Creating custom AI applications that will impact millions of citizens Generating high-quality training data for national LLMs Upskilling and advisory services to spread the impact of AI Example Projects: Build reinforcement learning and post-training data pipelines that power frontier model development Develop evaluation infrastructure that measures model reliability for enterprise and public sector customers Ship agentic AI applications and the tooling that makes them observable, testable, and safe to deploy Ship tools that accelerate the growth of new qualified contributors on Scale's platform Build fraud-detection systems that remove bad actors and keep Scale's contributor base safe and trusted Use models to estimate the quality of tasks and contributors, and guarantee quality on requests at large scale Devise advanced matching algorithms that pair contributors to customers for optimal turnaround and accuracy Create optimized and efficient …",
+    "published": "2026-09-14T09:12:21-04:00",
+    "source": "greenhouse:scaleai",
     "source_type": "job_board",
-    "organization": "Spotify",
-    "location": "Stockholm",
+    "organization": "Scale AI",
+    "location": "London, UK",
     "structured_opportunity": true,
-    "score": 65,
+    "score": 78,
     "reasons": [
       {
-        "signal": "legal",
-        "points": 15
+        "signal": "privacy",
+        "points": 16
       },
       {
-        "signal": "compliance",
-        "points": 14
+        "signal": "opportunity_in_title",
+        "points": 12
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
       },
       {
         "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
         "points": 10
       },
       {
@@ -223,8 +227,49 @@
         "points": 8
       }
     ],
-    "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:57:39.468400+00:00",
+    "first_seen": "2026-09-16T23:08:47.939994+00:00",
+    "last_seen": "2026-09-16T23:08:47.939994+00:00",
+    "description_truncated": true
+  },
+  {
+    "title": "Software Engineering Intern (Summer 2027)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730845005",
+    "description": "Organisation: Scale AI. Location: San Francisco, CA. Department: University. Office: San Francisco, CA. At Scale, our mission is to develop reliable AI systems for the world's most important decisions. For 10 years, Scale has provided the high-quality data and full-stack technologies that power the world's leading models, and has helped enterprises and governments build, deploy, and oversee AI applications that deliver real impact. We work closely with industry leaders like Meta, Ernst & Young, Mayo Clinic, Time Inc., the Government of Qatar, and U.S. government agencies including the Army and Air Force. Scale's internship is not a side project. Interns own real, shipped work on the same roadmaps as full-time engineers, with mentorship from world-class talent and a culture that values ownership, speed, and truth-seeking. Many of our interns return as full-time Scaliens. Example Projects Build reinforcement learning and post-training data pipelines that power frontier model development Develop evaluation infrastructure that measures model reliability for enterprise and public sector customers Ship agentic AI applications and the tooling that makes them observable, testable, and safe to deploy Ship tools that accelerate the growth of new qualified contributors on Scale's platform Build fraud-detection systems that remove bad actors and keep Scale's contributor base safe and trusted Use models to estimate the quality of tasks and contributors, and guarantee quality on requests at large scale Devise advanced matching algorithms that pair contributors to customers for optimal turnaround and accuracy Create optimized and efficient UI/UX tooling, in combination with ML algorithms, for 100k+ contributors completing billions of complex tasks Develop new AI infrastructure products to visualize, query, and explore Scale data Requirements A graduation date in Fall 2027 or Spring 2028 with a Bachelor's degree (or equivalent) in a relevant field (Computer Science, EECS, Computer …",
+    "published": "2026-09-04T21:37:32-04:00",
+    "source": "greenhouse:scaleai",
+    "source_type": "job_board",
+    "organization": "Scale AI",
+    "location": "San Francisco, CA",
+    "structured_opportunity": true,
+    "score": 70,
+    "reasons": [
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "first_seen": "2026-09-16T23:08:47.939994+00:00",
+    "last_seen": "2026-09-16T23:08:47.939994+00:00",
     "description_truncated": true
   },
   {
@@ -265,40 +310,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:57:39.468400+00:00"
-  },
-  {
-    "title": "Fraud Analyst (Revenue Protection) - 12-Month Fixed-Term",
-    "url": "https://jobs.lever.co/spotify/5992c673-e493-48b1-bb63-9b82a4c31876",
-    "description": "Organisation: Spotify. Location: London. Commitment: Full Time Contractor. Team: Operations and Strategy. Department: Markets and Subscriber Growth. Are you passionate about combating fraud, safeguarding revenue, and protecting users from sophisticated threats? As Spotify continues to grow and innovate, we are looking for a dedicated Fraud Analyst to join our Revenue Protection Operations team. In this role, you will play a crucial role in enhancing our fraud prevention strategy—ensuring a proactive balance between user growth, revenue protection, and maintaining a safe, scalable platform.\nWith scale comes complexity. You will focus on tackling payment fraud, chargebacks/disputes, creator onboarding and platform misuse that risks revenue leakage and partner trust. \nAs a 12-month cover, you will seamlessly step into our ongoing operations, keeping our momentum strong while bringing fresh perspectives to our workflows. You will work with a global team of world-class business managers, data scientists, product managers, and engineers to build robust operational defenses. If you have a keen eye for detail, strong analytical skills, and a drive to stay one step ahead of fraudsters using cutting-edge technologies, we want to hear from you! Are you passionate about combating fraud, safeguarding revenue, and protecting users from sophisticated threats? As Spotify continues to grow and innovate, we are looking for a dedicated Fraud Analyst to join our Revenue Protection Operations team. In this role, you will play a crucial role in enhancing our fraud prevention strategy—ensuring a proactive balance between user growth, revenue protection, and maintaining a safe, scalable platform. With scale comes complexity. You will focus on tackling payment fraud, chargebacks/disputes, creator onboarding and platform misuse that risks revenue leakage and partner trust. As a 12-month cover, you will seamlessly step into our ongoing operations, keeping our momentum strong while bringing fr …",
-    "published": "",
-    "source": "lever:spotify",
-    "source_type": "job_board",
-    "organization": "Spotify",
-    "location": "London",
-    "structured_opportunity": true,
-    "score": 36,
-    "reasons": [
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "remote",
-        "points": 10
-      },
-      {
-        "signal": "international",
-        "points": 8
-      },
-      {
-        "signal": "leadership",
-        "points": 8
-      }
-    ],
-    "first_seen": "2026-09-16T22:45:37.475858+00:00",
-    "last_seen": "2026-09-16T22:57:39.468400+00:00",
-    "description_truncated": true
+    "last_seen": "2026-09-16T23:08:47.939994+00:00"
   },
   {
     "title": "[Sustain] Maintainer sustainability model (funding, time, succession)",
@@ -338,7 +350,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:57:39.468400+00:00"
+    "last_seen": "2026-09-16T23:08:47.939994+00:00"
   },
   {
     "title": "privacy: review the Datenschutzerklärung against actual retention",
@@ -374,7 +386,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:57:39.468400+00:00"
+    "last_seen": "2026-09-16T23:08:47.939994+00:00"
   },
   {
     "title": "Add industry file: Legal Tech",
@@ -410,7 +422,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:57:39.468400+00:00"
+    "last_seen": "2026-09-16T23:08:47.939994+00:00"
   },
   {
     "title": "test: add tests for gdpr_compliance.rego (GDPR)",
@@ -446,6 +458,6 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:57:39.468400+00:00"
+    "last_seen": "2026-09-16T23:08:47.939994+00:00"
   }
 ]
