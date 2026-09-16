@@ -1,0 +1,58 @@
+greenhouse:
+  enabled: true
+  boards:
+    - token: via
+      name: Via
+    - token: wikimedia
+      name: Wikimedia Foundation
+    - token: civicactions
+      name: CivicActions
+    - token: legalist
+      name: Legalist
+    - token: relativity
+      name: Relativity
+    - token: scaleai
+      name: Scale AI
+    - token: checkr
+      name: Checkr
+    - token: axiom
+      name: Axiom
+
+lever:
+  enabled: true
+  sites:
+    - site: atlassian
+      name: Atlassian
+      instance: global
+    - site: spotify
+      name: Spotify
+      instance: global
+
+reliefweb:
+  enabled: true
+  appname: opportunity-radar
+  max_results_per_query: 50
+  queries:
+    - legal
+    - law
+    - policy
+    - governance
+    - human rights
+    - protection
+    - compliance
+
+# GitHub Issues are useful for unusual extracurricular work that conventional
+# job boards almost never surface: open-source legal tech, documentation,
+# governance, privacy and civic-tech contributions.
+github:
+  enabled: true
+  max_results_per_query: 20
+  queries:
+    - 'legal label:"help wanted"'
+    - 'privacy label:"help wanted"'
+    - 'gdpr label:"help wanted"'
+    - 'governance label:"help wanted"'
+    - '"legal tech" label:"help wanted"'
+    - '"open data" label:"help wanted"'
+    - '"civic tech" label:"help wanted"'
+    - 'legal label:"good first issue"'
