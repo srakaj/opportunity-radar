@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Opportunity Radar</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
   <main class="shell">
@@ -31,17 +31,20 @@
 
   <template id="cardTemplate">
     <article class="card">
-      <aside class="score-column" aria-label="Relevance score">
-        <span class="score-label">Match</span>
-        <div class="score"></div>
-      </aside>
-
       <div class="content">
-        <div class="topline"></div>
+        <div class="card-head">
+          <div class="heading-block">
+            <div class="topline"></div>
+            <h2><a class="title" target="_blank" rel="noopener"></a></h2>
+          </div>
 
-        <div class="title-row">
-          <h2><a class="title" target="_blank" rel="noopener"></a></h2>
-          <a class="open-role" target="_blank" rel="noopener">Open role ↗</a>
+          <div class="card-actions">
+            <div class="score-badge" aria-label="Relevance score">
+              <span class="score-label">Match</span>
+              <strong class="score-value"></strong>
+            </div>
+            <a class="open-role" target="_blank" rel="noopener">Open role ↗</a>
+          </div>
         </div>
 
         <div class="meta-grid"></div>
@@ -61,6 +64,6 @@
     </article>
   </template>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=3"></script>
 </body>
 </html>
