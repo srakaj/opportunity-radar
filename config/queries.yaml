@@ -1,0 +1,49 @@
+role_terms:
+  - legal trainee
+  - legal internship
+  - legal fellow
+  - research fellowship
+  - policy fellowship
+  - legal operations
+  - legal engineer
+  - privacy trainee
+  - data protection trainee
+  - compliance trainee
+  - regulatory trainee
+  - graduate programme
+  - graduate program
+  - junior professional
+  - young professionals programme
+  - research associate
+  - policy trainee
+  - legal researcher
+
+topic_terms:
+  - legal tech
+  - AI governance
+  - privacy
+  - data protection
+  - compliance
+  - human rights
+  - international law
+  - corporate accountability
+  - civic tech
+  - open data
+  - digital rights
+  - contract management
+
+location_terms:
+  - Berlin
+  - Germany
+  - Europe
+  - remote
+  - worldwide
+
+source_queries:
+  - 'site:greenhouse.io legal trainee'
+  - 'site:lever.co legal trainee'
+  - 'site:workable.com legal graduate'
+  - 'site:impactpool.org legal traineeship'
+  - 'site:reliefweb.int legal internship'
+  - 'site:idealist.org legal remote fellowship'
+  - 'site:github.com legal tech volunteer'
