@@ -4,44 +4,96 @@ A personal opportunity-discovery and ranking pipeline for niche legal, policy, g
 
 The project is designed to solve a specific retrieval problem: conventional job-search engines are good at popular job titles, but poor at discovering fragmented opportunities such as fellowships, traineeships, pro-bono research roles, working groups, NGO projects and international remote internships.
 
-## What v0.1 does
+## What v0.2 does
 
-- expands a compact preference profile into many search queries
-- normalises discovered results into a common opportunity schema
-- removes duplicates across searches and previous runs
+- polls structured public sources directly instead of relying only on search engines
+- supports public Greenhouse and Lever career boards
+- searches ReliefWeb's humanitarian jobs API
+- searches GitHub Issues for unusual open-source and civic-tech contribution opportunities
+- retains broad web discovery for fellowships, NGO calls and other fragmented sources
+- normalises all sources into one opportunity schema
+- removes duplicates across sources and previous runs
 - applies transparent, rule-based relevance scoring
-- preserves previously discovered opportunities
+- re-scores history so improved rules automatically remove old false positives
 - publishes a static browser dashboard
-- can run automatically every day with GitHub Actions
+- runs automatically every day with GitHub Actions
+- runs regression tests before each scheduled search
 
 ## Architecture
 
 ```text
-Search sources
-    ↓
-Normalise results
-    ↓
-Rule-based classification
-    ↓
-Eligibility / exclusion checks
-    ↓
+Greenhouse ─┐
+Lever ──────┤
+ReliefWeb ──┤
+GitHub ─────┤
+Web search ─┘
+      ↓
+Normalise to common schema
+      ↓
+Opportunity / seniority checks
+      ↓
 Explainable relevance score
-    ↓
+      ↓
 Deduplication + history
-    ↓
+      ↓
 JSON data + static dashboard
 ```
+
+The key design decision is to treat search engines as a **discovery layer**, not as the database. Wherever a structured public source exists, Opportunity Radar queries it directly.
 
 ## Repository structure
 
 ```text
-config/                 search vocabulary and personal ranking preferences
-radar/                  Python package
-scripts/                command-line entry points
-data/                   machine-readable opportunity history
-docs/                   static dashboard for GitHub Pages
-.github/workflows/       scheduled daily run
+config/
+  preferences.yaml       scoring weights and exclusions
+  queries.yaml           broad web-search vocabulary
+  sources.yaml           structured source configuration
+radar/
+  adapters.py            Greenhouse, Lever, ReliefWeb and GitHub adapters
+  search.py              general web discovery
+  score.py               explainable rule-based ranking
+scripts/
+  run_radar.py           pipeline entry point
+tests/                    regression tests
+data/                     machine-readable opportunity history
+docs/                     static GitHub Pages dashboard
+.github/workflows/        scheduled daily run
 ```
+
+## Direct sources
+
+### Greenhouse
+
+Add a public board token to `config/sources.yaml`:
+
+```yaml
+greenhouse:
+  boards:
+    - token: wikimedia
+      name: Wikimedia Foundation
+```
+
+The adapter retrieves all currently published jobs from the board's public Job Board API and scores them locally.
+
+### Lever
+
+```yaml
+lever:
+  sites:
+    - site: atlassian
+      name: Atlassian
+      instance: global
+```
+
+Both global and EU Lever instances are supported.
+
+### ReliefWeb
+
+ReliefWeb is searched directly for legal, policy, governance, human-rights and protection roles. Results are deduplicated before entering the scoring pipeline.
+
+### GitHub Issues
+
+GitHub's Issues Search API is used to surface opportunities that conventional job boards rarely contain, for example open-source legal-tech, privacy, governance, documentation, civic-tech and open-data contributions. The daily GitHub Actions token is used for authenticated public search.
 
 ## Run locally
 
@@ -55,6 +107,7 @@ python -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements.txt
+python -m unittest discover -s tests
 python scripts/run_radar.py
 ```
 
@@ -62,33 +115,37 @@ The resulting dataset is written to `data/opportunities.json` and copied to `doc
 
 ## Configure it
 
-Edit `config/preferences.yaml` to change scoring weights, preferred topics and exclusions.
+Edit `config/preferences.yaml` to change scoring weights and exclusions.
 
-Edit `config/queries.yaml` to change role families, topics, locations and source-specific searches. The query builder deliberately searches synonyms rather than relying on one literal job title.
+Edit `config/queries.yaml` to change broad search vocabulary. The query builder deliberately searches naming variants rather than relying on one literal job title.
+
+Edit `config/sources.yaml` to add or remove structured ATS boards and API searches.
 
 ## Dashboard
 
-The static dashboard lives in `docs/`. To publish it with GitHub Pages, use **Settings → Pages → Deploy from a branch → `main` → `/docs`**.
+The static dashboard lives in `docs/` and is published through GitHub Pages from the `main` branch's `/docs` directory.
 
 ## Daily automation
 
-`.github/workflows/daily-radar.yml` runs every morning and commits newly discovered opportunities back to the repository. It can also be started manually from the Actions tab.
+`.github/workflows/daily-radar.yml` runs every morning, executes regression tests, searches all configured sources, and commits changed opportunity data back to the repository. It can also be started manually from the Actions tab.
 
 ## Design principles
 
-1. **Explainable ranking.** Every score can be traced to explicit positive and negative signals.
-2. **High recall first.** Search broadly, then discard irrelevant results.
-3. **No fake precision.** v0.1 does not pretend to infer facts that are not visible in a source.
-4. **No paid dependency.** The initial pipeline can run entirely on GitHub Actions.
-5. **Extensible sources.** Dedicated Greenhouse, Lever, NGO, GitHub and direct-site adapters can be added later.
+1. **Structured sources first.** Prefer the actual public ATS/API over search-engine snippets whenever possible.
+2. **Explainable ranking.** Every score can be traced to explicit positive and negative signals.
+3. **High recall, then filtering.** Search broadly, but keep the final dataset selective.
+4. **No query leakage.** Search terms themselves never count as evidence that a result is relevant.
+5. **History is re-evaluated.** Improving the algorithm also cleans previously stored results.
+6. **No paid dependency.** The pipeline can run entirely on GitHub Actions and public endpoints.
+7. **Extensible adapters.** New ATS platforms and direct NGO/think-tank monitors can be added without rewriting the pipeline.
 
 ## Roadmap
 
-- v0.2: fetch source pages and extract deadlines, compensation and eligibility
-- v0.3: Greenhouse and Lever adapters
-- v0.4: direct NGO / think-tank monitors and GitHub issue discovery
-- v0.5: optional LLM classification layer
-- v0.6: email digest and closing-soon alerts
+- v0.3: direct Ashby and Workable adapters
+- v0.4: fetch detail pages and extract deadline, compensation and eligibility
+- v0.5: NGO / think-tank / fellowship source monitors
+- v0.6: optional LLM classification for ambiguous eligibility and role type
+- v0.7: email digest, closing-soon alerts and application tracking
 
 ## Licence
 
