@@ -105,6 +105,14 @@ NON_TARGET_LOCATION_MARKERS = {
     "malaysia", "thailand", "vietnam", "south africa", "latam", "apac",
 }
 
+# Many US ATS records expose only `City, ST` rather than the country.
+US_STATE_LOCATION_PATTERN = re.compile(
+    r"(?:^|[,;/]\s*)(?:AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|"
+    r"MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|"
+    r"UT|VT|VA|WA|WV|WI|WY|DC)(?:\b|$)",
+    flags=re.IGNORECASE,
+)
+
 ADVANCED_TITLE_PATTERNS = [
     r"\bsenior\b", r"\bdirector\b", r"\bprincipal\b", r"\bvice president\b",
     r"\bvp\b", r"\bhead of\b", r"\bmanager\b", r"\blead counsel\b",
@@ -160,7 +168,9 @@ def _outside_target_geography(location: str) -> bool:
         return False
     if any(marker in normalized for marker in ("worldwide", "global", "europe", "emea", "anywhere")):
         return False
-    return any(marker in normalized for marker in NON_TARGET_LOCATION_MARKERS)
+    if any(marker in normalized for marker in NON_TARGET_LOCATION_MARKERS):
+        return True
+    return bool(US_STATE_LOCATION_PATTERN.search(location))
 
 
 def _open_source_role_context(title: str, description: str) -> str:
@@ -176,11 +186,15 @@ def _structured_job_role_context(title: str, description: str, explicit: str) ->
     if explicit.strip():
         return f"{title} {explicit}"
 
+    # Structured metadata is emitted at the beginning of adapter descriptions.
+    # Never search the whole advert for `Team:` or `Department:` labels because
+    # body prose can contain unrelated headings and contaminate classification.
+    metadata_prefix = description[:600]
     metadata: list[str] = []
     for field in ("Department", "Team", "Career categories"):
         match = re.search(
             rf"{re.escape(field)}:\s*([^.]+)\.",
-            description,
+            metadata_prefix,
             flags=re.IGNORECASE,
         )
         if match:
