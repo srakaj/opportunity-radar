@@ -11,6 +11,7 @@ if str(ROOT) not in sys.path:
 
 import yaml
 
+from radar.adapters import collect_direct_sources
 from radar.search import build_queries, search_web
 from radar.score import score_opportunity
 
@@ -19,6 +20,8 @@ DOCS_PATH = ROOT / "docs" / "opportunities.json"
 
 
 def load_yaml(path: Path) -> dict:
+    if not path.exists():
+        return {}
     with path.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
 
@@ -39,13 +42,14 @@ def canonical_url(url: str) -> str:
 def main() -> None:
     prefs = load_yaml(ROOT / "config" / "preferences.yaml")
     query_cfg = load_yaml(ROOT / "config" / "queries.yaml")
+    source_cfg = load_yaml(ROOT / "config" / "sources.yaml")
 
     max_queries = int(prefs.get("max_queries_per_run", 40))
     max_results = int(prefs.get("max_results_per_query", 10))
     minimum_score = int(prefs.get("minimum_score", 25))
 
-    # Re-score history on every run. This means improvements to the scoring rules
-    # automatically clean old false positives instead of preserving them forever.
+    # Re-score history on every run. Improvements to the scoring rules therefore
+    # clean old false positives automatically instead of preserving them forever.
     by_url: dict[str, dict] = {}
     pruned = 0
     for item in load_existing():
@@ -58,36 +62,51 @@ def main() -> None:
         by_url[canonical_url(rescored["url"])] = rescored
 
     run_time = datetime.now(timezone.utc).isoformat()
-    queries = build_queries(query_cfg, limit=max_queries)
-
     discovered = 0
     errors: list[str] = []
 
+    def ingest(raw: dict) -> None:
+        nonlocal discovered
+        scored = score_opportunity(raw, prefs)
+        if scored["score"] < minimum_score or not scored.get("url"):
+            return
+
+        key = canonical_url(scored["url"])
+        if key in by_url:
+            previous_first_seen = by_url[key].get("first_seen", run_time)
+            scored["first_seen"] = previous_first_seen
+            scored["last_seen"] = run_time
+            by_url[key] = scored
+        else:
+            scored["first_seen"] = run_time
+            scored["last_seen"] = run_time
+            by_url[key] = scored
+            discovered += 1
+
+    # Structured sources come first. They provide actual current postings rather
+    # than search-engine guesses and are therefore the backbone of v0.2.
+    direct_results, direct_errors, direct_stats = collect_direct_sources(source_cfg)
+    errors.extend(direct_errors)
+    for raw in direct_results:
+        ingest(raw)
+
+    # General web discovery remains useful for fellowships, NGO calls and other
+    # opportunities that are not hosted on a supported structured platform.
+    queries = build_queries(query_cfg, limit=max_queries)
     for query in queries:
         try:
             results = search_web(query, max_results=max_results)
         except Exception as exc:
-            errors.append(f"{query}: {exc}")
+            errors.append(f"web:{query}: {exc}")
             continue
-
         for raw in results:
-            scored = score_opportunity(raw, prefs)
-            if scored["score"] < minimum_score:
-                continue
+            ingest(raw)
 
-            key = canonical_url(scored["url"])
-            if key in by_url:
-                previous_first_seen = by_url[key].get("first_seen", run_time)
-                scored["first_seen"] = previous_first_seen
-                scored["last_seen"] = run_time
-                by_url[key] = scored
-            else:
-                scored["first_seen"] = run_time
-                scored["last_seen"] = run_time
-                by_url[key] = scored
-                discovered += 1
-
-    opportunities = sorted(by_url.values(), key=lambda x: x.get("score", 0), reverse=True)
+    opportunities = sorted(
+        by_url.values(),
+        key=lambda x: (x.get("score", 0), x.get("published", "")),
+        reverse=True,
+    )
 
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
     DOCS_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -95,13 +114,17 @@ def main() -> None:
     DATA_PATH.write_text(payload + "\n", encoding="utf-8")
     DOCS_PATH.write_text(payload + "\n", encoding="utf-8")
 
-    print(f"Queries run: {len(queries)}")
+    print("Direct source rows:")
+    for source, count in sorted(direct_stats.items()):
+        print(f"  - {source}: {count}")
+    print(f"Web queries run: {len(queries)}")
     print(f"New opportunities: {discovered}")
     print(f"Pruned old false positives: {pruned}")
     print(f"Stored opportunities: {len(opportunities)}")
+
     if errors:
-        print(f"Search errors: {len(errors)}")
-        for err in errors[:5]:
+        print(f"Source/search errors: {len(errors)}")
+        for err in errors[:10]:
             print(f"  - {err}")
 
 
