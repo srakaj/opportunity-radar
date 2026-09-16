@@ -4,6 +4,15 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '15 5 * * *'
+  push:
+    branches:
+      - main
+    paths:
+      - 'radar/**'
+      - 'scripts/**'
+      - 'config/**'
+      - 'requirements.txt'
+      - '.github/workflows/daily-radar.yml'
 
 permissions:
   contents: write
