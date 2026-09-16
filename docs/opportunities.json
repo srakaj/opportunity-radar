@@ -65,7 +65,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00",
+    "last_seen": "2026-09-16T22:49:48.740037+00:00",
     "description_truncated": true
   },
   {
@@ -130,7 +130,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00",
+    "last_seen": "2026-09-16T22:49:48.740037+00:00",
     "description_truncated": true
   },
   {
@@ -183,154 +183,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00",
-    "description_truncated": true
-  },
-  {
-    "title": "GenAI Compliance Operations & Programs Associate",
-    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730306005",
-    "description": "Organisation: Scale AI. Location: Mexico City, MX. Department: Gen AI Operations. Office: Mexico City, MX. About the Role This role will serve as a key execution partner to the GenAI Customer Compliance Manager, with a strong focus on supporting GenAI delivery workflows through embedded compliance operations and Legal coordination. The GenAI Compliance Operations & Programs Associate will sit at the intersection of Delivery, Ops, and Legal, ensuring that compliance considerations are integrated early in the project lifecycle, risks are clearly identified and prioritized, and Legal is engaged with the right context at the right time. By owning execution, coordination, and delivery integration, this role frees the Customer Compliance Manager to focus on strategy, governance, and risk frameworks. The role requires strong operational ownership, comfort with ambiguity, and the ability to drive alignment across fast-moving, cross-functional teams. Key Responsibilities Compliance Review Operations & Legal Coordination Manage end-to-end compliance review workflows for GenAI projects — from early-stage intake through review, approval, launch, and verification — in close partnership with Engagement Management and Delivery. Evaluate incoming work for compliance risk signals (e.g., data sensitivity, copyright exposure, privacy concerns); triage and prioritize requests for Legal based on risk, scope, and delivery timelines. Partner with Engagement Management to translate and execute risk mitigation at both the project and customer level, gather operational input to develop and prioritize systematic compliance controls, and train/educate Ops stakeholders on common or emerging compliance risks. Ensure Legal receives clear, structured, and actionable context; coordinate reviewers across Legal and internal teams to support SLA adherence. Identify workflow friction points and contribute to improving processes, templates, and prioritization frameworks. Maintain dashboards to track thr …",
-    "published": "2026-09-08T16:27:18-04:00",
-    "source": "greenhouse:scaleai",
-    "source_type": "job_board",
-    "organization": "Scale AI",
-    "location": "Mexico City, MX",
-    "structured_opportunity": true,
-    "score": 87,
-    "reasons": [
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "compliance",
-        "points": 14
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "governance",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "leadership",
-        "points": 8
-      }
-    ],
-    "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00",
-    "description_truncated": true
-  },
-  {
-    "title": "Top Ross VPN",
-    "url": "https://github.com/whluae-alt/upgraded-robot/issues/1",
-    "description": "Open-source contribution opportunity. Repository: whluae-alt/upgraded-robot. Labels: bug, documentation, duplicate, enhancement, help wanted, good first issue, invalid. Hmm, the user's query is very brief but carries significant legal and technical weight. They want to build an \"international strong VPN,\" which implies both global infrastructure and high-performance capabilities.\n\nI need to address this carefully, starting with a strong disclaimer about legal compliance since VPNs exist in a complex regulatory landscape. The response should be structured to cover key pillars: legal considerations, technical architecture, business strategy, and operational challenges.\n\nThe technical part should explain core components like server infrastructure, protocols, and security without being overly jargon-heavy. Since this is a complex project, I'll break it into phases to make it actionable. The tone should be professional but accessible, assuming the user has some technical knowledge but may not be an expert.\n\nI'll avoid endorsing any specific tools or providers to maintain neutrality, but I'll mention common industry standards like WireGuard and OpenVPN. The goal is to provide a comprehensive roadmap while emphasizing the seriousness of such an undertaking.</think>Of course. Building a robust, international VPN service is a complex undertaking that blends advanced technology, significant infrastructure investment, and careful business planning. It is not a simple project.\n\nHere is a comprehensive breakdown of the key components, considerations, and steps involved.\n\n⚠️ Critical Legal Disclaimer First\nJurisdiction: The legal jurisdiction you choose for your company is paramount. It determines which laws you must obey regarding data retention, privacy, and government surveillance. Countries like Panama, British Virgin Islands, or Switzerland are often chosen for their privacy-friendly laws.\nLegal Counsel: This is not optional. You must hire lawyers specializing in internation …",
-    "published": "2025-08-23T14:49:23Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "whluae-alt/upgraded-robot",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "score": 78,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "compliance",
-        "points": 14
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      },
-      {
-        "signal": "remote",
-        "points": 10
-      },
-      {
-        "signal": "international",
-        "points": 8
-      },
-      {
-        "signal": "leadership",
-        "points": 8
-      }
-    ],
-    "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00",
-    "description_truncated": true
-  },
-  {
-    "title": "Talent Sourcing Analyst",
-    "url": "https://www.axiomlaw.com/careers/headquarters/available-positions?job=8786323002&gh_jid=8786323002",
-    "description": "Organisation: Axiom. Location: Chicago, Illinois, United States. Department: Talent Sourcing. Office: Chicago. Hybrid role: Occasional in-office presence required About Axiom: Axiom is where legal teams go to find the right talent for everything from routine in-house tasks to complex outside counsel work. Too many legal departments are stuck having to choose between paying the high fees of their law firm, hiring full-time employees they don’t need, or turning to a low-cost agency that can’t meet their quality standards. At the same time, top lawyers want to work on challenging legal matters, but they want more control over how, when, and where they practice. Both are forced compromises that no one should have to make. Axiom shares and meets the higher standards of its clients and lawyers, with our “work smarter, adapt faster, go further” approach – connecting growing mid-market and Fortune 500 companies with the world’s deepest bench of experienced, specialized legal talent. About the role: Axiom is hiring for a highly motivated, thoughtful Talent Acquisition Sourcing Specialist to support in the hiring of our ever-growing population of legal talent. A critical member of our wider Talent Acquisition team, the Sourcing Specialist will develop and implement creative sourcing strategies to deliver against our hiring needs, making a direct impact on the growth trajectory of our global company. This role would suit an agency recruiter looking for a more strategic position, or an in-house recruiter who is driven by growth and commercial impact. The Sourcing Specialist will: Partner cross functionally to understand the recruitment needs and legal practice areas across our global offices. Develop and implement creative sourcing strategies to identify candidates and deliver against our hiring needs, in line with our diversity agenda (leveraging inbound, passive and active sources - including LinkedIn, networking, job boards, our applicant tracking system etc.). Conduct initi …",
-    "published": "2026-09-15T14:41:43-04:00",
-    "source": "greenhouse:axiom",
-    "source_type": "job_board",
-    "organization": "Axiom",
-    "location": "Chicago, Illinois, United States",
-    "structured_opportunity": true,
-    "score": 71,
-    "reasons": [
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "remote",
-        "points": 10
-      },
-      {
-        "signal": "international",
-        "points": 8
-      },
-      {
-        "signal": "paid",
-        "points": 8
-      },
-      {
-        "signal": "leadership",
-        "points": 8
-      }
-    ],
-    "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00",
+    "last_seen": "2026-09-16T22:49:48.740037+00:00",
     "description_truncated": true
   },
   {
@@ -387,7 +240,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00",
+    "last_seen": "2026-09-16T22:49:48.740037+00:00",
     "description_truncated": true
   },
   {
@@ -428,89 +281,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00",
-    "description_truncated": true
-  },
-  {
-    "title": "Business Development Associate, Legal Partnerships",
-    "url": "https://www.legalist.com/careers?gh_jid=5980633004",
-    "description": "Organisation: Legalist. Location: United States (Remote). Department: Sales. Office: Remote. Intro description: Legalist is a tech-enabled alternative asset manager that uses proprietary data-driven origination to invest in uncorrelated legal and government-payment assets. Founded out of Y Combinator in 2016, Legalist manages over $1.7 billion for endowments, foundations, and family offices. Business Development Associate, Legal Partnerships Legalist is expanding its presence across the personal injury plaintiff market and looking for a sharp, self-directed business development professional to help build and manage a pipeline of law firm relationships. The right candidate knows how to earn credibility with sophisticated professionals, build relationships over time, and navigate the distinct culture of plaintiff-side law firms. Key Responsibilities Build and maintain a qualified pipeline of law firm relationships through targeted outreach, referral networks, bar association channels, legal conference engagement, and direct relationship development Conduct thoughtful outbound outreach tailored to the sensibilities of plaintiff attorneys and firm owners, not generic sales sequences Identify key decision-makers at target firms and develop multi-touch engagement strategies appropriate to the relationship and firm profile Research and profile target firms including practice mix, geography, size, and ownership structure to assess partnership fit Qualify opportunities and advance conversations toward introductory meetings with Legalist's leadership team Maintain accurate pipeline tracking and outreach records in CRM; report clearly on activity, conversion metrics, and market intelligence Develop and iterate on messaging that speaks credibly to attorneys — their economics, their challenges, and what a relationship with Legalist can offer their practice What We're Looking For 3–5 years of experience in business development, practice development, or a related role ideally with …",
-    "published": "2026-04-23T18:11:36-04:00",
-    "source": "greenhouse:legalist",
-    "source_type": "job_board",
-    "organization": "Legalist",
-    "location": "United States (Remote)",
-    "structured_opportunity": true,
-    "score": 63,
-    "reasons": [
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "remote",
-        "points": 10
-      },
-      {
-        "signal": "paid",
-        "points": 8
-      },
-      {
-        "signal": "leadership",
-        "points": 8
-      }
-    ],
-    "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00",
-    "description_truncated": true
-  },
-  {
-    "title": "[Proposal] Contract Evaluation Agent Template",
-    "url": "https://github.com/aden-hive/hive/issues/4328",
-    "description": "Open-source contribution opportunity. Repository: aden-hive/hive. Labels: enhancement, help wanted, good first issue, size: large. # [Proposal] Contract Evaluation Agent Template\n\n## Summary\nProposing a new agent template for automated NDA analysis that demonstrates Hive's multi-node architecture, human-in-the-loop intervention, and production-oriented workflows.\n\n## Motivation\nLegal contract review is time-consuming (15-30 min per NDA) and expensive. An AI agent could automate initial screening, flag problematic clauses, and escalate complex cases to human reviewers.\n\nThis addresses:\n- The call for example agents in the README\n- Need for production-ready templates (not toy demos)\n- Demonstrating Hive's advanced capabilities in a real business domain\n\n## Proposed Agent\n\n### Scope\n**Initial focus: NDAs only** (manageable validation scope)\n- Document processing (PDF/DOCX)\n- Clause detection (confidentiality, liability, terms, obligations)\n- Mutual vs one-sided analysis\n- Risk scoring with human escalation\n- Structured report generation\n\n### Architecture\nMulti-node workflow:\n1. Document ingestion\n2. Classification\n3. Parallel analysis nodes (confidentiality, liability, terms, dates)\n4. Human-in-the-loop review (if risk ≥ threshold)\n5. Report generation\n\n### Validation Plan\n- 20+ publicly available NDAs with ground truth\n- Measurable metrics: precision, recall, processing time, cost\n- Reproducible test suite\n- Document known limitations and failure cases\n\n## Value Proposition\n- Demonstrates complex Hive workflows (parallel nodes, HITL, structured LLM outputs)\n- Real business application with measurable validation\n- Template for similar specialized agents\n- Open-source alternative to expensive legal tech\n\n## Implementation Status\n**Concept stage** - seeking feedback before implementation:\n- Proposed architecture and validation methodology documented\n- Ready to build once scope/approach is approved\n\n## Questions for Community\n\n1. **Scope**: Is NDA-only appropriate for ini …",
-    "published": "2026-02-16T23:02:47Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "aden-hive/hive",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "score": 40,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "legal_tech",
-        "points": 18
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "compliance",
-        "points": 14
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "leadership",
-        "points": 8
-      }
-    ],
-    "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00",
+    "last_seen": "2026-09-16T22:49:48.740037+00:00",
     "description_truncated": true
   },
   {
@@ -551,7 +322,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00"
+    "last_seen": "2026-09-16T22:49:48.740037+00:00"
   },
   {
     "title": "Fraud Analyst (Revenue Protection) - 12-Month Fixed-Term",
@@ -583,44 +354,8 @@
       }
     ],
     "first_seen": "2026-09-16T22:45:37.475858+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00",
+    "last_seen": "2026-09-16T22:49:48.740037+00:00",
     "description_truncated": true
-  },
-  {
-    "title": "feat(core): SOC 2 Trust Services Criteria rule pack (third framework)",
-    "url": "https://github.com/Opencomplai/opencomplai/issues/66",
-    "description": "Open-source contribution opportunity. Repository: Opencomplai/opencomplai. Labels: enhancement, help wanted. ## Context\nThird framework pack on the same pluggable architecture (see #64 ISO/IEC 27001 and #65 NIST AI RMF). SOC 2 readiness is a well-understood, near-term compliance target for AI/SaaS vendors, and mapping Trust Services Criteria (Security, Availability, Confidentiality, Processing Integrity, Privacy) is a well-documented control set to encode.\n\n## Proposal\nAdd a SOC 2 Trust Services Criteria control-mapping pack, scoped the same way as the ISO 27001 pack: evidence-assembly and gap-reporting, not a certification claim.\n\n## Why this is complex\nSOC 2 criteria are organized very differently from both EU AI Act risk tiers and NIST's four functions (criteria + points of focus, largely process/organizational rather than model-behavior controls) — a third distinct shape is a strong test of whether the framework abstraction holds up, and surfaces which parts of `control_catalog.py` are still EU-AI-Act-shaped.\n\n## Acceptance criteria\n- SOC 2 TSC mapped onto the framework's `Control` model\n- Golden-vector tests\n- Documented in `docs/src/concepts/` alongside the existing Annex IV coverage docs",
-    "published": "2026-09-15T18:28:02Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "Opencomplai/opencomplai",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "score": 33,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "ai_governance",
-        "points": 18
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "compliance",
-        "points": 14
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      }
-    ],
-    "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00"
   },
   {
     "title": "[Sustain] Maintainer sustainability model (funding, time, succession)",
@@ -660,48 +395,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00"
-  },
-  {
-    "title": "Publish capability: core.consent-purpose-check (consent / purpose binding check)",
-    "url": "https://github.com/traverse-framework/registry/issues/500",
-    "description": "Open-source contribution opportunity. Repository: traverse-framework/registry. Labels: enhancement, good first issue, help wanted, no-spec-needed. ## Why\n\nAgents that process personal data need a **purpose-binding check**: given recorded consents and a requested processing purpose, is the action allowed? This is business/governance logic, not a string util — capability decides, agent does not invent legal conclusions.\n\n## One-PR ask\n\nPublish **`core.consent-purpose-check@1.0.0`**:\n\n**Inputs:**\n- `subject_id`: string\n- `requested_purpose`: string (from a closed enum or caller-supplied catalog ids)\n- `consents`: array of `{ \"purpose\": string, \"status\": \"granted\"|\"denied\"|\"withdrawn\", \"granted_at\"?: string (ISO-8601), \"expires_at\"?: string | null, \"scope\"?: string[] }`\n- `now`: string (ISO-8601) — caller-supplied clock (pure; no ambient time)\n- `policy_version`: string\n\n**Outputs:**\n- `decision`: `allow` | `deny`\n- `reason_code`: e.g. `consent_granted` | `consent_withdrawn` | `consent_expired` | `purpose_not_granted` | `invalid_input`\n- `matched_consent_index`: integer | null\n- `policy_version`: string\n\n**Behavior:** Exact purpose match (document whether scope must also intersect). Withdrawn/expired/denied → deny. No consent row → deny (fail closed). Invalid timestamps → fail closed.\n\nFollow [`CONTRIBUTING.md`](https://github.com/traverse-framework/registry/blob/main/CONTRIBUTING.md) and [`capabilities/README.md`](https://github.com/traverse-framework/registry/blob/main/capabilities/README.md) publish checklist.\n\n- Include `capability-src/` with real Rust tests meeting registry coverage gates (`functions` 100%, lines/regions ≥ 95%)\n- Use `traverse-cli capability publish` (or the documented scaffold) so `artifact.digest` / `artifact.url` survive\n- Declare `authoring.method` (`human` or `llm-assisted`)\n- Ensure every `use_cases[].persona_ref` resolves (scaffold personas if needed)\n- Run `bash scripts/ci/pre_pr_check.sh <draft-pr-body.md>` before opening\n- One capability …",
-    "published": "2026-09-16T21:48:01Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "traverse-framework/registry",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "score": 30,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "governance",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      },
-      {
-        "signal": "paid",
-        "points": 8
-      }
-    ],
-    "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00",
-    "description_truncated": true
+    "last_seen": "2026-09-16T22:49:48.740037+00:00"
   },
   {
     "title": "privacy: review the Datenschutzerklärung against actual retention",
@@ -737,7 +431,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00"
+    "last_seen": "2026-09-16T22:49:48.740037+00:00"
   },
   {
     "title": "Add industry file: Legal Tech",
@@ -773,7 +467,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00"
+    "last_seen": "2026-09-16T22:49:48.740037+00:00"
   },
   {
     "title": "test: add tests for gdpr_compliance.rego (GDPR)",
@@ -809,155 +503,6 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00"
-  },
-  {
-    "title": "Guardrails for sensitive and off-topic queries",
-    "url": "https://github.com/Finntegrate/tapio/issues/29",
-    "description": "Open-source contribution opportunity. Repository: Finntegrate/tapio. Labels: help wanted, agents, security, safety. Users will ask about asylum claims, detention, deportation, domestic abuse, and mental health. They will also ask off-topic questions. The LLM may respond outside its knowledge scope or inappropriately on sensitive topics. This needs explicit handling — not just prompt instructions.\n\n**Checklist:**\n- [ ] Define categories requiring special handling: out-of-scope, legally sensitive, personal crisis\n- [ ] Implement an input classifier node in the LangGraph graph that runs before routing\n- [ ] For out-of-scope queries: respond gracefully with an explanation and suggest where to look\n- [ ] For crisis-adjacent queries: surface relevant human support resources (Migri helpline, legal aid, crisis lines)\n- [ ] Add guardrail test cases to the AI evaluation dataset\n- [ ] Document the guardrail policy in `docs/` so contributors understand the intent",
-    "published": "2026-09-16T16:19:13Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "Finntegrate/tapio",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "score": 26,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "human_rights",
-        "points": 14
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      }
-    ],
-    "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00"
-  },
-  {
-    "title": "RFC review: approval binding and execution receipt semantics",
-    "url": "https://github.com/gizmuf/candao-agentic-mandates/issues/1",
-    "description": "Open-source contribution opportunity. Repository: gizmuf/candao-agentic-mandates. Labels: help wanted, profile, discussion. Review RFC 0001 as an authorization, identity, e-signature, or legal-tech practitioner.\n\nFocus areas:\n- values that must be bound into explicit human approval\n- separation between approval evidence and execution evidence\n- replay and idempotency behavior\n- provider-specific versus portable receipt fields\n- which changes belong upstream in APOA\n\nAcceptance evidence:\n- comments cite an RFC section or concrete JSON path\n- security, privacy, interoperability, and legal assumptions stay distinct\n- no real documents, credentials, or personal data",
-    "published": "2026-08-21T06:04:43Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "gizmuf/candao-agentic-mandates",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "score": 26,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      }
-    ],
-    "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00"
-  },
-  {
-    "title": "Suggestion: Word Add-In and DOCX Editing Feature — AI-Powered Document Redlining with Live Tracked Changes",
-    "url": "https://github.com/LegalQuants/lq-ai/issues/272",
-    "description": "Open-source contribution opportunity. Repository: LegalQuants/lq-ai. Labels: enhancement, help wanted. ## Feature Suggestion: Word Add-In & DOCX Editing\n\nThis issue proposes a **Chat & Edit Legal Docx** feature — AI-powered document editing with live redlines, designed as both a web editor and MS Word Add-In.\n\n### What This Is\n\nA Vault + Document Editor chat surface where lawyers can:\n- Upload matter bundles and chat with AI about documents\n- Draft new documents or propose redlines against precedent\n- Review AI-generated edits as **live tracked changes** (Word native or web redlines)\n- Confirm writes before any mutation (human-in-the-loop)\n- Export clean DOCX without compromising privilege\n\n### Draft Documents\n\nTwo documents outlining the feature (drafts for discussion and refinement before a proper PR):\n\n1. **[PRD — Product Requirements Document](https://files.098020.xyz/13c6e641-77d6-4ae4-8438-30974a2f4afb/prd-template-revised.md)** — 84 functional requirements, 9 non-functional requirements, 10 user stories. Covers scope, UX design, AI-specific requirements, governance compliance, competitive context, and edge cases.\n\n2. **[Technical Reference](https://files.098020.xyz/481e79c4-e38a-4162-a738-3cb098a28c0a/technical-spec-template.md)** — Non-binding technical guidance covering architecture, data models, API contracts, web editor options (ProseMirror + Adeu), Word Add-In integration (Adeu-driven OOXML mutations via Office.js shim), and implementation task breakdown.\n\n### Status\n\nThese are **drafts** — intended as a starting point for discussion and refinement before a proper PR. The PRD identifies clear in-scope/out-of-scope boundaries for v1. The technical reference is guidance, not a contract.\n\n### Parent Epic\n\nDE-287 (Word Add-In Feature Surface) — OAuth plumbing, manifest, and version handshake are already shipped at v0.3.0.",
-    "published": "2026-07-09T01:02:05Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "LegalQuants/lq-ai",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "score": 26,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "compliance",
-        "points": 14
-      },
-      {
-        "signal": "governance",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      }
-    ],
-    "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00"
-  },
-  {
-    "title": "soup loop canary writes three fields to loop.yaml and nothing reads them: no traffic split, no canary verdict, no rollback — and the pre-wired deploy records verdict \"OK\" on a 200",
-    "url": "https://github.com/MakazhanAlpamys/Soup/issues/815",
-    "description": "Open-source contribution opportunity. Repository: MakazhanAlpamys/Soup. Labels: bug, help wanted. ## The defect\r\n\r\n`docs/commands.md:148` advertises `soup loop canary <adapter> --traffic 5%` as \"Promote canary + auto-rollback on MAJOR\", and `docs/adapters-and-governance.md:123-124,133` describes a deterministic router that is \"sticky-on-rollback — a flaky verdict can't ping-pong traffic between adapters\". The router, the verdict and the rollback all exist as functions. None of them is called.\r\n\r\n## Evidence\r\n\r\n**The functions, and their callers in `src/`:**\r\n\r\n| function | defined | callers outside its own module |\r\n|---|---|---|\r\n| `canary_router.route` (the traffic split) | `utils/canary_router.py:83` | none |\r\n| `loop_daemon.evaluate_canary_verdict` | `utils/loop_daemon.py:380` | none |\r\n| `loop_daemon.maybe_rollback` | `utils/loop_daemon.py:391` | none |\r\n| canary `BucketStats(...)` (the per-bucket stats the verdict needs) | `utils/canary_router.py` | never constructed (the only `BucketStats(` in `src/` is an unrelated class in `utils/curriculum_dynamic.py:163`) |\r\n\r\nThey are exercised only by `tests/test_v0580.py`.\r\n\r\n**What the command does.** `commands/loop.py:276-316` builds a `CanaryPolicy` for validation, then writes `canary_active`, `canary_traffic_pct` and `canary_autoroll_on_regress` into `.soup/loop.yaml`. The only reader of those fields is `soup loop status`, which prints them (`commands/loop.py:140-144`). Note also that `--autoroll-on-regress` is passed into the policy as `sticky_on_rollback` (line 298), a different property.\r\n\r\n**What the pre-wired deploy stage does.** `utils/loop_stages.py:370-376`:\r\n\r\n```python\r\nok = _post_activate(endpoint, name)\r\nreturn {\"deployed\": ok, \"canary_verdict\": \"OK\" if ok else None, ...}\r\n```\r\n\r\nThe verdict is \"OK\" whenever the activate POST returns 2xx. And the endpoint it calls, `POST /v1/adapters/activate/{name}` (`commands/serve.py:1797-1811`), sets a single process-global `active_state[\"active\"] = name` — it switc …",
-    "published": "2026-09-15T13:47:28Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "MakazhanAlpamys/Soup",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "score": 25,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "governance",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "international",
-        "points": 8
-      },
-      {
-        "signal": "paid",
-        "points": 8
-      }
-    ],
-    "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:45:37.475858+00:00",
-    "description_truncated": true
+    "last_seen": "2026-09-16T22:49:48.740037+00:00"
   }
 ]
