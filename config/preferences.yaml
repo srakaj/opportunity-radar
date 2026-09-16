@@ -26,6 +26,9 @@ negative_signals:
   membership_only: -40
   advanced_role: -50
   qualified_professional_title: -35
+  open_source_discovery: -25
+  non_mergeable_contribution: -60
+  restricted_work_authorization: -120
   us_only: -100
   qualified_lawyer_only: -100
   expired: -100
