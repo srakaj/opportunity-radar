@@ -1,0 +1,32 @@
+positive_signals:
+  legal: 15
+  legal_tech: 18
+  legal_operations: 18
+  privacy: 16
+  compliance: 14
+  ai_governance: 18
+  policy: 12
+  governance: 12
+  human_rights: 14
+  international_law: 14
+  research_writing: 12
+  published_output: 10
+  international: 8
+  remote: 10
+  berlin: 8
+  paid: 8
+  fellowship: 10
+  traineeship: 10
+  leadership: 8
+
+negative_signals:
+  unpaid_full_time: -25
+  event_only: -30
+  membership_only: -40
+  us_only: -100
+  qualified_lawyer_only: -100
+  expired: -100
+
+minimum_score: 25
+max_results_per_query: 10
+max_queries_per_run: 40
