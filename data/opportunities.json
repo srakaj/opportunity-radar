@@ -65,7 +65,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:49:48.740037+00:00",
+    "last_seen": "2026-09-16T22:57:39.468400+00:00",
     "description_truncated": true
   },
   {
@@ -130,7 +130,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:49:48.740037+00:00",
+    "last_seen": "2026-09-16T22:57:39.468400+00:00",
     "description_truncated": true
   },
   {
@@ -183,64 +183,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:49:48.740037+00:00",
-    "description_truncated": true
-  },
-  {
-    "title": "Associate General Counsel, Product & IP",
-    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4702785005",
-    "description": "Organisation: Scale AI. Location: New York, NY; San Francisco, CA; Washington, DC. Department: Legal & GRC. Office: San Francisco, CA. Scale is at the forefront of powering artificial intelligence. We believe that trust in AI is earned with high-quality data for training, fine-tuning, and evaluating AI systems. Our products are transforming how organizations build and deploy AI. Our customers are the world’s most innovative model developers and enterprise and public sector entities looking to apply AI in their organizations. We are seeking an Associate General Counsel, Product & IP to provide strategic product counseling on cutting edge issues at the intersection of IP and agentic and generative AI. The ideal candidate for this role will have experience harnessing IP as a competitive advantage; providing strategic legal guidance that advances data-driven business goals while facilitating regulatory compliance, managing legal risk, and enhancing customer trust; and a demonstrated ability to partner well with cross-functional teams, including superlative communication, collaborative problem-solving, initiative, empathy, urgency, and focus. You will: Oversee and strategically manage Scale’s worldwide intellectual property portfolio. Develop and implement a comprehensive IP strategy that aligns with Scale’s business objectives, ensuring the development and protection of high-quality intellectual property. Oversee invention sessions, invention disclosure selection, patent application drafting and filing, and patent prosecution. Be a subject matter expert–for both business partners and the Legal team–on US and global intellectual property laws. Work hands-on with business and product teams to ensure that intellectual property protection is embedded into Scale’s products and processes by design and to implement best-in-class compliance. Develop creative solutions, in partnership with Legal and Product stakeholders, for how legal frameworks can support new products and cust …",
-    "published": "2026-09-09T14:55:39-04:00",
-    "source": "greenhouse:scaleai",
-    "source_type": "job_board",
-    "organization": "Scale AI",
-    "location": "New York, NY; San Francisco, CA; Washington, DC",
-    "structured_opportunity": true,
-    "score": 68,
-    "reasons": [
-      {
-        "signal": "qualified_professional_title",
-        "points": -35
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "compliance",
-        "points": 14
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "international",
-        "points": 8
-      },
-      {
-        "signal": "paid",
-        "points": 8
-      },
-      {
-        "signal": "leadership",
-        "points": 8
-      }
-    ],
-    "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:49:48.740037+00:00",
+    "last_seen": "2026-09-16T22:57:39.468400+00:00",
     "description_truncated": true
   },
   {
@@ -281,7 +224,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:49:48.740037+00:00",
+    "last_seen": "2026-09-16T22:57:39.468400+00:00",
     "description_truncated": true
   },
   {
@@ -322,7 +265,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:49:48.740037+00:00"
+    "last_seen": "2026-09-16T22:57:39.468400+00:00"
   },
   {
     "title": "Fraud Analyst (Revenue Protection) - 12-Month Fixed-Term",
@@ -354,7 +297,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:45:37.475858+00:00",
-    "last_seen": "2026-09-16T22:49:48.740037+00:00",
+    "last_seen": "2026-09-16T22:57:39.468400+00:00",
     "description_truncated": true
   },
   {
@@ -395,7 +338,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:49:48.740037+00:00"
+    "last_seen": "2026-09-16T22:57:39.468400+00:00"
   },
   {
     "title": "privacy: review the Datenschutzerklärung against actual retention",
@@ -431,7 +374,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:49:48.740037+00:00"
+    "last_seen": "2026-09-16T22:57:39.468400+00:00"
   },
   {
     "title": "Add industry file: Legal Tech",
@@ -467,7 +410,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:49:48.740037+00:00"
+    "last_seen": "2026-09-16T22:57:39.468400+00:00"
   },
   {
     "title": "test: add tests for gdpr_compliance.rego (GDPR)",
@@ -503,6 +446,6 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T22:49:48.740037+00:00"
+    "last_seen": "2026-09-16T22:57:39.468400+00:00"
   }
 ]
