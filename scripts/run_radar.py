@@ -14,6 +14,7 @@ import yaml
 from radar.adapters import collect_direct_sources
 from radar.enrich import enrich_opportunity
 from radar.enrichment_score import reconcile_enrichment_score
+from radar.fit import assess_fit
 from radar.search import build_queries, search_web
 from radar.score import score_opportunity
 
@@ -52,14 +53,16 @@ def compact_for_storage(item: dict, description_max_chars: int) -> dict:
     return compact
 
 
-def enrich_and_score(item: dict, prefs: dict) -> dict:
+def enrich_score_and_fit(item: dict, prefs: dict, profile: dict) -> dict:
     enriched = enrich_opportunity(item)
     scored = score_opportunity(enriched, prefs)
-    return reconcile_enrichment_score(scored, prefs)
+    reconciled = reconcile_enrichment_score(scored, prefs)
+    return assess_fit(reconciled, profile)
 
 
 def main() -> None:
     prefs = load_yaml(ROOT / "config" / "preferences.yaml")
+    profile = load_yaml(ROOT / "config" / "profile.yaml")
     query_cfg = load_yaml(ROOT / "config" / "queries.yaml")
     source_cfg = load_yaml(ROOT / "config" / "sources.yaml")
 
@@ -76,18 +79,18 @@ def main() -> None:
         if item.get("url") and item.get("first_seen")
     }
 
-    # Re-enrich and re-score history on every run. Improvements to extraction or
-    # ranking rules therefore propagate to stored opportunities automatically.
+    # Re-enrich, re-score and re-assess history on every run. Improvements to
+    # extraction, ranking or personal-fit rules therefore propagate automatically.
     by_url: dict[str, dict] = {}
     pruned = 0
     for item in existing:
         if not item.get("url"):
             continue
-        rescored = enrich_and_score(item, prefs)
-        if rescored["score"] < minimum_score:
+        reassessed = enrich_score_and_fit(item, prefs, profile)
+        if reassessed["score"] < minimum_score:
             pruned += 1
             continue
-        by_url[canonical_url(rescored["url"])] = rescored
+        by_url[canonical_url(reassessed["url"])] = reassessed
 
     run_time = datetime.now(timezone.utc).isoformat()
     discovered = 0
@@ -95,22 +98,22 @@ def main() -> None:
 
     def ingest(raw: dict) -> None:
         nonlocal discovered
-        scored = enrich_and_score(raw, prefs)
-        if scored["score"] < minimum_score or not scored.get("url"):
+        assessed = enrich_score_and_fit(raw, prefs, profile)
+        if assessed["score"] < minimum_score or not assessed.get("url"):
             return
 
-        key = canonical_url(scored["url"])
+        key = canonical_url(assessed["url"])
         previous_first_seen = (
             by_url.get(key, {}).get("first_seen")
             or historical_first_seen.get(key)
         )
         if previous_first_seen:
-            scored["first_seen"] = previous_first_seen
+            assessed["first_seen"] = previous_first_seen
         else:
-            scored["first_seen"] = run_time
+            assessed["first_seen"] = run_time
             discovered += 1
-        scored["last_seen"] = run_time
-        by_url[key] = scored
+        assessed["last_seen"] = run_time
+        by_url[key] = assessed
 
     direct_results, direct_errors, direct_stats = collect_direct_sources(source_cfg)
     errors.extend(direct_errors)
@@ -127,9 +130,15 @@ def main() -> None:
         for raw in results:
             ingest(raw)
 
+    # Personal fit is now the primary dashboard ordering; thematic relevance remains
+    # the tie-breaker so high-signal opportunities rise within each fit band.
     ranked = sorted(
         by_url.values(),
-        key=lambda x: (x.get("score", 0), x.get("published", "")),
+        key=lambda x: (
+            x.get("fit_score", 0),
+            x.get("score", 0),
+            x.get("published", ""),
+        ),
         reverse=True,
     )
     eligible_before_cap = len(ranked)
@@ -154,6 +163,13 @@ def main() -> None:
     print(f"Pruned old false positives: {pruned}")
     print(f"Eligible before storage cap: {eligible_before_cap}")
     print(f"Stored opportunities: {len(opportunities)}")
+    print(
+        "Fit bands: "
+        + ", ".join(
+            f"{label}={sum(1 for item in opportunities if item.get('fit_label') == label)}"
+            for label in ("Strong fit", "Stretch", "Probably skip")
+        )
+    )
 
     if errors:
         print(f"Source/search errors: {len(errors)}")
