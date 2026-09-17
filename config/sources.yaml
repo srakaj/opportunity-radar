@@ -34,8 +34,6 @@ ashby:
       name: Harvey
     - board: legora
       name: Legora
-    - board: robin-ai
-      name: Robin AI
 
 reliefweb:
   enabled: true
@@ -68,13 +66,15 @@ github:
 # receive higher source quality than generic web discovery.
 watchlist:
   enabled: true
-  max_queries_per_run: 12
+  max_queries_per_run: 13
   query_terms: '(legal OR privacy OR compliance OR policy OR governance OR "legal tech" OR "AI governance") (job OR career OR fellowship OR internship OR trainee OR "working student" OR graduate)'
   organizations:
     - name: BRYTER
       domain: bryter.com
     - name: Juro
       domain: juro.com
+    - name: Robin AI
+      domain: robinai.com
     - name: Luminance
       domain: luminance.com
     - name: Ironclad
