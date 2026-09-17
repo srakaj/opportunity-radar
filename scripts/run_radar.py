@@ -12,6 +12,7 @@ if str(ROOT) not in sys.path:
 import yaml
 
 from radar.adapters import collect_direct_sources
+from radar.deadline import enrich_deadline_timezone
 from radar.enrich import enrich_opportunity
 from radar.enrichment_score import reconcile_enrichment_score
 from radar.fit import assess_fit
@@ -55,6 +56,7 @@ def compact_for_storage(item: dict, description_max_chars: int) -> dict:
 
 def enrich_score_and_fit(item: dict, prefs: dict, profile: dict) -> dict:
     enriched = enrich_opportunity(item)
+    enriched = enrich_deadline_timezone(enriched)
     scored = score_opportunity(enriched, prefs)
     reconciled = reconcile_enrichment_score(scored, prefs)
     return assess_fit(reconciled, profile)
