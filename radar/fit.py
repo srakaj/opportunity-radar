@@ -247,10 +247,6 @@ def assess_fit(item: dict, profile: dict) -> dict:
     gaps.extend(status_gaps)
     blockers.extend(status_blockers)
 
-    experience_points, experience_reasons = _experience_fit(item, profile)
-    score += experience_points
-    reasons.extend(experience_reasons)
-
     compensation_status = _clean(item.get("compensation_status"))
     if compensation_status == "paid":
         score += 4
@@ -259,8 +255,15 @@ def assess_fit(item: dict, profile: dict) -> dict:
         score -= 18
         _append_unique(gaps, "Unpaid full-time commitment")
 
-    # Deduplicate while preserving order.
-    reasons = list(dict.fromkeys(reasons))[:6]
+    # Experience overlap is useful context, but explicit eligibility and compensation
+    # are more decision-relevant and should remain visible before generic overlap.
+    experience_points, experience_reasons = _experience_fit(item, profile)
+    score += experience_points
+    reasons.extend(experience_reasons)
+
+    # Deduplicate while preserving order. Keep enough reasons to surface eligibility
+    # and pay signals without turning the UI back into a wall of text.
+    reasons = list(dict.fromkeys(reasons))[:8]
     gaps = list(dict.fromkeys(gaps))[:6]
     blockers = list(dict.fromkeys(blockers))[:4]
 
