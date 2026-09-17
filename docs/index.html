@@ -7,20 +7,26 @@
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
   <title>Opportunity Radar</title>
-  <link rel="stylesheet" href="style.css?v=20260917-032">
+  <link rel="stylesheet" href="style.css?v=20260917-040">
 </head>
 <body>
   <main class="shell">
     <header>
-      <p class="eyebrow">SRakaj · Opportunity Radar · UI 0.3.2</p>
+      <p class="eyebrow">SRakaj · Opportunity Radar · UI 0.4.0</p>
       <h1>High-signal opportunities, without the search-engine noise.</h1>
-      <p class="lede">Legal, policy, privacy, compliance, AI governance, research and international opportunities ranked by personal relevance.</p>
+      <p class="lede">Legal, policy, privacy, compliance, AI governance, research and international opportunities ranked by relevance and personal fit.</p>
     </header>
 
     <section class="toolbar" aria-label="Opportunity filters">
       <input id="search" type="search" placeholder="Search title, topic, organisation…" aria-label="Search opportunities">
+      <select id="fitFilter" aria-label="Personal fit">
+        <option value="all" selected>All fit levels</option>
+        <option value="Strong fit">Strong fit</option>
+        <option value="Stretch">Stretch</option>
+        <option value="Probably skip">Probably skip</option>
+      </select>
       <select id="minScore" aria-label="Minimum relevance score">
-        <option value="0" selected>All scores</option>
+        <option value="0" selected>All relevance scores</option>
         <option value="40">40+</option>
         <option value="60">60+</option>
         <option value="80">80+</option>
@@ -42,8 +48,12 @@
           </div>
 
           <div class="card-actions">
+            <div class="fit-badge" aria-label="Personal fit">
+              <span class="fit-label-text"></span>
+              <strong class="fit-score-value"></strong>
+            </div>
             <div class="score-badge" aria-label="Relevance score">
-              <span class="score-label">Match</span>
+              <span class="score-label">Relevance</span>
               <strong class="score-value"></strong>
             </div>
             <a class="open-role" target="_blank" rel="noopener">Open role ↗</a>
@@ -51,6 +61,21 @@
         </div>
 
         <div class="meta-grid"></div>
+
+        <section class="fit-panel" aria-label="Personal fit assessment">
+          <div class="fit-column fit-positive">
+            <h3>Why it fits</h3>
+            <ul class="fit-reasons-list"></ul>
+          </div>
+          <div class="fit-column fit-gaps-column">
+            <h3>Watch-outs</h3>
+            <ul class="fit-gaps-list"></ul>
+          </div>
+          <div class="fit-column fit-blockers-column" hidden>
+            <h3>Blockers</h3>
+            <ul class="fit-blockers-list"></ul>
+          </div>
+        </section>
 
         <div class="description-wrap">
           <div class="description"></div>
@@ -60,13 +85,13 @@
         <div class="signals"></div>
 
         <details>
-          <summary>Why this score?</summary>
+          <summary>Why this relevance score?</summary>
           <div class="reasons"></div>
         </details>
       </div>
     </article>
   </template>
 
-  <script src="app.js?v=20260917-032"></script>
+  <script src="app.js?v=20260917-040"></script>
 </body>
 </html>
