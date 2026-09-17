@@ -77,8 +77,24 @@
         "points": 8
       }
     ],
+    "fit_score": 100,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Fellowship matches the target career stage",
+      "Remote-friendly",
+      "Explicitly open to current law students",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [
+      "Recent-graduate wording appears; verify current-student eligibility"
+    ],
+    "fit_blockers": [],
+    "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T05:27:00.382805+00:00",
+    "last_seen": "2026-09-17T08:23:06.686795+00:00",
     "description_truncated": true
   },
   {
@@ -157,9 +173,90 @@
         "points": 8
       }
     ],
+    "fit_score": 100,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Working student matches the target career stage",
+      "Berlin-based",
+      "Meets English language signal",
+      "Meets German language signal",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [
+      "Rechtsreferendariat is mentioned; verify whether a student track is available"
+    ],
+    "fit_blockers": [],
+    "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T05:27:00.382805+00:00",
+    "last_seen": "2026-09-17T08:23:06.686795+00:00",
     "description_truncated": true
+  },
+  {
+    "title": "privacy: review the Datenschutzerklärung against actual retention",
+    "url": "https://github.com/Open-LEG-ch/openleg/issues/558",
+    "description": "Open-source contribution opportunity. Repository: Open-LEG-ch/openleg. Labels: documentation, help wanted, privacy, ready-for-human. ## Why\n\nThe retention matrix in #530 documents what deletion code and schema constraints actually reach. Open issues #550 and #551 identify two claims that overstate deletion behavior. A legal or data-protection owner must review the full Datenschutzerklärung and choose wording or policy; code inspection cannot make that judgment.\n\nBlocked by: none.\n\n## Human work\n\n- Review every retention and deletion claim against `docs/retention-matrix.md`.\n- Resolve the wording decisions in #550 and #551 as part of the review.\n- Confirm legal bases, retention periods, controller and processor wording, and hosting-level log claims with the responsible owners.\n- File separate implementation issues for approved copy or behavior changes.\n\n## Done when\n\n- A named legal or DPO reviewer records approval and the review date.\n- Each matrix row has matching public wording or a documented reason why no wording is needed.\n- #550 and #551 have approved resolutions.\n- Follow-up issues quote the exact current location and approved replacement, without customer data.",
+    "role_context": "privacy: review the Datenschutzerklärung against actual retention Open-LEG-ch/openleg documentation, help wanted, privacy, ready-for-human",
+    "published": "2026-09-16T16:27:53Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Open-LEG-ch/openleg",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "score": 28,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 90,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: data protection"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-16T22:33:39.162877+00:00",
+    "last_seen": "2026-09-17T08:23:06.686795+00:00"
   },
   {
     "title": "Werkstudent:in, Recht",
@@ -222,9 +319,88 @@
         "points": 8
       }
     ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Strong governance relevance",
+      "Working student matches the target career stage",
+      "Berlin-based",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [
+      "Rechtsreferendariat is mentioned; verify whether a student track is available"
+    ],
+    "fit_blockers": [],
+    "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T05:27:00.382805+00:00",
+    "last_seen": "2026-09-17T08:23:06.686795+00:00",
     "description_truncated": true
+  },
+  {
+    "title": "test: add tests for gdpr_compliance.rego (GDPR)",
+    "url": "https://github.com/ynotbhatc/rego_policy_libraries/issues/80",
+    "description": "Open-source contribution opportunity. Repository: ynotbhatc/rego_policy_libraries. Labels: help wanted, good first issue. **File:** `frameworks/privacy/gdpr/gdpr_compliance.rego` (292 lines)\n**Package:** `gdpr.compliance`\n**Standard:** GDPR\n\nThis policy uses **boolean rules**: `default <name> := false` with a matching\n`<name> if { ... }`. There are roughly **21** of them.\n\nFor each, write a case with input that makes it true, and one where it stays\nfalse. Boolean rules are where the `{}` trap bites — a rule with no `default`\nis *undefined* rather than false, and one undefined field collapses the whole\nreport object.\n\n### Done when\n\n- [ ] `opa test frameworks/privacy/gdpr -v` passes\n- [ ] Each rule has a case that exercises it\n- [ ] At least one case asserts nothing fires on compliant input\n- [ ] The compliance report is asserted to be a **populated object on empty input**, not `{}`\n\n### Where to put it\n\n`frameworks/privacy/gdpr/tests/test_gdpr_compliance.rego`, package `gdpr.compliance_test`.\n\nThe pattern to copy, and the `array.concat` trap, are in\n[CONTRIBUTING.md](../blob/main/CONTRIBUTING.md). The full queue of untested\npolicies is in [COVERAGE.md](../blob/main/COVERAGE.md).\n\n---\n\n*Comment before you start so two people don't write the same test.*",
+    "role_context": "test: add tests for gdpr_compliance.rego (GDPR) ynotbhatc/rego_policy_libraries help wanted, good first issue",
+    "published": "2026-08-29T21:47:28Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "ynotbhatc/rego_policy_libraries",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "score": 27,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 87,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-16T22:33:39.162877+00:00",
+    "last_seen": "2026-09-17T08:23:06.686795+00:00"
   },
   {
     "title": "corpus(tier1): expand court-documented legal AI citation failures",
@@ -277,58 +453,20 @@
         "points": 10
       }
     ],
-    "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T05:27:00.382805+00:00"
-  },
-  {
-    "title": "privacy: review the Datenschutzerklärung against actual retention",
-    "url": "https://github.com/Open-LEG-ch/openleg/issues/558",
-    "description": "Open-source contribution opportunity. Repository: Open-LEG-ch/openleg. Labels: documentation, help wanted, privacy, ready-for-human. ## Why\n\nThe retention matrix in #530 documents what deletion code and schema constraints actually reach. Open issues #550 and #551 identify two claims that overstate deletion behavior. A legal or data-protection owner must review the full Datenschutzerklärung and choose wording or policy; code inspection cannot make that judgment.\n\nBlocked by: none.\n\n## Human work\n\n- Review every retention and deletion claim against `docs/retention-matrix.md`.\n- Resolve the wording decisions in #550 and #551 as part of the review.\n- Confirm legal bases, retention periods, controller and processor wording, and hosting-level log claims with the responsible owners.\n- File separate implementation issues for approved copy or behavior changes.\n\n## Done when\n\n- A named legal or DPO reviewer records approval and the review date.\n- Each matrix row has matching public wording or a documented reason why no wording is needed.\n- #550 and #551 have approved resolutions.\n- Follow-up issues quote the exact current location and approved replacement, without customer data.",
-    "role_context": "privacy: review the Datenschutzerklärung against actual retention Open-LEG-ch/openleg documentation, help wanted, privacy, ready-for-human",
-    "published": "2026-09-16T16:27:53Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "Open-LEG-ch/openleg",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "score": 28,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      }
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
     ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T05:27:00.382805+00:00"
+    "last_seen": "2026-09-17T08:23:06.686795+00:00"
   },
   {
     "title": "Add industry file: Legal Tech",
@@ -377,57 +515,20 @@
         "points": 10
       }
     ],
-    "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T05:27:00.382805+00:00"
-  },
-  {
-    "title": "test: add tests for gdpr_compliance.rego (GDPR)",
-    "url": "https://github.com/ynotbhatc/rego_policy_libraries/issues/80",
-    "description": "Open-source contribution opportunity. Repository: ynotbhatc/rego_policy_libraries. Labels: help wanted, good first issue. **File:** `frameworks/privacy/gdpr/gdpr_compliance.rego` (292 lines)\n**Package:** `gdpr.compliance`\n**Standard:** GDPR\n\nThis policy uses **boolean rules**: `default <name> := false` with a matching\n`<name> if { ... }`. There are roughly **21** of them.\n\nFor each, write a case with input that makes it true, and one where it stays\nfalse. Boolean rules are where the `{}` trap bites — a rule with no `default`\nis *undefined* rather than false, and one undefined field collapses the whole\nreport object.\n\n### Done when\n\n- [ ] `opa test frameworks/privacy/gdpr -v` passes\n- [ ] Each rule has a case that exercises it\n- [ ] At least one case asserts nothing fires on compliant input\n- [ ] The compliance report is asserted to be a **populated object on empty input**, not `{}`\n\n### Where to put it\n\n`frameworks/privacy/gdpr/tests/test_gdpr_compliance.rego`, package `gdpr.compliance_test`.\n\nThe pattern to copy, and the `array.concat` trap, are in\n[CONTRIBUTING.md](../blob/main/CONTRIBUTING.md). The full queue of untested\npolicies is in [COVERAGE.md](../blob/main/COVERAGE.md).\n\n---\n\n*Comment before you start so two people don't write the same test.*",
-    "role_context": "test: add tests for gdpr_compliance.rego (GDPR) ynotbhatc/rego_policy_libraries help wanted, good first issue",
-    "published": "2026-08-29T21:47:28Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "ynotbhatc/rego_policy_libraries",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "score": 27,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "compliance",
-        "points": 14
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      }
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal tech relevance",
+      "Strong legal relevance",
+      "Strong published output relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: legal tech"
     ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T05:27:00.382805+00:00"
+    "last_seen": "2026-09-17T08:23:06.686795+00:00"
   }
 ]
