@@ -68,23 +68,56 @@
     });
   }
 
-  function enhanceCard(card, item) {
-    if (!item?.deadline_berlin_iso) return;
-    const signature = `${item.deadline_berlin_iso}|${item.deadline_time_confidence}`;
-    if (card.dataset.deadlineEnhanced === signature) return;
-
-    const meta = card.querySelector('.meta-grid');
-    if (!meta) return;
-
+  function getOrCreateDeadlineRow(meta) {
     let row = findDeadlineMeta(meta);
     if (!row) {
       row = document.createElement('div');
       row.className = 'meta-item';
       meta.appendChild(row);
     }
+    return row;
+  }
+
+  function renderMissingDeadline(row) {
+    row.className = 'meta-item deadline-meta deadline-missing';
+    row.replaceChildren();
+
+    const label = document.createElement('strong');
+    label.textContent = 'Deadline (Berlin): ';
+    row.appendChild(label);
+
+    const value = document.createElement('span');
+    value.className = 'deadline-value';
+    value.textContent = 'Not stated';
+    row.appendChild(value);
+
+    row.title = 'No application deadline was stated or could be extracted from the current opportunity data.';
+  }
+
+  function enhanceCard(card, item) {
+    const signature = item?.deadline_berlin_iso
+      ? `${item.deadline_berlin_iso}|${item.deadline_time_confidence}`
+      : 'deadline-missing';
+    if (card.dataset.deadlineEnhanced === signature) return;
+
+    const meta = card.querySelector('.meta-grid');
+    if (!meta) return;
+    meta.hidden = false;
+
+    const row = getOrCreateDeadlineRow(meta);
+
+    if (!item?.deadline_berlin_iso) {
+      renderMissingDeadline(row);
+      card.dataset.deadlineEnhanced = signature;
+      return;
+    }
 
     const display = formatBerlin(item.deadline_berlin_iso);
-    if (!display) return;
+    if (!display) {
+      renderMissingDeadline(row);
+      card.dataset.deadlineEnhanced = 'deadline-invalid';
+      return;
+    }
 
     const info = confidenceInfo(item);
     row.className = `meta-item deadline-meta ${info.className}`.trim();
