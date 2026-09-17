@@ -67,6 +67,33 @@ function formatSource(source = '') {
   return source || 'Source';
 }
 
+function formatCompensation(item) {
+  const detail = item.compensation || '';
+  switch (item.compensation_status) {
+    case 'paid': return detail || 'Paid';
+    case 'unpaid': return detail || 'Unpaid';
+    case 'funding_possible': return detail ? `Funding possible · ${detail}` : 'Funding possible';
+    default: return '';
+  }
+}
+
+function formatDeadline(item, fallback = '') {
+  const value = item.deadline || fallback;
+  if (!value) return '';
+  const suffix = {
+    closing_soon: ' · closing soon',
+    expired: ' · expired',
+    open: '',
+    unknown: '',
+  }[item.deadline_status] || '';
+  return `${value}${suffix}`;
+}
+
+function joinValues(value) {
+  if (Array.isArray(value)) return value.filter(Boolean).join(' · ');
+  return value || '';
+}
+
 function parseStructuredDescription(description = '') {
   const fields = {};
   let body = description.trim();
@@ -156,10 +183,10 @@ function renderDescription(container, text) {
   return sections;
 }
 
-function addMetaItem(container, label, value) {
+function addMetaItem(container, label, value, wide = false) {
   if (!value) return;
   const item = document.createElement('div');
-  item.className = 'meta-item';
+  item.className = wide ? 'meta-item meta-item-wide' : 'meta-item';
 
   const strong = document.createElement('strong');
   strong.textContent = `${label}: `;
@@ -180,6 +207,17 @@ function render() {
       item.location,
       item.description,
       item.source,
+      item.opportunity_type,
+      item.work_model,
+      item.compensation,
+      item.compensation_status,
+      item.duration,
+      item.commitment,
+      item.deadline,
+      item.start_date,
+      joinValues(item.languages),
+      joinValues(item.eligibility),
+      item.work_authorization,
       reasonText,
     ].filter(Boolean).join(' ').toLowerCase();
 
@@ -220,12 +258,20 @@ function render() {
     const meta = node.querySelector('.meta-grid');
     addMetaItem(meta, 'Organisation', parsed.fields.organisation || item.organization);
     addMetaItem(meta, 'Location', parsed.fields.location || item.location);
+    addMetaItem(meta, 'Type', item.opportunity_type);
+    addMetaItem(meta, 'Work model', item.work_model === 'Unspecified' ? '' : item.work_model);
+    addMetaItem(meta, 'Compensation', formatCompensation(item));
+    addMetaItem(meta, 'Duration', item.duration);
+    addMetaItem(meta, 'Commitment', item.commitment || parsed.fields.commitment);
+    addMetaItem(meta, 'Deadline', formatDeadline(item, parsed.fields.deadline));
+    addMetaItem(meta, 'Start', item.start_date);
+    addMetaItem(meta, 'Eligibility', joinValues(item.eligibility), true);
+    addMetaItem(meta, 'Languages', joinValues(item.languages));
     addMetaItem(meta, 'Department', parsed.fields.department);
     addMetaItem(meta, 'Team', parsed.fields.team);
     addMetaItem(meta, 'Office', parsed.fields.office);
-    addMetaItem(meta, 'Commitment', parsed.fields.commitment);
     addMetaItem(meta, 'Categories', parsed.fields.categories);
-    addMetaItem(meta, 'Deadline', parsed.fields.deadline || item.deadline);
+    addMetaItem(meta, 'Work authorisation', item.work_authorization, true);
     if (!meta.children.length) meta.hidden = true;
 
     const description = node.querySelector('.description');
@@ -242,7 +288,10 @@ function render() {
       });
     }
 
-    const positive = (item.reasons || []).filter(r => r.points > 0).slice(0, 8);
+    const positive = (item.reasons || [])
+      .filter(r => r.points > 0)
+      .filter(r => !(r.signal === 'paid' && item.compensation_status && item.compensation_status !== 'paid'))
+      .slice(0, 8);
     const signals = node.querySelector('.signals');
     for (const reason of positive) {
       const chip = document.createElement('span');
@@ -252,6 +301,7 @@ function render() {
 
     const reasons = node.querySelector('.reasons');
     for (const reason of item.reasons || []) {
+      if (reason.signal === 'paid' && item.compensation_status && item.compensation_status !== 'paid') continue;
       const row = document.createElement('div');
       const label = document.createElement('span');
       const points = document.createElement('strong');
