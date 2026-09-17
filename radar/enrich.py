@@ -11,6 +11,7 @@ MONTHS = (
     "Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec"
 )
 DATE_PATTERN = rf"(?:\d{{4}}-\d{{2}}-\d{{2}}|\d{{1,2}}[./]\d{{1,2}}[./]\d{{2,4}}|\d{{1,2}}\s+(?:{MONTHS})\s+\d{{4}}|(?:{MONTHS})\s+\d{{1,2}}(?:st|nd|rd|th)?[,]?\s+\d{{4}})"
+MONTH_YEAR_PATTERN = rf"(?:{MONTHS})\s+\d{{4}}"
 
 
 def _clean(value: object) -> str:
@@ -39,21 +40,29 @@ def _sentence_with(text: str, pattern: str, max_chars: int = 220) -> str:
 
 
 def extract_opportunity_type(title: str, text: str, source_type: str = "") -> str:
-    haystack = f"{title} {text[:700]}"
+    if source_type == "open_source":
+        return "Open-source contribution"
+
     patterns = [
+        ("Working student", r"\bworking student\b|\bwerkstudent(?:in|:in|en)?\b"),
         ("Fellowship", r"\bfellow(?:ship)?\b"),
         ("Traineeship", r"\btrainee(?:ship)?\b"),
         ("Internship", r"\bintern(?:ship)?\b"),
-        ("Working student", r"\bworking student\b|\bwerkstudent(?:in|:in|en)?\b"),
         ("Graduate programme", r"\bgraduate (?:programme|program|scheme)\b"),
         ("Junior professional programme", r"\b(?:junior|young) professional(?:s)? (?:programme|program)\b"),
         ("Volunteer", r"\bvolunteer(?:ing)?\b|\bpro[ -]?bono\b"),
         ("Research role", r"\bresearch (?:assistant|associate|fellow|intern|trainee)\b"),
     ]
-    if source_type == "open_source":
-        return "Open-source contribution"
+
+    # Prefer the actual role title. Descriptions often mention alternate tracks
+    # (e.g. a Working Student advert that also discusses a Legal Trainee track).
     for label, pattern in patterns:
-        if re.search(pattern, haystack, flags=re.IGNORECASE):
+        if re.search(pattern, title, flags=re.IGNORECASE):
+            return label
+
+    context = text[:700]
+    for label, pattern in patterns:
+        if re.search(pattern, context, flags=re.IGNORECASE):
             return label
     return "Early-career role"
 
@@ -61,8 +70,8 @@ def extract_opportunity_type(title: str, text: str, source_type: str = "") -> st
 def extract_work_model(location: str, text: str) -> str:
     combined = f"{location} {text[:1400]}".lower()
     has_remote = bool(re.search(r"\b(remote|remote-first|fully remote|work from home|virtual)\b", combined))
-    has_hybrid = bool(re.search(r"\bhybrid\b", combined))
-    has_onsite = bool(re.search(r"\b(on[- ]?site|onsite|in[- ]office|office-based)\b", combined))
+    has_hybrid = bool(re.search(r"\bhybrid(?:e|en|er|es)?\b", combined))
+    has_onsite = bool(re.search(r"\b(on[- ]?site|onsite|in[- ]office|office-based|vor ort)\b", combined))
     if has_remote and has_hybrid:
         return "Remote / hybrid"
     if has_hybrid:
@@ -124,19 +133,30 @@ def extract_compensation(text: str) -> tuple[str, str]:
     return "unknown", ""
 
 
+def _normalise_duration(value: str) -> str:
+    value = _clean(value)
+    match = re.fullmatch(r"(\d+)\s*[- ]\s*(week|month|year)s?", value, flags=re.IGNORECASE)
+    if not match:
+        return value
+    number, unit = match.groups()
+    suffix = "" if number == "1" else "s"
+    return f"{number} {unit.lower()}{suffix}"
+
+
 def extract_duration(text: str) -> str:
     unit = r"(?:weeks?|months?|years?)"
-    return _first_match(
+    value = _first_match(
         text,
         [
             rf"\bduration (?:of|is|:)\s*((?:\d+\s*(?:-|–|to)\s*)?\d+\s*{unit})",
             rf"\b((?:\d+\s*(?:-|–|to)\s*)?\d+\s*{unit})\s+(?:fellowship|internship|traineeship|programme|program|placement)\b",
             rf"\b(?:for|minimum of|minimum|at least)\s+((?:\d+\s*(?:-|–|to)\s*)?\d+\s*{unit})\b",
-            rf"\b((?:\d+\s*(?:-|–|to)\s*)?\d+)[ -](week|month|year)(?:-long)?\b",
-            rf"\b(?:dauer|laufzeit)\s*:?(?: von)?\s*((?:\d+\s*(?:-|–|bis)\s*)?\d+\s*(?:wochen?|monate?|jahre?))",
-            rf"\bdauert\s+((?:\d+\s*(?:-|–|bis)\s*)?\d+\s*(?:wochen?|monate?|jahre?))",
+            r"\b(\d+\s*[- ]\s*(?:week|month|year)s?)(?:-long)?\b",
+            r"\b(?:mindestdauer|dauer|laufzeit)\s*:?(?: von)?\s*((?:\d+\s*(?:-|–|bis)\s*)?\d+\s*(?:wochen?|monate?|jahre?))",
+            r"\bdauert\s+((?:\d+\s*(?:-|–|bis)\s*)?\d+\s*(?:wochen?|monate?|jahre?))",
         ],
     )
+    return _normalise_duration(value)
 
 
 def extract_commitment(text: str, existing: str = "") -> str:
@@ -178,6 +198,7 @@ def extract_start_date(text: str) -> str:
         [
             rf"\b(?:start date|starting|starts|start)\s*:?(?: on)?\s*({DATE_PATTERN})",
             rf"\b(?:beginn|start)(?: ist| am)?\s*:?[ ]*({DATE_PATTERN})",
+            rf"\b(?:starting|start(?:ing)? in|start im|beginn im)\s+({MONTH_YEAR_PATTERN})",
         ],
     )
 
