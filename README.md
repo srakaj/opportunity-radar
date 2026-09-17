@@ -212,7 +212,7 @@ ashby:
       name: Harvey
 ```
 
-V0.6 currently watches Harvey, Legora and Robin AI through their public Ashby job boards.
+V0.6 currently polls Harvey and Legora through their public Ashby job boards. Robin AI is monitored through the official-domain watchlist because its previously used public Ashby board endpoint currently returns 404.
 
 ### ReliefWeb
 
