@@ -10,7 +10,7 @@ class DeadlineUiTests(unittest.TestCase):
         html = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
         self.assertIn("deadline-ui.css", html)
         self.assertIn("deadline-ui.js", html)
-        self.assertIn("UI 0.5.1", html)
+        self.assertIn("UI 0.5.2", html)
 
     def test_deadline_renderer_uses_berlin_and_german_format(self):
         js = (ROOT / "docs" / "deadline-ui.js").read_text(encoding="utf-8")
@@ -20,6 +20,11 @@ class DeadlineUiTests(unittest.TestCase):
         self.assertIn("TZ inferred", js)
         self.assertIn("time assumed", js)
         self.assertIn("TZ unknown", js)
+
+    def test_missing_deadline_is_still_visible(self):
+        js = (ROOT / "docs" / "deadline-ui.js").read_text(encoding="utf-8")
+        self.assertIn("Not stated", js)
+        self.assertIn("deadline-missing", js)
 
     def test_assumed_deadline_is_visually_distinct(self):
         css = (ROOT / "docs" / "deadline-ui.css").read_text(encoding="utf-8")
