@@ -14,6 +14,11 @@
   font-style: italic;
 }
 
+.deadline-missing .deadline-value {
+  color: #85817a;
+  font-style: italic;
+}
+
 .deadline-note,
 .deadline-status {
   display: inline-flex;
