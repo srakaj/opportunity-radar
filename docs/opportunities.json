@@ -78,7 +78,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T01:42:27.001030+00:00",
+    "last_seen": "2026-09-17T01:49:31.803580+00:00",
     "description_truncated": true
   },
   {
@@ -92,15 +92,15 @@
     "organization": "Via",
     "location": "Berlin, Germany",
     "structured_opportunity": true,
-    "opportunity_type": "Traineeship",
+    "opportunity_type": "Working student",
     "work_model": "Hybrid",
     "compensation_status": "paid",
     "compensation": "€20",
-    "duration": "6",
+    "duration": "6 months",
     "commitment": "",
     "deadline": "",
     "deadline_status": "unknown",
-    "start_date": "",
+    "start_date": "September 2026",
     "languages": [
       "English",
       "German"
@@ -162,7 +162,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T01:42:27.001030+00:00",
+    "last_seen": "2026-09-17T01:49:31.803580+00:00",
     "description_truncated": true
   },
   {
@@ -177,14 +177,14 @@
     "location": "Berlin, Germany",
     "structured_opportunity": true,
     "opportunity_type": "Working student",
-    "work_model": "Unspecified",
+    "work_model": "Hybrid",
     "compensation_status": "unknown",
     "compensation": "",
-    "duration": "",
+    "duration": "6 Monate",
     "commitment": "",
     "deadline": "",
     "deadline_status": "unknown",
-    "start_date": "",
+    "start_date": "September 2026",
     "languages": [],
     "eligibility": [
       "Rechtsreferendar:innen"
@@ -227,7 +227,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T01:42:27.001030+00:00",
+    "last_seen": "2026-09-17T01:49:31.803580+00:00",
     "description_truncated": true
   },
   {
@@ -282,7 +282,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T01:42:27.001030+00:00"
+    "last_seen": "2026-09-17T01:49:31.803580+00:00"
   },
   {
     "title": "privacy: review the Datenschutzerklärung against actual retention",
@@ -332,7 +332,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T01:42:27.001030+00:00"
+    "last_seen": "2026-09-17T01:49:31.803580+00:00"
   },
   {
     "title": "Add industry file: Legal Tech",
@@ -382,7 +382,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T01:42:27.001030+00:00"
+    "last_seen": "2026-09-17T01:49:31.803580+00:00"
   },
   {
     "title": "test: add tests for gdpr_compliance.rego (GDPR)",
@@ -432,6 +432,6 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T01:42:27.001030+00:00"
+    "last_seen": "2026-09-17T01:49:31.803580+00:00"
   }
 ]
