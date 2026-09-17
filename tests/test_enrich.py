@@ -84,7 +84,7 @@ class EnrichmentTests(unittest.TestCase):
             "title": "Legal Trainee",
             "description": (
                 "Geeignet für Rechtsreferendar:innen. Voraussetzung ist das Erste Staatsexamen. "
-                "Die Station dauert 6 Monate."
+                "Dauer: 6 Monate."
             ),
             "location": "Berlin, Germany",
             "source_type": "job_board",
