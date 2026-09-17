@@ -15,7 +15,6 @@ class DeadlineTimezoneTests(unittest.TestCase):
         result = enrich_deadline_timezone(item)
         self.assertEqual(result["deadline_time_confidence"], "explicit_timezone")
         self.assertEqual(result["deadline_source_timezone"], "ET")
-        # New York is EDT and Berlin is CEST on this date: +6 hours.
         self.assertTrue(result["deadline_berlin_iso"].startswith("2026-10-01T00:00:00+02:00"))
 
     def test_explicit_pacific_time_is_converted_in_winter(self):
@@ -27,7 +26,6 @@ class DeadlineTimezoneTests(unittest.TestCase):
         }
         result = enrich_deadline_timezone(item)
         self.assertEqual(result["deadline_time_confidence"], "explicit_timezone")
-        # Los Angeles is PST and Berlin is CET: +9 hours.
         self.assertTrue(result["deadline_berlin_iso"].startswith("2027-02-01T03:00:00+01:00"))
 
     def test_timezone_can_be_inferred_from_location(self):
@@ -54,6 +52,18 @@ class DeadlineTimezoneTests(unittest.TestCase):
         self.assertFalse(result["deadline_time_explicit"])
         self.assertEqual(result["deadline_source_timezone"], "Europe/Berlin")
         self.assertTrue(result["deadline_berlin_iso"].startswith("2027-01-29T23:59:00+01:00"))
+
+    def test_midnight_means_end_of_named_date(self):
+        item = {
+            "title": "US Fellowship",
+            "location": "New York, NY",
+            "description": "Applications are accepted until midnight ET on September 30, 2026.",
+            "deadline": "September 30, 2026",
+        }
+        result = enrich_deadline_timezone(item)
+        self.assertEqual(result["deadline_time_confidence"], "explicit_timezone")
+        self.assertTrue(result["deadline_time_explicit"])
+        self.assertTrue(result["deadline_berlin_iso"].startswith("2026-10-01T05:59:00+02:00"))
 
     def test_explicit_time_with_unknown_source_timezone_is_marked_uncertain(self):
         item = {
