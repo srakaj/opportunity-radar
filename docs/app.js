@@ -4,6 +4,7 @@ const els = {
   results: document.querySelector('#results'),
   stats: document.querySelector('#stats'),
   search: document.querySelector('#search'),
+  fitFilter: document.querySelector('#fitFilter'),
   minScore: document.querySelector('#minScore'),
   newOnly: document.querySelector('#newOnly'),
   template: document.querySelector('#cardTemplate'),
@@ -92,6 +93,13 @@ function formatDeadline(item, fallback = '') {
 function joinValues(value) {
   if (Array.isArray(value)) return value.filter(Boolean).join(' · ');
   return value || '';
+}
+
+function fitClass(label = '') {
+  if (label === 'Strong fit') return 'strong';
+  if (label === 'Stretch') return 'stretch';
+  if (label === 'Probably skip') return 'skip';
+  return 'unknown';
 }
 
 function parseStructuredDescription(description = '') {
@@ -195,12 +203,36 @@ function addMetaItem(container, label, value, wide = false) {
   container.appendChild(item);
 }
 
+function renderFitList(container, values, emptyText = '') {
+  container.replaceChildren();
+  const items = Array.isArray(values) ? values.filter(Boolean) : [];
+  if (!items.length && emptyText) {
+    const li = document.createElement('li');
+    li.className = 'fit-empty';
+    li.textContent = emptyText;
+    container.appendChild(li);
+    return;
+  }
+  for (const value of items) {
+    const li = document.createElement('li');
+    li.textContent = value;
+    container.appendChild(li);
+  }
+}
+
 function render() {
   const needle = els.search.value.trim().toLowerCase();
   const minScore = Number(els.minScore.value);
+  const fitFilter = els.fitFilter.value;
 
   const filtered = state.items.filter(item => {
     const reasonText = (item.reasons || []).map(r => r.signal || '').join(' ');
+    const fitText = [
+      item.fit_label,
+      ...(item.fit_reasons || []),
+      ...(item.fit_gaps || []),
+      ...(item.fit_blockers || []),
+    ].join(' ');
     const haystack = [
       item.title,
       item.organization,
@@ -219,10 +251,12 @@ function render() {
       joinValues(item.eligibility),
       item.work_authorization,
       reasonText,
+      fitText,
     ].filter(Boolean).join(' ').toLowerCase();
 
     if (needle && !haystack.includes(needle)) return false;
     if ((item.score || 0) < minScore) return false;
+    if (fitFilter !== 'all' && item.fit_label !== fitFilter) return false;
     if (els.newOnly.checked && daysSince(item.first_seen) > 7) return false;
     return true;
   });
@@ -230,6 +264,7 @@ function render() {
   els.stats.innerHTML = `
     <div><strong>${filtered.length}</strong><span>shown</span></div>
     <div><strong>${state.items.length}</strong><span>stored</span></div>
+    <div><strong>${state.items.filter(x => x.fit_label === 'Strong fit').length}</strong><span>strong fits</span></div>
     <div><strong>${state.items.filter(x => daysSince(x.first_seen) <= 7).length}</strong><span>new this week</span></div>
   `;
 
@@ -244,6 +279,13 @@ function render() {
     const parsed = parseStructuredDescription(item.description || '');
 
     node.querySelector('.score-value').textContent = item.score ?? 0;
+
+    const fitBadge = node.querySelector('.fit-badge');
+    fitBadge.classList.add(`fit-${fitClass(item.fit_label)}`);
+    node.querySelector('.fit-label-text').textContent = item.fit_label || 'Fit pending';
+    node.querySelector('.fit-score-value').textContent = Number.isFinite(Number(item.fit_score))
+      ? `${item.fit_score}/100`
+      : '—';
 
     const titleLink = node.querySelector('.title');
     titleLink.textContent = item.title || 'Untitled opportunity';
@@ -273,6 +315,23 @@ function render() {
     addMetaItem(meta, 'Categories', parsed.fields.categories);
     addMetaItem(meta, 'Work authorisation', item.work_authorization, true);
     if (!meta.children.length) meta.hidden = true;
+
+    renderFitList(
+      node.querySelector('.fit-reasons-list'),
+      item.fit_reasons,
+      'No strong profile-specific signal extracted yet.'
+    );
+    renderFitList(
+      node.querySelector('.fit-gaps-list'),
+      item.fit_gaps,
+      'No major gaps detected from the available text.'
+    );
+    const blockers = item.fit_blockers || [];
+    const blockerColumn = node.querySelector('.fit-blockers-column');
+    if (blockers.length) {
+      blockerColumn.hidden = false;
+      renderFitList(node.querySelector('.fit-blockers-list'), blockers);
+    }
 
     const description = node.querySelector('.description');
     const body = parsed.body || item.description || '';
@@ -325,7 +384,7 @@ async function init() {
   render();
 }
 
-for (const el of [els.search, els.minScore, els.newOnly]) {
+for (const el of [els.search, els.fitFilter, els.minScore, els.newOnly]) {
   el.addEventListener('input', render);
   el.addEventListener('change', render);
 }
