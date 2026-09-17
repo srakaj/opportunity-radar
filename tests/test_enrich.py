@@ -50,6 +50,38 @@ class EnrichmentTests(unittest.TestCase):
         self.assertIn("German", enriched["languages"])
         self.assertIn("English", enriched["languages"])
 
+    def test_working_student_title_wins_over_trainee_mention_in_body(self):
+        item = {
+            "title": "Working Student, Legal (German-speaking)",
+            "description": (
+                "As a Working Student you will join the legal team. "
+                "For the Legal Trainee track this is a minimum 6-month placement, "
+                "ideally starting in September 2026. The role is based in Berlin in a hybrid setup."
+            ),
+            "location": "Berlin, Germany",
+            "source_type": "job_board",
+        }
+        enriched = enrich_opportunity(item)
+        self.assertEqual(enriched["opportunity_type"], "Working student")
+        self.assertEqual(enriched["duration"], "6 months")
+        self.assertEqual(enriched["work_model"], "Hybrid")
+        self.assertEqual(enriched["start_date"], "September 2026")
+
+    def test_german_hybrid_and_minimum_duration_are_extracted(self):
+        item = {
+            "title": "Werkstudent:in, Recht",
+            "description": (
+                "Dies ist eine Station mit einer Mindestdauer von 6 Monaten. "
+                "Die Stelle ist in Berlin angesiedelt, im hybriden Arbeitsmodell."
+            ),
+            "location": "Berlin, Germany",
+            "source_type": "job_board",
+        }
+        enriched = enrich_opportunity(item)
+        self.assertEqual(enriched["opportunity_type"], "Working student")
+        self.assertEqual(enriched["duration"], "6 Monaten")
+        self.assertEqual(enriched["work_model"], "Hybrid")
+
     def test_unpaid_overrides_generic_compensation_language(self):
         item = {
             "title": "Legal Internship",
