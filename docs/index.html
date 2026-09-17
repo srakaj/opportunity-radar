@@ -7,12 +7,12 @@
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
   <title>Opportunity Radar</title>
-  <link rel="stylesheet" href="style.css?v=20260917-040">
+  <link rel="stylesheet" href="style.css?v=20260917-050">
 </head>
 <body>
   <main class="shell">
     <header>
-      <p class="eyebrow">SRakaj · Opportunity Radar · UI 0.4.0</p>
+      <p class="eyebrow">SRakaj · Opportunity Radar · UI 0.5.0</p>
       <h1>High-signal opportunities, without the search-engine noise.</h1>
       <p class="lede">Legal, policy, privacy, compliance, AI governance, research and international opportunities ranked by relevance and personal fit.</p>
     </header>
@@ -35,6 +35,46 @@
     </section>
 
     <section class="stats" id="stats" aria-live="polite"></section>
+
+    <section class="workspace-shell" aria-label="Application workspace">
+      <div class="workspace-head">
+        <div>
+          <p class="workspace-kicker">Application workspace</p>
+          <h3>Track what happens after discovery.</h3>
+          <p id="workspaceStorageNote" class="workspace-note">Statuses, deadlines and notes stay in this browser. Export a backup if you want to move them elsewhere.</p>
+        </div>
+        <div class="workspace-actions">
+          <button id="exportWorkspace" type="button">Export</button>
+          <button id="importWorkspace" type="button">Import</button>
+          <input id="importWorkspaceFile" type="file" accept="application/json,.json" hidden>
+        </div>
+      </div>
+
+      <div class="workspace-controls">
+        <select id="stageFilter" aria-label="Application stage">
+          <option value="all" selected>All application stages</option>
+          <option value="tracked">Tracked only</option>
+          <option value="Untracked">Untracked</option>
+          <option value="Saved">Saved</option>
+          <option value="Interested">Interested</option>
+          <option value="Applying">Applying</option>
+          <option value="Applied">Applied</option>
+          <option value="Interview">Interview</option>
+          <option value="Offer">Offer</option>
+          <option value="Rejected">Rejected</option>
+          <option value="Archived">Archived</option>
+        </select>
+        <select id="sortOrder" aria-label="Sort opportunities">
+          <option value="fit" selected>Sort: personal fit</option>
+          <option value="deadline">Sort: my deadline</option>
+          <option value="newest">Sort: newest</option>
+          <option value="relevance">Sort: relevance</option>
+        </select>
+      </div>
+
+      <div id="pipelineStats" class="pipeline-stats" aria-label="Application pipeline"></div>
+    </section>
+
     <section id="results" class="results"></section>
   </main>
 
@@ -48,6 +88,8 @@
           </div>
 
           <div class="card-actions">
+            <button class="save-opportunity" type="button">Save</button>
+            <span class="workspace-stage-badge" hidden></span>
             <div class="fit-badge" aria-label="Personal fit">
               <span class="fit-label-text"></span>
               <strong class="fit-score-value"></strong>
@@ -77,6 +119,32 @@
           </div>
         </section>
 
+        <details class="workspace-panel">
+          <summary>
+            <span>Application workspace</span>
+            <span class="workspace-stage-summary">Untracked</span>
+          </summary>
+          <div class="workspace-fields">
+            <label>
+              <span>Status</span>
+              <select class="workspace-status"></select>
+            </label>
+            <label>
+              <span>My application deadline</span>
+              <input class="workspace-deadline" type="date">
+              <small class="workspace-deadline-state"></small>
+            </label>
+            <label class="workspace-notes-label">
+              <span>Notes</span>
+              <textarea class="workspace-notes" rows="4" placeholder="Application angle, contact person, documents to prepare, follow-up…"></textarea>
+            </label>
+          </div>
+          <div class="workspace-foot">
+            <span class="workspace-updated"></span>
+            <button class="clear-workspace" type="button">Clear tracking</button>
+          </div>
+        </details>
+
         <div class="description-wrap">
           <div class="description"></div>
           <button class="toggle-description" type="button" hidden>Show more</button>
@@ -92,6 +160,6 @@
     </article>
   </template>
 
-  <script src="app.js?v=20260917-040"></script>
+  <script src="app.js?v=20260917-050"></script>
 </body>
 </html>
