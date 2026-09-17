@@ -12,6 +12,7 @@ if str(ROOT) not in sys.path:
 import yaml
 
 from radar.adapters import collect_direct_sources
+from radar.enrich import enrich_opportunity
 from radar.search import build_queries, search_web
 from radar.score import score_opportunity
 
@@ -68,14 +69,15 @@ def main() -> None:
         if item.get("url") and item.get("first_seen")
     }
 
-    # Re-score history on every run. Improvements to the scoring rules therefore
-    # clean old false positives automatically instead of preserving them forever.
+    # Re-enrich and re-score history on every run. Improvements to extraction or
+    # ranking rules therefore propagate to stored opportunities automatically.
     by_url: dict[str, dict] = {}
     pruned = 0
     for item in existing:
         if not item.get("url"):
             continue
-        rescored = score_opportunity(item, prefs)
+        enriched = enrich_opportunity(item)
+        rescored = score_opportunity(enriched, prefs)
         if rescored["score"] < minimum_score:
             pruned += 1
             continue
@@ -87,7 +89,8 @@ def main() -> None:
 
     def ingest(raw: dict) -> None:
         nonlocal discovered
-        scored = score_opportunity(raw, prefs)
+        enriched = enrich_opportunity(raw)
+        scored = score_opportunity(enriched, prefs)
         if scored["score"] < minimum_score or not scored.get("url"):
             return
 
