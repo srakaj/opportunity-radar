@@ -75,7 +75,6 @@ def extract_work_model(location: str, text: str) -> str:
 
 
 def extract_compensation(text: str) -> tuple[str, str]:
-    lower = text.lower()
     unpaid = _first_match(
         text,
         [
@@ -122,7 +121,6 @@ def extract_compensation(text: str) -> tuple[str, str]:
     if paid_label:
         return "paid", paid_label
 
-    # Avoid treating generic words such as "compensation" or "grant" as proof of pay.
     return "unknown", ""
 
 
@@ -136,6 +134,7 @@ def extract_duration(text: str) -> str:
             rf"\b(?:for|minimum of|minimum|at least)\s+((?:\d+\s*(?:-|–|to)\s*)?\d+\s*{unit})\b",
             rf"\b((?:\d+\s*(?:-|–|to)\s*)?\d+)[ -](week|month|year)(?:-long)?\b",
             rf"\b(?:dauer|laufzeit)\s*:?(?: von)?\s*((?:\d+\s*(?:-|–|bis)\s*)?\d+\s*(?:wochen?|monate?|jahre?))",
+            rf"\bdauert\s+((?:\d+\s*(?:-|–|bis)\s*)?\d+\s*(?:wochen?|monate?|jahre?))",
         ],
     )
 
@@ -208,7 +207,7 @@ def extract_eligibility(title: str, text: str) -> list[str]:
         ("Current students", r"\bcurrently enrolled students?\b|\bcurrent students?\b|\benrolled (?:university )?students?\b"),
         ("Recent graduates", r"\brecent (?:law school )?graduates?\b|\brecently graduated\b"),
         ("Rechtsreferendar:innen", r"\brechtsreferendar(?:in|:in|innen|:innen)?\b|\brechtsreferendariat\b"),
-        ("First State Exam", r"\b(?:first|erstes?) (?:legal )?state exam\b|\berstes staatsexamen\b|\berste juristische prüfung\b"),
+        ("First State Exam", r"\bfirst (?:legal )?state exam\b|\berste(?:s)? staatsexamen\b|\berste juristische prüfung\b"),
         ("Degree required", r"\b(?:bachelor'?s?|master'?s?|university) degree required\b|\brequires? (?:a )?(?:bachelor'?s?|master'?s?) degree\b"),
         ("Bar admission required", r"\bbar admission required\b|\bmust be (?:a )?qualified lawyer\b"),
     ]
