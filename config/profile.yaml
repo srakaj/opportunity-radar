@@ -1,0 +1,67 @@
+profile_version: "0.4"
+career_stage: student_early_career
+
+# Keep this intentionally abstract: the repository is public. These are only
+# professional fit signals, not a CV or a record of employers/personal data.
+education:
+  law_student: true
+  first_state_exam: false
+  bar_admission: false
+
+languages:
+  - German
+  - English
+
+preferred_locations:
+  - Berlin
+  - Germany
+  - Europe
+  - Remote
+
+preferred_work_models:
+  - Remote
+  - Hybrid
+  - On-site Berlin
+
+preferred_types:
+  Working student: 14
+  Fellowship: 12
+  Internship: 11
+  Traineeship: 8
+  Graduate programme: 9
+  Junior professional programme: 8
+  Research role: 9
+  Early-career role: 7
+  Open-source contribution: 5
+
+# Relative personal-interest / experience weights used by the fit layer.
+target_domains:
+  legal: 14
+  legal_tech: 15
+  legal_operations: 15
+  privacy: 14
+  compliance: 11
+  ai_governance: 15
+  policy: 9
+  governance: 10
+  human_rights: 7
+  international_law: 8
+  research_writing: 10
+  published_output: 6
+
+experience_signals:
+  - legal research
+  - privacy
+  - data protection
+  - compliance
+  - contract management
+  - legal operations
+  - litigation
+  - corporate governance
+  - document governance
+  - workflow automation
+  - legal tech
+
+fit_thresholds:
+  strong_fit: 75
+  stretch: 55
