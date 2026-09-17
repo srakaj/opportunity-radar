@@ -79,7 +79,7 @@ class EnrichmentTests(unittest.TestCase):
         }
         enriched = enrich_opportunity(item)
         self.assertEqual(enriched["opportunity_type"], "Working student")
-        self.assertEqual(enriched["duration"], "6 Monaten")
+        self.assertEqual(enriched["duration"], "6 Monate")
         self.assertEqual(enriched["work_model"], "Hybrid")
 
     def test_unpaid_overrides_generic_compensation_language(self):
