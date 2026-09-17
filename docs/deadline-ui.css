@@ -1,0 +1,57 @@
+.deadline-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 7px;
+}
+
+.deadline-value {
+  font-variant-numeric: tabular-nums;
+}
+
+.deadline-assumed .deadline-value,
+.deadline-tz-unknown .deadline-value {
+  font-style: italic;
+}
+
+.deadline-note,
+.deadline-status {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 2px 6px;
+  font-size: 10px;
+  line-height: 1.25;
+  letter-spacing: .02em;
+  white-space: nowrap;
+}
+
+.deadline-note {
+  background: #f0eee8;
+  border: 1px solid #dfdcd3;
+  color: #6e6a63;
+}
+
+.deadline-inferred .deadline-note {
+  background: #eef3f8;
+  border-color: #d6e0e9;
+  color: #4c6174;
+}
+
+.deadline-tz-unknown .deadline-note {
+  background: #fff4e8;
+  border-color: #ead6bc;
+  color: #7d5c33;
+}
+
+.deadline-status-closing_soon {
+  background: #fff5dd;
+  border: 1px solid #ead7a4;
+  color: #765919;
+}
+
+.deadline-status-expired {
+  background: #f8eceb;
+  border: 1px solid #e4c7c3;
+  color: #7a3f39;
+}
