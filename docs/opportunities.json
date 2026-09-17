@@ -26,6 +26,11 @@
     ],
     "work_authorization": "",
     "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
     "score": 143,
     "reasons": [
       {
@@ -94,7 +99,7 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T08:49:30.651526+00:00",
+    "last_seen": "2026-09-17T09:29:13.902933+00:00",
     "description_truncated": true
   },
   {
@@ -126,6 +131,11 @@
     ],
     "work_authorization": "",
     "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
     "score": 123,
     "reasons": [
       {
@@ -191,7 +201,7 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T08:49:30.651526+00:00",
+    "last_seen": "2026-09-17T09:29:13.902933+00:00",
     "description_truncated": true
   },
   {
@@ -218,6 +228,11 @@
     "eligibility": [],
     "work_authorization": "",
     "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
     "score": 28,
     "reasons": [
       {
@@ -256,7 +271,7 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T08:49:30.651526+00:00"
+    "last_seen": "2026-09-17T09:29:13.902933+00:00"
   },
   {
     "title": "Werkstudent:in, Recht",
@@ -284,6 +299,11 @@
     ],
     "work_authorization": "",
     "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
     "score": 87,
     "reasons": [
       {
@@ -335,7 +355,7 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T08:49:30.651526+00:00",
+    "last_seen": "2026-09-17T09:29:13.902933+00:00",
     "description_truncated": true
   },
   {
@@ -362,6 +382,11 @@
     "eligibility": [],
     "work_authorization": "",
     "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
     "score": 27,
     "reasons": [
       {
@@ -400,7 +425,7 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T08:49:30.651526+00:00"
+    "last_seen": "2026-09-17T09:29:13.902933+00:00"
   },
   {
     "title": "corpus(tier1): expand court-documented legal AI citation failures",
@@ -426,6 +451,11 @@
     "eligibility": [],
     "work_authorization": "",
     "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
     "score": 36,
     "reasons": [
       {
@@ -466,7 +496,7 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T08:49:30.651526+00:00"
+    "last_seen": "2026-09-17T09:29:13.902933+00:00"
   },
   {
     "title": "Add industry file: Legal Tech",
@@ -492,6 +522,11 @@
     "eligibility": [],
     "work_authorization": "",
     "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
     "score": 28,
     "reasons": [
       {
@@ -529,6 +564,6 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T08:49:30.651526+00:00"
+    "last_seen": "2026-09-17T09:29:13.902933+00:00"
   }
 ]
