@@ -17,9 +17,11 @@ DEADLINE_MARKERS = (
     r"bewerbungsfrist", r"bewerben bis", r"bewerbungsschluss",
 )
 
+# Important: test the 12-hour form before bare HH:MM. Otherwise "6:00 PM"
+# is consumed as 06:00 before the AM/PM suffix can be interpreted.
 TIME_RE = re.compile(
-    r"\b(?:(?P<h24>[01]?\d|2[0-3]):(?P<m24>[0-5]\d)|"
-    r"(?P<h12>0?[1-9]|1[0-2])(?::(?P<m12>[0-5]\d))?\s*(?P<ampm>a\.?m\.?|p\.?m\.?)|"
+    r"\b(?:(?P<h12>0?[1-9]|1[0-2])(?::(?P<m12>[0-5]\d))?\s*(?P<ampm>a\.?m\.?|p\.?m\.?)|"
+    r"(?P<h24>[01]?\d|2[0-3]):(?P<m24>[0-5]\d)|"
     r"(?P<word>midnight|noon))\b",
     re.IGNORECASE,
 )
@@ -122,16 +124,16 @@ def _parse_time(context: str) -> tuple[time | None, str]:
         # means the end of the named date. Represent that as 23:59 to avoid the
         # dangerous beginning-of-day interpretation of 00:00.
         return (time(23, 59) if word == "midnight" else time(12, 0)), match.group(0)
-    if match.group("h24") is not None:
-        return time(int(match.group("h24")), int(match.group("m24"))), match.group(0)
-    hour = int(match.group("h12"))
-    minute = int(match.group("m12") or 0)
-    ampm = re.sub(r"[^apm]", "", match.group("ampm").lower())
-    if ampm.startswith("p") and hour != 12:
-        hour += 12
-    if ampm.startswith("a") and hour == 12:
-        hour = 0
-    return time(hour, minute), match.group(0)
+    if match.group("h12") is not None:
+        hour = int(match.group("h12"))
+        minute = int(match.group("m12") or 0)
+        ampm = re.sub(r"[^apm]", "", match.group("ampm").lower())
+        if ampm.startswith("p") and hour != 12:
+            hour += 12
+        if ampm.startswith("a") and hour == 12:
+            hour = 0
+        return time(hour, minute), match.group(0)
+    return time(int(match.group("h24")), int(match.group("m24"))), match.group(0)
 
 
 def _explicit_timezone(context: str):
@@ -231,6 +233,6 @@ def enrich_deadline_timezone(item: dict, now: datetime | None = None) -> dict:
         "deadline_status": _status(utc_dt, now),
         "deadline_time_explicit": bool(raw_time),
         "deadline_timezone_explicit": bool(tz_label),
-        "deadline_timezone_version": "0.5.1",
+        "deadline_timezone_version": "0.5.2",
     })
     return enriched
