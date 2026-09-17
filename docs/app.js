@@ -9,6 +9,35 @@ const els = {
   template: document.querySelector('#cardTemplate'),
 };
 
+const DESCRIPTION_HEADINGS = [
+  ['Summary', ['Summary']],
+  ['Description', ['Description']],
+  ['About the role', ['About the role', 'About the Role', 'About this role', 'About the job', 'About the Job']],
+  ['Responsibilities', ['Responsibilities', 'Your responsibilities', 'Your Responsibilities', 'What you’ll do', "What you'll do", 'What You’ll Do', "What You'll Do", 'What you will do']],
+  ['Requirements', ['Requirements', 'What you’ll bring', "What you'll bring", 'What You’ll Bring', "What You'll Bring"]],
+  ['Qualifications', ['Qualifications', 'Minimum qualifications', 'Minimum Qualifications', 'Preferred qualifications', 'Preferred Qualifications']],
+  ['Who you are', ['Who you are', 'Who You Are']],
+  ['What we’re looking for', ['What we’re looking for', "What we're looking for", 'What We’re Looking For', "What We're Looking For"]],
+  ['Benefits', ['Benefits', 'What we offer', 'What We Offer', 'Our offer', 'Our Offer']],
+  ['How to apply', ['How to apply', 'How to Apply', 'Application process', 'Application Process']],
+  ['Deine Aufgaben', ['Deine Aufgaben', 'Ihre Aufgaben', 'Aufgaben', 'Das erwartet dich', 'Das erwartet Sie']],
+  ['Dein Profil', ['Dein Profil', 'Ihr Profil', 'Anforderungen', 'Qualifikationen', 'Das bringst du mit', 'Das bringen Sie mit', 'Was du mitbringst']],
+  ['Was wir bieten', ['Was wir bieten', 'Wir bieten', 'Unser Angebot']],
+  ['Über die Rolle', ['Über die Rolle', 'Über den Job']],
+];
+
+const HEADING_LOOKUP = new Map();
+for (const [label, variants] of DESCRIPTION_HEADINGS) {
+  for (const variant of variants) HEADING_LOOKUP.set(variant, label);
+}
+
+const HEADING_PATTERN = [...HEADING_LOOKUP.keys()]
+  .sort((a, b) => b.length - a.length)
+  .map(value => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
+  .join('|');
+
+const DESCRIPTION_HEADING_RE = new RegExp(`(^|\\s)(${HEADING_PATTERN})\\s*:?(?=\\s|$)`, 'g');
+
 function daysSince(iso) {
   if (!iso) return Infinity;
   const then = new Date(iso).getTime();
@@ -69,6 +98,62 @@ function parseStructuredDescription(description = '') {
   }
 
   return { fields, body };
+}
+
+function parseDescriptionSections(text = '') {
+  const body = text.replace(/\s+/g, ' ').trim();
+  if (!body) return [];
+
+  const matches = [];
+  DESCRIPTION_HEADING_RE.lastIndex = 0;
+  let match;
+  while ((match = DESCRIPTION_HEADING_RE.exec(body)) !== null) {
+    const prefixLength = match[1].length;
+    const variant = match[2];
+    matches.push({
+      start: match.index + prefixLength,
+      contentStart: DESCRIPTION_HEADING_RE.lastIndex,
+      label: HEADING_LOOKUP.get(variant) || variant,
+    });
+  }
+
+  if (!matches.length) return [{ label: '', text: body }];
+
+  const sections = [];
+  const preamble = body.slice(0, matches[0].start).trim();
+  if (preamble) sections.push({ label: '', text: preamble });
+
+  for (let i = 0; i < matches.length; i += 1) {
+    const current = matches[i];
+    const nextStart = matches[i + 1]?.start ?? body.length;
+    const sectionText = body.slice(current.contentStart, nextStart).trim();
+    if (sectionText) sections.push({ label: current.label, text: sectionText });
+  }
+
+  return sections.length ? sections : [{ label: '', text: body }];
+}
+
+function renderDescription(container, text) {
+  const sections = parseDescriptionSections(text);
+  container.replaceChildren();
+
+  for (const section of sections) {
+    const sectionEl = document.createElement('section');
+    sectionEl.className = 'description-section';
+
+    if (section.label) {
+      const heading = document.createElement('h3');
+      heading.textContent = `${section.label}:`;
+      sectionEl.appendChild(heading);
+    }
+
+    const paragraph = document.createElement('p');
+    paragraph.textContent = section.text;
+    sectionEl.appendChild(paragraph);
+    container.appendChild(sectionEl);
+  }
+
+  return sections;
 }
 
 function addMetaItem(container, label, value) {
@@ -145,15 +230,15 @@ function render() {
 
     const description = node.querySelector('.description');
     const body = parsed.body || item.description || '';
-    description.textContent = body;
+    const sections = renderDescription(description, body);
 
     const toggle = node.querySelector('.toggle-description');
-    if (body.length > 420) {
-      description.classList.add('clamped');
+    if (body.length > 520 || sections.length > 3) {
+      description.classList.add('collapsed');
       toggle.hidden = false;
       toggle.addEventListener('click', () => {
-        const isClamped = description.classList.toggle('clamped');
-        toggle.textContent = isClamped ? 'Show more' : 'Show less';
+        const isCollapsed = description.classList.toggle('collapsed');
+        toggle.textContent = isCollapsed ? 'Show more' : 'Show less';
       });
     }
 
