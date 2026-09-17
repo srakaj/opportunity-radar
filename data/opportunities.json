@@ -10,7 +10,23 @@
     "organization": "Wikimedia Foundation",
     "location": "Remote",
     "structured_opportunity": true,
-    "score": 151,
+    "opportunity_type": "Fellowship",
+    "work_model": "Remote",
+    "compensation_status": "funding_possible",
+    "compensation": "receiving funding",
+    "duration": "18 weeks",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [
+      "Current law students",
+      "Recent graduates"
+    ],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "score": 143,
     "reasons": [
       {
         "signal": "privacy",
@@ -59,14 +75,10 @@
       {
         "signal": "international",
         "points": 8
-      },
-      {
-        "signal": "paid",
-        "points": 8
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T23:14:24.529048+00:00",
+    "last_seen": "2026-09-17T01:42:27.001030+00:00",
     "description_truncated": true
   },
   {
@@ -80,6 +92,24 @@
     "organization": "Via",
     "location": "Berlin, Germany",
     "structured_opportunity": true,
+    "opportunity_type": "Traineeship",
+    "work_model": "Hybrid",
+    "compensation_status": "paid",
+    "compensation": "€20",
+    "duration": "6",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [
+      "English",
+      "German"
+    ],
+    "eligibility": [
+      "Rechtsreferendar:innen"
+    ],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
     "score": 133,
     "reasons": [
       {
@@ -132,7 +162,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T23:14:24.529048+00:00",
+    "last_seen": "2026-09-17T01:42:27.001030+00:00",
     "description_truncated": true
   },
   {
@@ -146,7 +176,22 @@
     "organization": "Via",
     "location": "Berlin, Germany",
     "structured_opportunity": true,
-    "score": 95,
+    "opportunity_type": "Working student",
+    "work_model": "Unspecified",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [
+      "Rechtsreferendar:innen"
+    ],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "score": 87,
     "reasons": [
       {
         "signal": "legal",
@@ -177,16 +222,12 @@
         "points": 8
       },
       {
-        "signal": "paid",
-        "points": 8
-      },
-      {
         "signal": "leadership",
         "points": 8
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T23:14:24.529048+00:00",
+    "last_seen": "2026-09-17T01:42:27.001030+00:00",
     "description_truncated": true
   },
   {
@@ -200,6 +241,19 @@
     "organization": "yenklabs/Dali",
     "location": "Remote / open source",
     "structured_opportunity": true,
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
     "score": 36,
     "reasons": [
       {
@@ -228,48 +282,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T23:14:24.529048+00:00"
-  },
-  {
-    "title": "[Sustain] Maintainer sustainability model (funding, time, succession)",
-    "url": "https://github.com/lumenaut-llc/oesis-program-specs/issues/187",
-    "description": "Open-source contribution opportunity. Repository: lumenaut-llc/oesis-program-specs. Labels: help wanted, phase: v1.0, node: platform, area: governance, severity: important, program: sustainability. ## Summary\n\nHow is maintainer time funded? Grants, donations, services, sponsorship? What's the succession plan if current maintainers step away?\n\n## Why this matters\n\nOpen-source civic-tech projects collapse when maintainer sustainability isn't explicit. GOVERNANCE.md defines roles but not how those roles are filled or funded.\n\n## Acceptance criteria\n\n- [ ] Doc at `legal/sustainability-model.md` (new) or section of GOVERNANCE.md.\n- [ ] Current funding posture documented.\n- [ ] Candidate long-term funding paths (grant programs, sponsorship, fiscal sponsor relationship).\n- [ ] Succession criteria (how is a new maintainer appointed? per GOVERNANCE.md 'future governance evolution' lists this).\n\n## How to start\n\n1. Inventory current funding.\n2. Research fiscal-sponsorship options (NumFOCUS, OpenCollective).\n3. Draft.\n4. PR + circulate.\n\n## Related\n\n- Parent: [U15 tracker](#<U15>)",
-    "role_context": "[Sustain] Maintainer sustainability model (funding, time, succession) lumenaut-llc/oesis-program-specs help wanted, phase: v1.0, node: platform, area: governance, severity: important, program: sustainability",
-    "published": "2026-04-23T20:07:59Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "lumenaut-llc/oesis-program-specs",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "score": 32,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "governance",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "paid",
-        "points": 8
-      }
-    ],
-    "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T23:14:24.529048+00:00"
+    "last_seen": "2026-09-17T01:42:27.001030+00:00"
   },
   {
     "title": "privacy: review the Datenschutzerklärung against actual retention",
@@ -282,6 +295,19 @@
     "organization": "Open-LEG-ch/openleg",
     "location": "Remote / open source",
     "structured_opportunity": true,
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
     "score": 28,
     "reasons": [
       {
@@ -306,7 +332,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T23:14:24.529048+00:00"
+    "last_seen": "2026-09-17T01:42:27.001030+00:00"
   },
   {
     "title": "Add industry file: Legal Tech",
@@ -319,6 +345,19 @@
     "organization": "glacierphonk/naming",
     "location": "Remote / open source",
     "structured_opportunity": true,
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
     "score": 28,
     "reasons": [
       {
@@ -343,7 +382,7 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T23:14:24.529048+00:00"
+    "last_seen": "2026-09-17T01:42:27.001030+00:00"
   },
   {
     "title": "test: add tests for gdpr_compliance.rego (GDPR)",
@@ -356,6 +395,19 @@
     "organization": "ynotbhatc/rego_policy_libraries",
     "location": "Remote / open source",
     "structured_opportunity": true,
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
     "score": 27,
     "reasons": [
       {
@@ -380,6 +432,6 @@
       }
     ],
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-16T23:14:24.529048+00:00"
+    "last_seen": "2026-09-17T01:42:27.001030+00:00"
   }
 ]
