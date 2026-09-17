@@ -25,6 +25,18 @@ lever:
       name: Spotify
       instance: global
 
+# Ashby has a public job-board endpoint and is common among newer AI/legal-tech
+# companies. These are high-value direct employer sources, not search-engine hits.
+ashby:
+  enabled: true
+  boards:
+    - board: harvey
+      name: Harvey
+    - board: legora
+      name: Legora
+    - board: robin-ai
+      name: Robin AI
+
 reliefweb:
   enabled: true
   appname: opportunity-radar
@@ -50,3 +62,36 @@ github:
     - '"open data" label:"help wanted"'
     - '"civic tech" label:"help wanted"'
     - 'legal label:"good first issue"'
+
+# A curated set of organisations worth watching even when they do not expose a
+# supported public ATS endpoint. Search results pointing to these official domains
+# receive higher source quality than generic web discovery.
+watchlist:
+  enabled: true
+  max_queries_per_run: 12
+  query_terms: '(legal OR privacy OR compliance OR policy OR governance OR "legal tech" OR "AI governance") (job OR career OR fellowship OR internship OR trainee OR "working student" OR graduate)'
+  organizations:
+    - name: BRYTER
+      domain: bryter.com
+    - name: Juro
+      domain: juro.com
+    - name: Luminance
+      domain: luminance.com
+    - name: Ironclad
+      domain: ironcladapp.com
+    - name: Clio
+      domain: clio.com
+    - name: ContractPodAi
+      domain: contractpodai.com
+    - name: Access Now
+      domain: accessnow.org
+    - name: noyb
+      domain: noyb.eu
+    - name: EDRi
+      domain: edri.org
+    - name: AlgorithmWatch
+      domain: algorithmwatch.org
+    - name: Ada Lovelace Institute
+      domain: adalovelaceinstitute.org
+    - name: Privacy International
+      domain: privacyinternational.org

@@ -1,0 +1,119 @@
+.source-health-shell {
+  margin: 10px 0 18px;
+  border: 1px solid #dedbd3;
+  border-radius: 12px;
+  background: #fbfaf7;
+}
+
+.source-health-shell details {
+  padding: 0;
+}
+
+.source-health-shell summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 12px 14px;
+  font-size: 13px;
+}
+
+.source-health-shell summary::-webkit-details-marker {
+  display: none;
+}
+
+.source-health-summary-main {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.source-health-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #7f8c78;
+  flex: 0 0 auto;
+}
+
+.source-health-dot.degraded {
+  background: #b68a42;
+}
+
+.source-health-dot.error {
+  background: #a75b54;
+}
+
+.source-health-muted,
+.source-health-generated {
+  color: #77736c;
+}
+
+.source-health-grid {
+  border-top: 1px solid #e5e1d9;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 8px;
+  padding: 12px 14px 14px;
+}
+
+.source-health-item {
+  border: 1px solid #e5e1d9;
+  border-radius: 9px;
+  background: #fff;
+  padding: 9px 10px;
+  min-width: 0;
+}
+
+.source-health-item strong,
+.source-health-item span {
+  display: block;
+}
+
+.source-health-item strong {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.source-health-item span {
+  color: #77736c;
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.source-health-status-error strong {
+  color: #8d433d;
+}
+
+.source-health-status-degraded strong {
+  color: #866323;
+}
+
+.source-quality-meta .source-quality-value {
+  font-weight: 600;
+}
+
+.source-quality-official-ats .source-quality-value,
+.source-quality-official-site .source-quality-value {
+  color: #405a49;
+}
+
+.source-last-seen-value {
+  font-variant-numeric: tabular-nums;
+}
+
+.source-duplicate-note {
+  margin-left: 6px;
+  color: #77736c;
+  font-size: 10px;
+}
+
+@media (max-width: 720px) {
+  .source-health-shell summary {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

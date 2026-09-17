@@ -18,9 +18,21 @@ from radar.enrichment_score import reconcile_enrichment_score
 from radar.fit import assess_fit
 from radar.search import build_queries, search_web
 from radar.score import score_opportunity
+from radar.source_expansion import (
+    annotate_source,
+    build_watchlist_queries,
+    canonical_url,
+    collect_ashby_sources,
+    health_summary,
+    match_watchlist_organisation,
+    merge_opportunities,
+    opportunity_identity,
+    source_health_from_legacy,
+)
 
 DATA_PATH = ROOT / "data" / "opportunities.json"
 DOCS_PATH = ROOT / "docs" / "opportunities.json"
+SOURCE_HEALTH_PATH = ROOT / "docs" / "source-health.json"
 
 
 def load_yaml(path: Path) -> dict:
@@ -39,10 +51,6 @@ def load_existing() -> list[dict]:
         return []
 
 
-def canonical_url(url: str) -> str:
-    return url.split("#", 1)[0].rstrip("/")
-
-
 def compact_for_storage(item: dict, description_max_chars: int) -> dict:
     compact = dict(item)
     description = str(compact.get("description", ""))
@@ -54,8 +62,9 @@ def compact_for_storage(item: dict, description_max_chars: int) -> dict:
     return compact
 
 
-def enrich_score_and_fit(item: dict, prefs: dict, profile: dict) -> dict:
-    enriched = enrich_opportunity(item)
+def enrich_score_and_fit(item: dict, prefs: dict, profile: dict, source_cfg: dict) -> dict:
+    source_annotated = annotate_source(item, source_cfg)
+    enriched = enrich_opportunity(source_annotated)
     enriched = enrich_deadline_timezone(enriched)
     scored = score_opportunity(enriched, prefs)
     reconciled = reconcile_enrichment_score(scored, prefs)
@@ -75,70 +84,172 @@ def main() -> None:
     description_max_chars = int(prefs.get("description_max_chars", 2000))
 
     existing = load_existing()
-    historical_first_seen = {
+    historical_first_seen_by_url = {
         canonical_url(item.get("url", "")): item.get("first_seen")
         for item in existing
         if item.get("url") and item.get("first_seen")
     }
+    historical_first_seen_by_identity = {
+        opportunity_identity(item): item.get("first_seen")
+        for item in existing
+        if item.get("url") and item.get("first_seen")
+    }
+    historical_identities = {
+        opportunity_identity(item)
+        for item in existing
+        if item.get("url")
+    }
 
-    # Re-enrich, re-score and re-assess history on every run. Improvements to
-    # extraction, ranking or personal-fit rules therefore propagate automatically.
-    by_url: dict[str, dict] = {}
+    # Store one canonical record per role identity, not one record per discovery URL.
+    # This lets an official ATS result replace a lower-quality search-engine duplicate.
+    by_identity: dict[str, dict] = {}
     pruned = 0
     for item in existing:
         if not item.get("url"):
             continue
-        reassessed = enrich_score_and_fit(item, prefs, profile)
+        reassessed = enrich_score_and_fit(item, prefs, profile, source_cfg)
         if reassessed["score"] < minimum_score:
             pruned += 1
             continue
-        by_url[canonical_url(reassessed["url"])] = reassessed
+        key = opportunity_identity(reassessed)
+        if key in by_identity:
+            by_identity[key] = merge_opportunities(by_identity[key], reassessed)
+        else:
+            by_identity[key] = reassessed
 
     run_time = datetime.now(timezone.utc).isoformat()
     discovered = 0
     errors: list[str] = []
+    health_entries: list[dict] = []
 
     def ingest(raw: dict) -> None:
         nonlocal discovered
-        assessed = enrich_score_and_fit(raw, prefs, profile)
+        assessed = enrich_score_and_fit(raw, prefs, profile, source_cfg)
         if assessed["score"] < minimum_score or not assessed.get("url"):
             return
 
-        key = canonical_url(assessed["url"])
+        key = opportunity_identity(assessed)
+        url_key = canonical_url(assessed["url"])
+        previous = by_identity.get(key)
         previous_first_seen = (
-            by_url.get(key, {}).get("first_seen")
-            or historical_first_seen.get(key)
+            (previous or {}).get("first_seen")
+            or historical_first_seen_by_identity.get(key)
+            or historical_first_seen_by_url.get(url_key)
         )
         if previous_first_seen:
             assessed["first_seen"] = previous_first_seen
         else:
             assessed["first_seen"] = run_time
-            discovered += 1
+            if key not in historical_identities:
+                discovered += 1
         assessed["last_seen"] = run_time
-        by_url[key] = assessed
+        assessed["last_checked"] = run_time
+        assessed["opportunity_identity"] = key
 
+        if previous:
+            by_identity[key] = merge_opportunities(previous, assessed)
+        else:
+            by_identity[key] = assessed
+
+    # Existing direct sources: Greenhouse, Lever, ReliefWeb and GitHub Issues.
     direct_results, direct_errors, direct_stats = collect_direct_sources(source_cfg)
     errors.extend(direct_errors)
+    health_entries.extend(source_health_from_legacy(direct_stats, direct_errors, run_time))
     for raw in direct_results:
         ingest(raw)
 
+    # V0.6: direct Ashby boards for high-value legal-tech employers.
+    ashby_results, ashby_errors, ashby_stats, ashby_health = collect_ashby_sources(source_cfg, run_time)
+    errors.extend(ashby_errors)
+    health_entries.extend(ashby_health)
+    for raw in ashby_results:
+        ingest(raw)
+
+    # V0.6: organisation watchlist. Search is constrained to official domains and
+    # therefore receives higher source quality than generic web discovery.
+    watchlist_queries = build_watchlist_queries(source_cfg)
+    for watch in watchlist_queries:
+        rows_seen = 0
+        source_id = f"watch:{watch['domain']}"
+        try:
+            results = search_web(watch["query"], max_results=max_results)
+            for raw in results:
+                if not match_watchlist_organisation(raw.get("url", ""), source_cfg):
+                    continue
+                raw = dict(raw)
+                raw["organization"] = watch["name"]
+                raw["source_type"] = "official_site_discovery"
+                raw["structured_opportunity"] = False
+                raw["watchlist_match"] = True
+                rows_seen += 1
+                ingest(raw)
+            health_entries.append(
+                {
+                    "id": source_id,
+                    "label": watch["name"],
+                    "kind": "Official site watch",
+                    "status": "healthy",
+                    "rows": rows_seen,
+                    "checked_at": run_time,
+                }
+            )
+        except Exception as exc:
+            errors.append(f"{source_id}: {exc}")
+            health_entries.append(
+                {
+                    "id": source_id,
+                    "label": watch["name"],
+                    "kind": "Official site watch",
+                    "status": "error",
+                    "rows": 0,
+                    "checked_at": run_time,
+                    "error": str(exc)[:240],
+                }
+            )
+
+    # Generic high-recall web discovery remains useful for opportunities that are not
+    # on known ATS platforms or target-organisation sites.
     queries = build_queries(query_cfg, limit=max_queries)
+    web_rows = 0
+    web_errors = 0
     for query in queries:
         try:
             results = search_web(query, max_results=max_results)
         except Exception as exc:
+            web_errors += 1
             errors.append(f"web:{query}: {exc}")
             continue
+        web_rows += len(results)
         for raw in results:
             ingest(raw)
 
-    # Personal fit is now the primary dashboard ordering; thematic relevance remains
-    # the tie-breaker so high-signal opportunities rise within each fit band.
+    if web_errors == 0:
+        web_status = "healthy"
+    elif web_rows:
+        web_status = "degraded"
+    else:
+        web_status = "error"
+    health_entries.append(
+        {
+            "id": "web-discovery",
+            "label": "General web discovery",
+            "kind": "Search discovery",
+            "status": web_status,
+            "rows": web_rows,
+            "checked_at": run_time,
+            "queries": len(queries),
+            "errors": web_errors,
+        }
+    )
+
+    # Personal fit is the primary dashboard ordering; thematic relevance remains the
+    # tie-breaker so high-signal opportunities rise within each fit band.
     ranked = sorted(
-        by_url.values(),
+        by_identity.values(),
         key=lambda x: (
             x.get("fit_score", 0),
             x.get("score", 0),
+            x.get("source_priority", 0),
             x.get("published", ""),
         ),
         reverse=True,
@@ -157,9 +268,23 @@ def main() -> None:
     DATA_PATH.write_text(payload + "\n", encoding="utf-8")
     DOCS_PATH.write_text(payload + "\n", encoding="utf-8")
 
+    health_payload = {
+        "generated_at": run_time,
+        "summary": health_summary(health_entries),
+        "sources": health_entries,
+        "watchlist_queries": len(watchlist_queries),
+        "web_queries": len(queries),
+    }
+    SOURCE_HEALTH_PATH.write_text(
+        json.dumps(health_payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
     print("Direct source rows:")
-    for source, count in sorted(direct_stats.items()):
+    combined_stats = {**direct_stats, **ashby_stats}
+    for source, count in sorted(combined_stats.items()):
         print(f"  - {source}: {count}")
+    print(f"Watchlist queries run: {len(watchlist_queries)}")
     print(f"Web queries run: {len(queries)}")
     print(f"New opportunities: {discovered}")
     print(f"Pruned old false positives: {pruned}")
@@ -172,10 +297,16 @@ def main() -> None:
             for label in ("Strong fit", "Stretch", "Probably skip")
         )
     )
+    summary = health_payload["summary"]
+    print(
+        "Source health: "
+        f"healthy={summary['healthy']}, degraded={summary['degraded']}, "
+        f"error={summary['error']}, total={summary['total']}"
+    )
 
     if errors:
         print(f"Source/search errors: {len(errors)}")
-        for err in errors[:10]:
+        for err in errors[:15]:
             print(f"  - {err}")
 
 
