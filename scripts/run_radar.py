@@ -12,6 +12,8 @@ if str(ROOT) not in sys.path:
 import yaml
 
 from radar.adapters import collect_direct_sources
+from radar.enrich import enrich_opportunity
+from radar.enrichment_score import reconcile_enrichment_score
 from radar.search import build_queries, search_web
 from radar.score import score_opportunity
 
@@ -50,6 +52,12 @@ def compact_for_storage(item: dict, description_max_chars: int) -> dict:
     return compact
 
 
+def enrich_and_score(item: dict, prefs: dict) -> dict:
+    enriched = enrich_opportunity(item)
+    scored = score_opportunity(enriched, prefs)
+    return reconcile_enrichment_score(scored, prefs)
+
+
 def main() -> None:
     prefs = load_yaml(ROOT / "config" / "preferences.yaml")
     query_cfg = load_yaml(ROOT / "config" / "queries.yaml")
@@ -68,14 +76,14 @@ def main() -> None:
         if item.get("url") and item.get("first_seen")
     }
 
-    # Re-score history on every run. Improvements to the scoring rules therefore
-    # clean old false positives automatically instead of preserving them forever.
+    # Re-enrich and re-score history on every run. Improvements to extraction or
+    # ranking rules therefore propagate to stored opportunities automatically.
     by_url: dict[str, dict] = {}
     pruned = 0
     for item in existing:
         if not item.get("url"):
             continue
-        rescored = score_opportunity(item, prefs)
+        rescored = enrich_and_score(item, prefs)
         if rescored["score"] < minimum_score:
             pruned += 1
             continue
@@ -87,7 +95,7 @@ def main() -> None:
 
     def ingest(raw: dict) -> None:
         nonlocal discovered
-        scored = score_opportunity(raw, prefs)
+        scored = enrich_and_score(raw, prefs)
         if scored["score"] < minimum_score or not scored.get("url"):
             return
 
