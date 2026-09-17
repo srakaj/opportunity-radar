@@ -10,7 +10,7 @@ class DeadlineUiTests(unittest.TestCase):
         html = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
         self.assertIn("deadline-ui.css", html)
         self.assertIn("deadline-ui.js", html)
-        self.assertIn("UI 0.5.2", html)
+        self.assertIn("Opportunity Radar · UI", html)
 
     def test_deadline_renderer_uses_berlin_and_german_format(self):
         js = (ROOT / "docs" / "deadline-ui.js").read_text(encoding="utf-8")
