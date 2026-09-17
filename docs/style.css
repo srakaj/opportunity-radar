@@ -206,8 +206,8 @@ h2 a:hover { text-decoration-thickness: 2px; }
 .meta-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 8px 18px;
-  padding: 11px 13px;
+  gap: 9px 18px;
+  padding: 12px 13px;
   margin-bottom: 16px;
   background: var(--soft-bg);
   border: 1px solid var(--soft-border);
@@ -221,6 +221,8 @@ h2 a:hover { text-decoration-thickness: 2px; }
   line-height: 1.45;
   overflow-wrap: anywhere;
 }
+
+.meta-item-wide { grid-column: 1 / -1; }
 
 .meta-item strong {
   color: #1c1f23;
@@ -252,10 +254,7 @@ h2 a:hover { text-decoration-thickness: 2px; }
   background: linear-gradient(to bottom, rgba(255,255,255,0), #fff 88%);
 }
 
-.description-section {
-  margin: 0 0 14px;
-}
-
+.description-section { margin: 0 0 14px; }
 .description-section:last-child { margin-bottom: 0; }
 
 .description-section h3 {
@@ -271,9 +270,7 @@ h2 a:hover { text-decoration-thickness: 2px; }
   line-height: 1.62;
 }
 
-.description-section + .description-section {
-  padding-top: 3px;
-}
+.description-section + .description-section { padding-top: 3px; }
 
 .toggle-description {
   margin-top: 8px;
@@ -339,5 +336,6 @@ summary {
   h2 { font-size: 23px; }
   .card-actions { margin-top: 12px; }
   .meta-grid { grid-template-columns: 1fr; }
+  .meta-item-wide { grid-column: auto; }
   .description.collapsed { max-height: 20rem; }
 }
