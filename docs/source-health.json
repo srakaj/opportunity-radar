@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-17T10:43:56.130260+00:00",
+  "generated_at": "2026-09-17T10:56:44.726182+00:00",
   "summary": {
     "total": 20,
-    "healthy": 19,
+    "healthy": 20,
     "degraded": 0,
-    "error": 1
+    "error": 0
   },
   "sources": [
     {
@@ -13,15 +13,15 @@
       "kind": "Open source",
       "status": "healthy",
       "rows": 142,
-      "checked_at": "2026-09-17T10:43:56.130260+00:00"
+      "checked_at": "2026-09-17T10:56:44.726182+00:00"
     },
     {
       "id": "greenhouse",
       "label": "Greenhouse boards",
       "kind": "Official ATS",
       "status": "healthy",
-      "rows": 801,
-      "checked_at": "2026-09-17T10:43:56.130260+00:00"
+      "rows": 802,
+      "checked_at": "2026-09-17T10:56:44.726182+00:00"
     },
     {
       "id": "lever",
@@ -29,7 +29,7 @@
       "kind": "Official ATS",
       "status": "healthy",
       "rows": 69,
-      "checked_at": "2026-09-17T10:43:56.130260+00:00"
+      "checked_at": "2026-09-17T10:56:44.726182+00:00"
     },
     {
       "id": "reliefweb",
@@ -37,7 +37,7 @@
       "kind": "Curated board",
       "status": "healthy",
       "rows": 0,
-      "checked_at": "2026-09-17T10:43:56.130260+00:00"
+      "checked_at": "2026-09-17T10:56:44.726182+00:00"
     },
     {
       "id": "ashby:harvey",
@@ -45,7 +45,7 @@
       "kind": "Official ATS",
       "status": "healthy",
       "rows": 299,
-      "checked_at": "2026-09-17T10:43:56.130260+00:00"
+      "checked_at": "2026-09-17T10:56:44.726182+00:00"
     },
     {
       "id": "ashby:legora",
@@ -53,16 +53,7 @@
       "kind": "Official ATS",
       "status": "healthy",
       "rows": 277,
-      "checked_at": "2026-09-17T10:43:56.130260+00:00"
-    },
-    {
-      "id": "ashby:robin-ai",
-      "label": "Robin AI · Ashby",
-      "kind": "Official ATS",
-      "status": "error",
-      "rows": 0,
-      "checked_at": "2026-09-17T10:43:56.130260+00:00",
-      "error": "404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/robin-ai"
+      "checked_at": "2026-09-17T10:56:44.726182+00:00"
     },
     {
       "id": "watch:bryter.com",
@@ -70,7 +61,7 @@
       "kind": "Official site watch",
       "status": "healthy",
       "rows": 0,
-      "checked_at": "2026-09-17T10:43:56.130260+00:00"
+      "checked_at": "2026-09-17T10:56:44.726182+00:00"
     },
     {
       "id": "watch:juro.com",
@@ -78,7 +69,15 @@
       "kind": "Official site watch",
       "status": "healthy",
       "rows": 0,
-      "checked_at": "2026-09-17T10:43:56.130260+00:00"
+      "checked_at": "2026-09-17T10:56:44.726182+00:00"
+    },
+    {
+      "id": "watch:robinai.com",
+      "label": "Robin AI",
+      "kind": "Official site watch",
+      "status": "healthy",
+      "rows": 0,
+      "checked_at": "2026-09-17T10:56:44.726182+00:00"
     },
     {
       "id": "watch:luminance.com",
@@ -86,7 +85,7 @@
       "kind": "Official site watch",
       "status": "healthy",
       "rows": 0,
-      "checked_at": "2026-09-17T10:43:56.130260+00:00"
+      "checked_at": "2026-09-17T10:56:44.726182+00:00"
     },
     {
       "id": "watch:ironcladapp.com",
@@ -94,7 +93,7 @@
       "kind": "Official site watch",
       "status": "healthy",
       "rows": 0,
-      "checked_at": "2026-09-17T10:43:56.130260+00:00"
+      "checked_at": "2026-09-17T10:56:44.726182+00:00"
     },
     {
       "id": "watch:clio.com",
@@ -102,7 +101,7 @@
       "kind": "Official site watch",
       "status": "healthy",
       "rows": 0,
-      "checked_at": "2026-09-17T10:43:56.130260+00:00"
+      "checked_at": "2026-09-17T10:56:44.726182+00:00"
     },
     {
       "id": "watch:contractpodai.com",
@@ -110,7 +109,7 @@
       "kind": "Official site watch",
       "status": "healthy",
       "rows": 0,
-      "checked_at": "2026-09-17T10:43:56.130260+00:00"
+      "checked_at": "2026-09-17T10:56:44.726182+00:00"
     },
     {
       "id": "watch:accessnow.org",
@@ -118,7 +117,7 @@
       "kind": "Official site watch",
       "status": "healthy",
       "rows": 0,
-      "checked_at": "2026-09-17T10:43:56.130260+00:00"
+      "checked_at": "2026-09-17T10:56:44.726182+00:00"
     },
     {
       "id": "watch:noyb.eu",
@@ -126,7 +125,7 @@
       "kind": "Official site watch",
       "status": "healthy",
       "rows": 0,
-      "checked_at": "2026-09-17T10:43:56.130260+00:00"
+      "checked_at": "2026-09-17T10:56:44.726182+00:00"
     },
     {
       "id": "watch:edri.org",
@@ -134,7 +133,7 @@
       "kind": "Official site watch",
       "status": "healthy",
       "rows": 0,
-      "checked_at": "2026-09-17T10:43:56.130260+00:00"
+      "checked_at": "2026-09-17T10:56:44.726182+00:00"
     },
     {
       "id": "watch:algorithmwatch.org",
@@ -142,7 +141,7 @@
       "kind": "Official site watch",
       "status": "healthy",
       "rows": 0,
-      "checked_at": "2026-09-17T10:43:56.130260+00:00"
+      "checked_at": "2026-09-17T10:56:44.726182+00:00"
     },
     {
       "id": "watch:adalovelaceinstitute.org",
@@ -150,7 +149,7 @@
       "kind": "Official site watch",
       "status": "healthy",
       "rows": 0,
-      "checked_at": "2026-09-17T10:43:56.130260+00:00"
+      "checked_at": "2026-09-17T10:56:44.726182+00:00"
     },
     {
       "id": "watch:privacyinternational.org",
@@ -158,19 +157,19 @@
       "kind": "Official site watch",
       "status": "healthy",
       "rows": 0,
-      "checked_at": "2026-09-17T10:43:56.130260+00:00"
+      "checked_at": "2026-09-17T10:56:44.726182+00:00"
     },
     {
       "id": "web-discovery",
       "label": "General web discovery",
       "kind": "Search discovery",
       "status": "healthy",
-      "rows": 310,
-      "checked_at": "2026-09-17T10:43:56.130260+00:00",
+      "rows": 400,
+      "checked_at": "2026-09-17T10:56:44.726182+00:00",
       "queries": 40,
       "errors": 0
     }
   ],
-  "watchlist_queries": 12,
+  "watchlist_queries": 13,
   "web_queries": 40
 }
