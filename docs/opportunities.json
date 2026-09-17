@@ -10,6 +10,9 @@
     "organization": "Wikimedia Foundation",
     "location": "Remote",
     "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
     "opportunity_type": "Fellowship",
     "work_model": "Remote",
     "compensation_status": "funding_possible",
@@ -99,8 +102,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T09:29:13.902933+00:00",
-    "description_truncated": true
+    "last_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_checked": "2026-09-17T10:43:56.130260+00:00",
+    "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "greenhouse:wikimedia",
+        "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8130733",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Working Student, Legal (German-speaking)",
@@ -113,6 +127,9 @@
     "organization": "Via",
     "location": "Berlin, Germany",
     "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
     "opportunity_type": "Working student",
     "work_model": "Hybrid",
     "compensation_status": "paid",
@@ -201,7 +218,93 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T09:29:13.902933+00:00",
+    "last_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_checked": "2026-09-17T10:43:56.130260+00:00",
+    "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "greenhouse:via",
+        "url": "https://job-boards.greenhouse.io/via/jobs/8585955002",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
+  },
+  {
+    "title": "Law School Student Ambassador",
+    "url": "https://jobs.ashbyhq.com/harvey/a194c24f-38ee-4c7e-908b-060a16dfaa9d",
+    "description": "Organisation: Harvey. Location: Remote. Department: Legal. Team: Legal. Commitment: Contract. Work model: Remote. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview The Law School Student Ambassador is a current JD candidate who serves as Harvey's on-campus champion, connecting the product with the student community at their law school. This role sits within the Law School Partnerships team, whose mission is to make Harvey an indispensable part of legal education by embedding the platform into how students learn and work. By building peer-to-peer awareness and hosting hands-on programming, the Ambassador accelerates student adoption and generates insights that shape Harvey's academic go-to-market strategy. They partner with faculty, student organizations, and Harvey's internal partnerships and marketing teams to tailor …",
+    "role_context": "Law School Student Ambassador Legal Legal Contract",
+    "published": "2026-06-25T16:59:33.472+00:00",
+    "source": "ashby:harvey",
+    "source_type": "job_board",
+    "organization": "Harvey",
+    "location": "Remote",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [
+      "Current law students"
+    ],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 59,
+    "reasons": [
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "remote",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 93,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Early-career role matches the target career stage",
+      "Remote-friendly",
+      "Explicitly open to current law students"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_checked": "2026-09-17T10:43:56.130260+00:00",
+    "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true
   },
   {
@@ -271,7 +374,21 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T09:29:13.902933+00:00"
+    "last_seen": "2026-09-17T10:43:56.130260+00:00",
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "last_checked": "2026-09-17T10:43:56.130260+00:00",
+    "opportunity_identity": "role::open leg ch openleg::privacy review the datenschutzerklarung against actual retention::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/Open-LEG-ch/openleg/issues/558",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Werkstudent:in, Recht",
@@ -284,6 +401,9 @@
     "organization": "Via",
     "location": "Berlin, Germany",
     "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
     "opportunity_type": "Working student",
     "work_model": "Hybrid",
     "compensation_status": "unknown",
@@ -355,8 +475,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T09:29:13.902933+00:00",
-    "description_truncated": true
+    "last_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_checked": "2026-09-17T10:43:56.130260+00:00",
+    "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "greenhouse:via",
+        "url": "https://job-boards.greenhouse.io/via/jobs/8585553002",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "test: add tests for gdpr_compliance.rego (GDPR)",
@@ -425,7 +556,21 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T09:29:13.902933+00:00"
+    "last_seen": "2026-09-17T10:43:56.130260+00:00",
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "last_checked": "2026-09-17T10:43:56.130260+00:00",
+    "opportunity_identity": "role::ynotbhatc rego policy libraries::test add tests for gdpr compliance rego gdpr::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/ynotbhatc/rego_policy_libraries/issues/80",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "corpus(tier1): expand court-documented legal AI citation failures",
@@ -496,7 +641,21 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T09:29:13.902933+00:00"
+    "last_seen": "2026-09-17T10:43:56.130260+00:00",
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "last_checked": "2026-09-17T10:43:56.130260+00:00",
+    "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/yenklabs/Dali/issues/7",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Add industry file: Legal Tech",
@@ -564,6 +723,642 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T09:29:13.902933+00:00"
+    "last_seen": "2026-09-17T10:43:56.130260+00:00",
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "last_checked": "2026-09-17T10:43:56.130260+00:00",
+    "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/glacierphonk/naming/issues/194",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
+  },
+  {
+    "title": "Compliance Analyst",
+    "url": "https://jobs.ashbyhq.com/harvey/2f35e50f-2978-44c3-a495-7cbfc1f512d4",
+    "description": "Organisation: Harvey. Location: San Francisco. Department: Security. Team: Security. Commitment: FullTime. Work model: Hybrid. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview Some of the world's largest companies and their law firms use Harvey's AI capabilities to deliver world-class client services at unprecedented scale and efficiency. Harvey allows high-performing professionals to gain deep domain knowledge faster, understand the big picture, and tackle more complex challenges in less time. Our customers depend on us to deliver a secure, trustworthy, and compliant platform. Earning the trust of our customers is a business enabler and we value it more than anything else. In this role, you'll report to the Senior Compliance Manager and serve as a core executor on Harvey's certification and audit portfolio. You will …",
+    "role_context": "Compliance Analyst Security Security FullTime",
+    "published": "2026-06-03T22:05:25.977+00:00",
+    "source": "ashby:harvey",
+    "source_type": "job_board",
+    "organization": "Harvey",
+    "location": "San Francisco",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Hybrid",
+    "compensation_status": "paid",
+    "compensation": "$99,200 - $181,300",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 83,
+    "reasons": [
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 84,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_checked": "2026-09-17T10:43:56.130260+00:00",
+    "opportunity_identity": "role::harvey::compliance analyst::san francisco",
+    "description_truncated": true
+  },
+  {
+    "title": "Applied Legal Researcher",
+    "url": "https://jobs.ashbyhq.com/harvey/ec074cbf-8d48-4661-b26c-1fdfb01df783",
+    "description": "Organisation: Harvey. Location: New York. Department: Legal. Team: Legal. Commitment: FullTime. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview We are looking for a legal researcher with a strong understanding of how law firms, financial institutions, large corporations, and other organizations deliver professional services and execute complex legal and knowledge work tasks. We have incredible product-market fit and demand across diverse customer profiles. Executing on this demand requires a strong understanding of our customers' workflows and how those workflows can be accelerated by AI systems. What You'll Do To facilitate the development of these systems, you will: Develop and deliver subject-matter expertise to support AI research Work closely with our engineering, product, and design teams to define and develop …",
+    "role_context": "Applied Legal Researcher Legal Legal FullTime",
+    "published": "2026-02-05T02:49:07.110+00:00",
+    "source": "ashby:harvey",
+    "source_type": "job_board",
+    "organization": "Harvey",
+    "location": "New York",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Unspecified",
+    "compensation_status": "paid",
+    "compensation": "$180,000 - $220,000",
+    "duration": "7 years",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 73,
+    "reasons": [
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      }
+    ],
+    "fit_score": 84,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong research writing relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal",
+      "Relevant experience overlap: legal research"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_checked": "2026-09-17T10:43:56.130260+00:00",
+    "opportunity_identity": "role::harvey::applied legal researcher::new york",
+    "description_truncated": true
+  },
+  {
+    "title": "Applied Legal Researcher",
+    "url": "https://jobs.ashbyhq.com/harvey/a35efd1c-e5ad-4556-bfa4-d2e13f8b7f1c",
+    "description": "Organisation: Harvey. Location: San Francisco. Department: Legal. Team: Legal. Commitment: FullTime. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview We are looking for a legal researcher with a strong understanding of how law firms, financial institutions, large corporations, and other organizations deliver professional services and execute complex legal and knowledge work tasks. We have incredible product-market fit and demand across diverse customer profiles. Executing on this demand requires a strong understanding of our customers' workflows and how those workflows can be accelerated by AI systems. What You'll Do To facilitate the development of these systems, you will: Develop and deliver subject-matter expertise to support AI research Work closely with our engineering, product, and design teams to define and de …",
+    "role_context": "Applied Legal Researcher Legal Legal FullTime",
+    "published": "2026-02-05T02:45:51.904+00:00",
+    "source": "ashby:harvey",
+    "source_type": "job_board",
+    "organization": "Harvey",
+    "location": "San Francisco",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Unspecified",
+    "compensation_status": "paid",
+    "compensation": "$180,000 - $220,000",
+    "duration": "7 years",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 73,
+    "reasons": [
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      }
+    ],
+    "fit_score": 84,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong research writing relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal",
+      "Relevant experience overlap: legal research"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_checked": "2026-09-17T10:43:56.130260+00:00",
+    "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
+    "description_truncated": true
+  },
+  {
+    "title": "Legal Engineer Associate",
+    "url": "https://jobs.ashbyhq.com/legora/bd6f1721-3d21-4a41-9b99-edf946e84056",
+    "description": "Organisation: Legora. Location: San Francisco. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 1,000+ customers across 50+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $100M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI and Graceview. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role This is a unique opportunity to sit at the intersection of law, technology, and product. You’ll gain hands on experience in how cutting edge AI is transforming the legal industry, while contributing directly to the development, testing, and adoption of our platform. You’ll work closely with our Legal Engineers, Customer Success, and Product teams to: Support client facing pilots, onboarding, and training, helping legal teams get the most out of Legora. Design and evaluate use cases that showcase our AI on real legal ta …",
+    "role_context": "Legal Engineer Associate Legal Engineering Legal Engineering FullTime",
+    "published": "2026-05-18T15:20:09.893+00:00",
+    "source": "ashby:legora",
+    "source_type": "job_board",
+    "organization": "Legora",
+    "location": "San Francisco",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "On-site",
+    "compensation_status": "paid",
+    "compensation": "$100",
+    "duration": "2 years",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 71,
+    "reasons": [
+      {
+        "signal": "legal_tech",
+        "points": 18
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      }
+    ],
+    "fit_score": 81,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal tech relevance",
+      "Strong legal relevance",
+      "Strong research writing relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_checked": "2026-09-17T10:43:56.130260+00:00",
+    "opportunity_identity": "role::legora::legal engineer associate::san francisco",
+    "description_truncated": true
+  },
+  {
+    "title": "Legal Engineer Associate",
+    "url": "https://jobs.ashbyhq.com/legora/b2fca281-1bd1-4291-a4d7-ec819447ec82",
+    "description": "Organisation: Legora. Location: New York City. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 1,000+ customers across 50+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $100M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI and Graceview. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role This is a unique opportunity to sit at the intersection of law, technology, and product. You’ll gain hands on experience in how cutting edge AI is transforming the legal industry, while contributing directly to the development, testing, and adoption of our platform. You’ll work closely with our Legal Engineers, Customer Success, and Product teams to: Support client facing pilots, onboarding, and training, helping legal teams get the most out of Legora. Design and evaluate use cases that showcase our AI on real legal ta …",
+    "role_context": "Legal Engineer Associate Legal Engineering Legal Engineering FullTime",
+    "published": "2026-02-03T17:19:28.011+00:00",
+    "source": "ashby:legora",
+    "source_type": "job_board",
+    "organization": "Legora",
+    "location": "New York City",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "On-site",
+    "compensation_status": "paid",
+    "compensation": "$100",
+    "duration": "2 years",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 71,
+    "reasons": [
+      {
+        "signal": "legal_tech",
+        "points": 18
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      }
+    ],
+    "fit_score": 81,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal tech relevance",
+      "Strong legal relevance",
+      "Strong research writing relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_checked": "2026-09-17T10:43:56.130260+00:00",
+    "opportunity_identity": "role::legora::legal engineer associate::new york city",
+    "description_truncated": true
+  },
+  {
+    "title": "Legal Engineering Operations Associate",
+    "url": "https://jobs.ashbyhq.com/legora/3c75574c-f213-4e41-a172-ac08c85ed68e",
+    "description": "Organisation: Legora. Location: Stockholm HQ. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 1,000+ customers across 50+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $100M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI and Graceview. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. About the role We are hiring a Legal Engineering Operations Associate to join the Global Legal Engineering Operations family in Stockholm, based in the office five days per week. You will report to the Global Legal Engineering Operations Lead and work with the Head of Legal Engineering EMEA as your clear primary regional stakeholder and executive sponsor. Legal Engineering EMEA is scaling quickly across markets, offices and customer segments. This role will help run the system around that growth. You will turn data, meetings and …",
+    "role_context": "Legal Engineering Operations Associate Legal Engineering Legal Engineering FullTime",
+    "published": "2026-09-01T14:06:19.296+00:00",
+    "source": "ashby:legora",
+    "source_type": "job_board",
+    "organization": "Legora",
+    "location": "Stockholm HQ",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "On-site",
+    "compensation_status": "paid",
+    "compensation": "$100",
+    "duration": "3 years",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 67,
+    "reasons": [
+      {
+        "signal": "legal_tech",
+        "points": 18
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 72,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong legal tech relevance",
+      "Strong legal relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_checked": "2026-09-17T10:43:56.130260+00:00",
+    "opportunity_identity": "role::legora::legal engineering operations associate::stockholm hq",
+    "description_truncated": true
+  },
+  {
+    "title": "Legal Engineering Operations Associate",
+    "url": "https://jobs.ashbyhq.com/legora/6be81d98-cd4b-47d4-b388-3d20e8401311",
+    "description": "Organisation: Legora. Location: New York City. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 1,000+ customers across 50+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $100M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI and Graceview. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role Legal Engineering (LE) sits at the center of how Legora wins. Our LEs run pilots, lead rollouts, drive product feedback, and bring deep legal subject-matter depth to every client. As we dramatically scale the North America team, we need someone to keep the engine running. The Legal Engineering Operations Associate is the data and operations backbone of the LE org. You'll build the reporting, run the trackers, and support the strategic operations projects that keep the function moving. This is a high-trust role for some …",
+    "role_context": "Legal Engineering Operations Associate Legal Engineering Legal Engineering FullTime",
+    "published": "2026-08-13T00:40:35.186+00:00",
+    "source": "ashby:legora",
+    "source_type": "job_board",
+    "organization": "Legora",
+    "location": "New York City",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "On-site",
+    "compensation_status": "paid",
+    "compensation": "$100",
+    "duration": "1-3 years",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 67,
+    "reasons": [
+      {
+        "signal": "legal_tech",
+        "points": 18
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 72,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong legal tech relevance",
+      "Strong legal relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_checked": "2026-09-17T10:43:56.130260+00:00",
+    "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
+    "description_truncated": true
+  },
+  {
+    "title": "Associate Commercial Counsel, London",
+    "url": "https://jobs.ashbyhq.com/harvey/0a8ca756-7d41-46cc-8cde-960af47658b2",
+    "description": "Organisation: Harvey. Location: London. Department: Legal. Team: Legal. Commitment: FullTime. Work model: Hybrid. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview We are looking for a Commercial Counsel to join our legal team. Reporting to the Head of EMEA Legal in London, you will interface with our Go-To-Market team to help ensure the fast and efficient execution of our agreements with customers. What You’ll Do Generative AI has the power to greatly change the world and directly impact how things get done.  Harvey is at the forefront of this change, and our mission is to make generative AI actionable and useful for our customers.  This is a fast moving environment (we are a start-up!) that is serving some of the world’s most renowned law firms and professional service organizations.  And this role will put you in t …",
+    "role_context": "Associate Commercial Counsel, London Legal Legal FullTime",
+    "published": "2026-07-07T09:01:37.566+00:00",
+    "source": "ashby:harvey",
+    "source_type": "job_board",
+    "organization": "Harvey",
+    "location": "London",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Hybrid",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 32,
+    "reasons": [
+      {
+        "signal": "qualified_professional_title",
+        "points": -35
+      },
+      {
+        "signal": "ai_governance",
+        "points": 18
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 59,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong ai governance relevance",
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Early-career role matches the target career stage"
+    ],
+    "fit_gaps": [
+      "Title suggests a qualified professional role"
+    ],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_checked": "2026-09-17T10:43:56.130260+00:00",
+    "opportunity_identity": "role::harvey::associate commercial counsel london::london",
+    "description_truncated": true
   }
 ]
