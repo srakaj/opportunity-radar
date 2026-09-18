@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T10:56:44.726182+00:00",
-    "last_checked": "2026-09-17T10:56:44.726182+00:00",
+    "last_seen": "2026-09-18T05:25:50.019198+00:00",
+    "last_checked": "2026-09-18T05:25:50.019198+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T10:56:44.726182+00:00",
-    "last_checked": "2026-09-17T10:56:44.726182+00:00",
+    "last_seen": "2026-09-18T05:25:50.019198+00:00",
+    "last_checked": "2026-09-18T05:25:50.019198+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -302,8 +302,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-17T10:56:44.726182+00:00",
-    "last_checked": "2026-09-17T10:56:44.726182+00:00",
+    "last_seen": "2026-09-18T05:25:50.019198+00:00",
+    "last_checked": "2026-09-18T05:25:50.019198+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -484,8 +484,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T10:56:44.726182+00:00",
-    "last_checked": "2026-09-17T10:56:44.726182+00:00",
+    "last_seen": "2026-09-18T05:25:50.019198+00:00",
+    "last_checked": "2026-09-18T05:25:50.019198+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -582,6 +582,169 @@
     "duplicate_count": 0
   },
   {
+    "title": "Export cost and governance data (on-demand snapshot; streaming as follow-up)",
+    "url": "https://github.com/theagentplane/control-plane/issues/17",
+    "description": "Open-source contribution opportunity. Repository: theagentplane/control-plane. Labels: enhancement, help wanted. ## Summary\n\nLet users get their data out of the control plane for **FinOps / chargeback reporting** and **audit / compliance**. The plane's SQLite holds it all (run-records, spend, governance events), but today there's no way to pull it into a spreadsheet, a cost tool, or an archive. Two modes; v1 is the on-demand snapshot.\n\n## What to export\n\n- **Run-records** — cost per run, agent, and segment over a time window. This is the FinOps view (who spent what).\n- **Governance events** — the audit trail: halts, MUTATE/INJECT decisions, which policy fired and why. This is the compliance view.\n- **Not** the raw ledger accumulators (`ledger_spent` by budget/segment) — they're aggregate and low-value raw; the run-level breakdown above is what people actually want.\n\n## Modes\n\n### v1 — on-demand snapshot (pull)\n- A `GET /v1/export` route returning run-records and/or governance events, filtered by **time range, run, agent, segment**.\n- Formats: **CSV** (finance/spreadsheets) and **JSON / JSONL** (pipelines).\n- Surfaces: an Admin UI \"Export\" button and a thin SDK/CLI helper on top of the route.\n\n### Follow-up — continuous / streaming (push)\n- Push ledger/governance events to an external sink (webhook, S3, OpenTelemetry, a FinOps tool) as they happen. Bigger scope; separate issue once v1 lands.\n\n## Open decisions (comment before building)\n\n- Which fields/columns matter most for the FinOps CSV (cost, tokens, cached, model, agent, segment, timestamps)?\n- **Auth/scope**: export should require `read` scope and respect tenant ownership (ties to #6 and #16) — a caller must not export another tenant's spend.\n- Pagination / size limits and streaming the response for large exports.\n\n## Acceptance (v1)\n\n- [ ] Pull run-records + governance events over a time range in CSV and JSON.\n- [ ] Scoped by `read` auth and tenant; no cross-tenant export.\n- [ ] Admin \"Export\" button + SDK/CLI …",
+    "role_context": "Export cost and governance data (on-demand snapshot; streaming as follow-up) theagentplane/control-plane enhancement, help wanted",
+    "published": "2026-09-17T20:18:12Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "theagentplane/control-plane",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 33,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 86,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong compliance relevance",
+      "Strong governance relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-18T05:25:50.019198+00:00",
+    "last_seen": "2026-09-18T05:25:50.019198+00:00",
+    "last_checked": "2026-09-18T05:25:50.019198+00:00",
+    "opportunity_identity": "role::theagentplane control plane::export cost and governance data on demand snapshot streaming as follow up::remote open source",
+    "description_truncated": true
+  },
+  {
+    "title": "docs: EU AI Act high-risk date in COMPETITIVE-ANALYSIS.md was superseded before it arrived",
+    "url": "https://github.com/arthurpanhku/dvalincode/issues/238",
+    "description": "Open-source contribution opportunity. Repository: arthurpanhku/dvalincode. Labels: documentation, good first issue. ## What\n\n`docs/COMPETITIVE-ANALYSIS.md` cites **「EU AI Act 高风险义务 2026-08-02 生效」** as regulatory tailwind in three places — lines 88, 136 and 270.\n\nThat date no longer holds. **Regulation (EU) 2026/1744** (the Digital Omnibus on AI) was published in the Official Journal on **24 July 2026** and entered into force on **27 July 2026**. It defers:\n\n- Annex III standalone high-risk systems: 2 August 2026 → **2 December 2027**\n- Annex I high-risk in regulated products: → **2 August 2028**\n\nThe Commission's stated reason was that neither industry nor CEN/CENELEC would have harmonised standards ready, and the conformity-assessment infrastructure the Act assumes had not matured.\n\n## Why it's worth fixing rather than leaving\n\nThe document argues Dvalin's hash-chain audit and Evidence Pack catch a regulatory wave. That argument survives — but a security reviewer who follows this file will notice the date passed with nothing happening, which undercuts the surrounding claims more than the correction costs.\n\n**The tailwind is rescheduled, not cancelled**, and the doc can say so more precisely than it does now:\n\n- **Article 50 transparency obligations have applied since the start of September 2026** — that is live today.\n- Two new prohibitions land in December 2026.\n- The quality-management standard to build against already exists.\n\nSo the honest framing is nearer-term in one respect and much later in another, rather than simply \"delayed.\"\n\n## Acceptance\n\n- The three citations state the current dates and their legal source (Regulation (EU) 2026/1744).\n- The distinction between deferred high-risk obligations and the Article 50 obligations already in force is explicit.\n\nSources: [Gibson Dunn](https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/) · [CSA — Deferred, Not Cancelled](https://labs.cloudsecurityalliance.or …",
+    "role_context": "docs: EU AI Act high-risk date in COMPETITIVE-ANALYSIS.md was superseded before it arrived arthurpanhku/dvalincode documentation, good first issue",
+    "published": "2026-09-17T14:44:46Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "arthurpanhku/dvalincode",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 62,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "ai_governance",
+        "points": 18
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong ai governance relevance",
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-18T05:25:50.019198+00:00",
+    "last_seen": "2026-09-18T05:25:50.019198+00:00",
+    "last_checked": "2026-09-18T05:25:50.019198+00:00",
+    "opportunity_identity": "role::arthurpanhku dvalincode::docs eu ai act high risk date in competitive analysis md was superseded before it arrived::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "corpus(tier1): expand court-documented legal AI citation failures",
     "url": "https://github.com/yenklabs/Dali/issues/7",
     "description": "Open-source contribution opportunity. Repository: yenklabs/Dali. Labels: help wanted, benchmark, research. ## Problem\nTier 1 currently contains a small set of canonical legal AI citation failures.\nThe benchmark should expand carefully using only:\n- court-documented incidents\n- canonically retrievable authorities\n- reproducible source URLs\n- stable citation metadata\n\n---\n\n## Requirements for scoring-eligible additions\nEach record should include:\n- authoritative source URL\n- retrieval timestamp\n- canonical citation metadata\n- reproducible verification path\n- documented judicial or regulatory context\n\n---\n\n## Non-goals\nDo NOT add:\n- social-media anecdotes\n- unverifiable claims\n- media summaries without underlying authority\n- speculative incidents\n\n---\n\n## Potential future additions\n- sanctions orders\n- judicial findings involving fabricated citations\n- disciplinary proceedings\n- verified filing incidents involving non-existent authorities",
@@ -650,11 +813,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T10:56:44.726182+00:00",
+    "last_seen": "2026-09-18T05:25:50.019198+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-17T10:56:44.726182+00:00",
+    "last_checked": "2026-09-18T05:25:50.019198+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -732,11 +895,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-17T10:56:44.726182+00:00",
+    "last_seen": "2026-09-18T05:25:50.019198+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-17T10:56:44.726182+00:00",
+    "last_checked": "2026-09-18T05:25:50.019198+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -825,8 +988,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-17T10:56:44.726182+00:00",
-    "last_checked": "2026-09-17T10:56:44.726182+00:00",
+    "last_seen": "2026-09-18T05:25:50.019198+00:00",
+    "last_checked": "2026-09-18T05:25:50.019198+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -912,8 +1075,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-17T10:56:44.726182+00:00",
-    "last_checked": "2026-09-17T10:56:44.726182+00:00",
+    "last_seen": "2026-09-18T05:25:50.019198+00:00",
+    "last_checked": "2026-09-18T05:25:50.019198+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -999,8 +1162,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-17T10:56:44.726182+00:00",
-    "last_checked": "2026-09-17T10:56:44.726182+00:00",
+    "last_seen": "2026-09-18T05:25:50.019198+00:00",
+    "last_checked": "2026-09-18T05:25:50.019198+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -1031,7 +1194,7 @@
     "work_model": "On-site",
     "compensation_status": "paid",
     "compensation": "$100",
-    "duration": "2 years",
+    "duration": "",
     "commitment": "",
     "deadline": "",
     "deadline_status": "unknown",
@@ -1085,8 +1248,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-17T10:56:44.726182+00:00",
-    "last_checked": "2026-09-17T10:56:44.726182+00:00",
+    "last_seen": "2026-09-18T05:25:50.019198+00:00",
+    "last_checked": "2026-09-18T05:25:50.019198+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -1171,8 +1334,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-17T10:56:44.726182+00:00",
-    "last_checked": "2026-09-17T10:56:44.726182+00:00",
+    "last_seen": "2026-09-18T05:25:50.019198+00:00",
+    "last_checked": "2026-09-18T05:25:50.019198+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -1256,8 +1419,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-17T10:56:44.726182+00:00",
-    "last_checked": "2026-09-17T10:56:44.726182+00:00",
+    "last_seen": "2026-09-18T05:25:50.019198+00:00",
+    "last_checked": "2026-09-18T05:25:50.019198+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -1288,7 +1451,7 @@
     "work_model": "On-site",
     "compensation_status": "paid",
     "compensation": "$100",
-    "duration": "1-3 years",
+    "duration": "",
     "commitment": "",
     "deadline": "",
     "deadline_status": "unknown",
@@ -1341,8 +1504,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-17T10:56:44.726182+00:00",
-    "last_checked": "2026-09-17T10:56:44.726182+00:00",
+    "last_seen": "2026-09-18T05:25:50.019198+00:00",
+    "last_checked": "2026-09-18T05:25:50.019198+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -1428,8 +1591,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-17T10:56:44.726182+00:00",
-    "last_checked": "2026-09-17T10:56:44.726182+00:00",
+    "last_seen": "2026-09-18T05:25:50.019198+00:00",
+    "last_checked": "2026-09-18T05:25:50.019198+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   }
