@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-18T05:25:50.019198+00:00",
-    "last_checked": "2026-09-18T05:25:50.019198+00:00",
+    "last_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_checked": "2026-09-19T05:24:57.379111+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-18T05:25:50.019198+00:00",
-    "last_checked": "2026-09-18T05:25:50.019198+00:00",
+    "last_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_checked": "2026-09-19T05:24:57.379111+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -302,8 +302,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-18T05:25:50.019198+00:00",
-    "last_checked": "2026-09-18T05:25:50.019198+00:00",
+    "last_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_checked": "2026-09-19T05:24:57.379111+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -315,6 +315,80 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "Add privacy policy, terms of service, and returns/refund pages",
+    "url": "https://github.com/bkoimett/e-commerce/issues/36",
+    "description": "Open-source contribution opportunity. Repository: bkoimett/e-commerce. Labels: enhancement, good first issue. Publish the legal pages required under Kenya's Data Protection Act and\nfor payment provider approval, per `design.md` §13.",
+    "role_context": "Add privacy policy, terms of service, and returns/refund pages bkoimett/e-commerce enhancement, good first issue",
+    "published": "2026-09-18T06:08:33Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "bkoimett/e-commerce",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 28,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 90,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: data protection"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_checked": "2026-09-19T05:24:57.379111+00:00",
+    "opportunity_identity": "role::bkoimett e commerce::add privacy policy terms of service and returns refund pages::remote open source"
   },
   {
     "title": "privacy: review the Datenschutzerklärung against actual retention",
@@ -484,8 +558,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-18T05:25:50.019198+00:00",
-    "last_checked": "2026-09-18T05:25:50.019198+00:00",
+    "last_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_checked": "2026-09-19T05:24:57.379111+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -497,6 +571,80 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "Review alate's privacy policy for content that doesn't belong in a privacy policy",
+    "url": "https://github.com/Tessellate-Studio/tessellate-pages/issues/13",
+    "description": "Open-source contribution opportunity. Repository: Tessellate-Studio/tessellate-pages. Labels: help wanted, P0. Owner request 2026-09-18: double-check `alate/privacy-policy.html` (v5 after #12) for anything that typically should **not** be in a privacy policy, and for anything legally required that is missing or weak. This is a review task: list findings with a recommendation each, and change nothing without an owner decision.\n\n## Candidates already spotted (2026-09-18, while checking #12)\nThese are observations for the reviewer to confirm or dismiss. None of them is a legal opinion.\n\n1. **§14: \"Continued use after changes constitutes acceptance.\"** This is a terms-of-service clause. A privacy policy informs; it doesn't collect agreement, and under GDPR consent can't be inferred from continued use. The usual wording is \"we will notify you of material changes\" (in-app or by email) instead.\n2. **§11 Grievance Officer shows a personal first name (\"Saptami\").** DPDP needs a reachable contact. Whether to publish a person's name or a role plus `privacy@` is an owner choice. Flagged because it puts a real person's name on a public page.\n3. **Implementation detail: \"AsyncStorage\" (§7 Security).** It's internal tech jargon that means nothing to a reader. \"Stored in the app's private storage on your device\" says the same thing.\n4. **Changelog-style history in the body:** \"Crash reports previously carried an approximate country… as of September 2026 we strip that\" (§1f). History usually lives in a change log, not in the current statement of practice.\n5. **Age thresholds: 16+ age gate vs. under-18 parental consent for India (§11/§12).** The two sections are internally consistent, but the app only gates at 16. Confirm the India wording matches what the app actually does, so it doesn't promise a check the app doesn't run.\n\n## Also check for (typical out-of-place content)\n- Promises the code doesn't enforce (#785 found several; #12 fixed another). Every retention line should point …",
+    "role_context": "Review alate's privacy policy for content that doesn't belong in a privacy policy Tessellate-Studio/tessellate-pages help wanted, P0",
+    "published": "2026-09-18T08:38:50Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Tessellate-Studio/tessellate-pages",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 28,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 87,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_checked": "2026-09-19T05:24:57.379111+00:00",
+    "opportunity_identity": "role::tessellate studio tessellate pages::review alate s privacy policy for content that doesn t belong in a privacy policy::remote open source",
+    "description_truncated": true
   },
   {
     "title": "test: add tests for gdpr_compliance.rego (GDPR)",
@@ -583,13 +731,13 @@
   },
   {
     "title": "Export cost and governance data (on-demand snapshot; streaming as follow-up)",
-    "url": "https://github.com/theagentplane/control-plane/issues/17",
-    "description": "Open-source contribution opportunity. Repository: theagentplane/control-plane. Labels: enhancement, help wanted. ## Summary\n\nLet users get their data out of the control plane for **FinOps / chargeback reporting** and **audit / compliance**. The plane's SQLite holds it all (run-records, spend, governance events), but today there's no way to pull it into a spreadsheet, a cost tool, or an archive. Two modes; v1 is the on-demand snapshot.\n\n## What to export\n\n- **Run-records** — cost per run, agent, and segment over a time window. This is the FinOps view (who spent what).\n- **Governance events** — the audit trail: halts, MUTATE/INJECT decisions, which policy fired and why. This is the compliance view.\n- **Not** the raw ledger accumulators (`ledger_spent` by budget/segment) — they're aggregate and low-value raw; the run-level breakdown above is what people actually want.\n\n## Modes\n\n### v1 — on-demand snapshot (pull)\n- A `GET /v1/export` route returning run-records and/or governance events, filtered by **time range, run, agent, segment**.\n- Formats: **CSV** (finance/spreadsheets) and **JSON / JSONL** (pipelines).\n- Surfaces: an Admin UI \"Export\" button and a thin SDK/CLI helper on top of the route.\n\n### Follow-up — continuous / streaming (push)\n- Push ledger/governance events to an external sink (webhook, S3, OpenTelemetry, a FinOps tool) as they happen. Bigger scope; separate issue once v1 lands.\n\n## Open decisions (comment before building)\n\n- Which fields/columns matter most for the FinOps CSV (cost, tokens, cached, model, agent, segment, timestamps)?\n- **Auth/scope**: export should require `read` scope and respect tenant ownership (ties to #6 and #16) — a caller must not export another tenant's spend.\n- Pagination / size limits and streaming the response for large exports.\n\n## Acceptance (v1)\n\n- [ ] Pull run-records + governance events over a time range in CSV and JSON.\n- [ ] Scoped by `read` auth and tenant; no cross-tenant export.\n- [ ] Admin \"Export\" button + SDK/CLI …",
-    "role_context": "Export cost and governance data (on-demand snapshot; streaming as follow-up) theagentplane/control-plane enhancement, help wanted",
-    "published": "2026-09-17T20:18:12Z",
+    "url": "https://github.com/theagentplane/tokenops/issues/145",
+    "description": "Open-source contribution opportunity. Repository: theagentplane/tokenops. Labels: enhancement, help wanted. > **Note:** Tracked here on tokenops for visibility. The feature is implemented mostly in the **control plane** (that's where the data and routes live: `theagentplane/control-plane`), with a thin SDK/CLI helper in tokenops. Transferred from `theagentplane/control-plane#17`.\n\n## Summary\n\nLet users get their data out of the control plane for **FinOps / chargeback reporting** and **audit / compliance**. The plane's SQLite holds it all (run-records, spend, governance events), but today there's no way to pull it into a spreadsheet, a cost tool, or an archive. Two modes; v1 is the on-demand snapshot.\n\n## What to export\n\n- **Run-records** — cost per run, agent, and segment over a time window. This is the FinOps view (who spent what).\n- **Governance events** — the audit trail: halts, MUTATE/INJECT decisions, which policy fired and why. This is the compliance view.\n- **Not** the raw ledger accumulators (`ledger_spent` by budget/segment) — they're aggregate and low-value raw; the run-level breakdown above is what people actually want.\n\n## Modes\n\n### v1 — on-demand snapshot (pull)\n- A `GET /v1/export` route on the control plane returning run-records and/or governance events, filtered by **time range, run, agent, segment**.\n- Formats: **CSV** (finance/spreadsheets) and **JSON / JSONL** (pipelines).\n- Surfaces: an Admin UI \"Export\" button and a thin SDK/CLI helper in tokenops on top of the route.\n\n### Follow-up — continuous / streaming (push)\n- Push ledger/governance events to an external sink (webhook, S3, OpenTelemetry, a FinOps tool) as they happen. Bigger scope; separate issue once v1 lands.\n\n## Open decisions (comment before building)\n\n- Which fields/columns matter most for the FinOps CSV (cost, tokens, cached, model, agent, segment, timestamps)?\n- **Auth/scope**: export should require `read` scope and respect tenant ownership (ties to `theagentplane/control-plane#6` …",
+    "role_context": "Export cost and governance data (on-demand snapshot; streaming as follow-up) theagentplane/tokenops enhancement, help wanted",
+    "published": "2026-09-18T19:45:08Z",
     "source": "github-issues-api",
     "source_type": "open_source",
-    "organization": "theagentplane/control-plane",
+    "organization": "theagentplane/tokenops",
     "location": "Remote / open source",
     "structured_opportunity": true,
     "source_quality": "Open source",
@@ -653,10 +801,10 @@
     "fit_gaps": [],
     "fit_blockers": [],
     "fit_version": "0.4",
-    "first_seen": "2026-09-18T05:25:50.019198+00:00",
-    "last_seen": "2026-09-18T05:25:50.019198+00:00",
-    "last_checked": "2026-09-18T05:25:50.019198+00:00",
-    "opportunity_identity": "role::theagentplane control plane::export cost and governance data on demand snapshot streaming as follow up::remote open source",
+    "first_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_checked": "2026-09-19T05:24:57.379111+00:00",
+    "opportunity_identity": "role::theagentplane tokenops::export cost and governance data on demand snapshot streaming as follow up::remote open source",
     "description_truncated": true
   },
   {
@@ -739,10 +887,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-18T05:25:50.019198+00:00",
-    "last_seen": "2026-09-18T05:25:50.019198+00:00",
-    "last_checked": "2026-09-18T05:25:50.019198+00:00",
+    "last_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_checked": "2026-09-19T05:24:57.379111+00:00",
     "opportunity_identity": "role::arthurpanhku dvalincode::docs eu ai act high risk date in competitive analysis md was superseded before it arrived::remote open source",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/arthurpanhku/dvalincode/issues/238",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "corpus(tier1): expand court-documented legal AI citation failures",
@@ -813,11 +970,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-18T05:25:50.019198+00:00",
+    "last_seen": "2026-09-19T05:24:57.379111+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-18T05:25:50.019198+00:00",
+    "last_checked": "2026-09-19T05:24:57.379111+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -895,11 +1052,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-18T05:25:50.019198+00:00",
+    "last_seen": "2026-09-19T05:24:57.379111+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-18T05:25:50.019198+00:00",
+    "last_checked": "2026-09-19T05:24:57.379111+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -988,8 +1145,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-18T05:25:50.019198+00:00",
-    "last_checked": "2026-09-18T05:25:50.019198+00:00",
+    "last_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_checked": "2026-09-19T05:24:57.379111+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -1075,8 +1232,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-18T05:25:50.019198+00:00",
-    "last_checked": "2026-09-18T05:25:50.019198+00:00",
+    "last_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_checked": "2026-09-19T05:24:57.379111+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -1162,8 +1319,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-18T05:25:50.019198+00:00",
-    "last_checked": "2026-09-18T05:25:50.019198+00:00",
+    "last_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_checked": "2026-09-19T05:24:57.379111+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -1248,8 +1405,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-18T05:25:50.019198+00:00",
-    "last_checked": "2026-09-18T05:25:50.019198+00:00",
+    "last_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_checked": "2026-09-19T05:24:57.379111+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -1334,8 +1491,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-18T05:25:50.019198+00:00",
-    "last_checked": "2026-09-18T05:25:50.019198+00:00",
+    "last_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_checked": "2026-09-19T05:24:57.379111+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -1419,8 +1576,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-18T05:25:50.019198+00:00",
-    "last_checked": "2026-09-18T05:25:50.019198+00:00",
+    "last_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_checked": "2026-09-19T05:24:57.379111+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -1504,8 +1661,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-18T05:25:50.019198+00:00",
-    "last_checked": "2026-09-18T05:25:50.019198+00:00",
+    "last_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_checked": "2026-09-19T05:24:57.379111+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -1591,8 +1748,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-18T05:25:50.019198+00:00",
-    "last_checked": "2026-09-18T05:25:50.019198+00:00",
+    "last_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_checked": "2026-09-19T05:24:57.379111+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   }
