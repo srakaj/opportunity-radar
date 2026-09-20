@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_checked": "2026-09-19T05:24:57.379111+00:00",
+    "last_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_checked": "2026-09-20T05:25:25.695624+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_checked": "2026-09-19T05:24:57.379111+00:00",
+    "last_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_checked": "2026-09-20T05:25:25.695624+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -302,8 +302,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_checked": "2026-09-19T05:24:57.379111+00:00",
+    "last_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_checked": "2026-09-20T05:25:25.695624+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -386,9 +386,18 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_checked": "2026-09-19T05:24:57.379111+00:00",
-    "opportunity_identity": "role::bkoimett e commerce::add privacy policy terms of service and returns refund pages::remote open source"
+    "last_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_checked": "2026-09-20T05:25:25.695624+00:00",
+    "opportunity_identity": "role::bkoimett e commerce::add privacy policy terms of service and returns refund pages::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/bkoimett/e-commerce/issues/36",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "privacy: review the Datenschutzerklärung against actual retention",
@@ -558,8 +567,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_checked": "2026-09-19T05:24:57.379111+00:00",
+    "last_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_checked": "2026-09-20T05:25:25.695624+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -571,6 +580,79 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "Add privacy principles for a student finance app",
+    "url": "https://github.com/transportblueberries/flouze_budget/issues/3",
+    "description": "Open-source contribution opportunity. Repository: transportblueberries/flouze_budget. Labels: documentation, good first issue. ## Goal\nDocument the privacy principles that should guide Flouze as a student budgeting and personal finance project.\n\n## Task\nCreate `docs/privacy-principles.md` with a short set of product principles covering topics such as:\n- Collect only data that is necessary\n- Be transparent about what is stored\n- Avoid selling personal data\n- Give users control over their data\n- Prefer secure defaults\n- Avoid exposing sensitive financial information in logs or analytics\n\nThis is a principles document, not a legal privacy policy.\n\n## Acceptance criteria\n- Keep it concise and understandable to non-lawyers\n- Do not make claims about current technical implementation that cannot be verified\n- Clearly state that the document is guidance for development, not legal advice\n\nThis is suitable for a first contribution and does not require coding.",
+    "role_context": "Add privacy principles for a student finance app transportblueberries/flouze_budget documentation, good first issue",
+    "published": "2026-09-19T23:34:52Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "transportblueberries/flouze_budget",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 28,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 87,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_checked": "2026-09-20T05:25:25.695624+00:00",
+    "opportunity_identity": "role::transportblueberries flouze budget::add privacy principles for a student finance app::remote open source"
   },
   {
     "title": "Review alate's privacy policy for content that doesn't belong in a privacy policy",
@@ -641,10 +723,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_checked": "2026-09-19T05:24:57.379111+00:00",
+    "last_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_checked": "2026-09-20T05:25:25.695624+00:00",
     "opportunity_identity": "role::tessellate studio tessellate pages::review alate s privacy policy for content that doesn t belong in a privacy policy::remote open source",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/Tessellate-Studio/tessellate-pages/issues/13",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "test: add tests for gdpr_compliance.rego (GDPR)",
@@ -730,14 +821,14 @@
     "duplicate_count": 0
   },
   {
-    "title": "Export cost and governance data (on-demand snapshot; streaming as follow-up)",
-    "url": "https://github.com/theagentplane/tokenops/issues/145",
-    "description": "Open-source contribution opportunity. Repository: theagentplane/tokenops. Labels: enhancement, help wanted. > **Note:** Tracked here on tokenops for visibility. The feature is implemented mostly in the **control plane** (that's where the data and routes live: `theagentplane/control-plane`), with a thin SDK/CLI helper in tokenops. Transferred from `theagentplane/control-plane#17`.\n\n## Summary\n\nLet users get their data out of the control plane for **FinOps / chargeback reporting** and **audit / compliance**. The plane's SQLite holds it all (run-records, spend, governance events), but today there's no way to pull it into a spreadsheet, a cost tool, or an archive. Two modes; v1 is the on-demand snapshot.\n\n## What to export\n\n- **Run-records** — cost per run, agent, and segment over a time window. This is the FinOps view (who spent what).\n- **Governance events** — the audit trail: halts, MUTATE/INJECT decisions, which policy fired and why. This is the compliance view.\n- **Not** the raw ledger accumulators (`ledger_spent` by budget/segment) — they're aggregate and low-value raw; the run-level breakdown above is what people actually want.\n\n## Modes\n\n### v1 — on-demand snapshot (pull)\n- A `GET /v1/export` route on the control plane returning run-records and/or governance events, filtered by **time range, run, agent, segment**.\n- Formats: **CSV** (finance/spreadsheets) and **JSON / JSONL** (pipelines).\n- Surfaces: an Admin UI \"Export\" button and a thin SDK/CLI helper in tokenops on top of the route.\n\n### Follow-up — continuous / streaming (push)\n- Push ledger/governance events to an external sink (webhook, S3, OpenTelemetry, a FinOps tool) as they happen. Bigger scope; separate issue once v1 lands.\n\n## Open decisions (comment before building)\n\n- Which fields/columns matter most for the FinOps CSV (cost, tokens, cached, model, agent, segment, timestamps)?\n- **Auth/scope**: export should require `read` scope and respect tenant ownership (ties to `theagentplane/control-plane#6` …",
-    "role_context": "Export cost and governance data (on-demand snapshot; streaming as follow-up) theagentplane/tokenops enhancement, help wanted",
-    "published": "2026-09-18T19:45:08Z",
+    "title": "feat: Map security checks to NIST AI RMF and ISO/IEC 42001 compliance frameworks",
+    "url": "https://github.com/aws-samples/sample-aiml-security-assessment/issues/35",
+    "description": "Open-source contribution opportunity. Repository: aws-samples/sample-aiml-security-assessment. Labels: enhancement, help wanted. ## Summary\n\nSecurity practitioners and compliance teams need to map findings to established AI governance frameworks. This issue tracks adding **NIST AI Risk Management Framework (AI RMF)** and **ISO/IEC 42001** control mappings so findings can be traced to those frameworks in the report.\n\n## Approach — OWASP-style compliance standards\n\nAdd each framework as a first-class compliance standard following the existing **OWASP Top 10 for LLM** pattern, not new per-check fields. OWASP is derived by *mapping existing BR/SM/AC/FS checks* into a dedicated prefixed section (`OW-`) registered in `COMPLIANCE_STANDARDS` (`generate_consolidated_report/report_template.py`), which already carries an explicit `# Future: {\"slug\": \"nist\", \"name\": \"NIST AI RMF\", \"prefix\": \"NR-\", ...}` placeholder. NIST AI RMF and ISO/IEC 42001 are the same shape: mapping-based derivation from existing checks into their own standard sections.\n\nEach standard is added via the documented **seven-site wire-up** in `docs/DEVELOPER_GUIDE.md` → \"Adding a Compliance Standard (OWASP-style)\", mirroring `owasp_assessments/app.py` (`OWASP_CHECK_MAPPINGS`, `get_owasp_reference_url`) and its `COMPLIANCE_STANDARDS` registry entry.\n\nMapping rules to preserve from the OWASP precedent:\n- Mapping values are **lists** — one source check may emit multiple framework rows.\n- Every mapped source `Check_ID` must still exist in its scanner; every emitted framework ID must be documented in the catalog docs.\n- An `N/A` source row produces `Severity=Informational` on the mapped row (never inherits High/Medium).\n\n> **Note:** ISO/IEC 42001 is not yet in the `COMPLIANCE_STANDARDS` future placeholders (NIST AI RMF and EU AI Act are). It gets a new standard slug/prefix, wired the same way.\n\n## Acceptance Criteria\n\n### Shared plumbing (do once; blocked on #34 for the filter foundation)\n- [ ] New mapping module( …",
+    "role_context": "feat: Map security checks to NIST AI RMF and ISO/IEC 42001 compliance frameworks aws-samples/sample-aiml-security-assessment enhancement, help wanted",
+    "published": "2026-09-19T12:56:51Z",
     "source": "github-issues-api",
     "source_type": "open_source",
-    "organization": "theagentplane/tokenops",
+    "organization": "aws-samples/sample-aiml-security-assessment",
     "location": "Remote / open source",
     "structured_opportunity": true,
     "source_quality": "Open source",
@@ -761,19 +852,19 @@
     "deadline_time_confidence": "unknown",
     "deadline_source_timezone": "",
     "deadline_original": "",
-    "score": 33,
+    "score": 37,
     "reasons": [
       {
         "signal": "open_source_discovery",
         "points": -25
       },
       {
-        "signal": "compliance",
-        "points": 14
+        "signal": "ai_governance",
+        "points": 18
       },
       {
-        "signal": "policy",
-        "points": 12
+        "signal": "compliance",
+        "points": 14
       },
       {
         "signal": "governance",
@@ -784,16 +875,16 @@
         "points": 10
       },
       {
-        "signal": "published_output",
-        "points": 10
+        "signal": "leadership",
+        "points": 8
       }
     ],
     "fit_score": 86,
     "fit_label": "Strong fit",
     "fit_reasons": [
+      "Strong ai governance relevance",
       "Strong compliance relevance",
       "Strong governance relevance",
-      "Strong policy relevance",
       "Open-source contribution matches the target career stage",
       "Remote-friendly",
       "Relevant experience overlap: compliance"
@@ -801,10 +892,10 @@
     "fit_gaps": [],
     "fit_blockers": [],
     "fit_version": "0.4",
-    "first_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_checked": "2026-09-19T05:24:57.379111+00:00",
-    "opportunity_identity": "role::theagentplane tokenops::export cost and governance data on demand snapshot streaming as follow up::remote open source",
+    "first_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_checked": "2026-09-20T05:25:25.695624+00:00",
+    "opportunity_identity": "role::aws samples sample aiml security assessment::feat map security checks to nist ai rmf and iso iec 42001 compliance frameworks::remote open source",
     "description_truncated": true
   },
   {
@@ -887,8 +978,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-18T05:25:50.019198+00:00",
-    "last_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_checked": "2026-09-19T05:24:57.379111+00:00",
+    "last_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_checked": "2026-09-20T05:25:25.695624+00:00",
     "opportunity_identity": "role::arthurpanhku dvalincode::docs eu ai act high risk date in competitive analysis md was superseded before it arrived::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -970,11 +1061,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_seen": "2026-09-20T05:25:25.695624+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-19T05:24:57.379111+00:00",
+    "last_checked": "2026-09-20T05:25:25.695624+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -1052,11 +1143,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_seen": "2026-09-20T05:25:25.695624+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-19T05:24:57.379111+00:00",
+    "last_checked": "2026-09-20T05:25:25.695624+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -1145,8 +1236,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_checked": "2026-09-19T05:24:57.379111+00:00",
+    "last_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_checked": "2026-09-20T05:25:25.695624+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -1232,8 +1323,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_checked": "2026-09-19T05:24:57.379111+00:00",
+    "last_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_checked": "2026-09-20T05:25:25.695624+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -1319,8 +1410,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_checked": "2026-09-19T05:24:57.379111+00:00",
+    "last_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_checked": "2026-09-20T05:25:25.695624+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -1405,8 +1496,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_checked": "2026-09-19T05:24:57.379111+00:00",
+    "last_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_checked": "2026-09-20T05:25:25.695624+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -1491,8 +1582,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_checked": "2026-09-19T05:24:57.379111+00:00",
+    "last_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_checked": "2026-09-20T05:25:25.695624+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -1576,8 +1667,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_checked": "2026-09-19T05:24:57.379111+00:00",
+    "last_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_checked": "2026-09-20T05:25:25.695624+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -1661,8 +1752,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_checked": "2026-09-19T05:24:57.379111+00:00",
+    "last_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_checked": "2026-09-20T05:25:25.695624+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -1748,8 +1839,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_checked": "2026-09-19T05:24:57.379111+00:00",
+    "last_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_checked": "2026-09-20T05:25:25.695624+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   }
