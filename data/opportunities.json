@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-20T05:25:25.695624+00:00",
-    "last_checked": "2026-09-20T05:25:25.695624+00:00",
+    "last_seen": "2026-09-21T05:27:02.295307+00:00",
+    "last_checked": "2026-09-21T05:27:02.295307+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-20T05:25:25.695624+00:00",
-    "last_checked": "2026-09-20T05:25:25.695624+00:00",
+    "last_seen": "2026-09-21T05:27:02.295307+00:00",
+    "last_checked": "2026-09-21T05:27:02.295307+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -302,8 +302,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-20T05:25:25.695624+00:00",
-    "last_checked": "2026-09-20T05:25:25.695624+00:00",
+    "last_seen": "2026-09-21T05:27:02.295307+00:00",
+    "last_checked": "2026-09-21T05:27:02.295307+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -386,8 +386,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_seen": "2026-09-20T05:25:25.695624+00:00",
-    "last_checked": "2026-09-20T05:25:25.695624+00:00",
+    "last_seen": "2026-09-21T05:27:02.295307+00:00",
+    "last_checked": "2026-09-21T05:27:02.295307+00:00",
     "opportunity_identity": "role::bkoimett e commerce::add privacy policy terms of service and returns refund pages::remote open source",
     "alternate_sources": [
       {
@@ -567,8 +567,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-20T05:25:25.695624+00:00",
-    "last_checked": "2026-09-20T05:25:25.695624+00:00",
+    "last_seen": "2026-09-21T05:27:02.295307+00:00",
+    "last_checked": "2026-09-21T05:27:02.295307+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -650,9 +650,18 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-20T05:25:25.695624+00:00",
-    "last_seen": "2026-09-20T05:25:25.695624+00:00",
-    "last_checked": "2026-09-20T05:25:25.695624+00:00",
-    "opportunity_identity": "role::transportblueberries flouze budget::add privacy principles for a student finance app::remote open source"
+    "last_seen": "2026-09-21T05:27:02.295307+00:00",
+    "last_checked": "2026-09-21T05:27:02.295307+00:00",
+    "opportunity_identity": "role::transportblueberries flouze budget::add privacy principles for a student finance app::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/transportblueberries/flouze_budget/issues/3",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Review alate's privacy policy for content that doesn't belong in a privacy policy",
@@ -723,8 +732,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_seen": "2026-09-20T05:25:25.695624+00:00",
-    "last_checked": "2026-09-20T05:25:25.695624+00:00",
+    "last_seen": "2026-09-21T05:27:02.295307+00:00",
+    "last_checked": "2026-09-21T05:27:02.295307+00:00",
     "opportunity_identity": "role::tessellate studio tessellate pages::review alate s privacy policy for content that doesn t belong in a privacy policy::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -978,8 +987,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-18T05:25:50.019198+00:00",
-    "last_seen": "2026-09-20T05:25:25.695624+00:00",
-    "last_checked": "2026-09-20T05:25:25.695624+00:00",
+    "last_seen": "2026-09-21T05:27:02.295307+00:00",
+    "last_checked": "2026-09-21T05:27:02.295307+00:00",
     "opportunity_identity": "role::arthurpanhku dvalincode::docs eu ai act high risk date in competitive analysis md was superseded before it arrived::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -1061,11 +1070,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_seen": "2026-09-21T05:27:02.295307+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-20T05:25:25.695624+00:00",
+    "last_checked": "2026-09-21T05:27:02.295307+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -1143,11 +1152,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-20T05:25:25.695624+00:00",
+    "last_seen": "2026-09-21T05:27:02.295307+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-20T05:25:25.695624+00:00",
+    "last_checked": "2026-09-21T05:27:02.295307+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -1236,8 +1245,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-20T05:25:25.695624+00:00",
-    "last_checked": "2026-09-20T05:25:25.695624+00:00",
+    "last_seen": "2026-09-21T05:27:02.295307+00:00",
+    "last_checked": "2026-09-21T05:27:02.295307+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -1323,8 +1332,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-20T05:25:25.695624+00:00",
-    "last_checked": "2026-09-20T05:25:25.695624+00:00",
+    "last_seen": "2026-09-21T05:27:02.295307+00:00",
+    "last_checked": "2026-09-21T05:27:02.295307+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -1410,8 +1419,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-20T05:25:25.695624+00:00",
-    "last_checked": "2026-09-20T05:25:25.695624+00:00",
+    "last_seen": "2026-09-21T05:27:02.295307+00:00",
+    "last_checked": "2026-09-21T05:27:02.295307+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -1496,8 +1505,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-20T05:25:25.695624+00:00",
-    "last_checked": "2026-09-20T05:25:25.695624+00:00",
+    "last_seen": "2026-09-21T05:27:02.295307+00:00",
+    "last_checked": "2026-09-21T05:27:02.295307+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -1582,8 +1591,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-20T05:25:25.695624+00:00",
-    "last_checked": "2026-09-20T05:25:25.695624+00:00",
+    "last_seen": "2026-09-21T05:27:02.295307+00:00",
+    "last_checked": "2026-09-21T05:27:02.295307+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -1667,8 +1676,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-20T05:25:25.695624+00:00",
-    "last_checked": "2026-09-20T05:25:25.695624+00:00",
+    "last_seen": "2026-09-21T05:27:02.295307+00:00",
+    "last_checked": "2026-09-21T05:27:02.295307+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -1752,8 +1761,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-20T05:25:25.695624+00:00",
-    "last_checked": "2026-09-20T05:25:25.695624+00:00",
+    "last_seen": "2026-09-21T05:27:02.295307+00:00",
+    "last_checked": "2026-09-21T05:27:02.295307+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -1839,8 +1848,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-20T05:25:25.695624+00:00",
-    "last_checked": "2026-09-20T05:25:25.695624+00:00",
+    "last_seen": "2026-09-21T05:27:02.295307+00:00",
+    "last_checked": "2026-09-21T05:27:02.295307+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   }
