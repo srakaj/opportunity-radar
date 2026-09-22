@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-21T05:27:02.295307+00:00",
-    "last_checked": "2026-09-21T05:27:02.295307+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-21T05:27:02.295307+00:00",
-    "last_checked": "2026-09-21T05:27:02.295307+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -302,8 +302,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-21T05:27:02.295307+00:00",
-    "last_checked": "2026-09-21T05:27:02.295307+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -567,8 +567,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-21T05:27:02.295307+00:00",
-    "last_checked": "2026-09-21T05:27:02.295307+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -650,8 +650,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-20T05:25:25.695624+00:00",
-    "last_seen": "2026-09-21T05:27:02.295307+00:00",
-    "last_checked": "2026-09-21T05:27:02.295307+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
     "opportunity_identity": "role::transportblueberries flouze budget::add privacy principles for a student finance app::remote open source",
     "alternate_sources": [
       {
@@ -732,8 +732,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_seen": "2026-09-21T05:27:02.295307+00:00",
-    "last_checked": "2026-09-21T05:27:02.295307+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
     "opportunity_identity": "role::tessellate studio tessellate pages::review alate s privacy policy for content that doesn t belong in a privacy policy::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -908,6 +908,167 @@
     "description_truncated": true
   },
   {
+    "title": "AI Act: security and robustness guidance for high-risk systems",
+    "url": "https://github.com/mdiamantino/awesome-eu-cybersec/issues/28",
+    "description": "Open-source contribution opportunity. Repository: mdiamantino/awesome-eu-cybersec. Labels: help wanted, coverage gap. Article 15 requires accuracy, robustness and cybersecurity for high-risk AI systems. The standardisation work at CEN-CENELEC JTC 21, the AI Office guidance and national regulator material are all in scope. Generic AI-safety content with no EU legal hook is not.\n\n### What is wanted\n\nEntries in `data/resources/governance-risk-policy.yml`. One good entry is a complete\ncontribution; there is no need to fill the whole gap.\n\n### How to do it\n\n```bash\ngit clone https://github.com/mdiamantino/awesome-eu-cybersec && cd awesome-eu-cybersec\nmake install\n$EDITOR data/resources/governance-risk-policy.yml\nmake build     # regenerates README.md and the exports\nmake check     # the same thing CI runs\n```\n\nCommit the YAML change together with the regenerated `README.md`,\n`data/ecosystem.yml` and `data/ecosystem.json`, then open the pull request.\n\n### Entry format\n\n```yaml\n- name: Vulnerability-Lookup\n  url: https://github.com/vulnerability-lookup/vulnerability-lookup\n  description: Software from CIRCL Luxembourg that correlates advisories from national\n    vulnerability databases and CSAF providers and supports coordinated disclosure workflows.\n  subcategory: Vulnerability Intelligence\n  tags: [cvd, correlation, circl]\n  entry_type: Tool\n  country_or_body: Luxembourg/CIRCL\n  hosting_note: '[Open Source]'\n  license: AGPL-3.0-or-later\n  confidence: high\n  last_verified: '2026-09-16'\n```\n\nField reference and the scope rules are in\n[CONTRIBUTING.md](https://github.com/mdiamantino/awesome-eu-cybersec/blob/main/CONTRIBUTING.md).\n\n### The one bar\n\nOpen the URL yourself and confirm the page is what you say it is. An entry you\nhave not read does not go in, and `confidence: high` means you fetched it.\nQuote what you saw in the pull request.\n\nNot sure whether something qualifies? Ask in this issue before writing the entry.\nThat is what it is for.",
+    "role_context": "AI Act: security and robustness guidance for high-risk systems mdiamantino/awesome-eu-cybersec help wanted, coverage gap",
+    "published": "2026-09-21T20:20:05Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "mdiamantino/awesome-eu-cybersec",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 54,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "ai_governance",
+        "points": 18
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong ai governance relevance",
+      "Strong legal relevance",
+      "Strong governance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
+    "opportunity_identity": "role::mdiamantino awesome eu cybersec::ai act security and robustness guidance for high risk systems::remote open source"
+  },
+  {
+    "title": "Add a checked failing fixture to the EU AI Act transparency example",
+    "url": "https://github.com/Principled-Evolution/gopal/issues/25",
+    "description": "Open-source contribution opportunity. Repository: Principled-Evolution/gopal. Labels: documentation, good first issue, examples. ## Goal\n\nAdd one checked, runnable non-compliant fixture to the EU AI Act transparency example used by GOPAL's 30-second quick start.\n\nThe current example has a passing `input.json`, and its README tells readers to edit that file in place to see a denial. Keep the passing path intact and add a named failing path that can be run and reviewed independently.\n\n## The contribution\n\nWork only in [`examples/eu-ai-act-transparency/`](../blob/main/examples/eu-ai-act-transparency), plus the examples index:\n\n- add `input-high-toxicity.json`;\n- add `expected-output-high-toxicity.json`;\n- make `run.sh` accept an optional input filename while keeping `input.json` as the default;\n- document both commands in the example README;\n- update [`examples/README.md`](../blob/main/examples/README.md) so this example is described as having passing and failing fixtures.\n\nUse the existing passing input as the base. Change only `metrics.toxicity.max_toxicity` to a value above the policy's inclusive `0.7` maximum. Keeping every other policy input unchanged makes the denial attributable to one guard.\n\n## Current policy behavior\n\n[`international/eu_ai_act/v1/transparency/transparency.rego`](../blob/main/international/eu_ai_act/v1/transparency/transparency.rego) requires all three documentation-completeness values to be at least `0.7` and `metrics.toxicity.max_toxicity` to be at most `0.7`.\n\nFor the new fixture, the report should have:\n\n- `compliant: false`;\n- the current high-toxicity reason;\n- the recommendation to reduce toxicity levels.\n\nThis task demonstrates GOPAL's executable interpretation of the current rule. It must not broaden the repository's Article 13 claim or describe the fixture as proof of legal compliance.\n\n## Acceptance criteria\n\n- [ ] `./examples/eu-ai-act-transparency/run.sh` still evaluates the existing passing `input.json`.\n- [ ] `./examples/eu-ai-a …",
+    "role_context": "Add a checked failing fixture to the EU AI Act transparency example Principled-Evolution/gopal documentation, good first issue, examples",
+    "published": "2026-09-21T20:47:56Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Principled-Evolution/gopal",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 52,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "ai_governance",
+        "points": 18
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong ai governance relevance",
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
+    "opportunity_identity": "role::principled evolution gopal::add a checked failing fixture to the eu ai act transparency example::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "docs: EU AI Act high-risk date in COMPETITIVE-ANALYSIS.md was superseded before it arrived",
     "url": "https://github.com/arthurpanhku/dvalincode/issues/238",
     "description": "Open-source contribution opportunity. Repository: arthurpanhku/dvalincode. Labels: documentation, good first issue. ## What\n\n`docs/COMPETITIVE-ANALYSIS.md` cites **「EU AI Act 高风险义务 2026-08-02 生效」** as regulatory tailwind in three places — lines 88, 136 and 270.\n\nThat date no longer holds. **Regulation (EU) 2026/1744** (the Digital Omnibus on AI) was published in the Official Journal on **24 July 2026** and entered into force on **27 July 2026**. It defers:\n\n- Annex III standalone high-risk systems: 2 August 2026 → **2 December 2027**\n- Annex I high-risk in regulated products: → **2 August 2028**\n\nThe Commission's stated reason was that neither industry nor CEN/CENELEC would have harmonised standards ready, and the conformity-assessment infrastructure the Act assumes had not matured.\n\n## Why it's worth fixing rather than leaving\n\nThe document argues Dvalin's hash-chain audit and Evidence Pack catch a regulatory wave. That argument survives — but a security reviewer who follows this file will notice the date passed with nothing happening, which undercuts the surrounding claims more than the correction costs.\n\n**The tailwind is rescheduled, not cancelled**, and the doc can say so more precisely than it does now:\n\n- **Article 50 transparency obligations have applied since the start of September 2026** — that is live today.\n- Two new prohibitions land in December 2026.\n- The quality-management standard to build against already exists.\n\nSo the honest framing is nearer-term in one respect and much later in another, rather than simply \"delayed.\"\n\n## Acceptance\n\n- The three citations state the current dates and their legal source (Regulation (EU) 2026/1744).\n- The distinction between deferred high-risk obligations and the Article 50 obligations already in force is explicit.\n\nSources: [Gibson Dunn](https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/) · [CSA — Deferred, Not Cancelled](https://labs.cloudsecurityalliance.or …",
@@ -939,7 +1100,7 @@
     "deadline_time_confidence": "unknown",
     "deadline_source_timezone": "",
     "deadline_original": "",
-    "score": 62,
+    "score": 50,
     "reasons": [
       {
         "signal": "open_source_discovery",
@@ -956,10 +1117,6 @@
       {
         "signal": "compliance",
         "points": 14
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
       },
       {
         "signal": "structured_source",
@@ -1070,11 +1227,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-21T05:27:02.295307+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-21T05:27:02.295307+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -1152,11 +1309,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-21T05:27:02.295307+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-21T05:27:02.295307+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -1245,8 +1402,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-21T05:27:02.295307+00:00",
-    "last_checked": "2026-09-21T05:27:02.295307+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -1332,8 +1489,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-21T05:27:02.295307+00:00",
-    "last_checked": "2026-09-21T05:27:02.295307+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -1419,8 +1576,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-21T05:27:02.295307+00:00",
-    "last_checked": "2026-09-21T05:27:02.295307+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -1432,6 +1589,83 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "Legal Engineering Analyst",
+    "url": "https://jobs.ashbyhq.com/legora/ff80c470-33ab-453e-9ccb-c074447344d4",
+    "description": "Organisation: Legora. Location: Stockholm HQ. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 1,000+ customers across 50+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $100M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI and Graceview. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role This role sits at the intersection of law, technology, and product—supporting SMB clients across EMEA. You’ll help lean legal teams (often without large innovation/ops functions) adopt and scale Legora in a way that delivers real outcomes quickly. You’ll work closely with Legal Engineers, Customer Success, Product, and Go-To-Market to help clients move from first value to repeatable workflows—while feeding what you learn back into how the product evolves. What you’ll be doing Support SMB client onboarding, pilots, and a …",
+    "role_context": "Legal Engineering Analyst Legal Engineering Legal Engineering FullTime",
+    "published": "2026-09-21T09:28:58.342+00:00",
+    "source": "ashby:legora",
+    "source_type": "job_board",
+    "organization": "Legora",
+    "location": "Stockholm HQ",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "On-site",
+    "compensation_status": "paid",
+    "compensation": "$100",
+    "duration": "1 year",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 71,
+    "reasons": [
+      {
+        "signal": "legal_tech",
+        "points": 18
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 81,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal tech relevance",
+      "Strong legal relevance",
+      "Strong research writing relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
+    "opportunity_identity": "role::legora::legal engineering analyst::stockholm hq",
+    "description_truncated": true
   },
   {
     "title": "Legal Engineer Associate",
@@ -1505,8 +1739,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-21T05:27:02.295307+00:00",
-    "last_checked": "2026-09-21T05:27:02.295307+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -1591,8 +1825,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-21T05:27:02.295307+00:00",
-    "last_checked": "2026-09-21T05:27:02.295307+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -1604,6 +1838,84 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "[Feature]: Add evidence-gated shadow evaluation for consequential policy decisions",
+    "url": "https://github.com/rlaope/oh-my-hermes/issues/1809",
+    "description": "Open-source contribution opportunity. Repository: rlaope/oh-my-hermes. Labels: enhancement, help wanted, area/routing, area/workflows, area/quality, risk/contract-change, needs-triage, priority/P1, impact/high. ## Problem\n\nOMH makes several consequential policy decisions through deterministic rules and static fixtures: route selection, coding-owner recommendation, task-scale routing, continuation state, context-budget actions, and verification tiering. Those rules can be changed and regression-tested, but current `main` has no shared way to run a candidate decision policy in shadow mode beside the active policy, retain bounded disagreement evidence, and require reviewed evidence before promotion.\n\nWithout that lifecycle, maintainers can prove that a proposed rule passes known fixtures but cannot answer whether it disagrees on real eligible decisions, whether those disagreements cluster around one input class, or whether latency, failure, and coverage make the candidate safe to activate. Each subsystem must either invent its own comparison log or promote directly from test evidence.\n\n## Complete user goal\n\nAs an OMH maintainer, I want any consequential deterministic decision point to register an active policy and an optional candidate policy, compare them without changing live behavior, aggregate privacy-safe and revision-bound evidence, and permit activation only through an explicit reviewed promotion decision. The workflow must remain useful with local deterministic candidates and caller-supplied evaluator receipts; OMH core must not require a hosted model or provider call.\n\n## Intended surfaces\n\n- Hermes chat or wrapper\n- Hermes runtime or handoff\n- All executors (executor-neutral)\n\n## Observed evidence\n\nObserved on `main@d7271b208038895f50c74e9774616b1a0a26a0dd`:\n\n- `src/routing/recommend.py`, `src/routing/coding_route_actions.py`, and the routing precision corpora encode deterministic route and owner decisions with fixture-based regression checks.\n- `src/quality …",
+    "role_context": "[Feature]: Add evidence-gated shadow evaluation for consequential policy decisions rlaope/oh-my-hermes enhancement, help wanted, area/routing, area/workflows, area/quality, risk/contract-change, needs-triage, priority/P1, impact/high",
+    "published": "2026-09-22T01:06:09Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "rlaope/oh-my-hermes",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 31,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      }
+    ],
+    "fit_score": 79,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong policy relevance",
+      "Strong published output relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
+    "opportunity_identity": "role::rlaope oh my hermes::feature add evidence gated shadow evaluation for consequential policy decisions::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Legal Engineering Operations Associate",
@@ -1676,8 +1988,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-21T05:27:02.295307+00:00",
-    "last_checked": "2026-09-21T05:27:02.295307+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -1761,8 +2073,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-21T05:27:02.295307+00:00",
-    "last_checked": "2026-09-21T05:27:02.295307+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -1774,6 +2086,107 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "Legal Engineer, Law Firms and In-House, Dubai",
+    "url": "https://jobs.ashbyhq.com/legora/fdecebdd-ae00-4408-9fa2-88909bdb364d",
+    "description": "Organisation: Legora. Location: Dubai. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 1,000+ customers across 50+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $100M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI and Graceview. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. About the role Let's get the tricky part out of the way. Legal Engineering does not fit neatly into a traditional box. It combines legal practice, product fluency, client leadership and practical change management. The job exists because software alone does not change how legal work gets done. Someone has to understand the work well enough to redesign it, and be credible enough that lawyers listen. As a Legal Engineer in Dubai, you sit between the lawyers using Legora and the people building it. You will work with law firms and in-house legal teams across …",
+    "role_context": "Legal Engineer, Law Firms and In-House, Dubai Legal Engineering Legal Engineering FullTime",
+    "published": "2026-09-21T14:25:46.502+00:00",
+    "source": "ashby:legora",
+    "source_type": "job_board",
+    "organization": "Legora",
+    "location": "Dubai",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Unspecified",
+    "compensation_status": "paid",
+    "compensation": "$100",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [
+      "Arabic"
+    ],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 25,
+    "reasons": [
+      {
+        "signal": "not_early_career",
+        "points": -100
+      },
+      {
+        "signal": "legal_tech",
+        "points": 18
+      },
+      {
+        "signal": "legal_operations",
+        "points": 18
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 69,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong legal tech relevance",
+      "Strong legal operations relevance",
+      "Strong legal relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [
+      "Check required Arabic proficiency"
+    ],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
+    "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
+    "description_truncated": true
   },
   {
     "title": "Associate Commercial Counsel, London",
@@ -1848,8 +2261,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-21T05:27:02.295307+00:00",
-    "last_checked": "2026-09-21T05:27:02.295307+00:00",
+    "last_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_checked": "2026-09-22T05:26:27.204052+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   }
