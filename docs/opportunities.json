@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
+    "last_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_checked": "2026-09-25T05:26:43.794494+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
+    "last_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_checked": "2026-09-25T05:26:43.794494+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -302,8 +302,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
+    "last_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_checked": "2026-09-25T05:26:43.794494+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -642,8 +642,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
+    "last_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_checked": "2026-09-25T05:26:43.794494+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -732,6 +732,79 @@
     "last_seen": "2026-09-23T05:26:42.012100+00:00",
     "last_checked": "2026-09-23T05:26:42.012100+00:00",
     "opportunity_identity": "role::hel phone helphone::open source license compatibility matrix and commercial usage compliance subsystem::remote open source"
+  },
+  {
+    "title": "Footer \"Privacy policy\" and \"Terms\" links point to #",
+    "url": "https://github.com/Disburs/disburs/issues/34",
+    "description": "Open-source contribution opportunity. Repository: Disburs/disburs. Labels: good first issue, frontend. ## Problem\nIn `components/landing/Footer.tsx` the Company column has two placeholder links:\n\n```ts\n{ label: \"Privacy policy\", href: \"#\" },\n{ label: \"Terms\", href: \"#\" },\n```\n\nClicking them jumps to the top of the page, which is confusing.\n\n## Task\nCreate simple `app/privacy/page.tsx` and `app/terms/page.tsx` routes with a heading, a \"Last updated\" line and a short \"Coming soon\" paragraph, using the same `Container` and `Heading` primitives from `components/landing/Section.tsx`. Then point the footer links at `/privacy` and `/terms`.\n\nLegal copy is not needed for this issue, just the routes and the links.",
+    "role_context": "Footer \"Privacy policy\" and \"Terms\" links point to # Disburs/disburs good first issue, frontend",
+    "published": "2026-09-24T09:35:01Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Disburs/disburs",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 28,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 87,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_checked": "2026-09-25T05:26:43.794494+00:00",
+    "opportunity_identity": "role::disburs disburs::footer privacy policy and terms links point to::remote open source"
   },
   {
     "title": "Add privacy principles for a student finance app",
@@ -884,8 +957,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
+    "last_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_checked": "2026-09-25T05:26:43.794494+00:00",
     "opportunity_identity": "role::tessellate studio tessellate pages::review alate s privacy policy for content that doesn t belong in a privacy policy::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -1449,8 +1522,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
+    "last_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_checked": "2026-09-25T05:26:43.794494+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
     "description_truncated": true
   },
@@ -1523,11 +1596,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
+    "last_seen": "2026-09-25T05:26:43.794494+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
+    "last_checked": "2026-09-25T05:26:43.794494+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -1605,11 +1678,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
+    "last_seen": "2026-09-25T05:26:43.794494+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
+    "last_checked": "2026-09-25T05:26:43.794494+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -1698,8 +1771,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
+    "last_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_checked": "2026-09-25T05:26:43.794494+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -1785,8 +1858,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
+    "last_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_checked": "2026-09-25T05:26:43.794494+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -1872,8 +1945,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
+    "last_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_checked": "2026-09-25T05:26:43.794494+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -1958,8 +2031,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
+    "last_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_checked": "2026-09-25T05:26:43.794494+00:00",
     "opportunity_identity": "role::legora::legal engineering analyst::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -2044,8 +2117,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
+    "last_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_checked": "2026-09-25T05:26:43.794494+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -2130,8 +2203,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
+    "last_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_checked": "2026-09-25T05:26:43.794494+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -2408,8 +2481,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
+    "last_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_checked": "2026-09-25T05:26:43.794494+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -2493,8 +2566,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
+    "last_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_checked": "2026-09-25T05:26:43.794494+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -2603,8 +2676,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
+    "last_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_checked": "2026-09-25T05:26:43.794494+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -2786,6 +2859,84 @@
     "opportunity_identity": "url::https://www.ziprecruiter.com/Jobs/Legal-Internship/-in-Atlanta,GA"
   },
   {
+    "title": "Associate Commercial Counsel, Dublin",
+    "url": "https://jobs.ashbyhq.com/harvey/2fc3b6a6-9228-4d44-a1e7-48009a4f2b00",
+    "description": "Organisation: Harvey. Location: Dublin. Department: Legal. Team: Legal. Commitment: FullTime. Work model: Hybrid. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview We are looking for a Commercial Counsel to join our legal team. Reporting to the Head of EMEA Legal in London, you will interface with our Go-To-Market team to help ensure the fast and efficient execution of our agreements with customers. What You’ll Do Generative AI has the power to greatly change the world and directly impact how things get done.  Harvey is at the forefront of this change, and our mission is to make generative AI actionable and useful for our customers.  This is a fast moving environment (we are a start-up!) that is serving some of the world’s most renowned law firms and professional service organizations.  And this role will put you in t …",
+    "role_context": "Associate Commercial Counsel, Dublin Legal Legal FullTime",
+    "published": "2026-09-24T07:55:22.137+00:00",
+    "source": "ashby:harvey",
+    "source_type": "job_board",
+    "organization": "Harvey",
+    "location": "Dublin",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Hybrid",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 32,
+    "reasons": [
+      {
+        "signal": "qualified_professional_title",
+        "points": -35
+      },
+      {
+        "signal": "ai_governance",
+        "points": 18
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 59,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong ai governance relevance",
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Early-career role matches the target career stage"
+    ],
+    "fit_gaps": [
+      "Title suggests a qualified professional role"
+    ],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_checked": "2026-09-25T05:26:43.794494+00:00",
+    "opportunity_identity": "role::harvey::associate commercial counsel dublin::dublin",
+    "description_truncated": true
+  },
+  {
     "title": "Associate Commercial Counsel, EMEA",
     "url": "https://jobs.ashbyhq.com/harvey/fdfbcfc9-b498-4cbb-ad5b-34602b1adac9",
     "description": "Organisation: Harvey. Location: Dublin. Department: Legal. Team: Legal. Commitment: FullTime. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview We are looking for a Commercial Counsel to join our legal team in Dublin. Reporting to the Head of EMEA Legal in London, you will interface with our Go-To-Market team to help ensure the fast and efficient execution of our agreements with customers. What You’ll Do Generative AI has the power to greatly change the world and directly impact how things get done.  Harvey is at the forefront of this change, and our mission is to make generative AI actionable and useful for our customers.  This is a fast moving environment (we are a start-up!) that is serving some of the world’s most renowned law firms and professional service organizations.  And this role will put you in the center …",
@@ -2858,87 +3009,9 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
+    "last_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_checked": "2026-09-25T05:26:43.794494+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel emea::dublin",
-    "description_truncated": true
-  },
-  {
-    "title": "Associate Commercial Counsel, London",
-    "url": "https://jobs.ashbyhq.com/harvey/0a8ca756-7d41-46cc-8cde-960af47658b2",
-    "description": "Organisation: Harvey. Location: London. Department: Legal. Team: Legal. Commitment: FullTime. Work model: Hybrid. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview We are looking for a Commercial Counsel to join our legal team. Reporting to the Head of EMEA Legal in London, you will interface with our Go-To-Market team to help ensure the fast and efficient execution of our agreements with customers. What You’ll Do Generative AI has the power to greatly change the world and directly impact how things get done.  Harvey is at the forefront of this change, and our mission is to make generative AI actionable and useful for our customers.  This is a fast moving environment (we are a start-up!) that is serving some of the world’s most renowned law firms and professional service organizations.  And this role will put you in t …",
-    "role_context": "Associate Commercial Counsel, London Legal Legal FullTime",
-    "published": "2026-07-07T09:01:37.566+00:00",
-    "source": "ashby:harvey",
-    "source_type": "job_board",
-    "organization": "Harvey",
-    "location": "London",
-    "structured_opportunity": true,
-    "source_quality": "Official ATS",
-    "source_priority": 100,
-    "source_quality_label": "Direct employer ATS",
-    "opportunity_type": "Early-career role",
-    "work_model": "Hybrid",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 32,
-    "reasons": [
-      {
-        "signal": "qualified_professional_title",
-        "points": -35
-      },
-      {
-        "signal": "ai_governance",
-        "points": 18
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "leadership",
-        "points": 8
-      }
-    ],
-    "fit_score": 59,
-    "fit_label": "Stretch",
-    "fit_reasons": [
-      "Strong ai governance relevance",
-      "Strong legal relevance",
-      "Strong privacy relevance",
-      "Early-career role matches the target career stage"
-    ],
-    "fit_gaps": [
-      "Title suggests a qualified professional role"
-    ],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
-    "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
   {
