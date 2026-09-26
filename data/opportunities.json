@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_checked": "2026-09-25T05:26:43.794494+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_checked": "2026-09-25T05:26:43.794494+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -302,8 +302,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_checked": "2026-09-25T05:26:43.794494+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -642,8 +642,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_checked": "2026-09-25T05:26:43.794494+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -734,6 +734,89 @@
     "opportunity_identity": "role::hel phone helphone::open source license compatibility matrix and commercial usage compliance subsystem::remote open source"
   },
   {
+    "title": "Review alate's privacy policy for content that doesn't belong in a privacy policy",
+    "url": "https://github.com/Tessellate-Studio/tessellate-pages/issues/13",
+    "description": "Open-source contribution opportunity. Repository: Tessellate-Studio/tessellate-pages. Labels: help wanted, P0. Owner request 2026-09-18: double-check `alate/privacy-policy.html` (v5 after #12) for anything that typically should **not** be in a privacy policy, and for anything legally required that is missing or weak. This is a review task: list findings with a recommendation each, and change nothing without an owner decision.\n\n## Candidates already spotted (2026-09-18, while checking #12)\nThese are observations for the reviewer to confirm or dismiss. None of them is a legal opinion.\n\n1. **§14: \"Continued use after changes constitutes acceptance.\"** This is a terms-of-service clause. A privacy policy informs; it doesn't collect agreement, and under GDPR consent can't be inferred from continued use. The usual wording is \"we will notify you of material changes\" (in-app or by email) instead.\n2. **§11 Grievance Officer shows a personal first name (\"Saptami\").** DPDP needs a reachable contact. Whether to publish a person's name or a role plus `privacy@` is an owner choice. Flagged because it puts a real person's name on a public page.\n3. **Implementation detail: \"AsyncStorage\" (§7 Security).** It's internal tech jargon that means nothing to a reader. \"Stored in the app's private storage on your device\" says the same thing.\n4. **Changelog-style history in the body:** \"Crash reports previously carried an approximate country… as of September 2026 we strip that\" (§1f). History usually lives in a change log, not in the current statement of practice.\n5. **Age thresholds: 16+ age gate vs. under-18 parental consent for India (§11/§12).** The two sections are internally consistent, but the app only gates at 16. Confirm the India wording matches what the app actually does, so it doesn't promise a check the app doesn't run.\n\n## Also check for (typical out-of-place content)\n- Promises the code doesn't enforce (#785 found several; #12 fixed another). Every retention line should point …",
+    "role_context": "Review alate's privacy policy for content that doesn't belong in a privacy policy Tessellate-Studio/tessellate-pages help wanted, P0",
+    "published": "2026-09-25T16:21:13Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Tessellate-Studio/tessellate-pages",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 28,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 87,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-19T05:24:57.379111+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "opportunity_identity": "role::tessellate studio tessellate pages::review alate s privacy policy for content that doesn t belong in a privacy policy::remote open source",
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/Tessellate-Studio/tessellate-pages/issues/13",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
+  },
+  {
     "title": "Footer \"Privacy policy\" and \"Terms\" links point to #",
     "url": "https://github.com/Disburs/disburs/issues/34",
     "description": "Open-source contribution opportunity. Repository: Disburs/disburs. Labels: good first issue, frontend. ## Problem\nIn `components/landing/Footer.tsx` the Company column has two placeholder links:\n\n```ts\n{ label: \"Privacy policy\", href: \"#\" },\n{ label: \"Terms\", href: \"#\" },\n```\n\nClicking them jumps to the top of the page, which is confusing.\n\n## Task\nCreate simple `app/privacy/page.tsx` and `app/terms/page.tsx` routes with a heading, a \"Last updated\" line and a short \"Coming soon\" paragraph, using the same `Container` and `Heading` primitives from `components/landing/Section.tsx`. Then point the footer links at `/privacy` and `/terms`.\n\nLegal copy is not needed for this issue, just the routes and the links.",
@@ -802,9 +885,18 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_checked": "2026-09-25T05:26:43.794494+00:00",
-    "opportunity_identity": "role::disburs disburs::footer privacy policy and terms links point to::remote open source"
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "opportunity_identity": "role::disburs disburs::footer privacy policy and terms links point to::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/Disburs/disburs/issues/34",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Add privacy principles for a student finance app",
@@ -882,89 +974,6 @@
       {
         "source": "github-issues-api",
         "url": "https://github.com/transportblueberries/flouze_budget/issues/3",
-        "quality": "Open source",
-        "priority": 65
-      }
-    ],
-    "duplicate_count": 0
-  },
-  {
-    "title": "Review alate's privacy policy for content that doesn't belong in a privacy policy",
-    "url": "https://github.com/Tessellate-Studio/tessellate-pages/issues/13",
-    "description": "Open-source contribution opportunity. Repository: Tessellate-Studio/tessellate-pages. Labels: help wanted, P0. Owner request 2026-09-18: double-check `alate/privacy-policy.html` (v5 after #12) for anything that typically should **not** be in a privacy policy, and for anything legally required that is missing or weak. This is a review task: list findings with a recommendation each, and change nothing without an owner decision.\n\n## Candidates already spotted (2026-09-18, while checking #12)\nThese are observations for the reviewer to confirm or dismiss. None of them is a legal opinion.\n\n1. **§14: \"Continued use after changes constitutes acceptance.\"** This is a terms-of-service clause. A privacy policy informs; it doesn't collect agreement, and under GDPR consent can't be inferred from continued use. The usual wording is \"we will notify you of material changes\" (in-app or by email) instead.\n2. **§11 Grievance Officer shows a personal first name (\"Saptami\").** DPDP needs a reachable contact. Whether to publish a person's name or a role plus `privacy@` is an owner choice. Flagged because it puts a real person's name on a public page.\n3. **Implementation detail: \"AsyncStorage\" (§7 Security).** It's internal tech jargon that means nothing to a reader. \"Stored in the app's private storage on your device\" says the same thing.\n4. **Changelog-style history in the body:** \"Crash reports previously carried an approximate country… as of September 2026 we strip that\" (§1f). History usually lives in a change log, not in the current statement of practice.\n5. **Age thresholds: 16+ age gate vs. under-18 parental consent for India (§11/§12).** The two sections are internally consistent, but the app only gates at 16. Confirm the India wording matches what the app actually does, so it doesn't promise a check the app doesn't run.\n\n## Also check for (typical out-of-place content)\n- Promises the code doesn't enforce (#785 found several; #12 fixed another). Every retention line should point …",
-    "role_context": "Review alate's privacy policy for content that doesn't belong in a privacy policy Tessellate-Studio/tessellate-pages help wanted, P0",
-    "published": "2026-09-18T08:38:50Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "Tessellate-Studio/tessellate-pages",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 28,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      }
-    ],
-    "fit_score": 87,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong privacy relevance",
-      "Strong policy relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly",
-      "Relevant experience overlap: privacy"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-09-19T05:24:57.379111+00:00",
-    "last_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_checked": "2026-09-25T05:26:43.794494+00:00",
-    "opportunity_identity": "role::tessellate studio tessellate pages::review alate s privacy policy for content that doesn t belong in a privacy policy::remote open source",
-    "description_truncated": true,
-    "alternate_sources": [
-      {
-        "source": "github-issues-api",
-        "url": "https://github.com/Tessellate-Studio/tessellate-pages/issues/13",
         "quality": "Open source",
         "priority": 65
       }
@@ -1522,8 +1531,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_checked": "2026-09-25T05:26:43.794494+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
     "description_truncated": true
   },
@@ -1596,11 +1605,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-25T05:26:43.794494+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -1678,11 +1687,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-25T05:26:43.794494+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-25T05:26:43.794494+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -1771,8 +1780,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_checked": "2026-09-25T05:26:43.794494+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -1858,8 +1867,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_checked": "2026-09-25T05:26:43.794494+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -1945,8 +1954,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_checked": "2026-09-25T05:26:43.794494+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -1958,6 +1967,87 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "RFC/EPIC: Introduce a Go enforcement sidecar and FastAPI governance control plane",
+    "url": "https://github.com/aegisora-ai/aegisora/issues/22",
+    "description": "Open-source contribution opportunity. Repository: aegisora-ai/aegisora. Labels: help wanted, agent integration. ## Summary\n\nSplit Aegisora into a local Go enforcement sidecar (data plane) and a FastAPI governance service (control plane).\n\nThe sidecar handles the latency-sensitive path for every governed tool, provider, or API action. FastAPI owns policy and identity state, publishes immutable policy bundles, receives audit events, and manages human review. The TypeScript SDK/runtime remains the developer integration layer and sends governed actions through the sidecar.\n\n## Why\n\nThe repository currently enforces actions primarily inside the TypeScript runtime and includes a small in-memory FastAPI interceptor. This is useful as a reference, but it does not provide a durable control plane or an independently deployable, high-throughput enforcement boundary.\n\nThe split should preserve one logical authority while moving policy administration and database work out of the request hot path.\n\n## Architecture\n\n```text\nAgent / TypeScript SDK\n          |\n          | execution intent\n          v\n+-----------------------------+\n| Go sidecar (data plane)     |\n| authenticate and validate   |\n| evaluate active policy      |\n| ALLOW / BLOCK / ESCALATE    |\n+-------------+---------------+\n              |\n     ALLOW    |    BLOCK / ESCALATE\n              |            |\n              v            v\n     controlled upstream   no side effect\n\nFastAPI control plane\n    |\n    +-- PostgreSQL: identities, policies, reviews, audit\n    +-- signed/versioned policy bundles --> Go sidecar\n    +-- audit batches and review requests <-- Go sidecar\n```\n\n| Component | Ownership |\n| --- | --- |\n| Go sidecar | Authenticate the workload, resolve canonical identity/capability, evaluate the active bundle, enforce the decision, and buffer audit events |\n| FastAPI | Manage identities and policies, compile/sign/publish bundles, ingest audit events, and manage escalations |\n| PostgreSQL | Authoritative durabl …",
+    "role_context": "RFC/EPIC: Introduce a Go enforcement sidecar and FastAPI governance control plane aegisora-ai/aegisora help wanted, agent integration",
+    "published": "2026-09-25T21:34:29Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "aegisora-ai/aegisora",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 39,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 82,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong governance relevance",
+      "Strong research writing relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "opportunity_identity": "role::aegisora ai aegisora::rfc epic introduce a go enforcement sidecar and fastapi governance control plane::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Legal Engineering Analyst",
@@ -2031,8 +2121,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_checked": "2026-09-25T05:26:43.794494+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
     "opportunity_identity": "role::legora::legal engineering analyst::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -2117,8 +2207,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_checked": "2026-09-25T05:26:43.794494+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -2203,8 +2293,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_checked": "2026-09-25T05:26:43.794494+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -2481,8 +2571,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_checked": "2026-09-25T05:26:43.794494+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -2566,8 +2656,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_checked": "2026-09-25T05:26:43.794494+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -2676,8 +2766,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_checked": "2026-09-25T05:26:43.794494+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -2931,8 +3021,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_checked": "2026-09-25T05:26:43.794494+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel dublin::dublin",
     "description_truncated": true
   },
@@ -3009,8 +3099,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_checked": "2026-09-25T05:26:43.794494+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel emea::dublin",
     "description_truncated": true
   },
