@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-26T05:25:53.322217+00:00",
-    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-26T05:25:53.322217+00:00",
-    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -231,6 +231,106 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "feat: GDPR Compliance Module (Data Subject Rights, Consent, Audit, Retention)",
+    "url": "https://github.com/dentalpin/dentalpin/issues/44",
+    "description": "Open-source contribution opportunity. Repository: dentalpin/dentalpin. Labels: enhancement, help wanted, frontend, backend, compliance. ## Summary\n\nBuild a GDPR compliance module for DentalPin to help European dental clinics meet their data protection obligations. Health data is classified as **\"special category data\"** under GDPR Article 9, requiring enhanced protection measures.\n\n**Non-compliance risk:** Fines up to **4% of annual revenue or €20 million** (whichever is higher).\n\n## Core GDPR Requirements\n\n### Data Subject Rights (Chapter 3)\n\n| Right | Article | Implementation |\n|-------|---------|----------------|\n| **Access** | Art. 15 | Export all patient data |\n| **Rectification** | Art. 16 | Edit personal data |\n| **Erasure** | Art. 17 | Delete or anonymize data |\n| **Portability** | Art. 20 | Export in machine-readable format |\n| **Restriction** | Art. 18 | Pause processing |\n| **Object** | Art. 21 | Opt-out of certain processing |\n\n**Healthcare exception:** Right to erasure can be refused when retention is legally required (medical records). Must explain legal basis to patient.\n\n### Consent Management\n\n- Explicit, informed consent before processing\n- Track: when given, what it covers, who gave it\n- Easy withdrawal mechanism\n- Separate consents for: treatment, marketing, research, sharing with third parties\n\n### Data Retention\n\n- GDPR: Keep data only as long as necessary\n- Healthcare laws: Often require 5-15+ years retention (varies by country)\n- Module must support configurable retention policies per data type\n- Automatic flagging when retention period expires\n\n### Breach Notification\n\n- Notify supervisory authority within **72 hours**\n- Notify affected individuals if high risk\n- Document all breaches (even minor ones)\n\n### Audit & Accountability\n\n- Log all access to personal data\n- Data Protection Impact Assessments (DPIAs)\n- Processing activity records\n- Demonstrate compliance on request\n\n---\n\n## Proposed Module Features\n\n### 1. Data Subject Request (DSR) …",
+    "role_context": "feat: GDPR Compliance Module (Data Subject Rights, Consent, Audit, Retention) dentalpin/dentalpin enhancement, help wanted, frontend, backend, compliance",
+    "published": "2026-09-26T14:25:03Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "dentalpin/dentalpin",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "paid",
+    "compensation": "€20",
+    "duration": "15 years",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 88,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 95,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Explicit compensation signal",
+      "Relevant experience overlap: data protection",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
+    "opportunity_identity": "role::dentalpin dentalpin::feat gdpr compliance module data subject rights consent audit retention::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Law School Student Ambassador",
@@ -302,8 +402,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-26T05:25:53.322217+00:00",
-    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -315,6 +415,85 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "Trace education privacy policies to primary sources",
+    "url": "https://github.com/Principled-Evolution/gopal/issues/29",
+    "description": "Open-source contribution opportunity. Repository: Principled-Evolution/gopal. Labels: documentation, help wanted. ## Goal\n\nCreate the first evidence-backed section of `docs/coverage/education.md` by tracing the three policies under `industry_specific/education/v1/student_data_privacy/` to the exact primary-source obligations they encode:\n\n- `ferpa_compliance.rego`\n- `coppa_compliance.rego`\n- `data_minimization.rego`\n\nThis is a documentation and source-audit contribution. Do not change policy behavior in the same pull request.\n\n## Why this is the current gap\n\nThe generated inventory in [`docs/coverage/coverage.json`](https://github.com/Principled-Evolution/gopal/blob/main/docs/coverage/coverage.json) records 12 education policies, 12 sibling tests, and an empty-input test for every policy. These are executable rules, not scaffolds.\n\nThe traceability gap is different: all 12 education entries currently have an empty `references` list. The existing [education proctoring example](https://github.com/Principled-Evolution/gopal/tree/main/examples/education-proctoring) deliberately says its checks are only \"broadly aligned\" with FERPA, COPPA, ETS guidance, and state rules. That sentence is not evidence that each check implements a named legal obligation.\n\nGOPAL's value depends on keeping those two claims separate: a rule can be executable and tested while its regulatory mapping is still incomplete.\n\n## First contribution: three privacy policies\n\nStart with the `student_data_privacy` package so the review remains bounded. For each policy, inspect the rule and its tests, then add a row for every distinct obligation or project-defined baseline it evaluates.\n\nUse columns that make the evidence boundary visible:\n\n| Column | What to record |\n|---|---|\n| Obligation | Exact section or rule name, not a framework-level label |\n| GOPAL policy | Repository path and decision rule |\n| Source evidence | Primary-source link and pinpoint citation, or `Unmapped` |\n| What the rule checks | Th …",
+    "role_context": "Trace education privacy policies to primary sources Principled-Evolution/gopal documentation, help wanted",
+    "published": "2026-09-26T08:44:45Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Principled-Evolution/gopal",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 42,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 91,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
+    "opportunity_identity": "role::principled evolution gopal::trace education privacy policies to primary sources::remote open source",
+    "description_truncated": true
   },
   {
     "title": "User guide: what \"private\" means in Veil",
@@ -558,6 +737,92 @@
     "duplicate_count": 0
   },
   {
+    "title": "Research the specification of state-level income-dependent premium rules (7 states)",
+    "url": "https://github.com/Visualize-Policy/research-writing-admin/issues/10",
+    "description": "Open-source contribution opportunity. Repository: Visualize-Policy/research-writing-admin. Labels: help wanted, question. ## What\n\nMoved from [`health-dashboard` issue #50](https://github.com/wtdickens/health-dashboard/issues/50).\nContent unchanged — this is a research task, not a coding task, so it belongs here. Part of the\nreplacement plan for #22 — closing that issue in favor of three scoped issues: this one (research),\na schema-design issue, and an implementation issue. Issue #22's multi-tier premium task turns out to\ncover states with genuinely different structures, not one shape — see the discussion there.\n\nSeven states need their actual premium rules fully specified, not just the summary already in the\npipeline:\n- **Indiana, Iowa, Kansas** — KFF's summary table footnotes give the dollar tier amounts\n  ($33/$50/$53/$70; $20/$40; $20/$30/$50) but not the FPL income breakpoints that trigger each tier.\n- **Massachusetts** — footnote gives a range ($36-$84 \"tiered by FPL\") with no breakpoints at all.\n- **Georgia** — footnote is purely qualitative (\"varies by income\"), no numbers.\n- **New York** — footnote describes a formula (family max = 3x the per-child amount; full premium\n  above 400% FPL) — need to confirm whether that's the complete rule.\n- **Washington** — footnote describes a structure that varies by both income *and* number of\n  children — a genuinely two-dimensional rule, not a single tier list.\n\nDon't assume income is the only input, for any of the seven — check explicitly whether family size,\nage, or anything else also determines the premium, the way Washington's already known to.\n\n## Where to look, in order\n\n1. **KFF/Georgetown Center for Children and Families annual survey** (\"Annual Updates on\n   Eligibility Rules, Enrollment and Renewal Procedures, and Cost-Sharing Practices in Medicaid and\n   CHIP\") —\n   https://www.kff.org/medicaid/annual-updates-on-eligibility-rules-enrollment-and-renewal-procedures-and-cost-sharing-practices-in-medicaid-and-chi …",
+    "role_context": "Research the specification of state-level income-dependent premium rules (7 states) Visualize-Policy/research-writing-admin help wanted, question",
+    "published": "2026-09-26T18:00:58Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Visualize-Policy/research-writing-admin",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "paid",
+    "compensation": "$33",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 56,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      }
+    ],
+    "fit_score": 89,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
+    "opportunity_identity": "role::visualize policy research writing admin::research the specification of state level income dependent premium rules 7 states::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "Werkstudent:in, Recht",
     "url": "https://job-boards.greenhouse.io/via/jobs/8585553002",
     "description": "Organisation: Via. Location: Berlin, Germany. Department: Legal. Office: Berlin. Via nutzt innovative Technologien, um den Transport weltweit zu revolutionieren. Von der Veränderung des täglichen Pendelns einer einzelnen Person bis zur Reduzierung des kollektiven ökologischen Fußabdrucks der Menschheit – wir haben große Ziele. Als Werkstudent:in im Bereich Recht wirst du ein wichtiger Teil unseres dynamischen, globalen Rechtsteams und arbeitest eng mit einem Team hoch engagierter Anwält:innen in Europa, Israel und New York zusammen. Dabei hilfst du uns, unser Geschäft in Europa weiter auszubauen und neue Projekte auf den Weg zu bringen. Mit Unterstützung eines Mentors lernst du die vielschichtigen Aufgaben eines Syndikusanwalts kennen und erhältst gleichzeitig einzigartige Einblicke in die Rechtsabteilung eines schnell wachsenden Scale-ups. Dies ist eine Station im Rahmen des Rechtsreferendariats mit einer Mindestdauer von 6 Monaten, idealerweise mit Start im September 2026. Die Stelle ist in Berlin angesiedelt, im hybriden Arbeitsmodell. Deine Aufgaben: Unterstützung bei geschäftskritischen Vertragsangelegenheiten: Prüfung und Koordination des Vertragsabschlusses (z. B. NDAs, SaaS-Verträge, Lieferantenverträge, Mietverträge), unter Sicherstellung der Genauigkeit und Identifizierung zentraler Risiken Unterstützung bei der Pflege und Organisation von Vertragsdatenbanken und -vorlagen Unterstützung beim Management wichtiger regulatorischer und Compliance-Themen: Durchführung rechtlicher und regulatorischer Recherchen in für Via relevanten Bereichen, u. a. Transportnetzwerkdienste, Gig Economy, Versicherungen, Open-Source-Daten und Datenschutzrecht Überwachung der Einhaltung der DSGVO und anderer Datenschutzgesetze durch die Kontrolle von Auftragsverarbeitungsverträgen (DPAs) mit Lieferanten und Partnern Unterstützung der internen Compliance und Corporate Governance von Via Vorantreiben von Effizienz- und Prozessverbesserungen: Aufbau von Kenntnissen interner Datenbank …",
@@ -642,8 +907,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-26T05:25:53.322217+00:00",
-    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -655,6 +920,83 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "[New Skill]: VASP counterparty screening hook for regulated operators",
+    "url": "https://github.com/ARPAHLS/skillware/issues/391",
+    "description": "Open-source contribution opportunity. Repository: ARPAHLS/skillware. Labels: enhancement, help wanted, skill request, security, cat: compliance, cat: defi. ### Skill ID\n\ncompliance/vasp_wallet_check\n\n### Category\n\ncompliance\n\n### What should this skill do?\n\nAdapter skill for **regulated operators**: given withdrawal/deposit intent (address, amount, asset, jurisdiction profile), call **operator-supplied VASP/Travel Rule API** (not bundled SaaS credentials) and return structured allow/hold/reject + reason codes. v0.1: single HTTP adapter + JSON schema validation; mock fixture for CI.\n\nDistinct from `wallet_screening` (sanctions/malicious lists) and `compliance/mica_module` (MiCA text policy).\n\n### Ideal Inputs & Outputs\n\n```json\n{\n  \"action\": \"screen_transfer\",\n  \"profile\": \"eu_vasp_default\",\n  \"asset\": \"ETH\",\n  \"amount\": \"1.0\",\n  \"destination\": \"0x…\",\n  \"originator_ref\": \"customer_demo_001\"\n}\n```\n\n```json\n{\n  \"status\": \"ok\",\n  \"decision\": \"hold\",\n  \"reason_codes\": [\"TRAVEL_RULE_DATA_REQUIRED\"],\n  \"provider_response_id\": \"tr_abc123\"\n}\n```\n\n### Target runtime\n\nModel agnostic (all supported adapters)\n\n### External APIs & env vars (if any)\n\n## External APIs & env vars\n\n| Variable | Required |\n|----------|----------|\n| `VASP_SCREENING_API_URL` | Operator endpoint |\n| `VASP_SCREENING_API_KEY` | Operator key |\n\nAll traffic operator-controlled, no ARPA-hosted compliance backend.\n\n## Design notes\n\n**Rationale:** Enterprise regulated flows need deterministic adapter, too niche for all hosts but valid registry slot for finance vertical. Could be under defi? not sure.\n\n**Alternatives:** Manual compliance desk, not agent scale. Fold into wallet_screening won't do it due to different data sources and legal frame.\n\n**Security:** PII may appear in originator_ref, constitution: no logging PII, host redaction required, not for public agent demos.\n\n**Privacy:** Sovereign, operator owns API and data retention.",
+    "role_context": "[New Skill]: VASP counterparty screening hook for regulated operators ARPAHLS/skillware enhancement, help wanted, skill request, security, cat: compliance, cat: defi",
+    "published": "2026-09-26T15:58:17Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "ARPAHLS/skillware",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 42,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
+    "opportunity_identity": "role::arpahls skillware::new skill vasp counterparty screening hook for regulated operators::remote open source"
   },
   {
     "title": "Open Source License Compatibility Matrix & Commercial Usage Compliance Subsystem",
@@ -1531,8 +1873,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-09-26T05:25:53.322217+00:00",
-    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
     "description_truncated": true
   },
@@ -1605,11 +1947,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -1620,6 +1962,83 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "Remediation rewrites unrelated .project/ references (e.g. security.policy -> bug_report.md) via stale CONTROL_REFERENCE_MAPPING",
+    "url": "https://github.com/darnitdevorg/darnit/issues/482",
+    "description": "Open-source contribution opportunity. Repository: darnitdevorg/darnit. Labels: help wanted, quality, module-baseline. ## Summary\n\nAfter any successful `file_create` remediation, the orchestrator calls `update_config_after_file_create` with the hard-coded Python `CONTROL_REFERENCE_MAPPING`, which overwrites whatever the user had at that `.project/` path. The mapping disagrees with the TOML (`locator.project_path`) and with what the remediation actually creates:\n\n| Control | Creates | Mapping writes |\n|---|---|---|\n| DO-02.01 | `.github/ISSUE_TEMPLATE/bug_report.md` | `security.policy` |\n| DO-01.01 | `README.md` | `quality.changelog` |\n| GV-01.01 | `GOVERNANCE.md` | `governance.maintainers` |\n| GV-01.02 | `MAINTAINERS.md` | `governance.code_of_conduct` |\n| LE-01.01 | `LICENSE` | `legal.contributor_agreement` |\n\nThe mapping also lists three IDs not in the TOML (DO-01.02, DO-01.03, LI-01.01), and disagrees with `locator.project_path` for 11 controls. The write happens even when `file_create` skipped because the file already existed. Note the TOML itself also sets DO-02.01 `locator.project_path = \"security.policy\"`.\n\n`PROJECT_TYPE_EXCLUSIONS` and `DEFAULT_FILE_LOCATIONS` in the same module have no callers (re-exported only).\n\n## Impact\n\n`.project/project.yaml` is user-authored, CNCF-shared metadata. Remediation silently repoints the security policy at an issue template and records README as the changelog, corrupting data other tools and later darnit runs consume. This violates CLAUDE.md \"TOML is Source of Truth\".\n\n## Evidence\n\n- Mapping: https://github.com/darnitdevorg/darnit/blob/032493b8bc9d6ef810ecd639e515042371465c37/packages/darnit-baseline/src/darnit_baseline/config/mappings.py#L56-L94\n- Call site: https://github.com/darnitdevorg/darnit/blob/032493b8bc9d6ef810ecd639e515042371465c37/packages/darnit-baseline/src/darnit_baseline/remediation/orchestrator.py#L559-L575\n- Overwrite when different: https://github.com/darnitdevorg/darnit/blob/032493b8bc9d6ef810ecd639e515042 …",
+    "role_context": "Remediation rewrites unrelated .project/ references (e.g. security.policy -> bug_report.md) via stale CONTROL_REFERENCE_MAPPING darnitdevorg/darnit help wanted, quality, module-baseline",
+    "published": "2026-09-26T16:29:32Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "darnitdevorg/darnit",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 34,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong governance relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
+    "opportunity_identity": "role::darnitdevorg darnit::remediation rewrites unrelated project references e g security policy bug report md via stale control reference mapping::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Add industry file: Legal Tech",
@@ -1687,11 +2106,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -1780,8 +2199,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-26T05:25:53.322217+00:00",
-    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -1867,8 +2286,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-26T05:25:53.322217+00:00",
-    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -1954,8 +2373,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-26T05:25:53.322217+00:00",
-    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -1969,14 +2388,14 @@
     "duplicate_count": 0
   },
   {
-    "title": "RFC/EPIC: Introduce a Go enforcement sidecar and FastAPI governance control plane",
-    "url": "https://github.com/aegisora-ai/aegisora/issues/22",
-    "description": "Open-source contribution opportunity. Repository: aegisora-ai/aegisora. Labels: help wanted, agent integration. ## Summary\n\nSplit Aegisora into a local Go enforcement sidecar (data plane) and a FastAPI governance service (control plane).\n\nThe sidecar handles the latency-sensitive path for every governed tool, provider, or API action. FastAPI owns policy and identity state, publishes immutable policy bundles, receives audit events, and manages human review. The TypeScript SDK/runtime remains the developer integration layer and sends governed actions through the sidecar.\n\n## Why\n\nThe repository currently enforces actions primarily inside the TypeScript runtime and includes a small in-memory FastAPI interceptor. This is useful as a reference, but it does not provide a durable control plane or an independently deployable, high-throughput enforcement boundary.\n\nThe split should preserve one logical authority while moving policy administration and database work out of the request hot path.\n\n## Architecture\n\n```text\nAgent / TypeScript SDK\n          |\n          | execution intent\n          v\n+-----------------------------+\n| Go sidecar (data plane)     |\n| authenticate and validate   |\n| evaluate active policy      |\n| ALLOW / BLOCK / ESCALATE    |\n+-------------+---------------+\n              |\n     ALLOW    |    BLOCK / ESCALATE\n              |            |\n              v            v\n     controlled upstream   no side effect\n\nFastAPI control plane\n    |\n    +-- PostgreSQL: identities, policies, reviews, audit\n    +-- signed/versioned policy bundles --> Go sidecar\n    +-- audit batches and review requests <-- Go sidecar\n```\n\n| Component | Ownership |\n| --- | --- |\n| Go sidecar | Authenticate the workload, resolve canonical identity/capability, evaluate the active bundle, enforce the decision, and buffer audit events |\n| FastAPI | Manage identities and policies, compile/sign/publish bundles, ingest audit events, and manage escalations |\n| PostgreSQL | Authoritative durabl …",
-    "role_context": "RFC/EPIC: Introduce a Go enforcement sidecar and FastAPI governance control plane aegisora-ai/aegisora help wanted, agent integration",
-    "published": "2026-09-25T21:34:29Z",
+    "title": "Bug: RFC compliance audit: SPF/DKIM/DMARC record validation in email_security_tool.py",
+    "url": "https://github.com/AynOps/AynOps/issues/219",
+    "description": "Open-source contribution opportunity. Repository: AynOps/AynOps. Labels: bug, help wanted, good first issue. ## Summary\nAudit of `email_security_tool.py` against RFC 1035, RFC 7208, RFC 6376, and RFC 7489\nsurfaced three confirmed conformance gaps and one initially-reported item that does not\nreproduce against the current implementation. Each finding below is scoped to a single\nfunction and can be picked up independently — no shared state between them.\n\n---\n\n### Issue A — `_is_spf_record()` accepts leading-whitespace-padded version tags (RFC 7208 §4.5)\n\n`_is_spf_record()` currently does:\n\n```python\ntokens = record.strip().split()\nreturn bool(tokens) and tokens[0] == \"v=spf1\"\n```\n\n`record.strip()` discards leading/trailing whitespace before the `v=spf1` token check.\nPer RFC 7208 §4.5, the version section must be the literal prefix of the record —\nterminated by SP or EOL — with no leading whitespace tolerance. A strict SMTP receiver\nreturns `PermError` on a record with leading whitespace; this parser currently validates\nit as SPF.\n\n**Fix:**\n```python\ndef _is_spf_record(record: str) -> bool:\n    return record == \"v=spf1\" or record.startswith(\"v=spf1 \")\n```\nApply the same anchor logic in `_spf_policy()` where `record.strip().split()` is repeated.\n\n**Acceptance criteria:**\n- [ ] `_is_spf_record(\" v=spf1 -all\")` returns `False`\n- [ ] `_is_spf_record(\"v=spf1 -all\")` returns `True`\n- [ ] `_is_spf_record(\"v=spf1\")` returns `True`\n- [ ] Existing `_spf_policy()` unit tests still pass with the anchored check\n\n---\n\n### Issue B — `_is_valid_base64_key()` performs unscoped whitespace stripping (RFC 6376 §3.2)\n\n`_is_valid_base64_key()` sanitizes `p=` via:\n\n```python\ncompact = \"\".join(value.split())\n```\n\nThis strips *all* whitespace unconditionally rather than only folding whitespace (FWS)\nat valid fold points per RFC 6376 §3.2. A key string with an internal space introduced\nby truncation or manual copy/paste corruption is silently repaired and passed through\nbase64 decode, which can …",
+    "role_context": "Bug: RFC compliance audit: SPF/DKIM/DMARC record validation in email_security_tool.py AynOps/AynOps bug, help wanted, good first issue",
+    "published": "2026-09-26T06:45:48Z",
     "source": "github-issues-api",
     "source_type": "open_source",
-    "organization": "aegisora-ai/aegisora",
+    "organization": "AynOps/AynOps",
     "location": "Remote / open source",
     "structured_opportunity": true,
     "source_quality": "Open source",
@@ -2000,53 +2419,46 @@
     "deadline_time_confidence": "unknown",
     "deadline_source_timezone": "",
     "deadline_original": "",
-    "score": 39,
+    "score": 26,
     "reasons": [
       {
         "signal": "open_source_discovery",
         "points": -25
       },
       {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
         "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "governance",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
         "points": 12
       },
       {
         "signal": "structured_source",
         "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      },
-      {
-        "signal": "leadership",
-        "points": 8
       }
     ],
-    "fit_score": 82,
+    "fit_score": 84,
     "fit_label": "Strong fit",
     "fit_reasons": [
-      "Strong governance relevance",
-      "Strong research writing relevance",
+      "Strong legal relevance",
+      "Strong compliance relevance",
       "Strong policy relevance",
       "Open-source contribution matches the target career stage",
-      "Remote-friendly"
+      "Remote-friendly",
+      "Relevant experience overlap: compliance"
     ],
     "fit_gaps": [],
     "fit_blockers": [],
     "fit_version": "0.4",
-    "first_seen": "2026-09-26T05:25:53.322217+00:00",
-    "last_seen": "2026-09-26T05:25:53.322217+00:00",
-    "last_checked": "2026-09-26T05:25:53.322217+00:00",
-    "opportunity_identity": "role::aegisora ai aegisora::rfc epic introduce a go enforcement sidecar and fastapi governance control plane::remote open source",
+    "first_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
+    "opportunity_identity": "role::aynops aynops::bug rfc compliance audit spf dkim dmarc record validation in email security tool py::remote open source",
     "description_truncated": true
   },
   {
@@ -2121,8 +2533,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-09-26T05:25:53.322217+00:00",
-    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::legora::legal engineering analyst::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -2207,8 +2619,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-26T05:25:53.322217+00:00",
-    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -2293,8 +2705,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-26T05:25:53.322217+00:00",
-    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -2306,6 +2718,85 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "[Reference Implementation] Governed KYC/AML Compliance Agent — Production-ready multi-agent stack",
+    "url": "https://github.com/agentguard-ai/tealtiger/issues/434",
+    "description": "Open-source contribution opportunity. Repository: agentguard-ai/tealtiger. Labels: help wanted. ## 🏦 Governed KYC Agent — Reference Implementation\n\nWe're building an open-source, production-grade KYC/AML compliance agent that demonstrates the complete agentic AI stack with deterministic governance at every step.\n\n**Why this matters:** TD Bank paid a $3B fine for AML compliance failures. JPMorgan, HSBC, and ING are deploying agentic AI to compress KYC onboarding from days to minutes. But without governance, these agents become liability machines.\n\nThis reference implementation shows how to build a governed multi-agent KYC system that:\n- ✅ Extracts and verifies identity documents\n- ✅ Screens customers against sanctions lists (OFAC, EU, UN)\n- ✅ Scores risk based on customer profile and behavior\n- ✅ Decides: approve / escalate to human / reject\n- ✅ Produces a complete, signed audit trail for every decision\n- ✅ Enforces cost budgets, PII redaction, and tool authorization at every step\n\n### Architecture (7-Layer Stack)\n\n```mermaid\ngraph TD\n    subgraph \"CLIENT NETWORK (VPC)\"\n        subgraph \"INTELLIGENCE\"\n            LLM[\"Self-hosted LLM<br/>Azure OpenAI / Ollama / Mock\"]\n        end\n\n        subgraph \"STATE\"\n            MEM[\"Agent Memory<br/>Mem0 / Supermemory / Local\"]\n            VDB[\"Vector DB<br/>RAG over compliance docs\"]\n        end\n\n        subgraph \"ACTION — Specialized Agents\"\n            A1[\"📄 Document<br/>Extraction\"]\n            A2[\"🔍 Sanctions<br/>Screening\"]\n            A3[\"📊 Risk<br/>Scoring\"]\n            A4[\"✅ Decision<br/>Agent\"]\n        end\n\n        subgraph \"COORDINATION\"\n            ORCH[\"Orchestration<br/>Haystack / AG2 / LangGraph\"]\n        end\n\n        subgraph \"TRUST\"\n            GOV[\"🛡️ TealTiger Governance<br/>PII scan · Tool auth · Budget<br/>REQUIRE_APPROVAL · Audit trail\"]\n        end\n\n        subgraph \"FEEDBACK\"\n            OBS[\"Observability<br/>Langfuse / Phoenix\"]\n        end\n\n        subgraph \"OPERATIONS\"\n            DEPLOY[\"Docker Comp …",
+    "role_context": "[Reference Implementation] Governed KYC/AML Compliance Agent — Production-ready multi-agent stack agentguard-ai/tealtiger help wanted",
+    "published": "2026-09-26T13:26:15Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "agentguard-ai/tealtiger",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "paid",
+    "compensation": "$3",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 29,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      }
+    ],
+    "fit_score": 81,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong compliance relevance",
+      "Strong governance relevance",
+      "Strong published output relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Explicit compensation signal",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
+    "opportunity_identity": "role::agentguard ai tealtiger::reference implementation governed kyc aml compliance agent production ready multi agent stack::remote open source",
+    "description_truncated": true
   },
   {
     "title": "BBK-DFIR dependency license review - volunteer independent reviewer wanted",
@@ -2571,8 +3062,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-26T05:25:53.322217+00:00",
-    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -2656,8 +3147,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-26T05:25:53.322217+00:00",
-    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -2669,6 +3160,83 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "RFC/EPIC: Introduce a Go enforcement sidecar and FastAPI governance control plane",
+    "url": "https://github.com/aegisora-ai/aegisora/issues/22",
+    "description": "Open-source contribution opportunity. Repository: aegisora-ai/aegisora. Labels: help wanted, agent integration. ## Summary\n\nSplit Aegisora into a local Go enforcement sidecar (data plane) and a FastAPI governance service (control plane).\n\nThe sidecar handles the latency-sensitive path for every governed tool, provider, or API action. FastAPI owns policy and identity state, publishes immutable policy bundles, receives audit events, and manages human review. The TypeScript SDK/runtime remains the developer integration layer and sends governed actions through the sidecar.\n\n## Why\n\nThe repository currently enforces actions primarily inside the TypeScript runtime and includes a small in-memory FastAPI interceptor. This is useful as a reference, but it does not provide a durable control plane or an independently deployable, high-throughput enforcement boundary.\n\nThe split should preserve one logical authority while moving policy administration and database work out of the request hot path.\n\n## Architecture\n\n```text\nAgent / TypeScript SDK\n          |\n          | execution intent\n          v\n+-----------------------------+\n| Go sidecar (data plane)     |\n| authenticate and validate   |\n| evaluate active policy      |\n| ALLOW / BLOCK / ESCALATE    |\n+-------------+---------------+\n              |\n     ALLOW    |    BLOCK / ESCALATE\n              |            |\n              v            v\n     controlled upstream   no side effect\n\nFastAPI control plane\n    |\n    +-- PostgreSQL: identities, policies, reviews, audit\n    +-- signed/versioned policy bundles --> Go sidecar\n    +-- audit batches and review requests <-- Go sidecar\n```\n\n| Component | Ownership |\n| --- | --- |\n| Go sidecar | Authenticate the workload, resolve canonical identity/capability, evaluate the active bundle, enforce the decision, and buffer audit events |\n| FastAPI | Manage identities and policies, compile/sign/publish bundles, ingest audit events, and manage escalations |\n| PostgreSQL | Authoritative durabl …",
+    "role_context": "RFC/EPIC: Introduce a Go enforcement sidecar and FastAPI governance control plane aegisora-ai/aegisora help wanted, agent integration",
+    "published": "2026-09-25T21:34:29Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "aegisora-ai/aegisora",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 27,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 72,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong governance relevance",
+      "Strong policy relevance",
+      "Strong published output relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_seen": "2026-09-26T05:25:53.322217+00:00",
+    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "opportunity_identity": "role::aegisora ai aegisora::rfc epic introduce a go enforcement sidecar and fastapi governance control plane::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Legal Engineer, Law Firms and In-House, Dubai",
@@ -2766,8 +3334,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-09-26T05:25:53.322217+00:00",
-    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -3021,8 +3589,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_seen": "2026-09-26T05:25:53.322217+00:00",
-    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel dublin::dublin",
     "description_truncated": true
   },
@@ -3099,8 +3667,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-09-26T05:25:53.322217+00:00",
-    "last_checked": "2026-09-26T05:25:53.322217+00:00",
+    "last_seen": "2026-09-27T05:26:33.839527+00:00",
+    "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel emea::dublin",
     "description_truncated": true
   },
