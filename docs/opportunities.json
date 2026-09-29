@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-28T05:29:18.296560+00:00",
-    "last_checked": "2026-09-28T05:29:18.296560+00:00",
+    "last_seen": "2026-09-29T05:28:36.540202+00:00",
+    "last_checked": "2026-09-29T05:28:36.540202+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-28T05:29:18.296560+00:00",
-    "last_checked": "2026-09-28T05:29:18.296560+00:00",
+    "last_seen": "2026-09-29T05:28:36.540202+00:00",
+    "last_checked": "2026-09-29T05:28:36.540202+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -327,8 +327,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-27T05:26:33.839527+00:00",
-    "last_seen": "2026-09-28T05:29:18.296560+00:00",
-    "last_checked": "2026-09-28T05:29:18.296560+00:00",
+    "last_seen": "2026-09-29T05:28:36.540202+00:00",
+    "last_checked": "2026-09-29T05:28:36.540202+00:00",
     "opportunity_identity": "role::dentalpin dentalpin::feat gdpr compliance module data subject rights consent audit retention::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -337,90 +337,6 @@
         "url": "https://github.com/dentalpin/dentalpin/issues/44",
         "quality": "Open source",
         "priority": 65
-      }
-    ],
-    "duplicate_count": 0
-  },
-  {
-    "title": "Law School Student Ambassador",
-    "url": "https://jobs.ashbyhq.com/harvey/a194c24f-38ee-4c7e-908b-060a16dfaa9d",
-    "description": "Organisation: Harvey. Location: Remote. Department: Legal. Team: Legal. Commitment: Contract. Work model: Remote. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview The Law School Student Ambassador is a current JD candidate who serves as Harvey's on-campus champion, connecting the product with the student community at their law school. This role sits within the Law School Partnerships team, whose mission is to make Harvey an indispensable part of legal education by embedding the platform into how students learn and work. By building peer-to-peer awareness and hosting hands-on programming, the Ambassador accelerates student adoption and generates insights that shape Harvey's academic go-to-market strategy. They partner with faculty, student organizations, and Harvey's internal partnerships and marketing teams to tailor …",
-    "role_context": "Law School Student Ambassador Legal Legal Contract",
-    "published": "2026-06-25T16:59:33.472+00:00",
-    "source": "ashby:harvey",
-    "source_type": "job_board",
-    "organization": "Harvey",
-    "location": "Remote",
-    "structured_opportunity": true,
-    "source_quality": "Official ATS",
-    "source_priority": 100,
-    "source_quality_label": "Direct employer ATS",
-    "opportunity_type": "Early-career role",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [
-      "Current law students"
-    ],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 59,
-    "reasons": [
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "remote",
-        "points": 10
-      },
-      {
-        "signal": "leadership",
-        "points": 8
-      }
-    ],
-    "fit_score": 93,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong privacy relevance",
-      "Early-career role matches the target career stage",
-      "Remote-friendly",
-      "Explicitly open to current law students"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-28T05:29:18.296560+00:00",
-    "last_checked": "2026-09-28T05:29:18.296560+00:00",
-    "opportunity_identity": "role::harvey::law school student ambassador::remote",
-    "description_truncated": true,
-    "alternate_sources": [
-      {
-        "source": "ashby:harvey",
-        "url": "https://jobs.ashbyhq.com/harvey/a194c24f-38ee-4c7e-908b-060a16dfaa9d",
-        "quality": "Official ATS",
-        "priority": 100
       }
     ],
     "duplicate_count": 0
@@ -830,8 +746,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-28T05:29:18.296560+00:00",
-    "last_checked": "2026-09-28T05:29:18.296560+00:00",
+    "last_seen": "2026-09-29T05:28:36.540202+00:00",
+    "last_checked": "2026-09-29T05:28:36.540202+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -843,6 +759,96 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "Implement a source-mapped MAS FEAT external-accountability policy",
+    "url": "https://github.com/Principled-Evolution/gopal/issues/21",
+    "description": "Open-source contribution opportunity. Repository: Principled-Evolution/gopal. Labels: help wanted, policy, framework-request. ## Current gap\n\nGOPAL has four policies under `industry_specific/bfs/v1/`, but no policy for the Monetary Authority of Singapore's FEAT principles.\n\nThe original version of this issue asked one contributor to scaffold all four FEAT pillars, add test stubs, write a coverage page, and build an example. That scope does not match GOPAL's current standard: new policy files should contain an implemented decision, real passing and denial tests, and an explicit account of what remains uncovered.\n\nMAS's FEAT paper contains **14 principles**, says the framework is non-prescriptive, and allows firms to calibrate governance based on the materiality of AIDA-driven decisions. A first contribution should therefore implement a narrow, traceable slice rather than imply that four placeholder packages establish FEAT compliance.\n\n## Goal\n\nImplement the **external-accountability** part of FEAT's Accountability pillar:\n\n- **Principle 10:** data subjects have channels to enquire about, appeal, and request review of AIDA-driven decisions that affect them.\n- **Principle 11:** verified and relevant supplementary data supplied by data subjects is considered when such decisions are reviewed.\n\nPrimary source: [MAS, *Principles to Promote Fairness, Ethics, Accountability and Transparency (FEAT)*, section 7, principles 10-11](https://www.mas.gov.sg/-/media/mas/news-and-publications/monographs-and-information-papers/feat-principles-updated-7-feb-19.pdf#page=11).\n\nBefore coding, comment with a proposed input schema. Map every field to principle 10 or 11 and explain whether it records an organisation-level process, a system capability, or evidence from an individual review. Do not turn illustrative text into a mandatory numerical threshold.\n\n## Implementation shape\n\nAdd one implemented policy and its tests:\n\n- `industry_specific/bfs/v1/mas_feat/external_accountability.rego`\n- …",
+    "role_context": "Implement a source-mapped MAS FEAT external-accountability policy Principled-Evolution/gopal help wanted, policy, framework-request",
+    "published": "2026-09-28T20:42:52Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Principled-Evolution/gopal",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 68,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Strong governance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-29T05:28:36.540202+00:00",
+    "last_seen": "2026-09-29T05:28:36.540202+00:00",
+    "last_checked": "2026-09-29T05:28:36.540202+00:00",
+    "opportunity_identity": "role::principled evolution gopal::implement a source mapped mas feat external accountability policy::remote open source",
+    "description_truncated": true
   },
   {
     "title": "[New Skill]: VASP counterparty screening hook for regulated operators",
@@ -1796,8 +1802,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-09-28T05:29:18.296560+00:00",
-    "last_checked": "2026-09-28T05:29:18.296560+00:00",
+    "last_seen": "2026-09-29T05:28:36.540202+00:00",
+    "last_checked": "2026-09-29T05:28:36.540202+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
     "description_truncated": true
   },
@@ -1870,11 +1876,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-28T05:29:18.296560+00:00",
+    "last_seen": "2026-09-29T05:28:36.540202+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-28T05:29:18.296560+00:00",
+    "last_checked": "2026-09-29T05:28:36.540202+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -2029,11 +2035,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-28T05:29:18.296560+00:00",
+    "last_seen": "2026-09-29T05:28:36.540202+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-28T05:29:18.296560+00:00",
+    "last_checked": "2026-09-29T05:28:36.540202+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -2122,8 +2128,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-28T05:29:18.296560+00:00",
-    "last_checked": "2026-09-28T05:29:18.296560+00:00",
+    "last_seen": "2026-09-29T05:28:36.540202+00:00",
+    "last_checked": "2026-09-29T05:28:36.540202+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -2209,8 +2215,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-28T05:29:18.296560+00:00",
-    "last_checked": "2026-09-28T05:29:18.296560+00:00",
+    "last_seen": "2026-09-29T05:28:36.540202+00:00",
+    "last_checked": "2026-09-29T05:28:36.540202+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -2296,8 +2302,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-28T05:29:18.296560+00:00",
-    "last_checked": "2026-09-28T05:29:18.296560+00:00",
+    "last_seen": "2026-09-29T05:28:36.540202+00:00",
+    "last_checked": "2026-09-29T05:28:36.540202+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -2382,8 +2388,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-09-28T05:29:18.296560+00:00",
-    "last_checked": "2026-09-28T05:29:18.296560+00:00",
+    "last_seen": "2026-09-29T05:28:36.540202+00:00",
+    "last_checked": "2026-09-29T05:28:36.540202+00:00",
     "opportunity_identity": "role::legora::legal engineering analyst::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -2468,8 +2474,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-28T05:29:18.296560+00:00",
-    "last_checked": "2026-09-28T05:29:18.296560+00:00",
+    "last_seen": "2026-09-29T05:28:36.540202+00:00",
+    "last_checked": "2026-09-29T05:28:36.540202+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -2554,8 +2560,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-28T05:29:18.296560+00:00",
-    "last_checked": "2026-09-28T05:29:18.296560+00:00",
+    "last_seen": "2026-09-29T05:28:36.540202+00:00",
+    "last_checked": "2026-09-29T05:28:36.540202+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -2911,8 +2917,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-28T05:29:18.296560+00:00",
-    "last_checked": "2026-09-28T05:29:18.296560+00:00",
+    "last_seen": "2026-09-29T05:28:36.540202+00:00",
+    "last_checked": "2026-09-29T05:28:36.540202+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -2996,8 +3002,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-28T05:29:18.296560+00:00",
-    "last_checked": "2026-09-28T05:29:18.296560+00:00",
+    "last_seen": "2026-09-29T05:28:36.540202+00:00",
+    "last_checked": "2026-09-29T05:28:36.540202+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -3183,8 +3189,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-09-28T05:29:18.296560+00:00",
-    "last_checked": "2026-09-28T05:29:18.296560+00:00",
+    "last_seen": "2026-09-29T05:28:36.540202+00:00",
+    "last_checked": "2026-09-29T05:28:36.540202+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -3246,6 +3252,78 @@
     "last_seen": "2026-09-24T05:26:35.754988+00:00",
     "last_checked": "2026-09-24T05:26:35.754988+00:00",
     "opportunity_identity": "url::https://legalalphabet.com/internships"
+  },
+  {
+    "title": "Law School Student Ambassador",
+    "url": "https://jobs.ashbyhq.com/harvey/a194c24f-38ee-4c7e-908b-060a16dfaa9d",
+    "description": "Organisation: Harvey. Location: Remote. Department: Legal. Team: Legal. Commitment: Contract. Work model: Remote. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview The Law School Student Ambassador is a current JD candidate who serves as Harvey's on-campus champion, connecting the product with the student community at their law school. This role sits within the Law School Partnerships team, whose mission is to make Harvey an indispensable part of legal education by embedding the platform into how students learn and work. By building peer-to-peer awareness and hosting hands-on programming, the Ambassador accelerates student adoption and generates insights that shape Harvey's academic go-to-market strategy. They partner with faculty, student organizations, and Harvey's internal partnerships and marketing teams to tailor …",
+    "role_context": "Law School Student Ambassador Legal Legal Contract",
+    "published": "2026-06-25T16:59:33.472+00:00",
+    "source": "ashby:harvey",
+    "source_type": "job_board",
+    "organization": "Harvey",
+    "location": "Remote",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 35,
+    "reasons": [
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "remote",
+        "points": 10
+      }
+    ],
+    "fit_score": 63,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Early-career role matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_seen": "2026-09-28T05:29:18.296560+00:00",
+    "last_checked": "2026-09-28T05:29:18.296560+00:00",
+    "opportunity_identity": "role::harvey::law school student ambassador::remote",
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "ashby:harvey",
+        "url": "https://jobs.ashbyhq.com/harvey/a194c24f-38ee-4c7e-908b-060a16dfaa9d",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Internships - ACLU of Georgia",
@@ -3438,87 +3516,9 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_seen": "2026-09-28T05:29:18.296560+00:00",
-    "last_checked": "2026-09-28T05:29:18.296560+00:00",
+    "last_seen": "2026-09-29T05:28:36.540202+00:00",
+    "last_checked": "2026-09-29T05:28:36.540202+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel dublin::dublin",
-    "description_truncated": true
-  },
-  {
-    "title": "Associate Commercial Counsel, EMEA",
-    "url": "https://jobs.ashbyhq.com/harvey/fdfbcfc9-b498-4cbb-ad5b-34602b1adac9",
-    "description": "Organisation: Harvey. Location: Dublin. Department: Legal. Team: Legal. Commitment: FullTime. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview We are looking for a Commercial Counsel to join our legal team in Dublin. Reporting to the Head of EMEA Legal in London, you will interface with our Go-To-Market team to help ensure the fast and efficient execution of our agreements with customers. What You’ll Do Generative AI has the power to greatly change the world and directly impact how things get done.  Harvey is at the forefront of this change, and our mission is to make generative AI actionable and useful for our customers.  This is a fast moving environment (we are a start-up!) that is serving some of the world’s most renowned law firms and professional service organizations.  And this role will put you in the center …",
-    "role_context": "Associate Commercial Counsel, EMEA Legal Legal FullTime",
-    "published": "2026-09-22T08:48:27.726+00:00",
-    "source": "ashby:harvey",
-    "source_type": "job_board",
-    "organization": "Harvey",
-    "location": "Dublin",
-    "structured_opportunity": true,
-    "source_quality": "Official ATS",
-    "source_priority": 100,
-    "source_quality_label": "Direct employer ATS",
-    "opportunity_type": "Early-career role",
-    "work_model": "Unspecified",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 32,
-    "reasons": [
-      {
-        "signal": "qualified_professional_title",
-        "points": -35
-      },
-      {
-        "signal": "ai_governance",
-        "points": 18
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "leadership",
-        "points": 8
-      }
-    ],
-    "fit_score": 59,
-    "fit_label": "Stretch",
-    "fit_reasons": [
-      "Strong ai governance relevance",
-      "Strong legal relevance",
-      "Strong privacy relevance",
-      "Early-career role matches the target career stage"
-    ],
-    "fit_gaps": [
-      "Title suggests a qualified professional role"
-    ],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-09-28T05:29:18.296560+00:00",
-    "last_checked": "2026-09-28T05:29:18.296560+00:00",
-    "opportunity_identity": "role::harvey::associate commercial counsel emea::dublin",
     "description_truncated": true
   },
   {
