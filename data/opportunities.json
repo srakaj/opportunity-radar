@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-29T05:28:36.540202+00:00",
-    "last_checked": "2026-09-29T05:28:36.540202+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-29T05:28:36.540202+00:00",
-    "last_checked": "2026-09-29T05:28:36.540202+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -327,8 +327,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-27T05:26:33.839527+00:00",
-    "last_seen": "2026-09-29T05:28:36.540202+00:00",
-    "last_checked": "2026-09-29T05:28:36.540202+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
     "opportunity_identity": "role::dentalpin dentalpin::feat gdpr compliance module data subject rights consent audit retention::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -340,6 +340,84 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "Frontend: Privacy Policy page shows a placeholder phone number instead of the real one",
+    "url": "https://github.com/Shelterflex/monorepo/issues/1866",
+    "description": "Open-source contribution opportunity. Repository: Shelterflex/monorepo. Labels: bug, good first issue, Stellar Wave, frontend. ## Background\n\n`frontend/app/privacy-policy/PrivacyClient.tsx:156` still shows a placeholder phone number to real visitors:\n\n```tsx\n<p><strong>Email:</strong> privacy@shelterflex.com</p>\n<p><strong>Phone:</strong> +234 (0) XXX XXX XXXX</p>\n<p><strong>Address:</strong> Lagos, Nigeria</p>\n```\n\nThe real number is already used consistently elsewhere in the app:\n- `frontend/components/footer.tsx:61-66` — `href=\"tel:+2341234567890\"`, displayed as `+234 123 456 7890`\n- `frontend/app/[locale]/contact/ContactClient.tsx:242` — `+234 (0) 123 456 7890`\n\n## Why This Matters\n\nThis is a legal/compliance page (the Privacy Policy) shown to every visitor — displaying an obvious `XXX XXX XXXX` placeholder there looks unfinished and undermines trust in the document.\n\n## Scope\n\n1. Replace the placeholder phone number in `frontend/app/privacy-policy/PrivacyClient.tsx:156` with the real number already used on the footer and contact page.\n2. Match the existing formatting style used on the contact page (`+234 (0) 123 456 7890`) for consistency, since this section already uses the `+234 (0)` prefix format.\n\n## Acceptance Criteria\n\n- [ ] The Privacy Policy page no longer shows a placeholder phone number.\n- [ ] The displayed number matches the real number used in the footer/contact page.\n- [ ] `cd frontend && pnpm run lint && pnpm run build` pass.\n\n## Out of Scope\n\n- Any other content on the Privacy Policy page.\n\n## CI — this PR must pass the `Frontend (lint, build)` job\n\nExtracted from `.github/workflows/ci.yml`. These are the exact steps CI runs, in order, from the `frontend/` directory on Node 22 with pnpm 9.15.5.\n\n```bash\ncd frontend\npnpm install --frozen-lockfile\npnpm run lint\npnpm run build\n```\n\nA red job blocks the PR.",
+    "role_context": "Frontend: Privacy Policy page shows a placeholder phone number instead of the real one Shelterflex/monorepo bug, good first issue, Stellar Wave, frontend",
+    "published": "2026-09-29T23:14:59Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Shelterflex/monorepo",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 42,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 91,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "opportunity_identity": "role::shelterflex monorepo::frontend privacy policy page shows a placeholder phone number instead of the real one::remote open source"
   },
   {
     "title": "Trace education privacy policies to primary sources",
@@ -662,6 +740,92 @@
     "duplicate_count": 0
   },
   {
+    "title": "Research the specification of state-level income-dependent premium rules (7 states)",
+    "url": "https://github.com/Visualize-Policy/research-writing-admin/issues/10",
+    "description": "Open-source contribution opportunity. Repository: Visualize-Policy/research-writing-admin. Labels: help wanted, question. ## What\n\nMoved from [`health-dashboard` issue #50](https://github.com/wtdickens/health-dashboard/issues/50).\nContent unchanged — this is a research task, not a coding task, so it belongs here. Part of the\nreplacement plan for #22 — closing that issue in favor of three scoped issues: this one (research),\na schema-design issue, and an implementation issue. Issue #22's multi-tier premium task turns out to\ncover states with genuinely different structures, not one shape — see the discussion there.\n\nSeven states need their actual premium rules fully specified, not just the summary already in the\npipeline:\n- **Indiana, Iowa, Kansas** — KFF's summary table footnotes give the dollar tier amounts\n  ($33/$50/$53/$70; $20/$40; $20/$30/$50) but not the FPL income breakpoints that trigger each tier.\n- **Massachusetts** — footnote gives a range ($36-$84 \"tiered by FPL\") with no breakpoints at all.\n- **Georgia** — footnote is purely qualitative (\"varies by income\"), no numbers.\n- **New York** — footnote describes a formula (family max = 3x the per-child amount; full premium\n  above 400% FPL) — need to confirm whether that's the complete rule.\n- **Washington** — footnote describes a structure that varies by both income *and* number of\n  children — a genuinely two-dimensional rule, not a single tier list.\n\nDon't assume income is the only input, for any of the seven — check explicitly whether family size,\nage, or anything else also determines the premium, the way Washington's already known to.\n\n## Where to look, in order\n\n1. **KFF/Georgetown Center for Children and Families annual survey** (\"Annual Updates on\n   Eligibility Rules, Enrollment and Renewal Procedures, and Cost-Sharing Practices in Medicaid and\n   CHIP\") —\n   https://www.kff.org/medicaid/annual-updates-on-eligibility-rules-enrollment-and-renewal-procedures-and-cost-sharing-practices-in-medicaid-and-chi …",
+    "role_context": "Research the specification of state-level income-dependent premium rules (7 states) Visualize-Policy/research-writing-admin help wanted, question",
+    "published": "2026-09-29T15:36:48Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Visualize-Policy/research-writing-admin",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "paid",
+    "compensation": "$33",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 56,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      }
+    ],
+    "fit_score": 89,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "opportunity_identity": "role::visualize policy research writing admin::research the specification of state level income dependent premium rules 7 states::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "Werkstudent:in, Recht",
     "url": "https://job-boards.greenhouse.io/via/jobs/8585553002",
     "description": "Organisation: Via. Location: Berlin, Germany. Department: Legal. Office: Berlin. Via nutzt innovative Technologien, um den Transport weltweit zu revolutionieren. Von der Veränderung des täglichen Pendelns einer einzelnen Person bis zur Reduzierung des kollektiven ökologischen Fußabdrucks der Menschheit – wir haben große Ziele. Als Werkstudent:in im Bereich Recht wirst du ein wichtiger Teil unseres dynamischen, globalen Rechtsteams und arbeitest eng mit einem Team hoch engagierter Anwält:innen in Europa, Israel und New York zusammen. Dabei hilfst du uns, unser Geschäft in Europa weiter auszubauen und neue Projekte auf den Weg zu bringen. Mit Unterstützung eines Mentors lernst du die vielschichtigen Aufgaben eines Syndikusanwalts kennen und erhältst gleichzeitig einzigartige Einblicke in die Rechtsabteilung eines schnell wachsenden Scale-ups. Dies ist eine Station im Rahmen des Rechtsreferendariats mit einer Mindestdauer von 6 Monaten, idealerweise mit Start im September 2026. Die Stelle ist in Berlin angesiedelt, im hybriden Arbeitsmodell. Deine Aufgaben: Unterstützung bei geschäftskritischen Vertragsangelegenheiten: Prüfung und Koordination des Vertragsabschlusses (z. B. NDAs, SaaS-Verträge, Lieferantenverträge, Mietverträge), unter Sicherstellung der Genauigkeit und Identifizierung zentraler Risiken Unterstützung bei der Pflege und Organisation von Vertragsdatenbanken und -vorlagen Unterstützung beim Management wichtiger regulatorischer und Compliance-Themen: Durchführung rechtlicher und regulatorischer Recherchen in für Via relevanten Bereichen, u. a. Transportnetzwerkdienste, Gig Economy, Versicherungen, Open-Source-Daten und Datenschutzrecht Überwachung der Einhaltung der DSGVO und anderer Datenschutzgesetze durch die Kontrolle von Auftragsverarbeitungsverträgen (DPAs) mit Lieferanten und Partnern Unterstützung der internen Compliance und Corporate Governance von Via Vorantreiben von Effizienz- und Prozessverbesserungen: Aufbau von Kenntnissen interner Datenbank …",
@@ -746,8 +910,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-29T05:28:36.540202+00:00",
-    "last_checked": "2026-09-29T05:28:36.540202+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -792,15 +956,11 @@
     "deadline_time_confidence": "unknown",
     "deadline_source_timezone": "",
     "deadline_original": "",
-    "score": 68,
+    "score": 45,
     "reasons": [
       {
         "signal": "open_source_discovery",
         "points": -25
-      },
-      {
-        "signal": "legal",
-        "points": 15
       },
       {
         "signal": "compliance",
@@ -825,18 +985,14 @@
       {
         "signal": "published_output",
         "points": 10
-      },
-      {
-        "signal": "leadership",
-        "points": 8
       }
     ],
     "fit_score": 88,
     "fit_label": "Strong fit",
     "fit_reasons": [
-      "Strong legal relevance",
       "Strong compliance relevance",
       "Strong governance relevance",
+      "Strong research writing relevance",
       "Open-source contribution matches the target career stage",
       "Remote-friendly",
       "Relevant experience overlap: compliance"
@@ -928,6 +1084,83 @@
     "opportunity_identity": "role::arpahls skillware::new skill vasp counterparty screening hook for regulated operators::remote open source"
   },
   {
+    "title": "Validate synthetic-dataset license and lineage manifests",
+    "url": "https://github.com/maziyarpanahi/openmed/issues/3099",
+    "description": "Open-source contribution opportunity. Repository: maziyarpanahi/openmed. Labels: help wanted, feature, P1, roadmap-v3. ## Summary\n\nSynthetic clinical datasets need a release-time contract proving that every generator, template, vocabulary, and model dependency has allowed lineage.\n\n## Scope\n\n- [ ] Define strict manifests for source class, license expression, generator digest, model provenance, and redistribution decision.\n- [ ] Fail closed on missing, restricted, incompatible, or unknown dependencies.\n\n## Acceptance criteria\n\n- [ ] Permissive, mixed, unknown, restricted, missing-lineage, and reordered cases are tested.\n- [ ] Fixtures are synthetic and include no source records, prompts, outputs, or credentials.\n- [ ] Focused unit tests pass offline.\n\n## Out of scope\n\n- [ ] Legal advice, license detection from arbitrary files, dataset generation, or publication.\n\n## Files\n\n- [ ] `openmed/training/synthetic/license_lineage.py`\n- [ ] `tests/unit/training/synthetic/test_license_lineage.py`\n- [ ] `docs/training/synthetic/license-lineage-manifests.md`\n\n---\nRelease plan: #3195\nDependencies: maintained with GitHub issue relationships.\nArchitecture: Extend `openmed/training/federated`, `openmed/training/synthetic`, `openmed/compliance`, `openmed/clinical`, and `openmed/eval`.\nEstimate: M (planning only; confirm during implementation).\nSource of truth: this issue body, its parent release epic, and GitHub dependency relationships.",
+    "role_context": "Validate synthetic-dataset license and lineage manifests maziyarpanahi/openmed help wanted, feature, P1, roadmap-v3",
+    "published": "2026-09-29T20:59:44Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "maziyarpanahi/openmed",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 36,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "opportunity_identity": "role::maziyarpanahi openmed::validate synthetic dataset license and lineage manifests::remote open source"
+  },
+  {
     "title": "Open Source License Compatibility Matrix & Commercial Usage Compliance Subsystem",
     "url": "https://github.com/Hel-Phone/HelPhone/issues/625",
     "description": "Open-source contribution opportunity. Repository: Hel-Phone/HelPhone. Labels: help wanted, integration. - **Type**: Open Source License Governance\n- **Scope**: Dependency Compliance & License Auditing\n- **Problem Statement**: Unintentional inclusion of restrictive copyleft licenses (e.g., GPL-3.0, AGPL-3.0) or ambiguous custom open source licenses in transitive dependencies can create legal liability and restrict HelPhone's open deployment models. We need an automated license compatibility scanner and BOM (Bill of Materials) compliance gate.\n- **Implementation Scope**:\n  1. Develop a license scanner (`scripts/security/license_compliance.js`) that inspects license texts and metadata for all direct and transitive dependencies.\n  2. Map dependency licenses against an approved compatibility matrix (MIT, Apache-2.0, BSD-3-Clause, ISC).\n  3. Generate an updated `THIRD_PARTY_LICENSES.md` file during build and throw explicit errors if unauthorized licenses are introduced.\n- **Target Files & Locations**: `scripts/security/license_compliance.js`, `THIRD_PARTY_LICENSES.md`, `.github/workflows/license-check.yml`\n\n---",
@@ -1003,6 +1236,80 @@
     "last_seen": "2026-09-23T05:26:42.012100+00:00",
     "last_checked": "2026-09-23T05:26:42.012100+00:00",
     "opportunity_identity": "role::hel phone helphone::open source license compatibility matrix and commercial usage compliance subsystem::remote open source"
+  },
+  {
+    "title": "Summarize privacy-budget consumption without site identifiers",
+    "url": "https://github.com/maziyarpanahi/openmed/issues/3097",
+    "description": "Open-source contribution opportunity. Repository: maziyarpanahi/openmed. Labels: help wanted, good first issue, feature, P2, roadmap-v3. ## Summary\n\nGovernance review needs aggregate privacy-budget consumption by round and model family without exposing participating sites.\n\n## Scope\n\n- [ ] Aggregate validated epsilon, delta, composition method, and outcome metadata into bounded summaries.\n- [ ] Apply small-cell suppression and deterministic bucketing.\n\n## Acceptance criteria\n\n- [ ] Empty, single-round, composed, suppressed, exhausted, and reordered inputs have stable output.\n- [ ] Site IDs, client IDs, cohort sizes, examples, gradients, and local metrics are rejected.\n- [ ] Focused unit tests pass offline.\n\n## Out of scope\n\n- [ ] Privacy accounting, choosing budgets, or certifying differential privacy.\n\n## Files\n\n- [ ] `openmed/training/dp_budget_summary.py`\n- [ ] `tests/unit/training/test_dp_budget_summary.py`\n- [ ] `docs/training/dp-budget-summaries.md`\n\n---\nRelease plan: #3195\nDependencies: maintained with GitHub issue relationships.\nArchitecture: Extend `openmed/training/federated`, `openmed/training/synthetic`, `openmed/compliance`, `openmed/clinical`, and `openmed/eval`.\nEstimate: S (planning only; confirm during implementation).\nSource of truth: this issue body, its parent release epic, and GitHub dependency relationships.",
+    "role_context": "Summarize privacy-budget consumption without site identifiers maziyarpanahi/openmed help wanted, good first issue, feature, P2, roadmap-v3",
+    "published": "2026-09-29T19:34:48Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "maziyarpanahi/openmed",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 27,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Strong governance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "opportunity_identity": "role::maziyarpanahi openmed::summarize privacy budget consumption without site identifiers::remote open source"
   },
   {
     "title": "Review alate's privacy policy for content that doesn't belong in a privacy policy",
@@ -1802,9 +2109,86 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-09-29T05:28:36.540202+00:00",
-    "last_checked": "2026-09-29T05:28:36.540202+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
+    "description_truncated": true
+  },
+  {
+    "title": "spec_change: §9.1 maps GDPR Art. 22 as an AI Act article, and §9.1.1 cites Annex III 5(b) for insurance pricing",
+    "url": "https://github.com/agentrust-io/agent-manifest/issues/456",
+    "description": "Open-source contribution opportunity. Repository: agentrust-io/agent-manifest. Labels: good first issue, spec. ## Spec section\n\nSection 9.1, the EU AI Act mapping table, and Section 9.1.1, both in `spec/agent-manifest-spec-v0.2.md` at `main` following the merge of #455.\n\n## Problem\n\nTwo citations in the section #455 corrected still attribute provisions to an instrument and a sub-point that do not contain them. Both are the defect class established by #376, #439 and #455.\n\n### 1. The §9.1 table maps GDPR Article 22 as an AI Act article\n\nThe table under `### 9.1 EU AI Act` has `Article` as its first column, and every row names an AI Act provision except this one:\n\n```\n| Art. 22 - Automated decision-making | Where agents make automated decisions with significant effects on individuals, disclosure is required | When `data_scope.automated_decision_making` is `true`, Art. 22 disclosure obligations are triggered. The manifest's `data_scope` field (section 9.3) provides the machine-readable signal. |\n```\n\nArticle 22 of Regulation (EU) 2024/1689 is titled \"Authorised representatives of providers of high-risk AI systems\". The obligation this row describes is Article 22 of Regulation (EU) 2016/679.\n\nThe row already points to section 9.3, and section 9.3 documents the same obligation under the heading `#### GDPR Art. 32 and Art. 35`, where the neighbouring fields are labelled `GDPR Art. 30`, `GDPR Art. 6` and `Art. 35 DPIA`. So the obligation is recorded correctly there and duplicated incorrectly here.\n\nThe applicability paragraph added by #455 makes this load-bearing rather than cosmetic. It reads \"the high-risk obligations mapped in the table below (Arts. 12-15, 26) apply from 2 December 2027 for systems classified under Article 6(2) and Annex III, and from 2 August 2028 for systems classified under Article 6(1) and Annex I\". GDPR Article 22 has applied since 25 May 2018 and is deferred by nothing, so that enumeration is accurate only on the assumption that the Art. 22 row is …",
+    "role_context": "spec_change: §9.1 maps GDPR Art. 22 as an AI Act article, and §9.1.1 cites Annex III 5(b) for insurance pricing agentrust-io/agent-manifest good first issue, spec",
+    "published": "2026-09-30T04:58:08Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "agentrust-io/agent-manifest",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 43,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "ai_governance",
+        "points": 18
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong ai governance relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "opportunity_identity": "role::agentrust io agent manifest::spec change 9 1 maps gdpr art 22 as an ai act article and 9 1 1 cites annex iii 5 b for insurance pricing::remote open source",
     "description_truncated": true
   },
   {
@@ -1876,11 +2260,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-29T05:28:36.540202+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-29T05:28:36.540202+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -2035,11 +2419,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-29T05:28:36.540202+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-29T05:28:36.540202+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -2128,8 +2512,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-29T05:28:36.540202+00:00",
-    "last_checked": "2026-09-29T05:28:36.540202+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -2215,8 +2599,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-29T05:28:36.540202+00:00",
-    "last_checked": "2026-09-29T05:28:36.540202+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -2302,8 +2686,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-29T05:28:36.540202+00:00",
-    "last_checked": "2026-09-29T05:28:36.540202+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -2319,7 +2703,7 @@
   {
     "title": "Legal Engineering Analyst",
     "url": "https://jobs.ashbyhq.com/legora/ff80c470-33ab-453e-9ccb-c074447344d4",
-    "description": "Organisation: Legora. Location: Stockholm HQ. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 1,000+ customers across 50+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $100M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI and Graceview. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role This role sits at the intersection of law, technology, and product—supporting SMB clients across EMEA. You’ll help lean legal teams (often without large innovation/ops functions) adopt and scale Legora in a way that delivers real outcomes quickly. You’ll work closely with Legal Engineers, Customer Success, Product, and Go-To-Market to help clients move from first value to repeatable workflows—while feeding what you learn back into how the product evolves. What you’ll be doing Support SMB client onboarding, pilots, and a …",
+    "description": "Organisation: Legora. Location: Stockholm HQ. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role This role sits at the intersection of law, technology, and product—supporting SMB clients across EMEA. You’ll help lean legal teams (often without large innovation/ops functions) adopt and scale Legora in a way that delivers real outcomes quickly. You’ll work closely with Legal Engineers, Customer Success, Product, and Go-To-Market to help clients move from first value to repeatable workflows—while feeding what you learn back into how the product evolves. What you’ll be doing Support SMB client onboa …",
     "role_context": "Legal Engineering Analyst Legal Engineering Legal Engineering FullTime",
     "published": "2026-09-21T09:28:58.342+00:00",
     "source": "ashby:legora",
@@ -2333,7 +2717,7 @@
     "opportunity_type": "Early-career role",
     "work_model": "On-site",
     "compensation_status": "paid",
-    "compensation": "$100",
+    "compensation": "$200",
     "duration": "1 year",
     "commitment": "",
     "deadline": "",
@@ -2388,8 +2772,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-09-29T05:28:36.540202+00:00",
-    "last_checked": "2026-09-29T05:28:36.540202+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
     "opportunity_identity": "role::legora::legal engineering analyst::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -2405,7 +2789,7 @@
   {
     "title": "Legal Engineer Associate",
     "url": "https://jobs.ashbyhq.com/legora/bd6f1721-3d21-4a41-9b99-edf946e84056",
-    "description": "Organisation: Legora. Location: San Francisco. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 1,000+ customers across 50+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $100M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI and Graceview. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role This is a unique opportunity to sit at the intersection of law, technology, and product. You’ll gain hands on experience in how cutting edge AI is transforming the legal industry, while contributing directly to the development, testing, and adoption of our platform. You’ll work closely with our Legal Engineers, Customer Success, and Product teams to: Support client facing pilots, onboarding, and training, helping legal teams get the most out of Legora. Design and evaluate use cases that showcase our AI on real legal ta …",
+    "description": "Organisation: Legora. Location: San Francisco. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role This is a unique opportunity to sit at the intersection of law, technology, and product. You’ll gain hands on experience in how cutting edge AI is transforming the legal industry, while contributing directly to the development, testing, and adoption of our platform. You’ll work closely with our Legal Engineers, Customer Success, and Product teams to: Support client facing pilots, onboarding, and training, helping legal teams get the most out of Legora. Design and evaluate use cases that showcase our …",
     "role_context": "Legal Engineer Associate Legal Engineering Legal Engineering FullTime",
     "published": "2026-05-18T15:20:09.893+00:00",
     "source": "ashby:legora",
@@ -2419,7 +2803,7 @@
     "opportunity_type": "Early-career role",
     "work_model": "On-site",
     "compensation_status": "paid",
-    "compensation": "$100",
+    "compensation": "$200",
     "duration": "",
     "commitment": "",
     "deadline": "",
@@ -2474,8 +2858,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-29T05:28:36.540202+00:00",
-    "last_checked": "2026-09-29T05:28:36.540202+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -2491,7 +2875,7 @@
   {
     "title": "Legal Engineer Associate",
     "url": "https://jobs.ashbyhq.com/legora/b2fca281-1bd1-4291-a4d7-ec819447ec82",
-    "description": "Organisation: Legora. Location: New York City. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 1,000+ customers across 50+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $100M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI and Graceview. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role This is a unique opportunity to sit at the intersection of law, technology, and product. You’ll gain hands on experience in how cutting edge AI is transforming the legal industry, while contributing directly to the development, testing, and adoption of our platform. You’ll work closely with our Legal Engineers, Customer Success, and Product teams to: Support client facing pilots, onboarding, and training, helping legal teams get the most out of Legora. Design and evaluate use cases that showcase our AI on real legal ta …",
+    "description": "Organisation: Legora. Location: New York City. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role This is a unique opportunity to sit at the intersection of law, technology, and product. You’ll gain hands on experience in how cutting edge AI is transforming the legal industry, while contributing directly to the development, testing, and adoption of our platform. You’ll work closely with our Legal Engineers, Customer Success, and Product teams to: Support client facing pilots, onboarding, and training, helping legal teams get the most out of Legora. Design and evaluate use cases that showcase our …",
     "role_context": "Legal Engineer Associate Legal Engineering Legal Engineering FullTime",
     "published": "2026-02-03T17:19:28.011+00:00",
     "source": "ashby:legora",
@@ -2505,7 +2889,7 @@
     "opportunity_type": "Early-career role",
     "work_model": "On-site",
     "compensation_status": "paid",
-    "compensation": "$100",
+    "compensation": "$200",
     "duration": "2 years",
     "commitment": "",
     "deadline": "",
@@ -2560,8 +2944,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-29T05:28:36.540202+00:00",
-    "last_checked": "2026-09-29T05:28:36.540202+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -2849,7 +3233,7 @@
   {
     "title": "Legal Engineering Operations Associate",
     "url": "https://jobs.ashbyhq.com/legora/3c75574c-f213-4e41-a172-ac08c85ed68e",
-    "description": "Organisation: Legora. Location: Stockholm HQ. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 1,000+ customers across 50+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $100M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI and Graceview. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. About the role We are hiring a Legal Engineering Operations Associate to join the Global Legal Engineering Operations family in Stockholm, based in the office five days per week. You will report to the Global Legal Engineering Operations Lead and work with the Head of Legal Engineering EMEA as your clear primary regional stakeholder and executive sponsor. Legal Engineering EMEA is scaling quickly across markets, offices and customer segments. This role will help run the system around that growth. You will turn data, meetings and …",
+    "description": "Organisation: Legora. Location: Stockholm HQ. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. About the role We are hiring a Legal Engineering Operations Associate to join the Global Legal Engineering Operations family in Stockholm, based in the office five days per week. You will report to the Global Legal Engineering Operations Lead and work with the Head of Legal Engineering EMEA as your clear primary regional stakeholder and executive sponsor. Legal Engineering EMEA is scaling quickly across markets, offices and customer segments. This role will help run the system around that growth. You will tur …",
     "role_context": "Legal Engineering Operations Associate Legal Engineering Legal Engineering FullTime",
     "published": "2026-09-01T14:06:19.296+00:00",
     "source": "ashby:legora",
@@ -2863,7 +3247,7 @@
     "opportunity_type": "Early-career role",
     "work_model": "On-site",
     "compensation_status": "paid",
-    "compensation": "$100",
+    "compensation": "$200",
     "duration": "",
     "commitment": "",
     "deadline": "",
@@ -2917,8 +3301,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-29T05:28:36.540202+00:00",
-    "last_checked": "2026-09-29T05:28:36.540202+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -2934,7 +3318,7 @@
   {
     "title": "Legal Engineering Operations Associate",
     "url": "https://jobs.ashbyhq.com/legora/6be81d98-cd4b-47d4-b388-3d20e8401311",
-    "description": "Organisation: Legora. Location: New York City. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 1,000+ customers across 50+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $100M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI and Graceview. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role Legal Engineering (LE) sits at the center of how Legora wins. Our LEs run pilots, lead rollouts, drive product feedback, and bring deep legal subject-matter depth to every client. As we dramatically scale the North America team, we need someone to keep the engine running. The Legal Engineering Operations Associate is the data and operations backbone of the LE org. You'll build the reporting, run the trackers, and support the strategic operations projects that keep the function moving. This is a high-trust role for some …",
+    "description": "Organisation: Legora. Location: New York City. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role Legal Engineering (LE) sits at the center of how Legora wins. Our LEs run pilots, lead rollouts, drive product feedback, and bring deep legal subject-matter depth to every client. As we dramatically scale the North America team, we need someone to keep the engine running. The Legal Engineering Operations Associate is the data and operations backbone of the LE org. You'll build the reporting, run the trackers, and support the strategic operations projects that keep the function moving. This is a high …",
     "role_context": "Legal Engineering Operations Associate Legal Engineering Legal Engineering FullTime",
     "published": "2026-08-13T00:40:35.186+00:00",
     "source": "ashby:legora",
@@ -2948,7 +3332,7 @@
     "opportunity_type": "Early-career role",
     "work_model": "On-site",
     "compensation_status": "paid",
-    "compensation": "$100",
+    "compensation": "$200",
     "duration": "",
     "commitment": "",
     "deadline": "",
@@ -3002,8 +3386,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-29T05:28:36.540202+00:00",
-    "last_checked": "2026-09-29T05:28:36.540202+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -3096,7 +3480,7 @@
   {
     "title": "Legal Engineer, Law Firms and In-House, Dubai",
     "url": "https://jobs.ashbyhq.com/legora/fdecebdd-ae00-4408-9fa2-88909bdb364d",
-    "description": "Organisation: Legora. Location: Dubai. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 1,000+ customers across 50+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $100M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI and Graceview. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. About the role Let's get the tricky part out of the way. Legal Engineering does not fit neatly into a traditional box. It combines legal practice, product fluency, client leadership and practical change management. The job exists because software alone does not change how legal work gets done. Someone has to understand the work well enough to redesign it, and be credible enough that lawyers listen. As a Legal Engineer in Dubai, you sit between the lawyers using Legora and the people building it. You will work with law firms and in-house legal teams across …",
+    "description": "Organisation: Legora. Location: Dubai. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. About the role Let's get the tricky part out of the way. Legal Engineering does not fit neatly into a traditional box. It combines legal practice, product fluency, client leadership and practical change management. The job exists because software alone does not change how legal work gets done. Someone has to understand the work well enough to redesign it, and be credible enough that lawyers listen. As a Legal Engineer in Dubai, you sit between the lawyers using Legora and the people building it. You will work with law firms and in-hous …",
     "role_context": "Legal Engineer, Law Firms and In-House, Dubai Legal Engineering Legal Engineering FullTime",
     "published": "2026-09-21T14:25:46.502+00:00",
     "source": "ashby:legora",
@@ -3110,7 +3494,7 @@
     "opportunity_type": "Early-career role",
     "work_model": "Unspecified",
     "compensation_status": "paid",
-    "compensation": "$100",
+    "compensation": "$200",
     "duration": "",
     "commitment": "",
     "deadline": "",
@@ -3189,8 +3573,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-09-29T05:28:36.540202+00:00",
-    "last_checked": "2026-09-29T05:28:36.540202+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -3516,8 +3900,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_seen": "2026-09-29T05:28:36.540202+00:00",
-    "last_checked": "2026-09-29T05:28:36.540202+00:00",
+    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-09-30T05:29:39.227533+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel dublin::dublin",
     "description_truncated": true
   },
