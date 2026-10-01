@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -327,8 +327,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-27T05:26:33.839527+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
     "opportunity_identity": "role::dentalpin dentalpin::feat gdpr compliance module data subject rights consent audit retention::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -415,9 +415,18 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
-    "opportunity_identity": "role::shelterflex monorepo::frontend privacy policy page shows a placeholder phone number instead of the real one::remote open source"
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "opportunity_identity": "role::shelterflex monorepo::frontend privacy policy page shows a placeholder phone number instead of the real one::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/Shelterflex/monorepo/issues/1866",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Trace education privacy policies to primary sources",
@@ -740,92 +749,6 @@
     "duplicate_count": 0
   },
   {
-    "title": "Research the specification of state-level income-dependent premium rules (7 states)",
-    "url": "https://github.com/Visualize-Policy/research-writing-admin/issues/10",
-    "description": "Open-source contribution opportunity. Repository: Visualize-Policy/research-writing-admin. Labels: help wanted, question. ## What\n\nMoved from [`health-dashboard` issue #50](https://github.com/wtdickens/health-dashboard/issues/50).\nContent unchanged — this is a research task, not a coding task, so it belongs here. Part of the\nreplacement plan for #22 — closing that issue in favor of three scoped issues: this one (research),\na schema-design issue, and an implementation issue. Issue #22's multi-tier premium task turns out to\ncover states with genuinely different structures, not one shape — see the discussion there.\n\nSeven states need their actual premium rules fully specified, not just the summary already in the\npipeline:\n- **Indiana, Iowa, Kansas** — KFF's summary table footnotes give the dollar tier amounts\n  ($33/$50/$53/$70; $20/$40; $20/$30/$50) but not the FPL income breakpoints that trigger each tier.\n- **Massachusetts** — footnote gives a range ($36-$84 \"tiered by FPL\") with no breakpoints at all.\n- **Georgia** — footnote is purely qualitative (\"varies by income\"), no numbers.\n- **New York** — footnote describes a formula (family max = 3x the per-child amount; full premium\n  above 400% FPL) — need to confirm whether that's the complete rule.\n- **Washington** — footnote describes a structure that varies by both income *and* number of\n  children — a genuinely two-dimensional rule, not a single tier list.\n\nDon't assume income is the only input, for any of the seven — check explicitly whether family size,\nage, or anything else also determines the premium, the way Washington's already known to.\n\n## Where to look, in order\n\n1. **KFF/Georgetown Center for Children and Families annual survey** (\"Annual Updates on\n   Eligibility Rules, Enrollment and Renewal Procedures, and Cost-Sharing Practices in Medicaid and\n   CHIP\") —\n   https://www.kff.org/medicaid/annual-updates-on-eligibility-rules-enrollment-and-renewal-procedures-and-cost-sharing-practices-in-medicaid-and-chi …",
-    "role_context": "Research the specification of state-level income-dependent premium rules (7 states) Visualize-Policy/research-writing-admin help wanted, question",
-    "published": "2026-09-29T15:36:48Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "Visualize-Policy/research-writing-admin",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "paid",
-    "compensation": "$33",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 56,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "compliance",
-        "points": 14
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      },
-      {
-        "signal": "paid",
-        "points": 8
-      }
-    ],
-    "fit_score": 89,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong compliance relevance",
-      "Strong research writing relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly",
-      "Explicit compensation signal"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
-    "opportunity_identity": "role::visualize policy research writing admin::research the specification of state level income dependent premium rules 7 states::remote open source",
-    "description_truncated": true
-  },
-  {
     "title": "Werkstudent:in, Recht",
     "url": "https://job-boards.greenhouse.io/via/jobs/8585553002",
     "description": "Organisation: Via. Location: Berlin, Germany. Department: Legal. Office: Berlin. Via nutzt innovative Technologien, um den Transport weltweit zu revolutionieren. Von der Veränderung des täglichen Pendelns einer einzelnen Person bis zur Reduzierung des kollektiven ökologischen Fußabdrucks der Menschheit – wir haben große Ziele. Als Werkstudent:in im Bereich Recht wirst du ein wichtiger Teil unseres dynamischen, globalen Rechtsteams und arbeitest eng mit einem Team hoch engagierter Anwält:innen in Europa, Israel und New York zusammen. Dabei hilfst du uns, unser Geschäft in Europa weiter auszubauen und neue Projekte auf den Weg zu bringen. Mit Unterstützung eines Mentors lernst du die vielschichtigen Aufgaben eines Syndikusanwalts kennen und erhältst gleichzeitig einzigartige Einblicke in die Rechtsabteilung eines schnell wachsenden Scale-ups. Dies ist eine Station im Rahmen des Rechtsreferendariats mit einer Mindestdauer von 6 Monaten, idealerweise mit Start im September 2026. Die Stelle ist in Berlin angesiedelt, im hybriden Arbeitsmodell. Deine Aufgaben: Unterstützung bei geschäftskritischen Vertragsangelegenheiten: Prüfung und Koordination des Vertragsabschlusses (z. B. NDAs, SaaS-Verträge, Lieferantenverträge, Mietverträge), unter Sicherstellung der Genauigkeit und Identifizierung zentraler Risiken Unterstützung bei der Pflege und Organisation von Vertragsdatenbanken und -vorlagen Unterstützung beim Management wichtiger regulatorischer und Compliance-Themen: Durchführung rechtlicher und regulatorischer Recherchen in für Via relevanten Bereichen, u. a. Transportnetzwerkdienste, Gig Economy, Versicherungen, Open-Source-Daten und Datenschutzrecht Überwachung der Einhaltung der DSGVO und anderer Datenschutzgesetze durch die Kontrolle von Auftragsverarbeitungsverträgen (DPAs) mit Lieferanten und Partnern Unterstützung der internen Compliance und Corporate Governance von Via Vorantreiben von Effizienz- und Prozessverbesserungen: Aufbau von Kenntnissen interner Datenbank …",
@@ -910,8 +833,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -923,6 +846,96 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "[RFC/Docs]: Standardize Statutory Knowledge Notice and informational disclaimer for compliance skills (MiCA, GDPR, EU AI Act)",
+    "url": "https://github.com/ARPAHLS/skillware/issues/397",
+    "description": "Open-source contribution opportunity. Repository: ARPAHLS/skillware. Labels: documentation, enhancement, good first issue, discussion, cat: compliance. ### Summary\n\nEstablish a standardized, informational **Statutory Knowledge Notice** across all regulatory and legal knowledge skills in the Skillware registry (e.g. [`compliance/mica_module`](https://github.com/ARPAHLS/skillware/tree/main/skills/compliance/mica_module), upcoming `compliance/gdpr_module` [#74](https://github.com/ARPAHLS/skillware/issues/74), and `compliance/eu_ai_act_module`). \n\nThis notice supplements the existing commercial enterprise disclaimer by establishing clear operational boundaries:\n1. Clarifying that statutory RAG and policy evaluation are **informational tools**, not formal legal advice.\n2. Explicitly stating that the skill operates on an **offline statutory snapshot** frozen as of a documented cutoff/publication date.\n3. Highlighting the primary engineering purpose: providing deterministic, offline compliance context for **local, edge, and air-gapped agent models** where access to external legal portals is restricted or unavailable.\n4. Advising operators to verify current statutory amendments and consult qualified legal counsel for binding compliance determinations.\n\n### Motivation\n\n### The Gap in Current Catalog Pages\nToday, regulatory skills such as `compliance/mica_module` only feature the generic commercial enterprise disclaimer at the bottom of their catalog page (`docs/skills/compliance/mica_module.md` line 295):\n\n```markdown\n## Enterprise disclaimer\n\nThis skill is provided for demonstration and integration purposes. It is intended as a starting point that you can adapt to your own data, schemas, and operational requirements. For an enterprise-grade version of this skill with dedicated support, SLAs, and customization, contact skills@arpacorp.net.\n```\n\nWhile effective for commercial boundaries, this disclaimer does not address the legal reality of regulatory knowledge skills:\n- **St …",
+    "role_context": "[RFC/Docs]: Standardize Statutory Knowledge Notice and informational disclaimer for compliance skills (MiCA, GDPR, EU AI Act) ARPAHLS/skillware documentation, enhancement, good first issue, discussion, cat: compliance",
+    "published": "2026-09-30T06:23:20Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "ARPAHLS/skillware",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 82,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "ai_governance",
+        "points": 18
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong ai governance relevance",
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "opportunity_identity": "role::arpahls skillware::rfc docs standardize statutory knowledge notice and informational disclaimer for compliance skills mica gdpr eu ai act::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Implement a source-mapped MAS FEAT external-accountability policy",
@@ -1310,6 +1323,97 @@
     "last_seen": "2026-09-30T05:29:39.227533+00:00",
     "last_checked": "2026-09-30T05:29:39.227533+00:00",
     "opportunity_identity": "role::maziyarpanahi openmed::summarize privacy budget consumption without site identifiers::remote open source"
+  },
+  {
+    "title": "Legal Operations Associate",
+    "url": "https://job-boards.greenhouse.io/via/jobs/4130660002",
+    "description": "Organisation: Via. Location: New York, New York. Department: Legal. Office: New York City. Via is on a mission to create public transportation systems that provide far greater access to jobs, healthcare, and education. Our platform serves as the technology backbone for modern transit networks, transforming antiquated and siloed public transportation systems into smart, data-driven, and efficient digital networks. With hundreds of agency partners around the world, Via is recognized as the leading transportation technology and service provider globally. As a Legal Operations Associate , you will work closely with a team of highly dedicated and dynamic lawyers on a number of high impact topics like contracting, managing end-to-end processes, and other essential in-house legal functions. As a fully integrated member of the legal team, you will play a key cross functional role in driving success on a variety of exciting legal initiatives. About the Role: Prepare, review and mark up contracts, e.g. NDAs, SaaS licenses, vendor contracts, engagement letters, etc., and maintain the company’s forms and guideline documents. Research applicable federal, state and local laws, and regulations and ordinances, for a wide variety of domestic and international on-demand transit deployments. Communicate regulatory requirements to operations teams and build processes to ensure regulatory compliance, especially with Department of Transportation and Federal Transit Administration regulations. Develop working knowledge of internal databases and systems in order to pull and extract insights from data in making business decisions. Constantly help the legal team become more organized and efficient, through the implementation and management of ticketing systems, document management and filing systems, KPIs tracking, etc. Manage, organize and maintain files in the company’s contract database and shared cloud storage system. Ensure and track compliance with GDPR and other data privacy laws thro …",
+    "role_context": "Legal Operations Associate Legal",
+    "published": "2026-09-30T12:46:43-04:00",
+    "source": "greenhouse:via",
+    "source_type": "job_board",
+    "organization": "Via",
+    "location": "New York, New York",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Unspecified",
+    "compensation_status": "paid",
+    "compensation": "$70,000-$85,000",
+    "duration": "0-2 years",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 109,
+    "reasons": [
+      {
+        "signal": "legal_operations",
+        "points": 18
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 87,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal operations relevance",
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal",
+      "Relevant experience overlap: compliance",
+      "Relevant experience overlap: legal operations"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "opportunity_identity": "role::via::legal operations associate::new york new york",
+    "description_truncated": true
   },
   {
     "title": "Review alate's privacy policy for content that doesn't belong in a privacy policy",
@@ -2109,8 +2213,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
     "description_truncated": true
   },
@@ -2186,10 +2290,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
     "opportunity_identity": "role::agentrust io agent manifest::spec change 9 1 maps gdpr art 22 as an ai act article and 9 1 1 cites annex iii 5 b for insurance pricing::remote open source",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/agentrust-io/agent-manifest/issues/456",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "corpus(tier1): expand court-documented legal AI citation failures",
@@ -2260,11 +2373,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -2419,11 +2532,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -2512,8 +2625,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -2599,8 +2712,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -2686,8 +2799,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -2699,6 +2812,83 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "Add an opt-in WebFlux governance observation to audit sink bridge",
+    "url": "https://github.com/dtkmn/mcp-gateway-core/issues/90",
+    "description": "Open-source contribution opportunity. Repository: dtkmn/mcp-gateway-core. Labels: enhancement, help wanted. ## Problem and consumer evidence\n\nCore provides generic audit events/sinks/emitters and the WebFlux adapter provides governance observers, but consumers must connect them manually. MCP ZAP Server repeats field mapping in its adapter configuration and observability service. `GatewayAuditEmitter` does not perform this translation today.\n\n## Dependencies and scope\n\nSettle metadata semantics in https://github.com/dtkmn/mcp-gateway-core/issues/86 and coordinate rejection coverage with https://github.com/dtkmn/mcp-gateway-core/issues/87.\n\n- Add an optional observer bundle/factory in the WebFlux adapter backed by a caller-supplied `GatewayAuditSink`; install it through the existing four observer setters, without a new builder/composition API.\n- Specify event types and fields: action, outcome, reason, available scope information, trusted principal/workspace context, correlation ID and protection retry delay.\n- Translate current observer signals and any approved typed rejection signal. Document unavailable fields.\n- Define coexistence and callback ordering with application metric observers; prevent duplicate audit publication.\n- Preserve current observer/sink exception propagation unless an explicit alternative failure policy is approved.\n- Exclude raw request bodies, tool arguments, credentials and arbitrary headers by construction. This is not generic redaction.\n- Host applications retain storage, retention, domain enrichment and metrics. Core stays free of Spring/Jackson/Micrometer.\n\n## Acceptance criteria\n\n- Allow/deny/warn authorization, protection rejection and invalid/rejected request cases produce the documented fields exactly once per translated signal.\n- Null optional context is handled consistently; request argument/header sentinels do not appear in events.\n- Custom metric observers coexist without duplicate delivery.\n- Sink exceptions retain the documented …",
+    "role_context": "Add an opt-in WebFlux governance observation to audit sink bridge dtkmn/mcp-gateway-core enhancement, help wanted",
+    "published": "2026-10-01T02:43:56Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "dtkmn/mcp-gateway-core",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 31,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 82,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong governance relevance",
+      "Strong research writing relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "opportunity_identity": "role::dtkmn mcp gateway core::add an opt in webflux governance observation to audit sink bridge::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Legal Engineering Analyst",
@@ -2772,8 +2962,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
     "opportunity_identity": "role::legora::legal engineering analyst::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -2858,8 +3048,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -2944,8 +3134,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -2963,7 +3153,7 @@
     "url": "https://github.com/agentguard-ai/tealtiger/issues/434",
     "description": "Open-source contribution opportunity. Repository: agentguard-ai/tealtiger. Labels: help wanted. ## 🏦 Governed KYC Agent — Reference Implementation\n\nWe're building an open-source, production-grade KYC/AML compliance agent that demonstrates the complete agentic AI stack with deterministic governance at every step.\n\n**Why this matters:** TD Bank paid a $3B fine for AML compliance failures. JPMorgan, HSBC, and ING are deploying agentic AI to compress KYC onboarding from days to minutes. But without governance, these agents become liability machines.\n\nThis reference implementation shows how to build a governed multi-agent KYC system that:\n- ✅ Extracts and verifies identity documents\n- ✅ Screens customers against sanctions lists (OFAC, EU, UN)\n- ✅ Scores risk based on customer profile and behavior\n- ✅ Decides: approve / escalate to human / reject\n- ✅ Produces a complete, signed audit trail for every decision\n- ✅ Enforces cost budgets, PII redaction, and tool authorization at every step\n\n### Architecture (7-Layer Stack)\n\n```mermaid\ngraph TD\n    subgraph \"CLIENT NETWORK (VPC)\"\n        subgraph \"INTELLIGENCE\"\n            LLM[\"Self-hosted LLM<br/>Azure OpenAI / Ollama / Mock\"]\n        end\n\n        subgraph \"STATE\"\n            MEM[\"Agent Memory<br/>Mem0 / Supermemory / Local\"]\n            VDB[\"Vector DB<br/>RAG over compliance docs\"]\n        end\n\n        subgraph \"ACTION — Specialized Agents\"\n            A1[\"📄 Document<br/>Extraction\"]\n            A2[\"🔍 Sanctions<br/>Screening\"]\n            A3[\"📊 Risk<br/>Scoring\"]\n            A4[\"✅ Decision<br/>Agent\"]\n        end\n\n        subgraph \"COORDINATION\"\n            ORCH[\"Orchestration<br/>Haystack / AG2 / LangGraph\"]\n        end\n\n        subgraph \"TRUST\"\n            GOV[\"🛡️ TealTiger Governance<br/>PII scan · Tool auth · Budget<br/>REQUIRE_APPROVAL · Audit trail\"]\n        end\n\n        subgraph \"FEEDBACK\"\n            OBS[\"Observability<br/>Langfuse / Phoenix\"]\n        end\n\n        subgraph \"OPERATIONS\"\n            DEPLOY[\"Docker Comp …",
     "role_context": "[Reference Implementation] Governed KYC/AML Compliance Agent — Production-ready multi-agent stack agentguard-ai/tealtiger help wanted",
-    "published": "2026-09-26T13:26:15Z",
+    "published": "2026-09-30T08:11:32Z",
     "source": "github-issues-api",
     "source_type": "open_source",
     "organization": "agentguard-ai/tealtiger",
@@ -3032,10 +3222,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-27T05:26:33.839527+00:00",
-    "last_seen": "2026-09-27T05:26:33.839527+00:00",
-    "last_checked": "2026-09-27T05:26:33.839527+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
     "opportunity_identity": "role::agentguard ai tealtiger::reference implementation governed kyc aml compliance agent production ready multi agent stack::remote open source",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/agentguard-ai/tealtiger/issues/434",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "BBK-DFIR dependency license review - volunteer independent reviewer wanted",
@@ -3301,8 +3500,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -3386,8 +3585,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -3573,8 +3772,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -3900,8 +4099,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
+    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-01T05:29:54.078369+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel dublin::dublin",
     "description_truncated": true
   },
