@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -327,8 +327,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-27T05:26:33.839527+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::dentalpin dentalpin::feat gdpr compliance module data subject rights consent audit retention::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -337,6 +337,90 @@
         "url": "https://github.com/dentalpin/dentalpin/issues/44",
         "quality": "Open source",
         "priority": 65
+      }
+    ],
+    "duplicate_count": 0
+  },
+  {
+    "title": "Law School Student Ambassador",
+    "url": "https://jobs.ashbyhq.com/harvey/a194c24f-38ee-4c7e-908b-060a16dfaa9d",
+    "description": "Organisation: Harvey. Location: Remote. Department: Legal. Team: Legal. Commitment: Contract. Work model: Remote. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview The Law School Student Ambassador is a current JD candidate who serves as Harvey's on-campus champion, connecting the product with the student community at their law school. This role sits within the Law School Partnerships team, whose mission is to make Harvey an indispensable part of legal education by embedding the platform into how students learn and work. By building peer-to-peer awareness and hosting hands-on programming, the Ambassador accelerates student adoption and generates insights that shape Harvey's academic go-to-market strategy. They partner with faculty, student organizations, and Harvey's internal partnerships and marketing teams to tailor …",
+    "role_context": "Law School Student Ambassador Legal Legal Contract",
+    "published": "2026-06-25T16:59:33.472+00:00",
+    "source": "ashby:harvey",
+    "source_type": "job_board",
+    "organization": "Harvey",
+    "location": "Remote",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [
+      "Current law students"
+    ],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 59,
+    "reasons": [
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "remote",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 93,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Early-career role matches the target career stage",
+      "Remote-friendly",
+      "Explicitly open to current law students"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "opportunity_identity": "role::harvey::law school student ambassador::remote",
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "ashby:harvey",
+        "url": "https://jobs.ashbyhq.com/harvey/a194c24f-38ee-4c7e-908b-060a16dfaa9d",
+        "quality": "Official ATS",
+        "priority": 100
       }
     ],
     "duplicate_count": 0
@@ -415,8 +499,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::shelterflex monorepo::frontend privacy policy page shows a placeholder phone number instead of the real one::remote open source",
     "alternate_sources": [
       {
@@ -833,8 +917,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -932,10 +1016,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::arpahls skillware::rfc docs standardize statutory knowledge notice and informational disclaimer for compliance skills mica gdpr eu ai act::remote open source",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/ARPAHLS/skillware/issues/397",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Implement a source-mapped MAS FEAT external-accountability policy",
@@ -1095,6 +1188,85 @@
     "last_seen": "2026-09-27T05:26:33.839527+00:00",
     "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::arpahls skillware::new skill vasp counterparty screening hook for regulated operators::remote open source"
+  },
+  {
+    "title": "[Good first issue] Add dataset, study, and result card templates",
+    "url": "https://github.com/datalife-ehealth/datalife-analytics-downstream/issues/4",
+    "description": "Open-source contribution opportunity. Repository: datalife-ehealth/datalife-analytics-downstream. Labels: documentation, good first issue, help wanted, area: privacy, area: data. ## Outcome\n\nAdd lightweight documentation templates that make datasets, studies, and model results\nreviewable before code or generated artifacts are merged.\n\nThis is an onboarding-friendly documentation issue and can be completed independently\nof a final analytics library choice.\n\n## Templates to provide\n\n1. **Dataset card:** origin, synthetic-generation method, license, schema version,\n   population semantics, missingness, privacy considerations, intended uses, and\n   prohibited uses.\n2. **Study card:** research question, cohort, outcome, split strategy, baselines,\n   metrics, leakage risks, subgroup plan, and acceptance criteria.\n3. **Result/model card:** environment, data version, performance with uncertainty,\n   calibration where relevant, subgroup results, failure modes, limitations, and\n   reproducibility command.\n\nThe exact filenames and format are open. Templates should be short enough to use but\nstructured enough to review. Contributors may add domain-specific sections or future\ntemplates without treating this initial set as exhaustive.\n\n## Boundaries\n\n- Do not include real records, copied private documentation, or claims unsupported by\n  evidence.\n- Do not imply that completing a template certifies regulatory, clinical, privacy, or\n  fairness compliance.\n- Keep required facts distinct from optional narrative guidance.\n\n## Acceptance criteria\n\n- [ ] Each template contains concise prompts and one clearly synthetic mini-example.\n- [ ] Privacy, provenance, licensing, leakage, intended use, and limitations are\n      represented.\n- [ ] A contributor can link a card to a dataset contract and exact reproduction\n      command or commit.\n- [ ] The contribution guide explains when each template is expected.\n- [ ] Markdown lint passes and examples contain no real identifiers.\n\nProposed by @Fi …",
+    "role_context": "[Good first issue] Add dataset, study, and result card templates datalife-ehealth/datalife-analytics-downstream documentation, good first issue, help wanted, area: privacy, area: data",
+    "published": "2026-10-02T02:32:50Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "datalife-ehealth/datalife-analytics-downstream",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 39,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "opportunity_identity": "role::datalife ehealth datalife analytics downstream::good first issue add dataset study and result card templates::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Validate synthetic-dataset license and lineage manifests",
@@ -1410,10 +1582,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "greenhouse:via",
+        "url": "https://job-boards.greenhouse.io/via/jobs/4130660002",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Review alate's privacy policy for content that doesn't belong in a privacy policy",
@@ -2213,8 +2394,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
     "description_truncated": true
   },
@@ -2290,8 +2471,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::agentrust io agent manifest::spec change 9 1 maps gdpr art 22 as an ai act article and 9 1 1 cites annex iii 5 b for insurance pricing::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -2373,11 +2554,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -2394,7 +2575,7 @@
     "url": "https://github.com/darnitdevorg/darnit/issues/482",
     "description": "Open-source contribution opportunity. Repository: darnitdevorg/darnit. Labels: help wanted, quality, module-baseline. ## Summary\n\nAfter any successful `file_create` remediation, the orchestrator calls `update_config_after_file_create` with the hard-coded Python `CONTROL_REFERENCE_MAPPING`, which overwrites whatever the user had at that `.project/` path. The mapping disagrees with the TOML (`locator.project_path`) and with what the remediation actually creates:\n\n| Control | Creates | Mapping writes |\n|---|---|---|\n| DO-02.01 | `.github/ISSUE_TEMPLATE/bug_report.md` | `security.policy` |\n| DO-01.01 | `README.md` | `quality.changelog` |\n| GV-01.01 | `GOVERNANCE.md` | `governance.maintainers` |\n| GV-01.02 | `MAINTAINERS.md` | `governance.code_of_conduct` |\n| LE-01.01 | `LICENSE` | `legal.contributor_agreement` |\n\nThe mapping also lists three IDs not in the TOML (DO-01.02, DO-01.03, LI-01.01), and disagrees with `locator.project_path` for 11 controls. The write happens even when `file_create` skipped because the file already existed. Note the TOML itself also sets DO-02.01 `locator.project_path = \"security.policy\"`.\n\n`PROJECT_TYPE_EXCLUSIONS` and `DEFAULT_FILE_LOCATIONS` in the same module have no callers (re-exported only).\n\n## Impact\n\n`.project/project.yaml` is user-authored, CNCF-shared metadata. Remediation silently repoints the security policy at an issue template and records README as the changelog, corrupting data other tools and later darnit runs consume. This violates CLAUDE.md \"TOML is Source of Truth\".\n\n## Evidence\n\n- Mapping: https://github.com/darnitdevorg/darnit/blob/032493b8bc9d6ef810ecd639e515042371465c37/packages/darnit-baseline/src/darnit_baseline/config/mappings.py#L56-L94\n- Call site: https://github.com/darnitdevorg/darnit/blob/032493b8bc9d6ef810ecd639e515042371465c37/packages/darnit-baseline/src/darnit_baseline/remediation/orchestrator.py#L559-L575\n- Overwrite when different: https://github.com/darnitdevorg/darnit/blob/032493b8bc9d6ef810ecd639e515042 …",
     "role_context": "Remediation rewrites unrelated .project/ references (e.g. security.policy -> bug_report.md) via stale CONTROL_REFERENCE_MAPPING darnitdevorg/darnit help wanted, quality, module-baseline",
-    "published": "2026-09-26T16:29:32Z",
+    "published": "2026-10-02T00:17:52Z",
     "source": "github-issues-api",
     "source_type": "open_source",
     "organization": "darnitdevorg/darnit",
@@ -2461,10 +2642,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-27T05:26:33.839527+00:00",
-    "last_seen": "2026-09-27T05:26:33.839527+00:00",
-    "last_checked": "2026-09-27T05:26:33.839527+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::darnitdevorg darnit::remediation rewrites unrelated project references e g security policy bug report md via stale control reference mapping::remote open source",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/darnitdevorg/darnit/issues/482",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Add industry file: Legal Tech",
@@ -2532,11 +2722,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -2625,8 +2815,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -2712,8 +2902,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -2799,8 +2989,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -2812,6 +3002,80 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "Bug: RFC compliance audit: SPF/DKIM/DMARC record validation in email_security_tool.py",
+    "url": "https://github.com/AynOps/AynOps/issues/219",
+    "description": "Open-source contribution opportunity. Repository: AynOps/AynOps. Labels: bug, help wanted, good first issue. ## Summary\nAudit of `email_security_tool.py` against RFC 1035, RFC 7208, RFC 6376, and RFC 7489\nsurfaced three confirmed conformance gaps and one initially-reported item that does not\nreproduce against the current implementation. Each finding below is scoped to a single\nfunction and can be picked up independently — no shared state between them.\n\n---\n\n### Issue A — `_is_spf_record()` accepts leading-whitespace-padded version tags (RFC 7208 §4.5)\n\n`_is_spf_record()` currently does:\n\n```python\ntokens = record.strip().split()\nreturn bool(tokens) and tokens[0] == \"v=spf1\"\n```\n\n`record.strip()` discards leading/trailing whitespace before the `v=spf1` token check.\nPer RFC 7208 §4.5, the version section must be the literal prefix of the record —\nterminated by SP or EOL — with no leading whitespace tolerance. A strict SMTP receiver\nreturns `PermError` on a record with leading whitespace; this parser currently validates\nit as SPF.\n\n**Fix:**\n```python\ndef _is_spf_record(record: str) -> bool:\n    return record == \"v=spf1\" or record.startswith(\"v=spf1 \")\n```\nApply the same anchor logic in `_spf_policy()` where `record.strip().split()` is repeated.\n\n**Acceptance criteria:**\n- [ ] `_is_spf_record(\" v=spf1 -all\")` returns `False`\n- [ ] `_is_spf_record(\"v=spf1 -all\")` returns `True`\n- [ ] `_is_spf_record(\"v=spf1\")` returns `True`\n- [ ] Existing `_spf_policy()` unit tests still pass with the anchored check\n\n---\n\n### Issue B — `_is_valid_base64_key()` performs unscoped whitespace stripping (RFC 6376 §3.2)\n\n`_is_valid_base64_key()` sanitizes `p=` via:\n\n```python\ncompact = \"\".join(value.split())\n```\n\nThis strips *all* whitespace unconditionally rather than only folding whitespace (FWS)\nat valid fold points per RFC 6376 §3.2. A key string with an internal space introduced\nby truncation or manual copy/paste corruption is silently repaired and passed through\nbase64 decode, which can …",
+    "role_context": "Bug: RFC compliance audit: SPF/DKIM/DMARC record validation in email_security_tool.py AynOps/AynOps bug, help wanted, good first issue",
+    "published": "2026-10-01T16:22:22Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "AynOps/AynOps",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 26,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 84,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "opportunity_identity": "role::aynops aynops::bug rfc compliance audit spf dkim dmarc record validation in email security tool py::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Add an opt-in WebFlux governance observation to audit sink bridge",
@@ -2962,8 +3226,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::legora::legal engineering analyst::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -3048,8 +3312,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -3134,8 +3398,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -3500,8 +3764,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -3585,8 +3849,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -3598,6 +3862,82 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "Add organization-wide policy, budget, and audit governance",
+    "url": "https://github.com/Dusttoo/orka/issues/144",
+    "description": "Open-source contribution opportunity. Repository: Dusttoo/orka. Labels: help wanted, architecture, security, durability, area: scheduler, area: cli-ui, status: blocked, priority: p2, effort: large, needs tests. ## Parent and order\n\nPost-2.0 Orka Platform governance. Blocked by the organization control-plane contract in #140, #132, #133, and distributed identity decisions from #142.\n\n## Goal\n\nAllow an organization to set additive safety ceilings, shared budgets, capacity limits, and audit retention without silently weakening repository-local policy.\n\n## Scope\n\n- Define organization, project, and repository policy precedence.\n- Add shared budget reservation and settlement across repositories without double counting.\n- Define global and project capacity pools while preserving repository-local admission.\n- Record authority, decision, configuration, upgrade, and merge audit events.\n- Define retention, redaction, and export requirements.\n\n## Acceptance criteria\n\n- [ ] Higher-level policy may tighten but never silently weaken repository safety controls.\n- [ ] Budget and capacity reservations are atomic and recoverable across supervisor failure.\n- [ ] One repository's hard stop does not become an organization-wide stop unless policy explicitly says so.\n- [ ] Every privileged decision records issuer, scope, reason, expiry, consumption, and resulting state.\n- [ ] Audit export is deterministic, redacted, and independently verifiable.\n- [ ] Policy changes are versioned, staged, and reversible before first affected mutation.\n- [ ] Synthetic multi-repository tests cover contention, partial failure, and replay.\n- [ ] No application or customer data is required by the governance layer.\n\n## Non-goals\n\n- Billing customers for Orka usage.\n- Replacing repository branch protection or provider audit logs.\n- Centralizing application production credentials.",
+    "role_context": "Add organization-wide policy, budget, and audit governance Dusttoo/orka help wanted, architecture, security, durability, area: scheduler, area: cli-ui, status: blocked, priority: p2, effort: large, needs tests",
+    "published": "2026-10-01T21:13:17Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Dusttoo/orka",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 27,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      }
+    ],
+    "fit_score": 72,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong governance relevance",
+      "Strong policy relevance",
+      "Strong published output relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "opportunity_identity": "role::dusttoo orka::add organization wide policy budget and audit governance::remote open source"
   },
   {
     "title": "RFC/EPIC: Introduce a Go enforcement sidecar and FastAPI governance control plane",
@@ -3772,8 +4112,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -3835,78 +4175,6 @@
     "last_seen": "2026-09-24T05:26:35.754988+00:00",
     "last_checked": "2026-09-24T05:26:35.754988+00:00",
     "opportunity_identity": "url::https://legalalphabet.com/internships"
-  },
-  {
-    "title": "Law School Student Ambassador",
-    "url": "https://jobs.ashbyhq.com/harvey/a194c24f-38ee-4c7e-908b-060a16dfaa9d",
-    "description": "Organisation: Harvey. Location: Remote. Department: Legal. Team: Legal. Commitment: Contract. Work model: Remote. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview The Law School Student Ambassador is a current JD candidate who serves as Harvey's on-campus champion, connecting the product with the student community at their law school. This role sits within the Law School Partnerships team, whose mission is to make Harvey an indispensable part of legal education by embedding the platform into how students learn and work. By building peer-to-peer awareness and hosting hands-on programming, the Ambassador accelerates student adoption and generates insights that shape Harvey's academic go-to-market strategy. They partner with faculty, student organizations, and Harvey's internal partnerships and marketing teams to tailor …",
-    "role_context": "Law School Student Ambassador Legal Legal Contract",
-    "published": "2026-06-25T16:59:33.472+00:00",
-    "source": "ashby:harvey",
-    "source_type": "job_board",
-    "organization": "Harvey",
-    "location": "Remote",
-    "structured_opportunity": true,
-    "source_quality": "Official ATS",
-    "source_priority": 100,
-    "source_quality_label": "Direct employer ATS",
-    "opportunity_type": "Early-career role",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 35,
-    "reasons": [
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "remote",
-        "points": 10
-      }
-    ],
-    "fit_score": 63,
-    "fit_label": "Stretch",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Early-career role matches the target career stage",
-      "Remote-friendly"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-09-28T05:29:18.296560+00:00",
-    "last_checked": "2026-09-28T05:29:18.296560+00:00",
-    "opportunity_identity": "role::harvey::law school student ambassador::remote",
-    "description_truncated": true,
-    "alternate_sources": [
-      {
-        "source": "ashby:harvey",
-        "url": "https://jobs.ashbyhq.com/harvey/a194c24f-38ee-4c7e-908b-060a16dfaa9d",
-        "quality": "Official ATS",
-        "priority": 100
-      }
-    ],
-    "duplicate_count": 0
   },
   {
     "title": "Internships - ACLU of Georgia",
@@ -4025,84 +4293,6 @@
     "last_seen": "2026-09-23T05:26:42.012100+00:00",
     "last_checked": "2026-09-23T05:26:42.012100+00:00",
     "opportunity_identity": "url::https://www.ziprecruiter.com/Jobs/Legal-Internship/-in-Atlanta,GA"
-  },
-  {
-    "title": "Associate Commercial Counsel, Dublin",
-    "url": "https://jobs.ashbyhq.com/harvey/2fc3b6a6-9228-4d44-a1e7-48009a4f2b00",
-    "description": "Organisation: Harvey. Location: Dublin. Department: Legal. Team: Legal. Commitment: FullTime. Work model: Hybrid. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview We are looking for a Commercial Counsel to join our legal team. Reporting to the Head of EMEA Legal in London, you will interface with our Go-To-Market team to help ensure the fast and efficient execution of our agreements with customers. What You’ll Do Generative AI has the power to greatly change the world and directly impact how things get done.  Harvey is at the forefront of this change, and our mission is to make generative AI actionable and useful for our customers.  This is a fast moving environment (we are a start-up!) that is serving some of the world’s most renowned law firms and professional service organizations.  And this role will put you in t …",
-    "role_context": "Associate Commercial Counsel, Dublin Legal Legal FullTime",
-    "published": "2026-09-24T07:55:22.137+00:00",
-    "source": "ashby:harvey",
-    "source_type": "job_board",
-    "organization": "Harvey",
-    "location": "Dublin",
-    "structured_opportunity": true,
-    "source_quality": "Official ATS",
-    "source_priority": 100,
-    "source_quality_label": "Direct employer ATS",
-    "opportunity_type": "Early-career role",
-    "work_model": "Hybrid",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 32,
-    "reasons": [
-      {
-        "signal": "qualified_professional_title",
-        "points": -35
-      },
-      {
-        "signal": "ai_governance",
-        "points": 18
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "leadership",
-        "points": 8
-      }
-    ],
-    "fit_score": 59,
-    "fit_label": "Stretch",
-    "fit_reasons": [
-      "Strong ai governance relevance",
-      "Strong legal relevance",
-      "Strong privacy relevance",
-      "Early-career role matches the target career stage"
-    ],
-    "fit_gaps": [
-      "Title suggests a qualified professional role"
-    ],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-09-25T05:26:43.794494+00:00",
-    "last_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_checked": "2026-10-01T05:29:54.078369+00:00",
-    "opportunity_identity": "role::harvey::associate commercial counsel dublin::dublin",
-    "description_truncated": true
   },
   {
     "title": "19 Legal Intern jobs in Provo - LinkedIn",
