@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -327,8 +327,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-27T05:26:33.839527+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
     "opportunity_identity": "role::dentalpin dentalpin::feat gdpr compliance module data subject rights consent audit retention::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -411,8 +411,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -917,8 +917,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -1269,6 +1269,83 @@
     "description_truncated": true
   },
   {
+    "title": "[P15] Legal/operational review questions before mainnet",
+    "url": "https://github.com/olafweller/kaspa-privacy-initiative/issues/15",
+    "description": "Open-source contribution opportunity. Repository: olafweller/kaspa-privacy-initiative. Labels: help wanted, legal-question, operations. Proposal ID: **P15**. See the [research backlog](https://github.com/olafweller/kaspa-privacy-initiative/blob/main/docs/INITIAL-ISSUES.md).\n\nProduce a question set for specialist counsel covering software publication, custody/control, hosted frontends, hosted proving, fee collection, and treasury operations.\n\nDo not treat the issue discussion as legal advice.\n\nEvidence, concrete objections, and specification proposals are welcome. Keep verified source facts separate from hypotheses. This is a research task; no mainnet experiment, real funds, or production cryptography.",
+    "role_context": "[P15] Legal/operational review questions before mainnet olafweller/kaspa-privacy-initiative help wanted, legal-question, operations",
+    "published": "2026-10-02T13:58:59Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "olafweller/kaspa-privacy-initiative",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 38,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "opportunity_identity": "role::olafweller kaspa privacy initiative::p15 legal operational review questions before mainnet::remote open source"
+  },
+  {
     "title": "Validate synthetic-dataset license and lineage manifests",
     "url": "https://github.com/maziyarpanahi/openmed/issues/3099",
     "description": "Open-source contribution opportunity. Repository: maziyarpanahi/openmed. Labels: help wanted, feature, P1, roadmap-v3. ## Summary\n\nSynthetic clinical datasets need a release-time contract proving that every generator, template, vocabulary, and model dependency has allowed lineage.\n\n## Scope\n\n- [ ] Define strict manifests for source class, license expression, generator digest, model provenance, and redistribution decision.\n- [ ] Fail closed on missing, restricted, incompatible, or unknown dependencies.\n\n## Acceptance criteria\n\n- [ ] Permissive, mixed, unknown, restricted, missing-lineage, and reordered cases are tested.\n- [ ] Fixtures are synthetic and include no source records, prompts, outputs, or credentials.\n- [ ] Focused unit tests pass offline.\n\n## Out of scope\n\n- [ ] Legal advice, license detection from arbitrary files, dataset generation, or publication.\n\n## Files\n\n- [ ] `openmed/training/synthetic/license_lineage.py`\n- [ ] `tests/unit/training/synthetic/test_license_lineage.py`\n- [ ] `docs/training/synthetic/license-lineage-manifests.md`\n\n---\nRelease plan: #3195\nDependencies: maintained with GitHub issue relationships.\nArchitecture: Extend `openmed/training/federated`, `openmed/training/synthetic`, `openmed/compliance`, `openmed/clinical`, and `openmed/eval`.\nEstimate: M (planning only; confirm during implementation).\nSource of truth: this issue body, its parent release epic, and GitHub dependency relationships.",
@@ -1582,8 +1659,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -2394,96 +2471,10 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
     "description_truncated": true
-  },
-  {
-    "title": "spec_change: §9.1 maps GDPR Art. 22 as an AI Act article, and §9.1.1 cites Annex III 5(b) for insurance pricing",
-    "url": "https://github.com/agentrust-io/agent-manifest/issues/456",
-    "description": "Open-source contribution opportunity. Repository: agentrust-io/agent-manifest. Labels: good first issue, spec. ## Spec section\n\nSection 9.1, the EU AI Act mapping table, and Section 9.1.1, both in `spec/agent-manifest-spec-v0.2.md` at `main` following the merge of #455.\n\n## Problem\n\nTwo citations in the section #455 corrected still attribute provisions to an instrument and a sub-point that do not contain them. Both are the defect class established by #376, #439 and #455.\n\n### 1. The §9.1 table maps GDPR Article 22 as an AI Act article\n\nThe table under `### 9.1 EU AI Act` has `Article` as its first column, and every row names an AI Act provision except this one:\n\n```\n| Art. 22 - Automated decision-making | Where agents make automated decisions with significant effects on individuals, disclosure is required | When `data_scope.automated_decision_making` is `true`, Art. 22 disclosure obligations are triggered. The manifest's `data_scope` field (section 9.3) provides the machine-readable signal. |\n```\n\nArticle 22 of Regulation (EU) 2024/1689 is titled \"Authorised representatives of providers of high-risk AI systems\". The obligation this row describes is Article 22 of Regulation (EU) 2016/679.\n\nThe row already points to section 9.3, and section 9.3 documents the same obligation under the heading `#### GDPR Art. 32 and Art. 35`, where the neighbouring fields are labelled `GDPR Art. 30`, `GDPR Art. 6` and `Art. 35 DPIA`. So the obligation is recorded correctly there and duplicated incorrectly here.\n\nThe applicability paragraph added by #455 makes this load-bearing rather than cosmetic. It reads \"the high-risk obligations mapped in the table below (Arts. 12-15, 26) apply from 2 December 2027 for systems classified under Article 6(2) and Annex III, and from 2 August 2028 for systems classified under Article 6(1) and Annex I\". GDPR Article 22 has applied since 25 May 2018 and is deferred by nothing, so that enumeration is accurate only on the assumption that the Art. 22 row is …",
-    "role_context": "spec_change: §9.1 maps GDPR Art. 22 as an AI Act article, and §9.1.1 cites Annex III 5(b) for insurance pricing agentrust-io/agent-manifest good first issue, spec",
-    "published": "2026-09-30T04:58:08Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "agentrust-io/agent-manifest",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 43,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "ai_governance",
-        "points": 18
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "compliance",
-        "points": 14
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      }
-    ],
-    "fit_score": 85,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong ai governance relevance",
-      "Strong privacy relevance",
-      "Strong compliance relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
-    "opportunity_identity": "role::agentrust io agent manifest::spec change 9 1 maps gdpr art 22 as an ai act article and 9 1 1 cites annex iii 5 b for insurance pricing::remote open source",
-    "description_truncated": true,
-    "alternate_sources": [
-      {
-        "source": "github-issues-api",
-        "url": "https://github.com/agentrust-io/agent-manifest/issues/456",
-        "quality": "Open source",
-        "priority": 65
-      }
-    ],
-    "duplicate_count": 0
   },
   {
     "title": "corpus(tier1): expand court-documented legal AI citation failures",
@@ -2554,11 +2545,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -2571,11 +2562,165 @@
     "duplicate_count": 0
   },
   {
+    "title": "Document and test the Content-Security-Policy profile for browser inference",
+    "url": "https://github.com/maziyarpanahi/openmed/issues/3954",
+    "description": "Open-source contribution opportunity. Repository: maziyarpanahi/openmed. Labels: help wanted, improvement, P2, roadmap-v3. ## Problem and existing coverage\n\nThe browser demos ship a strict `Content-Security-Policy` (same-origin scripts, workers and connections, `'wasm-unsafe-eval'` for WebAssembly), but `js/openmedkit-web/README.md` and the runtime guides document only cross-origin isolation headers. Integrators therefore have no supported CSP for ONNX Runtime Web, WebGPU and worker-based inference, although a `connect-src` restriction is the browser's own enforcement of the no-upload invariant and a policy that is too strict silently breaks threaded WebAssembly.\n\nRelated work: #799, #862, #3710, #3718. Release scope: #3604.\n\n## Implementation\n\n- Document a minimal CSP and cross-origin isolation profile for the package (scripts, workers, WebAssembly, model assets and connections) and the directives each runtime feature needs.\n- Add a browser test page served with that profile that runs a synthetic inference and verifies that a cross-origin `fetch` from the page is refused while local inference still works.\n\n## Acceptance criteria\n\n- [ ] Inference succeeds under the documented profile on WASM, with WebGPU where available.\n- [ ] A synthetic cross-origin request is refused by the policy and recorded as a CSP violation without payload content.\n- [ ] Removing `'wasm-unsafe-eval'` produces the documented failure, not a silent fallback.\n\n## Independent development boundary\n\nOwns npm-consumer guidance and its test page; the installable application profile and service worker remain #3710 and worker execution #3718.\n\n## Starting points and validation\n\n`js/openmedkit-web/README.md`, `docs/runtimes/onnxruntime-web.md`, `docs/runtimes/webgpu.md`, `docs/demo/web/index.html`, `tests/browser/`, `tests/browser/brand/playwright.config.ts`.\n\nAdd focused offline unit and integration tests for this slice and document the public behavior. Use synthetic fixtures, injected transports/clock …",
+    "role_context": "Document and test the Content-Security-Policy profile for browser inference maziyarpanahi/openmed help wanted, improvement, P2, roadmap-v3",
+    "published": "2026-10-03T00:07:13Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "maziyarpanahi/openmed",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 35,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong research writing relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "opportunity_identity": "role::maziyarpanahi openmed::document and test the content security policy profile for browser inference::remote open source",
+    "description_truncated": true
+  },
+  {
+    "title": "Return typed errors for deeply nested JSON in five agent governance parsers",
+    "url": "https://github.com/maziyarpanahi/openmed/issues/3779",
+    "description": "Open-source contribution opportunity. Repository: maziyarpanahi/openmed. Labels: bug, help wanted, good first issue, P2, roadmap-v3. ## Problem and existing coverage\n\nFive `from_json` parsers let `RecursionError` escape instead of their value-free typed errors. Reproduced on master with `\"[\" * 100000 + \"]\" * 100000`: `WorkflowOutcome.from_json`, `ActionCorrelation.from_json`, `CompatibilityResult.from_json`, `QualityMeasureEvidencePacket.from_json` and `ConsentReceipt.from_json` raise `RecursionError`, while `ApprovalToken`, `RunSummary`, `ReviewerHandoffPacket`, `RecoveryCheckpoint` and the grant parsers fail with typed errors. Through the MCP error envelope a deeply nested consent receipt is reported as `execution_error` instead of `invalid_consent_receipt`. No fuzz target covers the agent governance parsers.\n\nRelated work: #2950, #2973, #3000, #2784, #2953, #920. Release scope: #3193.\n\n## Implementation\n\n- Add one strict JSON helper with byte-size and nesting-depth bounds checked before decoding, use it in the five parsers and map failures to each module's existing malformed-input code.\n- Add a bounded property-based test module that feeds random, deeply nested, duplicate-key, non-finite and oversized inputs to every public agent governance parser and asserts that only typed `ValueError` subclasses escape.\n\n## Acceptance criteria\n\n- [ ] The reproduction raises each parser's typed malformed-input error, and the MCP envelope returns `invalid_consent_receipt` for a deeply nested receipt.\n- [ ] The property tests cover all public governance parsers and fit the existing fuzz time budget.\n- [ ] Error messages never include input fragments.\n\n## Independent development boundary\n\nOwn the helper, the five fixes and the property tests. Parser schemas and valid-input behavior are unchanged.\n\n## Starting points and validation\n\n`openmed/agent/outcomes.py`, `openmed/agent/correlation.py`, `openmed/agent/schema_compatibility.py`, `openmed/agent/workflows/quality_measure_evidence …",
+    "role_context": "Return typed errors for deeply nested JSON in five agent governance parsers maziyarpanahi/openmed bug, help wanted, good first issue, P2, roadmap-v3",
+    "published": "2026-10-02T23:53:37Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "maziyarpanahi/openmed",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 35,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong governance relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "opportunity_identity": "role::maziyarpanahi openmed::return typed errors for deeply nested json in five agent governance parsers::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "Remediation rewrites unrelated .project/ references (e.g. security.policy -> bug_report.md) via stale CONTROL_REFERENCE_MAPPING",
     "url": "https://github.com/darnitdevorg/darnit/issues/482",
     "description": "Open-source contribution opportunity. Repository: darnitdevorg/darnit. Labels: help wanted, quality, module-baseline. ## Summary\n\nAfter any successful `file_create` remediation, the orchestrator calls `update_config_after_file_create` with the hard-coded Python `CONTROL_REFERENCE_MAPPING`, which overwrites whatever the user had at that `.project/` path. The mapping disagrees with the TOML (`locator.project_path`) and with what the remediation actually creates:\n\n| Control | Creates | Mapping writes |\n|---|---|---|\n| DO-02.01 | `.github/ISSUE_TEMPLATE/bug_report.md` | `security.policy` |\n| DO-01.01 | `README.md` | `quality.changelog` |\n| GV-01.01 | `GOVERNANCE.md` | `governance.maintainers` |\n| GV-01.02 | `MAINTAINERS.md` | `governance.code_of_conduct` |\n| LE-01.01 | `LICENSE` | `legal.contributor_agreement` |\n\nThe mapping also lists three IDs not in the TOML (DO-01.02, DO-01.03, LI-01.01), and disagrees with `locator.project_path` for 11 controls. The write happens even when `file_create` skipped because the file already existed. Note the TOML itself also sets DO-02.01 `locator.project_path = \"security.policy\"`.\n\n`PROJECT_TYPE_EXCLUSIONS` and `DEFAULT_FILE_LOCATIONS` in the same module have no callers (re-exported only).\n\n## Impact\n\n`.project/project.yaml` is user-authored, CNCF-shared metadata. Remediation silently repoints the security policy at an issue template and records README as the changelog, corrupting data other tools and later darnit runs consume. This violates CLAUDE.md \"TOML is Source of Truth\".\n\n## Evidence\n\n- Mapping: https://github.com/darnitdevorg/darnit/blob/032493b8bc9d6ef810ecd639e515042371465c37/packages/darnit-baseline/src/darnit_baseline/config/mappings.py#L56-L94\n- Call site: https://github.com/darnitdevorg/darnit/blob/032493b8bc9d6ef810ecd639e515042371465c37/packages/darnit-baseline/src/darnit_baseline/remediation/orchestrator.py#L559-L575\n- Overwrite when different: https://github.com/darnitdevorg/darnit/blob/032493b8bc9d6ef810ecd639e515042 …",
     "role_context": "Remediation rewrites unrelated .project/ references (e.g. security.policy -> bug_report.md) via stale CONTROL_REFERENCE_MAPPING darnitdevorg/darnit help wanted, quality, module-baseline",
-    "published": "2026-10-02T00:17:52Z",
+    "published": "2026-10-02T19:46:02Z",
     "source": "github-issues-api",
     "source_type": "open_source",
     "organization": "darnitdevorg/darnit",
@@ -2642,8 +2787,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-27T05:26:33.839527+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
     "opportunity_identity": "role::darnitdevorg darnit::remediation rewrites unrelated project references e g security policy bug report md via stale control reference mapping::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -2722,11 +2867,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -2815,8 +2960,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -2902,8 +3047,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -2989,8 +3134,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -3072,8 +3217,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
     "opportunity_identity": "role::aynops aynops::bug rfc compliance audit spf dkim dmarc record validation in email security tool py::remote open source",
     "description_truncated": true
   },
@@ -3155,24 +3300,24 @@
     "description_truncated": true
   },
   {
-    "title": "Legal Engineering Analyst",
-    "url": "https://jobs.ashbyhq.com/legora/ff80c470-33ab-453e-9ccb-c074447344d4",
-    "description": "Organisation: Legora. Location: Stockholm HQ. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role This role sits at the intersection of law, technology, and product—supporting SMB clients across EMEA. You’ll help lean legal teams (often without large innovation/ops functions) adopt and scale Legora in a way that delivers real outcomes quickly. You’ll work closely with Legal Engineers, Customer Success, Product, and Go-To-Market to help clients move from first value to repeatable workflows—while feeding what you learn back into how the product evolves. What you’ll be doing Support SMB client onboa …",
-    "role_context": "Legal Engineering Analyst Legal Engineering Legal Engineering FullTime",
-    "published": "2026-09-21T09:28:58.342+00:00",
-    "source": "ashby:legora",
-    "source_type": "job_board",
-    "organization": "Legora",
-    "location": "Stockholm HQ",
+    "title": "spec_change: §9.1 maps GDPR Art. 22 as an AI Act article, and §9.1.1 cites Annex III 5(b) for insurance pricing",
+    "url": "https://github.com/agentrust-io/agent-manifest/issues/456",
+    "description": "Open-source contribution opportunity. Repository: agentrust-io/agent-manifest. Labels: good first issue, spec. ## Spec section\n\nSection 9.1, the EU AI Act mapping table, and Section 9.1.1, both in `spec/agent-manifest-spec-v0.2.md` at `main` following the merge of #455.\n\n## Problem\n\nTwo citations in the section #455 corrected still attribute provisions to an instrument and a sub-point that do not contain them. Both are the defect class established by #376, #439 and #455.\n\n### 1. The §9.1 table maps GDPR Article 22 as an AI Act article\n\nThe table under `### 9.1 EU AI Act` has `Article` as its first column, and every row names an AI Act provision except this one:\n\n```\n| Art. 22 - Automated decision-making | Where agents make automated decisions with significant effects on individuals, disclosure is required | When `data_scope.automated_decision_making` is `true`, Art. 22 disclosure obligations are triggered. The manifest's `data_scope` field (section 9.3) provides the machine-readable signal. |\n```\n\nArticle 22 of Regulation (EU) 2024/1689 is titled \"Authorised representatives of providers of high-risk AI systems\". The obligation this row describes is Article 22 of Regulation (EU) 2016/679.\n\nThe row already points to section 9.3, and section 9.3 documents the same obligation under the heading `#### GDPR Art. 32 and Art. 35`, where the neighbouring fields are labelled `GDPR Art. 30`, `GDPR Art. 6` and `Art. 35 DPIA`. So the obligation is recorded correctly there and duplicated incorrectly here.\n\nThe applicability paragraph added by #455 makes this load-bearing rather than cosmetic. It reads \"the high-risk obligations mapped in the table below (Arts. 12-15, 26) apply from 2 December 2027 for systems classified under Article 6(2) and Annex III, and from 2 August 2028 for systems classified under Article 6(1) and Annex I\". GDPR Article 22 has applied since 25 May 2018 and is deferred by nothing, so that enumeration is accurate only on the assumption that the Art. 22 row is …",
+    "role_context": "spec_change: §9.1 maps GDPR Art. 22 as an AI Act article, and §9.1.1 cites Annex III 5(b) for insurance pricing agentrust-io/agent-manifest good first issue, spec",
+    "published": "2026-09-30T04:58:08Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "agentrust-io/agent-manifest",
+    "location": "Remote / open source",
     "structured_opportunity": true,
-    "source_quality": "Official ATS",
-    "source_priority": 100,
-    "source_quality_label": "Direct employer ATS",
-    "opportunity_type": "Early-career role",
-    "work_model": "On-site",
-    "compensation_status": "paid",
-    "compensation": "$200",
-    "duration": "1 year",
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
     "commitment": "",
     "deadline": "",
     "deadline_status": "unknown",
@@ -3186,56 +3331,52 @@
     "deadline_time_confidence": "unknown",
     "deadline_source_timezone": "",
     "deadline_original": "",
-    "score": 71,
+    "score": 29,
     "reasons": [
       {
-        "signal": "legal_tech",
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "ai_governance",
         "points": 18
       },
       {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
+        "signal": "privacy",
+        "points": 16
       },
       {
         "signal": "structured_source",
         "points": 10
       },
       {
-        "signal": "paid",
-        "points": 8
-      },
-      {
-        "signal": "leadership",
-        "points": 8
+        "signal": "published_output",
+        "points": 10
       }
     ],
-    "fit_score": 81,
+    "fit_score": 82,
     "fit_label": "Strong fit",
     "fit_reasons": [
-      "Strong legal tech relevance",
-      "Strong legal relevance",
-      "Strong research writing relevance",
-      "Early-career role matches the target career stage",
-      "Explicit compensation signal"
+      "Strong ai governance relevance",
+      "Strong privacy relevance",
+      "Strong published output relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
     ],
     "fit_gaps": [],
     "fit_blockers": [],
     "fit_version": "0.4",
-    "first_seen": "2026-09-22T05:26:27.204052+00:00",
+    "first_seen": "2026-09-30T05:29:39.227533+00:00",
     "last_seen": "2026-10-02T05:29:22.905148+00:00",
     "last_checked": "2026-10-02T05:29:22.905148+00:00",
-    "opportunity_identity": "role::legora::legal engineering analyst::stockholm hq",
+    "opportunity_identity": "role::agentrust io agent manifest::spec change 9 1 maps gdpr art 22 as an ai act article and 9 1 1 cites annex iii 5 b for insurance pricing::remote open source",
     "description_truncated": true,
     "alternate_sources": [
       {
-        "source": "ashby:legora",
-        "url": "https://jobs.ashbyhq.com/legora/ff80c470-33ab-453e-9ccb-c074447344d4",
-        "quality": "Official ATS",
-        "priority": 100
+        "source": "github-issues-api",
+        "url": "https://github.com/agentrust-io/agent-manifest/issues/456",
+        "quality": "Open source",
+        "priority": 65
       }
     ],
     "duplicate_count": 0
@@ -3312,8 +3453,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -3398,8 +3539,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -3764,8 +3905,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -3849,14 +3990,91 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
       {
         "source": "ashby:legora",
         "url": "https://jobs.ashbyhq.com/legora/6be81d98-cd4b-47d4-b388-3d20e8401311",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
+  },
+  {
+    "title": "Legal Engineering Analyst",
+    "url": "https://jobs.ashbyhq.com/legora/ff80c470-33ab-453e-9ccb-c074447344d4",
+    "description": "Organisation: Legora. Location: Stockholm HQ. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role This role sits at the intersection of law, technology, and product—supporting SMB clients across EMEA. You’ll help lean legal teams (often without large innovation/ops functions) adopt and scale Legora in a way that delivers real outcomes quickly. You’ll work closely with Legal Engineers, Customer Success, Product, and Go-To-Market to help clients move from first value to repeatable workflows—while feeding what you learn back into how the product evolves. What you’ll be doing Support SMB client onboa …",
+    "role_context": "Legal Engineering Analyst Legal Engineering Legal Engineering FullTime",
+    "published": "2026-09-21T09:28:58.342+00:00",
+    "source": "ashby:legora",
+    "source_type": "job_board",
+    "organization": "Legora",
+    "location": "Stockholm HQ",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "On-site",
+    "compensation_status": "paid",
+    "compensation": "$200",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 51,
+    "reasons": [
+      {
+        "signal": "legal_tech",
+        "points": 18
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      }
+    ],
+    "fit_score": 72,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong legal tech relevance",
+      "Strong legal relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-22T05:26:27.204052+00:00",
+    "last_seen": "2026-10-02T05:29:22.905148+00:00",
+    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "opportunity_identity": "role::legora::legal engineering analyst::stockholm hq",
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "ashby:legora",
+        "url": "https://jobs.ashbyhq.com/legora/ff80c470-33ab-453e-9ccb-c074447344d4",
         "quality": "Official ATS",
         "priority": 100
       }
@@ -4112,8 +4330,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-03T05:37:48.001481+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
