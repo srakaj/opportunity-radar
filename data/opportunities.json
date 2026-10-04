@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_checked": "2026-10-04T11:03:52.690635+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_checked": "2026-10-04T11:03:52.690635+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -327,8 +327,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-27T05:26:33.839527+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_checked": "2026-10-04T11:03:52.690635+00:00",
     "opportunity_identity": "role::dentalpin dentalpin::feat gdpr compliance module data subject rights consent audit retention::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -411,8 +411,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_checked": "2026-10-04T11:03:52.690635+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -917,8 +917,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_checked": "2026-10-04T11:03:52.690635+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -1659,8 +1659,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_checked": "2026-10-04T11:03:52.690635+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -2471,8 +2471,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_checked": "2026-10-04T11:03:52.690635+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
     "description_truncated": true
   },
@@ -2545,11 +2545,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-04T11:03:52.690635+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-04T11:03:52.690635+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -2562,165 +2562,11 @@
     "duplicate_count": 0
   },
   {
-    "title": "Document and test the Content-Security-Policy profile for browser inference",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/3954",
-    "description": "Open-source contribution opportunity. Repository: maziyarpanahi/openmed. Labels: help wanted, improvement, P2, roadmap-v3. ## Problem and existing coverage\n\nThe browser demos ship a strict `Content-Security-Policy` (same-origin scripts, workers and connections, `'wasm-unsafe-eval'` for WebAssembly), but `js/openmedkit-web/README.md` and the runtime guides document only cross-origin isolation headers. Integrators therefore have no supported CSP for ONNX Runtime Web, WebGPU and worker-based inference, although a `connect-src` restriction is the browser's own enforcement of the no-upload invariant and a policy that is too strict silently breaks threaded WebAssembly.\n\nRelated work: #799, #862, #3710, #3718. Release scope: #3604.\n\n## Implementation\n\n- Document a minimal CSP and cross-origin isolation profile for the package (scripts, workers, WebAssembly, model assets and connections) and the directives each runtime feature needs.\n- Add a browser test page served with that profile that runs a synthetic inference and verifies that a cross-origin `fetch` from the page is refused while local inference still works.\n\n## Acceptance criteria\n\n- [ ] Inference succeeds under the documented profile on WASM, with WebGPU where available.\n- [ ] A synthetic cross-origin request is refused by the policy and recorded as a CSP violation without payload content.\n- [ ] Removing `'wasm-unsafe-eval'` produces the documented failure, not a silent fallback.\n\n## Independent development boundary\n\nOwns npm-consumer guidance and its test page; the installable application profile and service worker remain #3710 and worker execution #3718.\n\n## Starting points and validation\n\n`js/openmedkit-web/README.md`, `docs/runtimes/onnxruntime-web.md`, `docs/runtimes/webgpu.md`, `docs/demo/web/index.html`, `tests/browser/`, `tests/browser/brand/playwright.config.ts`.\n\nAdd focused offline unit and integration tests for this slice and document the public behavior. Use synthetic fixtures, injected transports/clock …",
-    "role_context": "Document and test the Content-Security-Policy profile for browser inference maziyarpanahi/openmed help wanted, improvement, P2, roadmap-v3",
-    "published": "2026-10-03T00:07:13Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "maziyarpanahi/openmed",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 35,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      }
-    ],
-    "fit_score": 85,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong privacy relevance",
-      "Strong research writing relevance",
-      "Strong policy relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
-    "opportunity_identity": "role::maziyarpanahi openmed::document and test the content security policy profile for browser inference::remote open source",
-    "description_truncated": true
-  },
-  {
-    "title": "Return typed errors for deeply nested JSON in five agent governance parsers",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/3779",
-    "description": "Open-source contribution opportunity. Repository: maziyarpanahi/openmed. Labels: bug, help wanted, good first issue, P2, roadmap-v3. ## Problem and existing coverage\n\nFive `from_json` parsers let `RecursionError` escape instead of their value-free typed errors. Reproduced on master with `\"[\" * 100000 + \"]\" * 100000`: `WorkflowOutcome.from_json`, `ActionCorrelation.from_json`, `CompatibilityResult.from_json`, `QualityMeasureEvidencePacket.from_json` and `ConsentReceipt.from_json` raise `RecursionError`, while `ApprovalToken`, `RunSummary`, `ReviewerHandoffPacket`, `RecoveryCheckpoint` and the grant parsers fail with typed errors. Through the MCP error envelope a deeply nested consent receipt is reported as `execution_error` instead of `invalid_consent_receipt`. No fuzz target covers the agent governance parsers.\n\nRelated work: #2950, #2973, #3000, #2784, #2953, #920. Release scope: #3193.\n\n## Implementation\n\n- Add one strict JSON helper with byte-size and nesting-depth bounds checked before decoding, use it in the five parsers and map failures to each module's existing malformed-input code.\n- Add a bounded property-based test module that feeds random, deeply nested, duplicate-key, non-finite and oversized inputs to every public agent governance parser and asserts that only typed `ValueError` subclasses escape.\n\n## Acceptance criteria\n\n- [ ] The reproduction raises each parser's typed malformed-input error, and the MCP envelope returns `invalid_consent_receipt` for a deeply nested receipt.\n- [ ] The property tests cover all public governance parsers and fit the existing fuzz time budget.\n- [ ] Error messages never include input fragments.\n\n## Independent development boundary\n\nOwn the helper, the five fixes and the property tests. Parser schemas and valid-input behavior are unchanged.\n\n## Starting points and validation\n\n`openmed/agent/outcomes.py`, `openmed/agent/correlation.py`, `openmed/agent/schema_compatibility.py`, `openmed/agent/workflows/quality_measure_evidence …",
-    "role_context": "Return typed errors for deeply nested JSON in five agent governance parsers maziyarpanahi/openmed bug, help wanted, good first issue, P2, roadmap-v3",
-    "published": "2026-10-02T23:53:37Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "maziyarpanahi/openmed",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 35,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "governance",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      }
-    ],
-    "fit_score": 85,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong privacy relevance",
-      "Strong governance relevance",
-      "Strong research writing relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
-    "opportunity_identity": "role::maziyarpanahi openmed::return typed errors for deeply nested json in five agent governance parsers::remote open source",
-    "description_truncated": true
-  },
-  {
     "title": "Remediation rewrites unrelated .project/ references (e.g. security.policy -> bug_report.md) via stale CONTROL_REFERENCE_MAPPING",
     "url": "https://github.com/darnitdevorg/darnit/issues/482",
     "description": "Open-source contribution opportunity. Repository: darnitdevorg/darnit. Labels: help wanted, quality, module-baseline. ## Summary\n\nAfter any successful `file_create` remediation, the orchestrator calls `update_config_after_file_create` with the hard-coded Python `CONTROL_REFERENCE_MAPPING`, which overwrites whatever the user had at that `.project/` path. The mapping disagrees with the TOML (`locator.project_path`) and with what the remediation actually creates:\n\n| Control | Creates | Mapping writes |\n|---|---|---|\n| DO-02.01 | `.github/ISSUE_TEMPLATE/bug_report.md` | `security.policy` |\n| DO-01.01 | `README.md` | `quality.changelog` |\n| GV-01.01 | `GOVERNANCE.md` | `governance.maintainers` |\n| GV-01.02 | `MAINTAINERS.md` | `governance.code_of_conduct` |\n| LE-01.01 | `LICENSE` | `legal.contributor_agreement` |\n\nThe mapping also lists three IDs not in the TOML (DO-01.02, DO-01.03, LI-01.01), and disagrees with `locator.project_path` for 11 controls. The write happens even when `file_create` skipped because the file already existed. Note the TOML itself also sets DO-02.01 `locator.project_path = \"security.policy\"`.\n\n`PROJECT_TYPE_EXCLUSIONS` and `DEFAULT_FILE_LOCATIONS` in the same module have no callers (re-exported only).\n\n## Impact\n\n`.project/project.yaml` is user-authored, CNCF-shared metadata. Remediation silently repoints the security policy at an issue template and records README as the changelog, corrupting data other tools and later darnit runs consume. This violates CLAUDE.md \"TOML is Source of Truth\".\n\n## Evidence\n\n- Mapping: https://github.com/darnitdevorg/darnit/blob/032493b8bc9d6ef810ecd639e515042371465c37/packages/darnit-baseline/src/darnit_baseline/config/mappings.py#L56-L94\n- Call site: https://github.com/darnitdevorg/darnit/blob/032493b8bc9d6ef810ecd639e515042371465c37/packages/darnit-baseline/src/darnit_baseline/remediation/orchestrator.py#L559-L575\n- Overwrite when different: https://github.com/darnitdevorg/darnit/blob/032493b8bc9d6ef810ecd639e515042 …",
     "role_context": "Remediation rewrites unrelated .project/ references (e.g. security.policy -> bug_report.md) via stale CONTROL_REFERENCE_MAPPING darnitdevorg/darnit help wanted, quality, module-baseline",
-    "published": "2026-10-02T19:46:02Z",
+    "published": "2026-10-03T20:25:11Z",
     "source": "github-issues-api",
     "source_type": "open_source",
     "organization": "darnitdevorg/darnit",
@@ -2787,8 +2633,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-27T05:26:33.839527+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_checked": "2026-10-04T11:03:52.690635+00:00",
     "opportunity_identity": "role::darnitdevorg darnit::remediation rewrites unrelated project references e g security policy bug report md via stale control reference mapping::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -2867,11 +2713,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-04T11:03:52.690635+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "last_checked": "2026-10-04T11:03:52.690635+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -2960,8 +2806,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_checked": "2026-10-04T11:03:52.690635+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -3047,8 +2893,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_checked": "2026-10-04T11:03:52.690635+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -3134,8 +2980,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_checked": "2026-10-04T11:03:52.690635+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -3149,14 +2995,14 @@
     "duplicate_count": 0
   },
   {
-    "title": "Bug: RFC compliance audit: SPF/DKIM/DMARC record validation in email_security_tool.py",
-    "url": "https://github.com/AynOps/AynOps/issues/219",
-    "description": "Open-source contribution opportunity. Repository: AynOps/AynOps. Labels: bug, help wanted, good first issue. ## Summary\nAudit of `email_security_tool.py` against RFC 1035, RFC 7208, RFC 6376, and RFC 7489\nsurfaced three confirmed conformance gaps and one initially-reported item that does not\nreproduce against the current implementation. Each finding below is scoped to a single\nfunction and can be picked up independently — no shared state between them.\n\n---\n\n### Issue A — `_is_spf_record()` accepts leading-whitespace-padded version tags (RFC 7208 §4.5)\n\n`_is_spf_record()` currently does:\n\n```python\ntokens = record.strip().split()\nreturn bool(tokens) and tokens[0] == \"v=spf1\"\n```\n\n`record.strip()` discards leading/trailing whitespace before the `v=spf1` token check.\nPer RFC 7208 §4.5, the version section must be the literal prefix of the record —\nterminated by SP or EOL — with no leading whitespace tolerance. A strict SMTP receiver\nreturns `PermError` on a record with leading whitespace; this parser currently validates\nit as SPF.\n\n**Fix:**\n```python\ndef _is_spf_record(record: str) -> bool:\n    return record == \"v=spf1\" or record.startswith(\"v=spf1 \")\n```\nApply the same anchor logic in `_spf_policy()` where `record.strip().split()` is repeated.\n\n**Acceptance criteria:**\n- [ ] `_is_spf_record(\" v=spf1 -all\")` returns `False`\n- [ ] `_is_spf_record(\"v=spf1 -all\")` returns `True`\n- [ ] `_is_spf_record(\"v=spf1\")` returns `True`\n- [ ] Existing `_spf_policy()` unit tests still pass with the anchored check\n\n---\n\n### Issue B — `_is_valid_base64_key()` performs unscoped whitespace stripping (RFC 6376 §3.2)\n\n`_is_valid_base64_key()` sanitizes `p=` via:\n\n```python\ncompact = \"\".join(value.split())\n```\n\nThis strips *all* whitespace unconditionally rather than only folding whitespace (FWS)\nat valid fold points per RFC 6376 §3.2. A key string with an internal space introduced\nby truncation or manual copy/paste corruption is silently repaired and passed through\nbase64 decode, which can …",
-    "role_context": "Bug: RFC compliance audit: SPF/DKIM/DMARC record validation in email_security_tool.py AynOps/AynOps bug, help wanted, good first issue",
-    "published": "2026-10-01T16:22:22Z",
+    "title": "LUXOR PHARAOH DAY 🏺👑",
+    "url": "https://github.com/LUXOR-PHARAOH/LUXOR-PHARAOH-DAY-/issues/14",
+    "description": "Open-source contribution opportunity. Repository: LUXOR-PHARAOH/LUXOR-PHARAOH-DAY-. Labels: bug, accessibility, documentation, duplicate, enhancement, help wanted, good first issue, invalid, question, wontfix. LUXOR PHARAOH DAY 🏺👑\n\nMaster Production Specification — النسخة الموحدة المعتمدة\n\n1. هوية المنتج\n\nاسم المشروع: LUXOR PHARAOH DAY 🏺👑\n\nالمفهوم:\nمنتج سياحي رقمي حقيقي يساعد الزائر على قضاء يوم عملي في الأقصر بأسلوب واضح وسريع، من اكتشاف الأماكن إلى التحقق من المعلومات ثم تنفيذ الخطة.\n\nالوصف:\nمنتج سياحي ثنائي اللغة من البداية، سريع، واضح، Mobile-First، ويحل مشاكل السائح بدل أن يضيف إليه خطوات وتعقيدًا.\n\nالعبارة الأساسية:\n\nأبرز تجربة اليوم الفرعوني في الأقصر\n\nالمفهوم:\nA Day in Luxor with the Pharaohs\n\nممنوع استخدام:\nKemet / كمت\n\n---\n\n2. الفلسفة الأساسية\n\nKNOW → CHECK → GO\n\nاعرف → اتأكد → اتحرك\n\n- KNOW / اعرف: اكتشف ماذا يمكنك أن تفعل.\n- CHECK / اتأكد: تحقق من السعر والمعلومة والمصدر وتاريخ المراجعة.\n- GO / اتحرك: اعرف كيف تصل وما الخطوة التالية.\n\n---\n\n3. تجربة المستخدم الأساسية\n\nالمسار الموحد:\n\nDiscover / اكتشف\n↓\nSelect / حدد\n↓\nFilter / صفِّ\n↓\nCheck / تحقق\n↓\nBuild My Day / ابنِ يومي\n↓\nGo / اتحرك\n↓\nSave / احفظ\n↓\nHelp / مساعدة\n\n---\n\n4. الثنائية اللغوية\n\nالتطبيق ثنائي اللغة من البداية.\n\nالعناصر الأساسية تظهر بالعربية والإنجليزية معًا، وليس الاعتماد فقط على زر تغيير اللغة.\n\nأمثلة:\n\nتحديد المعالم الرئيسية\nSelect Main Landmarks\n\nتصفية المعالم\nFilter Landmarks\n\nاكتشف اليوم\nDiscover Today\n\nأنشئ خطتك\nBuild Your Plan\n\nتحقق من المعلومات\nCheck Information\n\nابدأ رحلتك\nStart Your Journey\n\n---\n\n5. الميزة الرئيسية — ماذا أفعل الآن؟\n\nماذا أفعل الآن؟\n\nWhat Can I Do Now?\n\nالسائح يحدد:\n\n- الوقت المتاح:\n  - ساعتان\n  - نصف يوم\n  - يوم كامل\n- موقعه أو نقطة البداية.\n- الميزانية.\n- الاهتمامات:\n  - آثار\n  - تاريخ\n  - تصوير\n  - النيل\n  - تجربة محلية\n- مستوى المجهود.\n- هل معه أطفال؟\n- هل يريد مكانًا قريبًا؟\n- هل يريد تجنب الزحام؟\n- هل يحتاج وسيلة انتقال؟\n\nثم يحصل على خطة يوم عملية بدل عرض عشرات النتائج المربكة.\n\n---\n\n6. اكتشاف وتصفية المعالم\n\nالبحث والتصفية حسب ما يتوفر له مصدر موثوق:\n\n- الفئة …",
+    "role_context": "LUXOR PHARAOH DAY 🏺👑 LUXOR-PHARAOH/LUXOR-PHARAOH-DAY- bug, accessibility, documentation, duplicate, enhancement, help wanted, good first issue, invalid, question, wontfix",
+    "published": "2026-10-04T10:28:10Z",
     "source": "github-issues-api",
     "source_type": "open_source",
-    "organization": "AynOps/AynOps",
+    "organization": "LUXOR-PHARAOH/LUXOR-PHARAOH-DAY-",
     "location": "Remote / open source",
     "structured_opportunity": true,
     "source_quality": "Open source",
@@ -3180,19 +3026,19 @@
     "deadline_time_confidence": "unknown",
     "deadline_source_timezone": "",
     "deadline_original": "",
-    "score": 26,
+    "score": 36,
     "reasons": [
       {
         "signal": "open_source_discovery",
         "points": -25
       },
       {
-        "signal": "legal",
-        "points": 15
+        "signal": "privacy",
+        "points": 16
       },
       {
-        "signal": "compliance",
-        "points": 14
+        "signal": "legal",
+        "points": 15
       },
       {
         "signal": "policy",
@@ -3201,25 +3047,43 @@
       {
         "signal": "structured_source",
         "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
       }
     ],
     "fit_score": 84,
     "fit_label": "Strong fit",
     "fit_reasons": [
       "Strong legal relevance",
-      "Strong compliance relevance",
+      "Strong privacy relevance",
       "Strong policy relevance",
       "Open-source contribution matches the target career stage",
-      "Remote-friendly",
-      "Relevant experience overlap: compliance"
+      "Remote-friendly"
     ],
     "fit_gaps": [],
     "fit_blockers": [],
     "fit_version": "0.4",
-    "first_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
-    "opportunity_identity": "role::aynops aynops::bug rfc compliance audit spf dkim dmarc record validation in email security tool py::remote open source",
+    "first_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_checked": "2026-10-04T11:03:52.690635+00:00",
+    "opportunity_identity": "role::luxor pharaoh luxor pharaoh day::luxor pharaoh day::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/LUXOR-PHARAOH/LUXOR-PHARAOH-DAY-/issues/14",
+        "quality": "Open source",
+        "priority": 65
+      },
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/LUXOR-PHARAOH/LUXOR-PHARAOH-DAY-/issues/13",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 1,
     "description_truncated": true
   },
   {
@@ -3453,8 +3317,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_checked": "2026-10-04T11:03:52.690635+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -3539,8 +3403,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_checked": "2026-10-04T11:03:52.690635+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -3640,6 +3504,83 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "Source the last 42 venue photographs by hand — a fill-out table for all 86 venues",
+    "url": "https://github.com/enorm-labs/event-junkie/issues/1285",
+    "description": "Open-source contribution opportunity. Repository: enorm-labs/event-junkie. Labels: help wanted, importer, area:data-quality, area:legal, size:L. ### What needs doing\n\nTwo automated rounds have sourced a photograph for 44 of the 86 venues. **42 have nothing**, and no\narchive search is going to find them. This issue is the table where a person records what a manual\nsearch turns up: one row per venue, the 44 already-sourced rows filled in, and four columns to\ncomplete for the rest.\n\nFill in **Image URL**, **Licence**, **Credit** and **Source page** for any row you find a picture\nfor. Leave a row alone if you find nothing — an empty row after a real search is a result, and\n[#808](https://github.com/enorm-labs/event-junkie/issues/808) is where those venues go next.\n\n### Why it matters\n\nThe 42 are the hard half, and both automated rounds say so with numbers. Commons confirmed 40 of 86\n(47%). Openverse, over the 46 Commons missed, confirmed 4 of 46 (9%) — see\n`docs/venue-images/README.md`. What is left is rooms in courtyards, bars with no frontage and a\nrooftop over a car park. Few people photograph them, and nobody indexes what they do photograph.\n\nUntil a venue has a picture it draws the placeholder from\n[#811](https://github.com/enorm-labs/event-junkie/issues/811) on every card and on its own page.\nThat is half the venue pages on the site.\n\nA manual search reaches what an API cannot: a Berlin photography blog, a Creative Commons Flickr\naccount that never named the venue in a title, a municipal or district photo archive, a\nphotographer who answers an email. It is slow and it is a person's judgement, which is exactly why\nit is a table rather than a script.\n\n### How to fill a row\n\nEvery image the site shows carries a credit, so all four columns are required together — the\ndatabase `CHECK` in `V020` rejects an image without them, and so does the admin API.\n\n| Column | What goes in it |\n| --- | --- |\n| **Image URL** | A direct link to the image file. Under 8 MiB — `images.fe …",
+    "role_context": "Source the last 42 venue photographs by hand — a fill-out table for all 86 venues enorm-labs/event-junkie help wanted, importer, area:data-quality, area:legal, size:L",
+    "published": "2026-10-03T17:38:29Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "enorm-labs/event-junkie",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 30,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "berlin",
+        "points": 8
+      }
+    ],
+    "fit_score": 77,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong research writing relevance",
+      "Strong published output relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_checked": "2026-10-04T11:03:52.690635+00:00",
+    "opportunity_identity": "role::enorm labs event junkie::source the last 42 venue photographs by hand a fill out table for all 86 venues::remote open source",
+    "description_truncated": true
   },
   {
     "title": "BBK-DFIR dependency license review - volunteer independent reviewer wanted",
@@ -3905,8 +3846,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_checked": "2026-10-04T11:03:52.690635+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -3990,8 +3931,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_checked": "2026-10-04T11:03:52.690635+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -4330,8 +4271,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-03T05:37:48.001481+00:00",
-    "last_checked": "2026-10-03T05:37:48.001481+00:00",
+    "last_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_checked": "2026-10-04T11:03:52.690635+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
