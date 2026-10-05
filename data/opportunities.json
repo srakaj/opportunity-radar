@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-04T11:03:52.690635+00:00",
-    "last_checked": "2026-10-04T11:03:52.690635+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-04T11:03:52.690635+00:00",
-    "last_checked": "2026-10-04T11:03:52.690635+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -327,8 +327,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-27T05:26:33.839527+00:00",
-    "last_seen": "2026-10-04T11:03:52.690635+00:00",
-    "last_checked": "2026-10-04T11:03:52.690635+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
     "opportunity_identity": "role::dentalpin dentalpin::feat gdpr compliance module data subject rights consent audit retention::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -411,8 +411,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-04T11:03:52.690635+00:00",
-    "last_checked": "2026-10-04T11:03:52.690635+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -833,6 +833,92 @@
     "duplicate_count": 0
   },
   {
+    "title": "Research the specification of state-level income-dependent premium rules (7 states)",
+    "url": "https://github.com/Visualize-Policy/research-writing-admin/issues/10",
+    "description": "Open-source contribution opportunity. Repository: Visualize-Policy/research-writing-admin. Labels: help wanted, question. ## What\n\nMoved from [`health-dashboard` issue #50](https://github.com/wtdickens/health-dashboard/issues/50).\nContent unchanged — this is a research task, not a coding task, so it belongs here. Part of the\nreplacement plan for #22 — closing that issue in favor of three scoped issues: this one (research),\na schema-design issue, and an implementation issue. Issue #22's multi-tier premium task turns out to\ncover states with genuinely different structures, not one shape — see the discussion there.\n\nSeven states need their actual premium rules fully specified, not just the summary already in the\npipeline:\n- **Indiana, Iowa, Kansas** — KFF's summary table footnotes give the dollar tier amounts\n  ($33/$50/$53/$70; $20/$40; $20/$30/$50) but not the FPL income breakpoints that trigger each tier.\n- **Massachusetts** — footnote gives a range ($36-$84 \"tiered by FPL\") with no breakpoints at all.\n- **Georgia** — footnote is purely qualitative (\"varies by income\"), no numbers.\n- **New York** — footnote describes a formula (family max = 3x the per-child amount; full premium\n  above 400% FPL) — need to confirm whether that's the complete rule.\n- **Washington** — footnote describes a structure that varies by both income *and* number of\n  children — a genuinely two-dimensional rule, not a single tier list.\n\nDon't assume income is the only input, for any of the seven — check explicitly whether family size,\nage, or anything else also determines the premium, the way Washington's already known to.\n\n## Where to look, in order\n\n1. **KFF/Georgetown Center for Children and Families annual survey** (\"Annual Updates on\n   Eligibility Rules, Enrollment and Renewal Procedures, and Cost-Sharing Practices in Medicaid and\n   CHIP\") —\n   https://www.kff.org/medicaid/annual-updates-on-eligibility-rules-enrollment-and-renewal-procedures-and-cost-sharing-practices-in-medicaid-and-chi …",
+    "role_context": "Research the specification of state-level income-dependent premium rules (7 states) Visualize-Policy/research-writing-admin help wanted, question",
+    "published": "2026-10-04T19:03:36Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Visualize-Policy/research-writing-admin",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "paid",
+    "compensation": "$33",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 56,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      }
+    ],
+    "fit_score": 89,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "opportunity_identity": "role::visualize policy research writing admin::research the specification of state level income dependent premium rules 7 states::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "Werkstudent:in, Recht",
     "url": "https://job-boards.greenhouse.io/via/jobs/8585553002",
     "description": "Organisation: Via. Location: Berlin, Germany. Department: Legal. Office: Berlin. Via nutzt innovative Technologien, um den Transport weltweit zu revolutionieren. Von der Veränderung des täglichen Pendelns einer einzelnen Person bis zur Reduzierung des kollektiven ökologischen Fußabdrucks der Menschheit – wir haben große Ziele. Als Werkstudent:in im Bereich Recht wirst du ein wichtiger Teil unseres dynamischen, globalen Rechtsteams und arbeitest eng mit einem Team hoch engagierter Anwält:innen in Europa, Israel und New York zusammen. Dabei hilfst du uns, unser Geschäft in Europa weiter auszubauen und neue Projekte auf den Weg zu bringen. Mit Unterstützung eines Mentors lernst du die vielschichtigen Aufgaben eines Syndikusanwalts kennen und erhältst gleichzeitig einzigartige Einblicke in die Rechtsabteilung eines schnell wachsenden Scale-ups. Dies ist eine Station im Rahmen des Rechtsreferendariats mit einer Mindestdauer von 6 Monaten, idealerweise mit Start im September 2026. Die Stelle ist in Berlin angesiedelt, im hybriden Arbeitsmodell. Deine Aufgaben: Unterstützung bei geschäftskritischen Vertragsangelegenheiten: Prüfung und Koordination des Vertragsabschlusses (z. B. NDAs, SaaS-Verträge, Lieferantenverträge, Mietverträge), unter Sicherstellung der Genauigkeit und Identifizierung zentraler Risiken Unterstützung bei der Pflege und Organisation von Vertragsdatenbanken und -vorlagen Unterstützung beim Management wichtiger regulatorischer und Compliance-Themen: Durchführung rechtlicher und regulatorischer Recherchen in für Via relevanten Bereichen, u. a. Transportnetzwerkdienste, Gig Economy, Versicherungen, Open-Source-Daten und Datenschutzrecht Überwachung der Einhaltung der DSGVO und anderer Datenschutzgesetze durch die Kontrolle von Auftragsverarbeitungsverträgen (DPAs) mit Lieferanten und Partnern Unterstützung der internen Compliance und Corporate Governance von Via Vorantreiben von Effizienz- und Prozessverbesserungen: Aufbau von Kenntnissen interner Datenbank …",
@@ -917,8 +1003,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-04T11:03:52.690635+00:00",
-    "last_checked": "2026-10-04T11:03:52.690635+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -1659,8 +1745,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-04T11:03:52.690635+00:00",
-    "last_checked": "2026-10-04T11:03:52.690635+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -1672,6 +1758,79 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "Publish the privacy policy and declare app data practices",
+    "url": "https://github.com/Ramahadam/holy-quran/issues/149",
+    "description": "Open-source contribution opportunity. Repository: Ramahadam/holy-quran. Labels: documentation, help wanted. ## What to build\n\nPublish an accurate privacy policy for Holy Quran and make it accessible from the app and Google Play. The policy and Play Data Safety answers must reflect the anonymous feedback channel, Tafsir requests, installation identifier, platform and app-version metadata, transient network-address processing, and the external services involved.\n\n## Acceptance criteria\n\n- [ ] A public, stable privacy-policy URL identifies the app and developer and explains collected or processed data, purposes, sharing, retention, security, and user contact or deletion options.\n- [ ] The policy accurately describes feedback text, platform, app version, the random installation identifier, transient IP-based rate limiting, Cloudflare, and Quran Foundation integrations.\n- [ ] The app provides a clearly discoverable privacy-policy link or policy text.\n- [ ] The same active policy URL is entered in Play Console.\n- [ ] The Play Data Safety form is completed and matches actual application and backend behavior.\n- [ ] Claims that feedback is anonymous remain accurate, including confirmation that names, accounts, reading history, bookmarks, last-read position, and IP addresses are not attached to stored feedback.\n- [ ] Legal or owner review approves the final policy before production submission.\n\n## Blocked by\n\nNone - can start immediately.",
+    "role_context": "Publish the privacy policy and declare app data practices Ramahadam/holy-quran documentation, help wanted",
+    "published": "2026-10-04T11:21:04Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Ramahadam/holy-quran",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 28,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 87,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "opportunity_identity": "role::ramahadam holy quran::publish the privacy policy and declare app data practices::remote open source"
   },
   {
     "title": "Review alate's privacy policy for content that doesn't belong in a privacy policy",
@@ -2471,8 +2630,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-04T11:03:52.690635+00:00",
-    "last_checked": "2026-10-04T11:03:52.690635+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
     "description_truncated": true
   },
@@ -2545,11 +2704,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-04T11:03:52.690635+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -2713,11 +2872,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-04T11:03:52.690635+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-04T11:03:52.690635+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -2806,8 +2965,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-04T11:03:52.690635+00:00",
-    "last_checked": "2026-10-04T11:03:52.690635+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -2893,8 +3052,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-04T11:03:52.690635+00:00",
-    "last_checked": "2026-10-04T11:03:52.690635+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -2980,8 +3139,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-04T11:03:52.690635+00:00",
-    "last_checked": "2026-10-04T11:03:52.690635+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -3066,24 +3225,83 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-04T11:03:52.690635+00:00",
-    "last_seen": "2026-10-04T11:03:52.690635+00:00",
-    "last_checked": "2026-10-04T11:03:52.690635+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
     "opportunity_identity": "role::luxor pharaoh luxor pharaoh day::luxor pharaoh day::remote open source",
-    "alternate_sources": [
+    "description_truncated": true
+  },
+  {
+    "title": "Bug: RFC compliance audit: SPF/DKIM/DMARC record validation in email_security_tool.py",
+    "url": "https://github.com/AynOps/AynOps/issues/219",
+    "description": "Open-source contribution opportunity. Repository: AynOps/AynOps. Labels: bug, help wanted, good first issue. ## Summary\nAudit of `email_security_tool.py` against RFC 1035, RFC 7208, RFC 6376, and RFC 7489\nsurfaced three confirmed conformance gaps and one initially-reported item that does not\nreproduce against the current implementation. Each finding below is scoped to a single\nfunction and can be picked up independently — no shared state between them.\n\n---\n\n### Issue A — `_is_spf_record()` accepts leading-whitespace-padded version tags (RFC 7208 §4.5)\n\n`_is_spf_record()` currently does:\n\n```python\ntokens = record.strip().split()\nreturn bool(tokens) and tokens[0] == \"v=spf1\"\n```\n\n`record.strip()` discards leading/trailing whitespace before the `v=spf1` token check.\nPer RFC 7208 §4.5, the version section must be the literal prefix of the record —\nterminated by SP or EOL — with no leading whitespace tolerance. A strict SMTP receiver\nreturns `PermError` on a record with leading whitespace; this parser currently validates\nit as SPF.\n\n**Fix:**\n```python\ndef _is_spf_record(record: str) -> bool:\n    return record == \"v=spf1\" or record.startswith(\"v=spf1 \")\n```\nApply the same anchor logic in `_spf_policy()` where `record.strip().split()` is repeated.\n\n**Acceptance criteria:**\n- [x] `_is_spf_record(\" v=spf1 -all\")` returns `False`\n- [x] `_is_spf_record(\"v=spf1 -all\")` returns `True`\n- [x] `_is_spf_record(\"v=spf1\")` returns `True`\n- [x] Existing `_spf_policy()` unit tests still pass with the anchored check\n\n---\n\n### Issue B — `_is_valid_base64_key()` performs unscoped whitespace stripping (RFC 6376 §3.2)\n\n`_is_valid_base64_key()` sanitizes `p=` via:\n\n```python\ncompact = \"\".join(value.split())\n```\n\nThis strips *all* whitespace unconditionally rather than only folding whitespace (FWS)\nat valid fold points per RFC 6376 §3.2. A key string with an internal space introduced\nby truncation or manual copy/paste corruption is silently repaired and passed through\nbase64 decode, which can …",
+    "role_context": "Bug: RFC compliance audit: SPF/DKIM/DMARC record validation in email_security_tool.py AynOps/AynOps bug, help wanted, good first issue",
+    "published": "2026-10-05T04:46:56Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "AynOps/AynOps",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 26,
+    "reasons": [
       {
-        "source": "github-issues-api",
-        "url": "https://github.com/LUXOR-PHARAOH/LUXOR-PHARAOH-DAY-/issues/14",
-        "quality": "Open source",
-        "priority": 65
+        "signal": "open_source_discovery",
+        "points": -25
       },
       {
-        "source": "github-issues-api",
-        "url": "https://github.com/LUXOR-PHARAOH/LUXOR-PHARAOH-DAY-/issues/13",
-        "quality": "Open source",
-        "priority": 65
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
       }
     ],
-    "duplicate_count": 1,
+    "fit_score": 84,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "opportunity_identity": "role::aynops aynops::bug rfc compliance audit spf dkim dmarc record validation in email security tool py::remote open source",
     "description_truncated": true
   },
   {
@@ -3317,8 +3535,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-04T11:03:52.690635+00:00",
-    "last_checked": "2026-10-04T11:03:52.690635+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -3403,8 +3621,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-04T11:03:52.690635+00:00",
-    "last_checked": "2026-10-04T11:03:52.690635+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -3416,6 +3634,83 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "Packaging: inventory third-party licenses shipped in Windows artifacts",
+    "url": "https://github.com/HafidIdrissi/Time-Tracker/issues/215",
+    "description": "Open-source contribution opportunity. Repository: HafidIdrissi/Time-Tracker. Labels: documentation, help wanted. ## Why\n\nPyInstaller bundles dependencies whose notices need to be discoverable alongside the application license.\n\n## Scope and acceptance criteria\n\nInventory actual bundled components and their license notice requirements, add a third-party notices document to installer and portable outputs, and cite authoritative license sources. Do not change the project license or claim an audit guarantees legal compliance.\n\n## Starting points\n\n- `packaging/installer.iss`\n- `build_portable.ps1`\n- `build_windows.ps1`\n- `proposed THIRD_PARTY_NOTICES.md`\n\n## Validation\n\nInspect a locally built installer/ZIP and verify notices match installed dependency versions; keep any unresolved attribution question explicit.\n\nDifficulty: **intermediate**.\n\n## Contributor workflow\n\nRead [CONTRIBUTING.md](https://github.com/HafidIdrissi/Time-Tracker/blob/main/CONTRIBUTING.md), check linked issues and open PRs, and comment with a short plan before substantial work. Wait for scope/assignment confirmation; take one task and submit one focused PR. Use fictional activity and disposable files. Never attach personal databases, reports, credentials or certificates. Report only checks actually performed.\n\nFor Python behavior changes, run the focused tests and the full suite from the repository root using the same virtual-environment interpreter: `.\\.venv\\Scripts\\python.exe -m unittest discover -v` on Windows, or `.venv/bin/python -m unittest discover -v` in a configured non-Windows core environment. UI/build changes require the relevant native Windows checks. Documentation/configuration-only changes should report the appropriate walkthrough/validation rather than inventing test results.\n\n<!-- contributor-backlog-2026-10-04-audit-batch:8 -->",
+    "role_context": "Packaging: inventory third-party licenses shipped in Windows artifacts HafidIdrissi/Time-Tracker documentation, help wanted",
+    "published": "2026-10-04T21:37:58Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "HafidIdrissi/Time-Tracker",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 34,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "remote",
+        "points": 10
+      }
+    ],
+    "fit_score": 81,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Strong published output relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "opportunity_identity": "role::hafididrissi time tracker::packaging inventory third party licenses shipped in windows artifacts::remote open source"
   },
   {
     "title": "[Reference Implementation] Governed KYC/AML Compliance Agent — Production-ready multi-agent stack",
@@ -3504,83 +3799,6 @@
       }
     ],
     "duplicate_count": 0
-  },
-  {
-    "title": "Source the last 42 venue photographs by hand — a fill-out table for all 86 venues",
-    "url": "https://github.com/enorm-labs/event-junkie/issues/1285",
-    "description": "Open-source contribution opportunity. Repository: enorm-labs/event-junkie. Labels: help wanted, importer, area:data-quality, area:legal, size:L. ### What needs doing\n\nTwo automated rounds have sourced a photograph for 44 of the 86 venues. **42 have nothing**, and no\narchive search is going to find them. This issue is the table where a person records what a manual\nsearch turns up: one row per venue, the 44 already-sourced rows filled in, and four columns to\ncomplete for the rest.\n\nFill in **Image URL**, **Licence**, **Credit** and **Source page** for any row you find a picture\nfor. Leave a row alone if you find nothing — an empty row after a real search is a result, and\n[#808](https://github.com/enorm-labs/event-junkie/issues/808) is where those venues go next.\n\n### Why it matters\n\nThe 42 are the hard half, and both automated rounds say so with numbers. Commons confirmed 40 of 86\n(47%). Openverse, over the 46 Commons missed, confirmed 4 of 46 (9%) — see\n`docs/venue-images/README.md`. What is left is rooms in courtyards, bars with no frontage and a\nrooftop over a car park. Few people photograph them, and nobody indexes what they do photograph.\n\nUntil a venue has a picture it draws the placeholder from\n[#811](https://github.com/enorm-labs/event-junkie/issues/811) on every card and on its own page.\nThat is half the venue pages on the site.\n\nA manual search reaches what an API cannot: a Berlin photography blog, a Creative Commons Flickr\naccount that never named the venue in a title, a municipal or district photo archive, a\nphotographer who answers an email. It is slow and it is a person's judgement, which is exactly why\nit is a table rather than a script.\n\n### How to fill a row\n\nEvery image the site shows carries a credit, so all four columns are required together — the\ndatabase `CHECK` in `V020` rejects an image without them, and so does the admin API.\n\n| Column | What goes in it |\n| --- | --- |\n| **Image URL** | A direct link to the image file. Under 8 MiB — `images.fe …",
-    "role_context": "Source the last 42 venue photographs by hand — a fill-out table for all 86 venues enorm-labs/event-junkie help wanted, importer, area:data-quality, area:legal, size:L",
-    "published": "2026-10-03T17:38:29Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "enorm-labs/event-junkie",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 30,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      },
-      {
-        "signal": "berlin",
-        "points": 8
-      }
-    ],
-    "fit_score": 77,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong research writing relevance",
-      "Strong published output relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-04T11:03:52.690635+00:00",
-    "last_seen": "2026-10-04T11:03:52.690635+00:00",
-    "last_checked": "2026-10-04T11:03:52.690635+00:00",
-    "opportunity_identity": "role::enorm labs event junkie::source the last 42 venue photographs by hand a fill out table for all 86 venues::remote open source",
-    "description_truncated": true
   },
   {
     "title": "BBK-DFIR dependency license review - volunteer independent reviewer wanted",
@@ -3846,8 +4064,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-04T11:03:52.690635+00:00",
-    "last_checked": "2026-10-04T11:03:52.690635+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -3931,8 +4149,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-04T11:03:52.690635+00:00",
-    "last_checked": "2026-10-04T11:03:52.690635+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -4271,8 +4489,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-04T11:03:52.690635+00:00",
-    "last_checked": "2026-10-04T11:03:52.690635+00:00",
+    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-05T05:33:55.374117+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
