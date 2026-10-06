@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -327,8 +327,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-27T05:26:33.839527+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
     "opportunity_identity": "role::dentalpin dentalpin::feat gdpr compliance module data subject rights consent audit retention::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -340,6 +340,86 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "GDPR & Data Considerations",
+    "url": "https://github.com/Cherry-CIC/MVP/issues/384",
+    "description": "Open-source contribution opportunity. Repository: Cherry-CIC/MVP. Labels: help wanted, Big issue, Post MVP. We need to review and define GDPR and app store data compliance requirements for cherry before release on both the Apple App Store and Google Play Store.\n\nThis should be treated as a launch-blocking workstream. \nThe goal is to ensure cherry only collects and processes data that is necessary, provides the required user controls, and meets both UK GDPR obligations and platform-specific store requirements.\n\n**Why**\n\ncherry will process personal data across account creation, listings, transactions, delivery, support, and potentially future analytics. If this is not properly defined and implemented, we risk:\n\t•\tApp Store or Play Store rejection\n\t•\tweak privacy disclosures\n\t•\tpoor user trust\n\t•\tunnecessary legal and operational risk\n\n**Scope**\n\nReview and define requirements across these three areas:\n\n1. UK GDPR / Data Protection\n\t•\tidentify all personal data collected, used, stored, shared, and retained\n\t•\tdefine lawful basis for each processing activity\n\t•\tensure data minimisation across the MVP\n\t•\tdefine retention periods\n\t•\tdocument user rights handling, including access, correction, deletion, and objection where relevant\n\t•\tidentify controller / processor relationships and third-party processors\n\t•\tassess whether a DPIA is required and complete one if needed\n\t•\tensure no unnecessary or sensitive data is collected without a clear reason and legal basis\n\n2. Apple App Store requirements\n\t•\tconfirm privacy policy coverage for all app processing\n\t•\tcomplete App Privacy disclosures accurately\n\t•\tconfirm what data is collected by the app and any third-party SDKs\n\t•\timplement in-app account deletion\n\t•\tclearly explain what is deleted immediately and what may be retained for legal reasons\n\n3. Google Play requirements\n\t•\tcomplete the Data safety form accurately\n\t•\tpublish a privacy policy covering app processing\n\t•\timplement in-app account deletion\n\t•\tprovide a web-based …",
+    "role_context": "GDPR & Data Considerations Cherry-CIC/MVP help wanted, Big issue, Post MVP",
+    "published": "2026-10-05T23:37:16Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Cherry-CIC/MVP",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 42,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 94,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: data protection",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
+    "opportunity_identity": "role::cherry cic mvp::gdpr and data considerations::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Law School Student Ambassador",
@@ -411,8 +491,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -833,92 +913,6 @@
     "duplicate_count": 0
   },
   {
-    "title": "Research the specification of state-level income-dependent premium rules (7 states)",
-    "url": "https://github.com/Visualize-Policy/research-writing-admin/issues/10",
-    "description": "Open-source contribution opportunity. Repository: Visualize-Policy/research-writing-admin. Labels: help wanted, question. ## What\n\nMoved from [`health-dashboard` issue #50](https://github.com/wtdickens/health-dashboard/issues/50).\nContent unchanged — this is a research task, not a coding task, so it belongs here. Part of the\nreplacement plan for #22 — closing that issue in favor of three scoped issues: this one (research),\na schema-design issue, and an implementation issue. Issue #22's multi-tier premium task turns out to\ncover states with genuinely different structures, not one shape — see the discussion there.\n\nSeven states need their actual premium rules fully specified, not just the summary already in the\npipeline:\n- **Indiana, Iowa, Kansas** — KFF's summary table footnotes give the dollar tier amounts\n  ($33/$50/$53/$70; $20/$40; $20/$30/$50) but not the FPL income breakpoints that trigger each tier.\n- **Massachusetts** — footnote gives a range ($36-$84 \"tiered by FPL\") with no breakpoints at all.\n- **Georgia** — footnote is purely qualitative (\"varies by income\"), no numbers.\n- **New York** — footnote describes a formula (family max = 3x the per-child amount; full premium\n  above 400% FPL) — need to confirm whether that's the complete rule.\n- **Washington** — footnote describes a structure that varies by both income *and* number of\n  children — a genuinely two-dimensional rule, not a single tier list.\n\nDon't assume income is the only input, for any of the seven — check explicitly whether family size,\nage, or anything else also determines the premium, the way Washington's already known to.\n\n## Where to look, in order\n\n1. **KFF/Georgetown Center for Children and Families annual survey** (\"Annual Updates on\n   Eligibility Rules, Enrollment and Renewal Procedures, and Cost-Sharing Practices in Medicaid and\n   CHIP\") —\n   https://www.kff.org/medicaid/annual-updates-on-eligibility-rules-enrollment-and-renewal-procedures-and-cost-sharing-practices-in-medicaid-and-chi …",
-    "role_context": "Research the specification of state-level income-dependent premium rules (7 states) Visualize-Policy/research-writing-admin help wanted, question",
-    "published": "2026-10-04T19:03:36Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "Visualize-Policy/research-writing-admin",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "paid",
-    "compensation": "$33",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 56,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "compliance",
-        "points": 14
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      },
-      {
-        "signal": "paid",
-        "points": 8
-      }
-    ],
-    "fit_score": 89,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong compliance relevance",
-      "Strong research writing relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly",
-      "Explicit compensation signal"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
-    "opportunity_identity": "role::visualize policy research writing admin::research the specification of state level income dependent premium rules 7 states::remote open source",
-    "description_truncated": true
-  },
-  {
     "title": "Werkstudent:in, Recht",
     "url": "https://job-boards.greenhouse.io/via/jobs/8585553002",
     "description": "Organisation: Via. Location: Berlin, Germany. Department: Legal. Office: Berlin. Via nutzt innovative Technologien, um den Transport weltweit zu revolutionieren. Von der Veränderung des täglichen Pendelns einer einzelnen Person bis zur Reduzierung des kollektiven ökologischen Fußabdrucks der Menschheit – wir haben große Ziele. Als Werkstudent:in im Bereich Recht wirst du ein wichtiger Teil unseres dynamischen, globalen Rechtsteams und arbeitest eng mit einem Team hoch engagierter Anwält:innen in Europa, Israel und New York zusammen. Dabei hilfst du uns, unser Geschäft in Europa weiter auszubauen und neue Projekte auf den Weg zu bringen. Mit Unterstützung eines Mentors lernst du die vielschichtigen Aufgaben eines Syndikusanwalts kennen und erhältst gleichzeitig einzigartige Einblicke in die Rechtsabteilung eines schnell wachsenden Scale-ups. Dies ist eine Station im Rahmen des Rechtsreferendariats mit einer Mindestdauer von 6 Monaten, idealerweise mit Start im September 2026. Die Stelle ist in Berlin angesiedelt, im hybriden Arbeitsmodell. Deine Aufgaben: Unterstützung bei geschäftskritischen Vertragsangelegenheiten: Prüfung und Koordination des Vertragsabschlusses (z. B. NDAs, SaaS-Verträge, Lieferantenverträge, Mietverträge), unter Sicherstellung der Genauigkeit und Identifizierung zentraler Risiken Unterstützung bei der Pflege und Organisation von Vertragsdatenbanken und -vorlagen Unterstützung beim Management wichtiger regulatorischer und Compliance-Themen: Durchführung rechtlicher und regulatorischer Recherchen in für Via relevanten Bereichen, u. a. Transportnetzwerkdienste, Gig Economy, Versicherungen, Open-Source-Daten und Datenschutzrecht Überwachung der Einhaltung der DSGVO und anderer Datenschutzgesetze durch die Kontrolle von Auftragsverarbeitungsverträgen (DPAs) mit Lieferanten und Partnern Unterstützung der internen Compliance und Corporate Governance von Via Vorantreiben von Effizienz- und Prozessverbesserungen: Aufbau von Kenntnissen interner Datenbank …",
@@ -1003,8 +997,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -1022,7 +1016,7 @@
     "url": "https://github.com/ARPAHLS/skillware/issues/397",
     "description": "Open-source contribution opportunity. Repository: ARPAHLS/skillware. Labels: documentation, enhancement, good first issue, discussion, cat: compliance. ### Summary\n\nEstablish a standardized, informational **Statutory Knowledge Notice** across all regulatory and legal knowledge skills in the Skillware registry (e.g. [`compliance/mica_module`](https://github.com/ARPAHLS/skillware/tree/main/skills/compliance/mica_module), upcoming `compliance/gdpr_module` [#74](https://github.com/ARPAHLS/skillware/issues/74), and `compliance/eu_ai_act_module`). \n\nThis notice supplements the existing commercial enterprise disclaimer by establishing clear operational boundaries:\n1. Clarifying that statutory RAG and policy evaluation are **informational tools**, not formal legal advice.\n2. Explicitly stating that the skill operates on an **offline statutory snapshot** frozen as of a documented cutoff/publication date.\n3. Highlighting the primary engineering purpose: providing deterministic, offline compliance context for **local, edge, and air-gapped agent models** where access to external legal portals is restricted or unavailable.\n4. Advising operators to verify current statutory amendments and consult qualified legal counsel for binding compliance determinations.\n\n### Motivation\n\n### The Gap in Current Catalog Pages\nToday, regulatory skills such as `compliance/mica_module` only feature the generic commercial enterprise disclaimer at the bottom of their catalog page (`docs/skills/compliance/mica_module.md` line 295):\n\n```markdown\n## Enterprise disclaimer\n\nThis skill is provided for demonstration and integration purposes. It is intended as a starting point that you can adapt to your own data, schemas, and operational requirements. For an enterprise-grade version of this skill with dedicated support, SLAs, and customization, contact skills@arpacorp.net.\n```\n\nWhile effective for commercial boundaries, this disclaimer does not address the legal reality of regulatory knowledge skills:\n- **St …",
     "role_context": "[RFC/Docs]: Standardize Statutory Knowledge Notice and informational disclaimer for compliance skills (MiCA, GDPR, EU AI Act) ARPAHLS/skillware documentation, enhancement, good first issue, discussion, cat: compliance",
-    "published": "2026-09-30T06:23:20Z",
+    "published": "2026-10-05T08:16:24Z",
     "source": "github-issues-api",
     "source_type": "open_source",
     "organization": "ARPAHLS/skillware",
@@ -1102,8 +1096,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
     "opportunity_identity": "role::arpahls skillware::rfc docs standardize statutory knowledge notice and informational disclaimer for compliance skills mica gdpr eu ai act::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -1432,6 +1426,84 @@
     "opportunity_identity": "role::olafweller kaspa privacy initiative::p15 legal operational review questions before mainnet::remote open source"
   },
   {
+    "title": "[Feat]: Standardize SPDX License Identifiers and Copyright Headers Across Core and Template Files",
+    "url": "https://github.com/ARPAHLS/skillware/issues/416",
+    "description": "Open-source contribution opportunity. Repository: ARPAHLS/skillware. Labels: enhancement, help wanted, core framework, security. ### Feature Description\n\nTo reinforce the **Permissive Fortress** governance model ([#413](https://github.com/ARPAHLS/skillware/issues/413)), this issue tracks adding standardized SPDX license identifiers and explicit copyright notices at the top of all core framework source files (`skillware/**/*.py`), CLI entry points, and skill authoring templates.\n\nStandardized header format:\n```python\n# Copyright (c) 2026 ARPA Hellenic Logical Systems\n# SPDX-License-Identifier: MIT\n```\n\nFor community-contributed skills and template files:\n```python\n# SPDX-License-Identifier: MIT\n```\n\n### Rationale\n\n1. **Defense Against Attribution Stripping:** When developers or corporate teams vendor, clone, or copy individual Python files (such as `base_skill.py`, `loader.py`, or `secrets.py`) into their own internal codebases or agent harnesses, individual files frequently become detached from the root repository `LICENSE` file. An explicit header ensures that copyright ownership and the MIT license grant remain permanently attached to the file wherever it travels.\n2. **Enterprise SCA Compliance (Software Composition Analysis):** Enterprise procurement and security scanning tools (e.g., FOSSology, Black Duck, Snyk, GitHub Dependency Graph) automatically parse top-of-file SPDX tags (`SPDX-License-Identifier: MIT`). Having standardized SPDX tags eliminates \"unclear license\" flags during corporate audits.\n3. **Legal Clarity for External Contributors:** Incorporating the SPDX tag into `templates/python_skill/skill.py` ensures that all newly authored skills inherit explicit MIT licensing from the moment they are generated.\n\n### Affected paths (optional)\n\n_No response_\n\n### Implementation Idea\n\n- [ ] **Step 1: Standardize Core Header Format**\n  - Define exact 2-line header for `skillware/` package files:\n    ```python\n    # Copyright (c) 2026 ARPA Hellenic Logical System …",
+    "role_context": "[Feat]: Standardize SPDX License Identifiers and Copyright Headers Across Core and Template Files ARPAHLS/skillware enhancement, help wanted, core framework, security",
+    "published": "2026-10-05T12:39:00Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "ARPAHLS/skillware",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 36,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Strong governance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
+    "opportunity_identity": "role::arpahls skillware::feat standardize spdx license identifiers and copyright headers across core and template files::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "Validate synthetic-dataset license and lineage manifests",
     "url": "https://github.com/maziyarpanahi/openmed/issues/3099",
     "description": "Open-source contribution opportunity. Repository: maziyarpanahi/openmed. Labels: help wanted, feature, P1, roadmap-v3. ## Summary\n\nSynthetic clinical datasets need a release-time contract proving that every generator, template, vocabulary, and model dependency has allowed lineage.\n\n## Scope\n\n- [ ] Define strict manifests for source class, license expression, generator digest, model provenance, and redistribution decision.\n- [ ] Fail closed on missing, restricted, incompatible, or unknown dependencies.\n\n## Acceptance criteria\n\n- [ ] Permissive, mixed, unknown, restricted, missing-lineage, and reordered cases are tested.\n- [ ] Fixtures are synthetic and include no source records, prompts, outputs, or credentials.\n- [ ] Focused unit tests pass offline.\n\n## Out of scope\n\n- [ ] Legal advice, license detection from arbitrary files, dataset generation, or publication.\n\n## Files\n\n- [ ] `openmed/training/synthetic/license_lineage.py`\n- [ ] `tests/unit/training/synthetic/test_license_lineage.py`\n- [ ] `docs/training/synthetic/license-lineage-manifests.md`\n\n---\nRelease plan: #3195\nDependencies: maintained with GitHub issue relationships.\nArchitecture: Extend `openmed/training/federated`, `openmed/training/synthetic`, `openmed/compliance`, `openmed/clinical`, and `openmed/eval`.\nEstimate: M (planning only; confirm during implementation).\nSource of truth: this issue body, its parent release epic, and GitHub dependency relationships.",
@@ -1745,8 +1817,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -2630,8 +2702,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
     "description_truncated": true
   },
@@ -2704,11 +2776,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -2872,11 +2944,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -2965,8 +3037,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -3052,8 +3124,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -3139,8 +3211,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -3152,83 +3224,6 @@
       }
     ],
     "duplicate_count": 0
-  },
-  {
-    "title": "LUXOR PHARAOH DAY 🏺👑",
-    "url": "https://github.com/LUXOR-PHARAOH/LUXOR-PHARAOH-DAY-/issues/14",
-    "description": "Open-source contribution opportunity. Repository: LUXOR-PHARAOH/LUXOR-PHARAOH-DAY-. Labels: bug, accessibility, documentation, duplicate, enhancement, help wanted, good first issue, invalid, question, wontfix. LUXOR PHARAOH DAY 🏺👑\n\nMaster Production Specification — النسخة الموحدة المعتمدة\n\n1. هوية المنتج\n\nاسم المشروع: LUXOR PHARAOH DAY 🏺👑\n\nالمفهوم:\nمنتج سياحي رقمي حقيقي يساعد الزائر على قضاء يوم عملي في الأقصر بأسلوب واضح وسريع، من اكتشاف الأماكن إلى التحقق من المعلومات ثم تنفيذ الخطة.\n\nالوصف:\nمنتج سياحي ثنائي اللغة من البداية، سريع، واضح، Mobile-First، ويحل مشاكل السائح بدل أن يضيف إليه خطوات وتعقيدًا.\n\nالعبارة الأساسية:\n\nأبرز تجربة اليوم الفرعوني في الأقصر\n\nالمفهوم:\nA Day in Luxor with the Pharaohs\n\nممنوع استخدام:\nKemet / كمت\n\n---\n\n2. الفلسفة الأساسية\n\nKNOW → CHECK → GO\n\nاعرف → اتأكد → اتحرك\n\n- KNOW / اعرف: اكتشف ماذا يمكنك أن تفعل.\n- CHECK / اتأكد: تحقق من السعر والمعلومة والمصدر وتاريخ المراجعة.\n- GO / اتحرك: اعرف كيف تصل وما الخطوة التالية.\n\n---\n\n3. تجربة المستخدم الأساسية\n\nالمسار الموحد:\n\nDiscover / اكتشف\n↓\nSelect / حدد\n↓\nFilter / صفِّ\n↓\nCheck / تحقق\n↓\nBuild My Day / ابنِ يومي\n↓\nGo / اتحرك\n↓\nSave / احفظ\n↓\nHelp / مساعدة\n\n---\n\n4. الثنائية اللغوية\n\nالتطبيق ثنائي اللغة من البداية.\n\nالعناصر الأساسية تظهر بالعربية والإنجليزية معًا، وليس الاعتماد فقط على زر تغيير اللغة.\n\nأمثلة:\n\nتحديد المعالم الرئيسية\nSelect Main Landmarks\n\nتصفية المعالم\nFilter Landmarks\n\nاكتشف اليوم\nDiscover Today\n\nأنشئ خطتك\nBuild Your Plan\n\nتحقق من المعلومات\nCheck Information\n\nابدأ رحلتك\nStart Your Journey\n\n---\n\n5. الميزة الرئيسية — ماذا أفعل الآن؟\n\nماذا أفعل الآن؟\n\nWhat Can I Do Now?\n\nالسائح يحدد:\n\n- الوقت المتاح:\n  - ساعتان\n  - نصف يوم\n  - يوم كامل\n- موقعه أو نقطة البداية.\n- الميزانية.\n- الاهتمامات:\n  - آثار\n  - تاريخ\n  - تصوير\n  - النيل\n  - تجربة محلية\n- مستوى المجهود.\n- هل معه أطفال؟\n- هل يريد مكانًا قريبًا؟\n- هل يريد تجنب الزحام؟\n- هل يحتاج وسيلة انتقال؟\n\nثم يحصل على خطة يوم عملية بدل عرض عشرات النتائج المربكة.\n\n---\n\n6. اكتشاف وتصفية المعالم\n\nالبحث والتصفية حسب ما يتوفر له مصدر موثوق:\n\n- الفئة …",
-    "role_context": "LUXOR PHARAOH DAY 🏺👑 LUXOR-PHARAOH/LUXOR-PHARAOH-DAY- bug, accessibility, documentation, duplicate, enhancement, help wanted, good first issue, invalid, question, wontfix",
-    "published": "2026-10-04T10:28:10Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "LUXOR-PHARAOH/LUXOR-PHARAOH-DAY-",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 36,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "leadership",
-        "points": 8
-      }
-    ],
-    "fit_score": 84,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong privacy relevance",
-      "Strong policy relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-04T11:03:52.690635+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
-    "opportunity_identity": "role::luxor pharaoh luxor pharaoh day::luxor pharaoh day::remote open source",
-    "description_truncated": true
   },
   {
     "title": "Bug: RFC compliance audit: SPF/DKIM/DMARC record validation in email_security_tool.py",
@@ -3299,8 +3294,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
     "opportunity_identity": "role::aynops aynops::bug rfc compliance audit spf dkim dmarc record validation in email security tool py::remote open source",
     "description_truncated": true
   },
@@ -3535,8 +3530,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -3621,8 +3616,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -4064,8 +4059,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -4149,8 +4144,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -4489,8 +4484,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-06T05:30:21.588813+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
