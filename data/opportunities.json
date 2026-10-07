@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_checked": "2026-10-06T05:30:21.588813+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_checked": "2026-10-06T05:30:21.588813+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -327,8 +327,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-27T05:26:33.839527+00:00",
-    "last_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_checked": "2026-10-06T05:30:21.588813+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
     "opportunity_identity": "role::dentalpin dentalpin::feat gdpr compliance module data subject rights consent audit retention::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -346,7 +346,7 @@
     "url": "https://github.com/Cherry-CIC/MVP/issues/384",
     "description": "Open-source contribution opportunity. Repository: Cherry-CIC/MVP. Labels: help wanted, Big issue, Post MVP. We need to review and define GDPR and app store data compliance requirements for cherry before release on both the Apple App Store and Google Play Store.\n\nThis should be treated as a launch-blocking workstream. \nThe goal is to ensure cherry only collects and processes data that is necessary, provides the required user controls, and meets both UK GDPR obligations and platform-specific store requirements.\n\n**Why**\n\ncherry will process personal data across account creation, listings, transactions, delivery, support, and potentially future analytics. If this is not properly defined and implemented, we risk:\n\t•\tApp Store or Play Store rejection\n\t•\tweak privacy disclosures\n\t•\tpoor user trust\n\t•\tunnecessary legal and operational risk\n\n**Scope**\n\nReview and define requirements across these three areas:\n\n1. UK GDPR / Data Protection\n\t•\tidentify all personal data collected, used, stored, shared, and retained\n\t•\tdefine lawful basis for each processing activity\n\t•\tensure data minimisation across the MVP\n\t•\tdefine retention periods\n\t•\tdocument user rights handling, including access, correction, deletion, and objection where relevant\n\t•\tidentify controller / processor relationships and third-party processors\n\t•\tassess whether a DPIA is required and complete one if needed\n\t•\tensure no unnecessary or sensitive data is collected without a clear reason and legal basis\n\n2. Apple App Store requirements\n\t•\tconfirm privacy policy coverage for all app processing\n\t•\tcomplete App Privacy disclosures accurately\n\t•\tconfirm what data is collected by the app and any third-party SDKs\n\t•\timplement in-app account deletion\n\t•\tclearly explain what is deleted immediately and what may be retained for legal reasons\n\n3. Google Play requirements\n\t•\tcomplete the Data safety form accurately\n\t•\tpublish a privacy policy covering app processing\n\t•\timplement in-app account deletion\n\t•\tprovide a web-based …",
     "role_context": "GDPR & Data Considerations Cherry-CIC/MVP help wanted, Big issue, Post MVP",
-    "published": "2026-10-05T23:37:16Z",
+    "published": "2026-10-06T09:27:15Z",
     "source": "github-issues-api",
     "source_type": "open_source",
     "organization": "Cherry-CIC/MVP",
@@ -416,10 +416,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_checked": "2026-10-06T05:30:21.588813+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
     "opportunity_identity": "role::cherry cic mvp::gdpr and data considerations::remote open source",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/Cherry-CIC/MVP/issues/384",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Law School Student Ambassador",
@@ -491,8 +500,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_checked": "2026-10-06T05:30:21.588813+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -504,6 +513,85 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "[Content Review]: Quizzes — Part 9: 9.6B to 9.9",
+    "url": "https://github.com/GSA/MasteringAgenticAISystems_supplementals/issues/174",
+    "description": "Open-source contribution opportunity. Repository: GSA/MasteringAgenticAISystems_supplementals. Labels: help wanted, track:content-review, effort:medium, topic:fairness-alignment, topic:governance-compliance, part:09, artifact:quiz. <!-- content-review:quiz:9.6B-9.9 -->\n### Quizzes\nPart 9 — Safety & Governance · 5 quizzes · 153 questions in all (quiz file: [`quizzes_ver20JUN26.md`](https://github.com/GSA/MasteringAgenticAISystems_supplementals/blob/master/quizzes_ver20JUN26.md))\n\n| ID | Title | Questions | Link |\n|---|---|---|---|\n| 9.6B | Value Alignment Frameworks | 32Q (32R+0CB) | [Take Quiz](https://docs.google.com/forms/d/1B5Nbm47QfdMqigaHZmTozYCgWTpcYwNs-0vJdRB8kpY/viewform?usp=sharing) |\n| 9.7 | GDPR and Data Protection Regulations | 30Q (29R+1CB) | [Take Quiz](https://docs.google.com/forms/d/1gtKkdyx3YcR8YOGC0ynEa0u7CdtC5A7eKC0tEzMnYhw/viewform?usp=sharing) |\n| 9.8A | Standards and Frameworks for AI Governance | 28Q (28R+0CB) | [Take Quiz](https://docs.google.com/forms/d/1bPR68UU_JtvSwapv2E6Trx85-0hxGHSqY0qm6u_UtMo/viewform?usp=sharing) |\n| 9.8B | Standards and Frameworks for AI Governance | 31Q (30R+1CB) | [Take Quiz](https://docs.google.com/forms/d/1OtUhvSYGqS6OiqH482WVkBjHTIu1rB1GJepYdzShctU/viewform?usp=sharing) |\n| 9.9 | Value Alignment Frameworks - Building AI Systems That R... | 32Q (31R+1CB) | [Take Quiz](https://docs.google.com/forms/d/1DOU4bbC2gaGPaj_CcgJIVKN_GWgn8CbqFxwMSZjSagI/viewform?usp=sharing) |\n\n### Review it your way\nTake one or more of these quizzes and tell us what you find. Follow whatever fits your expertise and interest, for example:\n- Whether the keyed answer is actually correct, and whether the other options are clearly wrong\n- Question wording: ambiguity, trick phrasing, more than one defensible answer\n- Whether the Easy/Medium/Hard difficulty feels right\n- Whether the questions match the chapter they are filed under, and cover what matters in it\n- Whether named tools, models or standards are still current\n\nQuiz IDs do not always li …",
+    "role_context": "[Content Review]: Quizzes — Part 9: 9.6B to 9.9 GSA/MasteringAgenticAISystems_supplementals help wanted, track:content-review, effort:medium, topic:fairness-alignment, topic:governance-compliance, part:09, artifact:quiz",
+    "published": "2026-10-06T12:49:23Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "GSA/MasteringAgenticAISystems_supplementals",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 45,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "ai_governance",
+        "points": 18
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 91,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong ai governance relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: data protection",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review quizzes part 9 9 6b to 9 9::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Frontend: Privacy Policy page shows a placeholder phone number instead of the real one",
@@ -997,8 +1085,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_checked": "2026-10-06T05:30:21.588813+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -1109,6 +1197,88 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "WORM storage: S3 Object Lock / Azure immutability support",
+    "url": "https://github.com/Basekick-Labs/arc/issues/704",
+    "description": "Open-source contribution opportunity. Repository: Basekick-Labs/arc. Labels: enhancement, help wanted, design, compliance. ## Context\n\nRegulated-industry evaluations of Arc (aerospace / AMS2750, heat treat / CQI-9, pharma / 21 CFR Part 11) consistently land on the same requirement: the stored record must be **provably unalterable**, not merely \"we don't expose an UPDATE endpoint.\"\n\nArc's current position is decent but incomplete:\n\n- Parquet files are immutable — altering a record means rewriting the file\n- There is no UPDATE path in the write API\n- Deletes are off by default and must be explicitly enabled\n\nWhat's missing is **storage-level enforcement**. Today, an operator with credentials to the bucket can delete or replace an Arc Parquet file and Arc has no way to prevent it or notice. S3 Object Lock in Compliance Mode closes this at the storage layer: not even the account root can delete a locked object before its retention expires.\n\nThis is worth building specifically because it is the mitigation regulated buyers *already ask for by name*. Arc is object-storage-native, so it should be a configuration surface rather than an engineering project — and being able to say \"bucket policy, not custom code\" is a strong differentiator against appliance-based competitors.\n\n`grep -rniE \"objectlock|object_lock|WORM|retain_until|legal.?hold\" internal/` currently returns nothing.\n\n## Goal\n\nLet operators run Arc against a WORM-enabled bucket such that written Parquet files cannot be deleted or overwritten for a configured retention period, with Arc's own lifecycle operations behaving correctly against that constraint.\n\n## Scope\n\n**1. Write path**\n\nSet Object Lock retention headers on PUT for data objects. New config, all needing `v.SetDefault()`:\n\n```\nstorage.object_lock.enabled     (bool, default false)\nstorage.object_lock.mode        (\"governance\" | \"compliance\")\nstorage.object_lock.retain_days (int)\n```\n\nUnderstand the difference before implementing: **Governance** mode can …",
+    "role_context": "WORM storage: S3 Object Lock / Azure immutability support Basekick-Labs/arc enhancement, help wanted, design, compliance",
+    "published": "2026-10-07T04:20:06Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Basekick-Labs/arc",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 50,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Strong governance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "opportunity_identity": "role::basekick labs arc::worm storage s3 object lock azure immutability support::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Implement a source-mapped MAS FEAT external-accountability policy",
@@ -1658,6 +1828,81 @@
     "opportunity_identity": "role::hel phone helphone::open source license compatibility matrix and commercial usage compliance subsystem::remote open source"
   },
   {
+    "title": "[Content Review]: Ch 9.7 — GDPR and Data Protection Regulations",
+    "url": "https://github.com/GSA/MasteringAgenticAISystems_supplementals/issues/100",
+    "description": "Open-source contribution opportunity. Repository: GSA/MasteringAgenticAISystems_supplementals. Labels: help wanted, track:content-review, effort:small, topic:governance-compliance, part:09, artifact:chapter-text. <!-- content-review:chapter:9.7 -->\n### Chapter\n**Ch 9.7 — GDPR and Data Protection Regulations**\nPart 9 — Safety & Governance\n\nRated highly relevant for: NVIDIA NCP-AAI, AWS AIP-C01, Databricks GenAI Engineer, Google Cloud PMLE, Microsoft AI-102 (per [`cert_mapping/`](https://github.com/GSA/MasteringAgenticAISystems_supplementals/blob/master/cert_mapping/README.md)).\n\n### Review it your way\nRead the chapter and tell us what you find. There is no fixed list to work through — follow whatever fits your expertise and interest. For example:\n- Technical accuracy of claims and examples\n- Whether tools, models, APIs or standards are still current\n- Clarity, pacing and level for the intended reader\n- Consistency with neighboring chapters\n- How well it prepares readers for certification exams\n\nA partial review is a real contribution: one section, or one angle across the whole chapter, is plenty.\n\n### Size\nAbout 5,555 words — roughly 25 minutes of reading, more if you check claims against sources.\n\n### How to take part\n1. Comment below to say you'd like to take this, and (optionally) which angle you plan to take. A maintainer will assign it to you.\n2. We'll email you the chapter text. It is not hosted in this repository, so please quote only the passage you are commenting on rather than pasting whole sections.\n3. Post findings here as comments. The most useful findings say *where* (a section heading), *what* you found, a quote or source for it, and a suggested fix — the [content-review checklist](https://github.com/GSA/MasteringAgenticAISystems_supplementals/blob/master/.github/REVIEW_CHECKLISTS.md#instructional-content-review-chapter-text-slides-quizzes) has the details.\n4. When you're done, say where you land: **accept**, **minor revisions**, or **major revisions** …",
+    "role_context": "[Content Review]: Ch 9.7 — GDPR and Data Protection Regulations GSA/MasteringAgenticAISystems_supplementals help wanted, track:content-review, effort:small, topic:governance-compliance, part:09, artifact:chapter-text",
+    "published": "2026-10-06T12:54:15Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "GSA/MasteringAgenticAISystems_supplementals",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 27,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Strong governance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: data protection",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 7 gdpr and data protection regulations::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "Summarize privacy-budget consumption without site identifiers",
     "url": "https://github.com/maziyarpanahi/openmed/issues/3097",
     "description": "Open-source contribution opportunity. Repository: maziyarpanahi/openmed. Labels: help wanted, good first issue, feature, P2, roadmap-v3. ## Summary\n\nGovernance review needs aggregate privacy-budget consumption by round and model family without exposing participating sites.\n\n## Scope\n\n- [ ] Aggregate validated epsilon, delta, composition method, and outcome metadata into bounded summaries.\n- [ ] Apply small-cell suppression and deterministic bucketing.\n\n## Acceptance criteria\n\n- [ ] Empty, single-round, composed, suppressed, exhausted, and reordered inputs have stable output.\n- [ ] Site IDs, client IDs, cohort sizes, examples, gradients, and local metrics are rejected.\n- [ ] Focused unit tests pass offline.\n\n## Out of scope\n\n- [ ] Privacy accounting, choosing budgets, or certifying differential privacy.\n\n## Files\n\n- [ ] `openmed/training/dp_budget_summary.py`\n- [ ] `tests/unit/training/test_dp_budget_summary.py`\n- [ ] `docs/training/dp-budget-summaries.md`\n\n---\nRelease plan: #3195\nDependencies: maintained with GitHub issue relationships.\nArchitecture: Extend `openmed/training/federated`, `openmed/training/synthetic`, `openmed/compliance`, `openmed/clinical`, and `openmed/eval`.\nEstimate: S (planning only; confirm during implementation).\nSource of truth: this issue body, its parent release epic, and GitHub dependency relationships.",
@@ -1817,8 +2062,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_checked": "2026-10-06T05:30:21.588813+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -1830,6 +2075,79 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "Privacy policy and terms mention voice recordings, which aren't supported",
+    "url": "https://github.com/jyotishankar04/saveforlatter/issues/50",
+    "description": "Open-source contribution opportunity. Repository: jyotishankar04/saveforlatter. Labels: documentation, good first issue, area: client. ## What\n\nThe privacy policy and the terms list voice recordings and voice memos among the things you can save. The app can't record or upload audio: uploads accept images and PDFs only. The legal pages should describe the product as it is.\n\n## Where\n\n- `client/app/(marketing)/privacy/page.tsx` (three mentions)\n- `client/app/(marketing)/terms/page.tsx` (one mention)\n- For reference, what uploads accept: `server/src/modules/upload/upload.constants.ts`.\n\n## Done when\n\n- [ ] Neither page mentions voice or audio.\n- [ ] The \"Last Updated\" date on each changed page is updated.\n- [ ] `pnpm lint` passes in `client/`.",
+    "role_context": "Privacy policy and terms mention voice recordings, which aren't supported jyotishankar04/saveforlatter documentation, good first issue, area: client",
+    "published": "2026-10-06T11:23:06Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "jyotishankar04/saveforlatter",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 28,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 87,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "opportunity_identity": "role::jyotishankar04 saveforlatter::privacy policy and terms mention voice recordings which aren t supported::remote open source"
   },
   {
     "title": "Publish the privacy policy and declare app data practices",
@@ -2376,6 +2694,80 @@
     "description_truncated": true
   },
   {
+    "title": "[Content Review]: Ch 9.8 — Standards and Frameworks for AI Governance",
+    "url": "https://github.com/GSA/MasteringAgenticAISystems_supplementals/issues/101",
+    "description": "Open-source contribution opportunity. Repository: GSA/MasteringAgenticAISystems_supplementals. Labels: help wanted, track:content-review, effort:medium, topic:governance-compliance, part:09, artifact:chapter-text. <!-- content-review:chapter:9.8 -->\n### Chapter\n**Ch 9.8 — Standards and Frameworks for AI Governance**\nPart 9 — Safety & Governance\n\nRated highly relevant for: NVIDIA NCP-AAI, AWS AIP-C01, Databricks GenAI Engineer, Google Cloud PMLE, Microsoft AI-102 (per [`cert_mapping/`](https://github.com/GSA/MasteringAgenticAISystems_supplementals/blob/master/cert_mapping/README.md)).\n\n### Review it your way\nRead the chapter and tell us what you find. There is no fixed list to work through — follow whatever fits your expertise and interest. For example:\n- Technical accuracy of claims and examples\n- Whether tools, models, APIs or standards are still current\n- Clarity, pacing and level for the intended reader\n- Consistency with neighboring chapters\n- How well it prepares readers for certification exams\n\nA partial review is a real contribution: one section, or one angle across the whole chapter, is plenty.\n\n### Size\nAbout 11,843 words — roughly 50 minutes of reading, more if you check claims against sources.\n\n### How to take part\n1. Comment below to say you'd like to take this, and (optionally) which angle you plan to take. A maintainer will assign it to you.\n2. We'll email you the chapter text. It is not hosted in this repository, so please quote only the passage you are commenting on rather than pasting whole sections.\n3. Post findings here as comments. The most useful findings say *where* (a section heading), *what* you found, a quote or source for it, and a suggested fix — the [content-review checklist](https://github.com/GSA/MasteringAgenticAISystems_supplementals/blob/master/.github/REVIEW_CHECKLISTS.md#instructional-content-review-chapter-text-slides-quizzes) has the details.\n4. When you're done, say where you land: **accept**, **minor revisions**, or **major rev …",
+    "role_context": "[Content Review]: Ch 9.8 — Standards and Frameworks for AI Governance GSA/MasteringAgenticAISystems_supplementals help wanted, track:content-review, effort:medium, topic:governance-compliance, part:09, artifact:chapter-text",
+    "published": "2026-10-06T12:54:18Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "GSA/MasteringAgenticAISystems_supplementals",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 29,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "ai_governance",
+        "points": 18
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 86,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong ai governance relevance",
+      "Strong compliance relevance",
+      "Strong governance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 8 standards and frameworks for ai governance::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "AI Act: security and robustness guidance for high-risk systems",
     "url": "https://github.com/mdiamantino/awesome-eu-cybersec/issues/28",
     "description": "Open-source contribution opportunity. Repository: mdiamantino/awesome-eu-cybersec. Labels: help wanted, coverage gap. Article 15 requires accuracy, robustness and cybersecurity for high-risk AI systems. The standardisation work at CEN-CENELEC JTC 21, the AI Office guidance and national regulator material are all in scope. Generic AI-safety content with no EU legal hook is not.\n\n### What is wanted\n\nEntries in `data/resources/governance-risk-policy.yml`. One good entry is a complete\ncontribution; there is no need to fill the whole gap.\n\n### How to do it\n\n```bash\ngit clone https://github.com/mdiamantino/awesome-eu-cybersec && cd awesome-eu-cybersec\nmake install\n$EDITOR data/resources/governance-risk-policy.yml\nmake build     # regenerates README.md and the exports\nmake check     # the same thing CI runs\n```\n\nCommit the YAML change together with the regenerated `README.md`,\n`data/ecosystem.yml` and `data/ecosystem.json`, then open the pull request.\n\n### Entry format\n\n```yaml\n- name: Vulnerability-Lookup\n  url: https://github.com/vulnerability-lookup/vulnerability-lookup\n  description: Software from CIRCL Luxembourg that correlates advisories from national\n    vulnerability databases and CSAF providers and supports coordinated disclosure workflows.\n  subcategory: Vulnerability Intelligence\n  tags: [cvd, correlation, circl]\n  entry_type: Tool\n  country_or_body: Luxembourg/CIRCL\n  hosting_note: '[Open Source]'\n  license: AGPL-3.0-or-later\n  confidence: high\n  last_verified: '2026-09-16'\n```\n\nField reference and the scope rules are in\n[CONTRIBUTING.md](https://github.com/mdiamantino/awesome-eu-cybersec/blob/main/CONTRIBUTING.md).\n\n### The one bar\n\nOpen the URL yourself and confirm the page is what you say it is. An entry you\nhave not read does not go in, and `confidence: high` means you fetched it.\nQuote what you saw in the pull request.\n\nNot sure whether something qualifies? Ask in this issue before writing the entry.\nThat is what it is for.",
@@ -2702,8 +3094,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_checked": "2026-10-06T05:30:21.588813+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
     "description_truncated": true
   },
@@ -2776,11 +3168,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -2944,11 +3336,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-06T05:30:21.588813+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-06T05:30:21.588813+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -3037,8 +3429,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_checked": "2026-10-06T05:30:21.588813+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -3124,8 +3516,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_checked": "2026-10-06T05:30:21.588813+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -3211,8 +3603,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_checked": "2026-10-06T05:30:21.588813+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -3224,80 +3616,6 @@
       }
     ],
     "duplicate_count": 0
-  },
-  {
-    "title": "Bug: RFC compliance audit: SPF/DKIM/DMARC record validation in email_security_tool.py",
-    "url": "https://github.com/AynOps/AynOps/issues/219",
-    "description": "Open-source contribution opportunity. Repository: AynOps/AynOps. Labels: bug, help wanted, good first issue. ## Summary\nAudit of `email_security_tool.py` against RFC 1035, RFC 7208, RFC 6376, and RFC 7489\nsurfaced three confirmed conformance gaps and one initially-reported item that does not\nreproduce against the current implementation. Each finding below is scoped to a single\nfunction and can be picked up independently — no shared state between them.\n\n---\n\n### Issue A — `_is_spf_record()` accepts leading-whitespace-padded version tags (RFC 7208 §4.5)\n\n`_is_spf_record()` currently does:\n\n```python\ntokens = record.strip().split()\nreturn bool(tokens) and tokens[0] == \"v=spf1\"\n```\n\n`record.strip()` discards leading/trailing whitespace before the `v=spf1` token check.\nPer RFC 7208 §4.5, the version section must be the literal prefix of the record —\nterminated by SP or EOL — with no leading whitespace tolerance. A strict SMTP receiver\nreturns `PermError` on a record with leading whitespace; this parser currently validates\nit as SPF.\n\n**Fix:**\n```python\ndef _is_spf_record(record: str) -> bool:\n    return record == \"v=spf1\" or record.startswith(\"v=spf1 \")\n```\nApply the same anchor logic in `_spf_policy()` where `record.strip().split()` is repeated.\n\n**Acceptance criteria:**\n- [x] `_is_spf_record(\" v=spf1 -all\")` returns `False`\n- [x] `_is_spf_record(\"v=spf1 -all\")` returns `True`\n- [x] `_is_spf_record(\"v=spf1\")` returns `True`\n- [x] Existing `_spf_policy()` unit tests still pass with the anchored check\n\n---\n\n### Issue B — `_is_valid_base64_key()` performs unscoped whitespace stripping (RFC 6376 §3.2)\n\n`_is_valid_base64_key()` sanitizes `p=` via:\n\n```python\ncompact = \"\".join(value.split())\n```\n\nThis strips *all* whitespace unconditionally rather than only folding whitespace (FWS)\nat valid fold points per RFC 6376 §3.2. A key string with an internal space introduced\nby truncation or manual copy/paste corruption is silently repaired and passed through\nbase64 decode, which can …",
-    "role_context": "Bug: RFC compliance audit: SPF/DKIM/DMARC record validation in email_security_tool.py AynOps/AynOps bug, help wanted, good first issue",
-    "published": "2026-10-05T04:46:56Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "AynOps/AynOps",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 26,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "compliance",
-        "points": 14
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      }
-    ],
-    "fit_score": 84,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong compliance relevance",
-      "Strong policy relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly",
-      "Relevant experience overlap: compliance"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_checked": "2026-10-06T05:30:21.588813+00:00",
-    "opportunity_identity": "role::aynops aynops::bug rfc compliance audit spf dkim dmarc record validation in email security tool py::remote open source",
-    "description_truncated": true
   },
   {
     "title": "Add an opt-in WebFlux governance observation to audit sink bridge",
@@ -3530,8 +3848,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_checked": "2026-10-06T05:30:21.588813+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -3616,8 +3934,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_checked": "2026-10-06T05:30:21.588813+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -4059,8 +4377,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_checked": "2026-10-06T05:30:21.588813+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -4144,8 +4462,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_checked": "2026-10-06T05:30:21.588813+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -4484,8 +4802,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_checked": "2026-10-06T05:30:21.588813+00:00",
+    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-07T05:31:29.026014+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
