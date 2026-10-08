@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -327,8 +327,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-27T05:26:33.839527+00:00",
-    "last_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::dentalpin dentalpin::feat gdpr compliance module data subject rights consent audit retention::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -416,8 +416,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::cherry cic mvp::gdpr and data considerations::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -500,8 +500,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -588,10 +588,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review quizzes part 9 9 6b to 9 9::remote open source",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/GSA/MasteringAgenticAISystems_supplementals/issues/174",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Frontend: Privacy Policy page shows a placeholder phone number instead of the real one",
@@ -1085,8 +1094,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -1897,10 +1906,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 7 gdpr and data protection regulations::remote open source",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/GSA/MasteringAgenticAISystems_supplementals/issues/100",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Summarize privacy-budget consumption without site identifiers",
@@ -2062,8 +2080,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -2148,6 +2166,79 @@
     "last_seen": "2026-10-07T05:31:29.026014+00:00",
     "last_checked": "2026-10-07T05:31:29.026014+00:00",
     "opportunity_identity": "role::jyotishankar04 saveforlatter::privacy policy and terms mention voice recordings which aren t supported::remote open source"
+  },
+  {
+    "title": "Privacy policy and terms mention voice recordings, which aren't supported",
+    "url": "https://github.com/jyotishankar04/savedly/issues/50",
+    "description": "Open-source contribution opportunity. Repository: jyotishankar04/savedly. Labels: documentation, good first issue, area: client. ## What\n\nThe privacy policy and the terms list voice recordings and voice memos among the things you can save. The app can't record or upload audio: uploads accept images and PDFs only. The legal pages should describe the product as it is.\n\n## Where\n\n- `client/app/(marketing)/privacy/page.tsx` (three mentions)\n- `client/app/(marketing)/terms/page.tsx` (one mention)\n- For reference, what uploads accept: `server/src/modules/upload/upload.constants.ts`.\n\n## Done when\n\n- [ ] Neither page mentions voice or audio.\n- [ ] The \"Last Updated\" date on each changed page is updated.\n- [ ] `pnpm lint` passes in `client/`.",
+    "role_context": "Privacy policy and terms mention voice recordings, which aren't supported jyotishankar04/savedly documentation, good first issue, area: client",
+    "published": "2026-10-06T11:23:06Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "jyotishankar04/savedly",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 28,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 87,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "opportunity_identity": "role::jyotishankar04 savedly::privacy policy and terms mention voice recordings which aren t supported::remote open source"
   },
   {
     "title": "Publish the privacy policy and declare app data practices",
@@ -2551,6 +2642,81 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "GDPR compliance review and data inventory",
+    "url": "https://github.com/Finntegrate/tapio/issues/40",
+    "description": "Open-source contribution opportunity. Repository: Finntegrate/tapio. Labels: help wanted, auth, security. ADRs 0008–0011 move conversations to the server and add an optional account keyed by an email hash, so Tapio now processes personal data, including GDPR Art. 9 special-category data people volunteer. The beta cannot open until the lawful basis is decided. The [privacy and security baseline](https://github.com/Finntegrate/tapio/blob/main/docs/specs/privacy-and-security-baseline.md) holds the purposes register this review builds on. The impact assessment is #181.\n\n**Checklist:**\n- [ ] Decide the Art. 6 lawful basis for each purpose in the purposes register, and the Art. 9(2) condition for conversation content\n- [ ] Turn the purposes register into the Art. 30 record of processing activities\n- [ ] Draft the full privacy notice: every data item, retention, processor and region, lawful basis, rights, and contact\n- [ ] Decide whether a Data Protection Officer or notification to the Finnish data protection authority is required\n- [ ] Name the incident owner and deputy for the breach response plan\n- [ ] Confirm the lawful basis for holding an email hash before accounts ship",
+    "role_context": "GDPR compliance review and data inventory Finntegrate/tapio help wanted, auth, security",
+    "published": "2026-10-07T18:19:51Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Finntegrate/tapio",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 25,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 87,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Strong published output relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: data protection",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "opportunity_identity": "role::finntegrate tapio::gdpr compliance review and data inventory::remote open source"
   },
   {
     "title": "2026 Summer Internship Program - Atlanta, GA",
@@ -3094,9 +3260,86 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
+    "description_truncated": true
+  },
+  {
+    "title": "AOSS Stage A — independent reviewer engagement and evidence return",
+    "url": "https://github.com/ndrorchestration/DGAF-Framework/issues/929",
+    "description": "Open-source contribution opportunity. Repository: ndrorchestration/DGAF-Framework. Labels: documentation, help wanted, governance, research, verification, external-review. ## Purpose\n\nMove AOSS Stage A from **independent-validation handoff ready** to an actual externally performed review with independently retained evidence.\n\nAccepted handoff document:\n`docs/research/AOSS_V0_6_STAGE_A_INDEPENDENT_VALIDATION_HANDOFF.md`\n\nAccepted handoff commit:\n`92bc930bdd84f6c4258852e764d3e42019e41342`\n\n## Non-substitutable requirement\n\nThis controller cannot be completed by:\n\n- DGAF CI;\n- synthetic fixtures;\n- same-system replay;\n- the project owner reviewing their own evidence;\n- another DGAF-authored packet claiming independence;\n- a model or agent operating solely under the project owner's retained execution context.\n\nCompletion requires a reviewer or reviewing organization whose relationship and independence can be disclosed and locally adjudicated.\n\n## Required progression\n\n- [x] identify one or more candidate external reviewers with relevant competence in runtime assurance, software/AI systems evaluation, formal verification, provenance/reproducibility, or closely related work;\n- [ ] record conflict/relationship disclosures before substantive result review;\n- [ ] provide the accepted #928 handoff without a pre-filled conclusion;\n- [ ] reviewer independently retrieves/verifies DGAF and ACP identities;\n- [ ] reviewer returns independently retained evidence using the required handoff fields or a stricter equivalent;\n- [ ] cryptographically reverify returned bytes locally without promoting trust;\n- [ ] adjudicate reviewer attribution and independence separately;\n- [ ] adjudicate installed-environment, executable/source-driver, and destination/attempt findings separately;\n- [ ] record ACCEPT / REJECT / BLOCKED disposition without widening the claim ceiling;\n- [ ] only after accepted positive evidence, consider a separate collection-execution-readiness transition under #901.\n\n## C …",
+    "role_context": "AOSS Stage A — independent reviewer engagement and evidence return ndrorchestration/DGAF-Framework documentation, help wanted, governance, research, verification, external-review",
+    "published": "2026-10-08T02:27:40Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "ndrorchestration/DGAF-Framework",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 37,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "ai_governance",
+        "points": 18
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong ai governance relevance",
+      "Strong governance relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "opportunity_identity": "role::ndrorchestration dgaf framework::aoss stage a independent reviewer engagement and evidence return::remote open source",
     "description_truncated": true
   },
   {
@@ -3168,11 +3411,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -3336,11 +3579,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -3429,8 +3672,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -3516,8 +3759,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -3603,8 +3846,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -3848,8 +4091,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -3934,8 +4177,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -4377,8 +4620,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -4462,8 +4705,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -4802,8 +5045,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_checked": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
