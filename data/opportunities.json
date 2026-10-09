@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -327,8 +327,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-27T05:26:33.839527+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
     "opportunity_identity": "role::dentalpin dentalpin::feat gdpr compliance module data subject rights consent audit retention::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -416,8 +416,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
     "opportunity_identity": "role::cherry cic mvp::gdpr and data considerations::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -500,8 +500,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -588,8 +588,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review quizzes part 9 9 6b to 9 9::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -1094,8 +1094,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -1206,6 +1206,88 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "[Content] New Track Proposals — Community Sourced (Quant Finance, Robotics, Telco, Automotive, Semiconductor, Climate Tech, Space, Maritime, Actuarial, Legal Tech)",
+    "url": "https://github.com/aniruddhaadak80/skills/issues/22",
+    "description": "Open-source contribution opportunity. Repository: aniruddhaadak80/skills. Labels: enhancement, help wanted. ## 🎯 Issue Summary\n\n**Track:** Content → New Track Proposals  \n**Type:** New Track / Content Expansion  \n**Difficulty:** Advanced (requires domain expertise)  \n**Labels:** `help wanted`, `enhancement`, `content`, `new-track`, `expansion`\n\n---\n\n## 📋 Context\n\nThe library has 47 tracks across software, data, product, business, and specialized domains. **New track proposals** from practitioners in unrepresented fields would expand the library's reach. Each track needs 2+ domains with 2+ procedures each (minimum 4 skills) to meet the quality bar.\n\n---\n\n## 🎪 Track Proposals (Community Sourced)\n\n| # | Track | Icon | Target Audience | Example Domains |\n|---|---|---|---|---|\n| 1 | **Quantitative Finance** | 📈 | Quants, Risk Analysts | Model Validation, Backtesting, Regulatory Reporting |\n| 2 | **Robotics & Automation** | 🤖 | Robotics Engineers | Motion Planning, Sensor Fusion, Sim-to-Real, Safety |\n| 3 | **Telecommunications** | 📡 | Telco Engineers | 5G Core, RAN Optimization, OSS/BSS, Network Slicing |\n| 4 | **Automotive Engineering** | 🚗 | Auto Engineers | ADAS, ISO 26262, AUTOSAR, OTA Updates |\n| 5 | **Semiconductor Design** | 🔬 | Chip Designers | RTL Verification, Physical Design, Sign-off, Yield |\n| 6 | **Climate Tech / Carbon** | 🌱 | Climate Engineers | Carbon Accounting, MRV, Offset Verification, Grid Decarb |\n| 7 | **Space & Satellite Ops** | 🛰️ | Space Engineers | Mission Planning, Ground Systems, Telemetry, Conjunction |\n| 8 | **Maritime & Shipping** | ⚓ | Maritime Engineers | Voyage Optimization, Fleet Management, Decarbonization |\n| 9 | **Insurance Actuarial** | 📊 | Actuaries | Pricing, Reserving, Solvency II, IFRS 17, Cat Modeling |\n| 10 | **Legal Tech / Law Practice** | ⚖️ | Lawyers, Paralegals | Contract Review, E-Discovery, Compliance Automation |\n| 11 | **Journalism & Fact-Checking** | 📰 | Journalists | Source Verification, Data Journalism, OSINT, Ethi …",
+    "role_context": "[Content] New Track Proposals — Community Sourced (Quant Finance, Robotics, Telco, Automotive, Semiconductor, Climate Tech, Space, Maritime, Actuarial, Legal Tech) aniruddhaadak80/skills enhancement, help wanted",
+    "published": "2026-10-08T10:29:19Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "aniruddhaadak80/skills",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 52,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal_tech",
+        "points": 18
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal tech relevance",
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: legal tech"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
+    "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
+    "description_truncated": true
   },
   {
     "title": "WORM storage: S3 Object Lock / Azure immutability support",
@@ -1369,6 +1451,88 @@
     "last_seen": "2026-09-29T05:28:36.540202+00:00",
     "last_checked": "2026-09-29T05:28:36.540202+00:00",
     "opportunity_identity": "role::principled evolution gopal::implement a source mapped mas feat external accountability policy::remote open source",
+    "description_truncated": true
+  },
+  {
+    "title": "[Content] Add 5+ Research Operations skills to UX Research (participant-recruitment-pipeline, research-repository-governance, research-ethics-compliance, research-tool-stack-management, research-impact-measurement)",
+    "url": "https://github.com/aniruddhaadak80/skills/issues/15",
+    "description": "Open-source contribution opportunity. Repository: aniruddhaadak80/skills. Labels: enhancement, help wanted, good first issue. ## 🎯 Issue Summary\n\n**Track:** UX Research → Research Operations  \n**Type:** New Skill Content  \n**Difficulty:** Intermediate to Advanced  \n**Labels:** `good first issue`, `help wanted`, `enhancement`, `content`, `ux-research`, `research-ops`, `operations`\n\n---\n\n## 📋 Context\n\nThe `ux-research` track has research skills but needs **5+ new skills** covering Research Operations (ResearchOps) — the infrastructure that enables scalable, ethical, and efficient research. Real ResearchOps practitioners need these procedures.\n\n---\n\n## 🎪 Skill Ideas\n\n| # | Skill ID | Title | Level | Est. Minutes | Description |\n|---|---|---|---|---|---|\n| 1 | `participant-recruitment-pipeline` | Build a reliable participant recruitment pipeline | intermediate | 35 | Screener design, panel management, incentive strategy, no-show mitigation |\n| 2 | `research-repository-governance` | Govern a research knowledge repository | advanced | 40 | Taxonomy, access control, retention policy, synthesis tagging, search |\n| 3 | `research-ethics-compliance` | Operationalize research ethics and compliance | intermediate | 35 | Consent flows, IRB-lite process, data handling, vulnerable populations |\n| 4 | `research-tool-stack-management` | Manage and evaluate the research tool stack | intermediate | 30 | Tool evaluation criteria, license management, integration, migration |\n| 5 | `research-impact-measurement` | Measure and communicate research impact | advanced | 45 | Outcome metrics, adoption tracking, decision influence, ROI narrative |\n| 6 | `democratized-research-enablement` | Enable non-researchers to do quality research | intermediate | 35 | Training programs, templates, guardrails, quality review, coaching |\n| 7 | `research-budget-planning` | Plan and defend research budgets | intermediate | 30 | Cost modeling, priority-based allocation, vendor negotiation, reporting |\n\n---\n\n## ✅ …",
+    "role_context": "[Content] Add 5+ Research Operations skills to UX Research (participant-recruitment-pipeline, research-repository-governance, research-ethics-compliance, research-tool-stack-management, research-impact-measurement) aniruddhaadak80/skills enhancement, help wanted, good first issue",
+    "published": "2026-10-08T10:28:32Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "aniruddhaadak80/skills",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 43,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong compliance relevance",
+      "Strong governance relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
+    "opportunity_identity": "role::aniruddhaadak80 skills::content add 5 research operations skills to ux research participant recruitment pipeline research repository governance research ethics compliance research tool stack management research impact measurement::remote open source",
     "description_truncated": true
   },
   {
@@ -1837,6 +2001,80 @@
     "opportunity_identity": "role::hel phone helphone::open source license compatibility matrix and commercial usage compliance subsystem::remote open source"
   },
   {
+    "title": "Rendered-UI evidence: AXR1 and AXP1 (opt-in)",
+    "url": "https://github.com/open-assurance/reference-implementation/issues/12",
+    "description": "Open-source contribution opportunity. Repository: open-assurance/reference-implementation. Labels: accessibility, help wanted, dimension. ## Dimensions\n\n- **AXR1 — Runtime accessibility (rendered)** (accessibility, `evaluator: tool`, meta): WCAG success criteria verified in a real headless-browser render (axe-core), double-render checked and kept as advisory evidence — never scored.\n- **AXP1 — Runtime third-party data flows** (securityCompliance, `evaluator: tool`, meta): Third-party hosts the rendered UI tried to reach (analytics/trackers/CDNs), observed at render time — advisory evidence for GDPR data-protection-by-default. Never scored; jurisdiction/role never inferred.\n\n## Why it is not measured yet\n\nCOVERAGE.md: *needs runtime: it is observed on a booted application, which this engine never starts.* Both are advisory metas and never scored.\n\n## A concrete first step\n\nThese need a headless browser render (axe-core for AXR1, observed third-party requests for AXP1). Propose whether this belongs in the engine as an opt-in mode or as a separate companion tool that writes advisory entries into the evidence bundle; list the dependencies it would add.\n\nWhatever is emitted must carry `advisory: true` so it never enters the fold (SPEC-GAPS G-01/G-02), and the engine must stay deterministic and offline by default — any model-backed or runtime evaluator is opt-in. Agree the approach in this issue before writing a large patch.\n\nSee [CONTRIBUTING.md](https://github.com/open-assurance/reference-implementation/blob/main/CONTRIBUTING.md#adding-or-fixing-a-dimension) for the steps (test first, detector, `Coverage.cs`, `tools/coverage-md.py`) and the clean-room rule. Record any ambiguity in SPEC-GAPS.md.",
+    "role_context": "Rendered-UI evidence: AXR1 and AXP1 (opt-in) open-assurance/reference-implementation accessibility, help wanted, dimension",
+    "published": "2026-10-08T14:59:15Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "open-assurance/reference-implementation",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 27,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: data protection",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
+    "opportunity_identity": "role::open assurance reference implementation::rendered ui evidence axr1 and axp1 opt in::remote open source"
+  },
+  {
     "title": "[Content Review]: Ch 9.7 — GDPR and Data Protection Regulations",
     "url": "https://github.com/GSA/MasteringAgenticAISystems_supplementals/issues/100",
     "description": "Open-source contribution opportunity. Repository: GSA/MasteringAgenticAISystems_supplementals. Labels: help wanted, track:content-review, effort:small, topic:governance-compliance, part:09, artifact:chapter-text. <!-- content-review:chapter:9.7 -->\n### Chapter\n**Ch 9.7 — GDPR and Data Protection Regulations**\nPart 9 — Safety & Governance\n\nRated highly relevant for: NVIDIA NCP-AAI, AWS AIP-C01, Databricks GenAI Engineer, Google Cloud PMLE, Microsoft AI-102 (per [`cert_mapping/`](https://github.com/GSA/MasteringAgenticAISystems_supplementals/blob/master/cert_mapping/README.md)).\n\n### Review it your way\nRead the chapter and tell us what you find. There is no fixed list to work through — follow whatever fits your expertise and interest. For example:\n- Technical accuracy of claims and examples\n- Whether tools, models, APIs or standards are still current\n- Clarity, pacing and level for the intended reader\n- Consistency with neighboring chapters\n- How well it prepares readers for certification exams\n\nA partial review is a real contribution: one section, or one angle across the whole chapter, is plenty.\n\n### Size\nAbout 5,555 words — roughly 25 minutes of reading, more if you check claims against sources.\n\n### How to take part\n1. Comment below to say you'd like to take this, and (optionally) which angle you plan to take. A maintainer will assign it to you.\n2. We'll email you the chapter text. It is not hosted in this repository, so please quote only the passage you are commenting on rather than pasting whole sections.\n3. Post findings here as comments. The most useful findings say *where* (a section heading), *what* you found, a quote or source for it, and a suggested fix — the [content-review checklist](https://github.com/GSA/MasteringAgenticAISystems_supplementals/blob/master/.github/REVIEW_CHECKLISTS.md#instructional-content-review-chapter-text-slides-quizzes) has the details.\n4. When you're done, say where you land: **accept**, **minor revisions**, or **major revisions** …",
@@ -1906,8 +2144,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 7 gdpr and data protection regulations::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -2080,8 +2318,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -2714,9 +2952,18 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
-    "opportunity_identity": "role::finntegrate tapio::gdpr compliance review and data inventory::remote open source"
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
+    "opportunity_identity": "role::finntegrate tapio::gdpr compliance review and data inventory::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/Finntegrate/tapio/issues/40",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "2026 Summer Internship Program - Atlanta, GA",
@@ -3260,86 +3507,9 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
-    "description_truncated": true
-  },
-  {
-    "title": "AOSS Stage A — independent reviewer engagement and evidence return",
-    "url": "https://github.com/ndrorchestration/DGAF-Framework/issues/929",
-    "description": "Open-source contribution opportunity. Repository: ndrorchestration/DGAF-Framework. Labels: documentation, help wanted, governance, research, verification, external-review. ## Purpose\n\nMove AOSS Stage A from **independent-validation handoff ready** to an actual externally performed review with independently retained evidence.\n\nAccepted handoff document:\n`docs/research/AOSS_V0_6_STAGE_A_INDEPENDENT_VALIDATION_HANDOFF.md`\n\nAccepted handoff commit:\n`92bc930bdd84f6c4258852e764d3e42019e41342`\n\n## Non-substitutable requirement\n\nThis controller cannot be completed by:\n\n- DGAF CI;\n- synthetic fixtures;\n- same-system replay;\n- the project owner reviewing their own evidence;\n- another DGAF-authored packet claiming independence;\n- a model or agent operating solely under the project owner's retained execution context.\n\nCompletion requires a reviewer or reviewing organization whose relationship and independence can be disclosed and locally adjudicated.\n\n## Required progression\n\n- [x] identify one or more candidate external reviewers with relevant competence in runtime assurance, software/AI systems evaluation, formal verification, provenance/reproducibility, or closely related work;\n- [ ] record conflict/relationship disclosures before substantive result review;\n- [ ] provide the accepted #928 handoff without a pre-filled conclusion;\n- [ ] reviewer independently retrieves/verifies DGAF and ACP identities;\n- [ ] reviewer returns independently retained evidence using the required handoff fields or a stricter equivalent;\n- [ ] cryptographically reverify returned bytes locally without promoting trust;\n- [ ] adjudicate reviewer attribution and independence separately;\n- [ ] adjudicate installed-environment, executable/source-driver, and destination/attempt findings separately;\n- [ ] record ACCEPT / REJECT / BLOCKED disposition without widening the claim ceiling;\n- [ ] only after accepted positive evidence, consider a separate collection-execution-readiness transition under #901.\n\n## C …",
-    "role_context": "AOSS Stage A — independent reviewer engagement and evidence return ndrorchestration/DGAF-Framework documentation, help wanted, governance, research, verification, external-review",
-    "published": "2026-10-08T02:27:40Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "ndrorchestration/DGAF-Framework",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 37,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "ai_governance",
-        "points": 18
-      },
-      {
-        "signal": "governance",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      }
-    ],
-    "fit_score": 85,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong ai governance relevance",
-      "Strong governance relevance",
-      "Strong research writing relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
-    "opportunity_identity": "role::ndrorchestration dgaf framework::aoss stage a independent reviewer engagement and evidence return::remote open source",
     "description_truncated": true
   },
   {
@@ -3411,11 +3581,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -3426,6 +3596,83 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "Return typed errors for deeply nested JSON in five agent governance parsers",
+    "url": "https://github.com/maziyarpanahi/openmed/issues/3779",
+    "description": "Open-source contribution opportunity. Repository: maziyarpanahi/openmed. Labels: bug, help wanted, good first issue, P2, roadmap-v3. ## Problem and existing coverage\n\nFive `from_json` parsers let `RecursionError` escape instead of their value-free typed errors. Reproduced on master with `\"[\" * 100000 + \"]\" * 100000`: `WorkflowOutcome.from_json`, `ActionCorrelation.from_json`, `CompatibilityResult.from_json`, `QualityMeasureEvidencePacket.from_json` and `ConsentReceipt.from_json` raise `RecursionError`, while `ApprovalToken`, `RunSummary`, `ReviewerHandoffPacket`, `RecoveryCheckpoint` and the grant parsers fail with typed errors. Through the MCP error envelope a deeply nested consent receipt is reported as `execution_error` instead of `invalid_consent_receipt`. No fuzz target covers the agent governance parsers.\n\nRelated work: #2950, #2973, #3000, #2784, #2953, #920. Release scope: #3193.\n\n## Implementation\n\n- Add one strict JSON helper with byte-size and nesting-depth bounds checked before decoding, use it in the five parsers and map failures to each module's existing malformed-input code.\n- Add a bounded property-based test module that feeds random, deeply nested, duplicate-key, non-finite and oversized inputs to every public agent governance parser and asserts that only typed `ValueError` subclasses escape.\n\n## Acceptance criteria\n\n- [ ] The reproduction raises each parser's typed malformed-input error, and the MCP envelope returns `invalid_consent_receipt` for a deeply nested receipt.\n- [ ] The property tests cover all public governance parsers and fit the existing fuzz time budget.\n- [ ] Error messages never include input fragments.\n\n## Independent development boundary\n\nOwn the helper, the five fixes and the property tests. Parser schemas and valid-input behavior are unchanged.\n\n## Starting points and validation\n\n`openmed/agent/outcomes.py`, `openmed/agent/correlation.py`, `openmed/agent/schema_compatibility.py`, `openmed/agent/workflows/quality_measure_evidence …",
+    "role_context": "Return typed errors for deeply nested JSON in five agent governance parsers maziyarpanahi/openmed bug, help wanted, good first issue, P2, roadmap-v3",
+    "published": "2026-10-09T02:53:00Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "maziyarpanahi/openmed",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 35,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong governance relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
+    "opportunity_identity": "role::maziyarpanahi openmed::return typed errors for deeply nested json in five agent governance parsers::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Remediation rewrites unrelated .project/ references (e.g. security.policy -> bug_report.md) via stale CONTROL_REFERENCE_MAPPING",
@@ -3579,11 +3826,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -3672,8 +3919,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -3759,8 +4006,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -3846,8 +4093,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -3859,6 +4106,87 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "[Epic]: AGT Studio umbrella tracker",
+    "url": "https://github.com/microsoft/agent-governance-toolkit/issues/2729",
+    "description": "Open-source contribution opportunity. Repository: microsoft/agent-governance-toolkit. Labels: enhancement, help wanted, agent-governance, architecture, Priority: HIGH. ## Summary\r\n\r\n**AGT Studio** is the single unified UI for the Agent Governance Toolkit. It collapses the seven scattered UI surfaces that exist today (six Streamlit/HTTP dashboards plus the `console.html` pitch asset) into one canonical, deployable product surface. Launched standalone with `agt ui`, or hosted as a VS Code / Cursor webview against the same SPA bundle.\r\n\r\nThis issue is the **umbrella tracker** for the entire build. Every child issue links back here. Maintainers picking up individual child issues should treat this issue as the master reference for scope, constraints, decisions, and sequencing.\r\n\r\nBuild is **sequential, one issue at a time, top-to-bottom**. Cross-cutting and deprecation issues can be opportunistically batched once their replacement panel ships.\r\n\r\n## Status\r\n\r\n**5 of 32 issues closed.** Current: #3898 (Epic 1a, issue 5).\r\n\r\n## Issues\r\n\r\nExecution order, top-to-bottom. The order respects the dependencies defined in ADR 0028 and the locked-in decisions below.\r\n\r\n| # | Epic | Issue | Status | Issue # | PR # |\r\n| --- | --- | --- | --- | --- | --- |\r\n| 1  | 0   | Engine API: contract spec + OpenAPI document                            | Closed    | #3011 | #3013 |\r\n| 2  | 0   | Engine API: capability metadata implementation                          | Closed    | #3026 | #3027 |\r\n| 3  | 0   | Engine API: FastAPI reference adapter + `/policies` gap-fix             | Closed | #3066 | #3085 |\r\n| 4  | 0   | Engine API: conformance test suite                                      | Closed | #3893 | #4023 |\r\n| 5  | 1a  | AGT Studio: package + CI scaffold + CODEOWNERS                          | In progress | #3898 | #4170, #4195 |\r\n| 6  | 1b  | AGT Studio: sidecar threat model + security posture doc                 | Closed | #4155 | #4169 |\r\n| 7  | 1b  | AGT Studio: `agt serve` impleme …",
+    "role_context": "[Epic]: AGT Studio umbrella tracker microsoft/agent-governance-toolkit enhancement, help wanted, agent-governance, architecture, Priority: HIGH",
+    "published": "2026-10-08T22:50:31Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "microsoft/agent-governance-toolkit",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 43,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "remote",
+        "points": 10
+      }
+    ],
+    "fit_score": 83,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong compliance relevance",
+      "Strong governance relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
+    "opportunity_identity": "role::microsoft agent governance toolkit::epic agt studio umbrella tracker::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Add an opt-in WebFlux governance observation to audit sink bridge",
@@ -4091,8 +4419,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -4177,8 +4505,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -4357,6 +4685,83 @@
     "duplicate_count": 0
   },
   {
+    "title": "Proposal: Changing the license from GPL-3.0 to Apache 2.0",
+    "url": "https://github.com/schote/nexus-console/issues/174",
+    "description": "Open-source contribution opportunity. Repository: schote/nexus-console. Labels: type: discussion, help wanted. # Proposal: Changing the license from GPL-3.0 to Apache 2.0\n\nWe propose to change the license of `nexus-console` from **[GPL-3.0-or-later](https://www.gnu.org/licenses/gpl-3.0.html)** to the **[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)**. Since all contributors hold the copyright to their contributions, this change requires the explicit agreement of everyone whose code is still part of the project. A similar process was recently completed for [pypulseq](https://github.com/pulseq/pypulseq/issues/324).\n\n## 🎯 Motivation\n\n**Compatibility with the MR open-source ecosystem.** Most related tools are permissively licensed, e.g. [Pulseq](https://github.com/pulseq/pulseq), [pypulseq](https://github.com/pulseq/pypulseq) (recently [switched from AGPL to MIT](https://github.com/pulseq/pypulseq/issues/324)) or [ISMRMRD](https://github.com/ismrmrd/ismrmrd). The GPL-3.0 only works one way: we can use their code, but they cannot use ours. A permissive license lets code flow freely between projects.\n\n**Easier adoption, more visibility.** Many companies and research institutions avoid GPL software, often simply because the obligations are hard to assess. A permissive license makes `nexus-console` attractive to industry partners and collaborations, which increases its visibility, user base and potential contributions.\n\n## 🤔 Why Apache 2.0?\n\nApache 2.0 is a permissive license that is widely used and accepted by both academia and industry (e.g. TensorFlow, Kubernetes, PyTorch-related projects). Besides allowing free use, modification and distribution, it provides legal clarity in areas that simpler permissive licenses such as MIT leave open:\n\n- **Patent protection:** Every contributor grants all users a license to any of their patents that cover their contribution. Anyone who starts patent litigation over the project loses this license.\n- **Clear contribut …",
+    "role_context": "Proposal: Changing the license from GPL-3.0 to Apache 2.0 schote/nexus-console type: discussion, help wanted",
+    "published": "2026-10-08T15:18:59Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "schote/nexus-console",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 30,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "berlin",
+        "points": 8
+      }
+    ],
+    "fit_score": 77,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong research writing relevance",
+      "Strong published output relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
+    "opportunity_identity": "role::schote nexus console::proposal changing the license from gpl 3 0 to apache 2 0::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "BBK-DFIR dependency license review - volunteer independent reviewer wanted",
     "url": "https://github.com/bbk0416/bbk-security-portfolio/issues/3",
     "description": "Open-source contribution opportunity. Repository: bbk0416/bbk-security-portfolio. Labels: help wanted. BBK-DFIR needs an independent review of three exact bundled dependency versions before any paid/public distribution decision.\n\n## Scope\n\nPlease review only these exact versions:\n\n- `crcmod 1.7`\n- `hexdump 3.3`\n- `x25519 0.0.2`\n\nThe project already has a factual evidence packet and a result template. This request does not assume that any package is already legally cleared.\n\n## What the review should answer\n\nFor each exact redistributed artifact:\n\n- authoritative license/copyright basis;\n- whether commercial redistribution is permitted;\n- required license text, attribution, copyright notice, source, or other obligations;\n- whether BBK-DFIR's shipped third-party notice/license materials satisfy those obligations;\n- any unresolved provenance or inherited-license issue;\n- for Public Domain declarations, any treatment needed for the reviewer's applicable jurisdiction/policy.\n\n## Evidence boundary\n\nA completed review does not by itself authorize release. BBK-DFIR remains `commercial_ready=false` until all separate P5 release gates are satisfied.\n\nNo confidential customer or case data is involved.\n\n## Volunteer reviewer wanted\n\nThis project is **not authorizing paid review work**. I am looking only for a reviewer who is willing to perform this narrow review **without charge**.\n\nPractical open-source licensing/compliance experience is preferred. The review result must identify the reviewer or organization, explain the basis of independence, and cover the exact package versions above.\n\nIf interested, please comment **Interested**. I will provide the compact review packet containing the exact wheels, SHA-256 hashes, SBOM, current third-party notices, primary-source evidence, and structured result template.\n\n## Current factual artifact notes\n\n- `crcmod 1.7`: the exact wheel contains MIT-style permission text and copyright notices in multiple source files.\n- `hexdump 3.3`: the …",
@@ -4491,6 +4896,82 @@
     "last_seen": "2026-09-24T05:26:35.754988+00:00",
     "last_checked": "2026-09-24T05:26:35.754988+00:00",
     "opportunity_identity": "url::https://www.dol.gov/agencies/sol/careers/internships"
+  },
+  {
+    "title": "Crosswalk: DAMA-DMBOK (Data Governance, Metadata and Data Quality knowledge areas)",
+    "url": "https://github.com/Semantic-Management/framework/issues/22",
+    "description": "Open-source contribution opportunity. Repository: Semantic-Management/framework. Labels: documentation, help wanted, crosswalk. **Need:** DAMA is the frame most data governance programs already run under. Adopters will ask \"where does SMF sit in DMBOK?\" and today the answer is one table row in `works-with.md`.\n\n**Scope:** DAMA-DMBOK 2 (and 3.0 where published). Map, at minimum, the Data Governance, Metadata Management, Data Quality and Reference & Master Data knowledge areas, plus the business glossary and stewardship roles, onto SMF's nine practices and seven roles ([roles-and-artifacts.md](https://github.com/Semantic-Management/framework/blob/main/docs/roles-and-artifacts.md)).\n\n**Key question to answer:** where does DMBOK's glossary stop and SMF's perspective/resolution begin? State it in one paragraph a DAMA-certified steward would accept.\n**Deliverable**\n- `docs/research/crosswalks/<framework>.md`, labelled non-normative, with one table: the framework's element → the SMF practice(s) it touches → whether SMF **supplies evidence to it**, **consumes an output from it**, or **overlaps and should defer**. Keep it to the elements that actually touch meaning; \"not applicable\" rows add nothing.\n- A short \"what this crosswalk does not claim\" paragraph.\n- Citation of the exact edition used, added to [bibliography.md](https://github.com/Semantic-Management/framework/blob/main/docs/research/bibliography.md).\n- One row added to the frameworks table in [works-with.md](https://github.com/Semantic-Management/framework/blob/main/docs/works-with.md) if it changes what is said there.\n\n**Acceptance**\n- No text copied from the source framework (summarize; cite).\n- Each mapping is one line a practitioner of that framework would recognize.\n- `python reference/tools/check-links.py` passes.\n\nRoadmap: \"Crosswalks to DAMA-DMBOK, ISO/IEC 42001, NIST AI RMF and COBIT\" in `docs/roadmap.md`.",
+    "role_context": "Crosswalk: DAMA-DMBOK (Data Governance, Metadata and Data Quality knowledge areas) Semantic-Management/framework documentation, help wanted, crosswalk",
+    "published": "2026-10-08T16:02:27Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Semantic-Management/framework",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 27,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 73,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong governance relevance",
+      "Strong research writing relevance",
+      "Strong published output relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
+    "opportunity_identity": "role::semantic management framework::crosswalk dama dmbok data governance metadata and data quality knowledge areas::remote open source"
   },
   {
     "title": "Legal Internship Program - Office of the Attorney General",
@@ -4635,6 +5116,82 @@
     "duplicate_count": 0
   },
   {
+    "title": "Business Analyst, Legal Engineering",
+    "url": "https://jobs.ashbyhq.com/legora/3c75574c-f213-4e41-a172-ac08c85ed68e",
+    "description": "Organisation: Legora. Location: Stockholm HQ. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. About the role We are hiring a Business Analyst to join the Global Legal Engineering Operations family in Stockholm, based in the office five days per week. You will report to the Global Legal Engineering Operations Lead and work with the Head of Legal Engineering EMEA as your clear primary regional stakeholder and executive sponsor. Legal Engineering EMEA is scaling quickly across markets, offices and customer segments. This role will help run the system around that growth. You will turn data, meetings and l …",
+    "role_context": "Business Analyst, Legal Engineering Legal Engineering Legal Engineering FullTime",
+    "published": "2026-09-01T14:06:19.296+00:00",
+    "source": "ashby:legora",
+    "source_type": "job_board",
+    "organization": "Legora",
+    "location": "Stockholm HQ",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "On-site",
+    "compensation_status": "paid",
+    "compensation": "$200",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 67,
+    "reasons": [
+      {
+        "signal": "legal_tech",
+        "points": 18
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 72,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong legal tech relevance",
+      "Strong legal relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
+    "opportunity_identity": "role::legora::business analyst legal engineering::stockholm hq",
+    "description_truncated": true
+  },
+  {
     "title": "Legal Engineering Operations Associate",
     "url": "https://jobs.ashbyhq.com/legora/6be81d98-cd4b-47d4-b388-3d20e8401311",
     "description": "Organisation: Legora. Location: New York City. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role Legal Engineering (LE) sits at the center of how Legora wins. Our LEs run pilots, lead rollouts, drive product feedback, and bring deep legal subject-matter depth to every client. As we dramatically scale the North America team, we need someone to keep the engine running. The Legal Engineering Operations Associate is the data and operations backbone of the LE org. You'll build the reporting, run the trackers, and support the strategic operations projects that keep the function moving. This is a high …",
@@ -4705,8 +5262,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -5045,8 +5602,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_checked": "2026-10-08T05:31:09.327825+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -5226,6 +5783,162 @@
     "last_seen": "2026-09-23T05:26:42.012100+00:00",
     "last_checked": "2026-09-23T05:26:42.012100+00:00",
     "opportunity_identity": "url::https://www.ziprecruiter.com/Jobs/Legal-Internship/-in-Atlanta,GA"
+  },
+  {
+    "title": "Associate Commercial Counsel",
+    "url": "https://jobs.ashbyhq.com/harvey/95d7c087-8283-4e17-937d-2ee363ec95ef",
+    "description": "Organisation: Harvey. Location: Munich. Department: Legal. Team: Legal. Commitment: FullTime. Work model: Hybrid. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview We are looking for an Associate Commercial Counsel to join our legal team in Munich. Reporting to the Head of EMEA Legal in London, you will interface with our Go-To-Market team to help ensure the fast and efficient execution of our agreements with customers. What You’ll Do Generative AI has the power to greatly change the world and directly impact how things get done. Harvey is at the forefront of this change, and our mission is to make generative AI actionable and useful for our customers. This is a fast moving environment that is serving some of the world’s most renowned law firms and professional service organizations. And this role will put you in the …",
+    "role_context": "Associate Commercial Counsel Legal Legal FullTime",
+    "published": "2026-10-08T13:50:31.746+00:00",
+    "source": "ashby:harvey",
+    "source_type": "job_board",
+    "organization": "Harvey",
+    "location": "Munich",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Hybrid",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 32,
+    "reasons": [
+      {
+        "signal": "qualified_professional_title",
+        "points": -35
+      },
+      {
+        "signal": "ai_governance",
+        "points": 18
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 59,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong ai governance relevance",
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Early-career role matches the target career stage"
+    ],
+    "fit_gaps": [
+      "Title suggests a qualified professional role"
+    ],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
+    "opportunity_identity": "role::harvey::associate commercial counsel::munich",
+    "description_truncated": true
+  },
+  {
+    "title": "Associate Commercial Counsel, London",
+    "url": "https://jobs.ashbyhq.com/harvey/0a8ca756-7d41-46cc-8cde-960af47658b2",
+    "description": "Organisation: Harvey. Location: London. Department: Legal. Team: Legal. Commitment: FullTime. Work model: Hybrid. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview We are looking for a Commercial Counsel to join our legal team. Reporting to the Head of EMEA Legal in London, you will interface with our Go-To-Market team to help ensure the fast and efficient execution of our agreements with customers. What You’ll Do Generative AI has the power to greatly change the world and directly impact how things get done.  Harvey is at the forefront of this change, and our mission is to make generative AI actionable and useful for our customers.  This is a fast moving environment (we are a start-up!) that is serving some of the world’s most renowned law firms and professional service organizations.  And this role will put you in t …",
+    "role_context": "Associate Commercial Counsel, London Legal Legal FullTime",
+    "published": "2026-10-08T13:48:51.449+00:00",
+    "source": "ashby:harvey",
+    "source_type": "job_board",
+    "organization": "Harvey",
+    "location": "London",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Hybrid",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 32,
+    "reasons": [
+      {
+        "signal": "qualified_professional_title",
+        "points": -35
+      },
+      {
+        "signal": "ai_governance",
+        "points": 18
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 59,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong ai governance relevance",
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Early-career role matches the target career stage"
+    ],
+    "fit_gaps": [
+      "Title suggests a qualified professional role"
+    ],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
+    "opportunity_identity": "role::harvey::associate commercial counsel london::london",
+    "description_truncated": true
   },
   {
     "title": "19 Legal Intern jobs in Provo - LinkedIn",
@@ -5766,5 +6479,67 @@
     "last_seen": "2026-09-24T05:26:35.754988+00:00",
     "last_checked": "2026-09-24T05:26:35.754988+00:00",
     "opportunity_identity": "url::https://www.hirelawstudentjobs.com/"
+  },
+  {
+    "title": "Legal Help Houston - Houston Volunteer Lawyers",
+    "url": "https://legalhelphouston.org/",
+    "description": "HVL provides free legal help to eligible low-income residents of the Greater Houston area. We specialize in family, housing, wills, veterans’ issues, taxes, and other non-criminal matters.",
+    "published": "Wed, 07 Oct 2026 05:23:00 GMT",
+    "query": "site:greenhouse.io legal trainee",
+    "source": "bing-rss-fallback",
+    "source_quality": "Web discovery",
+    "source_priority": 40,
+    "source_quality_label": "Search discovery",
+    "opportunity_type": "Volunteer",
+    "work_model": "Unspecified",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "source_type": "",
+    "score": 27,
+    "reasons": [
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
+      }
+    ],
+    "fit_score": 46,
+    "fit_label": "Probably skip",
+    "fit_reasons": [
+      "Strong legal relevance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_seen": "2026-10-09T05:31:48.763325+00:00",
+    "last_checked": "2026-10-09T05:31:48.763325+00:00",
+    "opportunity_identity": "url::https://legalhelphouston.org/",
+    "alternate_sources": [
+      {
+        "source": "bing-rss-fallback",
+        "url": "https://legalhelphouston.org/",
+        "quality": "Web discovery",
+        "priority": 40
+      }
+    ],
+    "duplicate_count": 0
   }
 ]
