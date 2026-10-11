@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -327,8 +327,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-27T05:26:33.839527+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::dentalpin dentalpin::feat gdpr compliance module data subject rights consent audit retention::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -416,8 +416,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::cherry cic mvp::gdpr and data considerations::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -500,8 +500,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -588,8 +588,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review quizzes part 9 9 6b to 9 9::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -1094,8 +1094,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -1284,8 +1284,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -1297,6 +1297,87 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "[Feature] Skill compliance mapping: SOC2, HIPAA, GDPR, PCI-DSS frameworks",
+    "url": "https://github.com/aniruddhaadak80/skills/issues/293",
+    "description": "Open-source contribution opportunity. Repository: aniruddhaadak80/skills. Labels: documentation, enhancement, help wanted, cyber-defense-ops, cybersecurity, engineering-leadership, hacktoberfest. ## Summary\nAdd skill compliance mapping: map skills to regulatory frameworks (SOC2, HIPAA, GDPR, PCI-DSS, FedRAMP, ISO 27001).\n\n## Motivation\nEnterprises need to know which skills help with compliance:\n- \"Implement audit logging\" → SOC2 CC6.1, ISO 27001 A.12.4\n- \"Encrypt data at rest\" → HIPAA §164.312, PCI-DSS 3.4\n- \"Data retention policy\" → GDPR Art. 5, CCPA\n- No mapping exists today\n\n## Proposed Solution\n1. **Compliance tags** in procedures:\n```js\ncompliance: [\n  { framework: \"SOC2\", controls: [\"CC6.1\", \"CC7.2\"] },\n  { framework: \"HIPAA\", controls: [\"164.312(a)(1)\", \"164.312(e)(1)\"] },\n  { framework: \"GDPR\", articles: [\"Art. 5\", \"Art. 25\", \"Art. 32\"] }\n]\n```\n2. **Compliance registry**: `src/data/compliance/` with framework definitions\n3. **Website**: Filter by framework, compliance dashboard\n4. **Reports**: Generate compliance evidence packages from skills used\n\n## Technical Details\n- Add `compliance` field to procedure schema\n- Framework definitions in `src/data/compliance/frameworks.mjs`\n- Validation: control IDs match framework registry\n- Website filter and `/compliance` page\n- CLI: `npx skills list --compliance SOC2`\n\n## Acceptance Criteria\n- [ ] Schema supports compliance mapping\n- [ ] 5+ frameworks defined\n- [ ] 50+ skills tagged with compliance\n- [ ] Filter by framework works\n- [ ] Evidence report generation works\n\n## Labels\n`enhancement`, `legal-compliance`, `cybersecurity`, `cyber-defense-ops`, `engineering-leadership`, `hacktoberfest`, `help wanted`",
+    "role_context": "[Feature] Skill compliance mapping: SOC2, HIPAA, GDPR, PCI-DSS frameworks aniruddhaadak80/skills documentation, enhancement, help wanted, cyber-defense-ops, cybersecurity, engineering-leadership, hacktoberfest",
+    "published": "2026-10-10T14:54:12Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "aniruddhaadak80/skills",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 50,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "opportunity_identity": "role::aniruddhaadak80 skills::feature skill compliance mapping soc2 hipaa gdpr pci dss frameworks::remote open source"
   },
   {
     "title": "WORM storage: S3 Object Lock / Azure immutability support",
@@ -2079,8 +2160,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::open assurance reference implementation::rendered ui evidence axr1 and axp1 opt in::remote open source",
     "alternate_sources": [
       {
@@ -2162,8 +2243,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 7 gdpr and data protection regulations::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -2336,8 +2417,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -2565,9 +2646,18 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_checked": "2026-10-05T05:33:55.374117+00:00",
-    "opportunity_identity": "role::ramahadam holy quran::publish the privacy policy and declare app data practices::remote open source"
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "opportunity_identity": "role::ramahadam holy quran::publish the privacy policy and declare app data practices::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/Ramahadam/holy-quran/issues/149",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Review alate's privacy policy for content that doesn't belong in a privacy policy",
@@ -2970,8 +3060,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::finntegrate tapio::gdpr compliance review and data inventory::remote open source",
     "alternate_sources": [
       {
@@ -3525,8 +3615,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
     "description_truncated": true
   },
@@ -3599,11 +3689,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -3767,11 +3857,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -3860,8 +3950,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -3947,8 +4037,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -4034,8 +4124,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -4279,8 +4369,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -4365,8 +4455,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -4616,86 +4706,9 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::angelartaylorhacked crypto currency exchange::programs be careful::remote open source",
-    "description_truncated": true
-  },
-  {
-    "title": "Source the last 42 venue photographs by hand — a fill-out table for all 86 venues",
-    "url": "https://github.com/enorm-labs/event-junkie/issues/1285",
-    "description": "Open-source contribution opportunity. Repository: enorm-labs/event-junkie. Labels: help wanted, importer, area:data-quality, area:legal, size:L. ### What needs doing\n\nTwo automated rounds have sourced a photograph for 44 of the 86 venues. **42 have nothing**, and no\narchive search is going to find them. This issue is the table where a person records what a manual\nsearch turns up: one row per venue, the 44 already-sourced rows filled in, and four columns to\ncomplete for the rest.\n\nFill in **Image URL**, **Licence**, **Credit** and **Source page** for any row you find a picture\nfor. Leave a row alone if you find nothing — an empty row after a real search is a result, and\n[#808](https://github.com/enorm-labs/event-junkie/issues/808) is where those venues go next.\n\n### Why it matters\n\nThe 42 are the hard half, and both automated rounds say so with numbers. Commons confirmed 40 of 86\n(47%). Openverse, over the 46 Commons missed, confirmed 4 of 46 (9%) — see\n`docs/venue-images/README.md`. What is left is rooms in courtyards, bars with no frontage and a\nrooftop over a car park. Few people photograph them, and nobody indexes what they do photograph.\n\nUntil a venue has a picture it draws the placeholder from\n[#811](https://github.com/enorm-labs/event-junkie/issues/811) on every card and on its own page.\nThat is half the venue pages on the site.\n\nA manual search reaches what an API cannot: a Berlin photography blog, a Creative Commons Flickr\naccount that never named the venue in a title, a municipal or district photo archive, a\nphotographer who answers an email. It is slow and it is a person's judgement, which is exactly why\nit is a table rather than a script.\n\n### How to fill a row\n\nEvery image the site shows carries a credit, so all four columns are required together — the\ndatabase `CHECK` in `V020` rejects an image without them, and so does the admin API.\n\n| Column | What goes in it |\n| --- | --- |\n| **Image URL** | A direct link to the image file. Under 8 MiB — `images.fe …",
-    "role_context": "Source the last 42 venue photographs by hand — a fill-out table for all 86 venues enorm-labs/event-junkie help wanted, importer, area:data-quality, area:legal, size:L",
-    "published": "2026-10-09T16:02:42Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "enorm-labs/event-junkie",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 30,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      },
-      {
-        "signal": "berlin",
-        "points": 8
-      }
-    ],
-    "fit_score": 77,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong research writing relevance",
-      "Strong published output relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
-    "opportunity_identity": "role::enorm labs event junkie::source the last 42 venue photographs by hand a fill out table for all 86 venues::remote open source",
     "description_truncated": true
   },
   {
@@ -5123,8 +5136,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::legora::business analyst legal engineering::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -5208,8 +5221,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -5548,8 +5561,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -5803,8 +5816,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel::munich",
     "description_truncated": true
   },
@@ -5881,8 +5894,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_checked": "2026-10-10T05:29:35.777902+00:00",
+    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-11T05:30:02.301512+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
