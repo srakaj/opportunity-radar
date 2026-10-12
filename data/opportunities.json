@@ -102,8 +102,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -218,8 +218,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -250,7 +250,7 @@
     "work_model": "Remote",
     "compensation_status": "paid",
     "compensation": "€20",
-    "duration": "15 years",
+    "duration": "",
     "commitment": "",
     "deadline": "",
     "deadline_status": "unknown",
@@ -264,7 +264,7 @@
     "deadline_time_confidence": "unknown",
     "deadline_source_timezone": "",
     "deadline_original": "",
-    "score": 88,
+    "score": 68,
     "reasons": [
       {
         "signal": "open_source_discovery",
@@ -283,10 +283,6 @@
         "points": 14
       },
       {
-        "signal": "policy",
-        "points": 12
-      },
-      {
         "signal": "research_writing",
         "points": 12
       },
@@ -297,10 +293,6 @@
       {
         "signal": "published_output",
         "points": 10
-      },
-      {
-        "signal": "international",
-        "points": 8
       },
       {
         "signal": "paid",
@@ -416,8 +408,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-06T05:30:21.588813+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::cherry cic mvp::gdpr and data considerations::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -500,8 +492,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -588,8 +580,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review quizzes part 9 9 6b to 9 9::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -1094,8 +1086,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -1284,8 +1276,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -1297,6 +1289,97 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "Publish the privacy policy and declare app data practices",
+    "url": "https://github.com/Ramahadam/holy-quran/issues/149",
+    "description": "Open-source contribution opportunity. Repository: Ramahadam/holy-quran. Labels: documentation, help wanted. ## What to build\n\nPublish an accurate privacy policy for Holy Quran and make it accessible from the app and Google Play. The policy and Play Data Safety answers must reflect the anonymous feedback channel, Tafsir requests, installation identifier, platform and app-version metadata, transient network-address processing, and the external services involved.\n\n## Acceptance criteria\n\n- [x] A public, stable privacy-policy URL identifies the app and developer and explains collected or processed data, purposes, sharing, retention, security, and user contact or deletion options.\n- [x] The policy accurately describes feedback text, platform, app version, the random installation identifier, transient IP-based rate limiting, Cloudflare, and Quran Foundation integrations.\n- [x] The app provides a clearly discoverable privacy-policy link or policy text.\n- [x] The same active policy URL is entered in Play Console.\n- [ ] The Play Data Safety form is completed and matches actual application and backend behavior.\n- [x] Claims that feedback is anonymous remain accurate, including confirmation that names, accounts, reading history, bookmarks, last-read position, and IP addresses are not attached to stored feedback.\n- [x] Legal or owner review approves the final policy before production submission.\n\n## Blocked by\n\nNone - can start immediately.\n\n## Verified publication — 11 October 2026\n\nOwner Mohamed Adam approved the final bilingual policy, 90-day feedback retention, publication, and monitoring mohamedadam.tech@gmail.com for privacy/deletion requests.\n\nPublic policy: https://holy-quran-api.mohamedadam-tech.workers.dev/privacy (English) and /privacy/ar (Arabic). Both return HTTP 200 and show the approved contact and retention text; language navigation was verified in the browser. Health and live Tafsir source requests succeed.\n\nPRs #166, #169, and #170 are merged. All four CI chec …",
+    "role_context": "Publish the privacy policy and declare app data practices Ramahadam/holy-quran documentation, help wanted",
+    "published": "2026-10-11T10:37:12Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Ramahadam/holy-quran",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 50,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-05T05:33:55.374117+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
+    "opportunity_identity": "role::ramahadam holy quran::publish the privacy policy and declare app data practices::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/Ramahadam/holy-quran/issues/149",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0,
+    "description_truncated": true
   },
   {
     "title": "[Feature] Skill compliance mapping: SOC2, HIPAA, GDPR, PCI-DSS frameworks",
@@ -1375,9 +1458,18 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
-    "opportunity_identity": "role::aniruddhaadak80 skills::feature skill compliance mapping soc2 hipaa gdpr pci dss frameworks::remote open source"
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
+    "opportunity_identity": "role::aniruddhaadak80 skills::feature skill compliance mapping soc2 hipaa gdpr pci dss frameworks::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/aniruddhaadak80/skills/issues/293",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "WORM storage: S3 Object Lock / Azure immutability support",
@@ -2091,6 +2183,152 @@
     "opportunity_identity": "role::hel phone helphone::open source license compatibility matrix and commercial usage compliance subsystem::remote open source"
   },
   {
+    "title": "Review benchmark data rights and access notes",
+    "url": "https://github.com/shivamnegi92/awesome-multimodal-extraction/issues/22",
+    "description": "Open-source contribution opportunity. Repository: shivamnegi92/awesome-multimodal-extraction. Labels: help wanted, benchmark, privacy-security, research-inspired. ## Goal\n\nFor a small set of benchmark links, verify the official access and usage information and document where readers must check terms.\n\n## Done when\n\n- [ ] Review three benchmark/dataset sources and link to their official terms/license pages when available.\n- [ ] Mark unclear terms as unknown; do not interpret ambiguous legal language.\n- [ ] Do not mirror or commit protected datasets.\n- [ ] Keep this as factual signposting, not legal advice.\n\n## Starting points\n\nOmniDocBench: https://github.com/opendatalab/OmniDocBench\nXFUND: https://github.com/doc-analysis/XFUND\nSROIE: https://github.com/zzzDavid/ICDAR-2019-SROIE\n\n\nPlease keep the change scoped to this issue. Use only public, synthetic, or properly licensed examples; cite primary sources for capability claims. Unknown is better than guessing. This is a contribution invitation, not a request for stars.",
+    "role_context": "Review benchmark data rights and access notes shivamnegi92/awesome-multimodal-extraction help wanted, benchmark, privacy-security, research-inspired",
+    "published": "2026-10-12T04:15:23Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "shivamnegi92/awesome-multimodal-extraction",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 28,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
+    "opportunity_identity": "role::shivamnegi92 awesome multimodal extraction::review benchmark data rights and access notes::remote open source"
+  },
+  {
+    "title": "Separate code, model-weight, dataset, and API terms",
+    "url": "https://github.com/shivamnegi92/awesome-multimodal-extraction/issues/10",
+    "description": "Open-source contribution opportunity. Repository: shivamnegi92/awesome-multimodal-extraction. Labels: help wanted, metadata, privacy-security, research-inspired. ## Goal\n\nDocument a compact licensing checklist or matrix so readers do not mistake a code license for permission to use weights, data, or hosted APIs.\n\n## Done when\n\n- [ ] Keep code, model weights, datasets, and API/service terms as separate fields.\n- [ ] Use official license/terms links and mark unverified cases unknown.\n- [ ] Start with a bounded set of at least five existing resources.\n- [ ] Do not offer legal advice; tell readers to verify upstream terms for their use.\n\n## Starting points\n\nExample of dataset-specific terms to inspect: https://github.com/opendatalab/OmniDocBench\nExample tool project: https://github.com/docling-project/docling\n\n\nPlease keep the change scoped to this issue. Use only public, synthetic, or properly licensed examples; cite primary sources for capability claims. Unknown is better than guessing. This is a contribution invitation, not a request for stars.",
+    "role_context": "Separate code, model-weight, dataset, and API terms shivamnegi92/awesome-multimodal-extraction help wanted, metadata, privacy-security, research-inspired",
+    "published": "2026-10-12T04:15:06Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "shivamnegi92/awesome-multimodal-extraction",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 28,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
+    "opportunity_identity": "role::shivamnegi92 awesome multimodal extraction::separate code model weight dataset and api terms::remote open source"
+  },
+  {
     "title": "Rendered-UI evidence: AXR1 and AXP1 (opt-in)",
     "url": "https://github.com/open-assurance/reference-implementation/issues/12",
     "description": "Open-source contribution opportunity. Repository: open-assurance/reference-implementation. Labels: accessibility, help wanted, dimension. ## Dimensions\n\n- **AXR1 — Runtime accessibility (rendered)** (accessibility, `evaluator: tool`, meta): WCAG success criteria verified in a real headless-browser render (axe-core), double-render checked and kept as advisory evidence — never scored.\n- **AXP1 — Runtime third-party data flows** (securityCompliance, `evaluator: tool`, meta): Third-party hosts the rendered UI tried to reach (analytics/trackers/CDNs), observed at render time — advisory evidence for GDPR data-protection-by-default. Never scored; jurisdiction/role never inferred.\n\n## Why it is not measured yet\n\nCOVERAGE.md: *needs runtime: it is observed on a booted application, which this engine never starts.* Both are advisory metas and never scored.\n\n## A concrete first step\n\nThese need a headless browser render (axe-core for AXR1, observed third-party requests for AXP1). Propose whether this belongs in the engine as an opt-in mode or as a separate companion tool that writes advisory entries into the evidence bundle; list the dependencies it would add.\n\nWhatever is emitted must carry `advisory: true` so it never enters the fold (SPEC-GAPS G-01/G-02), and the engine must stay deterministic and offline by default — any model-backed or runtime evaluator is opt-in. Agree the approach in this issue before writing a large patch.\n\nSee [CONTRIBUTING.md](https://github.com/open-assurance/reference-implementation/blob/main/CONTRIBUTING.md#adding-or-fixing-a-dimension) for the steps (test first, detector, `Coverage.cs`, `tools/coverage-md.py`) and the clean-room rule. Record any ambiguity in SPEC-GAPS.md.",
@@ -2160,8 +2398,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::open assurance reference implementation::rendered ui evidence axr1 and axp1 opt in::remote open source",
     "alternate_sources": [
       {
@@ -2243,8 +2481,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 7 gdpr and data protection regulations::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -2417,8 +2655,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -2576,88 +2814,6 @@
     "last_seen": "2026-10-08T05:31:09.327825+00:00",
     "last_checked": "2026-10-08T05:31:09.327825+00:00",
     "opportunity_identity": "role::jyotishankar04 savedly::privacy policy and terms mention voice recordings which aren t supported::remote open source"
-  },
-  {
-    "title": "Publish the privacy policy and declare app data practices",
-    "url": "https://github.com/Ramahadam/holy-quran/issues/149",
-    "description": "Open-source contribution opportunity. Repository: Ramahadam/holy-quran. Labels: documentation, help wanted. ## What to build\n\nPublish an accurate privacy policy for Holy Quran and make it accessible from the app and Google Play. The policy and Play Data Safety answers must reflect the anonymous feedback channel, Tafsir requests, installation identifier, platform and app-version metadata, transient network-address processing, and the external services involved.\n\n## Acceptance criteria\n\n- [ ] A public, stable privacy-policy URL identifies the app and developer and explains collected or processed data, purposes, sharing, retention, security, and user contact or deletion options.\n- [ ] The policy accurately describes feedback text, platform, app version, the random installation identifier, transient IP-based rate limiting, Cloudflare, and Quran Foundation integrations.\n- [ ] The app provides a clearly discoverable privacy-policy link or policy text.\n- [ ] The same active policy URL is entered in Play Console.\n- [ ] The Play Data Safety form is completed and matches actual application and backend behavior.\n- [ ] Claims that feedback is anonymous remain accurate, including confirmation that names, accounts, reading history, bookmarks, last-read position, and IP addresses are not attached to stored feedback.\n- [ ] Legal or owner review approves the final policy before production submission.\n\n## Blocked by\n\nNone - can start immediately.",
-    "role_context": "Publish the privacy policy and declare app data practices Ramahadam/holy-quran documentation, help wanted",
-    "published": "2026-10-04T11:21:04Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "Ramahadam/holy-quran",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 28,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      }
-    ],
-    "fit_score": 87,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong privacy relevance",
-      "Strong policy relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly",
-      "Relevant experience overlap: privacy"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-05T05:33:55.374117+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
-    "opportunity_identity": "role::ramahadam holy quran::publish the privacy policy and declare app data practices::remote open source",
-    "alternate_sources": [
-      {
-        "source": "github-issues-api",
-        "url": "https://github.com/Ramahadam/holy-quran/issues/149",
-        "quality": "Open source",
-        "priority": 65
-      }
-    ],
-    "duplicate_count": 0
   },
   {
     "title": "Review alate's privacy policy for content that doesn't belong in a privacy policy",
@@ -3060,8 +3216,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-08T05:31:09.327825+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::finntegrate tapio::gdpr compliance review and data inventory::remote open source",
     "alternate_sources": [
       {
@@ -3286,6 +3442,91 @@
     "last_seen": "2026-10-07T05:31:29.026014+00:00",
     "last_checked": "2026-10-07T05:31:29.026014+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 8 standards and frameworks for ai governance::remote open source",
+    "description_truncated": true
+  },
+  {
+    "title": "Help wanted: legal path to Hearthstone shop / gold on Linux",
+    "url": "https://github.com/DawnMagnet/hearthstone-linux-gui/issues/26",
+    "description": "Open-source contribution opportunity. Repository: DawnMagnet/hearthstone-linux-gui. Labels: help wanted, question. ## Summary\n\nThe Hearthstone shop does not work in this launcher on Linux: the store appears closed and the gold balance is not shown. Login and gameplay work fine (see #22, fixed in v0.2.3). This issue is a call for **community help in finding a legal way** to support the shop / gold display. Our primary goal remains **playing the game**, not the shop.\n\n## Current state\n\n- The native Linux Unity client has no `blz_commerce_sdk_plugin` library. Blizzard only ships it for Windows and macOS (plus Android arm64).\n- This project, like upstream [0xf4b1/hearthstone-linux](https://github.com/0xf4b1/hearthstone-linux), ships only a **stub** in its place. The stub returns an empty product catalog and an empty balance, so the game treats the shop as closed and gold is not displayed.\n- Checkout also depends on Blizzard's embedded `BlizzardBrowser`, which has no Linux build either.\n- Upstream has already said that this is expected and has never been fixed: https://github.com/0xf4b1/hearthstone-linux/issues/81. Some people mentioned partial work, but no code was ever published.\n\n## Why this is hard\n\n**Technical:**\n- **Wine bridge to the official Windows DLLs:** you would have to load Windows commerce/browser binaries inside a native Linux Unity process. This is very complex and fragile.\n- **Reverse-engineering / reimplementing the commerce SDK or protocol:** this is a large effort, and it would also need a working checkout flow.\n- **Loading the macOS or Android `.so`/dylib builds:** these target a different OS or ABI and are not realistically loadable here.\n\n**Legal / policy:**\n- The [Blizzard EULA](https://www.blizzard.com/legal/08b946df-660a-40e4-a072-1fbde65173b1/blizzard-end-user-license-agreement) prohibits reverse engineering, emulating or simulating Blizzard protocols, and using unauthorized third-party tools that interact with its services.\n- Payments involve …",
+    "role_context": "Help wanted: legal path to Hearthstone shop / gold on Linux DawnMagnet/hearthstone-linux-gui help wanted, question",
+    "published": "2026-10-11T06:25:20Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "DawnMagnet/hearthstone-linux-gui",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 60,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
+    "opportunity_identity": "role::dawnmagnet hearthstone linux gui::help wanted legal path to hearthstone shop gold on linux::remote open source",
     "description_truncated": true
   },
   {
@@ -3615,8 +3856,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
     "description_truncated": true
   },
@@ -3689,11 +3930,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -3857,11 +4098,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -3950,8 +4191,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -4037,8 +4278,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -4124,8 +4365,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -4137,6 +4378,87 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "[Epic]: AGT Studio umbrella tracker",
+    "url": "https://github.com/microsoft/agent-governance-toolkit/issues/2729",
+    "description": "Open-source contribution opportunity. Repository: microsoft/agent-governance-toolkit. Labels: enhancement, help wanted, agent-governance, architecture, Priority: HIGH. ## Summary\r\n\r\n**AGT Studio** is the single unified UI for the Agent Governance Toolkit. It collapses the seven scattered UI surfaces that exist today (six Streamlit/HTTP dashboards plus the `console.html` pitch asset) into one canonical, deployable product surface. Launched standalone with `agt ui`, or hosted as a VS Code / Cursor webview against the same SPA bundle.\r\n\r\nThis issue is the **umbrella tracker** for the entire build. Every child issue links back here. Maintainers picking up individual child issues should treat this issue as the master reference for scope, constraints, decisions, and sequencing.\r\n\r\nBuild is **sequential, one issue at a time, top-to-bottom**. Cross-cutting and deprecation issues can be opportunistically batched once their replacement panel ships.\r\n\r\n## Status\r\n\r\n**5 of 32 issues closed.** Current: #3898 (Epic 1a, issue 5).\r\n\r\n## Issues\r\n\r\nExecution order, top-to-bottom. The order respects the dependencies defined in ADR 0028 and the locked-in decisions below.\r\n\r\n| # | Epic | Issue | Status | Issue # | PR # |\r\n| --- | --- | --- | --- | --- | --- |\r\n| 1  | 0   | Engine API: contract spec + OpenAPI document                            | Closed    | #3011 | #3013 |\r\n| 2  | 0   | Engine API: capability metadata implementation                          | Closed    | #3026 | #3027 |\r\n| 3  | 0   | Engine API: FastAPI reference adapter + `/policies` gap-fix             | Closed | #3066 | #3085 |\r\n| 4  | 0   | Engine API: conformance test suite                                      | Closed | #3893 | #4023 |\r\n| 5  | 1a  | AGT Studio: package + CI scaffold + CODEOWNERS                          | In progress | #3898 | #4170, #4195 |\r\n| 6  | 1b  | AGT Studio: sidecar threat model + security posture doc                 | Closed | #4155 | #4169 |\r\n| 7  | 1b  | AGT Studio: `agt serve` impleme …",
+    "role_context": "[Epic]: AGT Studio umbrella tracker microsoft/agent-governance-toolkit enhancement, help wanted, agent-governance, architecture, Priority: HIGH",
+    "published": "2026-10-11T22:49:04Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "microsoft/agent-governance-toolkit",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 43,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "remote",
+        "points": 10
+      }
+    ],
+    "fit_score": 83,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong compliance relevance",
+      "Strong governance relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
+    "opportunity_identity": "role::microsoft agent governance toolkit::epic agt studio umbrella tracker::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Add an opt-in WebFlux governance observation to audit sink bridge",
@@ -4369,8 +4691,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -4455,8 +4777,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -4706,8 +5028,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-10T05:29:35.777902+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::angelartaylorhacked crypto currency exchange::programs be careful::remote open source",
     "description_truncated": true
   },
@@ -5136,8 +5458,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::legora::business analyst legal engineering::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -5221,8 +5543,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -5561,8 +5883,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -5816,8 +6138,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel::munich",
     "description_truncated": true
   },
@@ -5894,8 +6216,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_checked": "2026-10-11T05:30:02.301512+00:00",
+    "last_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_checked": "2026-10-12T05:33:33.503410+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
