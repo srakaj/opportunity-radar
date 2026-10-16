@@ -1,122 +1,5 @@
 [
   {
-    "title": "Legal Fellow (Spring 2027)",
-    "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8130733",
-    "description": "Organisation: Wikimedia Foundation. Location: Remote. Department: Legal. Summary If you’re a current law student or recent law school graduate passionate about free knowledge and open source issues, applying to our legal fellowship program can provide an immersive in-house experience with specific education and training in the areas of Internet law and free knowledge organizations. Description The Foundation faces a myriad of legal issues ranging from complex copyright questions to international freedom of expression to mobile development to internal corporate compliance. Because of the wide array of legal issues, legal fellows will be assigned challenging projects based on their particular interests and strengths. These projects range from researching various legal questions to drafting licensing agreements to developing internal and external policies. Each fellow will receive individualized projects that they will be expected to spearhead under the supervision and guidance of an attorney from the Legal Department. Fellows will work closely with their supervising attorney - attending and participating in internal and external meetings, collaborating on projects, receiving feedback and support, and generally learning about the practical dimensions of practicing law in-house at a web-based company. When the opportunity exists, the Legal Department will work with a fellow's university to facilitate earning academic credits and/or receiving funding for the fellow's time at the Wikimedia Foundation. Fall and Spring fellowships have a duration of 18 weeks. Summer fellowships have a duration of 12 weeks. Requirements High energy for and commitment to the Wikimedia Foundation's free knowledge mission, including an interest in free culture issues, digital rights, open source software, Creative Commons licensing, etc. A good sense of humor and the ability to excel in a fast-paced, multitasking environment that demands fast turn-arounds. Intellectual curiosity and flexibility …",
-    "role_context": "Legal Fellow (Spring 2027) Legal",
-    "published": "2026-08-27T14:34:06-04:00",
-    "source": "greenhouse:wikimedia",
-    "source_type": "job_board",
-    "organization": "Wikimedia Foundation",
-    "location": "Remote",
-    "structured_opportunity": true,
-    "source_quality": "Official ATS",
-    "source_priority": 100,
-    "source_quality_label": "Direct employer ATS",
-    "opportunity_type": "Fellowship",
-    "work_model": "Remote",
-    "compensation_status": "funding_possible",
-    "compensation": "receiving funding",
-    "duration": "18 weeks",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [
-      "Current law students",
-      "Recent graduates"
-    ],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 143,
-    "reasons": [
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "compliance",
-        "points": 14
-      },
-      {
-        "signal": "international_law",
-        "points": 14
-      },
-      {
-        "signal": "opportunity_in_title",
-        "points": 12
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      },
-      {
-        "signal": "remote",
-        "points": 10
-      },
-      {
-        "signal": "fellowship",
-        "points": 10
-      },
-      {
-        "signal": "international",
-        "points": 8
-      }
-    ],
-    "fit_score": 100,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong privacy relevance",
-      "Strong compliance relevance",
-      "Fellowship matches the target career stage",
-      "Remote-friendly",
-      "Explicitly open to current law students",
-      "Relevant experience overlap: compliance"
-    ],
-    "fit_gaps": [
-      "Recent-graduate wording appears; verify current-student eligibility"
-    ],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
-    "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
-    "description_truncated": true,
-    "alternate_sources": [
-      {
-        "source": "greenhouse:wikimedia",
-        "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8130733",
-        "quality": "Official ATS",
-        "priority": 100
-      }
-    ],
-    "duplicate_count": 0
-  },
-  {
     "title": "Working Student, Legal (German-speaking)",
     "url": "https://job-boards.greenhouse.io/via/jobs/8585955002",
     "description": "Organisation: Via. Location: Berlin, Germany. Department: Legal. Office: Berlin. Via is on a mission to create public transportation systems that provide far greater access to jobs, healthcare, and education. Our platform serves as the technology backbone for modern transit networks, transforming antiquated and siloed public transportation systems into smart, data-driven, and efficient digital networks. With hundreds of agency partners around the world, Via is recognized as the leading transportation technology and service provider globally. As a Working Student, Legal (Legal Trainee or Rechtsreferendar:in) you will be a critical member of our dynamic and global legal team, working closely with a team of highly dedicated lawyers in Europe, Israel, and New York. You will help us grow our business in Europe and continue to launch new projects. Supported by a mentor, you will get to know the multi-layered tasks of an in-house lawyer, as well as gain a unique insight into the legal department at a high-growth scale-up. For the Legal Trainee (Rechtsreferendar) track, this is a minimum 6-month \"Rechtsreferendariat-Station,\" ideally starting in September 2026. The role is based in Berlin in a hybrid setup. About the role: Support business-critical contracting: Review and coordinate completion of contracts (e.g. NDAs, SaaS agreements, vendor contracts, lease agreements), ensuring accuracy and flagging key risks Help maintain and organise contract databases and templates Assist with managing key regulatory and compliance matters: Conduct legal and regulatory research across areas relevant to Via's business, including transportation network services, gig economy, insurance, open source data, and data privacy laws Track compliance with GDPR and other data privacy laws through oversight of Data Protection Agreements (DPAs) with vendors and partners Support Via's internal compliance and corporate governance Drive improvements in efficiency and process: Develop a working knowledg …",
@@ -218,14 +101,115 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
       {
         "source": "greenhouse:via",
         "url": "https://job-boards.greenhouse.io/via/jobs/8585955002",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
+  },
+  {
+    "title": "Legal Fellow (Spring 2027)",
+    "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8130733",
+    "description": "Organisation: Wikimedia Foundation. Location: Remote. Department: Legal. Summary If you’re a current law student or recent law school graduate passionate about free knowledge and open source issues, applying to our legal fellowship program can provide an immersive in-house experience with specific education and training in the areas of Internet law and free knowledge organizations. Description The Foundation faces a myriad of legal issues ranging from complex copyright questions to international freedom of expression to mobile development to internal corporate compliance. Because of the wide array of legal issues, legal fellows will be assigned challenging projects based on their particular interests and strengths. These projects range from researching various legal questions to drafting licensing agreements to developing internal and external policies. Each fellow will receive individualized projects that they will be expected to spearhead under the supervision and guidance of an attorney from the Legal Department. Fellows will work closely with their supervising attorney - attending and participating in internal and external meetings, collaborating on projects, receiving feedback and support, and generally learning about the practical dimensions of practicing law in-house at a web-based company. When the opportunity exists, the Legal Department will work with a fellow's university to facilitate earning academic credits and/or receiving funding for the fellow's time at the Wikimedia Foundation. Fall and Spring fellowships have a duration of 18 weeks. Summer fellowships have a duration of 12 weeks. Requirements High energy for and commitment to the Wikimedia Foundation's free knowledge mission, including an interest in free culture issues, digital rights, open source software, Creative Commons licensing, etc. A good sense of humor and the ability to excel in a fast-paced, multitasking environment that demands fast turn-arounds. Intellectual curiosity and flexibility …",
+    "role_context": "Legal Fellow (Spring 2027) Legal",
+    "published": "2026-08-27T14:34:06-04:00",
+    "source": "greenhouse:wikimedia",
+    "source_type": "job_board",
+    "organization": "Wikimedia Foundation",
+    "location": "Remote",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Fellowship",
+    "work_model": "Remote",
+    "compensation_status": "funding_possible",
+    "compensation": "receiving funding",
+    "duration": "18 weeks",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [
+      "Current law students",
+      "Recent graduates"
+    ],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 91,
+    "reasons": [
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "remote",
+        "points": 10
+      },
+      {
+        "signal": "fellowship",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      }
+    ],
+    "fit_score": 100,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Strong research writing relevance",
+      "Fellowship matches the target career stage",
+      "Remote-friendly",
+      "Explicitly open to current law students",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [
+      "Recent-graduate wording appears; verify current-student eligibility"
+    ],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-16T22:33:39.162877+00:00",
+    "last_seen": "2026-10-15T05:43:39.211092+00:00",
+    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "opportunity_identity": "role::wikimedia foundation::legal fellow spring 2027::remote",
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "greenhouse:wikimedia",
+        "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8130733",
         "quality": "Official ATS",
         "priority": 100
       }
@@ -492,8 +476,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -509,9 +493,9 @@
   {
     "title": "# EPIC-008: Governance data warehouse: rollups, analytics, exports, and retention that agree",
     "url": "https://github.com/ZK-VOTE/ZK-VOTE/issues/808",
-    "description": "Open-source contribution opportunity. Repository: ZK-VOTE/ZK-VOTE. Labels: help wanted, Spike, ADVANCED. | Field | Value |\n|---|---|\n| Type | Epic integration |\n| Area | indexer + rollups + analytics API + exports + retention + privacy suppression |\n| Difficulty | ★★★★★ (extreme, cross-cutting epic) |\n| Estimate | ~24 hours per workstream (multi-day program) |\n| Status | Open epic — decomposes into spike issues above; do not start without reading linked spikes |\n\n## 1. Background & Context\n\nGovernance data needs outgrow the transactional indexer: analytics queries (SPIKE-124 inventory with freshness SLOs), rollup precomputation (turnout/quorum/treasury trajectories), privacy suppression (small-set linkage per SPIKE-007/139 bounds), bulk exports (tax per SPIKE-145, auditors per SPIKE-144, researchers?), and retention enforcement (purge per SPIKE-129 schedule) — while the indexer was built for listings (SPIKE-077), not analytics: no rollup tables, no suppression layer, no export pipeline, no purge jobs (cf. SPIKE-127 queue), and event-schema evolution (SPIKE-053) breaks rollup logic silently. A warehouse separates analytical serving from transactional indexing with reconciliation between them (warehouse vs chain truth per SPIKE-144 thinking) — and every ransomware-grade design error here (suppression miss, retention breach, schema drift) is a privacy or compliance incident.\n\n## 2. Why This Is Extremely Hard\n\nWarehouse architecture needs layered serving (transactional indexer vs analytical rollups vs bulk exports with consistency contracts between layers), rollup design (which aggregates precomputed at what cadence? with recomputation on reorgs per SPIKE-072 invalidation and schema migrations per SPIKE-053), suppression enforcement (minimum-set rules in the serving path, not the UI — tested with linkage methods), export governance (who may bulk-export what? with audit per SPIKE-123 roles and redaction per SPIKE-079), and retention automation (purge jobs with backup cry …",
-    "role_context": "# EPIC-008: Governance data warehouse: rollups, analytics, exports, and retention that agree ZK-VOTE/ZK-VOTE help wanted, Spike, ADVANCED",
-    "published": "2026-10-14T20:09:54Z",
+    "description": "Open-source contribution opportunity. Repository: ZK-VOTE/ZK-VOTE. Labels: help wanted, Stellar Wave, Spike, ADVANCED. | Field | Value |\n|---|---|\n| Type | Epic integration |\n| Area | indexer + rollups + analytics API + exports + retention + privacy suppression |\n| Difficulty | ★★★★★ (extreme, cross-cutting epic) |\n| Estimate | ~24 hours per workstream (multi-day program) |\n| Status | Open epic — decomposes into spike issues above; do not start without reading linked spikes |\n\n## 1. Background & Context\n\nGovernance data needs outgrow the transactional indexer: analytics queries (SPIKE-124 inventory with freshness SLOs), rollup precomputation (turnout/quorum/treasury trajectories), privacy suppression (small-set linkage per SPIKE-007/139 bounds), bulk exports (tax per SPIKE-145, auditors per SPIKE-144, researchers?), and retention enforcement (purge per SPIKE-129 schedule) — while the indexer was built for listings (SPIKE-077), not analytics: no rollup tables, no suppression layer, no export pipeline, no purge jobs (cf. SPIKE-127 queue), and event-schema evolution (SPIKE-053) breaks rollup logic silently. A warehouse separates analytical serving from transactional indexing with reconciliation between them (warehouse vs chain truth per SPIKE-144 thinking) — and every ransomware-grade design error here (suppression miss, retention breach, schema drift) is a privacy or compliance incident.\n\n## 2. Why This Is Extremely Hard\n\nWarehouse architecture needs layered serving (transactional indexer vs analytical rollups vs bulk exports with consistency contracts between layers), rollup design (which aggregates precomputed at what cadence? with recomputation on reorgs per SPIKE-072 invalidation and schema migrations per SPIKE-053), suppression enforcement (minimum-set rules in the serving path, not the UI — tested with linkage methods), export governance (who may bulk-export what? with audit per SPIKE-123 roles and redaction per SPIKE-079), and retention automation (purge jobs w …",
+    "role_context": "# EPIC-008: Governance data warehouse: rollups, analytics, exports, and retention that agree ZK-VOTE/ZK-VOTE help wanted, Stellar Wave, Spike, ADVANCED",
+    "published": "2026-10-15T18:01:48Z",
     "source": "github-issues-api",
     "source_type": "open_source",
     "organization": "ZK-VOTE/ZK-VOTE",
@@ -588,10 +572,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::zk vote zk vote::epic 008 governance data warehouse rollups analytics exports and retention that agree::remote open source",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/ZK-VOTE/ZK-VOTE/issues/808",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "[Content Review]: Quizzes — Part 9: 9.6B to 9.9",
@@ -846,6 +839,84 @@
     "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::principled evolution gopal::trace education privacy policies to primary sources::remote open source",
     "description_truncated": true
+  },
+  {
+    "title": "New employee proposal: data-privacy officer",
+    "url": "https://github.com/Shaisolaris/solaris-dev-shop/issues/10",
+    "description": "Open-source contribution opportunity. Repository: Shaisolaris/solaris-dev-shop. Labels: help wanted, new-employee. ## Missing outcome to evaluate\n\nPropose a data-privacy specialist for a bounded data inventory, data-flow map, retention review and data-subject-request workflow. Compare the existing compliance-auditor and legal-advisor first: they already cover related compliance/legal topics, so demonstrate a distinct artifact and handoff boundary rather than duplicating them.\n\n## Proposal acceptance\n\nUse `.github/ISSUE_TEMPLATE/new-employee.md` and `docs/new-skill-template/README.md`:\n- Department, mission, five to ten routing phrases and exclusions for the existing roles.\n- One entirely synthetic data-inventory example and a reviewable expected deliverable. Do not use personal records or credentials.\n- Inputs/tools, output contract, stop conditions, and when a qualified human must review jurisdiction-specific advice. Do not claim that a checklist certifies compliance.\n- Implementation scope after review: skill and companion files, active roster, routes/probes, generated catalog, counts and docs together.\n\nThis remains an open contributor proposal. The current 61-role library can grow after scope review; this issue does not itself register a new capability or authorize access to private data. Check replies and propose the scope before building.",
+    "role_context": "New employee proposal: data-privacy officer Shaisolaris/solaris-dev-shop help wanted, new-employee",
+    "published": "2026-10-15T16:06:28Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Shaisolaris/solaris-dev-shop",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 40,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 91,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "opportunity_identity": "role::shaisolaris solaris dev shop::new employee proposal data privacy officer::remote open source"
   },
   {
     "title": "User guide: what \"private\" means in Veil",
@@ -1173,8 +1244,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -1363,8 +1434,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -2279,6 +2350,79 @@
     "opportunity_identity": "role::hel phone helphone::open source license compatibility matrix and commercial usage compliance subsystem::remote open source"
   },
   {
+    "title": "GDPR Data Export May Not Be Complete",
+    "url": "https://github.com/parkerwinner/kor-AssetForge/issues/334",
+    "description": "Open-source contribution opportunity. Repository: parkerwinner/kor-AssetForge. Labels: enhancement, help wanted. Description:  \nGDPR export functionality may not include all personal data across tables (audit logs, sessions, cache, etc.).\n\nFiles to Change:\n\n`backend/services/gdpr_export.go Comprehensive export`\n`backend/handlers/gdpr.go Enhanced export endpoint`\n`docs/GDPR_COMPLIANCE.md (new) GDPR documentation`\n`backend/tests/gdpr_test.go Complete export tests`\n\nAcceptance Criteria:\n\nAll tables with personal data identified\nExport includes all personal data\nData exported in machine-readable format\nExport completed within 30 days\nTests verify completeness\nLegal review completed\n\nBranch: `compliance/complete-gdpr-export`\n\nPR Title: `compliance: Ensure GDPR data export includes all personal information`",
+    "role_context": "GDPR Data Export May Not Be Complete parkerwinner/kor-AssetForge enhancement, help wanted",
+    "published": "2026-10-15T13:59:21Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "parkerwinner/kor-AssetForge",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 30,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "opportunity_identity": "role::parkerwinner kor assetforge::gdpr data export may not be complete::remote open source"
+  },
+  {
     "title": "[Research] Define privacy requirements for active-ride location monitoring",
     "url": "https://github.com/thesivarohith/Q-route/issues/4",
     "description": "Open-source contribution opportunity. Repository: thesivarohith/Q-route. Labels: help wanted, design, research, privacy. ## Goal\n\nCreate a short research note that identifies practical privacy requirements for Q Route's active-ride location monitoring.\n\n## Context\n\nQ Route may process sensitive information such as pickup location, destination, live route location, timestamps, and safety-event status.\n\nThe project must minimise data collection and prevent tracking outside an active ride.\n\n## Research questions\n\n- What data is necessary for route-deviation detection?\n- When should location tracking begin and end?\n- What consent information should be shown to a user?\n- What data should be retained after a ride ends?\n- Who should be able to access ride and incident information?\n- What should be avoided in testing and development?\n- What privacy risks arise from sharing information with trusted contacts?\n\n## Deliverable\n\nCreate or update `docs/privacy-requirements.md`.\n\nUse credible public sources and include links or citations where possible.\n\n## Acceptance criteria\n\n- The document is written in clear language.\n- It proposes data-minimisation principles.\n- It distinguishes active-ride data from data that should not be collected.\n- It does not present itself as legal advice.\n- It is consistent with `PRIVACY.md`.",
@@ -2824,8 +2968,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -3940,9 +4084,86 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
+    "description_truncated": true
+  },
+  {
+    "title": "# Spike 636 — Legal-hold preservation with deny-delete during investigation",
+    "url": "https://github.com/PHASE-STELLAR/Phase/issues/498",
+    "description": "Open-source contribution opportunity. Repository: PHASE-STELLAR/Phase. Labels: help wanted, SPIKE. > Type: advanced integration spike (extremely difficult) | Effort: 3–8 weeks | Files touched: 16 (14+ required) | Risk: high — cross-boundary, migration-bearing, flag-gated\n> Status: proposed spike (not yet implemented) | Rollback: feature-flag off + docs revert per PROJECT_ARCHITECTURE.md §10–11\n> Batch: third 50 (600–649). Does not duplicate spikes 500–599 — see `docs/spikes/SPIKE_INDEX_500_549.md` and `docs/spikes/SPIKE_INDEX_550_599.md`.\n\n## 1. Context and motivation\n\nEvery delete/restore path hold-ignorant: restore/takedown, deny lift any-caller no quorum, badge revoke, profile save overwrite no history, notification markRead, market cancel/sold. Moderation-audit append-only in practice but file-rewritable (no WORM/hold flag). Deny governance only preservation-adjacent pattern - but veto unblocks, hold must block. Atomic rename + per-process locks, no immutability bit, no retention clock; tmpdir copies mean hold must propagate to all instances. No legal-hold/retention/WORM implementation. Direct tension with 633 erasure.\n\nThis spike exists because the naive version looks small (a new route, a new script, a new flag) but the correct version cuts across signing, storage, indexing, caching, i18n, observability, and docs. Prior spikes in `docs/spikes/` (033 preview-gating, 035 CID-poison, 036 wash-trading, 037 distributor-race, plus the 500–599 batches) each showed the same pattern: the write path was unguarded or the read path made an impossible assumption. This issue is deliberately scoped so a shortcut fix reintroduces the exact divergence those spikes closed.\n\n## 2. Current architecture (verified in repo)\n\n- Signing boundary: all wallet signing client-side via Freighter / Stellar Wallet Kit (`lib/stellar-wallet-kit.ts`); server never holds user keys, only custodied `ADMIN / FAUCET_DISTRIBUTOR / AGENT / issuer` keys. See `PROJECT_ARCHITECTURE.md` §3.\n- API contract …",
+    "role_context": "# Spike 636 — Legal-hold preservation with deny-delete during investigation PHASE-STELLAR/Phase help wanted, SPIKE",
+    "published": "2026-10-15T10:51:36Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "PHASE-STELLAR/Phase",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "8 weeks",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 40,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong governance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "opportunity_identity": "role::phase stellar phase::spike 636 legal hold preservation with deny delete during investigation::remote open source",
     "description_truncated": true
   },
   {
@@ -4014,11 +4235,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -4189,6 +4410,79 @@
     "opportunity_identity": "role::armitakia1 cep146project::research legal responsibility and accountability when ai acts independently::remote open source"
   },
   {
+    "title": "# Spike 617 — Data retention and GDPR erasure pipeline with TTL sweeps and wallet deletion",
+    "url": "https://github.com/PHASE-STELLAR/Phase/issues/480",
+    "description": "Open-source contribution opportunity. Repository: PHASE-STELLAR/Phase. Labels: help wanted, SPIKE. > Type: advanced integration spike (extremely difficult) | Effort: 3–8 weeks | Files touched: 18 (14+ required) | Risk: high — cross-boundary, migration-bearing, flag-gated\n> Status: proposed spike (not yet implemented) | Rollback: feature-flag off + docs revert per PROJECT_ARCHITECTURE.md §10–11\n> Batch: third 50 (600–649). Does not duplicate spikes 500–599 — see `docs/spikes/SPIKE_INDEX_500_549.md` and `docs/spikes/SPIKE_INDEX_550_599.md`.\n\n## 1. Context and motivation\n\nNo erasure path. Wallet-keyed sprawl: claims, notifications+prefs, achievements uppercased keys, socials/follows, three-map referrals, push subs, market views + viewer_hashes, funnel events, worlds/narratives/replies/audit/watchlists/quests/health/jobs+dlq/dead-letter. SQLite tables (listings/offers/signals/replies/CRDT/versions/reactions/payouts/ledger/reservations) no deleted_at, no cascade-erasure helper, no sweep. WAL freed pages linger until checkpoint. Caches (quest 5s, explore, wallet index, cid) no invalidation hook. Logs console JSON with wallets plaintext; retention platform-side outside repo control. Not 548 (export), 564 (deny-list), 569 (leak scan) - retention TTL + subject erasure + tombstones.\n\nThis spike exists because the naive version looks small (a new route, a new script, a new flag) but the correct version cuts across signing, storage, indexing, caching, i18n, observability, and docs. Prior spikes in `docs/spikes/` (033 preview-gating, 035 CID-poison, 036 wash-trading, 037 distributor-race, plus the 500–599 batches) each showed the same pattern: the write path was unguarded or the read path made an impossible assumption. This issue is deliberately scoped so a shortcut fix reintroduces the exact divergence those spikes closed.\n\n## 2. Current architecture (verified in repo)\n\n- Signing boundary: all wallet signing client-side via Freighter / Stellar Wallet Kit (`lib/stellar-wallet-ki …",
+    "role_context": "# Spike 617 — Data retention and GDPR erasure pipeline with TTL sweeps and wallet deletion PHASE-STELLAR/Phase help wanted, SPIKE",
+    "published": "2026-10-15T10:42:05Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "PHASE-STELLAR/Phase",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "8 weeks",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 28,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "opportunity_identity": "role::phase stellar phase::spike 617 data retention and gdpr erasure pipeline with ttl sweeps and wallet deletion::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "Add industry file: Legal Tech",
     "url": "https://github.com/glacierphonk/naming/issues/194",
     "description": "Open-source contribution opportunity. Repository: glacierphonk/naming. Labels: enhancement, help wanted, good first issue, industry. ## Task\n\nAdd a legal tech naming guide at \\`industries/legaltech.md\\`. Depends on #180.\n\n## Why legal tech naming is distinct\n\n- **Authority and gravitas required** — lawyers are conservative buyers. Playful names feel unserious\n- **Latin legal vocabulary** — massive untapped naming source (habeas, certiorari, amicus, pro bono — but also pretentious if misused)\n- **Trust + precision** — legal products handle sensitive documents, contracts, privileged communications\n- **Regulated profession** — \\\"attorney\\\" and \\\"lawyer\\\" have legal meaning. Names that imply legal advice when the product doesn't provide it are risky\n- **Old industry meets new tech** — naming must bridge tradition and innovation\n\n## Sections to cover\n\n- Case studies: Harvey (AI), Clio, Ironclad, Everlaw, LegalZoom, Rocket Lawyer\n- Anti-patterns: \\\"Legal[X]\\\", \\\"[X]Law\\\", fake Latin, over-gravitas\n- Territory map: Shield/protection, compass/guidance, ledger/record, bridge/arbitration\n\n## Before submitting\n\nRead [CONTRIBUTING.md](CONTRIBUTING.md) and run \\`markdownlint-cli2 '**/*.md'\\` before pushing.",
@@ -4254,11 +4548,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -4347,8 +4641,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -4434,8 +4728,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -4521,8 +4815,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -4611,8 +4905,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::hel phone helphone::isp 128 data retention lifecycle hot pg partitions cold export legal hold vs gdpr erasure vs after action review needs::remote open source",
     "description_truncated": true
   },
@@ -4691,85 +4985,11 @@
     "description_truncated": true
   },
   {
-    "title": "# SPIKE-140: Governance app has no offline shell or install story",
-    "url": "https://github.com/ZK-VOTE/ZK-VOTE/issues/794",
-    "description": "Open-source contribution opportunity. Repository: ZK-VOTE/ZK-VOTE. Labels: help wanted, ADVANCED. | Field | Value |\n|---|---|\n| Type | Spike |\n| Area | frontend PWA + service worker + manifest + caching + update discipline |\n| Difficulty | ★★★★★ (extreme) |\n| Estimate | ~24 hours (spike + integration fix + tests) |\n| Status | Open spike — timeboxed investigation, then implementation PR |\n\n## 1. Background & Context\n\nThe app is online-only: flaky networks (cf. SPIKE-083 vote-intent) get blank screens instead of shells, no installable PWA (homescreen governance for turnout?), no service-worker caching strategy (app shell vs API vs proving keys per SPIKE-085 -- each with different freshness needs), and update discipline absent (stale cached app talking to new backend per SPIKE-030 skew, or new app with old keys per SPIKE-004/069 versions). Service workers plus privacy collide: cache contents (visited DAOs? partial votes?) persist on device (cf. SPIKE-083 forensics, SPIKE-129 retention), and update timing correlates with user activity (cf. SPIKE-045 timing-adjacent signals). `frontend/vite.config.ts`, `index.html`, `public/`, `nginx.conf` have no PWA configuration; `wrangler.toml` plus `fly.toml` edge caching is unconfigured.\n\n## 2. Why This Is Extremely Hard\n\nOffline-shell design needs caching taxonomy (shell: aggressive; API: network-first with freshness per SPIKE-082; keys: versioned immutable per SPIKE-064/085; never cache: secrets/intents per SPIKE-083), update protocol (version check with user-visible refresh, never silent mid-vote updates!), installability (manifest, icons, install prompts without dark patterns), and cache-privacy review (what persists on device? forensics-tested per SPIKE-083 methods) -- PWA engineering where update discipline is safety-critical (mid-vote app update corrupts flows per SPIKE-080 session thinking) and cache contents are evidence. Each cached class needs eviction plus retention rules.\n\n## 3. Spike Questions (must answer before impl …",
-    "role_context": "# SPIKE-140: Governance app has no offline shell or install story ZK-VOTE/ZK-VOTE help wanted, ADVANCED",
-    "published": "2026-10-14T20:02:07Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "ZK-VOTE/ZK-VOTE",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 25,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "governance",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      }
-    ],
-    "fit_score": 83,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong privacy relevance",
-      "Strong governance relevance",
-      "Strong policy relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly",
-      "Relevant experience overlap: privacy"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
-    "opportunity_identity": "role::zk vote zk vote::spike 140 governance app has no offline shell or install story::remote open source",
-    "description_truncated": true
-  },
-  {
     "title": "# SPIKE-124: Governance analytics queries are unservable with current REST listings",
     "url": "https://github.com/ZK-VOTE/ZK-VOTE/issues/781",
-    "description": "Open-source contribution opportunity. Repository: ZK-VOTE/ZK-VOTE. Labels: help wanted, ADVANCED. | Field | Value |\n|---|---|\n| Type | Spike |\n| Area | backend routes + indexer + frontend queries + openapi + analytics UX |\n| Difficulty | ★★★★★ (extreme) |\n| Estimate | ~24 hours (spike + integration fix + tests) |\n| Status | Open spike — timeboxed investigation, then implementation PR |\n\n## 1. Background & Context\n\nGovernance needs analytics the REST surface cannot serve: turnout-over-time per DAO, vote-margin distributions, quorum trajectories (cf. SPIKE-102 legitimacy), member-growth curves, reward-distribution fairness (cf. SPIKE-060/107), cross-DAO participation (cf. SPIKE-065 footprint), and treasury flows (cf. SPIKE-101) -- while `GET /daos?limit=1`-style listings plus offset paging (cf. SPIKE-072/077) force clients into N-plus-1 query storms that burn the 60/min budget (cf. SPIKE-025) and collapse under scale. No aggregation layer exists (indexer stores events, serves none analytically), no query-language decision (REST expansion? GraphQL? dedicated analytics endpoints with precomputed rollups?), and privacy analysis is absent (analytics over anonymous votes -- what aggregations are safe? per SPIKE-007 small-set linkage, low-turnout breakdowns deanonymize!). Analytics that deanonymize are worse than none.\n\n## 2. Why This Is Extremely Hard\n\nAnalytics architecture needs query-pattern inventory (which questions must be answerable, at what freshness?), execution design (precomputed rollups vs on-demand aggregation with cost/latency analysis), privacy-bounded aggregation (minimum-set sizes, noise? -- small-DAO analytics leak votes; define suppression rules), budget-friendly access (analytics must not consume vote-path query budgets per SPIKE-025 separation), and client contracts (REST vs GraphQL decision with versioning per SPIKE-024 parity) -- data-product design where privacy bounds are load-bearing and every aggregation is a potential deanonymization vector. Rol …",
-    "role_context": "# SPIKE-124: Governance analytics queries are unservable with current REST listings ZK-VOTE/ZK-VOTE help wanted, ADVANCED",
-    "published": "2026-10-14T19:53:28Z",
+    "description": "Open-source contribution opportunity. Repository: ZK-VOTE/ZK-VOTE. Labels: help wanted, Stellar Wave, ADVANCED. | Field | Value |\n|---|---|\n| Type | Spike |\n| Area | backend routes + indexer + frontend queries + openapi + analytics UX |\n| Difficulty | ★★★★★ (extreme) |\n| Estimate | ~24 hours (spike + integration fix + tests) |\n| Status | Open spike — timeboxed investigation, then implementation PR |\n\n## 1. Background & Context\n\nGovernance needs analytics the REST surface cannot serve: turnout-over-time per DAO, vote-margin distributions, quorum trajectories (cf. SPIKE-102 legitimacy), member-growth curves, reward-distribution fairness (cf. SPIKE-060/107), cross-DAO participation (cf. SPIKE-065 footprint), and treasury flows (cf. SPIKE-101) -- while `GET /daos?limit=1`-style listings plus offset paging (cf. SPIKE-072/077) force clients into N-plus-1 query storms that burn the 60/min budget (cf. SPIKE-025) and collapse under scale. No aggregation layer exists (indexer stores events, serves none analytically), no query-language decision (REST expansion? GraphQL? dedicated analytics endpoints with precomputed rollups?), and privacy analysis is absent (analytics over anonymous votes -- what aggregations are safe? per SPIKE-007 small-set linkage, low-turnout breakdowns deanonymize!). Analytics that deanonymize are worse than none.\n\n## 2. Why This Is Extremely Hard\n\nAnalytics architecture needs query-pattern inventory (which questions must be answerable, at what freshness?), execution design (precomputed rollups vs on-demand aggregation with cost/latency analysis), privacy-bounded aggregation (minimum-set sizes, noise? -- small-DAO analytics leak votes; define suppression rules), budget-friendly access (analytics must not consume vote-path query budgets per SPIKE-025 separation), and client contracts (REST vs GraphQL decision with versioning per SPIKE-024 parity) -- data-product design where privacy bounds are load-bearing and every aggregation is a potential deanonymizati …",
+    "role_context": "# SPIKE-124: Governance analytics queries are unservable with current REST listings ZK-VOTE/ZK-VOTE help wanted, Stellar Wave, ADVANCED",
+    "published": "2026-10-15T18:44:37Z",
     "source": "github-issues-api",
     "source_type": "open_source",
     "organization": "ZK-VOTE/ZK-VOTE",
@@ -4833,8 +5053,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::zk vote zk vote::spike 124 governance analytics queries are unservable with current rest listings::remote open source",
     "description_truncated": true
   },
@@ -4999,6 +5219,160 @@
   },
   {
     "title": "Legal Engineer Associate",
+    "url": "https://jobs.ashbyhq.com/legora/03ff0cf2-80eb-4f9c-8723-8fec314f0e3b",
+    "description": "Organisation: Legora. Location: Chicago. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role This is a unique opportunity to sit at the intersection of law, technology, and product. You’ll gain hands on experience in how cutting edge AI is transforming the legal industry, while contributing directly to the development, testing, and adoption of our platform. You’ll work closely with our Legal Engineers, Customer Success, and Product teams to: Support client facing pilots, onboarding, and training, helping legal teams get the most out of Legora. Design and evaluate use cases that showcase our AI on …",
+    "role_context": "Legal Engineer Associate Legal Engineering Legal Engineering FullTime",
+    "published": "2026-10-15T17:10:39.666+00:00",
+    "source": "ashby:legora",
+    "source_type": "job_board",
+    "organization": "Legora",
+    "location": "Chicago",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "On-site",
+    "compensation_status": "paid",
+    "compensation": "$200",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 71,
+    "reasons": [
+      {
+        "signal": "legal_tech",
+        "points": 18
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      }
+    ],
+    "fit_score": 81,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal tech relevance",
+      "Strong legal relevance",
+      "Strong research writing relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "opportunity_identity": "role::legora::legal engineer associate::chicago",
+    "description_truncated": true
+  },
+  {
+    "title": "Legal Engineer Associate",
+    "url": "https://jobs.ashbyhq.com/legora/c59ebc29-4648-4c75-9a0a-cd5501c4b0df",
+    "description": "Organisation: Legora. Location: Houston. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role This is a unique opportunity to sit at the intersection of law, technology, and product. You’ll gain hands on experience in how cutting edge AI is transforming the legal industry, while contributing directly to the development, testing, and adoption of our platform. You’ll work closely with our Legal Engineers, Customer Success, and Product teams to: Support client facing pilots, onboarding, and training, helping legal teams get the most out of Legora. Design and evaluate use cases that showcase our AI on …",
+    "role_context": "Legal Engineer Associate Legal Engineering Legal Engineering FullTime",
+    "published": "2026-10-15T17:08:29.206+00:00",
+    "source": "ashby:legora",
+    "source_type": "job_board",
+    "organization": "Legora",
+    "location": "Houston",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "On-site",
+    "compensation_status": "paid",
+    "compensation": "$200",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 71,
+    "reasons": [
+      {
+        "signal": "legal_tech",
+        "points": 18
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      }
+    ],
+    "fit_score": 81,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal tech relevance",
+      "Strong legal relevance",
+      "Strong research writing relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "opportunity_identity": "role::legora::legal engineer associate::houston",
+    "description_truncated": true
+  },
+  {
+    "title": "Legal Engineer Associate",
     "url": "https://jobs.ashbyhq.com/legora/524a2f00-f2cf-40db-a00b-8ea0f67a2f1a",
     "description": "Organisation: Legora. Location: Toronto. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role This is a unique opportunity to sit at the intersection of law, technology, and product. You’ll gain hands on experience in how cutting edge AI is transforming the legal industry, while contributing directly to the development, testing, and adoption of our platform. You’ll work closely with our Legal Engineers, Customer Success, and Product teams to: Support client facing pilots, onboarding, and training, helping legal teams get the most out of Legora. Design and evaluate use cases that showcase our AI on …",
     "role_context": "Legal Engineer Associate Legal Engineering Legal Engineering FullTime",
@@ -5069,8 +5443,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-13T05:33:49.839758+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::toronto",
     "description_truncated": true,
     "alternate_sources": [
@@ -5155,8 +5529,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -5241,8 +5615,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -5419,6 +5793,79 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "# Spike 677 — Physical redemption with print claims tied to burn-or-hold policy",
+    "url": "https://github.com/PHASE-STELLAR/Phase/issues/540",
+    "description": "Open-source contribution opportunity. Repository: PHASE-STELLAR/Phase. Labels: help wanted, SPIKE, integration. > Type: advanced integration spike (extremely difficult) | Effort: 3–8 weeks | Files touched: 16 (14+ required) | Risk: high — cross-boundary, migration-bearing, flag-gated\n> Status: proposed spike (not yet implemented) | Rollback: feature-flag off + docs revert per PROJECT_ARCHITECTURE.md §10–11\n> Batch: fourth 50 (650–699). Does not duplicate spikes 500–649 — see `docs/spikes/SPIKE_INDEX_500_549.md`, `docs/spikes/SPIKE_INDEX_550_599.md` and `docs/spikes/SPIKE_INDEX_600_649.md`. Dedup verified against 150 existing titles by independent research tracks.\n\n## 1. Context and motivation\n\nTransfer family moves TokenOwner+UserPhase+Balance+OwnerTokenList; no burn entrypoint at all (burn spike aspirational, current code cannot destroy); approvals cleared on transfer only. Metadata serves name/description/image - no redeemed flag, no physical-edition mutation guard. Market has cancel/sold flips; no redeemed/fulfilling/shipped state; single-row listing read. Listings route has cancel deactivation; no claim-ticket issuance. No physical_claim/shipment notification types; notifications actions are mark_read/prefs/rotate/funnel only. Profiles hold handles/avatars, no shipping-address vault (PII minimization posture - new GDPR surface). Dashboard owned-artifacts + vault display only; no redeem button/flow; no redemption copy. Closest existing spikes 502 (on-chain supply destruction) and 513 (media provenance gating) - neither captures shipping address, issues claim tickets, orchestrates print-shop fulfillment, or enforces burn-vs-hold redemption policy.\n\nThis spike exists because the naive version looks small (a new route, a new script, a new flag) but the correct version cuts across signing, storage, indexing, caching, i18n, observability, and docs. Prior spikes in `docs/spikes/` (033 preview-gating, 035 CID-poison, 036 wash-trading, 037 distributor-race, plus the 500– …",
+    "role_context": "# Spike 677 — Physical redemption with print claims tied to burn-or-hold policy PHASE-STELLAR/Phase help wanted, SPIKE, integration",
+    "published": "2026-10-15T11:14:17Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "PHASE-STELLAR/Phase",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "8 weeks",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 25,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 80,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong research writing relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "opportunity_identity": "role::phase stellar phase::spike 677 physical redemption with print claims tied to burn or hold policy::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Help wanted: legal path to Hearthstone shop / gold on Linux",
@@ -5922,99 +6369,14 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::legora::business analyst legal engineering::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
       {
         "source": "ashby:legora",
         "url": "https://jobs.ashbyhq.com/legora/3c75574c-f213-4e41-a172-ac08c85ed68e",
-        "quality": "Official ATS",
-        "priority": 100
-      }
-    ],
-    "duplicate_count": 0
-  },
-  {
-    "title": "Legal Engineering Operations Associate",
-    "url": "https://jobs.ashbyhq.com/legora/6be81d98-cd4b-47d4-b388-3d20e8401311",
-    "description": "Organisation: Legora. Location: New York City. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role Legal Engineering (LE) sits at the center of how Legora wins. Our LEs run pilots, lead rollouts, drive product feedback, and bring deep legal subject-matter depth to every client. As we dramatically scale the North America team, we need someone to keep the engine running. The Legal Engineering Operations Associate is the data and operations backbone of the LE org. You'll build the reporting, run the trackers, and support the strategic operations projects that keep the function moving. This is a high …",
-    "role_context": "Legal Engineering Operations Associate Legal Engineering Legal Engineering FullTime",
-    "published": "2026-08-13T00:40:35.186+00:00",
-    "source": "ashby:legora",
-    "source_type": "job_board",
-    "organization": "Legora",
-    "location": "New York City",
-    "structured_opportunity": true,
-    "source_quality": "Official ATS",
-    "source_priority": 100,
-    "source_quality_label": "Direct employer ATS",
-    "opportunity_type": "Early-career role",
-    "work_model": "On-site",
-    "compensation_status": "paid",
-    "compensation": "$200",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 67,
-    "reasons": [
-      {
-        "signal": "legal_tech",
-        "points": 18
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "international",
-        "points": 8
-      },
-      {
-        "signal": "paid",
-        "points": 8
-      },
-      {
-        "signal": "leadership",
-        "points": 8
-      }
-    ],
-    "fit_score": 72,
-    "fit_label": "Stretch",
-    "fit_reasons": [
-      "Strong legal tech relevance",
-      "Strong legal relevance",
-      "Early-career role matches the target career stage",
-      "Explicit compensation signal"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
-    "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
-    "description_truncated": true,
-    "alternate_sources": [
-      {
-        "source": "ashby:legora",
-        "url": "https://jobs.ashbyhq.com/legora/6be81d98-cd4b-47d4-b388-3d20e8401311",
         "quality": "Official ATS",
         "priority": 100
       }
@@ -6092,6 +6454,83 @@
       {
         "source": "ashby:legora",
         "url": "https://jobs.ashbyhq.com/legora/ff80c470-33ab-453e-9ccb-c074447344d4",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
+  },
+  {
+    "title": "Legal Engineering Operations Associate",
+    "url": "https://jobs.ashbyhq.com/legora/6be81d98-cd4b-47d4-b388-3d20e8401311",
+    "description": "Organisation: Legora. Location: New York City. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role Legal Engineering (LE) sits at the center of how Legora wins. Our LEs run pilots, lead rollouts, drive product feedback, and bring deep legal subject-matter depth to every client. As we dramatically scale the North America team, we need someone to keep the engine running. The Legal Engineering Operations Associate is the data and operations backbone of the LE org. You'll build the reporting, run the trackers, and support the strategic operations projects that keep the function moving. This is a high …",
+    "role_context": "Legal Engineering Operations Associate Legal Engineering Legal Engineering FullTime",
+    "published": "2026-08-13T00:40:35.186+00:00",
+    "source": "ashby:legora",
+    "source_type": "job_board",
+    "organization": "Legora",
+    "location": "New York City",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "On-site",
+    "compensation_status": "paid",
+    "compensation": "$200",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 51,
+    "reasons": [
+      {
+        "signal": "legal_tech",
+        "points": 18
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      }
+    ],
+    "fit_score": 72,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong legal tech relevance",
+      "Strong legal relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_seen": "2026-10-15T05:43:39.211092+00:00",
+    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "opportunity_identity": "role::legora::legal engineering operations associate::new york city",
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "ashby:legora",
+        "url": "https://jobs.ashbyhq.com/legora/6be81d98-cd4b-47d4-b388-3d20e8401311",
         "quality": "Official ATS",
         "priority": 100
       }
@@ -6347,8 +6786,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -6602,8 +7041,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel::munich",
     "description_truncated": true
   },
@@ -6680,8 +7119,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
