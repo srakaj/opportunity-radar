@@ -101,8 +101,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -476,8 +476,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -486,102 +486,6 @@
         "url": "https://jobs.ashbyhq.com/harvey/a194c24f-38ee-4c7e-908b-060a16dfaa9d",
         "quality": "Official ATS",
         "priority": 100
-      }
-    ],
-    "duplicate_count": 0
-  },
-  {
-    "title": "# EPIC-008: Governance data warehouse: rollups, analytics, exports, and retention that agree",
-    "url": "https://github.com/ZK-VOTE/ZK-VOTE/issues/808",
-    "description": "Open-source contribution opportunity. Repository: ZK-VOTE/ZK-VOTE. Labels: help wanted, Stellar Wave, Spike, ADVANCED. | Field | Value |\n|---|---|\n| Type | Epic integration |\n| Area | indexer + rollups + analytics API + exports + retention + privacy suppression |\n| Difficulty | ★★★★★ (extreme, cross-cutting epic) |\n| Estimate | ~24 hours per workstream (multi-day program) |\n| Status | Open epic — decomposes into spike issues above; do not start without reading linked spikes |\n\n## 1. Background & Context\n\nGovernance data needs outgrow the transactional indexer: analytics queries (SPIKE-124 inventory with freshness SLOs), rollup precomputation (turnout/quorum/treasury trajectories), privacy suppression (small-set linkage per SPIKE-007/139 bounds), bulk exports (tax per SPIKE-145, auditors per SPIKE-144, researchers?), and retention enforcement (purge per SPIKE-129 schedule) — while the indexer was built for listings (SPIKE-077), not analytics: no rollup tables, no suppression layer, no export pipeline, no purge jobs (cf. SPIKE-127 queue), and event-schema evolution (SPIKE-053) breaks rollup logic silently. A warehouse separates analytical serving from transactional indexing with reconciliation between them (warehouse vs chain truth per SPIKE-144 thinking) — and every ransomware-grade design error here (suppression miss, retention breach, schema drift) is a privacy or compliance incident.\n\n## 2. Why This Is Extremely Hard\n\nWarehouse architecture needs layered serving (transactional indexer vs analytical rollups vs bulk exports with consistency contracts between layers), rollup design (which aggregates precomputed at what cadence? with recomputation on reorgs per SPIKE-072 invalidation and schema migrations per SPIKE-053), suppression enforcement (minimum-set rules in the serving path, not the UI — tested with linkage methods), export governance (who may bulk-export what? with audit per SPIKE-123 roles and redaction per SPIKE-079), and retention automation (purge jobs w …",
-    "role_context": "# EPIC-008: Governance data warehouse: rollups, analytics, exports, and retention that agree ZK-VOTE/ZK-VOTE help wanted, Stellar Wave, Spike, ADVANCED",
-    "published": "2026-10-15T18:01:48Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "ZK-VOTE/ZK-VOTE",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 61,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "compliance",
-        "points": 14
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "governance",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      }
-    ],
-    "fit_score": 91,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong privacy relevance",
-      "Strong compliance relevance",
-      "Strong governance relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly",
-      "Relevant experience overlap: privacy",
-      "Relevant experience overlap: compliance"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
-    "opportunity_identity": "role::zk vote zk vote::epic 008 governance data warehouse rollups analytics exports and retention that agree::remote open source",
-    "description_truncated": true,
-    "alternate_sources": [
-      {
-        "source": "github-issues-api",
-        "url": "https://github.com/ZK-VOTE/ZK-VOTE/issues/808",
-        "quality": "Open source",
-        "priority": 65
       }
     ],
     "duplicate_count": 0
@@ -919,6 +823,94 @@
     "opportunity_identity": "role::shaisolaris solaris dev shop::new employee proposal data privacy officer::remote open source"
   },
   {
+    "title": "# EPIC-008: Governance data warehouse: rollups, analytics, exports, and retention that agree",
+    "url": "https://github.com/ZK-VOTE/ZK-VOTE/issues/808",
+    "description": "Open-source contribution opportunity. Repository: ZK-VOTE/ZK-VOTE. Labels: help wanted, Stellar Wave, Spike, ADVANCED. | Field | Value |\n|---|---|\n| Type | Epic integration |\n| Area | indexer + rollups + analytics API + exports + retention + privacy suppression |\n| Difficulty | ★★★★★ (extreme, cross-cutting epic) |\n| Estimate | ~24 hours per workstream (multi-day program) |\n| Status | Open epic — decomposes into spike issues above; do not start without reading linked spikes |\n\n## 1. Background & Context\n\nGovernance data needs outgrow the transactional indexer: analytics queries (SPIKE-124 inventory with freshness SLOs), rollup precomputation (turnout/quorum/treasury trajectories), privacy suppression (small-set linkage per SPIKE-007/139 bounds), bulk exports (tax per SPIKE-145, auditors per SPIKE-144, researchers?), and retention enforcement (purge per SPIKE-129 schedule) — while the indexer was built for listings (SPIKE-077), not analytics: no rollup tables, no suppression layer, no export pipeline, no purge jobs (cf. SPIKE-127 queue), and event-schema evolution (SPIKE-053) breaks rollup logic silently. A warehouse separates analytical serving from transactional indexing with reconciliation between them (warehouse vs chain truth per SPIKE-144 thinking) — and every ransomware-grade design error here (suppression miss, retention breach, schema drift) is a privacy or compliance incident.\n\n## 2. Why This Is Extremely Hard\n\nWarehouse architecture needs layered serving (transactional indexer vs analytical rollups vs bulk exports with consistency contracts between layers), rollup design (which aggregates precomputed at what cadence? with recomputation on reorgs per SPIKE-072 invalidation and schema migrations per SPIKE-053), suppression enforcement (minimum-set rules in the serving path, not the UI — tested with linkage methods), export governance (who may bulk-export what? with audit per SPIKE-123 roles and redaction per SPIKE-079), and retention automation (purge jobs w …",
+    "role_context": "# EPIC-008: Governance data warehouse: rollups, analytics, exports, and retention that agree ZK-VOTE/ZK-VOTE help wanted, Stellar Wave, Spike, ADVANCED",
+    "published": "2026-10-15T18:01:48Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "ZK-VOTE/ZK-VOTE",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 39,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 91,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Strong governance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "opportunity_identity": "role::zk vote zk vote::epic 008 governance data warehouse rollups analytics exports and retention that agree::remote open source",
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/ZK-VOTE/ZK-VOTE/issues/808",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
+  },
+  {
     "title": "User guide: what \"private\" means in Veil",
     "url": "https://github.com/Miracle656/veil/issues/728",
     "description": "Open-source contribution opportunity. Repository: Miracle656/veil. Labels: help wanted, Stellar Wave, area:docs, difficulty:easy, points:100, epic:privacy. ### Background\nPrivacy features fail when users think they hide more than they do. SPP hides amounts and counterparties inside the pool. Deposits into and withdrawals out of the pool are public, and the pool has compliance controls (block/allow lists, freeze, disclosure).\n\n### What to build\nA short in-app and docs-site explainer: what is hidden, what isn't, why shield and unshield are visible, how disclosure works, and that the pool operator can freeze listed keys. Plain language, no jargon.\n\n### Key files\n- `frontend/docs/pages/privacy.mdx` (new)\n- In-app link from the V135 card and the V144 screens\n\n### Acceptance criteria\n- [ ] States what is and isn't private without overclaiming\n- [ ] Linked from every privacy screen\n\n> **Drips Wave** · Complexity: **Easy** · **100 points**\n\n---\n\n## Not contributor issues — maintainer tasks\n\nThese come from the same cost breakdown but can't be handed to contributors:\n\n- **Legal review before any mainnet privacy.** `docs/NGN_RAILS.md` records that \"just the tech layer\" is not a safe position in Nigeria; privacy adds scrutiny. Cost unknown until counsel is asked.\n- **Mainnet go/no-go.** Only after SPP is audited and approved for mainnet, on the canonical pool.\n- **Bootnode hosting account.** Pay for, and own, whatever V140 runs on.\n- **SCF application.** Replace the old fork-and-harden plan with \"integrate Stellar Private Payments\" and budget ~9–15 engineer-weeks plus bootnode hosting (see `docs/SCF_STRATEGY.md` §6).\n- **Audit.** Nothing extra while using the shared pool. If Veil ever deploys pool contracts, route them through the Audit Bank: up to 100% covered, 5% co-pay refunded when findings are fixed within 20 business days.\n\n## Batch totals\n\n19 issues · 3 Easy (300) · 8 Intermediate (1,200) · 8 Advanced (1,600) · **3,100 points**\n\n---\n\n**Required:** Before submitting, joi …",
@@ -1244,8 +1236,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -1434,8 +1426,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -2968,8 +2960,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -4084,8 +4076,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
     "description_truncated": true
   },
@@ -4161,8 +4153,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::phase stellar phase::spike 636 legal hold preservation with deny delete during investigation::remote open source",
     "description_truncated": true
   },
@@ -4235,11 +4227,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -4477,8 +4469,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::phase stellar phase::spike 617 data retention and gdpr erasure pipeline with ttl sweeps and wallet deletion::remote open source",
     "description_truncated": true
   },
@@ -4548,11 +4540,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -4641,8 +4633,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -4728,8 +4720,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -4815,8 +4807,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -4832,9 +4824,9 @@
   {
     "title": "# ISP-128: Data Retention Lifecycle — Hot PG Partitions → Cold Export → Legal Hold vs GDPR Erasure vs After-Action Review Needs",
     "url": "https://github.com/Hel-Phone/HelPhone/issues/798",
-    "description": "Open-source contribution opportunity. Repository: Hel-Phone/HelPhone. Labels: help wanted, integration, spike. - Type: Integration + Spike\n- Severity: P0/Critical\n- Difficulty: Extreme\n- Estimate: 24h\n- Touch surface: 14 files\n\n## 1. Background & Context\n\nHelPhone data lives in four temperatures with no agreed thermostat. Hot: time-partitioned Postgres (`server/db/poolManager.ts` + `server/db/partitioning.js` + `server/db/maintenance.ts` + `server/db/*`) serving `server/routes/history.ts` + `server/routes/events.ts` with PII-rich dispatch rows. Warm: Redis (`server/lib/redis.ts` + `server/lib/redisPubSub.js`) holding fan-out state and dedupe windows. Cold: `scripts/export-contract-state.sh` snapshots + `server/indexer/exporter.ts` projections + OTel trace/log backends (`server/telemetry.js`, `server/telemetryBootstrap.js`, `src/lib/telemetry.ts`) with 30–90-day retention. Frozen: client IDB (`src/lib/ringBuffer.ts` + `src/lib/crashRecovery.ts`) on field devices outside any server TTL. `docs/database-architecture.md` describes partitioning; `docs/security-runbook.md` gestures at GDPR; `docs/disaster-recovery.md` assumes after-action review can read everything forever. All three cannot hold simultaneously.\n\nThe hot-tier mechanics are the immediate risk. `server/db/partitioning.js` creates monthly (or weekly, under load) range partitions on `history`/`events`, but `server/db/maintenance.ts` detach/drop jobs are either disabled in staging or run without legal-hold checks — a single cron enabling could destroy evidence under litigation hold, while never running them grows hot partitions until `poolManager.ts` query plans collapse and `server/tests/load.js` p99s triple. There is no `retention_policy` table, no `legal_hold` flag, no per-row `erase_after` timestamp, and no integration with the redaction HMAC scheme from ISP-122 (erasing raw phone but keeping HMAC vs erasing both changes joinability of after-action tapes from ISP-124).\n\nCold exports compound the breach surfa …",
-    "role_context": "# ISP-128: Data Retention Lifecycle — Hot PG Partitions → Cold Export → Legal Hold vs GDPR Erasure vs After-Action Review Needs Hel-Phone/HelPhone help wanted, integration, spike",
-    "published": "2026-10-14T16:46:56Z",
+    "description": "Open-source contribution opportunity. Repository: Hel-Phone/HelPhone. Labels: help wanted, Stellar Wave, integration, spike. - Type: Integration + Spike\n- Severity: P0/Critical\n- Difficulty: Extreme\n- Estimate: 24h\n- Touch surface: 14 files\n\n## 1. Background & Context\n\nHelPhone data lives in four temperatures with no agreed thermostat. Hot: time-partitioned Postgres (`server/db/poolManager.ts` + `server/db/partitioning.js` + `server/db/maintenance.ts` + `server/db/*`) serving `server/routes/history.ts` + `server/routes/events.ts` with PII-rich dispatch rows. Warm: Redis (`server/lib/redis.ts` + `server/lib/redisPubSub.js`) holding fan-out state and dedupe windows. Cold: `scripts/export-contract-state.sh` snapshots + `server/indexer/exporter.ts` projections + OTel trace/log backends (`server/telemetry.js`, `server/telemetryBootstrap.js`, `src/lib/telemetry.ts`) with 30–90-day retention. Frozen: client IDB (`src/lib/ringBuffer.ts` + `src/lib/crashRecovery.ts`) on field devices outside any server TTL. `docs/database-architecture.md` describes partitioning; `docs/security-runbook.md` gestures at GDPR; `docs/disaster-recovery.md` assumes after-action review can read everything forever. All three cannot hold simultaneously.\n\nThe hot-tier mechanics are the immediate risk. `server/db/partitioning.js` creates monthly (or weekly, under load) range partitions on `history`/`events`, but `server/db/maintenance.ts` detach/drop jobs are either disabled in staging or run without legal-hold checks — a single cron enabling could destroy evidence under litigation hold, while never running them grows hot partitions until `poolManager.ts` query plans collapse and `server/tests/load.js` p99s triple. There is no `retention_policy` table, no `legal_hold` flag, no per-row `erase_after` timestamp, and no integration with the redaction HMAC scheme from ISP-122 (erasing raw phone but keeping HMAC vs erasing both changes joinability of after-action tapes from ISP-124).\n\nCold exports compound th …",
+    "role_context": "# ISP-128: Data Retention Lifecycle — Hot PG Partitions → Cold Export → Legal Hold vs GDPR Erasure vs After-Action Review Needs Hel-Phone/HelPhone help wanted, Stellar Wave, integration, spike",
+    "published": "2026-10-16T11:45:40Z",
     "source": "github-issues-api",
     "source_type": "open_source",
     "organization": "Hel-Phone/HelPhone",
@@ -4905,8 +4897,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::hel phone helphone::isp 128 data retention lifecycle hot pg partitions cold export legal hold vs gdpr erasure vs after action review needs::remote open source",
     "description_truncated": true
   },
@@ -4982,80 +4974,6 @@
     "last_seen": "2026-10-15T05:43:39.211092+00:00",
     "last_checked": "2026-10-15T05:43:39.211092+00:00",
     "opportunity_identity": "role::zk vote zk vote::spike 146 anchor kyc data touches product surfaces with no boundary policy::remote open source",
-    "description_truncated": true
-  },
-  {
-    "title": "# SPIKE-124: Governance analytics queries are unservable with current REST listings",
-    "url": "https://github.com/ZK-VOTE/ZK-VOTE/issues/781",
-    "description": "Open-source contribution opportunity. Repository: ZK-VOTE/ZK-VOTE. Labels: help wanted, Stellar Wave, ADVANCED. | Field | Value |\n|---|---|\n| Type | Spike |\n| Area | backend routes + indexer + frontend queries + openapi + analytics UX |\n| Difficulty | ★★★★★ (extreme) |\n| Estimate | ~24 hours (spike + integration fix + tests) |\n| Status | Open spike — timeboxed investigation, then implementation PR |\n\n## 1. Background & Context\n\nGovernance needs analytics the REST surface cannot serve: turnout-over-time per DAO, vote-margin distributions, quorum trajectories (cf. SPIKE-102 legitimacy), member-growth curves, reward-distribution fairness (cf. SPIKE-060/107), cross-DAO participation (cf. SPIKE-065 footprint), and treasury flows (cf. SPIKE-101) -- while `GET /daos?limit=1`-style listings plus offset paging (cf. SPIKE-072/077) force clients into N-plus-1 query storms that burn the 60/min budget (cf. SPIKE-025) and collapse under scale. No aggregation layer exists (indexer stores events, serves none analytically), no query-language decision (REST expansion? GraphQL? dedicated analytics endpoints with precomputed rollups?), and privacy analysis is absent (analytics over anonymous votes -- what aggregations are safe? per SPIKE-007 small-set linkage, low-turnout breakdowns deanonymize!). Analytics that deanonymize are worse than none.\n\n## 2. Why This Is Extremely Hard\n\nAnalytics architecture needs query-pattern inventory (which questions must be answerable, at what freshness?), execution design (precomputed rollups vs on-demand aggregation with cost/latency analysis), privacy-bounded aggregation (minimum-set sizes, noise? -- small-DAO analytics leak votes; define suppression rules), budget-friendly access (analytics must not consume vote-path query budgets per SPIKE-025 separation), and client contracts (REST vs GraphQL decision with versioning per SPIKE-024 parity) -- data-product design where privacy bounds are load-bearing and every aggregation is a potential deanonymizati …",
-    "role_context": "# SPIKE-124: Governance analytics queries are unservable with current REST listings ZK-VOTE/ZK-VOTE help wanted, Stellar Wave, ADVANCED",
-    "published": "2026-10-15T18:44:37Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "ZK-VOTE/ZK-VOTE",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 25,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "governance",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      }
-    ],
-    "fit_score": 83,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong privacy relevance",
-      "Strong governance relevance",
-      "Strong policy relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly",
-      "Relevant experience overlap: privacy"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
-    "opportunity_identity": "role::zk vote zk vote::spike 124 governance analytics queries are unservable with current rest listings::remote open source",
     "description_truncated": true
   },
   {
@@ -5289,10 +5207,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::chicago",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "ashby:legora",
+        "url": "https://jobs.ashbyhq.com/legora/03ff0cf2-80eb-4f9c-8723-8fec314f0e3b",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Legal Engineer Associate",
@@ -5366,10 +5293,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::houston",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "ashby:legora",
+        "url": "https://jobs.ashbyhq.com/legora/c59ebc29-4648-4c75-9a0a-cd5501c4b0df",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Legal Engineer Associate",
@@ -5443,8 +5379,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-13T05:33:49.839758+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::toronto",
     "description_truncated": true,
     "alternate_sources": [
@@ -5529,8 +5465,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -5615,8 +5551,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -6369,8 +6305,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::legora::business analyst legal engineering::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -6786,8 +6722,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -7041,8 +6977,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel::munich",
     "description_truncated": true
   },
@@ -7119,8 +7055,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_checked": "2026-10-16T05:42:38.188097+00:00",
+    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-17T05:41:10.461985+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
