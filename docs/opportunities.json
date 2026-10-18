@@ -101,8 +101,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -476,8 +476,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -911,6 +911,80 @@
     "duplicate_count": 0
   },
   {
+    "title": "[P2] Legal: essential-only cookie notice",
+    "url": "https://github.com/mohitmishra786/readprism/issues/211",
+    "description": "Open-source contribution opportunity. Repository: mohitmishra786/readprism. Labels: good first issue, P2, type:legal, area:reader-ui, area:privacy, mode:hosted, effort:S, evidence:plausible. <!-- rp-audit-key: cookie-notice-essential -->\n## Summary\nOnly essential cookies (session, CSRF, preferences) should exist; state this clearly instead of a consent banner.\n\n## Impact\nClarity and compliance with minimal UI.\n\n## Proposed fix\nCookie section in the privacy notice + footer link; audit cookies set by the app.\n\n## Acceptance criteria\n- [ ] Audit lists only essential cookies\n\n## Details\n- **Priority:** P2 · **Effort:** S · **Mode:** hosted · **Milestone:** M2 · Public launch\n- **Evidence status:** plausible\n- **Depends on:** none\n- **Part of epic:** #92\n- **Sources:** PRODUCT_PLAN §9\n\n_Generated from the 2026-10-18 audit (analysis/READPRISM_FULL_REPORT.md, analysis/READPRISM_PRODUCT_PLAN.md)._",
+    "role_context": "[P2] Legal: essential-only cookie notice mohitmishra786/readprism good first issue, P2, type:legal, area:reader-ui, area:privacy, mode:hosted, effort:S, evidence:plausible",
+    "published": "2026-10-18T06:21:02Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "mohitmishra786/readprism",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 30,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 91,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
+    "opportunity_identity": "role::mohitmishra786 readprism::p2 legal essential only cookie notice::remote open source"
+  },
+  {
     "title": "User guide: what \"private\" means in Veil",
     "url": "https://github.com/Miracle656/veil/issues/728",
     "description": "Open-source contribution opportunity. Repository: Miracle656/veil. Labels: help wanted, Stellar Wave, area:docs, difficulty:easy, points:100, epic:privacy. ### Background\nPrivacy features fail when users think they hide more than they do. SPP hides amounts and counterparties inside the pool. Deposits into and withdrawals out of the pool are public, and the pool has compliance controls (block/allow lists, freeze, disclosure).\n\n### What to build\nA short in-app and docs-site explainer: what is hidden, what isn't, why shield and unshield are visible, how disclosure works, and that the pool operator can freeze listed keys. Plain language, no jargon.\n\n### Key files\n- `frontend/docs/pages/privacy.mdx` (new)\n- In-app link from the V135 card and the V144 screens\n\n### Acceptance criteria\n- [ ] States what is and isn't private without overclaiming\n- [ ] Linked from every privacy screen\n\n> **Drips Wave** · Complexity: **Easy** · **100 points**\n\n---\n\n## Not contributor issues — maintainer tasks\n\nThese come from the same cost breakdown but can't be handed to contributors:\n\n- **Legal review before any mainnet privacy.** `docs/NGN_RAILS.md` records that \"just the tech layer\" is not a safe position in Nigeria; privacy adds scrutiny. Cost unknown until counsel is asked.\n- **Mainnet go/no-go.** Only after SPP is audited and approved for mainnet, on the canonical pool.\n- **Bootnode hosting account.** Pay for, and own, whatever V140 runs on.\n- **SCF application.** Replace the old fork-and-harden plan with \"integrate Stellar Private Payments\" and budget ~9–15 engineer-weeks plus bootnode hosting (see `docs/SCF_STRATEGY.md` §6).\n- **Audit.** Nothing extra while using the shared pool. If Veil ever deploys pool contracts, route them through the Audit Bank: up to 100% covered, 5% co-pay refunded when findings are fixed within 20 business days.\n\n## Batch totals\n\n19 issues · 3 Easy (300) · 8 Intermediate (1,200) · 8 Advanced (1,600) · **3,100 points**\n\n---\n\n**Required:** Before submitting, joi …",
@@ -1236,8 +1310,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -1426,8 +1500,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -1608,8 +1682,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_checked": "2026-10-15T05:43:39.211092+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::feature skill compliance mapping soc2 hipaa gdpr pci dss frameworks::remote open source",
     "alternate_sources": [
       {
@@ -2960,8 +3034,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -4076,8 +4150,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
     "description_truncated": true
   },
@@ -4153,8 +4227,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::phase stellar phase::spike 636 legal hold preservation with deny delete during investigation::remote open source",
     "description_truncated": true
   },
@@ -4227,11 +4301,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -4469,8 +4543,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::phase stellar phase::spike 617 data retention and gdpr erasure pipeline with ttl sweeps and wallet deletion::remote open source",
     "description_truncated": true
   },
@@ -4540,11 +4614,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -4633,8 +4707,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -4720,8 +4794,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -4807,8 +4881,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -4897,8 +4971,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::hel phone helphone::isp 128 data retention lifecycle hot pg partitions cold export legal hold vs gdpr erasure vs after action review needs::remote open source",
     "description_truncated": true
   },
@@ -5207,8 +5281,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::chicago",
     "description_truncated": true,
     "alternate_sources": [
@@ -5293,8 +5367,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::houston",
     "description_truncated": true,
     "alternate_sources": [
@@ -5379,8 +5453,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-13T05:33:49.839758+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::toronto",
     "description_truncated": true,
     "alternate_sources": [
@@ -5465,8 +5539,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -5551,8 +5625,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -5804,6 +5878,83 @@
     "description_truncated": true
   },
   {
+    "title": "Stable human validation evidence sought for Peace OS v0.3.0",
+    "url": "https://github.com/GLOBAL-AI-GOVERNANCE/peace-os/issues/27",
+    "description": "Open-source contribution opportunity. Repository: GLOBAL-AI-GOVERNANCE/peace-os. Labels: help wanted. ## Purpose\n\n`v0.3.0-rc2` is a public review prerelease. The stable-release holds in `PUBLIC_RELEASE_GATE.md` require human evidence that automated checks cannot provide. This issue invites that evidence, organized by track. Opening it does not establish any result.\n\n## Kit and build\n\n- Kit: [`docs/STABLE-HUMAN-VALIDATION-KIT.md`](https://github.com/GLOBAL-AI-GOVERNANCE/peace-os/blob/dff1222d0153c930030983a692b71b1f954e6140/docs/STABLE-HUMAN-VALIDATION-KIT.md), merged at `dff1222d0153c930030983a692b71b1f954e6140`, with the [Real-World Evaluation Kit](https://github.com/GLOBAL-AI-GOVERNANCE/peace-os/blob/dff1222d0153c930030983a692b71b1f954e6140/docs/REAL-WORLD-EVALUATION-KIT.md)\n- Receipt: [`docs/human-validation-receipt-template.json`](https://github.com/GLOBAL-AI-GOVERNANCE/peace-os/blob/dff1222d0153c930030983a692b71b1f954e6140/docs/human-validation-receipt-template.json)\n- Reference build: tag `v0.3.0-rc2`, commit `8a40d94fcee14a6d6eb76782319bb90f0cec6202`, tree `d92212c36535b8e196805d24667a952bb148ccdf`, served locally from `web/`\n- GitHub Pages serves `main`, not RC2. The web clients differ (navigation bar, landmark change, styles), so name the exact commit you tested and do not combine results across builds.\n\n## Tracks\n\n- [ ] T1 Keyboard only\n- [ ] T2 Screen reader (name the tool and version)\n- [ ] T3 200% zoom and 320-pixel reflow\n- [ ] T4 Physical mobile device\n- [ ] T5 Firefox\n- [ ] T6 Safari/WebKit\n- [ ] T7 Print and PDF\n- [ ] T8 Reduced motion and forced colors\n- [ ] T9 Subject-matter and learning validity (separate evidence class; usability tracks do not count toward it)\n\nRecord `PASS`, `FAIL`, or `NOT_TESTED` per track. Partial coverage is welcome. A single track in a single environment is useful.\n\n## Evidence requested\n\n1. Tested commit and how you opened it.\n2. Environment: browser and version, OS, device, assistive technology and version, settings.\n3. …",
+    "role_context": "Stable human validation evidence sought for Peace OS v0.3.0 GLOBAL-AI-GOVERNANCE/peace-os help wanted",
+    "published": "2026-10-18T09:13:17Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "GLOBAL-AI-GOVERNANCE/peace-os",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 30,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      }
+    ],
+    "fit_score": 77,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong governance relevance",
+      "Strong published output relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
+    "opportunity_identity": "role::global ai governance peace os::stable human validation evidence sought for peace os v0 3 0::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "Help wanted: legal path to Hearthstone shop / gold on Linux",
     "url": "https://github.com/DawnMagnet/hearthstone-linux-gui/issues/26",
     "description": "Open-source contribution opportunity. Repository: DawnMagnet/hearthstone-linux-gui. Labels: help wanted, question. ## Summary\n\nThe Hearthstone shop does not work in this launcher on Linux: the store appears closed and the gold balance is not shown. Login and gameplay work fine (see #22, fixed in v0.2.3). This issue is a call for **community help in finding a legal way** to support the shop / gold display. Our primary goal remains **playing the game**, not the shop.\n\n## Current state\n\n- The native Linux Unity client has no `blz_commerce_sdk_plugin` library. Blizzard only ships it for Windows and macOS (plus Android arm64).\n- This project, like upstream [0xf4b1/hearthstone-linux](https://github.com/0xf4b1/hearthstone-linux), ships only a **stub** in its place. The stub returns an empty product catalog and an empty balance, so the game treats the shop as closed and gold is not displayed.\n- Checkout also depends on Blizzard's embedded `BlizzardBrowser`, which has no Linux build either.\n- Upstream has already said that this is expected and has never been fixed: https://github.com/0xf4b1/hearthstone-linux/issues/81. Some people mentioned partial work, but no code was ever published.\n\n## Why this is hard\n\n**Technical:**\n- **Wine bridge to the official Windows DLLs:** you would have to load Windows commerce/browser binaries inside a native Linux Unity process. This is very complex and fragile.\n- **Reverse-engineering / reimplementing the commerce SDK or protocol:** this is a large effort, and it would also need a working checkout flow.\n- **Loading the macOS or Android `.so`/dylib builds:** these target a different OS or ABI and are not realistically loadable here.\n\n**Legal / policy:**\n- The [Blizzard EULA](https://www.blizzard.com/legal/08b946df-660a-40e4-a072-1fbde65173b1/blizzard-end-user-license-agreement) prohibits reverse engineering, emulating or simulating Blizzard protocols, and using unauthorized third-party tools that interact with its services.\n- Payments involve …",
@@ -6015,6 +6166,83 @@
     "last_seen": "2026-09-24T05:26:35.754988+00:00",
     "last_checked": "2026-09-24T05:26:35.754988+00:00",
     "opportunity_identity": "url::https://www.dol.gov/agencies/sol/careers/internships"
+  },
+  {
+    "title": "# ISP-097: Accessibility Litigation Risk — Emergency Help.jsx Flow Keyboard/Screen-Reader End-to-End Audit vs Axe Gate vs Manual NVDA Pass",
+    "url": "https://github.com/Hel-Phone/HelPhone/issues/767",
+    "description": "Open-source contribution opportunity. Repository: Hel-Phone/HelPhone. Labels: help wanted, advanced, Stellar Wave, integration, spike. - Type: Integration + Spike\n- Severity: P0/Critical\n- Difficulty: Extreme\n- Estimate: 24h\n- Touch surface: 13 files\n\n## 1. Background & Context (rich — at least 5 paragraphs, reference REAL repo paths and behaviors)\n\nHelPhone's emergency flow lives in `src/components/Help.jsx`: a distressed user, possibly injured, on a cracked phone, in bright sunlight or darkness, must request help in seconds. That flow is currently validated by two automated layers — `test/a11y-components.test.jsx` (jest-axe unit/component assertions) and `tests/e2e/a11y.spec.ts` (`@axe-core/playwright` full-page scans) — plus UI primitives in `src/hooks/useFocusTrap.js`, `src/hooks/useEscapeKey.js`, and `src/components/ui/Modal.jsx`. The litigation risk is that both automated layers can be green while the actual emergency journey is unusable with a keyboard alone or with NVDA/VoiceOver, because axe rules check static violations (missing labels, contrast ratios, ARIA misuse) but not task completion under stress.\n\nThe second paragraph is about the monolith. Per `AGENTS.md`, the page is a single-component monolith (`src/App.tsx` + `src/main.tsx`, with `App.jsx` heritage): navbar, hero, problem, how-it-works, live map (`CommunityMap.jsx`), value cards, features, trust, CTA, and footer share one focus environment. The scroll-reveal system (`RevealDiv` + IntersectionObserver in `App.jsx` lineage) pre-hides below-fold content and unhides on scroll — a pattern that routinely strands keyboard focus (focus moves to still-`visibility:hidden` nodes), breaks heading order for screen readers, and defeats skip-links. The animated SVG map adds SMIL `<animate>` motion plus pulsing responder rings that can trigger vestibular distress with no `prefers-reduced-motion` guard, while the hero video loop has no pause control or audio-description track.\n\nThe third paragraph is about the m …",
+    "role_context": "# ISP-097: Accessibility Litigation Risk — Emergency Help.jsx Flow Keyboard/Screen-Reader End-to-End Audit vs Axe Gate vs Manual NVDA Pass Hel-Phone/HelPhone help wanted, advanced, Stellar Wave, integration, spike",
+    "published": "2026-10-18T09:23:14Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Hel-Phone/HelPhone",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 30,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 75,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: litigation"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
+    "opportunity_identity": "role::hel phone helphone::isp 097 accessibility litigation risk emergency help jsx flow keyboard screen reader end to end audit vs axe gate vs manual nvda pass::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Crosswalk: DAMA-DMBOK (Data Governance, Metadata and Data Quality knowledge areas)",
@@ -6305,8 +6533,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::legora::business analyst legal engineering::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -6722,8 +6950,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -6977,8 +7205,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel::munich",
     "description_truncated": true
   },
@@ -7055,8 +7283,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-17T05:41:10.461985+00:00",
-    "last_checked": "2026-10-17T05:41:10.461985+00:00",
+    "last_seen": "2026-10-18T09:38:38.684399+00:00",
+    "last_checked": "2026-10-18T09:38:38.684399+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
