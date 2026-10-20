@@ -101,8 +101,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -407,6 +407,82 @@
     "duplicate_count": 0
   },
   {
+    "title": "[Legal & Compliance] Privacy Data — Conduct data protection impact assessments",
+    "url": "https://github.com/aniruddhaadak80/skills/issues/322",
+    "description": "Open-source contribution opportunity. Repository: aniruddhaadak80/skills. Labels: enhancement, help wanted, good first issue, skill-advanced, legal-compliance. ## 🎯 Issue Summary\n\n**Track:** Legal & Compliance → Privacy Data  \n**Type:** New Skill Content  \n**Difficulty:** Advanced  \n**Estimated:** ~40 min  \n**Labels:** `enhancement`, `help wanted`, `good first issue`, `legal-compliance`, `skill-advanced`\n\n---\n\n## 📋 Context\n\nProcessing mapping, risk scoring, mitigation, documentation.\n\nThis skill is missing from the `aniruddhaadak80/skills` library. Adding it would close a gap in the `Legal & Compliance` track and bring the library closer to the breadth covered by the broader agent-skills ecosystem (skills.sh topics such as agent-workflows, databases, design, mobile, nextjs, react, and testing, plus agentskill.io-style coverage).\n\n---\n\n## 🎪 Missing Skill\n\n| # | Skill ID | Title | Level | Est. Minutes | Description |\n|---|---|---|---|---|---|\n| 1 | `privacy-dpi-assessments` | `Conduct data protection impact assessments` | `Advanced` | `40` | Processing mapping, risk scoring, mitigation, documentation. |\n\n---\n\n## ✅ Acceptance Criteria (6+ Levels)\n\n### Level 1 — Understand & Plan\n- [ ] Read existing skills in `Legal & Compliance` (and the `Privacy Data` domain) to match tone, depth, and structure\n- [ ] Identify 3+ real production scenarios you have personally encountered\n- [ ] Draft 6-10 concrete, imperative steps (no filler)\n- [ ] Define 2-3 measurable KPIs / success signals\n- [ ] Confirm `privacy-dpi-assessments` is unique across the library\n\n### Level 2 — Implementation\n- [ ] Add the new procedure object to `src/data/tracks/legal-compliance.mjs` under `Privacy Data`\n- [ ] Follow the exact schema: slug, title, level, minutes, description, tags, steps, pitfalls, kpis\n- [ ] Include a real, tested install command in `commands`\n- [ ] Keep the procedure self-contained and consistent with sibling skills\n\n### Level 3 — Validation\n- [ ] Run `npm test` — all catalog tests pass …",
+    "role_context": "[Legal & Compliance] Privacy Data — Conduct data protection impact assessments aniruddhaadak80/skills enhancement, help wanted, good first issue, skill-advanced, legal-compliance",
+    "published": "2026-10-20T05:58:06Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "aniruddhaadak80/skills",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 30,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 94,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: data protection",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "opportunity_identity": "role::aniruddhaadak80 skills::legal and compliance privacy data conduct data protection impact assessments::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "Law School Student Ambassador",
     "url": "https://jobs.ashbyhq.com/harvey/a194c24f-38ee-4c7e-908b-060a16dfaa9d",
     "description": "Organisation: Harvey. Location: Remote. Department: Legal. Team: Legal. Commitment: Contract. Work model: Remote. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview The Law School Student Ambassador is a current JD candidate / law student (or international equivalent) who serves as Harvey's on-campus champion, connecting the product with the student community at their law school / law faculty. This role sits within the Law School Partnerships team, whose mission is to make Harvey an indispensable part of legal education by embedding the platform into how students learn and work. By building peer-to-peer awareness and hosting hands-on programming, the Ambassador accelerates student adoption and generates insights that shape Harvey's academic go-to-market strategy. They partner with faculty, student organizations, and Ha …",
@@ -480,8 +556,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -581,6 +657,85 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "[Legal & Compliance] Privacy Data — Govern data retention and deletion",
+    "url": "https://github.com/aniruddhaadak80/skills/issues/324",
+    "description": "Open-source contribution opportunity. Repository: aniruddhaadak80/skills. Labels: enhancement, help wanted, good first issue, skill-advanced, legal-compliance. ## 🎯 Issue Summary\n\n**Track:** Legal & Compliance → Privacy Data  \n**Type:** New Skill Content  \n**Difficulty:** Advanced  \n**Estimated:** ~40 min  \n**Labels:** `enhancement`, `help wanted`, `good first issue`, `legal-compliance`, `skill-advanced`\n\n---\n\n## 📋 Context\n\nRetention schedules, automated deletion, legal holds, audit trails.\n\nThis skill is missing from the `aniruddhaadak80/skills` library. Adding it would close a gap in the `Legal & Compliance` track and bring the library closer to the breadth covered by the broader agent-skills ecosystem (skills.sh topics such as agent-workflows, databases, design, mobile, nextjs, react, and testing, plus agentskill.io-style coverage).\n\n---\n\n## 🎪 Missing Skill\n\n| # | Skill ID | Title | Level | Est. Minutes | Description |\n|---|---|---|---|---|---|\n| 1 | `privacy-retention-governance` | `Govern data retention and deletion` | `Advanced` | `40` | Retention schedules, automated deletion, legal holds, audit trails. |\n\n---\n\n## ✅ Acceptance Criteria (6+ Levels)\n\n### Level 1 — Understand & Plan\n- [ ] Read existing skills in `Legal & Compliance` (and the `Privacy Data` domain) to match tone, depth, and structure\n- [ ] Identify 3+ real production scenarios you have personally encountered\n- [ ] Draft 6-10 concrete, imperative steps (no filler)\n- [ ] Define 2-3 measurable KPIs / success signals\n- [ ] Confirm `privacy-retention-governance` is unique across the library\n\n### Level 2 — Implementation\n- [ ] Add the new procedure object to `src/data/tracks/legal-compliance.mjs` under `Privacy Data`\n- [ ] Follow the exact schema: slug, title, level, minutes, description, tags, steps, pitfalls, kpis\n- [ ] Include a real, tested install command in `commands`\n- [ ] Keep the procedure self-contained and consistent with sibling skills\n\n### Level 3 — Validation\n- [ ] Run `npm test` — all ca …",
+    "role_context": "[Legal & Compliance] Privacy Data — Govern data retention and deletion aniruddhaadak80/skills enhancement, help wanted, good first issue, skill-advanced, legal-compliance",
+    "published": "2026-10-20T05:58:11Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "aniruddhaadak80/skills",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 42,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 91,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "opportunity_identity": "role::aniruddhaadak80 skills::legal and compliance privacy data govern data retention and deletion::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Frontend: Privacy Policy page shows a placeholder phone number instead of the real one",
@@ -913,6 +1068,160 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "[Legal & Compliance] Privacy Data — Build consent management properly",
+    "url": "https://github.com/aniruddhaadak80/skills/issues/321",
+    "description": "Open-source contribution opportunity. Repository: aniruddhaadak80/skills. Labels: enhancement, help wanted, good first issue, skill-intermediate, legal-compliance. ## 🎯 Issue Summary\n\n**Track:** Legal & Compliance → Privacy Data  \n**Type:** New Skill Content  \n**Difficulty:** Intermediate  \n**Estimated:** ~35 min  \n**Labels:** `enhancement`, `help wanted`, `good first issue`, `legal-compliance`, `skill-intermediate`\n\n---\n\n## 📋 Context\n\nGranularity, withdrawal, auditing, lawful basis tracking.\n\nThis skill is missing from the `aniruddhaadak80/skills` library. Adding it would close a gap in the `Legal & Compliance` track and bring the library closer to the breadth covered by the broader agent-skills ecosystem (skills.sh topics such as agent-workflows, databases, design, mobile, nextjs, react, and testing, plus agentskill.io-style coverage).\n\n---\n\n## 🎪 Missing Skill\n\n| # | Skill ID | Title | Level | Est. Minutes | Description |\n|---|---|---|---|---|---|\n| 1 | `privacy-consent-management` | `Build consent management properly` | `Intermediate` | `35` | Granularity, withdrawal, auditing, lawful basis tracking. |\n\n---\n\n## ✅ Acceptance Criteria (6+ Levels)\n\n### Level 1 — Understand & Plan\n- [ ] Read existing skills in `Legal & Compliance` (and the `Privacy Data` domain) to match tone, depth, and structure\n- [ ] Identify 3+ real production scenarios you have personally encountered\n- [ ] Draft 6-10 concrete, imperative steps (no filler)\n- [ ] Define 2-3 measurable KPIs / success signals\n- [ ] Confirm `privacy-consent-management` is unique across the library\n\n### Level 2 — Implementation\n- [ ] Add the new procedure object to `src/data/tracks/legal-compliance.mjs` under `Privacy Data`\n- [ ] Follow the exact schema: slug, title, level, minutes, description, tags, steps, pitfalls, kpis\n- [ ] Include a real, tested install command in `commands`\n- [ ] Keep the procedure self-contained and consistent with sibling skills\n\n### Level 3 — Validation\n- [ ] Run `npm test` — all catalog tes …",
+    "role_context": "[Legal & Compliance] Privacy Data — Build consent management properly aniruddhaadak80/skills enhancement, help wanted, good first issue, skill-intermediate, legal-compliance",
+    "published": "2026-10-20T05:58:09Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "aniruddhaadak80/skills",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 38,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 91,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "opportunity_identity": "role::aniruddhaadak80 skills::legal and compliance privacy data build consent management properly::remote open source",
+    "description_truncated": true
+  },
+  {
+    "title": "[Legal & Compliance] Privacy Data — Fulfill data subject rights requests",
+    "url": "https://github.com/aniruddhaadak80/skills/issues/323",
+    "description": "Open-source contribution opportunity. Repository: aniruddhaadak80/skills. Labels: enhancement, help wanted, good first issue, skill-advanced, legal-compliance. ## 🎯 Issue Summary\n\n**Track:** Legal & Compliance → Privacy Data  \n**Type:** New Skill Content  \n**Difficulty:** Advanced  \n**Estimated:** ~40 min  \n**Labels:** `enhancement`, `help wanted`, `good first issue`, `legal-compliance`, `skill-advanced`\n\n---\n\n## 📋 Context\n\nDSAR workflows, verification, timelines, cross-system fulfillment.\n\nThis skill is missing from the `aniruddhaadak80/skills` library. Adding it would close a gap in the `Legal & Compliance` track and bring the library closer to the breadth covered by the broader agent-skills ecosystem (skills.sh topics such as agent-workflows, databases, design, mobile, nextjs, react, and testing, plus agentskill.io-style coverage).\n\n---\n\n## 🎪 Missing Skill\n\n| # | Skill ID | Title | Level | Est. Minutes | Description |\n|---|---|---|---|---|---|\n| 1 | `privacy-rights-fulfillment` | `Fulfill data subject rights requests` | `Advanced` | `40` | DSAR workflows, verification, timelines, cross-system fulfillment. |\n\n---\n\n## ✅ Acceptance Criteria (6+ Levels)\n\n### Level 1 — Understand & Plan\n- [ ] Read existing skills in `Legal & Compliance` (and the `Privacy Data` domain) to match tone, depth, and structure\n- [ ] Identify 3+ real production scenarios you have personally encountered\n- [ ] Draft 6-10 concrete, imperative steps (no filler)\n- [ ] Define 2-3 measurable KPIs / success signals\n- [ ] Confirm `privacy-rights-fulfillment` is unique across the library\n\n### Level 2 — Implementation\n- [ ] Add the new procedure object to `src/data/tracks/legal-compliance.mjs` under `Privacy Data`\n- [ ] Follow the exact schema: slug, title, level, minutes, description, tags, steps, pitfalls, kpis\n- [ ] Include a real, tested install command in `commands`\n- [ ] Keep the procedure self-contained and consistent with sibling skills\n\n### Level 3 — Validation\n- [ ] Run `npm test` — all catalo …",
+    "role_context": "[Legal & Compliance] Privacy Data — Fulfill data subject rights requests aniruddhaadak80/skills enhancement, help wanted, good first issue, skill-advanced, legal-compliance",
+    "published": "2026-10-20T05:58:09Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "aniruddhaadak80/skills",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 30,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 91,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "opportunity_identity": "role::aniruddhaadak80 skills::legal and compliance privacy data fulfill data subject rights requests::remote open source",
+    "description_truncated": true
   },
   {
     "title": "[P2] Legal: essential-only cookie notice",
@@ -1323,8 +1632,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -1513,8 +1822,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -2721,6 +3030,90 @@
     "opportunity_identity": "role::shivamnegi92 awesome multimodal extraction::separate code model weight dataset and api terms::remote open source"
   },
   {
+    "title": "[Content Review]: Ch 9.7 — GDPR and Data Protection Regulations",
+    "url": "https://github.com/GSA/MasteringAgenticAISystems_supplementals/issues/100",
+    "description": "Open-source contribution opportunity. Repository: GSA/MasteringAgenticAISystems_supplementals. Labels: help wanted, track:content-review, effort:small, topic:governance-compliance, part:09, artifact:chapter-text. <!-- content-review:chapter:9.7 -->\n### Chapter\n**Ch 9.7 — GDPR and Data Protection Regulations**\nPart 9 — Safety & Governance\n\nRated highly relevant for: NVIDIA NCP-AAI, AWS AIP-C01, Databricks GenAI Engineer, Google Cloud PMLE, Microsoft AI-102 (per [`cert_mapping/`](https://github.com/GSA/MasteringAgenticAISystems_supplementals/blob/master/cert_mapping/README.md)).\n\n### Review it your way\nRead the chapter and tell us what you find. There is no fixed list to work through — follow whatever fits your expertise and interest. For example:\n- Technical accuracy of claims and examples\n- Whether tools, models, APIs or standards are still current\n- Clarity, pacing and level for the intended reader\n- Consistency with neighboring chapters\n- How well it prepares readers for certification exams\n\nA partial review is a real contribution: one section, or one angle across the whole chapter, is plenty.\n\n### Size\nAbout 5,555 words — roughly 25 minutes of reading, more if you check claims against sources.\n\n### How to take part\n1. Comment below to say you'd like to take this, and (optionally) which angle you plan to take. A maintainer will assign it to you.\n2. We'll email you the chapter text. It is not hosted in this repository, so please quote only the passage you are commenting on rather than pasting whole sections.\n3. Post findings here as comments. The most useful findings say *where* (a section heading), *what* you found, a quote or source for it, and a suggested fix — the [content-review checklist](https://github.com/GSA/MasteringAgenticAISystems_supplementals/blob/master/.github/REVIEW_CHECKLISTS.md#instructional-content-review-chapter-text-slides-quizzes) has the details.\n4. When you're done, say where you land: **accept**, **minor revisions**, or **major revisions** …",
+    "role_context": "[Content Review]: Ch 9.7 — GDPR and Data Protection Regulations GSA/MasteringAgenticAISystems_supplementals help wanted, track:content-review, effort:small, topic:governance-compliance, part:09, artifact:chapter-text",
+    "published": "2026-10-19T19:52:13Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "GSA/MasteringAgenticAISystems_supplementals",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 27,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Strong governance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: data protection",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-07T05:31:29.026014+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 7 gdpr and data protection regulations::remote open source",
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/GSA/MasteringAgenticAISystems_supplementals/issues/100",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
+  },
+  {
     "title": "Rendered-UI evidence: AXR1 and AXP1 (opt-in)",
     "url": "https://github.com/open-assurance/reference-implementation/issues/12",
     "description": "Open-source contribution opportunity. Repository: open-assurance/reference-implementation. Labels: accessibility, help wanted, dimension. ## Dimensions\n\n- **AXR1 — Runtime accessibility (rendered)** (accessibility, `evaluator: tool`, meta): WCAG success criteria verified in a real headless-browser render (axe-core), double-render checked and kept as advisory evidence — never scored.\n- **AXP1 — Runtime third-party data flows** (securityCompliance, `evaluator: tool`, meta): Third-party hosts the rendered UI tried to reach (analytics/trackers/CDNs), observed at render time — advisory evidence for GDPR data-protection-by-default. Never scored; jurisdiction/role never inferred.\n\n## Why it is not measured yet\n\nCOVERAGE.md: *needs runtime: it is observed on a booted application, which this engine never starts.* Both are advisory metas and never scored.\n\n## A concrete first step\n\nThese need a headless browser render (axe-core for AXR1, observed third-party requests for AXP1). Propose whether this belongs in the engine as an opt-in mode or as a separate companion tool that writes advisory entries into the evidence bundle; list the dependencies it would add.\n\nWhatever is emitted must carry `advisory: true` so it never enters the fold (SPEC-GAPS G-01/G-02), and the engine must stay deterministic and offline by default — any model-backed or runtime evaluator is opt-in. Agree the approach in this issue before writing a large patch.\n\nSee [CONTRIBUTING.md](https://github.com/open-assurance/reference-implementation/blob/main/CONTRIBUTING.md#adding-or-fixing-a-dimension) for the steps (test first, detector, `Coverage.cs`, `tools/coverage-md.py`) and the clean-room rule. Record any ambiguity in SPEC-GAPS.md.",
@@ -2797,90 +3190,6 @@
       {
         "source": "github-issues-api",
         "url": "https://github.com/open-assurance/reference-implementation/issues/12",
-        "quality": "Open source",
-        "priority": 65
-      }
-    ],
-    "duplicate_count": 0
-  },
-  {
-    "title": "[Content Review]: Ch 9.7 — GDPR and Data Protection Regulations",
-    "url": "https://github.com/GSA/MasteringAgenticAISystems_supplementals/issues/100",
-    "description": "Open-source contribution opportunity. Repository: GSA/MasteringAgenticAISystems_supplementals. Labels: help wanted, track:content-review, effort:small, topic:governance-compliance, part:09, artifact:chapter-text. <!-- content-review:chapter:9.7 -->\n### Chapter\n**Ch 9.7 — GDPR and Data Protection Regulations**\nPart 9 — Safety & Governance\n\nRated highly relevant for: NVIDIA NCP-AAI, AWS AIP-C01, Databricks GenAI Engineer, Google Cloud PMLE, Microsoft AI-102 (per [`cert_mapping/`](https://github.com/GSA/MasteringAgenticAISystems_supplementals/blob/master/cert_mapping/README.md)).\n\n### Review it your way\nRead the chapter and tell us what you find. There is no fixed list to work through — follow whatever fits your expertise and interest. For example:\n- Technical accuracy of claims and examples\n- Whether tools, models, APIs or standards are still current\n- Clarity, pacing and level for the intended reader\n- Consistency with neighboring chapters\n- How well it prepares readers for certification exams\n\nA partial review is a real contribution: one section, or one angle across the whole chapter, is plenty.\n\n### Size\nAbout 5,555 words — roughly 25 minutes of reading, more if you check claims against sources.\n\n### How to take part\n1. Comment below to say you'd like to take this, and (optionally) which angle you plan to take. A maintainer will assign it to you.\n2. We'll email you the chapter text. It is not hosted in this repository, so please quote only the passage you are commenting on rather than pasting whole sections.\n3. Post findings here as comments. The most useful findings say *where* (a section heading), *what* you found, a quote or source for it, and a suggested fix — the [content-review checklist](https://github.com/GSA/MasteringAgenticAISystems_supplementals/blob/master/.github/REVIEW_CHECKLISTS.md#instructional-content-review-chapter-text-slides-quizzes) has the details.\n4. When you're done, say where you land: **accept**, **minor revisions**, or **major revisions** …",
-    "role_context": "[Content Review]: Ch 9.7 — GDPR and Data Protection Regulations GSA/MasteringAgenticAISystems_supplementals help wanted, track:content-review, effort:small, topic:governance-compliance, part:09, artifact:chapter-text",
-    "published": "2026-10-06T12:54:15Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "GSA/MasteringAgenticAISystems_supplementals",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 27,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "compliance",
-        "points": 14
-      },
-      {
-        "signal": "governance",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      }
-    ],
-    "fit_score": 88,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong privacy relevance",
-      "Strong compliance relevance",
-      "Strong governance relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly",
-      "Relevant experience overlap: data protection",
-      "Relevant experience overlap: compliance"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-10-14T05:43:00.341763+00:00",
-    "last_checked": "2026-10-14T05:43:00.341763+00:00",
-    "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 7 gdpr and data protection regulations::remote open source",
-    "description_truncated": true,
-    "alternate_sources": [
-      {
-        "source": "github-issues-api",
-        "url": "https://github.com/GSA/MasteringAgenticAISystems_supplementals/issues/100",
         "quality": "Open source",
         "priority": 65
       }
@@ -3047,8 +3356,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -4163,8 +4472,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
     "description_truncated": true
   },
@@ -4237,11 +4546,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -4414,9 +4723,9 @@
   {
     "title": "# Spike 617 — Data retention and GDPR erasure pipeline with TTL sweeps and wallet deletion",
     "url": "https://github.com/PHASE-STELLAR/Phase/issues/480",
-    "description": "Open-source contribution opportunity. Repository: PHASE-STELLAR/Phase. Labels: help wanted, SPIKE. > Type: advanced integration spike (extremely difficult) | Effort: 3–8 weeks | Files touched: 18 (14+ required) | Risk: high — cross-boundary, migration-bearing, flag-gated\n> Status: proposed spike (not yet implemented) | Rollback: feature-flag off + docs revert per PROJECT_ARCHITECTURE.md §10–11\n> Batch: third 50 (600–649). Does not duplicate spikes 500–599 — see `docs/spikes/SPIKE_INDEX_500_549.md` and `docs/spikes/SPIKE_INDEX_550_599.md`.\n\n## 1. Context and motivation\n\nNo erasure path. Wallet-keyed sprawl: claims, notifications+prefs, achievements uppercased keys, socials/follows, three-map referrals, push subs, market views + viewer_hashes, funnel events, worlds/narratives/replies/audit/watchlists/quests/health/jobs+dlq/dead-letter. SQLite tables (listings/offers/signals/replies/CRDT/versions/reactions/payouts/ledger/reservations) no deleted_at, no cascade-erasure helper, no sweep. WAL freed pages linger until checkpoint. Caches (quest 5s, explore, wallet index, cid) no invalidation hook. Logs console JSON with wallets plaintext; retention platform-side outside repo control. Not 548 (export), 564 (deny-list), 569 (leak scan) - retention TTL + subject erasure + tombstones.\n\nThis spike exists because the naive version looks small (a new route, a new script, a new flag) but the correct version cuts across signing, storage, indexing, caching, i18n, observability, and docs. Prior spikes in `docs/spikes/` (033 preview-gating, 035 CID-poison, 036 wash-trading, 037 distributor-race, plus the 500–599 batches) each showed the same pattern: the write path was unguarded or the read path made an impossible assumption. This issue is deliberately scoped so a shortcut fix reintroduces the exact divergence those spikes closed.\n\n## 2. Current architecture (verified in repo)\n\n- Signing boundary: all wallet signing client-side via Freighter / Stellar Wallet Kit (`lib/stellar-wallet-ki …",
-    "role_context": "# Spike 617 — Data retention and GDPR erasure pipeline with TTL sweeps and wallet deletion PHASE-STELLAR/Phase help wanted, SPIKE",
-    "published": "2026-10-15T10:42:05Z",
+    "description": "Open-source contribution opportunity. Repository: PHASE-STELLAR/Phase. Labels: help wanted, SPIKE, Stellar Wave. > Type: advanced integration spike (extremely difficult) | Effort: 3–8 weeks | Files touched: 18 (14+ required) | Risk: high — cross-boundary, migration-bearing, flag-gated\n> Status: proposed spike (not yet implemented) | Rollback: feature-flag off + docs revert per PROJECT_ARCHITECTURE.md §10–11\n> Batch: third 50 (600–649). Does not duplicate spikes 500–599 — see `docs/spikes/SPIKE_INDEX_500_549.md` and `docs/spikes/SPIKE_INDEX_550_599.md`.\n\n## 1. Context and motivation\n\nNo erasure path. Wallet-keyed sprawl: claims, notifications+prefs, achievements uppercased keys, socials/follows, three-map referrals, push subs, market views + viewer_hashes, funnel events, worlds/narratives/replies/audit/watchlists/quests/health/jobs+dlq/dead-letter. SQLite tables (listings/offers/signals/replies/CRDT/versions/reactions/payouts/ledger/reservations) no deleted_at, no cascade-erasure helper, no sweep. WAL freed pages linger until checkpoint. Caches (quest 5s, explore, wallet index, cid) no invalidation hook. Logs console JSON with wallets plaintext; retention platform-side outside repo control. Not 548 (export), 564 (deny-list), 569 (leak scan) - retention TTL + subject erasure + tombstones.\n\nThis spike exists because the naive version looks small (a new route, a new script, a new flag) but the correct version cuts across signing, storage, indexing, caching, i18n, observability, and docs. Prior spikes in `docs/spikes/` (033 preview-gating, 035 CID-poison, 036 wash-trading, 037 distributor-race, plus the 500–599 batches) each showed the same pattern: the write path was unguarded or the read path made an impossible assumption. This issue is deliberately scoped so a shortcut fix reintroduces the exact divergence those spikes closed.\n\n## 2. Current architecture (verified in repo)\n\n- Signing boundary: all wallet signing client-side via Freighter / Stellar Wallet Kit (`lib/ste …",
+    "role_context": "# Spike 617 — Data retention and GDPR erasure pipeline with TTL sweeps and wallet deletion PHASE-STELLAR/Phase help wanted, SPIKE, Stellar Wave",
+    "published": "2026-10-19T15:33:09Z",
     "source": "github-issues-api",
     "source_type": "open_source",
     "organization": "PHASE-STELLAR/Phase",
@@ -4479,8 +4788,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::phase stellar phase::spike 617 data retention and gdpr erasure pipeline with ttl sweeps and wallet deletion::remote open source",
     "description_truncated": true
   },
@@ -4550,11 +4859,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -4643,8 +4952,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -4730,8 +5039,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -4817,8 +5126,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -4830,87 +5139,6 @@
       }
     ],
     "duplicate_count": 0
-  },
-  {
-    "title": "# ISP-128: Data Retention Lifecycle — Hot PG Partitions → Cold Export → Legal Hold vs GDPR Erasure vs After-Action Review Needs",
-    "url": "https://github.com/Hel-Phone/HelPhone/issues/798",
-    "description": "Open-source contribution opportunity. Repository: Hel-Phone/HelPhone. Labels: help wanted, Stellar Wave, integration, spike. - Type: Integration + Spike\n- Severity: P0/Critical\n- Difficulty: Extreme\n- Estimate: 24h\n- Touch surface: 14 files\n\n## 1. Background & Context\n\nHelPhone data lives in four temperatures with no agreed thermostat. Hot: time-partitioned Postgres (`server/db/poolManager.ts` + `server/db/partitioning.js` + `server/db/maintenance.ts` + `server/db/*`) serving `server/routes/history.ts` + `server/routes/events.ts` with PII-rich dispatch rows. Warm: Redis (`server/lib/redis.ts` + `server/lib/redisPubSub.js`) holding fan-out state and dedupe windows. Cold: `scripts/export-contract-state.sh` snapshots + `server/indexer/exporter.ts` projections + OTel trace/log backends (`server/telemetry.js`, `server/telemetryBootstrap.js`, `src/lib/telemetry.ts`) with 30–90-day retention. Frozen: client IDB (`src/lib/ringBuffer.ts` + `src/lib/crashRecovery.ts`) on field devices outside any server TTL. `docs/database-architecture.md` describes partitioning; `docs/security-runbook.md` gestures at GDPR; `docs/disaster-recovery.md` assumes after-action review can read everything forever. All three cannot hold simultaneously.\n\nThe hot-tier mechanics are the immediate risk. `server/db/partitioning.js` creates monthly (or weekly, under load) range partitions on `history`/`events`, but `server/db/maintenance.ts` detach/drop jobs are either disabled in staging or run without legal-hold checks — a single cron enabling could destroy evidence under litigation hold, while never running them grows hot partitions until `poolManager.ts` query plans collapse and `server/tests/load.js` p99s triple. There is no `retention_policy` table, no `legal_hold` flag, no per-row `erase_after` timestamp, and no integration with the redaction HMAC scheme from ISP-122 (erasing raw phone but keeping HMAC vs erasing both changes joinability of after-action tapes from ISP-124).\n\nCold exports compound th …",
-    "role_context": "# ISP-128: Data Retention Lifecycle — Hot PG Partitions → Cold Export → Legal Hold vs GDPR Erasure vs After-Action Review Needs Hel-Phone/HelPhone help wanted, Stellar Wave, integration, spike",
-    "published": "2026-10-16T11:45:40Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "Hel-Phone/HelPhone",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 46,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "remote",
-        "points": 10
-      },
-      {
-        "signal": "leadership",
-        "points": 8
-      }
-    ],
-    "fit_score": 84,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong privacy relevance",
-      "Strong policy relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-15T05:43:39.211092+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
-    "opportunity_identity": "role::hel phone helphone::isp 128 data retention lifecycle hot pg partitions cold export legal hold vs gdpr erasure vs after action review needs::remote open source",
-    "description_truncated": true
   },
   {
     "title": "# SPIKE-146: Anchor KYC data touches product surfaces with no boundary policy",
@@ -5217,8 +5445,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::chicago",
     "description_truncated": true,
     "alternate_sources": [
@@ -5303,8 +5531,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::houston",
     "description_truncated": true,
     "alternate_sources": [
@@ -5389,8 +5617,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-13T05:33:49.839758+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::toronto",
     "description_truncated": true,
     "alternate_sources": [
@@ -5475,8 +5703,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -5561,8 +5789,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -5741,6 +5969,178 @@
     "duplicate_count": 0
   },
   {
+    "title": "Add dataset: prisons (gevangenissen / prisons)",
+    "url": "https://github.com/pieterjanscheir/be-legal-data/issues/2",
+    "description": "Open-source contribution opportunity. Repository: pieterjanscheir/be-legal-data. Labels: enhancement, help wanted. > **Note:** this dataset couldn't be scraped from the session that planned it: the network policy of that cloud environment blocked the official Belgian government hosts. Nothing below is data; it describes where to get the data and what to verify.\n\n## Why\n\nBelgian prisons and related detention facilities are managed by FOD Justitie / SPF Justice, Directoraat-generaal Penitentiaire Inrichtingen (DG EPI). There are roughly 35–40 of them (confirm the exact count). A structured list helps with:\n\n- **Serving documents on detainees** and addressing correspondence to the right institution (griffie / greffe of the prison).\n- **Visiting rules and lawyer visits**: finding the address, phone and email of the facility a client is held in.\n- **Legal aid**: pro-deo lawyers and legal-tech tools that need to route a case by place of detention.\n- **Jurisdiction**: the competent strafuitvoeringsrechtbank / tribunal de l'application des peines depends on the place of detention; linking a prison to its arrondissement makes that lookup possible.\n\n## Official sources to start from\n\n- justice.belgium.be (FR) / justitie.belgium.be (NL): start from the prisons section (gevangenissen / prisons) of the DG EPI pages. The exact URL must be confirmed.\n- vlaanderen.be, \"Gegevens gevangenissen\", as a cross-check for the Flemish facilities: https://www.vlaanderen.be/gezondheid-en-welzijn/conflicten-en-misdrijven/hulp-en-melding/hulp-en-dienstverlening-aan-gedetineerden/gegevens-gevangenissen\n- For Wallonia/Brussels cross-checks, the Fédération Wallonie-Bruxelles pages on aid to detainees (to be confirmed).\n- Capacity figures, only if DG EPI publishes them officially (annual report); always record the date.\n\n## Proposed fields\n\n```ts\ninterface Prison {\n  /** PascalCase ASCII id from the official local-language name, e.g. 'Brugge', 'Lantin' */\n  id: string\n  name: Translated\n  /** Categ …",
+    "role_context": "Add dataset: prisons (gevangenissen / prisons) pieterjanscheir/be-legal-data enhancement, help wanted",
+    "published": "2026-10-20T09:39:39Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "pieterjanscheir/be-legal-data",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [
+      "German",
+      "French"
+    ],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 42,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 80,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong research writing relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Meets German language signal",
+      "Relevant experience overlap: legal tech"
+    ],
+    "fit_gaps": [
+      "Check required French proficiency"
+    ],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "opportunity_identity": "role::pieterjanscheir be legal data::add dataset prisons gevangenissen prisons::remote open source",
+    "description_truncated": true
+  },
+  {
+    "title": "Add dataset: police zones (politiezones / zones de police)",
+    "url": "https://github.com/pieterjanscheir/be-legal-data/issues/7",
+    "description": "Open-source contribution opportunity. Repository: pieterjanscheir/be-legal-data. Labels: enhancement, help wanted. > **Note:** this dataset couldn't be scraped from the session that planned it: the network policy of that cloud environment blocked the official Belgian government hosts. Nothing below is data; it describes where to get the data and what to verify.\n\n## Why\n\nBelgium's local police is organised in police zones (politiezones / zones de police / Polizeizonen), each covering one or more municipalities. The number has been decreasing through mergers (about 180 at some point; **confirm the current count**). A dataset helps with:\n\n- **Which zone handles a municipality**: filing complaints, requesting a copy of a PV (proces-verbaal), contacting the local police about a case.\n- **Linking to police courts**: traffic cases start with a PV from a zone and go to the competent police court.\n- **Address-based routing** in legal-tech tools, via the municipality REFNIS codes already in `data/municipalities.json`.\n\n## Official sources to start from\n\n- police.be: the zone finder and the zone pages (each zone has its official number and website; exact URLs to confirm).\n- Federal police / the Commissariaat-generaal (CGL) lists of local police zones (to confirm).\n- Zone mergers are published as royal decrees in the Belgisch Staatsblad / Moniteur belge (ejustice.just.fgov.be); use them to record effective dates.\n- Statbel / municipality mergers of 2019 and 2025 affect the municipality lists: check against `data/municipalities.json` (565 municipalities).\n\n## Proposed fields\n\n```ts\ninterface PoliceZone {\n  /** Official zone number as a string, e.g. '5415' */\n  id: string\n  name: Translated // official zone name; decide how to handle zones without official translations\n  /** REFNIS codes of the municipalities the zone covers (data/municipalities.json) */\n  municipalities: string[]\n  /** Judicial arrondissement id(s) */\n  arrondissements: string[]\n  /** Main office (hoofdcommissar …",
+    "role_context": "Add dataset: police zones (politiezones / zones de police) pieterjanscheir/be-legal-data enhancement, help wanted",
+    "published": "2026-10-20T09:39:42Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "pieterjanscheir/be-legal-data",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [
+      "German",
+      "French"
+    ],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 34,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 80,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong research writing relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Meets German language signal",
+      "Relevant experience overlap: legal tech"
+    ],
+    "fit_gaps": [
+      "Check required French proficiency"
+    ],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "opportunity_identity": "role::pieterjanscheir be legal data::add dataset police zones politiezones zones de police::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "# Spike 677 — Physical redemption with print claims tied to burn-or-hold policy",
     "url": "https://github.com/PHASE-STELLAR/Phase/issues/540",
     "description": "Open-source contribution opportunity. Repository: PHASE-STELLAR/Phase. Labels: help wanted, SPIKE, integration. > Type: advanced integration spike (extremely difficult) | Effort: 3–8 weeks | Files touched: 16 (14+ required) | Risk: high — cross-boundary, migration-bearing, flag-gated\n> Status: proposed spike (not yet implemented) | Rollback: feature-flag off + docs revert per PROJECT_ARCHITECTURE.md §10–11\n> Batch: fourth 50 (650–699). Does not duplicate spikes 500–649 — see `docs/spikes/SPIKE_INDEX_500_549.md`, `docs/spikes/SPIKE_INDEX_550_599.md` and `docs/spikes/SPIKE_INDEX_600_649.md`. Dedup verified against 150 existing titles by independent research tracks.\n\n## 1. Context and motivation\n\nTransfer family moves TokenOwner+UserPhase+Balance+OwnerTokenList; no burn entrypoint at all (burn spike aspirational, current code cannot destroy); approvals cleared on transfer only. Metadata serves name/description/image - no redeemed flag, no physical-edition mutation guard. Market has cancel/sold flips; no redeemed/fulfilling/shipped state; single-row listing read. Listings route has cancel deactivation; no claim-ticket issuance. No physical_claim/shipment notification types; notifications actions are mark_read/prefs/rotate/funnel only. Profiles hold handles/avatars, no shipping-address vault (PII minimization posture - new GDPR surface). Dashboard owned-artifacts + vault display only; no redeem button/flow; no redemption copy. Closest existing spikes 502 (on-chain supply destruction) and 513 (media provenance gating) - neither captures shipping address, issues claim tickets, orchestrates print-shop fulfillment, or enforces burn-vs-hold redemption policy.\n\nThis spike exists because the naive version looks small (a new route, a new script, a new flag) but the correct version cuts across signing, storage, indexing, caching, i18n, observability, and docs. Prior spikes in `docs/spikes/` (033 preview-gating, 035 CID-poison, 036 wash-trading, 037 distributor-race, plus the 500– …",
@@ -5811,6 +6211,176 @@
     "last_seen": "2026-10-16T05:42:38.188097+00:00",
     "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::phase stellar phase::spike 677 physical redemption with print claims tied to burn or hold policy::remote open source",
+    "description_truncated": true
+  },
+  {
+    "title": "Add dataset: bailiff offices (gerechtsdeurwaarders / huissiers de justice)",
+    "url": "https://github.com/pieterjanscheir/be-legal-data/issues/6",
+    "description": "Open-source contribution opportunity. Repository: pieterjanscheir/be-legal-data. Labels: enhancement, help wanted. > **Note:** this dataset couldn't be scraped from the session that planned it: the network policy of that cloud environment blocked the official Belgian government hosts. Nothing below is data; it describes where to get the data and what to verify.\n\n## Why\n\nBailiffs (gerechtsdeurwaarders / huissiers de justice / Gerichtsvollzieher) have territorial competence per judicial arrondissement. A structured directory helps with:\n\n- **Picking a competent bailiff** for service of a writ (dagvaarding / citation) or enforcement in a given arrondissement.\n- **Document automation**: filling in the bailiff's office details on writs and enforcement documents.\n- **Checking competence**: verifying that a bailiff is competent where a document was served.\n\n## Official sources to start from\n\n- The Nationale Kamer van Gerechtsdeurwaarders / Chambre nationale des huissiers de justice: start from gerechtsdeurwaarders.be / huissiersdejustice.be (domains and directory URL to confirm). Arrondissement chambers may publish their own lists.\n- The KBO / BCE (Kruispuntbank van Ondernemingen) for enterprise numbers of the offices (via the public search or KBO open data, which has its own reuse licence).\n- **Terms of use**: check the official directory's terms of use **before** scraping, and document them in the docs page. If scraping is not allowed, ask the Chamber for an export.\n\n## Volume\n\nAbout 500 bailiffs (confirm), grouped in offices (sole practitioners and companies). A scraper script is required so the data can be refreshed; the list changes as bailiffs are appointed, retire or move.\n\n## Privacy / GDPR\n\nBailiffs are public officers who are publicly listed, but the dataset must stay limited to **professional data**: name, office, professional address, professional phone/email, arrondissement. No private addresses, dates of birth, photos or other personal data. Mention the legal …",
+    "role_context": "Add dataset: bailiff offices (gerechtsdeurwaarders / huissiers de justice) pieterjanscheir/be-legal-data enhancement, help wanted",
+    "published": "2026-10-20T09:39:42Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "pieterjanscheir/be-legal-data",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [
+      "German",
+      "French"
+    ],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 50,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 77,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Meets German language signal"
+    ],
+    "fit_gaps": [
+      "Check required French proficiency"
+    ],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "opportunity_identity": "role::pieterjanscheir be legal data::add dataset bailiff offices gerechtsdeurwaarders huissiers de justice::remote open source",
+    "description_truncated": true
+  },
+  {
+    "title": "Add dataset: AAPD offices — Kadaster (Opmeting & Waardering) and Rechtszekerheid (former hypotheekkantoren)",
+    "url": "https://github.com/pieterjanscheir/be-legal-data/issues/8",
+    "description": "Open-source contribution opportunity. Repository: pieterjanscheir/be-legal-data. Labels: enhancement, help wanted. > **Note:** this dataset couldn't be scraped from the session that planned it: the network policy of that cloud environment blocked the official Belgian government hosts. Nothing below is data; it describes where to get the data and what to verify.\n\n## Why\n\nFOD Financiën / SPF Finances, Algemene Administratie van de Patrimoniumdocumentatie (AAPD / AGDP), runs two kinds of offices with a territorial competence that legal practitioners need daily:\n\n- **Rechtszekerheid / Sécurité juridique** (formerly hypotheekkantoren / conservations des hypothèques): registration (overschrijving / transcription) of deeds, mortgage registrations, and **mortgage certificates** (hypothecair getuigschrift / état hypothécaire).\n- **Opmeting & Waardering / Mesures & Évaluations** (cadastre / kadaster): **cadastral extracts** and plans, cadastral income.\n\nUse cases: requesting a mortgage certificate or cadastral extract before a sale or seizure, registering deeds, notarial and enforcement workflows, and any tool that needs to route a property (by municipality / cadastral division) to the competent office.\n\n## Official sources to start from\n\n- financien.belgium.be: start from the AAPD / patrimoniumdocumentatie contact pages and the office finder (exact URL to confirm). MyMinfin may also expose competence per municipality (to confirm; may require login, in which case it is not a usable source).\n- Ministerial or royal decrees setting the territorial competence of the offices, published in the Belgisch Staatsblad (ejustice.just.fgov.be), for authoritative competence and effective dates.\n- Cadastral divisions (kadastrale afdelingen) are numbered per municipality; check whether competence ever follows divisions rather than whole municipalities.\n\n## Proposed fields\n\n```ts\ninterface PatrimonyDocumentationOffice {\n  /** PascalCase ASCII id from the official local-language name, e.g. 'Ge …",
+    "role_context": "Add dataset: AAPD offices — Kadaster (Opmeting & Waardering) and Rechtszekerheid (former hypotheekkantoren) pieterjanscheir/be-legal-data enhancement, help wanted",
+    "published": "2026-10-20T09:39:43Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "pieterjanscheir/be-legal-data",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [
+      "German",
+      "French"
+    ],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 34,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 77,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong research writing relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Meets German language signal"
+    ],
+    "fit_gaps": [
+      "Check required French proficiency"
+    ],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "opportunity_identity": "role::pieterjanscheir be legal data::add dataset aapd offices kadaster opmeting and waardering and rechtszekerheid former hypotheekkantoren::remote open source",
     "description_truncated": true
   },
   {
@@ -6315,8 +6885,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::legora::business analyst legal engineering::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -6732,8 +7302,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -6987,8 +7557,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel::munich",
     "description_truncated": true
   },
@@ -7065,8 +7635,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
