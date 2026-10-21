@@ -101,8 +101,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -556,8 +556,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -811,8 +811,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_seen": "2026-10-02T05:29:22.905148+00:00",
-    "last_checked": "2026-10-02T05:29:22.905148+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::shelterflex monorepo::frontend privacy policy page shows a placeholder phone number instead of the real one::remote open source",
     "alternate_sources": [
       {
@@ -1632,8 +1632,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -1746,6 +1746,87 @@
     "duplicate_count": 0
   },
   {
+    "title": "[T3] Legal and regulatory summary note (Algeria)",
+    "url": "https://github.com/SalimMabed/PSP/issues/3",
+    "description": "Open-source contribution opportunity. Repository: SalimMabed/PSP. Labels: documentation, help wanted. ## Goal\nEstablish **what is legally required** to operate a real payment service in Algeria. The prototype claims no license.\n\n## To research (official sources, to be cited)\n- Which status / license applies depending on the model (technical intermediary, aggregator, electronic money…) and which authority supervises it (Bank of Algeria, partner banks…).\n- Personal data protection: applicable law, required declarations or authorizations.\n- Anti-money-laundering and counter-terrorist financing: obligations (KYC / KYB, suspicious activity reporting).\n- Card data security (PCI DSS): what applies to us if we use a hosted payment page.\n\n## Acceptance criteria\n- A `docs/LEGAL.md` document (1 to 3 pages): sourced findings, uncertain points marked \"to be verified with a lawyer\".\n- Update section 1 of `docs/PRODUCTION-CHECKLIST.md` if needed.\n\n## References\n`docs/PRODUCTION-CHECKLIST.md`",
+    "role_context": "[T3] Legal and regulatory summary note (Algeria) SalimMabed/PSP documentation, help wanted",
+    "published": "2026-10-21T09:32:13Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "SalimMabed/PSP",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 52,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: data protection"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "opportunity_identity": "role::salimmabed psp::t3 legal and regulatory summary note algeria::remote open source"
+  },
+  {
     "title": "[Content] New Track Proposals — Community Sourced (Quant Finance, Robotics, Telco, Automotive, Semiconductor, Climate Tech, Space, Maritime, Actuarial, Legal Tech)",
     "url": "https://github.com/aniruddhaadak80/skills/issues/22",
     "description": "Open-source contribution opportunity. Repository: aniruddhaadak80/skills. Labels: enhancement, help wanted. ## 🎯 Issue Summary\n\n**Track:** Content → New Track Proposals  \n**Type:** New Track / Content Expansion  \n**Difficulty:** Advanced (requires domain expertise)  \n**Labels:** `help wanted`, `enhancement`, `content`, `new-track`, `expansion`\n\n---\n\n## 📋 Context\n\nThe library has 47 tracks across software, data, product, business, and specialized domains. **New track proposals** from practitioners in unrepresented fields would expand the library's reach. Each track needs 2+ domains with 2+ procedures each (minimum 4 skills) to meet the quality bar.\n\n---\n\n## 🎪 Track Proposals (Community Sourced)\n\n| # | Track | Icon | Target Audience | Example Domains |\n|---|---|---|---|---|\n| 1 | **Quantitative Finance** | 📈 | Quants, Risk Analysts | Model Validation, Backtesting, Regulatory Reporting |\n| 2 | **Robotics & Automation** | 🤖 | Robotics Engineers | Motion Planning, Sensor Fusion, Sim-to-Real, Safety |\n| 3 | **Telecommunications** | 📡 | Telco Engineers | 5G Core, RAN Optimization, OSS/BSS, Network Slicing |\n| 4 | **Automotive Engineering** | 🚗 | Auto Engineers | ADAS, ISO 26262, AUTOSAR, OTA Updates |\n| 5 | **Semiconductor Design** | 🔬 | Chip Designers | RTL Verification, Physical Design, Sign-off, Yield |\n| 6 | **Climate Tech / Carbon** | 🌱 | Climate Engineers | Carbon Accounting, MRV, Offset Verification, Grid Decarb |\n| 7 | **Space & Satellite Ops** | 🛰️ | Space Engineers | Mission Planning, Ground Systems, Telemetry, Conjunction |\n| 8 | **Maritime & Shipping** | ⚓ | Maritime Engineers | Voyage Optimization, Fleet Management, Decarbonization |\n| 9 | **Insurance Actuarial** | 📊 | Actuaries | Pricing, Reserving, Solvency II, IFRS 17, Cat Modeling |\n| 10 | **Legal Tech / Law Practice** | ⚖️ | Lawyers, Paralegals | Contract Review, E-Discovery, Compliance Automation |\n| 11 | **Journalism & Fact-Checking** | 📰 | Journalists | Source Verification, Data Journalism, OSINT, Ethi …",
@@ -1822,8 +1903,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -2004,8 +2085,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_seen": "2026-10-19T10:47:18.411479+00:00",
-    "last_checked": "2026-10-19T10:47:18.411479+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::feature skill compliance mapping soc2 hipaa gdpr pci dss frameworks::remote open source",
     "alternate_sources": [
       {
@@ -3099,8 +3180,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 7 gdpr and data protection regulations::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -3356,8 +3437,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -4472,9 +4553,90 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
+    "description_truncated": true
+  },
+  {
+    "title": "documentation/open-source-contribution",
+    "url": "https://github.com/UdaySharmaGitHub/Agentic-cli/issues/1",
+    "description": "Open-source contribution opportunity. Repository: UdaySharmaGitHub/Agentic-cli. Labels: accessibility, documentation, enhancement, good first issue, infrastructure, migration. # Issue: Prepare Agentic-cli for Open-Source Contribution\n\n## Summary\n\nAgentic-cli v4.2 is a fully working agentic CLI powered by Google Gemini. The codebase is ready for contributors, but several community and legal files are missing that GitHub requires before a project shows a green \"Community Standards\" health score and before external contributors can safely submit pull requests.\n\nThis issue tracks every file that needs to be created so that a first-time contributor can go from zero to a merged PR without asking any questions.\n\n---\n\n## Background\n\nAgentic-cli is a terminal-based agentic CLI that:\n- Reads/writes files, runs shell commands, and searches the web via a ReAct agent loop\n- Uses Google Gemini (`@google/generative-ai`) with native streaming and function calling\n- Is written in TypeScript (Node.js ≥ 18), built with `tsup`, and run via `tsx` in development\n- Requires a `GEMINI_API_KEY` and optionally `BRAVE_API_KEY` / `TAVILY_API_KEY`\n- Exposes a modular tool system where new tools are added in two steps (create module + register)\n\nThe repository currently has: `README.md`, `package.json`, `tsconfig.json`, `.env.example`, `.gitignore`, `LICENSE`, and the full `src/` source tree.\n\n---\n\n## What Is Missing\n\nThe following files do not yet exist and must be created:\n\n| # | File | Status |\n|---|------|--------|\n| 1 | `CONTRIBUTING.md` | Missing |\n| 2 | `CODE_OF_CONDUCT.md` | Missing |\n| 3 | `SECURITY.md` | Missing |\n| 4 | `.github/ISSUE_TEMPLATE/bug_report.md` | Missing |\n| 5 | `.github/ISSUE_TEMPLATE/feature_request.md` | Missing |\n| 6 | `.github/pull_request_template.md` | Missing |\n| 7 | `CHANGELOG.md` | Missing |\n| 8 | `.github/workflows/ci.yml` | Missing |\n\nThe following existing files need updates:\n\n| # | File | What needs to change |\n|---|------|----------------------|\n| 9 | `READ …",
+    "role_context": "documentation/open-source-contribution UdaySharmaGitHub/Agentic-cli accessibility, documentation, enhancement, good first issue, infrastructure, migration",
+    "published": "2026-10-21T09:49:39Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "UdaySharmaGitHub/Agentic-cli",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 46,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "remote",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "opportunity_identity": "role::udaysharmagithub agentic cli::documentation open source contribution::remote open source",
     "description_truncated": true
   },
   {
@@ -4546,11 +4708,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -4716,82 +4878,18 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-13T05:33:49.839758+00:00",
-    "last_seen": "2026-10-13T05:33:49.839758+00:00",
-    "last_checked": "2026-10-13T05:33:49.839758+00:00",
-    "opportunity_identity": "role::armitakia1 cep146project::research legal responsibility and accountability when ai acts independently::remote open source"
-  },
-  {
-    "title": "# Spike 617 — Data retention and GDPR erasure pipeline with TTL sweeps and wallet deletion",
-    "url": "https://github.com/PHASE-STELLAR/Phase/issues/480",
-    "description": "Open-source contribution opportunity. Repository: PHASE-STELLAR/Phase. Labels: help wanted, SPIKE, Stellar Wave. > Type: advanced integration spike (extremely difficult) | Effort: 3–8 weeks | Files touched: 18 (14+ required) | Risk: high — cross-boundary, migration-bearing, flag-gated\n> Status: proposed spike (not yet implemented) | Rollback: feature-flag off + docs revert per PROJECT_ARCHITECTURE.md §10–11\n> Batch: third 50 (600–649). Does not duplicate spikes 500–599 — see `docs/spikes/SPIKE_INDEX_500_549.md` and `docs/spikes/SPIKE_INDEX_550_599.md`.\n\n## 1. Context and motivation\n\nNo erasure path. Wallet-keyed sprawl: claims, notifications+prefs, achievements uppercased keys, socials/follows, three-map referrals, push subs, market views + viewer_hashes, funnel events, worlds/narratives/replies/audit/watchlists/quests/health/jobs+dlq/dead-letter. SQLite tables (listings/offers/signals/replies/CRDT/versions/reactions/payouts/ledger/reservations) no deleted_at, no cascade-erasure helper, no sweep. WAL freed pages linger until checkpoint. Caches (quest 5s, explore, wallet index, cid) no invalidation hook. Logs console JSON with wallets plaintext; retention platform-side outside repo control. Not 548 (export), 564 (deny-list), 569 (leak scan) - retention TTL + subject erasure + tombstones.\n\nThis spike exists because the naive version looks small (a new route, a new script, a new flag) but the correct version cuts across signing, storage, indexing, caching, i18n, observability, and docs. Prior spikes in `docs/spikes/` (033 preview-gating, 035 CID-poison, 036 wash-trading, 037 distributor-race, plus the 500–599 batches) each showed the same pattern: the write path was unguarded or the read path made an impossible assumption. This issue is deliberately scoped so a shortcut fix reintroduces the exact divergence those spikes closed.\n\n## 2. Current architecture (verified in repo)\n\n- Signing boundary: all wallet signing client-side via Freighter / Stellar Wallet Kit (`lib/ste …",
-    "role_context": "# Spike 617 — Data retention and GDPR erasure pipeline with TTL sweeps and wallet deletion PHASE-STELLAR/Phase help wanted, SPIKE, Stellar Wave",
-    "published": "2026-10-19T15:33:09Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "PHASE-STELLAR/Phase",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "8 weeks",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 28,
-    "reasons": [
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "opportunity_identity": "role::armitakia1 cep146project::research legal responsibility and accountability when ai acts independently::remote open source",
+    "alternate_sources": [
       {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
+        "source": "github-issues-api",
+        "url": "https://github.com/armitakia1/CEP146Project/issues/3",
+        "quality": "Open source",
+        "priority": 65
       }
     ],
-    "fit_score": 85,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong privacy relevance",
-      "Strong research writing relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
-    "opportunity_identity": "role::phase stellar phase::spike 617 data retention and gdpr erasure pipeline with ttl sweeps and wallet deletion::remote open source",
-    "description_truncated": true
+    "duplicate_count": 0
   },
   {
     "title": "Add industry file: Legal Tech",
@@ -4859,11 +4957,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -4952,8 +5050,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -5039,8 +5137,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -5126,8 +5224,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -5136,6 +5234,89 @@
         "url": "https://jobs.ashbyhq.com/harvey/a35efd1c-e5ad-4556-bfa4-d2e13f8b7f1c",
         "quality": "Official ATS",
         "priority": 100
+      }
+    ],
+    "duplicate_count": 0
+  },
+  {
+    "title": "Add dataset: bailiff offices (gerechtsdeurwaarders / huissiers de justice)",
+    "url": "https://github.com/pieterjanscheir/be-legal-data/issues/6",
+    "description": "Open-source contribution opportunity. Repository: pieterjanscheir/be-legal-data. Labels: enhancement, help wanted. ## Why\n\nBailiffs (gerechtsdeurwaarders / huissiers de justice / Gerichtsvollzieher) are competent per judicial arrondissement. A directory helps with:\n\n- **Picking a competent bailiff** for service of a writ (dagvaarding / citation) or enforcement in an arrondissement.\n- **Document automation**: the bailiff's office details on writs and enforcement documents.\n- **Checking competence**: was the bailiff competent where the document was served?\n\n## Official sources to start from\n\n- The Nationale Kamer van Gerechtsdeurwaarders / Chambre nationale des huissiers de justice (gerechtsdeurwaarders.be / huissiersdejustice.be). Its directory is built in the browser, so a plain fetch doesn't see the data: look for the JSON endpoint behind it, or ask the Chamber for an export.\n- KBO / BCE for the offices' enterprise numbers (public search or KBO open data, which has its own reuse licence).\n- **Check the directory's terms of use before scraping**, and note them on the docs page.\n\nAbout 500 bailiffs (to confirm), in offices (sole practitioners and companies). The list changes as bailiffs are appointed, retire or move, so it has to come from a script.\n\n## Privacy\n\nBailiffs are public officers and publicly listed, but the dataset holds **professional data only**: name, office, professional address, phone and email, arrondissement. No private addresses, dates of birth or photos. The docs page states the legal basis and how to ask for a correction or removal.\n\n## Proposed fields\n\n```ts\ninterface BailiffOffice {\n  /** The office's KBO enterprise number if every office has one; otherwise kebab-case from its name (to decide, see the id rules) */\n  id: string\n  enterpriseNumber?: string\n  /** Office name as published */\n  name: string\n  /** Bailiffs in the office, professional data only */\n  bailiffs: { name: string; role?: 'bailiff' | 'substitute' | 'candidate' /* to confirm …",
+    "role_context": "Add dataset: bailiff offices (gerechtsdeurwaarders / huissiers de justice) pieterjanscheir/be-legal-data enhancement, help wanted",
+    "published": "2026-10-21T09:19:03Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "pieterjanscheir/be-legal-data",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 26,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 84,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong published output relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "opportunity_identity": "role::pieterjanscheir be legal data::add dataset bailiff offices gerechtsdeurwaarders huissiers de justice::remote open source",
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/pieterjanscheir/be-legal-data/issues/6",
+        "quality": "Open source",
+        "priority": 65
       }
     ],
     "duplicate_count": 0
@@ -5445,8 +5626,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::chicago",
     "description_truncated": true,
     "alternate_sources": [
@@ -5531,8 +5712,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::houston",
     "description_truncated": true,
     "alternate_sources": [
@@ -5617,8 +5798,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-13T05:33:49.839758+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::toronto",
     "description_truncated": true,
     "alternate_sources": [
@@ -5703,8 +5884,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -5789,8 +5970,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -5969,178 +6150,6 @@
     "duplicate_count": 0
   },
   {
-    "title": "Add dataset: prisons (gevangenissen / prisons)",
-    "url": "https://github.com/pieterjanscheir/be-legal-data/issues/2",
-    "description": "Open-source contribution opportunity. Repository: pieterjanscheir/be-legal-data. Labels: enhancement, help wanted. > **Note:** this dataset couldn't be scraped from the session that planned it: the network policy of that cloud environment blocked the official Belgian government hosts. Nothing below is data; it describes where to get the data and what to verify.\n\n## Why\n\nBelgian prisons and related detention facilities are managed by FOD Justitie / SPF Justice, Directoraat-generaal Penitentiaire Inrichtingen (DG EPI). There are roughly 35–40 of them (confirm the exact count). A structured list helps with:\n\n- **Serving documents on detainees** and addressing correspondence to the right institution (griffie / greffe of the prison).\n- **Visiting rules and lawyer visits**: finding the address, phone and email of the facility a client is held in.\n- **Legal aid**: pro-deo lawyers and legal-tech tools that need to route a case by place of detention.\n- **Jurisdiction**: the competent strafuitvoeringsrechtbank / tribunal de l'application des peines depends on the place of detention; linking a prison to its arrondissement makes that lookup possible.\n\n## Official sources to start from\n\n- justice.belgium.be (FR) / justitie.belgium.be (NL): start from the prisons section (gevangenissen / prisons) of the DG EPI pages. The exact URL must be confirmed.\n- vlaanderen.be, \"Gegevens gevangenissen\", as a cross-check for the Flemish facilities: https://www.vlaanderen.be/gezondheid-en-welzijn/conflicten-en-misdrijven/hulp-en-melding/hulp-en-dienstverlening-aan-gedetineerden/gegevens-gevangenissen\n- For Wallonia/Brussels cross-checks, the Fédération Wallonie-Bruxelles pages on aid to detainees (to be confirmed).\n- Capacity figures, only if DG EPI publishes them officially (annual report); always record the date.\n\n## Proposed fields\n\n```ts\ninterface Prison {\n  /** PascalCase ASCII id from the official local-language name, e.g. 'Brugge', 'Lantin' */\n  id: string\n  name: Translated\n  /** Categ …",
-    "role_context": "Add dataset: prisons (gevangenissen / prisons) pieterjanscheir/be-legal-data enhancement, help wanted",
-    "published": "2026-10-20T09:39:39Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "pieterjanscheir/be-legal-data",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [
-      "German",
-      "French"
-    ],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 42,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      },
-      {
-        "signal": "leadership",
-        "points": 8
-      }
-    ],
-    "fit_score": 80,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong research writing relevance",
-      "Strong policy relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly",
-      "Meets German language signal",
-      "Relevant experience overlap: legal tech"
-    ],
-    "fit_gaps": [
-      "Check required French proficiency"
-    ],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
-    "opportunity_identity": "role::pieterjanscheir be legal data::add dataset prisons gevangenissen prisons::remote open source",
-    "description_truncated": true
-  },
-  {
-    "title": "Add dataset: police zones (politiezones / zones de police)",
-    "url": "https://github.com/pieterjanscheir/be-legal-data/issues/7",
-    "description": "Open-source contribution opportunity. Repository: pieterjanscheir/be-legal-data. Labels: enhancement, help wanted. > **Note:** this dataset couldn't be scraped from the session that planned it: the network policy of that cloud environment blocked the official Belgian government hosts. Nothing below is data; it describes where to get the data and what to verify.\n\n## Why\n\nBelgium's local police is organised in police zones (politiezones / zones de police / Polizeizonen), each covering one or more municipalities. The number has been decreasing through mergers (about 180 at some point; **confirm the current count**). A dataset helps with:\n\n- **Which zone handles a municipality**: filing complaints, requesting a copy of a PV (proces-verbaal), contacting the local police about a case.\n- **Linking to police courts**: traffic cases start with a PV from a zone and go to the competent police court.\n- **Address-based routing** in legal-tech tools, via the municipality REFNIS codes already in `data/municipalities.json`.\n\n## Official sources to start from\n\n- police.be: the zone finder and the zone pages (each zone has its official number and website; exact URLs to confirm).\n- Federal police / the Commissariaat-generaal (CGL) lists of local police zones (to confirm).\n- Zone mergers are published as royal decrees in the Belgisch Staatsblad / Moniteur belge (ejustice.just.fgov.be); use them to record effective dates.\n- Statbel / municipality mergers of 2019 and 2025 affect the municipality lists: check against `data/municipalities.json` (565 municipalities).\n\n## Proposed fields\n\n```ts\ninterface PoliceZone {\n  /** Official zone number as a string, e.g. '5415' */\n  id: string\n  name: Translated // official zone name; decide how to handle zones without official translations\n  /** REFNIS codes of the municipalities the zone covers (data/municipalities.json) */\n  municipalities: string[]\n  /** Judicial arrondissement id(s) */\n  arrondissements: string[]\n  /** Main office (hoofdcommissar …",
-    "role_context": "Add dataset: police zones (politiezones / zones de police) pieterjanscheir/be-legal-data enhancement, help wanted",
-    "published": "2026-10-20T09:39:42Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "pieterjanscheir/be-legal-data",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [
-      "German",
-      "French"
-    ],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 34,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      }
-    ],
-    "fit_score": 80,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong research writing relevance",
-      "Strong policy relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly",
-      "Meets German language signal",
-      "Relevant experience overlap: legal tech"
-    ],
-    "fit_gaps": [
-      "Check required French proficiency"
-    ],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
-    "opportunity_identity": "role::pieterjanscheir be legal data::add dataset police zones politiezones zones de police::remote open source",
-    "description_truncated": true
-  },
-  {
     "title": "# Spike 677 — Physical redemption with print claims tied to burn-or-hold policy",
     "url": "https://github.com/PHASE-STELLAR/Phase/issues/540",
     "description": "Open-source contribution opportunity. Repository: PHASE-STELLAR/Phase. Labels: help wanted, SPIKE, integration. > Type: advanced integration spike (extremely difficult) | Effort: 3–8 weeks | Files touched: 16 (14+ required) | Risk: high — cross-boundary, migration-bearing, flag-gated\n> Status: proposed spike (not yet implemented) | Rollback: feature-flag off + docs revert per PROJECT_ARCHITECTURE.md §10–11\n> Batch: fourth 50 (650–699). Does not duplicate spikes 500–649 — see `docs/spikes/SPIKE_INDEX_500_549.md`, `docs/spikes/SPIKE_INDEX_550_599.md` and `docs/spikes/SPIKE_INDEX_600_649.md`. Dedup verified against 150 existing titles by independent research tracks.\n\n## 1. Context and motivation\n\nTransfer family moves TokenOwner+UserPhase+Balance+OwnerTokenList; no burn entrypoint at all (burn spike aspirational, current code cannot destroy); approvals cleared on transfer only. Metadata serves name/description/image - no redeemed flag, no physical-edition mutation guard. Market has cancel/sold flips; no redeemed/fulfilling/shipped state; single-row listing read. Listings route has cancel deactivation; no claim-ticket issuance. No physical_claim/shipment notification types; notifications actions are mark_read/prefs/rotate/funnel only. Profiles hold handles/avatars, no shipping-address vault (PII minimization posture - new GDPR surface). Dashboard owned-artifacts + vault display only; no redeem button/flow; no redemption copy. Closest existing spikes 502 (on-chain supply destruction) and 513 (media provenance gating) - neither captures shipping address, issues claim tickets, orchestrates print-shop fulfillment, or enforces burn-vs-hold redemption policy.\n\nThis spike exists because the naive version looks small (a new route, a new script, a new flag) but the correct version cuts across signing, storage, indexing, caching, i18n, observability, and docs. Prior spikes in `docs/spikes/` (033 preview-gating, 035 CID-poison, 036 wash-trading, 037 distributor-race, plus the 500– …",
@@ -6211,176 +6220,6 @@
     "last_seen": "2026-10-16T05:42:38.188097+00:00",
     "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::phase stellar phase::spike 677 physical redemption with print claims tied to burn or hold policy::remote open source",
-    "description_truncated": true
-  },
-  {
-    "title": "Add dataset: bailiff offices (gerechtsdeurwaarders / huissiers de justice)",
-    "url": "https://github.com/pieterjanscheir/be-legal-data/issues/6",
-    "description": "Open-source contribution opportunity. Repository: pieterjanscheir/be-legal-data. Labels: enhancement, help wanted. > **Note:** this dataset couldn't be scraped from the session that planned it: the network policy of that cloud environment blocked the official Belgian government hosts. Nothing below is data; it describes where to get the data and what to verify.\n\n## Why\n\nBailiffs (gerechtsdeurwaarders / huissiers de justice / Gerichtsvollzieher) have territorial competence per judicial arrondissement. A structured directory helps with:\n\n- **Picking a competent bailiff** for service of a writ (dagvaarding / citation) or enforcement in a given arrondissement.\n- **Document automation**: filling in the bailiff's office details on writs and enforcement documents.\n- **Checking competence**: verifying that a bailiff is competent where a document was served.\n\n## Official sources to start from\n\n- The Nationale Kamer van Gerechtsdeurwaarders / Chambre nationale des huissiers de justice: start from gerechtsdeurwaarders.be / huissiersdejustice.be (domains and directory URL to confirm). Arrondissement chambers may publish their own lists.\n- The KBO / BCE (Kruispuntbank van Ondernemingen) for enterprise numbers of the offices (via the public search or KBO open data, which has its own reuse licence).\n- **Terms of use**: check the official directory's terms of use **before** scraping, and document them in the docs page. If scraping is not allowed, ask the Chamber for an export.\n\n## Volume\n\nAbout 500 bailiffs (confirm), grouped in offices (sole practitioners and companies). A scraper script is required so the data can be refreshed; the list changes as bailiffs are appointed, retire or move.\n\n## Privacy / GDPR\n\nBailiffs are public officers who are publicly listed, but the dataset must stay limited to **professional data**: name, office, professional address, professional phone/email, arrondissement. No private addresses, dates of birth, photos or other personal data. Mention the legal …",
-    "role_context": "Add dataset: bailiff offices (gerechtsdeurwaarders / huissiers de justice) pieterjanscheir/be-legal-data enhancement, help wanted",
-    "published": "2026-10-20T09:39:42Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "pieterjanscheir/be-legal-data",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [
-      "German",
-      "French"
-    ],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 50,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      }
-    ],
-    "fit_score": 77,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong privacy relevance",
-      "Strong research writing relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly",
-      "Meets German language signal"
-    ],
-    "fit_gaps": [
-      "Check required French proficiency"
-    ],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
-    "opportunity_identity": "role::pieterjanscheir be legal data::add dataset bailiff offices gerechtsdeurwaarders huissiers de justice::remote open source",
-    "description_truncated": true
-  },
-  {
-    "title": "Add dataset: AAPD offices — Kadaster (Opmeting & Waardering) and Rechtszekerheid (former hypotheekkantoren)",
-    "url": "https://github.com/pieterjanscheir/be-legal-data/issues/8",
-    "description": "Open-source contribution opportunity. Repository: pieterjanscheir/be-legal-data. Labels: enhancement, help wanted. > **Note:** this dataset couldn't be scraped from the session that planned it: the network policy of that cloud environment blocked the official Belgian government hosts. Nothing below is data; it describes where to get the data and what to verify.\n\n## Why\n\nFOD Financiën / SPF Finances, Algemene Administratie van de Patrimoniumdocumentatie (AAPD / AGDP), runs two kinds of offices with a territorial competence that legal practitioners need daily:\n\n- **Rechtszekerheid / Sécurité juridique** (formerly hypotheekkantoren / conservations des hypothèques): registration (overschrijving / transcription) of deeds, mortgage registrations, and **mortgage certificates** (hypothecair getuigschrift / état hypothécaire).\n- **Opmeting & Waardering / Mesures & Évaluations** (cadastre / kadaster): **cadastral extracts** and plans, cadastral income.\n\nUse cases: requesting a mortgage certificate or cadastral extract before a sale or seizure, registering deeds, notarial and enforcement workflows, and any tool that needs to route a property (by municipality / cadastral division) to the competent office.\n\n## Official sources to start from\n\n- financien.belgium.be: start from the AAPD / patrimoniumdocumentatie contact pages and the office finder (exact URL to confirm). MyMinfin may also expose competence per municipality (to confirm; may require login, in which case it is not a usable source).\n- Ministerial or royal decrees setting the territorial competence of the offices, published in the Belgisch Staatsblad (ejustice.just.fgov.be), for authoritative competence and effective dates.\n- Cadastral divisions (kadastrale afdelingen) are numbered per municipality; check whether competence ever follows divisions rather than whole municipalities.\n\n## Proposed fields\n\n```ts\ninterface PatrimonyDocumentationOffice {\n  /** PascalCase ASCII id from the official local-language name, e.g. 'Ge …",
-    "role_context": "Add dataset: AAPD offices — Kadaster (Opmeting & Waardering) and Rechtszekerheid (former hypotheekkantoren) pieterjanscheir/be-legal-data enhancement, help wanted",
-    "published": "2026-10-20T09:39:43Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "pieterjanscheir/be-legal-data",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [
-      "German",
-      "French"
-    ],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 34,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      }
-    ],
-    "fit_score": 77,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong research writing relevance",
-      "Strong policy relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly",
-      "Meets German language signal"
-    ],
-    "fit_gaps": [
-      "Check required French proficiency"
-    ],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
-    "opportunity_identity": "role::pieterjanscheir be legal data::add dataset aapd offices kadaster opmeting and waardering and rechtszekerheid former hypotheekkantoren::remote open source",
     "description_truncated": true
   },
   {
@@ -6885,8 +6724,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::legora::business analyst legal engineering::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -7302,8 +7141,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -7557,8 +7396,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel::munich",
     "description_truncated": true
   },
@@ -7635,8 +7474,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-20T10:05:28.668404+00:00",
-    "last_checked": "2026-10-20T10:05:28.668404+00:00",
+    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-21T10:09:20.281732+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
