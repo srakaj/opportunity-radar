@@ -101,8 +101,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -556,8 +556,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -811,8 +811,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::shelterflex monorepo::frontend privacy policy page shows a placeholder phone number instead of the real one::remote open source",
     "alternate_sources": [
       {
@@ -1632,8 +1632,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -1903,8 +1903,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -2085,8 +2085,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-11T05:30:02.301512+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::feature skill compliance mapping soc2 hipaa gdpr pci dss frameworks::remote open source",
     "alternate_sources": [
       {
@@ -3115,7 +3115,7 @@
     "url": "https://github.com/GSA/MasteringAgenticAISystems_supplementals/issues/100",
     "description": "Open-source contribution opportunity. Repository: GSA/MasteringAgenticAISystems_supplementals. Labels: help wanted, track:content-review, effort:small, topic:governance-compliance, part:09, artifact:chapter-text. <!-- content-review:chapter:9.7 -->\n### Chapter\n**Ch 9.7 — GDPR and Data Protection Regulations**\nPart 9 — Safety & Governance\n\nRated highly relevant for: NVIDIA NCP-AAI, AWS AIP-C01, Databricks GenAI Engineer, Google Cloud PMLE, Microsoft AI-102 (per [`cert_mapping/`](https://github.com/GSA/MasteringAgenticAISystems_supplementals/blob/master/cert_mapping/README.md)).\n\n### Review it your way\nRead the chapter and tell us what you find. There is no fixed list to work through — follow whatever fits your expertise and interest. For example:\n- Technical accuracy of claims and examples\n- Whether tools, models, APIs or standards are still current\n- Clarity, pacing and level for the intended reader\n- Consistency with neighboring chapters\n- How well it prepares readers for certification exams\n\nA partial review is a real contribution: one section, or one angle across the whole chapter, is plenty.\n\n### Size\nAbout 5,555 words — roughly 25 minutes of reading, more if you check claims against sources.\n\n### How to take part\n1. Comment below to say you'd like to take this, and (optionally) which angle you plan to take. A maintainer will assign it to you.\n2. We'll email you the chapter text. It is not hosted in this repository, so please quote only the passage you are commenting on rather than pasting whole sections.\n3. Post findings here as comments. The most useful findings say *where* (a section heading), *what* you found, a quote or source for it, and a suggested fix — the [content-review checklist](https://github.com/GSA/MasteringAgenticAISystems_supplementals/blob/master/.github/REVIEW_CHECKLISTS.md#instructional-content-review-chapter-text-slides-quizzes) has the details.\n4. When you're done, say where you land: **accept**, **minor revisions**, or **major revisions** …",
     "role_context": "[Content Review]: Ch 9.7 — GDPR and Data Protection Regulations GSA/MasteringAgenticAISystems_supplementals help wanted, track:content-review, effort:small, topic:governance-compliance, part:09, artifact:chapter-text",
-    "published": "2026-10-19T19:52:13Z",
+    "published": "2026-10-21T16:55:19Z",
     "source": "github-issues-api",
     "source_type": "open_source",
     "organization": "GSA/MasteringAgenticAISystems_supplementals",
@@ -3180,8 +3180,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 7 gdpr and data protection regulations::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -3437,8 +3437,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -4553,90 +4553,9 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
-    "description_truncated": true
-  },
-  {
-    "title": "documentation/open-source-contribution",
-    "url": "https://github.com/UdaySharmaGitHub/Agentic-cli/issues/1",
-    "description": "Open-source contribution opportunity. Repository: UdaySharmaGitHub/Agentic-cli. Labels: accessibility, documentation, enhancement, good first issue, infrastructure, migration. # Issue: Prepare Agentic-cli for Open-Source Contribution\n\n## Summary\n\nAgentic-cli v4.2 is a fully working agentic CLI powered by Google Gemini. The codebase is ready for contributors, but several community and legal files are missing that GitHub requires before a project shows a green \"Community Standards\" health score and before external contributors can safely submit pull requests.\n\nThis issue tracks every file that needs to be created so that a first-time contributor can go from zero to a merged PR without asking any questions.\n\n---\n\n## Background\n\nAgentic-cli is a terminal-based agentic CLI that:\n- Reads/writes files, runs shell commands, and searches the web via a ReAct agent loop\n- Uses Google Gemini (`@google/generative-ai`) with native streaming and function calling\n- Is written in TypeScript (Node.js ≥ 18), built with `tsup`, and run via `tsx` in development\n- Requires a `GEMINI_API_KEY` and optionally `BRAVE_API_KEY` / `TAVILY_API_KEY`\n- Exposes a modular tool system where new tools are added in two steps (create module + register)\n\nThe repository currently has: `README.md`, `package.json`, `tsconfig.json`, `.env.example`, `.gitignore`, `LICENSE`, and the full `src/` source tree.\n\n---\n\n## What Is Missing\n\nThe following files do not yet exist and must be created:\n\n| # | File | Status |\n|---|------|--------|\n| 1 | `CONTRIBUTING.md` | Missing |\n| 2 | `CODE_OF_CONDUCT.md` | Missing |\n| 3 | `SECURITY.md` | Missing |\n| 4 | `.github/ISSUE_TEMPLATE/bug_report.md` | Missing |\n| 5 | `.github/ISSUE_TEMPLATE/feature_request.md` | Missing |\n| 6 | `.github/pull_request_template.md` | Missing |\n| 7 | `CHANGELOG.md` | Missing |\n| 8 | `.github/workflows/ci.yml` | Missing |\n\nThe following existing files need updates:\n\n| # | File | What needs to change |\n|---|------|----------------------|\n| 9 | `READ …",
-    "role_context": "documentation/open-source-contribution UdaySharmaGitHub/Agentic-cli accessibility, documentation, enhancement, good first issue, infrastructure, migration",
-    "published": "2026-10-21T09:49:39Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "UdaySharmaGitHub/Agentic-cli",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 46,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "remote",
-        "points": 10
-      },
-      {
-        "signal": "leadership",
-        "points": 8
-      }
-    ],
-    "fit_score": 85,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong privacy relevance",
-      "Strong research writing relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
-    "opportunity_identity": "role::udaysharmagithub agentic cli::documentation open source contribution::remote open source",
     "description_truncated": true
   },
   {
@@ -4708,11 +4627,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -4957,11 +4876,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -5050,8 +4969,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -5137,8 +5056,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -5224,8 +5143,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -5394,6 +5313,83 @@
     "last_checked": "2026-10-15T05:43:39.211092+00:00",
     "opportunity_identity": "role::zk vote zk vote::spike 146 anchor kyc data touches product surfaces with no boundary policy::remote open source",
     "description_truncated": true
+  },
+  {
+    "title": "[Good First Issue] Cross-check Vietnamese Law on Electronic Transactions 2023 requirements for a \"Data Message\" against Layer A evidence logs",
+    "url": "https://github.com/nan-nexus-network/ai2ai-research/issues/1",
+    "description": "Open-source contribution opportunity. Repository: nan-nexus-network/ai2ai-research. Labels: good first issue, policy, vietnam-law. **Context:** For technical evidence from Layer A (`ai2ai-core`) to be usable in Layer B (commercial arbitration in Vietnam, such as at VIAC), the logged events must satisfy the statutory criteria of a trustworthy \"Thong diep du lieu\" (Data Message) under Vietnam's Law on Electronic Transactions 2023.\n\n**Task:** Add a structured Markdown comparison table in `docs/vn_etransaction_mapping.md` mapping each technical field produced by `ai2ai-core` to the corresponding statutory requirement.\n\n**Acceptance Criteria:**\n- [ ] Neutral, objective legal-technical mapping. No political commentary.\n- [ ] Every statutory citation carries a verifiable source link.\n- [ ] A bilingual (VI/EN) summary is preferred.",
+    "role_context": "[Good First Issue] Cross-check Vietnamese Law on Electronic Transactions 2023 requirements for a \"Data Message\" against Layer A evidence logs nan-nexus-network/ai2ai-research good first issue, policy, vietnam-law",
+    "published": "2026-10-22T07:54:03Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "nan-nexus-network/ai2ai-research",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 36,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 83,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong research writing relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: legal tech"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
+    "opportunity_identity": "role::nan nexus network ai2ai research::good first issue cross check vietnamese law on electronic transactions 2023 requirements for a data message against layer a evidence logs::remote open source"
   },
   {
     "title": "Add an opt-in WebFlux governance observation to audit sink bridge",
@@ -5626,8 +5622,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::chicago",
     "description_truncated": true,
     "alternate_sources": [
@@ -5712,8 +5708,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::houston",
     "description_truncated": true,
     "alternate_sources": [
@@ -5798,8 +5794,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-13T05:33:49.839758+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::toronto",
     "description_truncated": true,
     "alternate_sources": [
@@ -5884,8 +5880,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -5970,8 +5966,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -6221,6 +6217,78 @@
     "last_checked": "2026-10-16T05:42:38.188097+00:00",
     "opportunity_identity": "role::phase stellar phase::spike 677 physical redemption with print claims tied to burn or hold policy::remote open source",
     "description_truncated": true
+  },
+  {
+    "title": "Add privacy, terms and contact links to the footer",
+    "url": "https://github.com/StreamGive/streamgive-frontend/issues/307",
+    "description": "Open-source contribution opportunity. Repository: StreamGive/streamgive-frontend. Labels: enhancement, good first issue, Stellar Wave. ## Summary\n\nThe footer links only to GitHub and the docs. Donors have nowhere to find a\nprivacy notice, terms or a way to contact the team.\n\n## Acceptance criteria\n\n- [ ] Add links (or a contact address) for privacy, terms and support.\n- [ ] Mark links that open in a new tab with an accessible cue.\n## Getting started\n\nFork this repository, clone your fork, and add this repo as `upstream`:\n\n```bash\ngit clone https://github.com/<your-username>/streamgive-frontend.git\ncd streamgive-frontend\ngit remote add upstream https://github.com/StreamGive/streamgive-frontend.git\n```\n\nCreate a branch for this issue:\n\n```bash\ngit checkout -b feat/footer-legal-links\n```\n\nSuggested commit message:\n\n```\nfeat(footer): add privacy, terms and contact links\n```\n\nRun `npm run lint`, `npm run typecheck`, and `npm test` before pushing, then\nopen a pull request from your fork against `main` and link this issue. See\n[the contributing guide](https://github.com/StreamGive/streamgive-docs/blob/main/docs/contributing.md) for the full contribution guide.",
+    "role_context": "Add privacy, terms and contact links to the footer StreamGive/streamgive-frontend enhancement, good first issue, Stellar Wave",
+    "published": "2026-10-22T09:39:27Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "StreamGive/streamgive-frontend",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 26,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "remote",
+        "points": 10
+      }
+    ],
+    "fit_score": 78,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
+    "opportunity_identity": "role::streamgive streamgive frontend::add privacy terms and contact links to the footer::remote open source"
   },
   {
     "title": "Help wanted: legal path to Hearthstone shop / gold on Linux",
@@ -6724,8 +6792,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::legora::business analyst legal engineering::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -7046,6 +7114,97 @@
     "description_truncated": true
   },
   {
+    "title": "Native review of the German, French, Spanish and Chinese GDPR, retention and masking site strings",
+    "url": "https://github.com/HodeTech/ForgeLM/issues/1055",
+    "description": "Open-source contribution opportunity. Repository: HodeTech/ForgeLM. Labels: help wanted, area: site, i18n, severity: low, wave: 4. ## Summary\n\nThe German, French, Spanish and Chinese site strings about GDPR, retention and masking were written without a native-speaker review. English and Turkish are authoritative; the other four locales are a deferred tier (`docs/standards/localization.md`), and the owner accepted the exception for these strings in pull requests #1000 and #1050. They state legal facts (what `forgelm reverse-pii` and `forgelm purge` are for, what is and is not changed), so a wrong nuance in a translation is a compliance statement that nobody has checked.\n\n## Strings to review (key x locale `de`, `fr`, `es`, `zh`)\n\n- `home.cap.gdpr.body`, `home.use.domain.body`, `features.data.pii.body`\n- `compliance.gdpr15.body`, `compliance.gdpr17.body`, `compliance.art10.body`\n- `features.gov.access.title` / `.body`, `features.gov.purge.title` / `.body`\n- `privacy.body` (the \"Data-subject rights\" paragraph)\n- `wizard.retention.title`, `wizard.retention.hint`, `wizard.retention.audit_log.hint`, `.staging.hint`, `.ephemeral.hint`, `.raw_documents.hint`\n\n## What a reviewer checks\n\n- The legal terms: data subject (betroffene Person / personne concernée / interesado / 数据主体), access (Auskunft / droit d'accès / acceso), erasure (Löschung / effacement / supresión / 删除), and the citation style for GDPR articles and paragraphs.\n- The caveats survive: \"an input to an Article 15 response\", \"one step of an Article 17 erasure\", \"trained weights are not changed\", \"matching is literal and case-sensitive\", \"masking is opt-in (`--pii-mask`)\", \"a horizon is only reported, never enforced; `0` stops the report\".\n- Natural wording, consistent terminology within each locale (for example \"journal d'audit\" vs \"log d'audit\" in French).\n\n## Acceptance criteria\n\n- [ ] One native reviewer per locale (or a documented decision to leave a locale at English fallback) has read every string above and …",
+    "role_context": "Native review of the German, French, Spanish and Chinese GDPR, retention and masking site strings HodeTech/ForgeLM help wanted, area: site, i18n, severity: low, wave: 4",
+    "published": "2026-10-22T06:26:32Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "HodeTech/ForgeLM",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [
+      "German",
+      "French",
+      "Spanish"
+    ],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 52,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 71,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Meets German language signal",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [
+      "Check required French proficiency",
+      "Check required Spanish proficiency"
+    ],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
+    "opportunity_identity": "role::hodetech forgelm::native review of the german french spanish and chinese gdpr retention and masking site strings::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "Legal Engineer, Law Firms and In-House, Dubai",
     "url": "https://jobs.ashbyhq.com/legora/fdecebdd-ae00-4408-9fa2-88909bdb364d",
     "description": "Organisation: Legora. Location: Dubai. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. About the role Let's get the tricky part out of the way. Legal Engineering does not fit neatly into a traditional box. It combines legal practice, product fluency, client leadership and practical change management. The job exists because software alone does not change how legal work gets done. Someone has to understand the work well enough to redesign it, and be credible enough that lawyers listen. As a Legal Engineer in Dubai, you sit between the lawyers using Legora and the people building it. You will work with law firms and in-hous …",
@@ -7141,8 +7300,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -7396,8 +7555,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel::munich",
     "description_truncated": true
   },
@@ -7474,8 +7633,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-21T10:09:20.281732+00:00",
-    "last_checked": "2026-10-21T10:09:20.281732+00:00",
+    "last_seen": "2026-10-22T10:12:00.242439+00:00",
+    "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
