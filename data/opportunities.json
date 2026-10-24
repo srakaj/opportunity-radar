@@ -101,8 +101,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -556,8 +556,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -569,6 +569,88 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "[Roadmap v0.6.0] Pluggable Global & State Regulatory Packs (GDPR, CCPA/CPRA, FERPA, CJIS v6.0 & 50-State FOIA)",
+    "url": "https://github.com/mr8lu/blackmarker-studio/issues/5",
+    "description": "Open-source contribution opportunity. Repository: mr8lu/blackmarker-studio. Labels: enhancement, help wanted, good first issue, roadmap, v0.6.0, compliance. ## Overview\nExpand Blackmarker Studio's statutory and regulatory registry (`src/redact_gov/core/statutes.py` and `src/redact_gov/core/criteria.py`) with modular, pluggable compliance packs for international, federal, and 50-state privacy frameworks.\n\n## Planned Compliance Packs (`v0.6.0`)\n- [ ] **GDPR (European Union - Regulation (EU) 2016/679):** Articles 4(1), 9 (Special Categories of Personal Data), and 17/89 de-identification citations, plus EU IBAN, VAT, and national ID Tier 1 validators.\n- [ ] **CCPA / CPRA (California Civil Code § 1798.100 et seq.):** California Sensitive Personal Information (SPI) citations and consumer record presets.\n- [ ] **FERPA (20 U.S.C. § 1232g; 34 CFR Part 99):** Dedicated Student Education Record profile (student IDs, IEP accommodations, disciplinary narratives, parent/guardian PII).\n- [ ] **CJIS Security Policy v6.0:** Expanded Criminal Justice Information (CJI) identifiers, NCIC/state criminal history numbers, and law enforcement dispatch logs.\n- [ ] **50-State Public Records / FOIA Citation Packs:** Modular YAML/JSON or Python statutory registries for additional U.S. states (e.g., NY FOIL, CA CPRA, TX PIA, FL Sunshine Law, IL FOIA) alongside the existing Commonwealth of Virginia (`Va. Code § 2.2-3700`) and Federal FOIA (`5 U.S.C. § 552`) profiles.\n\n## How to Contribute\nSee [CONTRIBUTING.md](https://github.com/mr8lu/blackmarker-studio/blob/main/CONTRIBUTING.md) for step-by-step instructions on registering new `ComplianceStatute` entries, certificate presets, and Tier 1 `PII` / `PHI` / `PPI` validators.",
+    "role_context": "[Roadmap v0.6.0] Pluggable Global & State Regulatory Packs (GDPR, CCPA/CPRA, FERPA, CJIS v6.0 & 50-State FOIA) mr8lu/blackmarker-studio enhancement, help wanted, good first issue, roadmap, v0.6.0, compliance",
+    "published": "2026-10-23T21:04:48Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "mr8lu/blackmarker-studio",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 50,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      }
+    ],
+    "fit_score": 91,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
+    "opportunity_identity": "role::mr8lu blackmarker studio::roadmap v0 6 0 pluggable global and state regulatory packs gdpr ccpa cpra ferpa cjis v6 0 and 50 state foia::remote open source"
   },
   {
     "title": "[Content Review]: Quizzes — Part 9: 9.6B to 9.9",
@@ -1632,8 +1714,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -1903,8 +1985,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -2420,6 +2502,84 @@
     "last_seen": "2026-09-27T05:26:33.839527+00:00",
     "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::arpahls skillware::new skill vasp counterparty screening hook for regulated operators::remote open source"
+  },
+  {
+    "title": "[opt-out check] Quad Graphics, Inc.: confirm the opt-out route works",
+    "url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/121",
+    "description": "Open-source contribution opportunity. Repository: lizTheDeveloper/privacy-the-game. Labels: good first issue, bounty, bounty: small, data-brokers. **What**: Check whether the opt-out route we list for Quad Graphics, Inc. is a real, working one.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Broker: Quad Graphics, Inc. (`quad-graphics`)\n- Method: web-form\n- Current route: [https://www.quad.com/legal/privacy-policy](https://www.quad.com/legal/privacy-policy)\n- Status: `blocked` (last checked 2026-10-18). Our robot was refused (a 401/403/429/5xx response, a timeout or another network error). This is often bot protection and is not evidence the page is gone.\n\n**What to do**\n1. Open the URL above in a normal browser (not a script).\n2. Report whether it is a real opt-out or removal form, and where it actually ends up (the final URL after any redirects).\n3. Look on the broker's own site for a newer opt-out URL, and report it if you find one.\n4. Report what the form requires (email, phone, ID upload, account, payment). Do not submit it.\n5. Capture whatever page you land on.\n\n**What counts as done**\nComment on this issue with: the final URL, a one-line verdict (real opt-out form / not an opt-out / moved / gone), any newer URL, what it requires, and a Wayback capture (https://web.archive.org/save/<url>) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/README.md). If no file under `research/data-brokers/build/` fits your fix, a comment is the right route.\n\n**Gr …",
+    "role_context": "[opt-out check] Quad Graphics, Inc.: confirm the opt-out route works lizTheDeveloper/privacy-the-game good first issue, bounty, bounty: small, data-brokers",
+    "published": "2026-10-23T12:14:54Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "lizTheDeveloper/privacy-the-game",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 40,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
+    "opportunity_identity": "role::lizthedeveloper privacy the game::opt out check quad graphics inc confirm the opt out route works::remote open source",
+    "description_truncated": true
   },
   {
     "title": "[Good first issue] Add dataset, study, and result card templates",
@@ -3180,8 +3340,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 7 gdpr and data protection regulations::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -3347,9 +3507,18 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_seen": "2026-09-30T05:29:39.227533+00:00",
-    "last_checked": "2026-09-30T05:29:39.227533+00:00",
-    "opportunity_identity": "role::maziyarpanahi openmed::summarize privacy budget consumption without site identifiers::remote open source"
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
+    "opportunity_identity": "role::maziyarpanahi openmed::summarize privacy budget consumption without site identifiers::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/maziyarpanahi/openmed/issues/3097",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Legal Operations Associate",
@@ -3437,8 +3606,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -4227,6 +4396,100 @@
     "description_truncated": true
   },
   {
+    "title": "Help wanted: legal path to Hearthstone shop / gold on Linux",
+    "url": "https://github.com/DawnMagnet/hearthstone-linux-gui/issues/26",
+    "description": "Open-source contribution opportunity. Repository: DawnMagnet/hearthstone-linux-gui. Labels: help wanted, question. ## Summary\n\nThe Hearthstone shop does not work in this launcher on Linux: the store appears closed and the gold balance is not shown. Login and gameplay work fine (see #22, fixed in v0.2.3). This issue is a call for **community help in finding a legal way** to support the shop / gold display. Our primary goal remains **playing the game**, not the shop.\n\n## Current state\n\n- The native Linux Unity client has no `blz_commerce_sdk_plugin` library. Blizzard only ships it for Windows and macOS (plus Android arm64).\n- This project, like upstream [0xf4b1/hearthstone-linux](https://github.com/0xf4b1/hearthstone-linux), ships only a **stub** in its place. The stub returns an empty product catalog and an empty balance, so the game treats the shop as closed and gold is not displayed.\n- Checkout also depends on Blizzard's embedded `BlizzardBrowser`, which has no Linux build either.\n- Upstream has already said that this is expected and has never been fixed: https://github.com/0xf4b1/hearthstone-linux/issues/81. Some people mentioned partial work, but no code was ever published.\n\n## Why this is hard\n\n**Technical:**\n- **Wine bridge to the official Windows DLLs:** you would have to load Windows commerce/browser binaries inside a native Linux Unity process. This is very complex and fragile.\n- **Reverse-engineering / reimplementing the commerce SDK or protocol:** this is a large effort, and it would also need a working checkout flow.\n- **Loading the macOS or Android `.so`/dylib builds:** these target a different OS or ABI and are not realistically loadable here.\n\n**Legal / policy:**\n- The [Blizzard EULA](https://www.blizzard.com/legal/08b946df-660a-40e4-a072-1fbde65173b1/blizzard-end-user-license-agreement) prohibits reverse engineering, emulating or simulating Blizzard protocols, and using unauthorized third-party tools that interact with its services.\n- Payments involve …",
+    "role_context": "Help wanted: legal path to Hearthstone shop / gold on Linux DawnMagnet/hearthstone-linux-gui help wanted, question",
+    "published": "2026-10-24T08:59:39Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "DawnMagnet/hearthstone-linux-gui",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 60,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-12T05:33:33.503410+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
+    "opportunity_identity": "role::dawnmagnet hearthstone linux gui::help wanted legal path to hearthstone shop gold on linux::remote open source",
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/DawnMagnet/hearthstone-linux-gui/issues/26",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
+  },
+  {
     "title": "AI Act: security and robustness guidance for high-risk systems",
     "url": "https://github.com/mdiamantino/awesome-eu-cybersec/issues/28",
     "description": "Open-source contribution opportunity. Repository: mdiamantino/awesome-eu-cybersec. Labels: help wanted, coverage gap. Article 15 requires accuracy, robustness and cybersecurity for high-risk AI systems. The standardisation work at CEN-CENELEC JTC 21, the AI Office guidance and national regulator material are all in scope. Generic AI-safety content with no EU legal hook is not.\n\n### What is wanted\n\nEntries in `data/resources/governance-risk-policy.yml`. One good entry is a complete\ncontribution; there is no need to fill the whole gap.\n\n### How to do it\n\n```bash\ngit clone https://github.com/mdiamantino/awesome-eu-cybersec && cd awesome-eu-cybersec\nmake install\n$EDITOR data/resources/governance-risk-policy.yml\nmake build     # regenerates README.md and the exports\nmake check     # the same thing CI runs\n```\n\nCommit the YAML change together with the regenerated `README.md`,\n`data/ecosystem.yml` and `data/ecosystem.json`, then open the pull request.\n\n### Entry format\n\n```yaml\n- name: Vulnerability-Lookup\n  url: https://github.com/vulnerability-lookup/vulnerability-lookup\n  description: Software from CIRCL Luxembourg that correlates advisories from national\n    vulnerability databases and CSAF providers and supports coordinated disclosure workflows.\n  subcategory: Vulnerability Intelligence\n  tags: [cvd, correlation, circl]\n  entry_type: Tool\n  country_or_body: Luxembourg/CIRCL\n  hosting_note: '[Open Source]'\n  license: AGPL-3.0-or-later\n  confidence: high\n  last_verified: '2026-09-16'\n```\n\nField reference and the scope rules are in\n[CONTRIBUTING.md](https://github.com/mdiamantino/awesome-eu-cybersec/blob/main/CONTRIBUTING.md).\n\n### The one bar\n\nOpen the URL yourself and confirm the page is what you say it is. An entry you\nhave not read does not go in, and `confidence: high` means you fetched it.\nQuote what you saw in the pull request.\n\nNot sure whether something qualifies? Ask in this issue before writing the entry.\nThat is what it is for.",
@@ -4553,9 +4816,90 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
+    "description_truncated": true
+  },
+  {
+    "title": "[N2] Governance: a second maintainer, contributor ladder, ADRs, citation, open-core boundary",
+    "url": "https://github.com/smusali/checkOwners/issues/96",
+    "description": "Open-source contribution opportunity. Repository: smusali/checkOwners. Labels: documentation, help wanted. **Action item:** N2 · **Epic:** N — Community and Governance · **Priority:** P1 · **Effort:** M · **Milestone:** `1.0.0`\n**Depends on:** N1 · **Blocks:** —\n**Source:** [`docs/PROJECT_STATE_AND_ROADMAP.md` at `bbf98ea`](https://github.com/smusali/checkOwners/blob/bbf98ea5b7a4350b6bf41cc1ce127cfda36d65da/docs/PROJECT_STATE_AND_ROADMAP.md) §16, §25, §30.9\n\n## Problem\n\n**The tool that measures bus factor has a bus factor of one.** Two contributors, one of which is an AI agent. No `GOVERNANCE.md`, no contributor ladder, no architectural decision records, no `CITATION.cff`, and no statement of open-core intent.\n\n## Impact\n\nThis is not a joke to a buyer; it is **the first question a platform team asks**. The project ships a bus factor of one, an unenforced coverage target, and a comparison table that omits its real competitors — while selling a tool that detects exactly those categories of risk in other people's repositories. **Fix that irony; much else follows from it.**\n\nSeparately, ambiguity about commercial intent suppresses contribution. Contributors will notice the organizational context; saying nothing is worse than saying something.\n\n## Scope of change\n\n**1. Recruit a second maintainer, publicly, with release rights**, and say so in `GOVERNANCE.md`. Ironically, an ownership tool should have exceptionally clear project ownership. **Do this before asking any company to depend on the project.**\n\n**2. `GOVERNANCE.md`** with a contributor ladder and documented criteria for each rung:\n\n```text\nContributor → Reviewer → Maintainer → Core Maintainer\n```\n\n**3. Architectural decision records** in `docs/adr/`:\n\n```text\n0001-confidence-model.md\n0002-codeowners-pattern-engine.md\n0003-identity-resolution.md\n0004-bus-factor-v2.md\n```\n\nplus records for decisions taken in this backlog: the notifier decision (G7), the blame architecture choice (J3), and the forge abstraction (K7 …",
+    "role_context": "[N2] Governance: a second maintainer, contributor ladder, ADRs, citation, open-core boundary smusali/checkOwners documentation, help wanted",
+    "published": "2026-10-23T23:30:18Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "smusali/checkOwners",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 47,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong governance relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
+    "opportunity_identity": "role::smusali checkowners::n2 governance a second maintainer contributor ladder adrs citation open core boundary::remote open source",
     "description_truncated": true
   },
   {
@@ -4627,11 +4971,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -4876,11 +5220,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -4969,8 +5313,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -5056,8 +5400,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -5143,8 +5487,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -5631,8 +5975,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::chicago",
     "description_truncated": true,
     "alternate_sources": [
@@ -5717,8 +6061,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::houston",
     "description_truncated": true,
     "alternate_sources": [
@@ -5803,8 +6147,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-13T05:33:49.839758+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::toronto",
     "description_truncated": true,
     "alternate_sources": [
@@ -5889,8 +6233,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -5975,8 +6319,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -6298,83 +6642,6 @@
     "last_seen": "2026-10-22T10:12:00.242439+00:00",
     "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::streamgive streamgive frontend::add privacy terms and contact links to the footer::remote open source"
-  },
-  {
-    "title": "Help wanted: legal path to Hearthstone shop / gold on Linux",
-    "url": "https://github.com/DawnMagnet/hearthstone-linux-gui/issues/26",
-    "description": "Open-source contribution opportunity. Repository: DawnMagnet/hearthstone-linux-gui. Labels: help wanted, question. ## Summary\n\nThe Hearthstone shop does not work in this launcher on Linux: the store appears closed and the gold balance is not shown. Login and gameplay work fine (see #22, fixed in v0.2.3). This issue is a call for **community help in finding a legal way** to support the shop / gold display. Our primary goal remains **playing the game**, not the shop.\n\n## Current state\n\n- The native Linux Unity client has no `blz_commerce_sdk_plugin` library. Blizzard only ships it for Windows and macOS (plus Android arm64).\n- This project, like upstream [0xf4b1/hearthstone-linux](https://github.com/0xf4b1/hearthstone-linux), ships only a **stub** in its place. The stub returns an empty product catalog and an empty balance, so the game treats the shop as closed and gold is not displayed.\n- Checkout also depends on Blizzard's embedded `BlizzardBrowser`, which has no Linux build either.\n- Upstream has already said that this is expected and has never been fixed: https://github.com/0xf4b1/hearthstone-linux/issues/81. Some people mentioned partial work, but no code was ever published.\n\n## Why this is hard\n\n**Technical:**\n- **Wine bridge to the official Windows DLLs:** you would have to load Windows commerce/browser binaries inside a native Linux Unity process. This is very complex and fragile.\n- **Reverse-engineering / reimplementing the commerce SDK or protocol:** this is a large effort, and it would also need a working checkout flow.\n- **Loading the macOS or Android `.so`/dylib builds:** these target a different OS or ABI and are not realistically loadable here.\n\n**Legal / policy:**\n- The [Blizzard EULA](https://www.blizzard.com/legal/08b946df-660a-40e4-a072-1fbde65173b1/blizzard-end-user-license-agreement) prohibits reverse engineering, emulating or simulating Blizzard protocols, and using unauthorized third-party tools that interact with its services.\n- Payments involve …",
-    "role_context": "Help wanted: legal path to Hearthstone shop / gold on Linux DawnMagnet/hearthstone-linux-gui help wanted, question",
-    "published": "2026-10-11T06:25:20Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "DawnMagnet/hearthstone-linux-gui",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 34,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "opportunity_in_title",
-        "points": 12
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      }
-    ],
-    "fit_score": 76,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong policy relevance",
-      "Strong published output relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-12T05:33:33.503410+00:00",
-    "last_seen": "2026-10-12T05:33:33.503410+00:00",
-    "last_checked": "2026-10-12T05:33:33.503410+00:00",
-    "opportunity_identity": "role::dawnmagnet hearthstone linux gui::help wanted legal path to hearthstone shop gold on linux::remote open source",
-    "description_truncated": true
   },
   {
     "title": "BBK-DFIR dependency license review - volunteer independent reviewer wanted",
@@ -6801,8 +7068,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::legora::business analyst legal engineering::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -7208,8 +7475,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-22T10:12:00.242439+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::hodetech forgelm::native review of the german french spanish and chinese gdpr retention and masking site strings::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -7318,8 +7585,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -7573,8 +7840,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel::munich",
     "description_truncated": true
   },
@@ -7651,8 +7918,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-23T10:04:25.844742+00:00",
-    "last_checked": "2026-10-23T10:04:25.844742+00:00",
+    "last_seen": "2026-10-24T09:32:44.725940+00:00",
+    "last_checked": "2026-10-24T09:32:44.725940+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
