@@ -101,8 +101,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -556,8 +556,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -728,8 +728,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-24T09:32:44.725940+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::mr8lu blackmarker studio::roadmap v0 6 0 pluggable global and state regulatory packs gdpr ccpa cpra ferpa cjis v6 0 and 50 state foia::remote open source",
     "alternate_sources": [
       {
@@ -1803,8 +1803,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -2074,8 +2074,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -3429,8 +3429,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 7 gdpr and data protection regulations::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -3695,8 +3695,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -4811,90 +4811,9 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
-    "description_truncated": true
-  },
-  {
-    "title": "[N2] Governance: a second maintainer, contributor ladder, ADRs, citation, open-core boundary",
-    "url": "https://github.com/smusali/checkOwners/issues/96",
-    "description": "Open-source contribution opportunity. Repository: smusali/checkOwners. Labels: documentation, help wanted, v1.0.0. **Action item:** N2 · **Epic:** N (Community and Governance) · **Priority:** P1 · **Effort:** M · **Milestone:** `v1.0.0`\n**Source:** [`docs/PROJECT_STATE_AND_ROADMAP.md` at `bbf98ea`](https://github.com/smusali/checkOwners/blob/bbf98ea5b7a4350b6bf41cc1ce127cfda36d65da/docs/PROJECT_STATE_AND_ROADMAP.md) §16, §25, §30.9\n\n**Depends on:** N1 #95\n\n**Blocks:** Upgrade to v1.0.0 #189\n\n## Problem\n\n**The tool that measures bus factor has a bus factor of one.** Two contributors, one of which is an AI agent. No `GOVERNANCE.md`, no contributor ladder, no architectural decision records, no `CITATION.cff`, and no statement of open-core intent.\n\n## Impact\n\nThis is not a joke to a buyer; it is **the first question a platform team asks**. The project ships a bus factor of one, an unenforced coverage target, and a comparison table that omits its real competitors, while selling a tool that detects exactly those categories of risk in other people's repositories. **Fix that irony; much else follows from it.**\n\nSeparately, ambiguity about commercial intent suppresses contribution. Contributors will notice the organizational context; saying nothing is worse than saying something.\n\n## Scope of change\n\n**1. Recruit a second maintainer, publicly, with release rights**, and say so in `GOVERNANCE.md`. Ironically, an ownership tool should have exceptionally clear project ownership. **Do this before asking any company to depend on the project.**\n\n**2. `GOVERNANCE.md`** with a contributor ladder and documented criteria for each rung:\n\n```text\nContributor → Reviewer → Maintainer → Core Maintainer\n```\n\n**3. Architectural decision records** in `docs/adr/`:\n\n```text\n0001-confidence-model.md\n0002-codeowners-pattern-engine.md\n0003-identity-resolution.md\n0004-knowledge-concentration.md\n```\n\nplus records for decisions taken in this backlog: the notifier decision (G7), the blame architecture …",
-    "role_context": "[N2] Governance: a second maintainer, contributor ladder, ADRs, citation, open-core boundary smusali/checkOwners documentation, help wanted, v1.0.0",
-    "published": "2026-10-24T15:22:37Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "smusali/checkOwners",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 47,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "governance",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      }
-    ],
-    "fit_score": 85,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong privacy relevance",
-      "Strong governance relevance",
-      "Strong research writing relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-24T09:32:44.725940+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
-    "opportunity_identity": "role::smusali checkowners::n2 governance a second maintainer contributor ladder adrs citation open core boundary::remote open source",
     "description_truncated": true
   },
   {
@@ -4966,11 +4885,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -5215,11 +5134,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -5308,8 +5227,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -5395,8 +5314,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -5482,8 +5401,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -5970,8 +5889,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::chicago",
     "description_truncated": true,
     "alternate_sources": [
@@ -6056,8 +5975,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::houston",
     "description_truncated": true,
     "alternate_sources": [
@@ -6142,8 +6061,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-13T05:33:49.839758+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::toronto",
     "description_truncated": true,
     "alternate_sources": [
@@ -6228,8 +6147,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -6314,8 +6233,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -6639,6 +6558,87 @@
     "opportunity_identity": "role::streamgive streamgive frontend::add privacy terms and contact links to the footer::remote open source"
   },
   {
+    "title": "[Epic] Persona Seed Pack and Persona Store: licensed archetypes, import contract, and persona presets",
+    "url": "https://github.com/NeverENG/SeekMemory/issues/83",
+    "description": "Open-source contribution opportunity. Repository: NeverENG/SeekMemory. Labels: enhancement, help wanted. ## Language / Bilingual requirement\n\nEnglish first; complete Chinese translation under `## Chinese translation`.\n\n## Background / Why this issue exists\n\nSeekMemory currently starts with an empty or manually configured persona. The next product step is to let a user choose a ready-to-use personality seed pack, so the bot has a recognizable voice and interaction style immediately.\n\nThe desired catalogue includes several archetypes and recognizable character styles, for example:\n\n- 大肥鱼人格 (the project's own mascot/persona)\n- classic tsundere/ojou archetypes\n- anime/game character-inspired packs\n- adult/romance archetypes such as 缘之空-style works, subject to content policy\n\nThis must be designed as a **seed pack + import/store** feature, not as a fake chat history or a second memory write path. A seed pack is authored content plus explicit provenance; a persona Artifact is still a versioned, evidence-linked memory artifact.\n\n## Important product distinction: Seed Pack vs Chat Import\n\nThe primary user flow is usually **import chat history to shape the persona**, not browse a static catalogue first. The design must separate these concepts cleanly.\n\n### 1. Built-in Persona Seed Pack\n\n- Authored, distributable static content.\n- Contains persona instructions, speech style, sample dialogues, boundaries, license and provenance.\n- Installed explicitly by the user.\n- Never pretends to be real chat evidence.\n- Stored in the repository as `persona_seeds/`.\n\n### 2. Chat History Import\n\n- User-private data.\n- Uploaded/imported through a separate import workflow (#76).\n- Raw records are admitted as immutable `Source` rows through `ImportService`; `IngestService` remains the only Artifact writer.\n- The resulting persona/impressions evolve through the normal memory/Dream path.\n- Chat imports are **not** a Persona Seed Pack and must not be embedded in `persona_seeds/`.\n- Raw imported f …",
+    "role_context": "[Epic] Persona Seed Pack and Persona Store: licensed archetypes, import contract, and persona presets NeverENG/SeekMemory enhancement, help wanted",
+    "published": "2026-10-26T09:14:07Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "NeverENG/SeekMemory",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 41,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "remote",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 76,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong policy relevance",
+      "Strong published output relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "opportunity_identity": "role::nevereng seekmemory::epic persona seed pack and persona store licensed archetypes import contract and persona presets::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "Native-speaker review of the Brazilian Portuguese legal pages",
     "url": "https://github.com/openpak/website/issues/5",
     "description": "Open-source contribution opportunity. Repository: openpak/website. Labels: good first issue. ## Context\n\nThe Terms of use, Privacy policy, legal notices and operator terms were translated into Brazilian Portuguese (commit 5bd4bcc). The English text is authoritative and each translation says so, but nobody who writes Brazilian Portuguese natively has read them yet. A translation that reads badly or says something subtly different from the English is worse than none.\n\n## Files\n\n- `internal/pages/templates/terms_pt-BR.html` (English: `terms.html`)\n- `internal/pages/templates/privacy_pt-BR.html` (English: `privacy.html`)\n- `internal/pages/templates/legal_pt-BR.html` (English: `legal.html`)\n- `internal/pages/templates/operators_pt-BR.html` (English: `operators.html`)\n\n## What to do\n\nRead each page side by side with its English original. Fix grammar, unnatural phrasing and any place where the meaning drifted. Do not add, drop or reorder sections: the tests compare the structure with the English page.\n\n## Acceptance criteria\n\n- A pull request with the corrections, or a comment here saying the pages read correctly, from a native Brazilian Portuguese speaker.\n- The section ids (`<h2 id=\"...\">`), list items and links match the English page.\n- `GOWORK=off go vet ./... && go test ./...` passes (`TestLegalPagesTranslated` in `internal/pages/legal_test.go` checks the structure).\n\n## Notes\n\nThis is a language review, not legal advice. If you think the English text itself is wrong, open a separate issue. Before you start, read [CONTRIBUTING](https://github.com/openpak/.github/blob/main/CONTRIBUTING.md). Keep the pull request to this one change.",
@@ -6715,9 +6715,18 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
-    "opportunity_identity": "role::openpak website::native speaker review of the brazilian portuguese legal pages::remote open source"
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "opportunity_identity": "role::openpak website::native speaker review of the brazilian portuguese legal pages::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/openpak/website/issues/5",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Native-speaker review of the Italian legal pages",
@@ -6796,9 +6805,18 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
-    "opportunity_identity": "role::openpak website::native speaker review of the italian legal pages::remote open source"
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "opportunity_identity": "role::openpak website::native speaker review of the italian legal pages::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/openpak/website/issues/4",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Native-speaker review of the French legal pages",
@@ -6877,9 +6895,18 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
-    "opportunity_identity": "role::openpak website::native speaker review of the french legal pages::remote open source"
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "opportunity_identity": "role::openpak website::native speaker review of the french legal pages::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/openpak/website/issues/3",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Native-speaker review of the Spanish legal pages",
@@ -7473,8 +7500,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::legora::business analyst legal engineering::stockholm hq",
     "description_truncated": true,
     "alternate_sources": [
@@ -7880,8 +7907,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-22T10:12:00.242439+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::hodetech forgelm::native review of the german french spanish and chinese gdpr retention and masking site strings::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -7990,8 +8017,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -8245,8 +8272,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel::munich",
     "description_truncated": true
   },
@@ -8323,8 +8350,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-25T09:49:22.229451+00:00",
-    "last_checked": "2026-10-25T09:49:22.229451+00:00",
+    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-26T11:07:37.585955+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
