@@ -101,8 +101,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -556,8 +556,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -728,8 +728,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-24T09:32:44.725940+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::mr8lu blackmarker studio::roadmap v0 6 0 pluggable global and state regulatory packs gdpr ccpa cpra ferpa cjis v6 0 and 50 state foia::remote open source",
     "alternate_sources": [
       {
@@ -1320,6 +1320,154 @@
     "description_truncated": true
   },
   {
+    "title": "[Privacy] GDPR and CCPA static rule pack",
+    "url": "https://github.com/argus-code-scanning/argus-codescan-mcp/issues/55",
+    "description": "Open-source contribution opportunity. Repository: argus-code-scanning/argus-codescan-mcp. Labels: enhancement, help wanted, good first issue. ## Summary\n\nAdd a bundled compliance rule pack for GDPR/CCPA-style privacy requirements in application code: consent, deletion, data minimization, and privacy notice references.\n\n## Rules to detect (examples)\n\n| Rule ID | Detects |\n|---------|---------|\n| `privacy-missing-consent-check` | Analytics/tracking calls without consent gate |\n| `privacy-no-data-deletion-endpoint` | User profile APIs without delete/export path (heuristic) |\n| `privacy-logging-pii` | Logging email/name/phone in application logs |\n| `privacy-cookie-without-banner` | Cookie set in frontend without consent library |\n| `privacy-third-party-tracker` | Hardcoded GA/Meta pixel without documented basis |\n| `privacy-retention-no-ttl` | User tables/docs with no retention or expiry field |\n| `privacy-cross-border-transfer` | Hardcoded non-EU storage endpoints without mention |\n\n## Deliverables\n\n- [ ] `packages/languages/.../bundled_rules/privacy-gdpr.yaml`\n- [ ] CLI profile: `argus scan privacy .` or `argus scan code . --rules privacy-gdpr`\n- [ ] MCP exposure via `scan_sast` / dedicated `scan_privacy`\n- [ ] Mapping to OWASP ASVS / CWE where applicable\n- [ ] Docs: when to use vs full legal review disclaimer\n\n## Notes\n\nArgus detects **code patterns**, not legal compliance. Output should include disclaimer in report footer.",
+    "role_context": "[Privacy] GDPR and CCPA static rule pack argus-code-scanning/argus-codescan-mcp enhancement, help wanted, good first issue",
+    "published": "2026-10-27T09:20:23Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "argus-code-scanning/argus-codescan-mcp",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 30,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 91,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "opportunity_identity": "role::argus code scanning argus codescan mcp::privacy gdpr and ccpa static rule pack::remote open source"
+  },
+  {
+    "title": "[Privacy] Docs: data processing model and privacy FAQ for Argus scans",
+    "url": "https://github.com/argus-code-scanning/argus-codescan-mcp/issues/57",
+    "description": "Open-source contribution opportunity. Repository: argus-code-scanning/argus-codescan-mcp. Labels: documentation, enhancement, help wanted, good first issue. ## Summary\n\nPublish a clear **Privacy & Data Handling** document explaining what data Argus reads, stores, transmits, and what stays local.\n\n## Audience\n\n- Developers evaluating Argus for enterprise use\n- Legal / compliance reviewers\n- Teams configuring MCP in Cursor, VS Code, Claude Desktop\n\n## Sections to cover\n\n| Topic | Content |\n|-------|---------|\n| Local scans | Files read on disk; no phone-home by default |\n| MCP / AI clients | What the AI sees when calling scan tools |\n| Cloud upload | When `ARGUS_API_KEY` sends data; opt-in only |\n| SARIF / CI | What GitHub receives from workflows |\n| Logs & temp files | Where scan JSON is written; cleanup |\n| Secret vs PII | How redaction works today and planned |\n| Subprocessors | External scanners (Semgrep, Trivy) run locally |\n| GDPR roles | Controller vs processor for cloud tier |\n\n## Deliverables\n\n- [ ] `docs/privacy-and-data.md`\n- [ ] Link from README, SECURITY.md, AGENT-UPLOAD.md\n- [ ] Short FAQ block for website (copy-paste ready)\n- [ ] Optional: `PRIVACY.md` at repo root for GitHub\n\n## Acceptance criteria\n\n- [ ] Explicit statement: CLI/MCP local mode sends no data to Argus by default\n- [ ] Table of env vars that affect data egress",
+    "role_context": "[Privacy] Docs: data processing model and privacy FAQ for Argus scans argus-code-scanning/argus-codescan-mcp documentation, enhancement, help wanted, good first issue",
+    "published": "2026-10-27T09:20:19Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "argus-code-scanning/argus-codescan-mcp",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 30,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 91,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "opportunity_identity": "role::argus code scanning argus codescan mcp::privacy docs data processing model and privacy faq for argus scans::remote open source"
+  },
+  {
     "title": "[Legal & Compliance] Privacy Data — Fulfill data subject rights requests",
     "url": "https://github.com/aniruddhaadak80/skills/issues/323",
     "description": "Open-source contribution opportunity. Repository: aniruddhaadak80/skills. Labels: enhancement, help wanted, good first issue, skill-advanced, legal-compliance. ## 🎯 Issue Summary\n\n**Track:** Legal & Compliance → Privacy Data  \n**Type:** New Skill Content  \n**Difficulty:** Advanced  \n**Estimated:** ~40 min  \n**Labels:** `enhancement`, `help wanted`, `good first issue`, `legal-compliance`, `skill-advanced`\n\n---\n\n## 📋 Context\n\nDSAR workflows, verification, timelines, cross-system fulfillment.\n\nThis skill is missing from the `aniruddhaadak80/skills` library. Adding it would close a gap in the `Legal & Compliance` track and bring the library closer to the breadth covered by the broader agent-skills ecosystem (skills.sh topics such as agent-workflows, databases, design, mobile, nextjs, react, and testing, plus agentskill.io-style coverage).\n\n---\n\n## 🎪 Missing Skill\n\n| # | Skill ID | Title | Level | Est. Minutes | Description |\n|---|---|---|---|---|---|\n| 1 | `privacy-rights-fulfillment` | `Fulfill data subject rights requests` | `Advanced` | `40` | DSAR workflows, verification, timelines, cross-system fulfillment. |\n\n---\n\n## ✅ Acceptance Criteria (6+ Levels)\n\n### Level 1 — Understand & Plan\n- [ ] Read existing skills in `Legal & Compliance` (and the `Privacy Data` domain) to match tone, depth, and structure\n- [ ] Identify 3+ real production scenarios you have personally encountered\n- [ ] Draft 6-10 concrete, imperative steps (no filler)\n- [ ] Define 2-3 measurable KPIs / success signals\n- [ ] Confirm `privacy-rights-fulfillment` is unique across the library\n\n### Level 2 — Implementation\n- [ ] Add the new procedure object to `src/data/tracks/legal-compliance.mjs` under `Privacy Data`\n- [ ] Follow the exact schema: slug, title, level, minutes, description, tags, steps, pitfalls, kpis\n- [ ] Include a real, tested install command in `commands`\n- [ ] Keep the procedure self-contained and consistent with sibling skills\n\n### Level 3 — Validation\n- [ ] Run `npm test` — all catalo …",
@@ -1803,8 +1951,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -2074,8 +2222,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -3429,8 +3577,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 7 gdpr and data protection regulations::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -3695,8 +3843,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -4101,6 +4249,80 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "[Privacy] Built-in PII scanner: emails, phones, SSN, names in code and config",
+    "url": "https://github.com/argus-code-scanning/argus-codescan-mcp/issues/52",
+    "description": "Open-source contribution opportunity. Repository: argus-code-scanning/argus-codescan-mcp. Labels: enhancement, help wanted. ## Summary\n\nAdd a dedicated PII detection scan type that finds personally identifiable information hardcoded or mishandled in source, config, logs, and API responses.\n\n## User story\n\nAs a developer or compliance engineer, I want `argus scan pii .` (and MCP `scan_pii`) so I can catch PII leaks before they reach production or logs, separate from generic secret scanning.\n\n## Proposed scope\n\n| Pattern class | Examples |\n|---------------|----------|\n| Email addresses | `user@example.com` in code, fixtures, error strings |\n| Phone numbers | E.164 and common national formats |\n| Government IDs | SSN (US), NI (UK), generic national ID patterns |\n| Names in structured fields | `first_name`, `full_name`, `customer_name` with literal values |\n| Address fragments | Street + ZIP combinations in strings |\n| Credit card numbers | Luhn-valid PAN patterns (with false-positive tuning) |\n\n## Deliverables\n\n- [ ] Rule pack `packages/languages/.../bundled_rules/pii.yaml`\n- [ ] `packages/python/src/argus/tools/pii.py` runner\n- [ ] CLI: `argus scan pii`\n- [ ] MCP tool: `scan_pii`\n- [ ] Optional inclusion in `scan all` behind `.argus.yml` flag\n- [ ] Tests under `packages/languages/tests/` and `packages/python/tests/`\n- [ ] Docs in `docs/api-reference.md` and `docs/features-roadmap.md`\n\n## Notes\n\n- Coordinate with secrets scanner to avoid duplicate noise on API keys\n- Support `--exclude-fixtures` or policy excludes for test data\n- Severity: high for production paths, lower for test/fixture paths",
+    "role_context": "[Privacy] Built-in PII scanner: emails, phones, SSN, names in code and config argus-code-scanning/argus-codescan-mcp enhancement, help wanted",
+    "published": "2026-10-27T09:20:36Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "argus-code-scanning/argus-codescan-mcp",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 27,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 87,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "opportunity_identity": "role::argus code scanning argus codescan mcp::privacy built in pii scanner emails phones ssn names in code and config::remote open source"
   },
   {
     "title": "test: add tests for gdpr_compliance.rego (GDPR)",
@@ -4811,9 +5033,90 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
+    "description_truncated": true
+  },
+  {
+    "title": "Documentation site and governance",
+    "url": "https://github.com/smusali/checkOwners/issues/90",
+    "description": "Open-source contribution opportunity. Repository: smusali/checkOwners. Labels: documentation, help wanted, v0.7.0. **Milestone:** `v0.7.0` · **Priority:** P1 · **Merges:** L4 (this issue), N2 #96\n**Blocked by:** History pipeline #34, Distribution and public API #82\n**Blocks:** Upgrade to v0.7.0 #183\n\nMake the project navigable and accountable. L4 builds the documentation site with search, versioning, a complete reference, and the adoption guide for large repositories. N2 names a second maintainer, documents a contributor ladder, publishes ADRs and `CITATION.cff`, states the open-core boundary, and defines the semver policy.\n\n## Work order\n\nShip each item in one or more pull requests titled `feat(<ID>): …` (or `test(<ID>)`, `docs(<ID>)`), with `Part of #90` in the body. The pull request that finishes the last open item uses `Closes #90`. Items in the same step do not block each other. An item can start once everything its line waits on is merged; a \"for …\" note limits that wait to one part of the item.\n\n**Step 1**\n\n- [ ] L4 · Build the documentation site and information architecture (P1, M)\n- [ ] N2 · Governance: a second maintainer, contributor ladder, ADRs, citation, open-core boundary (P1, M) · waits on J3 in #34 for the J3 ADR; K7 and K3 in #82 for the K7 ADR and the release-process docs\n\n## Dependencies on other issues\n\nThis issue cannot close until these land:\n\n- **N2** here needs **J3** from History pipeline #34. N2 publishes an ADR for J3's blame-architecture decision.\n- **N2** here needs **K7 and K3** from Distribution and public API #82. N2 publishes an ADR for K7's forge abstraction, and documents the release pipeline K3 builds.\n\nEvery merged issue blocks Upgrade to v0.7.0 #183 and is one of its sub-issues. GitHub records all of the links above as native \"Blocked by\" relationships.\n\nRelated, not blocking:\n\n- K6 in #91 produces the interactive demo reports that L4 lists as a later addition.\n- N2 asks for a second maintainer before any company depends on the …",
+    "role_context": "Documentation site and governance smusali/checkOwners documentation, help wanted, v0.7.0",
+    "published": "2026-10-26T22:23:31Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "smusali/checkOwners",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 47,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong governance relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "opportunity_identity": "role::smusali checkowners::documentation site and governance::remote open source",
     "description_truncated": true
   },
   {
@@ -4885,11 +5188,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -5134,11 +5437,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -5227,8 +5530,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -5314,8 +5617,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -5401,8 +5704,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -5889,8 +6192,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::chicago",
     "description_truncated": true,
     "alternate_sources": [
@@ -5975,8 +6278,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::houston",
     "description_truncated": true,
     "alternate_sources": [
@@ -6061,8 +6364,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-13T05:33:49.839758+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::toronto",
     "description_truncated": true,
     "alternate_sources": [
@@ -6147,8 +6450,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -6233,8 +6536,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -6556,87 +6859,6 @@
     "last_seen": "2026-10-22T10:12:00.242439+00:00",
     "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::streamgive streamgive frontend::add privacy terms and contact links to the footer::remote open source"
-  },
-  {
-    "title": "[Epic] Persona Seed Pack and Persona Store: licensed archetypes, import contract, and persona presets",
-    "url": "https://github.com/NeverENG/SeekMemory/issues/83",
-    "description": "Open-source contribution opportunity. Repository: NeverENG/SeekMemory. Labels: enhancement, help wanted. ## Language / Bilingual requirement\n\nEnglish first; complete Chinese translation under `## Chinese translation`.\n\n## Background / Why this issue exists\n\nSeekMemory currently starts with an empty or manually configured persona. The next product step is to let a user choose a ready-to-use personality seed pack, so the bot has a recognizable voice and interaction style immediately.\n\nThe desired catalogue includes several archetypes and recognizable character styles, for example:\n\n- 大肥鱼人格 (the project's own mascot/persona)\n- classic tsundere/ojou archetypes\n- anime/game character-inspired packs\n- adult/romance archetypes such as 缘之空-style works, subject to content policy\n\nThis must be designed as a **seed pack + import/store** feature, not as a fake chat history or a second memory write path. A seed pack is authored content plus explicit provenance; a persona Artifact is still a versioned, evidence-linked memory artifact.\n\n## Important product distinction: Seed Pack vs Chat Import\n\nThe primary user flow is usually **import chat history to shape the persona**, not browse a static catalogue first. The design must separate these concepts cleanly.\n\n### 1. Built-in Persona Seed Pack\n\n- Authored, distributable static content.\n- Contains persona instructions, speech style, sample dialogues, boundaries, license and provenance.\n- Installed explicitly by the user.\n- Never pretends to be real chat evidence.\n- Stored in the repository as `persona_seeds/`.\n\n### 2. Chat History Import\n\n- User-private data.\n- Uploaded/imported through a separate import workflow (#76).\n- Raw records are admitted as immutable `Source` rows through `ImportService`; `IngestService` remains the only Artifact writer.\n- The resulting persona/impressions evolve through the normal memory/Dream path.\n- Chat imports are **not** a Persona Seed Pack and must not be embedded in `persona_seeds/`.\n- Raw imported f …",
-    "role_context": "[Epic] Persona Seed Pack and Persona Store: licensed archetypes, import contract, and persona presets NeverENG/SeekMemory enhancement, help wanted",
-    "published": "2026-10-26T09:14:07Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "NeverENG/SeekMemory",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 41,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      },
-      {
-        "signal": "remote",
-        "points": 10
-      },
-      {
-        "signal": "leadership",
-        "points": 8
-      }
-    ],
-    "fit_score": 76,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong privacy relevance",
-      "Strong policy relevance",
-      "Strong published output relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
-    "opportunity_identity": "role::nevereng seekmemory::epic persona seed pack and persona store licensed archetypes import contract and persona presets::remote open source",
-    "description_truncated": true
   },
   {
     "title": "Native-speaker review of the Brazilian Portuguese legal pages",
@@ -7907,8 +8129,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-22T10:12:00.242439+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::hodetech forgelm::native review of the german french spanish and chinese gdpr retention and masking site strings::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -8017,8 +8239,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -8272,8 +8494,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel::munich",
     "description_truncated": true
   },
@@ -8350,8 +8572,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-26T11:07:37.585955+00:00",
-    "last_checked": "2026-10-26T11:07:37.585955+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
