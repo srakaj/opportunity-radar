@@ -101,8 +101,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -556,8 +556,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -728,8 +728,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-24T09:32:44.725940+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
     "opportunity_identity": "role::mr8lu blackmarker studio::roadmap v0 6 0 pluggable global and state regulatory packs gdpr ccpa cpra ferpa cjis v6 0 and 50 state foia::remote open source",
     "alternate_sources": [
       {
@@ -1389,9 +1389,18 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
-    "opportunity_identity": "role::argus code scanning argus codescan mcp::privacy gdpr and ccpa static rule pack::remote open source"
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
+    "opportunity_identity": "role::argus code scanning argus codescan mcp::privacy gdpr and ccpa static rule pack::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/argus-code-scanning/argus-codescan-mcp/issues/55",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "[Privacy] Docs: data processing model and privacy FAQ for Argus scans",
@@ -1951,8 +1960,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -2222,8 +2231,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -3577,8 +3586,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 7 gdpr and data protection regulations::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -3843,8 +3852,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -5033,90 +5042,9 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
-    "description_truncated": true
-  },
-  {
-    "title": "Documentation site and governance",
-    "url": "https://github.com/smusali/checkOwners/issues/90",
-    "description": "Open-source contribution opportunity. Repository: smusali/checkOwners. Labels: documentation, help wanted, v0.7.0. **Milestone:** `v0.7.0` · **Priority:** P1 · **Merges:** L4 (this issue), N2 #96\n**Blocked by:** History pipeline #34, Distribution and public API #82\n**Blocks:** Upgrade to v0.7.0 #183\n\nMake the project navigable and accountable. L4 builds the documentation site with search, versioning, a complete reference, and the adoption guide for large repositories. N2 names a second maintainer, documents a contributor ladder, publishes ADRs and `CITATION.cff`, states the open-core boundary, and defines the semver policy.\n\n## Work order\n\nShip each item in one or more pull requests titled `feat(<ID>): …` (or `test(<ID>)`, `docs(<ID>)`), with `Part of #90` in the body. The pull request that finishes the last open item uses `Closes #90`. Items in the same step do not block each other. An item can start once everything its line waits on is merged; a \"for …\" note limits that wait to one part of the item.\n\n**Step 1**\n\n- [ ] L4 · Build the documentation site and information architecture (P1, M)\n- [ ] N2 · Governance: a second maintainer, contributor ladder, ADRs, citation, open-core boundary (P1, M) · waits on J3 in #34 for the J3 ADR; K7 and K3 in #82 for the K7 ADR and the release-process docs\n\n## Dependencies on other issues\n\nThis issue cannot close until these land:\n\n- **N2** here needs **J3** from History pipeline #34. N2 publishes an ADR for J3's blame-architecture decision.\n- **N2** here needs **K7 and K3** from Distribution and public API #82. N2 publishes an ADR for K7's forge abstraction, and documents the release pipeline K3 builds.\n\nEvery merged issue blocks Upgrade to v0.7.0 #183 and is one of its sub-issues. GitHub records all of the links above as native \"Blocked by\" relationships.\n\nRelated, not blocking:\n\n- K6 in #91 produces the interactive demo reports that L4 lists as a later addition.\n- N2 asks for a second maintainer before any company depends on the …",
-    "role_context": "Documentation site and governance smusali/checkOwners documentation, help wanted, v0.7.0",
-    "published": "2026-10-26T22:23:31Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "smusali/checkOwners",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 47,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "governance",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      }
-    ],
-    "fit_score": 85,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong privacy relevance",
-      "Strong governance relevance",
-      "Strong research writing relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
-    "opportunity_identity": "role::smusali checkowners::documentation site and governance::remote open source",
     "description_truncated": true
   },
   {
@@ -5188,11 +5116,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -5437,11 +5365,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -5530,188 +5458,14 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
       {
         "source": "ashby:harvey",
         "url": "https://jobs.ashbyhq.com/harvey/2f35e50f-2978-44c3-a495-7cbfc1f512d4",
-        "quality": "Official ATS",
-        "priority": 100
-      }
-    ],
-    "duplicate_count": 0
-  },
-  {
-    "title": "Applied Legal Researcher",
-    "url": "https://jobs.ashbyhq.com/harvey/ec074cbf-8d48-4661-b26c-1fdfb01df783",
-    "description": "Organisation: Harvey. Location: New York. Department: Legal. Team: Legal. Commitment: FullTime. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview We are looking for a legal researcher with a strong understanding of how law firms, financial institutions, large corporations, and other organizations deliver professional services and execute complex legal and knowledge work tasks. We have incredible product-market fit and demand across diverse customer profiles. Executing on this demand requires a strong understanding of our customers' workflows and how those workflows can be accelerated by AI systems. What You'll Do To facilitate the development of these systems, you will: Develop and deliver subject-matter expertise to support AI research Work closely with our engineering, product, and design teams to define and develop …",
-    "role_context": "Applied Legal Researcher Legal Legal FullTime",
-    "published": "2026-02-05T02:49:07.110+00:00",
-    "source": "ashby:harvey",
-    "source_type": "job_board",
-    "organization": "Harvey",
-    "location": "New York",
-    "structured_opportunity": true,
-    "source_quality": "Official ATS",
-    "source_priority": 100,
-    "source_quality_label": "Direct employer ATS",
-    "opportunity_type": "Early-career role",
-    "work_model": "Unspecified",
-    "compensation_status": "paid",
-    "compensation": "$180,000 - $220,000",
-    "duration": "7 years",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 73,
-    "reasons": [
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "opportunity_in_title",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "paid",
-        "points": 8
-      }
-    ],
-    "fit_score": 84,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong privacy relevance",
-      "Strong research writing relevance",
-      "Early-career role matches the target career stage",
-      "Explicit compensation signal",
-      "Relevant experience overlap: legal research"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
-    "opportunity_identity": "role::harvey::applied legal researcher::new york",
-    "description_truncated": true,
-    "alternate_sources": [
-      {
-        "source": "ashby:harvey",
-        "url": "https://jobs.ashbyhq.com/harvey/ec074cbf-8d48-4661-b26c-1fdfb01df783",
-        "quality": "Official ATS",
-        "priority": 100
-      }
-    ],
-    "duplicate_count": 0
-  },
-  {
-    "title": "Applied Legal Researcher",
-    "url": "https://jobs.ashbyhq.com/harvey/a35efd1c-e5ad-4556-bfa4-d2e13f8b7f1c",
-    "description": "Organisation: Harvey. Location: San Francisco. Department: Legal. Team: Legal. Commitment: FullTime. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview We are looking for a legal researcher with a strong understanding of how law firms, financial institutions, large corporations, and other organizations deliver professional services and execute complex legal and knowledge work tasks. We have incredible product-market fit and demand across diverse customer profiles. Executing on this demand requires a strong understanding of our customers' workflows and how those workflows can be accelerated by AI systems. What You'll Do To facilitate the development of these systems, you will: Develop and deliver subject-matter expertise to support AI research Work closely with our engineering, product, and design teams to define and de …",
-    "role_context": "Applied Legal Researcher Legal Legal FullTime",
-    "published": "2026-02-05T02:45:51.904+00:00",
-    "source": "ashby:harvey",
-    "source_type": "job_board",
-    "organization": "Harvey",
-    "location": "San Francisco",
-    "structured_opportunity": true,
-    "source_quality": "Official ATS",
-    "source_priority": 100,
-    "source_quality_label": "Direct employer ATS",
-    "opportunity_type": "Early-career role",
-    "work_model": "Unspecified",
-    "compensation_status": "paid",
-    "compensation": "$180,000 - $220,000",
-    "duration": "7 years",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 73,
-    "reasons": [
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "opportunity_in_title",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "paid",
-        "points": 8
-      }
-    ],
-    "fit_score": 84,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong privacy relevance",
-      "Strong research writing relevance",
-      "Early-career role matches the target career stage",
-      "Explicit compensation signal",
-      "Relevant experience overlap: legal research"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
-    "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
-    "description_truncated": true,
-    "alternate_sources": [
-      {
-        "source": "ashby:harvey",
-        "url": "https://jobs.ashbyhq.com/harvey/a35efd1c-e5ad-4556-bfa4-d2e13f8b7f1c",
         "quality": "Official ATS",
         "priority": 100
       }
@@ -5962,6 +5716,82 @@
     "duplicate_count": 0
   },
   {
+    "title": "[Proposal] Add positioning doc — FINOS AIG vs other frameworks, standards, and certifications",
+    "url": "https://github.com/finos/ai-governance-framework/issues/255",
+    "description": "Open-source contribution opportunity. Repository: finos/ai-governance-framework. Labels: help wanted. Context\n-------\nAs organizations adopt the FINOS AI Governance Framework (AIG), practitioners often ask:\n- Is FINOS AIG a framework, a tool, or a platform?\n- How does it relate to NIST AI RMF, ISO/IEC AI standards, OECD AI Principles, and certification or assurance programs?\n- Does FINOS AIG compete with these efforts or complement them?\n\nThis ambiguity can slow adoption and onboarding.\n\nProposal\n--------\nI would like to contribute a documentation page to clarify positioning and reduce confusion.\n\nProposed document:\n- Path: docs/finos-aig-vs-other-frameworks.md\n- Goal: Clearly explain what FINOS AIG is and is not, and how it complements\n  regulations, standards, enterprise policies, tools/platforms, and certification programs.\n- Audience: Architects, AI builders, risk teams, and governance leaders.\n\nProposed outline\n----------------\n1. Purpose of this document (common practitioner confusion)\n2. What FINOS AIG is / is not\n3. Types of AI governance artifacts (regulations, standards, frameworks, tools, certifications)\n4. FINOS AIG compared to:\n   - NIST AI Risk Management Framework\n   - ISO/IEC AI standards\n   - OECD AI Principles\n   - Certification and assurance programs (e.g., IEEE CertifAIEd)\n5. Where FINOS AIG fits in an enterprise governance stack\n6. Using FINOS AIG alongside existing Resp\n7. Summary\n\nBackground\n----------\nI’m an enterprise architect working in regulated financial services and a certified\nIEEE CertifAIEd AI Ethics Assessor. The intent is to contribute practitioner-level\nclarity aligned with FINOS tone and objectives.\n\nAsk\n---\nBefore drafting the document, I’d appreciate maintainer feedback on:\n- Whether this document would be useful to add\n- Any preferred scope or exclusions\n- Any naming or structural conventions to follow for docs",
+    "role_context": "[Proposal] Add positioning doc — FINOS AIG vs other frameworks, standards, and certifications finos/ai-governance-framework help wanted",
+    "published": "2026-10-27T17:03:50Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "finos/ai-governance-framework",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 35,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "ai_governance",
+        "points": 18
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 82,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong ai governance relevance",
+      "Strong governance relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
+    "opportunity_identity": "role::finos ai governance framework::proposal add positioning doc finos aig vs other frameworks standards and certifications::remote open source"
+  },
+  {
     "title": "Add an opt-in WebFlux governance observation to audit sink bridge",
     "url": "https://github.com/dtkmn/mcp-gateway-core/issues/90",
     "description": "Open-source contribution opportunity. Repository: dtkmn/mcp-gateway-core. Labels: enhancement, help wanted. ## Problem and consumer evidence\n\nCore provides generic audit events/sinks/emitters and the WebFlux adapter provides governance observers, but consumers must connect them manually. MCP ZAP Server repeats field mapping in its adapter configuration and observability service. `GatewayAuditEmitter` does not perform this translation today.\n\n## Dependencies and scope\n\nSettle metadata semantics in https://github.com/dtkmn/mcp-gateway-core/issues/86 and coordinate rejection coverage with https://github.com/dtkmn/mcp-gateway-core/issues/87.\n\n- Add an optional observer bundle/factory in the WebFlux adapter backed by a caller-supplied `GatewayAuditSink`; install it through the existing four observer setters, without a new builder/composition API.\n- Specify event types and fields: action, outcome, reason, available scope information, trusted principal/workspace context, correlation ID and protection retry delay.\n- Translate current observer signals and any approved typed rejection signal. Document unavailable fields.\n- Define coexistence and callback ordering with application metric observers; prevent duplicate audit publication.\n- Preserve current observer/sink exception propagation unless an explicit alternative failure policy is approved.\n- Exclude raw request bodies, tool arguments, credentials and arbitrary headers by construction. This is not generic redaction.\n- Host applications retain storage, retention, domain enrichment and metrics. Core stays free of Spring/Jackson/Micrometer.\n\n## Acceptance criteria\n\n- Allow/deny/warn authorization, protection rejection and invalid/rejected request cases produce the documented fields exactly once per translated signal.\n- Null optional context is handled consistently; request argument/header sentinels do not appear in events.\n- Custom metric observers coexist without duplicate delivery.\n- Sink exceptions retain the documented …",
@@ -6192,8 +6022,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::chicago",
     "description_truncated": true,
     "alternate_sources": [
@@ -6278,8 +6108,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::houston",
     "description_truncated": true,
     "alternate_sources": [
@@ -6364,8 +6194,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-13T05:33:49.839758+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::toronto",
     "description_truncated": true,
     "alternate_sources": [
@@ -6450,8 +6280,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -6536,8 +6366,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -8129,8 +7959,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-22T10:12:00.242439+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
     "opportunity_identity": "role::hodetech forgelm::native review of the german french spanish and chinese gdpr retention and masking site strings::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -8239,8 +8069,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -8302,6 +8132,160 @@
     "last_seen": "2026-09-24T05:26:35.754988+00:00",
     "last_checked": "2026-09-24T05:26:35.754988+00:00",
     "opportunity_identity": "url::https://legalalphabet.com/internships"
+  },
+  {
+    "title": "Applied Legal Researcher",
+    "url": "https://jobs.ashbyhq.com/harvey/ec074cbf-8d48-4661-b26c-1fdfb01df783",
+    "description": "Organisation: Harvey. Location: New York. Department: Legal. Team: Legal. Commitment: FullTime. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview We are looking for a legal researcher with a strong understanding of how law firms, financial institutions, large corporations, and other organizations deliver professional services and execute complex legal and knowledge work tasks. We have incredible product-market fit and demand across diverse customer profiles. Executing on this demand requires a strong understanding of our customers' workflows and how those workflows can be accelerated by AI systems. What You'll Do To facilitate the development of these systems, you will: Develop and deliver subject-matter expertise to support AI research Work closely with our engineering, product, and design teams to define and develop …",
+    "role_context": "Applied Legal Researcher Legal Legal FullTime",
+    "published": "2026-02-05T02:49:07.110+00:00",
+    "source": "ashby:harvey",
+    "source_type": "job_board",
+    "organization": "Harvey",
+    "location": "New York",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Unspecified",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 49,
+    "reasons": [
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 66,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong research writing relevance",
+      "Early-career role matches the target career stage",
+      "Relevant experience overlap: legal research"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "opportunity_identity": "role::harvey::applied legal researcher::new york",
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "ashby:harvey",
+        "url": "https://jobs.ashbyhq.com/harvey/ec074cbf-8d48-4661-b26c-1fdfb01df783",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
+  },
+  {
+    "title": "Applied Legal Researcher",
+    "url": "https://jobs.ashbyhq.com/harvey/a35efd1c-e5ad-4556-bfa4-d2e13f8b7f1c",
+    "description": "Organisation: Harvey. Location: San Francisco. Department: Legal. Team: Legal. Commitment: FullTime. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview We are looking for a legal researcher with a strong understanding of how law firms, financial institutions, large corporations, and other organizations deliver professional services and execute complex legal and knowledge work tasks. We have incredible product-market fit and demand across diverse customer profiles. Executing on this demand requires a strong understanding of our customers' workflows and how those workflows can be accelerated by AI systems. What You'll Do To facilitate the development of these systems, you will: Develop and deliver subject-matter expertise to support AI research Work closely with our engineering, product, and design teams to define and de …",
+    "role_context": "Applied Legal Researcher Legal Legal FullTime",
+    "published": "2026-02-05T02:45:51.904+00:00",
+    "source": "ashby:harvey",
+    "source_type": "job_board",
+    "organization": "Harvey",
+    "location": "San Francisco",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Unspecified",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 49,
+    "reasons": [
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 66,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong research writing relevance",
+      "Early-career role matches the target career stage",
+      "Relevant experience overlap: legal research"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_seen": "2026-10-27T10:35:15.004637+00:00",
+    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "opportunity_identity": "role::harvey::applied legal researcher::san francisco",
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "ashby:harvey",
+        "url": "https://jobs.ashbyhq.com/harvey/a35efd1c-e5ad-4556-bfa4-d2e13f8b7f1c",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Internships - ACLU of Georgia",
@@ -8494,8 +8478,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel::munich",
     "description_truncated": true
   },
@@ -8572,8 +8556,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_checked": "2026-10-27T10:35:15.004637+00:00",
+    "last_seen": "2026-10-28T11:21:08.429782+00:00",
+    "last_checked": "2026-10-28T11:21:08.429782+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
