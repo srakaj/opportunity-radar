@@ -101,8 +101,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -556,8 +556,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -728,8 +728,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-24T09:32:44.725940+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::mr8lu blackmarker studio::roadmap v0 6 0 pluggable global and state regulatory packs gdpr ccpa cpra ferpa cjis v6 0 and 50 state foia::remote open source",
     "alternate_sources": [
       {
@@ -1389,8 +1389,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::argus code scanning argus codescan mcp::privacy gdpr and ccpa static rule pack::remote open source",
     "alternate_sources": [
       {
@@ -1960,8 +1960,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -2231,8 +2231,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -2822,9 +2822,18 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
-    "opportunity_identity": "role::openlibhums janeway::rename privacy policy as privacy::remote open source"
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
+    "opportunity_identity": "role::openlibhums janeway::rename privacy policy as privacy::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/openlibhums/janeway/issues/4098",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "[opt-out check] Quad Graphics, Inc.: confirm the opt-out route works",
@@ -3598,7 +3607,7 @@
     "url": "https://github.com/GSA/MasteringAgenticAISystems_supplementals/issues/100",
     "description": "Open-source contribution opportunity. Repository: GSA/MasteringAgenticAISystems_supplementals. Labels: help wanted, track:content-review, effort:small, topic:governance-compliance, part:09, artifact:chapter-text. <!-- content-review:chapter:9.7 -->\n### Chapter\n**Ch 9.7 — GDPR and Data Protection Regulations**\nPart 9 — Safety & Governance\n\nRated highly relevant for: NVIDIA NCP-AAI, AWS AIP-C01, Databricks GenAI Engineer, Google Cloud PMLE, Microsoft AI-102 (per [`cert_mapping/`](https://github.com/GSA/MasteringAgenticAISystems_supplementals/blob/master/cert_mapping/README.md)).\n\n### Review it your way\nRead the chapter and tell us what you find. There is no fixed list to work through — follow whatever fits your expertise and interest. For example:\n- Technical accuracy of claims and examples\n- Whether tools, models, APIs or standards are still current\n- Clarity, pacing and level for the intended reader\n- Consistency with neighboring chapters\n- How well it prepares readers for certification exams\n\nA partial review is a real contribution: one section, or one angle across the whole chapter, is plenty.\n\n### Size\nAbout 5,555 words — roughly 25 minutes of reading, more if you check claims against sources.\n\n### How to take part\n1. Comment below to say you'd like to take this, and (optionally) which angle you plan to take. A maintainer will assign it to you.\n2. We'll email you the chapter text. It is not hosted in this repository, so please quote only the passage you are commenting on rather than pasting whole sections.\n3. Post findings here as comments. The most useful findings say *where* (a section heading), *what* you found, a quote or source for it, and a suggested fix — the [content-review checklist](https://github.com/GSA/MasteringAgenticAISystems_supplementals/blob/master/.github/REVIEW_CHECKLISTS.md#instructional-content-review-chapter-text-slides-quizzes) has the details.\n4. When you're done, say where you land: **accept**, **minor revisions**, or **major revisions** …",
     "role_context": "[Content Review]: Ch 9.7 — GDPR and Data Protection Regulations GSA/MasteringAgenticAISystems_supplementals help wanted, track:content-review, effort:small, topic:governance-compliance, part:09, artifact:chapter-text",
-    "published": "2026-10-29T21:29:39Z",
+    "published": "2026-10-30T12:40:54Z",
     "source": "github-issues-api",
     "source_type": "open_source",
     "organization": "GSA/MasteringAgenticAISystems_supplementals",
@@ -3663,8 +3672,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 7 gdpr and data protection regulations::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -3929,8 +3938,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -4723,7 +4732,7 @@
     "url": "https://github.com/GSA/MasteringAgenticAISystems_supplementals/issues/101",
     "description": "Open-source contribution opportunity. Repository: GSA/MasteringAgenticAISystems_supplementals. Labels: help wanted, track:content-review, effort:medium, topic:governance-compliance, part:09, artifact:chapter-text. <!-- content-review:chapter:9.8 -->\n### Chapter\n**Ch 9.8 — Standards and Frameworks for AI Governance**\nPart 9 — Safety & Governance\n\nRated highly relevant for: NVIDIA NCP-AAI, AWS AIP-C01, Databricks GenAI Engineer, Google Cloud PMLE, Microsoft AI-102 (per [`cert_mapping/`](https://github.com/GSA/MasteringAgenticAISystems_supplementals/blob/master/cert_mapping/README.md)).\n\n### Review it your way\nRead the chapter and tell us what you find. There is no fixed list to work through — follow whatever fits your expertise and interest. For example:\n- Technical accuracy of claims and examples\n- Whether tools, models, APIs or standards are still current\n- Clarity, pacing and level for the intended reader\n- Consistency with neighboring chapters\n- How well it prepares readers for certification exams\n\nA partial review is a real contribution: one section, or one angle across the whole chapter, is plenty.\n\n### Size\nAbout 11,843 words — roughly 50 minutes of reading, more if you check claims against sources.\n\n### How to take part\n1. Comment below to say you'd like to take this, and (optionally) which angle you plan to take. A maintainer will assign it to you.\n2. We'll email you the chapter text. It is not hosted in this repository, so please quote only the passage you are commenting on rather than pasting whole sections.\n3. Post findings here as comments. The most useful findings say *where* (a section heading), *what* you found, a quote or source for it, and a suggested fix — the [content-review checklist](https://github.com/GSA/MasteringAgenticAISystems_supplementals/blob/master/.github/REVIEW_CHECKLISTS.md#instructional-content-review-chapter-text-slides-quizzes) has the details.\n4. When you're done, say where you land: **accept**, **minor revisions**, or **major rev …",
     "role_context": "[Content Review]: Ch 9.8 — Standards and Frameworks for AI Governance GSA/MasteringAgenticAISystems_supplementals help wanted, track:content-review, effort:medium, topic:governance-compliance, part:09, artifact:chapter-text",
-    "published": "2026-10-30T04:48:35Z",
+    "published": "2026-10-30T12:41:22Z",
     "source": "github-issues-api",
     "source_type": "open_source",
     "organization": "GSA/MasteringAgenticAISystems_supplementals",
@@ -4787,8 +4796,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 8 standards and frameworks for ai governance::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -5128,8 +5137,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
     "description_truncated": true
   },
@@ -5202,11 +5211,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -5451,11 +5460,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -5544,8 +5553,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -5873,8 +5882,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-28T11:21:08.429782+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::finos ai governance framework::proposal add positioning doc finos aig vs other frameworks standards and certifications::remote open source",
     "alternate_sources": [
       {
@@ -6117,8 +6126,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::chicago",
     "description_truncated": true,
     "alternate_sources": [
@@ -6203,8 +6212,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::houston",
     "description_truncated": true,
     "alternate_sources": [
@@ -6289,8 +6298,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-13T05:33:49.839758+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::toronto",
     "description_truncated": true,
     "alternate_sources": [
@@ -6375,8 +6384,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -6461,8 +6470,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -6639,6 +6648,87 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "Retry 224 brokers with no readable legal page",
+    "url": "https://github.com/TheArctesian/dataislands.org/issues/3",
+    "description": "Open-source contribution opportunity. Repository: TheArctesian/dataislands.org. Labels: help wanted. Automated data-quality task for the dataislands.org atlas. **Nothing listed here is a finding about these companies.** The source files are not in the repository yet.\n\nThe script could not read any legal page for 224 brokers still marked `unknown`, so we have no page evidence for them.\n\n<details><summary>Blocked, missing or mixed errors (80)</summary>\n\n`192-com-i-cd-publishing`, `4eyes-ai`, `ad-direct`, `advisortarget`, `all-global-resources`, `alloy`, `aluum-d-b-a-gateway-data`, `american-city-business-journals`, `assurance-iq`, `atlantic-fox-technologies`, `avrick-direct`, `blis-global`, `brokering`, `buildertrend-solutions`, `canada411-yellow-pages-digital-and-media-solutio`, `captiv8`, `catalyze-ai`, `chex-systems`, `collectors-datastore`, `connatix-native-exchange`, `consolidated-information-services-solutions`, `crawlbee`, `data-exchange`, `data-marketing-solutions`, `datadesk`, `datadojo-cdp`, `digital-safety-products`, `displaylogix`, `enformion`, `good-boy-studios`, `hybrid-theory`, `idengine`, `illumin`, `infomatics`, `insideview`, `instant-checkmate`, `jigyasa-analytics`, `jverify`, `kind-skiptracing`, `learnmore`, `let-it-ride-sports`, `limeleads`, `localblox`, `logiq`, `media-direct`, `mfi-credit-solutions`, `mylife`, `new-england-list-services`, `new-strata`, `nymblr`, `onemata`, `opensend`, `parasol-media`, `people-searchers`, `peoplewhiz`, `phantom-data`, `pludo`, `preferred-communications`, `private-records`, `pwc-product-sales`, `redbird-direct`, `redi-data`, `round-sky`, `salutary-data`, `sovra-ai`, `specialists-marketing-services`, `staircase`, `step2success-marketing`, `stratmish`, `truedata-solutions`, `truepeoplesearch`, `truthed`, `twine-data`, `ups-capital`, `us-data`, `vanguard-ai`, `verse-gaming`, `walla-media`, `we-inform`, `zeil`\n\n</details>\n\n<details><summary>Could not connect (116)</summary>\n\n`33across`, `4c-insights`, `6sense-insights` …",
+    "role_context": "Retry 224 brokers with no readable legal page TheArctesian/dataislands.org help wanted",
+    "published": "2026-10-31T04:49:15Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "TheArctesian/dataislands.org",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote / hybrid",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 42,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "remote",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      }
+    ],
+    "fit_score": 80,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong research writing relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
+    "opportunity_identity": "role::thearctesian dataislands org::retry 224 brokers with no readable legal page::remote open source",
+    "description_truncated": true
   },
   {
     "title": "# Spike 677 — Physical redemption with print claims tied to burn-or-hold policy",
@@ -8054,8 +8144,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-22T10:12:00.242439+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::hodetech forgelm::native review of the german french spanish and chinese gdpr retention and masking site strings::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -8164,8 +8254,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -8573,8 +8663,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel::munich",
     "description_truncated": true
   },
@@ -8651,8 +8741,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-30T11:24:12.103498+00:00",
-    "last_checked": "2026-10-30T11:24:12.103498+00:00",
+    "last_seen": "2026-10-31T10:55:45.497941+00:00",
+    "last_checked": "2026-10-31T10:55:45.497941+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
