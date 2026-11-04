@@ -101,8 +101,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -556,8 +556,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -653,9 +653,9 @@
   {
     "title": "[FEATURE] Add a Privacy Policy page (footer link is a dead anchor)",
     "url": "https://github.com/TENET-DEV-AI/TENET-AI/issues/300",
-    "description": "Open-source contribution opportunity. Repository: TENET-DEV-AI/TENET-AI. Labels: documentation, good first issue, level1. ## Description\n\nThe landing page footer shows a **Privacy Policy** link, but it goes nowhere — in `landing/src/components/Footer.tsx:64` it is `<a href=\"#\" onClick={(e) => e.preventDefault()}>Privacy Policy</a>`. The site also makes trust claims that a policy should back up (\"No usage telemetry\", \"Self-hosted\", \"MIT Licensed\"). A real privacy policy page is needed for user trust and, as the project grows, for compliance (GDPR / India DPDP Act / EU AI Act transparency).\n\n## Problem Statement\n\n- The footer \"Privacy Policy\" link is a dead anchor (`href=\"#\"`, click prevented).\n- No privacy policy page or document exists anywhere in the repo.\n- The landing page states \"No usage telemetry\" and exposes a contact email, but there is no statement of what data is or isn't collected, how long it is kept, or what rights users have.\n\n## Proposed Solution\n\n- Add a Privacy Policy page (e.g. `landing/src/components/PrivacyPolicy.tsx` with a `/privacy` route, or a static `privacy.html` served alongside the landing page).\n- Content should accurately reflect what TENET actually does: self-hosted with no telemetry by default; what the hosted landing/demo site collects (any analytics?), how the contact email is handled, cookies, data retention, user rights, and how to get in touch.\n- Wire the footer link to the page (replace the `href=\"#\"` placeholder).\n- Add a \"Last updated\" date and a version to the page.\n- Link the policy from the README (and the dashboard footer if applicable).\n\n## Scope / Checklist\n\n- [ ] Draft the policy content (data collected, purpose, retention, third parties, user rights, contact)\n- [ ] Add the page/route with styling consistent with the landing page\n- [ ] Update `Footer.tsx` to link to the new page\n- [ ] Add a \"Last updated\" date\n- [ ] Link it from the README\n- [ ] (Optional) cookie section if analytics are introduced\n\n## Acceptance Criter …",
-    "role_context": "[FEATURE] Add a Privacy Policy page (footer link is a dead anchor) TENET-DEV-AI/TENET-AI documentation, good first issue, level1",
-    "published": "2026-11-03T12:14:39Z",
+    "description": "Open-source contribution opportunity. Repository: TENET-DEV-AI/TENET-AI. Labels: documentation, good first issue, nsoc26, level1. ## Description\n\n![pasted-image-20261103-174113.png](https://github.com/user-attachments/assets/bb950816-72af-49d6-8b76-d375225b7712)\n\n\nThe landing page footer shows a **Privacy Policy** link, but it goes nowhere — in `landing/src/components/Footer.tsx:64` it is `<a href=\"#\" onClick={(e) => e.preventDefault()}>Privacy Policy</a>`. The site also makes trust claims that a policy should back up (\"No usage telemetry\", \"Self-hosted\", \"MIT Licensed\"). A real privacy policy page is needed for user trust and, as the project grows, for compliance (GDPR / India DPDP Act / EU AI Act transparency).\n\n## Problem Statement\n\n- The footer \"Privacy Policy\" link is a dead anchor (`href=\"#\"`, click prevented).\n- No privacy policy page or document exists anywhere in the repo.\n- The landing page states \"No usage telemetry\" and exposes a contact email, but there is no statement of what data is or isn't collected, how long it is kept, or what rights users have.\n\n## Proposed Solution\n\n- Add a Privacy Policy page (e.g. `landing/src/components/PrivacyPolicy.tsx` with a `/privacy` route, or a static `privacy.html` served alongside the landing page).\n- Content should accurately reflect what TENET actually does: self-hosted with no telemetry by default; what the hosted landing/demo site collects (any analytics?), how the contact email is handled, cookies, data retention, user rights, and how to get in touch.\n- Wire the footer link to the page (replace the `href=\"#\"` placeholder).\n- Add a \"Last updated\" date and a version to the page.\n- Link the policy from the README (and the dashboard footer if applicable).\n\n## Scope / Checklist\n\n- [ ] Draft the policy content (data collected, purpose, retention, third parties, user rights, contact)\n- [ ] Add the page/route with styling consistent with the landing page\n- [ ] Update `Footer.tsx` to link to the new page\n- [ ] Add a \"Las …",
+    "role_context": "[FEATURE] Add a Privacy Policy page (footer link is a dead anchor) TENET-DEV-AI/TENET-AI documentation, good first issue, nsoc26, level1",
+    "published": "2026-11-04T12:45:40Z",
     "source": "github-issues-api",
     "source_type": "open_source",
     "organization": "TENET-DEV-AI/TENET-AI",
@@ -728,10 +728,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::tenet dev ai tenet ai::feature add a privacy policy page footer link is a dead anchor::remote open source",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/TENET-DEV-AI/TENET-AI/issues/300",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "[Roadmap v0.6.0] Pluggable Global & State Regulatory Packs (GDPR, CCPA/CPRA, FERPA, CJIS v6.0 & 50-State FOIA)",
@@ -811,8 +820,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-24T09:32:44.725940+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::mr8lu blackmarker studio::roadmap v0 6 0 pluggable global and state regulatory packs gdpr ccpa cpra ferpa cjis v6 0 and 50 state foia::remote open source",
     "alternate_sources": [
       {
@@ -1472,8 +1481,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::argus code scanning argus codescan mcp::privacy gdpr and ccpa static rule pack::remote open source",
     "alternate_sources": [
       {
@@ -2043,8 +2052,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -2314,8 +2323,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -3764,8 +3773,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 7 gdpr and data protection regulations::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -4030,8 +4039,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -4047,9 +4056,9 @@
   {
     "title": "[Bug] Company address on the About page differs from the legal pages",
     "url": "https://github.com/layer5io/layer5/issues/8295",
-    "description": "Open-source contribution opportunity. Repository: layer5io/layer5. Labels: kind/bug, help wanted, framework/gatsby. # Description\n\nThe company's US headquarters address is not the same on every page. The About page gives one address; the Privacy Policy, Cookie Notice, and Terms of Service all give a different one... different street and different ZIP code.\n\n*  /company/about (https://layer5.io/company/about): 701 Brazos Street, Suite 1600, Austin, TX 78701\n*  /company/legal/privacy (https://layer5.io/company/legal/privacy): 1000 Congress Avenue, Austin, Texas 78735\n*  /company/legal/cookie-notice (https://layer5.io/company/legal/cookie-notice): 1000 Congress Avenue, Austin, Texas 78735\n*  /company/legal/terms-of-service (https://layer5.io/company/legal/terms-of-service): 1000 Congress Avenue, Austin, Texas 78735\n\nThree of the four pages agree, so the About page is the odd one out. Because this is the address on our legal and contact pages, a visitor or customer comparing them will see two different company headquarters.\n\n(Note: the About page also lists a separate Scotland / Engineering office at 3 Queen Street, Edinburgh. That one is not part of this issue... only the US headquarters address differs between pages.)\n\nSource lines, if anyone wants to confirm:\n\n*  src/sections/Company/About/index.js:190-194\n*  src/sections/Company/Legal/privacy/index.js:378-380\n*  src/sections/Company/Legal/cookie-notice/index.js:222-224\n*  src/sections/Company/Legal/terms-of-service/index.js:146-147\n\n# Expected Behavior\n\nThe US headquarters address should be the same on every page. One of the two addresses is correct and the other pages should be updated to match. A maintainer who knows the current headquarters address would need to confirm which one is right... then it's a small text fix.\n\n# Environment:\n\n*  Host OS: N/A (site content)\n*  Browser: any",
-    "role_context": "[Bug] Company address on the About page differs from the legal pages layer5io/layer5 kind/bug, help wanted, framework/gatsby",
-    "published": "2026-11-03T12:06:08Z",
+    "description": "Open-source contribution opportunity. Repository: layer5io/layer5. Labels: kind/bug, help wanted, good first issue, framework/gatsby. # Description\n\nThe company's US headquarters address is not the same on every page. The About page gives one address; the Privacy Policy, Cookie Notice, and Terms of Service all give a different one... different street and different ZIP code.\n\n*  /company/about (https://layer5.io/company/about): 701 Brazos Street, Suite 1600, Austin, TX 78701\n*  /company/legal/privacy (https://layer5.io/company/legal/privacy): 1000 Congress Avenue, Austin, Texas 78735\n*  /company/legal/cookie-notice (https://layer5.io/company/legal/cookie-notice): 1000 Congress Avenue, Austin, Texas 78735\n*  /company/legal/terms-of-service (https://layer5.io/company/legal/terms-of-service): 1000 Congress Avenue, Austin, Texas 78735\n\nThree of the four pages agree, so the About page is the odd one out. Because this is the address on our legal and contact pages, a visitor or customer comparing them will see two different company headquarters.\n\n(Note: the About page also lists a separate Scotland / Engineering office at 3 Queen Street, Edinburgh. That one is not part of this issue... only the US headquarters address differs between pages.)\n\nSource lines, if anyone wants to confirm:\n\n*  src/sections/Company/About/index.js:190-194\n*  src/sections/Company/Legal/privacy/index.js:378-380\n*  src/sections/Company/Legal/cookie-notice/index.js:222-224\n*  src/sections/Company/Legal/terms-of-service/index.js:146-147\n\n# Expected Behavior\n\nThe US headquarters address should be the same on every page. One of the two addresses is correct and the other pages should be updated to match. A maintainer who knows the current headquarters address would need to confirm which one is right... then it's a small text fix.\n\n# Environment:\n\n*  Host OS: N/A (site content)\n*  Browser: any",
+    "role_context": "[Bug] Company address on the About page differs from the legal pages layer5io/layer5 kind/bug, help wanted, good first issue, framework/gatsby",
+    "published": "2026-11-04T11:12:08Z",
     "source": "github-issues-api",
     "source_type": "open_source",
     "organization": "layer5io/layer5",
@@ -4113,9 +4122,18 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
-    "opportunity_identity": "role::layer5io layer5::bug company address on the about page differs from the legal pages::remote open source"
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "opportunity_identity": "role::layer5io layer5::bug company address on the about page differs from the legal pages::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/layer5io/layer5/issues/8295",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Privacy policy and terms mention voice recordings, which aren't supported",
@@ -4961,8 +4979,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 8 standards and frameworks for ai governance::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -5302,8 +5320,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
     "description_truncated": true
   },
@@ -5376,11 +5394,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -5701,11 +5719,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -5716,6 +5734,79 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "[Feature] Add Domain Preset Lenses (Academic Research, Legal Discovery, SaaS Onboarding)",
+    "url": "https://github.com/gagexhill/notebook-alchemy/issues/4",
+    "description": "Open-source contribution opportunity. Repository: gagexhill/notebook-alchemy. Labels: help wanted, good first issue. ## 🎯 Vision & Objective\n\nCurrently, Notebook Alchemy provides default heuristic clustering for creator & business content. We want to introduce modular **Domain Preset Lenses** that tailor the XML synthesis prompts and topic clustering heuristics to specific professional disciplines.\n\n## 🔬 Proposed Initial Lenses\n1. **Academic Research**: Focus on methodology, empirical findings, theoretical frameworks, literature citations.\n2. **Legal Discovery & Compliance**: Focus on statutory references, compliance controls, risk vectors, contractual obligations.\n3. **SaaS Product & Engineering**: Focus on API contracts, architectural patterns, technical debt, implementation roadmaps.\n\n## 📋 Implementation Tasks\n- [ ] Define \\DomainLens\\ schema in \\src/notebook_alchemy/lenses.py\\\n- [ ] Implement XML system prompt templates for each lens\n- [ ] Add CLI flag: \\\notebook-alchemy dry-run --lens academic\\\n- [ ] Add unit tests verifying prompt templating and cluster outputs",
+    "role_context": "[Feature] Add Domain Preset Lenses (Academic Research, Legal Discovery, SaaS Onboarding) gagexhill/notebook-alchemy help wanted, good first issue",
+    "published": "2026-11-03T22:14:00Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "gagexhill/notebook-alchemy",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 26,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "opportunity_identity": "role::gagexhill notebook alchemy::feature add domain preset lenses academic research legal discovery saas onboarding::remote open source"
   },
   {
     "title": "Compliance Analyst",
@@ -5794,8 +5885,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -5807,84 +5898,6 @@
       }
     ],
     "duplicate_count": 0
-  },
-  {
-    "title": "`checks:` in storehound.yaml: project-specific invariants for Info.plist, entitlements, privacy manifest and AndroidManifest",
-    "url": "https://github.com/saimskywalker/storehound/issues/51",
-    "description": "Open-source contribution opportunity. Repository: saimskywalker/storehound. Labels: enhancement, help wanted, priority: medium, adoption-readiness. ## Why it matters\n\nTeams that care about store safety usually already have a few hand-written tests in their app that parse `Info.plist` or `AndroidManifest.xml` and pin invariants nobody else would know about: \"`UIBackgroundModes` is exactly `audio` and `remote-notification`, because that is what App Review accepted\", \"`ITSAppUsesNonExemptEncryption` is false\", \"the Release entitlements use `aps-environment` `production`\", \"`android:allowBackup` is false\", \"no dependency may add `READ_MEDIA_IMAGES`\". These are real, but they are app-specific, so no built-in rule will ever own them.\n\nSo the team ends up with two systems: storehound for the generic checks and a Dart test file for their own pins, each with its own output, its own suppression story, and no SARIF annotations for the second one. #32 plans a guide for moving from hand-written tests to storehound; this issue gives the app-specific pins somewhere to move to.\n\n## What done looks like\n\n- [ ] A `checks:` section in `storehound.yaml` with a small, fixed set of assertions on Info.plist, privacy manifest, entitlements and AndroidManifest values\n- [ ] Every check needs a `reason`, the same convention as disabling a rule or an `ignore` entry\n- [ ] Findings appear in text, JSON and SARIF like any rule's, with the file and line of the value (or of the parent element when the value is missing)\n- [ ] `ignore`, `severity` and `--explain` work for a project check\n- [ ] Mistakes in a check (unknown file, unknown operator, wrong value type) are configuration errors with a line number, exit code 2\n- [ ] `doc/configuration.md` documents it, with the five common pins from #32 as examples\n\n## Config sketch\n\n```yaml\nchecks:\n  encryption-exempt:\n    file: info_plist\n    key: ITSAppUsesNonExemptEncryption\n    equals: false\n    reason: \"Export compliance is answered in App Store Connec …",
-    "role_context": "`checks:` in storehound.yaml: project-specific invariants for Info.plist, entitlements, privacy manifest and AndroidManifest saimskywalker/storehound enhancement, help wanted, priority: medium, adoption-readiness",
-    "published": "2026-11-03T10:13:26Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "saimskywalker/storehound",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 37,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "compliance",
-        "points": 14
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "remote",
-        "points": 10
-      }
-    ],
-    "fit_score": 84,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong privacy relevance",
-      "Strong compliance relevance",
-      "Strong policy relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly",
-      "Relevant experience overlap: privacy"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
-    "opportunity_identity": "role::saimskywalker storehound::checks in storehound yaml project specific invariants for info plist entitlements privacy manifest and androidmanifest::remote open source",
-    "description_truncated": true
   },
   {
     "title": "Add dataset: bailiff offices (gerechtsdeurwaarders / huissiers de justice)",
@@ -6201,8 +6214,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-28T11:21:08.429782+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::finos ai governance framework::proposal add positioning doc finos aig vs other frameworks standards and certifications::remote open source",
     "alternate_sources": [
       {
@@ -6523,8 +6536,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::chicago",
     "description_truncated": true,
     "alternate_sources": [
@@ -6609,8 +6622,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::houston",
     "description_truncated": true,
     "alternate_sources": [
@@ -6695,8 +6708,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-13T05:33:49.839758+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::toronto",
     "description_truncated": true,
     "alternate_sources": [
@@ -6781,8 +6794,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -6867,8 +6880,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -7765,6 +7778,79 @@
     "opportunity_identity": "url::https://www.dol.gov/agencies/sol/careers/internships"
   },
   {
+    "title": "`checks:` in storehound.yaml: project-specific invariants for Info.plist, entitlements, privacy manifest and AndroidManifest",
+    "url": "https://github.com/saimskywalker/storehound/issues/51",
+    "description": "Open-source contribution opportunity. Repository: saimskywalker/storehound. Labels: enhancement, help wanted, priority: medium, adoption-readiness. ## Why it matters\n\nTeams that care about store safety usually already have a few hand-written tests in their app that parse `Info.plist` or `AndroidManifest.xml` and pin invariants nobody else would know about: \"`UIBackgroundModes` is exactly `audio` and `remote-notification`, because that is what App Review accepted\", \"`ITSAppUsesNonExemptEncryption` is false\", \"the Release entitlements use `aps-environment` `production`\", \"`android:allowBackup` is false\", \"no dependency may add `READ_MEDIA_IMAGES`\". These are real, but they are app-specific, so no built-in rule will ever own them.\n\nSo the team ends up with two systems: storehound for the generic checks and a Dart test file for their own pins, each with its own output, its own suppression story, and no SARIF annotations for the second one. #32 plans a guide for moving from hand-written tests to storehound; this issue gives the app-specific pins somewhere to move to.\n\n## What done looks like\n\n- [ ] A `checks:` section in `storehound.yaml` with a small, fixed set of assertions on Info.plist, privacy manifest, entitlements and AndroidManifest values\n- [ ] Every check needs a `reason`, the same convention as disabling a rule or an `ignore` entry\n- [ ] Findings appear in text, JSON and SARIF like any rule's, with the file and line of the value (or of the parent element when the value is missing)\n- [ ] `ignore`, `severity` and `--explain` work for a project check\n- [ ] Mistakes in a check (unknown file, unknown operator, wrong value type) are configuration errors with a line number, exit code 2\n- [ ] `doc/configuration.md` documents it, with the five common pins from #32 as examples\n\n## Config sketch\n\n```yaml\nchecks:\n  encryption-exempt:\n    file: info_plist\n    key: ITSAppUsesNonExemptEncryption\n    equals: false\n    reason: \"Export compliance is answered in App Store Connec …",
+    "role_context": "`checks:` in storehound.yaml: project-specific invariants for Info.plist, entitlements, privacy manifest and AndroidManifest saimskywalker/storehound enhancement, help wanted, priority: medium, adoption-readiness",
+    "published": "2026-11-03T10:13:26Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "saimskywalker/storehound",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 25,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "remote",
+        "points": 10
+      }
+    ],
+    "fit_score": 75,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-03T12:48:06.669792+00:00",
+    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "opportunity_identity": "role::saimskywalker storehound::checks in storehound yaml project specific invariants for info plist entitlements privacy manifest and androidmanifest::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "Crosswalk: DAMA-DMBOK (Data Governance, Metadata and Data Quality knowledge areas)",
     "url": "https://github.com/Semantic-Management/framework/issues/22",
     "description": "Open-source contribution opportunity. Repository: Semantic-Management/framework. Labels: documentation, help wanted, crosswalk. **Need:** DAMA is the frame most data governance programs already run under. Adopters will ask \"where does SMF sit in DMBOK?\" and today the answer is one table row in `works-with.md`.\n\n**Scope:** DAMA-DMBOK 2 (and 3.0 where published). Map, at minimum, the Data Governance, Metadata Management, Data Quality and Reference & Master Data knowledge areas, plus the business glossary and stewardship roles, onto SMF's nine practices and seven roles ([roles-and-artifacts.md](https://github.com/Semantic-Management/framework/blob/main/docs/roles-and-artifacts.md)).\n\n**Key question to answer:** where does DMBOK's glossary stop and SMF's perspective/resolution begin? State it in one paragraph a DAMA-certified steward would accept.\n**Deliverable**\n- `docs/research/crosswalks/<framework>.md`, labelled non-normative, with one table: the framework's element → the SMF practice(s) it touches → whether SMF **supplies evidence to it**, **consumes an output from it**, or **overlaps and should defer**. Keep it to the elements that actually touch meaning; \"not applicable\" rows add nothing.\n- A short \"what this crosswalk does not claim\" paragraph.\n- Citation of the exact edition used, added to [bibliography.md](https://github.com/Semantic-Management/framework/blob/main/docs/research/bibliography.md).\n- One row added to the frameworks table in [works-with.md](https://github.com/Semantic-Management/framework/blob/main/docs/works-with.md) if it changes what is said there.\n\n**Acceptance**\n- No text copied from the source framework (summarize; cite).\n- Each mapping is one line a practitioner of that framework would recognize.\n- `python reference/tools/check-links.py` passes.\n\nRoadmap: \"Crosswalks to DAMA-DMBOK, ISO/IEC 42001, NIST AI RMF and COBIT\" in `docs/roadmap.md`.",
@@ -8222,6 +8308,83 @@
     "duplicate_count": 0
   },
   {
+    "title": "DGAF governance benchmark — independent reproduction of frozen handoff candidate",
+    "url": "https://github.com/ndrorchestration/DGAF-Framework/issues/1067",
+    "description": "Open-source contribution opportunity. Repository: ndrorchestration/DGAF-Framework. Labels: help wanted, governance, verification, external-review. ## AUTHORITATIVE REVIEW TARGET — 2026-09-27\n\nThis block supersedes every older target/instruction below for **new independent review execution**. Older blocks remain only as event-time provenance.\n\nRepository commit:\n\n`51fad284395650a38792a6c85a825628c3fc168d`\n\nDeterministic review bundle:\n\n`DGAF-governance-benchmark-review-51fad284.zip`\n\nExpected bundle SHA-256:\n\n`92842EB8C2FFD44F157C11CE9733A12ED720CE9EA0C794ADF9556E126CE9DC1F`\n\nAuthoritative readiness evidence:\n- repeated bundle generation from exact commit: **byte-identical**;\n- archive file count: **15**;\n- `SHA256SUMS.txt`: **14/14 payloads PASS**;\n- embedded `REVIEWER_HANDOFF.md` commit binding: exact;\n- Evidence Envelope repository commit binding: exact;\n- Envelope V2 `canonical_layer_digests`: **9/9**;\n- Envelope V2 `evidence_scope`: **9/9**;\n- strong-policy, exhaustive semantic-equivalence, configuration-scaling, recovery/composition, and provenance-custody evidence: present;\n- `DGAF_SMOKE_CONTRACT_V1.md`: present;\n- `run_dgaf_smoke_v1.py`: present;\n- DGAF Post-Merge Mainline Canary v1 on exact main `51fad284...`: **PASS**.\n\nCurrent reviewer quick-start:\n\n```bash\ngit clone https://github.com/ndrorchestration/DGAF-Framework.git\ncd DGAF-Framework\ngit checkout 51fad284395650a38792a6c85a825628c3fc168d\ntest \"$(git rev-parse HEAD)\" = \"51fad284395650a38792a6c85a825628c3fc168d\"\n\npython3.12 -m venv .venv\nsource .venv/bin/activate\npython -m pip install --upgrade pip\npython -m pip install --require-hashes \\\n  -r requirements-ci-py312-ubuntu2404-x64.lock\n\npython -m pytest \\\n  tests/test_comparative_governance_benchmark.py \\\n  tests/test_governance_benchmark_mutations.py \\\n  tests/test_governance_benchmark_interactions.py \\\n  tests/test_governance_benchmark_cross_domain.py \\\n  tests/test_governance_benchmark_evidence_manifest.py \\\n  tests/test_governance_benchmark_evidence_e …",
+    "role_context": "DGAF governance benchmark — independent reproduction of frozen handoff candidate ndrorchestration/DGAF-Framework help wanted, governance, verification, external-review",
+    "published": "2026-11-03T20:16:20Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "ndrorchestration/DGAF-Framework",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 29,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "remote",
+        "points": 10
+      }
+    ],
+    "fit_score": 72,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong governance relevance",
+      "Strong policy relevance",
+      "Strong published output relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "opportunity_identity": "role::ndrorchestration dgaf framework::dgaf governance benchmark independent reproduction of frozen handoff candidate::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "Add organization-wide policy, budget, and audit governance",
     "url": "https://github.com/Dusttoo/orka/issues/144",
     "description": "Open-source contribution opportunity. Repository: Dusttoo/orka. Labels: help wanted, architecture, security, durability, area: scheduler, area: cli-ui, status: blocked, priority: p2, effort: large, needs tests. ## Parent and order\n\nPost-2.0 Orka Platform governance. Blocked by the organization control-plane contract in #140, #132, #133, and distributed identity decisions from #142.\n\n## Goal\n\nAllow an organization to set additive safety ceilings, shared budgets, capacity limits, and audit retention without silently weakening repository-local policy.\n\n## Scope\n\n- Define organization, project, and repository policy precedence.\n- Add shared budget reservation and settlement across repositories without double counting.\n- Define global and project capacity pools while preserving repository-local admission.\n- Record authority, decision, configuration, upgrade, and merge audit events.\n- Define retention, redaction, and export requirements.\n\n## Acceptance criteria\n\n- [ ] Higher-level policy may tighten but never silently weaken repository safety controls.\n- [ ] Budget and capacity reservations are atomic and recoverable across supervisor failure.\n- [ ] One repository's hard stop does not become an organization-wide stop unless policy explicitly says so.\n- [ ] Every privileged decision records issuer, scope, reason, expiry, consumption, and resulting state.\n- [ ] Audit export is deterministic, redacted, and independently verifiable.\n- [ ] Policy changes are versioned, staged, and reversible before first affected mutation.\n- [ ] Synthetic multi-repository tests cover contention, partial failure, and replay.\n- [ ] No application or customer data is required by the governance layer.\n\n## Non-goals\n\n- Billing customers for Orka usage.\n- Replacing repository branch protection or provider audit logs.\n- Centralizing application production credentials.",
@@ -8460,8 +8623,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-22T10:12:00.242439+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::hodetech forgelm::native review of the german french spanish and chinese gdpr retention and masking site strings::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -8570,8 +8733,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -9156,8 +9319,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel::munich",
     "description_truncated": true
   },
@@ -9234,8 +9397,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-04T12:59:38.719401+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
