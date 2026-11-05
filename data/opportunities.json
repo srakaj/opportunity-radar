@@ -101,8 +101,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -556,8 +556,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::harvey::law school student ambassador::remote",
     "description_truncated": true,
     "alternate_sources": [
@@ -651,6 +651,93 @@
     "opportunity_identity": "role::openpak website::native speaker review of the german legal pages::remote open source"
   },
   {
+    "title": "feat(domains): add Legal, Contracts & Data Privacy Policy glossary (legal-and-privacy.md)",
+    "url": "https://github.com/m-ridha/indonesian-linguist/issues/21",
+    "description": "Open-source contribution opportunity. Repository: m-ridha/indonesian-linguist. Labels: enhancement, help wanted, good first issue, domain-expansion. > **Track 2 Pre-Aligned Issue:** This maintainer-seeded issue satisfies Step 1 of Track 2 in [`CONTRIBUTING.md`](https://github.com/m-ridha/indonesian-linguist/blob/main/CONTRIBUTING.md). Contributors (legal translators, privacy/compliance specialists, and localization engineers—with or without AI coding assistants) can claim this issue and jump straight to opening a Pull Request!\n\n## Problem Statement & Target Domain\n\nSoftware Terms of Service (*Syarat dan Ketentuan*), Privacy Policies (*Kebijakan Privasi*), cookie consent banners, and commercial contracts require alignment with Indonesian statutory language—especially **UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)** and **KUHPerdata**. General LLMs routinely produce severe legal calques: translating *Party* as `Pesta`, *Consideration* as `Pertimbangan` instead of `Prestasi / Imbal balik`, *Execute a contract* as `Mengeksekusi kontrak`, *Default* as software `Bawaan` instead of `Wanprestasi / Gagal bayar`, or misspelling statutory `Pelindungan Data Pribadi` and `Meterai`.\n\nThis issue tracks the creation of `references/domains/legal-and-privacy.md`.\n\n## Target Register & Pronoun Lock\n\n- **Register**:\n  - *Beku* (Frozen) for statutory citations, bilateral contracts (*Perjanjian*), and notarial deeds (*Akta*).\n  - *Resmi* (Formal) for user-facing Terms of Service (*Syarat dan Ketentuan*), Privacy Policies (*Kebijakan Privasi*), and data consent modals.\n- **Pronoun Lock**:\n  - Strictly **`Anda`** (capitalized) in user-facing policies and consent flows, or formal defined party titles (**`Para Pihak`**, **`Pihak Pertama`**, **`Subjek Data Pribadi`**, **`Pengendali Data Pribadi`**) in contracts.\n- **Authoritative Grounding**: **UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)**, **KUHPerdata** (*Kitab Undang-Undang Hukum Perdata*), **UU No. 13 …",
+    "role_context": "feat(domains): add Legal, Contracts & Data Privacy Policy glossary (legal-and-privacy.md) m-ridha/indonesian-linguist enhancement, help wanted, good first issue, domain-expansion",
+    "published": "2026-11-05T07:25:14Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "m-ridha/indonesian-linguist",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 64,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 91,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
+    "opportunity_identity": "role::m ridha indonesian linguist::feat domains add legal contracts and data privacy policy glossary legal and privacy md::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "[FEATURE] Add a Privacy Policy page (footer link is a dead anchor)",
     "url": "https://github.com/TENET-DEV-AI/TENET-AI/issues/300",
     "description": "Open-source contribution opportunity. Repository: TENET-DEV-AI/TENET-AI. Labels: documentation, good first issue, nsoc26, level1. ## Description\n\n![pasted-image-20261103-174113.png](https://github.com/user-attachments/assets/bb950816-72af-49d6-8b76-d375225b7712)\n\n\nThe landing page footer shows a **Privacy Policy** link, but it goes nowhere — in `landing/src/components/Footer.tsx:64` it is `<a href=\"#\" onClick={(e) => e.preventDefault()}>Privacy Policy</a>`. The site also makes trust claims that a policy should back up (\"No usage telemetry\", \"Self-hosted\", \"MIT Licensed\"). A real privacy policy page is needed for user trust and, as the project grows, for compliance (GDPR / India DPDP Act / EU AI Act transparency).\n\n## Problem Statement\n\n- The footer \"Privacy Policy\" link is a dead anchor (`href=\"#\"`, click prevented).\n- No privacy policy page or document exists anywhere in the repo.\n- The landing page states \"No usage telemetry\" and exposes a contact email, but there is no statement of what data is or isn't collected, how long it is kept, or what rights users have.\n\n## Proposed Solution\n\n- Add a Privacy Policy page (e.g. `landing/src/components/PrivacyPolicy.tsx` with a `/privacy` route, or a static `privacy.html` served alongside the landing page).\n- Content should accurately reflect what TENET actually does: self-hosted with no telemetry by default; what the hosted landing/demo site collects (any analytics?), how the contact email is handled, cookies, data retention, user rights, and how to get in touch.\n- Wire the footer link to the page (replace the `href=\"#\"` placeholder).\n- Add a \"Last updated\" date and a version to the page.\n- Link the policy from the README (and the dashboard footer if applicable).\n\n## Scope / Checklist\n\n- [ ] Draft the policy content (data collected, purpose, retention, third parties, user rights, contact)\n- [ ] Add the page/route with styling consistent with the landing page\n- [ ] Update `Footer.tsx` to link to the new page\n- [ ] Add a \"Las …",
@@ -728,8 +815,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::tenet dev ai tenet ai::feature add a privacy policy page footer link is a dead anchor::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -820,8 +907,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-24T09:32:44.725940+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::mr8lu blackmarker studio::roadmap v0 6 0 pluggable global and state regulatory packs gdpr ccpa cpra ferpa cjis v6 0 and 50 state foia::remote open source",
     "alternate_sources": [
       {
@@ -1481,8 +1568,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::argus code scanning argus codescan mcp::privacy gdpr and ccpa static rule pack::remote open source",
     "alternate_sources": [
       {
@@ -2052,8 +2139,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -2323,8 +2410,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -3103,6 +3190,83 @@
     "duplicate_count": 0
   },
   {
+    "title": "Challenge: native-speaker review of the legal pages (privacy, terms, refund) in your language",
+    "url": "https://github.com/Enard52/NEXUS/issues/254",
+    "description": "Open-source contribution opportunity. Repository: Enard52/NEXUS. Labels: help wanted, good first issue, translation. The privacy policy, terms of service and refund policy exist in all 68 languages (`scripts/legal-translations/<code>.json`, PDFs in `legal-pdf/`). They were produced with machine assistance and **have not been reviewed by native speakers**.\n\nLanguages that most need a human review: `zu`, `my`, `km`, `si`, `ga`, `am`, `bn`, `gu`, `ml`, `mn`, `ne`, `ta`, `te`, `pa`, `ka`, `hy`, `is`. Any other language is welcome too.\n\n**What to do**\n1. Read your language's three documents against the English source in `scripts/legal-content.cjs`.\n2. Fix wrong, unnatural or misleading wording in `scripts/legal-translations/<code>.json` (keep section/paragraph/list counts, numbers, e-mail address and brand names).\n3. Run `node scripts/check-legal-translation.cjs <code>`; if you touch the layout-relevant text, `node scripts/legal-pdf.mjs <code>` regenerates the PDFs.\n4. Open a PR; mention what you changed and whether you are a native speaker.\n\nDo not change the legal meaning. If the English text itself looks wrong, say so in the PR instead.\n---\n**How this challenge works**\n- Claim it by commenting with the item you take (one open claim per person at a time; a claim with no activity for 7 days is released).\n- The **first pull request that passes review and CI** wins the item. Quality over speed: a rushed PR that needs a rewrite does not block the next one.\n- Winners are credited by GitHub handle in the release notes and README of the release that includes their work. No rankings or point tables are published (see CONTRIBUTING.md).\n- Ground rules: nothing fake or invented, no secrets, honest wording when something is unverified (CLAUDE.md).",
+    "role_context": "Challenge: native-speaker review of the legal pages (privacy, terms, refund) in your language Enard52/NEXUS help wanted, good first issue, translation",
+    "published": "2026-11-04T14:13:35Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "Enard52/NEXUS",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 38,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
+    "opportunity_identity": "role::enard52 nexus::challenge native speaker review of the legal pages privacy terms refund in your language::remote open source"
+  },
+  {
     "title": "[P15] Legal/operational review questions before mainnet",
     "url": "https://github.com/olafweller/kaspa-privacy-initiative/issues/15",
     "description": "Open-source contribution opportunity. Repository: olafweller/kaspa-privacy-initiative. Labels: help wanted, legal-question, operations. Proposal ID: **P15**. See the [research backlog](https://github.com/olafweller/kaspa-privacy-initiative/blob/main/docs/INITIAL-ISSUES.md).\n\nProduce a question set for specialist counsel covering software publication, custody/control, hosted frontends, hosted proving, fee collection, and treasury operations.\n\nDo not treat the issue discussion as legal advice.\n\nEvidence, concrete objections, and specification proposals are welcome. Keep verified source facts separate from hypotheses. This is a research task; no mainnet experiment, real funds, or production cryptography.",
@@ -3773,8 +3937,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 7 gdpr and data protection regulations::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -4039,8 +4203,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -4122,8 +4286,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::layer5io layer5::bug company address on the about page differs from the legal pages::remote open source",
     "alternate_sources": [
       {
@@ -4979,8 +5143,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 8 standards and frameworks for ai governance::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -5072,6 +5236,91 @@
     "last_seen": "2026-09-22T05:26:27.204052+00:00",
     "last_checked": "2026-09-22T05:26:27.204052+00:00",
     "opportunity_identity": "role::mdiamantino awesome eu cybersec::ai act security and robustness guidance for high risk systems::remote open source"
+  },
+  {
+    "title": "feat(domains): add Politics, Public Policy, Governance & Journalism glossary (politics-and-news.md)",
+    "url": "https://github.com/m-ridha/indonesian-linguist/issues/23",
+    "description": "Open-source contribution opportunity. Repository: m-ridha/indonesian-linguist. Labels: enhancement, help wanted, good first issue, domain-expansion. > **Track 2 Pre-Aligned Issue:** This maintainer-seeded issue satisfies Step 1 of Track 2 in [`CONTRIBUTING.md`](https://github.com/m-ridha/indonesian-linguist/blob/main/CONTRIBUTING.md). Contributors (journalists, editors, public policy researchers, and linguists—with or without AI coding assistants) can claim this issue and jump straight to opening a Pull Request!\n\n## Problem Statement & Target Domain\n\nWhen translating international news, drafting public policy briefs, or localizing civic-tech platforms into Bahasa Indonesia, general LLMs constantly fall into English political calques. They translate *Administration* (e.g., executive government) as clerical `Administrasi`, legislative *Bill* as `Tagihan`, *Incumbent* as `Yang menjabat` instead of `Petahana`, *Landslide victory* as `Kemenangan tanah longsor`, and *Running mate* as `Teman lari`. Moreover, AI-generated news translations frequently violate Indonesian journalistic attribution rules by referring to ministries, political parties, or courts with human pronouns (`ia` or `mereka`).\n\nThis issue tracks the creation of `references/domains/politics-and-news.md`.\n\n## Target Register & Pronoun Lock\n\n- **Register**:\n  - *Resmi* (Formal) for policy briefs, legislative analysis, constitutional/statutory commentary, and official press releases.\n  - *Konsultatif* (Journalistic Straight News / *Bahasa Jurnalistik*) for news articles, media portals (Kompas, Tempo, Narasi), and civic-tech platforms.\n- **Pronoun Lock**:\n  - Third-person objective attribution in journalism: **`ia`** or **`dia`** exclusively for human public figures—**never** for institutions, ministries, bills, or political parties! Use **`pihaknya`** or repeat the institution noun (*\"Kementerian mengumumkan pihaknya akan...\"*).\n  - Use **`Anda`** or **`Warga / Pemilih`** in civic-tech UI.\n- **Authoritative Gr …",
+    "role_context": "feat(domains): add Politics, Public Policy, Governance & Journalism glossary (politics-and-news.md) m-ridha/indonesian-linguist enhancement, help wanted, good first issue, domain-expansion",
+    "published": "2026-11-05T07:25:18Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "m-ridha/indonesian-linguist",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 53,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong compliance relevance",
+      "Strong governance relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
+    "opportunity_identity": "role::m ridha indonesian linguist::feat domains add politics public policy governance and journalism glossary politics and news md::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Add a checked failing fixture to the EU AI Act transparency example",
@@ -5320,8 +5569,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
     "description_truncated": true
   },
@@ -5394,11 +5643,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -5719,11 +5968,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -5804,9 +6053,18 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
-    "opportunity_identity": "role::gagexhill notebook alchemy::feature add domain preset lenses academic research legal discovery saas onboarding::remote open source"
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
+    "opportunity_identity": "role::gagexhill notebook alchemy::feature add domain preset lenses academic research legal discovery saas onboarding::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/gagexhill/notebook-alchemy/issues/4",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Compliance Analyst",
@@ -5885,8 +6143,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -6214,8 +6472,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-28T11:21:08.429782+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::finos ai governance framework::proposal add positioning doc finos aig vs other frameworks standards and certifications::remote open source",
     "alternate_sources": [
       {
@@ -6536,8 +6794,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::chicago",
     "description_truncated": true,
     "alternate_sources": [
@@ -6622,8 +6880,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::houston",
     "description_truncated": true,
     "alternate_sources": [
@@ -6708,8 +6966,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-13T05:33:49.839758+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::toronto",
     "description_truncated": true,
     "alternate_sources": [
@@ -6794,8 +7052,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -6880,8 +7138,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -8308,83 +8566,6 @@
     "duplicate_count": 0
   },
   {
-    "title": "DGAF governance benchmark — independent reproduction of frozen handoff candidate",
-    "url": "https://github.com/ndrorchestration/DGAF-Framework/issues/1067",
-    "description": "Open-source contribution opportunity. Repository: ndrorchestration/DGAF-Framework. Labels: help wanted, governance, verification, external-review. ## AUTHORITATIVE REVIEW TARGET — 2026-09-27\n\nThis block supersedes every older target/instruction below for **new independent review execution**. Older blocks remain only as event-time provenance.\n\nRepository commit:\n\n`51fad284395650a38792a6c85a825628c3fc168d`\n\nDeterministic review bundle:\n\n`DGAF-governance-benchmark-review-51fad284.zip`\n\nExpected bundle SHA-256:\n\n`92842EB8C2FFD44F157C11CE9733A12ED720CE9EA0C794ADF9556E126CE9DC1F`\n\nAuthoritative readiness evidence:\n- repeated bundle generation from exact commit: **byte-identical**;\n- archive file count: **15**;\n- `SHA256SUMS.txt`: **14/14 payloads PASS**;\n- embedded `REVIEWER_HANDOFF.md` commit binding: exact;\n- Evidence Envelope repository commit binding: exact;\n- Envelope V2 `canonical_layer_digests`: **9/9**;\n- Envelope V2 `evidence_scope`: **9/9**;\n- strong-policy, exhaustive semantic-equivalence, configuration-scaling, recovery/composition, and provenance-custody evidence: present;\n- `DGAF_SMOKE_CONTRACT_V1.md`: present;\n- `run_dgaf_smoke_v1.py`: present;\n- DGAF Post-Merge Mainline Canary v1 on exact main `51fad284...`: **PASS**.\n\nCurrent reviewer quick-start:\n\n```bash\ngit clone https://github.com/ndrorchestration/DGAF-Framework.git\ncd DGAF-Framework\ngit checkout 51fad284395650a38792a6c85a825628c3fc168d\ntest \"$(git rev-parse HEAD)\" = \"51fad284395650a38792a6c85a825628c3fc168d\"\n\npython3.12 -m venv .venv\nsource .venv/bin/activate\npython -m pip install --upgrade pip\npython -m pip install --require-hashes \\\n  -r requirements-ci-py312-ubuntu2404-x64.lock\n\npython -m pytest \\\n  tests/test_comparative_governance_benchmark.py \\\n  tests/test_governance_benchmark_mutations.py \\\n  tests/test_governance_benchmark_interactions.py \\\n  tests/test_governance_benchmark_cross_domain.py \\\n  tests/test_governance_benchmark_evidence_manifest.py \\\n  tests/test_governance_benchmark_evidence_e …",
-    "role_context": "DGAF governance benchmark — independent reproduction of frozen handoff candidate ndrorchestration/DGAF-Framework help wanted, governance, verification, external-review",
-    "published": "2026-11-03T20:16:20Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "ndrorchestration/DGAF-Framework",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 29,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "governance",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      },
-      {
-        "signal": "remote",
-        "points": 10
-      }
-    ],
-    "fit_score": 72,
-    "fit_label": "Stretch",
-    "fit_reasons": [
-      "Strong governance relevance",
-      "Strong policy relevance",
-      "Strong published output relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
-    "opportunity_identity": "role::ndrorchestration dgaf framework::dgaf governance benchmark independent reproduction of frozen handoff candidate::remote open source",
-    "description_truncated": true
-  },
-  {
     "title": "Add organization-wide policy, budget, and audit governance",
     "url": "https://github.com/Dusttoo/orka/issues/144",
     "description": "Open-source contribution opportunity. Repository: Dusttoo/orka. Labels: help wanted, architecture, security, durability, area: scheduler, area: cli-ui, status: blocked, priority: p2, effort: large, needs tests. ## Parent and order\n\nPost-2.0 Orka Platform governance. Blocked by the organization control-plane contract in #140, #132, #133, and distributed identity decisions from #142.\n\n## Goal\n\nAllow an organization to set additive safety ceilings, shared budgets, capacity limits, and audit retention without silently weakening repository-local policy.\n\n## Scope\n\n- Define organization, project, and repository policy precedence.\n- Add shared budget reservation and settlement across repositories without double counting.\n- Define global and project capacity pools while preserving repository-local admission.\n- Record authority, decision, configuration, upgrade, and merge audit events.\n- Define retention, redaction, and export requirements.\n\n## Acceptance criteria\n\n- [ ] Higher-level policy may tighten but never silently weaken repository safety controls.\n- [ ] Budget and capacity reservations are atomic and recoverable across supervisor failure.\n- [ ] One repository's hard stop does not become an organization-wide stop unless policy explicitly says so.\n- [ ] Every privileged decision records issuer, scope, reason, expiry, consumption, and resulting state.\n- [ ] Audit export is deterministic, redacted, and independently verifiable.\n- [ ] Policy changes are versioned, staged, and reversible before first affected mutation.\n- [ ] Synthetic multi-repository tests cover contention, partial failure, and replay.\n- [ ] No application or customer data is required by the governance layer.\n\n## Non-goals\n\n- Billing customers for Orka usage.\n- Replacing repository branch protection or provider audit logs.\n- Centralizing application production credentials.",
@@ -8573,7 +8754,7 @@
     "deadline_time_confidence": "unknown",
     "deadline_source_timezone": "",
     "deadline_original": "",
-    "score": 52,
+    "score": 40,
     "reasons": [
       {
         "signal": "open_source_discovery",
@@ -8590,10 +8771,6 @@
       {
         "signal": "compliance",
         "points": 14
-      },
-      {
-        "signal": "governance",
-        "points": 12
       },
       {
         "signal": "structured_source",
@@ -8733,8 +8910,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -9319,8 +9496,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel::munich",
     "description_truncated": true
   },
@@ -9397,8 +9574,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-11-04T12:59:38.719401+00:00",
-    "last_checked": "2026-11-04T12:59:38.719401+00:00",
+    "last_seen": "2026-11-05T13:12:57.145457+00:00",
+    "last_checked": "2026-11-05T13:12:57.145457+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
