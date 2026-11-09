@@ -101,8 +101,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -483,94 +483,6 @@
     "description_truncated": true
   },
   {
-    "title": "Law School Student Ambassador",
-    "url": "https://jobs.ashbyhq.com/harvey/a194c24f-38ee-4c7e-908b-060a16dfaa9d",
-    "description": "Organisation: Harvey. Location: Remote. Department: Legal. Team: Legal. Commitment: Contract. Work model: Remote. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview The Law School Student Ambassador is a current JD candidate / law student (or international equivalent) who serves as Harvey's on-campus champion, connecting the product with the student community at their law school / law faculty. This role sits within the Law School Partnerships team, whose mission is to make Harvey an indispensable part of legal education by embedding the platform into how students learn and work. By building peer-to-peer awareness and hosting hands-on programming, the Ambassador accelerates student adoption and generates insights that shape Harvey's academic go-to-market strategy. They partner with faculty, student organizations, and Ha …",
-    "role_context": "Law School Student Ambassador Legal Legal Contract",
-    "published": "2026-06-25T16:59:33.472+00:00",
-    "source": "ashby:harvey",
-    "source_type": "job_board",
-    "organization": "Harvey",
-    "location": "Remote",
-    "structured_opportunity": true,
-    "source_quality": "Official ATS",
-    "source_priority": 100,
-    "source_quality_label": "Direct employer ATS",
-    "opportunity_type": "Early-career role",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [
-      "Current law students"
-    ],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 67,
-    "reasons": [
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "remote",
-        "points": 10
-      },
-      {
-        "signal": "international",
-        "points": 8
-      },
-      {
-        "signal": "leadership",
-        "points": 8
-      }
-    ],
-    "fit_score": 93,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong privacy relevance",
-      "Early-career role matches the target career stage",
-      "Remote-friendly",
-      "Explicitly open to current law students"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
-    "opportunity_identity": "role::harvey::law school student ambassador::remote",
-    "description_truncated": true,
-    "alternate_sources": [
-      {
-        "source": "ashby:harvey",
-        "url": "https://jobs.ashbyhq.com/harvey/a194c24f-38ee-4c7e-908b-060a16dfaa9d",
-        "quality": "Official ATS",
-        "priority": 100
-      }
-    ],
-    "duplicate_count": 0
-  },
-  {
     "title": "Native-speaker review of the German legal pages",
     "url": "https://github.com/openpak/website/issues/1",
     "description": "Open-source contribution opportunity. Repository: openpak/website. Labels: good first issue. ## Context\n\nThe Terms of use, Privacy policy, legal notices and operator terms were translated into German (commit 5bd4bcc). The English text is authoritative and each translation says so, but nobody who writes German natively has read them yet. A translation that reads badly or says something subtly different from the English is worse than none.\n\n## Files\n\n- `internal/pages/templates/terms_de.html` (English: `terms.html`)\n- `internal/pages/templates/privacy_de.html` (English: `privacy.html`)\n- `internal/pages/templates/legal_de.html` (English: `legal.html`)\n- `internal/pages/templates/operators_de.html` (English: `operators.html`)\n\n## What to do\n\nRead each page side by side with its English original. Fix grammar, unnatural phrasing and any place where the meaning drifted. Do not add, drop or reorder sections: the tests compare the structure with the English page.\n\n## Acceptance criteria\n\n- A pull request with the corrections, or a comment here saying the pages read correctly, from a native German speaker.\n- The section ids (`<h2 id=\"...\">`), list items and links match the English page.\n- `GOWORK=off go vet ./... && go test ./...` passes (`TestLegalPagesTranslated` in `internal/pages/legal_test.go` checks the structure).\n\n## Notes\n\nThis is a language review, not legal advice. If you think the English text itself is wrong, open a separate issue. Before you start, read [CONTRIBUTING](https://github.com/openpak/.github/blob/main/CONTRIBUTING.md). Keep the pull request to this one change.",
@@ -682,7 +594,7 @@
     "deadline_time_confidence": "unknown",
     "deadline_source_timezone": "",
     "deadline_original": "",
-    "score": 64,
+    "score": 52,
     "reasons": [
       {
         "signal": "open_source_discovery",
@@ -702,10 +614,6 @@
       },
       {
         "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
         "points": 12
       },
       {
@@ -740,98 +648,6 @@
       {
         "source": "github-issues-api",
         "url": "https://github.com/m-ridha/indonesian-linguist/issues/21",
-        "quality": "Open source",
-        "priority": 65
-      }
-    ],
-    "duplicate_count": 0
-  },
-  {
-    "title": "[FEATURE] Add a Privacy Policy page (footer link is a dead anchor)",
-    "url": "https://github.com/TENET-DEV-AI/TENET-AI/issues/300",
-    "description": "Open-source contribution opportunity. Repository: TENET-DEV-AI/TENET-AI. Labels: documentation, good first issue, nsoc26, level1. ## Description\n\n![pasted-image-20261103-174113.png](https://github.com/user-attachments/assets/bb950816-72af-49d6-8b76-d375225b7712)\n\n\nThe landing page footer shows a **Privacy Policy** link, but it goes nowhere — in `landing/src/components/Footer.tsx:64` it is `<a href=\"#\" onClick={(e) => e.preventDefault()}>Privacy Policy</a>`. The site also makes trust claims that a policy should back up (\"No usage telemetry\", \"Self-hosted\", \"MIT Licensed\"). A real privacy policy page is needed for user trust and, as the project grows, for compliance (GDPR / India DPDP Act / EU AI Act transparency).\n\n## Problem Statement\n\n- The footer \"Privacy Policy\" link is a dead anchor (`href=\"#\"`, click prevented).\n- No privacy policy page or document exists anywhere in the repo.\n- The landing page states \"No usage telemetry\" and exposes a contact email, but there is no statement of what data is or isn't collected, how long it is kept, or what rights users have.\n\n## Proposed Solution\n\n- Add a Privacy Policy page (e.g. `landing/src/components/PrivacyPolicy.tsx` with a `/privacy` route, or a static `privacy.html` served alongside the landing page).\n- Content should accurately reflect what TENET actually does: self-hosted with no telemetry by default; what the hosted landing/demo site collects (any analytics?), how the contact email is handled, cookies, data retention, user rights, and how to get in touch.\n- Wire the footer link to the page (replace the `href=\"#\"` placeholder).\n- Add a \"Last updated\" date and a version to the page.\n- Link the policy from the README (and the dashboard footer if applicable).\n\n## Scope / Checklist\n\n- [ ] Draft the policy content (data collected, purpose, retention, third parties, user rights, contact)\n- [ ] Add the page/route with styling consistent with the landing page\n- [ ] Update `Footer.tsx` to link to the new page\n- [ ] Add a \"Las …",
-    "role_context": "[FEATURE] Add a Privacy Policy page (footer link is a dead anchor) TENET-DEV-AI/TENET-AI documentation, good first issue, nsoc26, level1",
-    "published": "2026-11-05T18:57:39Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "TENET-DEV-AI/TENET-AI",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 60,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "ai_governance",
-        "points": 18
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "compliance",
-        "points": 14
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      }
-    ],
-    "fit_score": 91,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong ai governance relevance",
-      "Strong legal relevance",
-      "Strong privacy relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly",
-      "Relevant experience overlap: privacy",
-      "Relevant experience overlap: compliance"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
-    "opportunity_identity": "role::tenet dev ai tenet ai::feature add a privacy policy page footer link is a dead anchor::remote open source",
-    "description_truncated": true,
-    "alternate_sources": [
-      {
-        "source": "github-issues-api",
-        "url": "https://github.com/TENET-DEV-AI/TENET-AI/issues/300",
         "quality": "Open source",
         "priority": 65
       }
@@ -923,6 +739,94 @@
       {
         "source": "github-issues-api",
         "url": "https://github.com/mr8lu/blackmarker-studio/issues/5",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
+  },
+  {
+    "title": "[FEATURE] Add a Privacy Policy page (footer link is a dead anchor)",
+    "url": "https://github.com/TENET-DEV-AI/TENET-AI/issues/300",
+    "description": "Open-source contribution opportunity. Repository: TENET-DEV-AI/TENET-AI. Labels: documentation, good first issue, nsoc26, level1. ## Description\n\n![pasted-image-20261103-174113.png](https://github.com/user-attachments/assets/bb950816-72af-49d6-8b76-d375225b7712)\n\n\nThe landing page footer shows a **Privacy Policy** link, but it goes nowhere — in `landing/src/components/Footer.tsx:64` it is `<a href=\"#\" onClick={(e) => e.preventDefault()}>Privacy Policy</a>`. The site also makes trust claims that a policy should back up (\"No usage telemetry\", \"Self-hosted\", \"MIT Licensed\"). A real privacy policy page is needed for user trust and, as the project grows, for compliance (GDPR / India DPDP Act / EU AI Act transparency).\n\n## Problem Statement\n\n- The footer \"Privacy Policy\" link is a dead anchor (`href=\"#\"`, click prevented).\n- No privacy policy page or document exists anywhere in the repo.\n- The landing page states \"No usage telemetry\" and exposes a contact email, but there is no statement of what data is or isn't collected, how long it is kept, or what rights users have.\n\n## Proposed Solution\n\n- Add a Privacy Policy page (e.g. `landing/src/components/PrivacyPolicy.tsx` with a `/privacy` route, or a static `privacy.html` served alongside the landing page).\n- Content should accurately reflect what TENET actually does: self-hosted with no telemetry by default; what the hosted landing/demo site collects (any analytics?), how the contact email is handled, cookies, data retention, user rights, and how to get in touch.\n- Wire the footer link to the page (replace the `href=\"#\"` placeholder).\n- Add a \"Last updated\" date and a version to the page.\n- Link the policy from the README (and the dashboard footer if applicable).\n\n## Scope / Checklist\n\n- [ ] Draft the policy content (data collected, purpose, retention, third parties, user rights, contact)\n- [ ] Add the page/route with styling consistent with the landing page\n- [ ] Update `Footer.tsx` to link to the new page\n- [ ] Add a \"Las …",
+    "role_context": "[FEATURE] Add a Privacy Policy page (footer link is a dead anchor) TENET-DEV-AI/TENET-AI documentation, good first issue, nsoc26, level1",
+    "published": "2026-11-05T18:57:39Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "TENET-DEV-AI/TENET-AI",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 45,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "ai_governance",
+        "points": 18
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 91,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong ai governance relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-03T12:48:06.669792+00:00",
+    "last_seen": "2026-11-07T11:43:57.121556+00:00",
+    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "opportunity_identity": "role::tenet dev ai tenet ai::feature add a privacy policy page footer link is a dead anchor::remote open source",
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/TENET-DEV-AI/TENET-AI/issues/300",
         "quality": "Open source",
         "priority": 65
       }
@@ -1577,8 +1481,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-27T10:35:15.004637+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
     "opportunity_identity": "role::argus code scanning argus codescan mcp::privacy gdpr and ccpa static rule pack::remote open source",
     "alternate_sources": [
       {
@@ -2064,6 +1968,100 @@
     "duplicate_count": 0
   },
   {
+    "title": "Add an EU evidence index page that links the existing GDPR and AI Act documents",
+    "url": "https://github.com/maziyarpanahi/openmed/issues/5427",
+    "description": "Open-source contribution opportunity. Repository: maziyarpanahi/openmed. Labels: documentation, help wanted, good first issue, P3, roadmap-v4. ## Problem and existing coverage\n\nEU-relevant pages are scattered through the Compliance nav: `dpia-template.md`, `dpa-template.md`, `gdpr-dsar-export.md`, `model-card-eu-ai-act-fields.md` and `iso-27701-control-evidence.md` under `docs/compliance/`. A reader preparing EU evidence has no entry point that lists them.\n\n## Implementation\n\n- Add `docs/compliance/eu-evidence.md` (new) with one short paragraph per existing EU-relevant page: what it is for and what it is not.\n- Add the page to the mkdocs Compliance nav, above the pages it links.\n\n## Acceptance criteria\n\n- [ ] Every linked page exists and the links resolve.\n- [ ] The page states that it is an index and not legal advice.\n- [ ] The strict docs build passes.\n- [ ] `make docs-build`\n\n## Independent development boundary\n\nOwns one index page linking existing docs; new EU pages link themselves when they land.\n\n## Starting points and validation\n\n`docs/compliance/eu-evidence.md` (new), `docs/compliance/`, `mkdocs.yml`.\n\nAdd focused offline unit and integration tests for this slice and document the public behavior. Use synthetic fixtures, injected transports/clocks/providers where needed, and negative controls. Record exact validation commands in the implementation PR.\n\n## For first-time contributors\n\nSkim the five pages named in the problem and the Compliance section of `mkdocs.yml`. Expect one Markdown page of 40-80 lines and a two-line nav change. Run `make docs-build` (after `uv pip install -e \".[dev,docs]\"`) to check links.\n\nComment on this issue if anything is unclear; questions are welcome.\n\n## Privacy and release limits\n\nKeep local-first defaults. Diagnostics and evidence contain only controlled codes, counts, offsets, opaque references and digests; never raw PHI, credentials, private paths or source payloads. Do not bundle restricted data or weights. This task adds no …",
+    "role_context": "Add an EU evidence index page that links the existing GDPR and AI Act documents maziyarpanahi/openmed documentation, help wanted, good first issue, P3, roadmap-v4",
+    "published": "2026-11-08T14:15:53Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "maziyarpanahi/openmed",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 92,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "ai_governance",
+        "points": 18
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "remote",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong ai governance relevance",
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "opportunity_identity": "role::maziyarpanahi openmed::add an eu evidence index page that links the existing gdpr and ai act documents::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "Werkstudent:in, Recht",
     "url": "https://job-boards.greenhouse.io/via/jobs/8585553002",
     "description": "Organisation: Via. Location: Berlin, Germany. Department: Legal. Office: Berlin. Via nutzt innovative Technologien, um den Transport weltweit zu revolutionieren. Von der Veränderung des täglichen Pendelns einer einzelnen Person bis zur Reduzierung des kollektiven ökologischen Fußabdrucks der Menschheit – wir haben große Ziele. Als Werkstudent:in im Bereich Recht wirst du ein wichtiger Teil unseres dynamischen, globalen Rechtsteams und arbeitest eng mit einem Team hoch engagierter Anwält:innen in Europa, Israel und New York zusammen. Dabei hilfst du uns, unser Geschäft in Europa weiter auszubauen und neue Projekte auf den Weg zu bringen. Mit Unterstützung eines Mentors lernst du die vielschichtigen Aufgaben eines Syndikusanwalts kennen und erhältst gleichzeitig einzigartige Einblicke in die Rechtsabteilung eines schnell wachsenden Scale-ups. Dies ist eine Station im Rahmen des Rechtsreferendariats mit einer Mindestdauer von 6 Monaten, idealerweise mit Start im September 2026. Die Stelle ist in Berlin angesiedelt, im hybriden Arbeitsmodell. Deine Aufgaben: Unterstützung bei geschäftskritischen Vertragsangelegenheiten: Prüfung und Koordination des Vertragsabschlusses (z. B. NDAs, SaaS-Verträge, Lieferantenverträge, Mietverträge), unter Sicherstellung der Genauigkeit und Identifizierung zentraler Risiken Unterstützung bei der Pflege und Organisation von Vertragsdatenbanken und -vorlagen Unterstützung beim Management wichtiger regulatorischer und Compliance-Themen: Durchführung rechtlicher und regulatorischer Recherchen in für Via relevanten Bereichen, u. a. Transportnetzwerkdienste, Gig Economy, Versicherungen, Open-Source-Daten und Datenschutzrecht Überwachung der Einhaltung der DSGVO und anderer Datenschutzgesetze durch die Kontrolle von Auftragsverarbeitungsverträgen (DPAs) mit Lieferanten und Partnern Unterstützung der internen Compliance und Corporate Governance von Via Vorantreiben von Effizienz- und Prozessverbesserungen: Aufbau von Kenntnissen interner Datenbank …",
@@ -2148,8 +2146,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -2260,6 +2258,96 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "Add an Apple Foundation Models section to the generative model policy",
+    "url": "https://github.com/maziyarpanahi/openmed/issues/5080",
+    "description": "Open-source contribution opportunity. Repository: maziyarpanahi/openmed. Labels: documentation, help wanted, good first issue, P2, roadmap-v5. ## Problem and existing coverage\n\n`docs/generative-model-policy.md` lists encouraged and prohibited uses of generative models but says nothing about Apple Foundation Models. The rules live only in `AGENTS.md` (on-device only, no cloud fallback for PHI) and in internal planning notes (Apple does not sign BAAs, so Private Cloud Compute paths are not HIPAA-eligible; treat output as Borderline tier). App developers need one public page.\n\n## Implementation\n\n- Add an 'Apple Foundation Models' section: on-device only, no Private Cloud Compute or other fallback for PHI, no tools, Borderline-tier treatment, human review before use, and a pointer to Apple's acceptable-use requirements.\n- Add routing PHI to Private Cloud Compute or any cloud model to the prohibited-use list.\n- Link the page from `docs/swift-openmedkit.md`.\n\n## Acceptance criteria\n\n- [ ] The new section and prohibited-use entry exist.\n- [ ] `docs/swift-openmedkit.md` links to the section.\n- [ ] `make docs-build`\n\n## Independent development boundary\n\nDocumentation only. It adds no code and makes no compliance claim.\n\n## Starting points and validation\n\n`docs/generative-model-policy.md`, `docs/swift-openmedkit.md`, `AGENTS.md`.\n\nAdd focused offline unit and integration tests for this slice and document the public behavior. Use synthetic fixtures, injected transports/clocks/providers where needed, and negative controls. Record exact validation commands in the implementation PR.\n\n## For first-time contributors\n\nRead `docs/generative-model-policy.md` and the 'OpenMedKit and Multimodal Work' section of `AGENTS.md`. Expect 30 to 60 lines of Markdown. Keep the wording factual: describe what OpenMed allows, not legal advice. Check your change with `make docs-build`.\n\nComment on this issue if anything is unclear; questions are welcome.\n\n## Privacy and release limits\n\nKeep local-fir …",
+    "role_context": "Add an Apple Foundation Models section to the generative model policy maziyarpanahi/openmed documentation, help wanted, good first issue, P2, roadmap-v5",
+    "published": "2026-11-07T16:05:21Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "maziyarpanahi/openmed",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 74,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "remote",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "opportunity_identity": "role::maziyarpanahi openmed::add an apple foundation models section to the generative model policy::remote open source",
+    "description_truncated": true
   },
   {
     "title": "[T3] Legal and regulatory summary note (Algeria)",
@@ -2419,8 +2507,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -3946,8 +4034,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 7 gdpr and data protection regulations::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -4212,8 +4300,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -5225,8 +5313,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 8 standards and frameworks for ai governance::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -5399,8 +5487,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-05T13:12:57.145457+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
     "opportunity_identity": "role::m ridha indonesian linguist::feat domains add politics public policy governance and journalism glossary politics and news md::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -5660,9 +5748,90 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
+    "description_truncated": true
+  },
+  {
+    "title": "Check built wheel and sdist metadata against the supported-Python and license contract",
+    "url": "https://github.com/maziyarpanahi/openmed/issues/5400",
+    "description": "Open-source contribution opportunity. Repository: maziyarpanahi/openmed. Labels: help wanted, improvement, P2, roadmap-v4. ## Problem and existing coverage\n\n`pyproject.toml:20` declares `license = { text = \"Apache-2.0\" }`, the table form that PEP 639 deprecates in favor of an SPDX `license` expression plus `license-files`, and the build system requires an unpinned `hatchling`. The CI build job only checks for the PEP 561 marker in the built artifacts; `Requires-Python`, classifiers and license metadata in the wheel and sdist are never compared with `pyproject.toml`.\n\n## Implementation\n\n- Switch to `license = \"Apache-2.0\"` with `license-files = [\"LICENSE\", \"NOTICE\"]`, and require a hatchling version that supports PEP 639.\n- Add `scripts/release/check_dist_metadata.py` (new) that reads METADATA from the wheel and PKG-INFO from the sdist and checks `Requires-Python`, Python classifiers, `License-Expression` and `License-File` entries, and that both files exist in each artifact.\n- Run it and `twine check --strict` in the build job after `python -m build`.\n- Leave `publish.yml` unchanged; if it must change, run the publish and provenance workflow tests as AGENTS.md requires.\n\n## Acceptance criteria\n\n- [ ] Both artifacts carry `License-Expression: Apache-2.0` and include LICENSE and NOTICE.\n- [ ] A synthetic METADATA fixture with a missing classifier or wrong `Requires-Python` fails the check.\n- [ ] The check passes on a fresh build of master.\n- [ ] `.venv/bin/python -m pytest tests/unit/release/test_dist_metadata.py -q`\n\n## Independent development boundary\n\nOwns metadata checks and the PEP 639 license fields. Wheel size budgets and import budgets are existing gates and stay as they are.\n\n## Starting points and validation\n\n`pyproject.toml`, `scripts/release/check_dist_metadata.py` (new), `.github/workflows/ci.yml`, `tests/unit/release/test_dist_metadata.py` (new).\n\nAdd focused offline unit and integration tests for this slice and document the public behavior. Use syntheti …",
+    "role_context": "Check built wheel and sdist metadata against the supported-Python and license contract maziyarpanahi/openmed help wanted, improvement, P2, roadmap-v4",
+    "published": "2026-11-09T12:12:40Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "maziyarpanahi/openmed",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 45,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "remote",
+        "points": 10
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong research writing relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "opportunity_identity": "role::maziyarpanahi openmed::check built wheel and sdist metadata against the supported python and license contract::remote open source",
     "description_truncated": true
   },
   {
@@ -5734,11 +5903,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -6059,11 +6228,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -6234,8 +6403,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -6563,8 +6732,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-28T11:21:08.429782+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
     "opportunity_identity": "role::finos ai governance framework::proposal add positioning doc finos aig vs other frameworks standards and certifications::remote open source",
     "alternate_sources": [
       {
@@ -6814,6 +6983,391 @@
     "duplicate_count": 0
   },
   {
+    "title": "Associate Legal Engineer",
+    "url": "https://jobs.ashbyhq.com/harvey/ac406ea9-bd7f-4a50-9341-8370ceca3949",
+    "description": "Organisation: Harvey. Location: San Francisco. Department: Go to Market. Team: Go-to-Market. Commitment: FullTime. Work model: Hybrid. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview As a Legal Engineer Associate, you’ll play a critical role in ensuring our law firm and in-house customer users are set up for success. You will deliver tailored training, create education strategies that align with legal workflows, and serve as a trusted guide to customers adopting Harvey across practice groups and legal departments. Your legal training and experience will allow you to connect deeply with our users, helping them to translate their own legal acumen into productive and innovative use of Harvey’s platform. You’ll work across a diverse range of clients, primarily mid-market and enterprise customers, and partner closely wit …",
+    "role_context": "Associate Legal Engineer Go to Market Go-to-Market FullTime",
+    "published": "2026-11-09T06:10:06.428+00:00",
+    "source": "ashby:harvey",
+    "source_type": "job_board",
+    "organization": "Harvey",
+    "location": "San Francisco",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Hybrid",
+    "compensation_status": "paid",
+    "compensation": "$180,000 - $250,000",
+    "duration": "3 years",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 75,
+    "reasons": [
+      {
+        "signal": "legal_tech",
+        "points": 18
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 81,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal tech relevance",
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "opportunity_identity": "role::harvey::associate legal engineer::san francisco",
+    "description_truncated": true
+  },
+  {
+    "title": "Associate Legal Engineer",
+    "url": "https://jobs.ashbyhq.com/harvey/28b62bdc-3d36-47eb-980d-4f52455cc3f2",
+    "description": "Organisation: Harvey. Location: Dallas. Department: Go to Market. Team: Go-to-Market. Commitment: FullTime. Work model: Hybrid. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview As a Legal Engineer Associate, you’ll play a critical role in ensuring our law firm and in-house customer users are set up for success. You will deliver tailored training, create education strategies that align with legal workflows, and serve as a trusted guide to customers adopting Harvey across practice groups and legal departments. Your legal training and experience will allow you to connect deeply with our users, helping them to translate their own legal acumen into productive and innovative use of Harvey’s platform. You’ll work across a diverse range of clients, primarily mid-market and enterprise customers, and partner closely with Sales …",
+    "role_context": "Associate Legal Engineer Go to Market Go-to-Market FullTime",
+    "published": "2026-11-08T06:13:12.287+00:00",
+    "source": "ashby:harvey",
+    "source_type": "job_board",
+    "organization": "Harvey",
+    "location": "Dallas",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Hybrid",
+    "compensation_status": "paid",
+    "compensation": "$180,000 - $250,000",
+    "duration": "3 years",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 75,
+    "reasons": [
+      {
+        "signal": "legal_tech",
+        "points": 18
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 81,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal tech relevance",
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "opportunity_identity": "role::harvey::associate legal engineer::dallas",
+    "description_truncated": true
+  },
+  {
+    "title": "Associate Legal Engineer",
+    "url": "https://jobs.ashbyhq.com/harvey/e2613ef0-b37c-42ab-aae2-3b47162a9401",
+    "description": "Organisation: Harvey. Location: Chicago. Department: Go to Market. Team: Go-to-Market. Commitment: FullTime. Work model: Hybrid. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview As a Legal Engineer Associate, you’ll play a critical role in ensuring our law firm and in-house customer users are set up for success. You will deliver tailored training, create education strategies that align with legal workflows, and serve as a trusted guide to customers adopting Harvey across practice groups and legal departments. Your legal training and experience will allow you to connect deeply with our users, helping them to translate their own legal acumen into productive and innovative use of Harvey’s platform. You’ll work across a diverse range of clients, primarily mid-market and enterprise customers, and partner closely with Sale …",
+    "role_context": "Associate Legal Engineer Go to Market Go-to-Market FullTime",
+    "published": "2026-11-08T06:12:53.319+00:00",
+    "source": "ashby:harvey",
+    "source_type": "job_board",
+    "organization": "Harvey",
+    "location": "Chicago",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Hybrid",
+    "compensation_status": "paid",
+    "compensation": "$180,000 - $250,000",
+    "duration": "3 years",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 75,
+    "reasons": [
+      {
+        "signal": "legal_tech",
+        "points": 18
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 81,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal tech relevance",
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "opportunity_identity": "role::harvey::associate legal engineer::chicago",
+    "description_truncated": true
+  },
+  {
+    "title": "Associate Legal Engineer",
+    "url": "https://jobs.ashbyhq.com/harvey/eb6318f2-957c-4d2b-8c44-054a0ef049a3",
+    "description": "Organisation: Harvey. Location: Boston. Department: Go to Market. Team: Go-to-Market. Commitment: FullTime. Work model: Hybrid. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview As a Legal Engineer Associate, you’ll play a critical role in ensuring our law firm and in-house customer users are set up for success. You will deliver tailored training, create education strategies that align with legal workflows, and serve as a trusted guide to customers adopting Harvey across practice groups and legal departments. Your legal training and experience will allow you to connect deeply with our users, helping them to translate their own legal acumen into productive and innovative use of Harvey’s platform. You’ll work across a diverse range of clients, primarily mid-market and enterprise customers, and partner closely with Sales …",
+    "role_context": "Associate Legal Engineer Go to Market Go-to-Market FullTime",
+    "published": "2026-11-08T06:12:38.716+00:00",
+    "source": "ashby:harvey",
+    "source_type": "job_board",
+    "organization": "Harvey",
+    "location": "Boston",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Hybrid",
+    "compensation_status": "paid",
+    "compensation": "$180,000 - $250,000",
+    "duration": "3 years",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 75,
+    "reasons": [
+      {
+        "signal": "legal_tech",
+        "points": 18
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 81,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal tech relevance",
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "opportunity_identity": "role::harvey::associate legal engineer::boston",
+    "description_truncated": true
+  },
+  {
+    "title": "Associate Legal Engineer",
+    "url": "https://jobs.ashbyhq.com/harvey/8a6fd2f5-1d8f-40b3-a101-1e792f0ff80a",
+    "description": "Organisation: Harvey. Location: New York. Department: Go to Market. Team: Go-to-Market. Commitment: FullTime. Work model: Hybrid. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview As a Legal Engineer Associate, you’ll play a critical role in ensuring our law firm and in-house customer users are set up for success. You will deliver tailored training, create education strategies that align with legal workflows, and serve as a trusted guide to customers adopting Harvey across practice groups and legal departments. Your legal training and experience will allow you to connect deeply with our users, helping them to translate their own legal acumen into productive and innovative use of Harvey’s platform. You’ll work across a diverse range of clients, primarily mid-market and enterprise customers, and partner closely with Sal …",
+    "role_context": "Associate Legal Engineer Go to Market Go-to-Market FullTime",
+    "published": "2026-11-07T01:46:33.229+00:00",
+    "source": "ashby:harvey",
+    "source_type": "job_board",
+    "organization": "Harvey",
+    "location": "New York",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Hybrid",
+    "compensation_status": "paid",
+    "compensation": "$180,000 - $250,000",
+    "duration": "3 years",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 75,
+    "reasons": [
+      {
+        "signal": "legal_tech",
+        "points": 18
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 81,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal tech relevance",
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "opportunity_identity": "role::harvey::associate legal engineer::new york",
+    "description_truncated": true
+  },
+  {
     "title": "Legal Engineer Associate",
     "url": "https://jobs.ashbyhq.com/legora/03ff0cf2-80eb-4f9c-8723-8fec314f0e3b",
     "description": "Organisation: Legora. Location: Chicago. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The Role This is a unique opportunity to sit at the intersection of law, technology, and product. You’ll gain hands on experience in how cutting edge AI is transforming the legal industry, while contributing directly to the development, testing, and adoption of our platform. You’ll work closely with our Legal Engineers, Customer Success, and Product teams to: Support client facing pilots, onboarding, and training, helping legal teams get the most out of Legora. Design and evaluate use cases that showcase our AI on …",
@@ -6885,8 +7439,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::chicago",
     "description_truncated": true,
     "alternate_sources": [
@@ -6971,8 +7525,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::houston",
     "description_truncated": true,
     "alternate_sources": [
@@ -7057,8 +7611,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-13T05:33:49.839758+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::toronto",
     "description_truncated": true,
     "alternate_sources": [
@@ -7143,8 +7697,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -7229,8 +7783,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -7482,6 +8036,85 @@
     "description_truncated": true
   },
   {
+    "title": "Law School Student Ambassador",
+    "url": "https://jobs.ashbyhq.com/harvey/a194c24f-38ee-4c7e-908b-060a16dfaa9d",
+    "description": "Organisation: Harvey. Location: Remote. Department: Legal. Team: Legal. Commitment: Contract. Work model: Remote. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview The Law School Student Ambassador is a current JD candidate / law student (or international equivalent) who serves as Harvey's on-campus champion, connecting the product with the student community at their law school / law faculty. This role sits within the Law School Partnerships team, whose mission is to make Harvey an indispensable part of legal education by embedding the platform into how students learn and work. By building peer-to-peer awareness and hosting hands-on programming, the Ambassador accelerates student adoption and generates insights that shape Harvey's academic go-to-market strategy. They partner with faculty, student organizations, and Ha …",
+    "role_context": "Law School Student Ambassador Legal Legal Contract",
+    "published": "2026-06-25T16:59:33.472+00:00",
+    "source": "ashby:harvey",
+    "source_type": "job_board",
+    "organization": "Harvey",
+    "location": "Remote",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [
+      "Current law students"
+    ],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 43,
+    "reasons": [
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "remote",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      }
+    ],
+    "fit_score": 79,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Early-career role matches the target career stage",
+      "Remote-friendly",
+      "Explicitly open to current law students"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-09-17T10:43:56.130260+00:00",
+    "last_seen": "2026-11-07T11:43:57.121556+00:00",
+    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "opportunity_identity": "role::harvey::law school student ambassador::remote",
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "ashby:harvey",
+        "url": "https://jobs.ashbyhq.com/harvey/a194c24f-38ee-4c7e-908b-060a16dfaa9d",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
+  },
+  {
     "title": "Add privacy, terms and contact links to the footer",
     "url": "https://github.com/StreamGive/streamgive-frontend/issues/307",
     "description": "Open-source contribution opportunity. Repository: StreamGive/streamgive-frontend. Labels: enhancement, good first issue, Stellar Wave. ## Summary\n\nThe footer links only to GitHub and the docs. Donors have nowhere to find a\nprivacy notice, terms or a way to contact the team.\n\n## Acceptance criteria\n\n- [ ] Add links (or a contact address) for privacy, terms and support.\n- [ ] Mark links that open in a new tab with an accessible cue.\n## Getting started\n\nFork this repository, clone your fork, and add this repo as `upstream`:\n\n```bash\ngit clone https://github.com/<your-username>/streamgive-frontend.git\ncd streamgive-frontend\ngit remote add upstream https://github.com/StreamGive/streamgive-frontend.git\n```\n\nCreate a branch for this issue:\n\n```bash\ngit checkout -b feat/footer-legal-links\n```\n\nSuggested commit message:\n\n```\nfeat(footer): add privacy, terms and contact links\n```\n\nRun `npm run lint`, `npm run typecheck`, and `npm test` before pushing, then\nopen a pull request from your fork against `main` and link this issue. See\n[the contributing guide](https://github.com/StreamGive/streamgive-docs/blob/main/docs/contributing.md) for the full contribution guide.",
@@ -7552,6 +8185,83 @@
     "last_seen": "2026-10-22T10:12:00.242439+00:00",
     "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::streamgive streamgive frontend::add privacy terms and contact links to the footer::remote open source"
+  },
+  {
+    "title": "Proposal: Changing the license from GPL-3.0 to Apache 2.0",
+    "url": "https://github.com/schote/nexus-console/issues/174",
+    "description": "Open-source contribution opportunity. Repository: schote/nexus-console. Labels: type: discussion, help wanted. # Proposal: Changing the license from GPL-3.0 to Apache 2.0\n\nWe propose to change the license of `nexus-console` from **[GPL-3.0-or-later](https://www.gnu.org/licenses/gpl-3.0.html)** to the **[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)**. Since all contributors hold the copyright to their contributions, this change requires the explicit agreement of everyone whose code is still part of the project. A similar process was recently completed for [pypulseq](https://github.com/pulseq/pypulseq/issues/324).\n\n## 🎯 Motivation\n\n**Compatibility with the MR open-source ecosystem.** Most related tools are permissively licensed, e.g. [Pulseq](https://github.com/pulseq/pulseq), [pypulseq](https://github.com/pulseq/pypulseq) (recently [switched from AGPL to MIT](https://github.com/pulseq/pypulseq/issues/324)) or [ISMRMRD](https://github.com/ismrmrd/ismrmrd). The GPL-3.0 only works one way: we can use their code, but they cannot use ours. A permissive license lets code flow freely between projects.\n\n**Easier adoption, more visibility.** Many companies and research institutions avoid GPL software, often simply because the obligations are hard to assess. A permissive license makes `nexus-console` attractive to industry partners and collaborations, which increases its visibility, user base and potential contributions.\n\n## 🤔 Why Apache 2.0?\n\nApache 2.0 is a permissive license that is widely used and accepted by both academia and industry (e.g. TensorFlow, Kubernetes, PyTorch-related projects). Besides allowing free use, modification and distribution, it provides legal clarity in areas that simpler permissive licenses such as MIT leave open:\n\n- **Patent protection:** Every contributor grants all users a license to any of their patents that cover their contribution. Anyone who starts patent litigation over the project loses this license.\n- **Clear contribut …",
+    "role_context": "Proposal: Changing the license from GPL-3.0 to Apache 2.0 schote/nexus-console type: discussion, help wanted",
+    "published": "2026-11-09T13:13:00Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "schote/nexus-console",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 30,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "berlin",
+        "points": 8
+      }
+    ],
+    "fit_score": 77,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong research writing relevance",
+      "Strong published output relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "opportunity_identity": "role::schote nexus console::proposal changing the license from gpl 3 0 to apache 2 0::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Native-speaker review of the Brazilian Portuguese legal pages",
@@ -9001,8 +9711,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -9587,8 +10297,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-11-07T11:43:57.121556+00:00",
-    "last_checked": "2026-11-07T11:43:57.121556+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
