@@ -101,8 +101,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -2056,10 +2056,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::maziyarpanahi openmed::add an eu evidence index page that links the existing gdpr and ai act documents::remote open source",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/maziyarpanahi/openmed/issues/5427",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Werkstudent:in, Recht",
@@ -2146,8 +2155,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -2258,96 +2267,6 @@
       }
     ],
     "duplicate_count": 0
-  },
-  {
-    "title": "Add an Apple Foundation Models section to the generative model policy",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/5080",
-    "description": "Open-source contribution opportunity. Repository: maziyarpanahi/openmed. Labels: documentation, help wanted, good first issue, P2, roadmap-v5. ## Problem and existing coverage\n\n`docs/generative-model-policy.md` lists encouraged and prohibited uses of generative models but says nothing about Apple Foundation Models. The rules live only in `AGENTS.md` (on-device only, no cloud fallback for PHI) and in internal planning notes (Apple does not sign BAAs, so Private Cloud Compute paths are not HIPAA-eligible; treat output as Borderline tier). App developers need one public page.\n\n## Implementation\n\n- Add an 'Apple Foundation Models' section: on-device only, no Private Cloud Compute or other fallback for PHI, no tools, Borderline-tier treatment, human review before use, and a pointer to Apple's acceptable-use requirements.\n- Add routing PHI to Private Cloud Compute or any cloud model to the prohibited-use list.\n- Link the page from `docs/swift-openmedkit.md`.\n\n## Acceptance criteria\n\n- [ ] The new section and prohibited-use entry exist.\n- [ ] `docs/swift-openmedkit.md` links to the section.\n- [ ] `make docs-build`\n\n## Independent development boundary\n\nDocumentation only. It adds no code and makes no compliance claim.\n\n## Starting points and validation\n\n`docs/generative-model-policy.md`, `docs/swift-openmedkit.md`, `AGENTS.md`.\n\nAdd focused offline unit and integration tests for this slice and document the public behavior. Use synthetic fixtures, injected transports/clocks/providers where needed, and negative controls. Record exact validation commands in the implementation PR.\n\n## For first-time contributors\n\nRead `docs/generative-model-policy.md` and the 'OpenMedKit and Multimodal Work' section of `AGENTS.md`. Expect 30 to 60 lines of Markdown. Keep the wording factual: describe what OpenMed allows, not legal advice. Check your change with `make docs-build`.\n\nComment on this issue if anything is unclear; questions are welcome.\n\n## Privacy and release limits\n\nKeep local-fir …",
-    "role_context": "Add an Apple Foundation Models section to the generative model policy maziyarpanahi/openmed documentation, help wanted, good first issue, P2, roadmap-v5",
-    "published": "2026-11-07T16:05:21Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "maziyarpanahi/openmed",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 74,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "compliance",
-        "points": 14
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      },
-      {
-        "signal": "remote",
-        "points": 10
-      }
-    ],
-    "fit_score": 88,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong privacy relevance",
-      "Strong compliance relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly",
-      "Relevant experience overlap: compliance"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
-    "opportunity_identity": "role::maziyarpanahi openmed::add an apple foundation models section to the generative model policy::remote open source",
-    "description_truncated": true
   },
   {
     "title": "[T3] Legal and regulatory summary note (Algeria)",
@@ -2507,8 +2426,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -2955,6 +2874,84 @@
     "last_seen": "2026-10-09T05:31:48.763325+00:00",
     "last_checked": "2026-10-09T05:31:48.763325+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content add 5 research operations skills to ux research participant recruitment pipeline research repository governance research ethics compliance research tool stack management research impact measurement::remote open source",
+    "description_truncated": true
+  },
+  {
+    "title": "Add an Apple Foundation Models section to the generative model policy",
+    "url": "https://github.com/maziyarpanahi/openmed/issues/5080",
+    "description": "Open-source contribution opportunity. Repository: maziyarpanahi/openmed. Labels: documentation, help wanted, good first issue, P2, roadmap-v5. ## Problem and existing coverage\n\n`docs/generative-model-policy.md` lists encouraged and prohibited uses of generative models but says nothing about Apple Foundation Models. The rules live only in `AGENTS.md` (on-device only, no cloud fallback for PHI) and in internal planning notes (Apple does not sign BAAs, so Private Cloud Compute paths are not HIPAA-eligible; treat output as Borderline tier). App developers need one public page.\n\n## Implementation\n\n- Add an 'Apple Foundation Models' section: on-device only, no Private Cloud Compute or other fallback for PHI, no tools, Borderline-tier treatment, human review before use, and a pointer to Apple's acceptable-use requirements.\n- Add routing PHI to Private Cloud Compute or any cloud model to the prohibited-use list.\n- Link the page from `docs/swift-openmedkit.md`.\n\n## Acceptance criteria\n\n- [ ] The new section and prohibited-use entry exist.\n- [ ] `docs/swift-openmedkit.md` links to the section.\n- [ ] `make docs-build`\n\n## Independent development boundary\n\nDocumentation only. It adds no code and makes no compliance claim.\n\n## Starting points and validation\n\n`docs/generative-model-policy.md`, `docs/swift-openmedkit.md`, `AGENTS.md`.\n\nAdd focused offline unit and integration tests for this slice and document the public behavior. Use synthetic fixtures, injected transports/clocks/providers where needed, and negative controls. Record exact validation commands in the implementation PR.\n\n## For first-time contributors\n\nRead `docs/generative-model-policy.md` and the 'OpenMedKit and Multimodal Work' section of `AGENTS.md`. Expect 30 to 60 lines of Markdown. Keep the wording factual: describe what OpenMed allows, not legal advice. Check your change with `make docs-build`.\n\nComment on this issue if anything is unclear; questions are welcome.\n\n## Privacy and release limits\n\nKeep local-fir …",
+    "role_context": "Add an Apple Foundation Models section to the generative model policy maziyarpanahi/openmed documentation, help wanted, good first issue, P2, roadmap-v5",
+    "published": "2026-11-07T16:05:21Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "maziyarpanahi/openmed",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 42,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "opportunity_identity": "role::maziyarpanahi openmed::add an apple foundation models section to the generative model policy::remote open source",
     "description_truncated": true
   },
   {
@@ -4034,8 +4031,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 7 gdpr and data protection regulations::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -4300,8 +4297,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -5313,8 +5310,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 8 standards and frameworks for ai governance::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -5487,8 +5484,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-05T13:12:57.145457+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::m ridha indonesian linguist::feat domains add politics public policy governance and journalism glossary politics and news md::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -5677,7 +5674,7 @@
     "url": "https://github.com/Visualize-Policy/research-writing-admin/issues/3",
     "description": "Open-source contribution opportunity. Repository: Visualize-Policy/research-writing-admin. Labels: help wanted, question. ## What\n\nVisualize Policy's stated long-term goal (from the CfB \"Who We Are\" pitch doc) is to move from an\ninformal, founder-run project to a self-sustaining incorporated nonprofit. This issue is the\nfact-finding step: what would actually be involved in getting there, what it costs, how long it\ntakes, and what the real alternatives are — not a decision to incorporate yet, and not a substitute\nfor an actual attorney or accountant once a real filing happens.\n\n## Task\n\nResearch and write up, sourcing from primary/official sources (IRS.gov, the relevant Secretary of\nthe Commonwealth / state AG's office, not third-party summary blogs) wherever possible:\n\n1. **Entity formation.** Steps to form a nonprofit corporation at the state level — articles of\n   incorporation, registered agent, bylaws, minimum board size and composition. Massachusetts is\n   the working assumption given the team's Boston-area base (confirm with Bill before finalizing —\n   don't assume it's locked in).\n2. **Federal EIN.** How to get one (this part is quick and free, via IRS.gov).\n3. **Federal 501(c)(3) exemption.** Form 1023 vs. the streamlined Form 1023-EZ — eligibility\n   thresholds for the EZ form (based on projected gross receipts and assets), what \"educational\n   purpose\" language the IRS expects to see in the articles of incorporation, realistic timelines\n   for IRS review of each form, and filing fees for each.\n4. **State-level registration.** Separate from federal exemption — most states (Massachusetts\n   included) require charitable registration before an org can solicit donations, plus a separate\n   state tax-exemption application. Cover what Massachusetts specifically requires.\n5. **Fiscal sponsorship as an alternative.** Many small volunteer-run educational projects use a\n   fiscal sponsor (an existing 501(c)(3) that takes the project under its umbrella) to receive …",
     "role_context": "Research: steps to set up Visualize Policy as a tax-exempt educational nonprofit Visualize-Policy/research-writing-admin help wanted, question",
-    "published": "2026-09-21T18:50:30Z",
+    "published": "2026-11-09T17:18:25Z",
     "source": "github-issues-api",
     "source_type": "open_source",
     "organization": "Visualize-Policy/research-writing-admin",
@@ -5748,90 +5745,9 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
-    "description_truncated": true
-  },
-  {
-    "title": "Check built wheel and sdist metadata against the supported-Python and license contract",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/5400",
-    "description": "Open-source contribution opportunity. Repository: maziyarpanahi/openmed. Labels: help wanted, improvement, P2, roadmap-v4. ## Problem and existing coverage\n\n`pyproject.toml:20` declares `license = { text = \"Apache-2.0\" }`, the table form that PEP 639 deprecates in favor of an SPDX `license` expression plus `license-files`, and the build system requires an unpinned `hatchling`. The CI build job only checks for the PEP 561 marker in the built artifacts; `Requires-Python`, classifiers and license metadata in the wheel and sdist are never compared with `pyproject.toml`.\n\n## Implementation\n\n- Switch to `license = \"Apache-2.0\"` with `license-files = [\"LICENSE\", \"NOTICE\"]`, and require a hatchling version that supports PEP 639.\n- Add `scripts/release/check_dist_metadata.py` (new) that reads METADATA from the wheel and PKG-INFO from the sdist and checks `Requires-Python`, Python classifiers, `License-Expression` and `License-File` entries, and that both files exist in each artifact.\n- Run it and `twine check --strict` in the build job after `python -m build`.\n- Leave `publish.yml` unchanged; if it must change, run the publish and provenance workflow tests as AGENTS.md requires.\n\n## Acceptance criteria\n\n- [ ] Both artifacts carry `License-Expression: Apache-2.0` and include LICENSE and NOTICE.\n- [ ] A synthetic METADATA fixture with a missing classifier or wrong `Requires-Python` fails the check.\n- [ ] The check passes on a fresh build of master.\n- [ ] `.venv/bin/python -m pytest tests/unit/release/test_dist_metadata.py -q`\n\n## Independent development boundary\n\nOwns metadata checks and the PEP 639 license fields. Wheel size budgets and import budgets are existing gates and stay as they are.\n\n## Starting points and validation\n\n`pyproject.toml`, `scripts/release/check_dist_metadata.py` (new), `.github/workflows/ci.yml`, `tests/unit/release/test_dist_metadata.py` (new).\n\nAdd focused offline unit and integration tests for this slice and document the public behavior. Use syntheti …",
-    "role_context": "Check built wheel and sdist metadata against the supported-Python and license contract maziyarpanahi/openmed help wanted, improvement, P2, roadmap-v4",
-    "published": "2026-11-09T12:12:40Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "maziyarpanahi/openmed",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 45,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "policy",
-        "points": 12
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      },
-      {
-        "signal": "remote",
-        "points": 10
-      }
-    ],
-    "fit_score": 85,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong privacy relevance",
-      "Strong research writing relevance",
-      "Strong policy relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
-    "opportunity_identity": "role::maziyarpanahi openmed::check built wheel and sdist metadata against the supported python and license contract::remote open source",
     "description_truncated": true
   },
   {
@@ -5903,11 +5819,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -6228,11 +6144,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -6403,8 +6319,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -6732,8 +6648,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-28T11:21:08.429782+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::finos ai governance framework::proposal add positioning doc finos aig vs other frameworks standards and certifications::remote open source",
     "alternate_sources": [
       {
@@ -7054,10 +6970,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::san francisco",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "ashby:harvey",
+        "url": "https://jobs.ashbyhq.com/harvey/ac406ea9-bd7f-4a50-9341-8370ceca3949",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Associate Legal Engineer",
@@ -7131,10 +7056,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::dallas",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "ashby:harvey",
+        "url": "https://jobs.ashbyhq.com/harvey/28b62bdc-3d36-47eb-980d-4f52455cc3f2",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Associate Legal Engineer",
@@ -7208,10 +7142,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::chicago",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "ashby:harvey",
+        "url": "https://jobs.ashbyhq.com/harvey/e2613ef0-b37c-42ab-aae2-3b47162a9401",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Associate Legal Engineer",
@@ -7285,10 +7228,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::boston",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "ashby:harvey",
+        "url": "https://jobs.ashbyhq.com/harvey/eb6318f2-957c-4d2b-8c44-054a0ef049a3",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Associate Legal Engineer",
@@ -7362,10 +7314,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::new york",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "ashby:harvey",
+        "url": "https://jobs.ashbyhq.com/harvey/8a6fd2f5-1d8f-40b3-a101-1e792f0ff80a",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Legal Engineer Associate",
@@ -7439,8 +7400,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::chicago",
     "description_truncated": true,
     "alternate_sources": [
@@ -7525,8 +7486,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::houston",
     "description_truncated": true,
     "alternate_sources": [
@@ -7611,8 +7572,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-13T05:33:49.839758+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::toronto",
     "description_truncated": true,
     "alternate_sources": [
@@ -7697,8 +7658,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -7783,8 +7744,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -8115,6 +8076,83 @@
     "duplicate_count": 0
   },
   {
+    "title": "Legal Data Analyst",
+    "url": "https://jobs.ashbyhq.com/legora/3a25045a-5b31-4fee-83d9-d64407485c57",
+    "description": "Organisation: Legora. Location: New York City. Department: Product. Team: Product. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The role: World-class legal AI is built on world-class legal data. Getting that right is one of the most critical and complex challenges at Legora. Every jurisdiction holds billions of pages of critical legal text scattered across hundreds of sources – statutes, case law, regulatory guidance, secondary materials, and more. Only about 3% is publicly accessible on the web. The rest is buried across courts, agencies, and archives. Getting this right doesn't just improve a product feature — it shapes how lawyers around the world na …",
+    "role_context": "Legal Data Analyst Product Product FullTime",
+    "published": "2026-11-09T18:30:18.552+00:00",
+    "source": "ashby:legora",
+    "source_type": "job_board",
+    "organization": "Legora",
+    "location": "New York City",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "On-site",
+    "compensation_status": "paid",
+    "compensation": "$200",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 67,
+    "reasons": [
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      }
+    ],
+    "fit_score": 78,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Strong research writing relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "opportunity_identity": "role::legora::legal data analyst::new york city",
+    "description_truncated": true
+  },
+  {
     "title": "Add privacy, terms and contact links to the footer",
     "url": "https://github.com/StreamGive/streamgive-frontend/issues/307",
     "description": "Open-source contribution opportunity. Repository: StreamGive/streamgive-frontend. Labels: enhancement, good first issue, Stellar Wave. ## Summary\n\nThe footer links only to GitHub and the docs. Donors have nowhere to find a\nprivacy notice, terms or a way to contact the team.\n\n## Acceptance criteria\n\n- [ ] Add links (or a contact address) for privacy, terms and support.\n- [ ] Mark links that open in a new tab with an accessible cue.\n## Getting started\n\nFork this repository, clone your fork, and add this repo as `upstream`:\n\n```bash\ngit clone https://github.com/<your-username>/streamgive-frontend.git\ncd streamgive-frontend\ngit remote add upstream https://github.com/StreamGive/streamgive-frontend.git\n```\n\nCreate a branch for this issue:\n\n```bash\ngit checkout -b feat/footer-legal-links\n```\n\nSuggested commit message:\n\n```\nfeat(footer): add privacy, terms and contact links\n```\n\nRun `npm run lint`, `npm run typecheck`, and `npm test` before pushing, then\nopen a pull request from your fork against `main` and link this issue. See\n[the contributing guide](https://github.com/StreamGive/streamgive-docs/blob/main/docs/contributing.md) for the full contribution guide.",
@@ -8185,83 +8223,6 @@
     "last_seen": "2026-10-22T10:12:00.242439+00:00",
     "last_checked": "2026-10-22T10:12:00.242439+00:00",
     "opportunity_identity": "role::streamgive streamgive frontend::add privacy terms and contact links to the footer::remote open source"
-  },
-  {
-    "title": "Proposal: Changing the license from GPL-3.0 to Apache 2.0",
-    "url": "https://github.com/schote/nexus-console/issues/174",
-    "description": "Open-source contribution opportunity. Repository: schote/nexus-console. Labels: type: discussion, help wanted. # Proposal: Changing the license from GPL-3.0 to Apache 2.0\n\nWe propose to change the license of `nexus-console` from **[GPL-3.0-or-later](https://www.gnu.org/licenses/gpl-3.0.html)** to the **[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)**. Since all contributors hold the copyright to their contributions, this change requires the explicit agreement of everyone whose code is still part of the project. A similar process was recently completed for [pypulseq](https://github.com/pulseq/pypulseq/issues/324).\n\n## 🎯 Motivation\n\n**Compatibility with the MR open-source ecosystem.** Most related tools are permissively licensed, e.g. [Pulseq](https://github.com/pulseq/pulseq), [pypulseq](https://github.com/pulseq/pypulseq) (recently [switched from AGPL to MIT](https://github.com/pulseq/pypulseq/issues/324)) or [ISMRMRD](https://github.com/ismrmrd/ismrmrd). The GPL-3.0 only works one way: we can use their code, but they cannot use ours. A permissive license lets code flow freely between projects.\n\n**Easier adoption, more visibility.** Many companies and research institutions avoid GPL software, often simply because the obligations are hard to assess. A permissive license makes `nexus-console` attractive to industry partners and collaborations, which increases its visibility, user base and potential contributions.\n\n## 🤔 Why Apache 2.0?\n\nApache 2.0 is a permissive license that is widely used and accepted by both academia and industry (e.g. TensorFlow, Kubernetes, PyTorch-related projects). Besides allowing free use, modification and distribution, it provides legal clarity in areas that simpler permissive licenses such as MIT leave open:\n\n- **Patent protection:** Every contributor grants all users a license to any of their patents that cover their contribution. Anyone who starts patent litigation over the project loses this license.\n- **Clear contribut …",
-    "role_context": "Proposal: Changing the license from GPL-3.0 to Apache 2.0 schote/nexus-console type: discussion, help wanted",
-    "published": "2026-11-09T13:13:00Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "schote/nexus-console",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 30,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      },
-      {
-        "signal": "berlin",
-        "points": 8
-      }
-    ],
-    "fit_score": 77,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong research writing relevance",
-      "Strong published output relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
-    "opportunity_identity": "role::schote nexus console::proposal changing the license from gpl 3 0 to apache 2 0::remote open source",
-    "description_truncated": true
   },
   {
     "title": "Native-speaker review of the Brazilian Portuguese legal pages",
@@ -9711,8 +9672,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -10297,8 +10258,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_checked": "2026-11-09T13:54:47.858752+00:00",
+    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-10T13:28:42.128603+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
