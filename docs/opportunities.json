@@ -101,8 +101,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -407,6 +407,81 @@
     "duplicate_count": 0
   },
   {
+    "title": "GDPR",
+    "url": "https://github.com/cncf/techdocs/issues/134",
+    "description": "Open-source contribution opportunity. Repository: cncf/techdocs. Labels: good first issue, help wanted, stage/010-actionable. ### Resources\r\n\r\n- [Safeguarding your data - Analytics Help (google.com)](https://support.google.com/analytics/answer/6004245)\r\n- [**Google Analytics** GDPR Compliance Guide For Businesses (termly.io)](https://termly.io/resources/articles/google-analytics-gdpr/)\r\n  - [Data Protection Law Compliance - Business Data Responsibility (business.safety.google)](https://business.safety.google/compliance/)\r\n- [**Google Fonts** & GDPR – How You Can Stay Compliant (runcloud.io)](https://blog.runcloud.io/google-fonts-gdpr/)\r\n- For **CNCF project-specific** advice, open a ticket [Privacy Services Support | Help Center (linuxfoundation.org)](https://jira.linuxfoundation.org/plugins/servlet/desk/portal/38)\r\n\r\n### Related\r\n\r\n- [CNCFSD-1880](https://cncfservicedesk.atlassian.net/browse/CNCFSD-1880)\r\n\r\n/cc @caniszczyk",
+    "role_context": "GDPR cncf/techdocs good first issue, help wanted, stage/010-actionable",
+    "published": "2026-11-10T20:25:40Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "cncf/techdocs",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 30,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 94,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: data protection",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "opportunity_identity": "role::cncf techdocs::gdpr::remote open source"
+  },
+  {
     "title": "[Legal & Compliance] Privacy Data — Conduct data protection impact assessments",
     "url": "https://github.com/aniruddhaadak80/skills/issues/322",
     "description": "Open-source contribution opportunity. Repository: aniruddhaadak80/skills. Labels: enhancement, help wanted, good first issue, skill-advanced, legal-compliance. ## 🎯 Issue Summary\n\n**Track:** Legal & Compliance → Privacy Data  \n**Type:** New Skill Content  \n**Difficulty:** Advanced  \n**Estimated:** ~40 min  \n**Labels:** `enhancement`, `help wanted`, `good first issue`, `legal-compliance`, `skill-advanced`\n\n---\n\n## 📋 Context\n\nProcessing mapping, risk scoring, mitigation, documentation.\n\nThis skill is missing from the `aniruddhaadak80/skills` library. Adding it would close a gap in the `Legal & Compliance` track and bring the library closer to the breadth covered by the broader agent-skills ecosystem (skills.sh topics such as agent-workflows, databases, design, mobile, nextjs, react, and testing, plus agentskill.io-style coverage).\n\n---\n\n## 🎪 Missing Skill\n\n| # | Skill ID | Title | Level | Est. Minutes | Description |\n|---|---|---|---|---|---|\n| 1 | `privacy-dpi-assessments` | `Conduct data protection impact assessments` | `Advanced` | `40` | Processing mapping, risk scoring, mitigation, documentation. |\n\n---\n\n## ✅ Acceptance Criteria (6+ Levels)\n\n### Level 1 — Understand & Plan\n- [ ] Read existing skills in `Legal & Compliance` (and the `Privacy Data` domain) to match tone, depth, and structure\n- [ ] Identify 3+ real production scenarios you have personally encountered\n- [ ] Draft 6-10 concrete, imperative steps (no filler)\n- [ ] Define 2-3 measurable KPIs / success signals\n- [ ] Confirm `privacy-dpi-assessments` is unique across the library\n\n### Level 2 — Implementation\n- [ ] Add the new procedure object to `src/data/tracks/legal-compliance.mjs` under `Privacy Data`\n- [ ] Follow the exact schema: slug, title, level, minutes, description, tags, steps, pitfalls, kpis\n- [ ] Include a real, tested install command in `commands`\n- [ ] Keep the procedure self-contained and consistent with sibling skills\n\n### Level 3 — Validation\n- [ ] Run `npm test` — all catalog tests pass …",
@@ -481,6 +556,73 @@
     "last_checked": "2026-10-20T10:05:28.668404+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::legal and compliance privacy data conduct data protection impact assessments::remote open source",
     "description_truncated": true
+  },
+  {
+    "title": "Legal Internship | St. Jude Education & Training",
+    "url": "https://www.stjude.org/education-training/professional-development/internships/legal.html",
+    "description": "Law students enrolled at ABA approved law schools are invited to apply for legal internship positions with the Office of Legal Services at St. Jude Children’s Research Hospital. We offer internships for the spring, summer and fall. Remote opportunities are available.",
+    "published": "Fri, 26 Jun 2026 22:20:00 GMT",
+    "query": "site:reliefweb.int legal internship",
+    "source": "bing-rss-fallback",
+    "source_quality": "Web discovery",
+    "source_priority": 40,
+    "source_quality_label": "Search discovery",
+    "opportunity_type": "Internship",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [
+      "Current law students"
+    ],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "source_type": "",
+    "score": 49,
+    "reasons": [
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "remote",
+        "points": 10
+      }
+    ],
+    "fit_score": 93,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong research writing relevance",
+      "Internship matches the target career stage",
+      "Remote-friendly",
+      "Explicitly open to current law students"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "opportunity_identity": "url::https://www.stjude.org/education-training/professional-development/internships/legal.html"
   },
   {
     "title": "Native-speaker review of the German legal pages",
@@ -653,6 +795,89 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "feat(legal): implement localized privacy policy page (/[locale]/privacy)",
+    "url": "https://github.com/raizestudio/dripcatch/issues/1",
+    "description": "Open-source contribution opportunity. Repository: raizestudio/dripcatch. Labels: enhancement, good first issue. ### Description\nImplement the `/[locale]/privacy` page route to formalize DripCatch's privacy-first posture and ensure GDPR compliance. Because DripCatch differentiates itself by avoiding open-banking bridges (Plaid, Finicity, etc.), this document must clearly communicate our zero-credential data model, how split invitation emails are handled, and how Supabase auth records are stored.\n\n---\n\n### Context & Product Posture\n* **Core Value Proposition:** DripCatch does not connect to banks or scrape financial institutions. All ledger records are user-entered and stored in encrypted Supabase PostgreSQL tables.\n* **Localization:** DripCatch is localized using `next-intl` (currently `en` and `fr`). The policy content must support both locales.\n* **Target Audience:** EU/Global conscious spenders (GDPR compliant).\n\n---\n\n### Proposed Structure & Sections\n1. **Introduction & Data Controller**\n   * Controller: DripCatch (`contact@dripcatch.eu`)\n   * Scope: Web application, auth, and split invitation workflows.\n2. **The \"Zero Bank Connection\" Pledge**\n   * Explicit disclosure that DripCatch never requests, handles, or stores bank logins, account numbers, or open-banking tokens.\n3. **Information We Collect**\n   * **Account Information:** Email address, user metadata (avatar, name) retrieved via Supabase Auth / OAuth providers.\n   * **Ledger Data:** Subscription names, categories, billing intervals, cost figures, and custom dates.\n   * **Split Co-Payer Data:** Names and email addresses optionally provided by users to invite friends/roommates to split a cost.\n4. **How We Use Your Data**\n   * Calculating personal burn, price hike detection, and 12-month projections.\n   * Sending transactional split invitation notifications.\n   * Zero ads, zero tracking pixels, zero selling/renting of personal financial data.\n5. **Data Retention & Deletion Rights (GDPR / CCPA)**\n   * Right t …",
+    "role_context": "feat(legal): implement localized privacy policy page (/[locale]/privacy) raizestudio/dripcatch enhancement, good first issue",
+    "published": "2026-11-10T21:34:42Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "raizestudio/dripcatch",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "12 months",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 50,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      }
+    ],
+    "fit_score": 91,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "opportunity_identity": "role::raizestudio dripcatch::feat legal implement localized privacy policy page locale privacy::remote open source",
+    "description_truncated": true
   },
   {
     "title": "[Roadmap v0.6.0] Pluggable Global & State Regulatory Packs (GDPR, CCPA/CPRA, FERPA, CJIS v6.0 & 50-State FOIA)",
@@ -1972,7 +2197,7 @@
     "url": "https://github.com/maziyarpanahi/openmed/issues/5427",
     "description": "Open-source contribution opportunity. Repository: maziyarpanahi/openmed. Labels: documentation, help wanted, good first issue, P3, roadmap-v4. ## Problem and existing coverage\n\nEU-relevant pages are scattered through the Compliance nav: `dpia-template.md`, `dpa-template.md`, `gdpr-dsar-export.md`, `model-card-eu-ai-act-fields.md` and `iso-27701-control-evidence.md` under `docs/compliance/`. A reader preparing EU evidence has no entry point that lists them.\n\n## Implementation\n\n- Add `docs/compliance/eu-evidence.md` (new) with one short paragraph per existing EU-relevant page: what it is for and what it is not.\n- Add the page to the mkdocs Compliance nav, above the pages it links.\n\n## Acceptance criteria\n\n- [ ] Every linked page exists and the links resolve.\n- [ ] The page states that it is an index and not legal advice.\n- [ ] The strict docs build passes.\n- [ ] `make docs-build`\n\n## Independent development boundary\n\nOwns one index page linking existing docs; new EU pages link themselves when they land.\n\n## Starting points and validation\n\n`docs/compliance/eu-evidence.md` (new), `docs/compliance/`, `mkdocs.yml`.\n\nAdd focused offline unit and integration tests for this slice and document the public behavior. Use synthetic fixtures, injected transports/clocks/providers where needed, and negative controls. Record exact validation commands in the implementation PR.\n\n## For first-time contributors\n\nSkim the five pages named in the problem and the Compliance section of `mkdocs.yml`. Expect one Markdown page of 40-80 lines and a two-line nav change. Run `make docs-build` (after `uv pip install -e \".[dev,docs]\"`) to check links.\n\nComment on this issue if anything is unclear; questions are welcome.\n\n## Privacy and release limits\n\nKeep local-first defaults. Diagnostics and evidence contain only controlled codes, counts, offsets, opaque references and digests; never raw PHI, credentials, private paths or source payloads. Do not bundle restricted data or weights. This task adds no …",
     "role_context": "Add an EU evidence index page that links the existing GDPR and AI Act documents maziyarpanahi/openmed documentation, help wanted, good first issue, P3, roadmap-v4",
-    "published": "2026-11-08T14:15:53Z",
+    "published": "2026-11-11T10:36:49Z",
     "source": "github-issues-api",
     "source_type": "open_source",
     "organization": "maziyarpanahi/openmed",
@@ -2056,8 +2281,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::maziyarpanahi openmed::add an eu evidence index page that links the existing gdpr and ai act documents::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -2155,8 +2380,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -2426,8 +2651,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -2711,6 +2936,88 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "[Notebook] 07-safety-and-alignment/05 — Privacy and Sensitive Data",
+    "url": "https://github.com/UdaySharmaGitHub/prompt-engineering-patterns/issues/42",
+    "description": "Open-source contribution opportunity. Repository: UdaySharmaGitHub/prompt-engineering-patterns. Labels: help wanted, new notebook, module: safety. # [Notebook] 07-safety-and-alignment/05 — Privacy and Sensitive Data\n\n\n\n\n---\n\n## Notebook to build\n`07-safety-and-alignment/05_privacy_and_sensitive_data.ipynb`\n\n## Summary\nThis notebook teaches how to handle **personally identifiable information (PII)** and other sensitive data safely when building LLM apps. Every token you send to a model may be logged, retained, or used in ways you don't control, so the safe default is to **minimize, redact, and never log secrets**. The reader will build a small PII detector/redactor that masks emails and phone numbers out of text *before* it becomes a prompt, send the redacted text to the model, and learn data-handling best practices (data minimization, not logging secrets, re-inserting data client-side if needed). This is practical, defensive data-hygiene content.\n\n## Learning objectives\nBy the end of this notebook the reader can:\n- Identify common PII categories and the risks of sending them to an LLM provider.\n- Detect and redact emails and phone numbers from text using simple patterns before prompting.\n- Apply data minimization — send the model only what the task requires.\n- Follow safe logging practices: never log raw secrets/PII, log redacted or hashed values instead.\n\n## Standalone scope\nThis notebook is **fully self-contained** — a learner or developer can read it top to bottom and understand the complete topic in one sitting. It depends on **no other notebook** and on **no shared `utils/` code**; every helper it needs is defined in its own setup cell (see below).\nIt assumes only:\n- Python ≥ 3.10\n- `pip install openai python-dotenv`\n- a local `.env` with `API_KEY` and `API_BASE_URL`\n\n## Required cell structure\nFollow the course's standard 6-part structure (see `CONTRIBUTING.md`):\n1. **Title cell** (Markdown) — `# Privacy and Sensitive Data` + one sentence on what the reader le …",
+    "role_context": "[Notebook] 07-safety-and-alignment/05 — Privacy and Sensitive Data UdaySharmaGitHub/prompt-engineering-patterns help wanted, new notebook, module: safety",
+    "published": "2026-11-10T18:42:29Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "UdaySharmaGitHub/prompt-engineering-patterns",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 45,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "opportunity_identity": "role::udaysharmagithub prompt engineering patterns::notebook 07 safety and alignment 05 privacy and sensitive data::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Implement a source-mapped MAS FEAT external-accountability policy",
@@ -4297,8 +4604,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::via::legal operations associate::new york new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -5484,8 +5791,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-05T13:12:57.145457+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::m ridha indonesian linguist::feat domains add politics public policy governance and journalism glossary politics and news md::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -5745,9 +6052,90 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
+    "description_truncated": true
+  },
+  {
+    "title": "feat(legal): implement localized security overview & trust center (/[locale]/security)",
+    "url": "https://github.com/raizestudio/dripcatch/issues/3",
+    "description": "Open-source contribution opportunity. Repository: raizestudio/dripcatch. Labels: enhancement, good first issue. ### Description\nImplement the `/[locale]/security` page route to transparently detail DripCatch's security architecture, data handling safeguards, and responsible disclosure policies. Because user trust is central to managing financial records, this page must outline how DripCatch protects user data using PostgreSQL Row Level Security (RLS), modern encryption, zero-credential access, and EU hosting.\n\n---\n\n### Context & Security Architecture\n* **The Zero-Credential Paradigm:** DripCatch deliberately eliminates attack surfaces associated with financial apps by having zero integrations with bank scraping APIs, open-banking credentials, credit card numbers, or card networks.\n* **Row Level Security (RLS):** Every subscription and split row in PostgreSQL is protected by strict RLS policies ensuring tenant isolation directly at the database engine level (`auth.uid() = user_id`).\n* **Session & Cookie Security:** Supabase authentication leverages HTTP-only, secure, `SameSite=Lax` cookies, preventing cross-site scripting (XSS) session theft.\n* **Localization:** Supports `en` and `fr` through `next-intl`.\n\n---\n\n### Proposed Structure & Sections\n1. **Security Philosophy (Defense in Depth)**\n   * Minimal data collection principle: what isn't collected cannot be breached.\n   * Total absence of banking credentials or payment processing tokens.\n2. **Database Architecture & Data Isolation**\n   * PostgreSQL Row Level Security (RLS) deep-dive: how subscriber queries are constrained to their own authenticated session ID.\n   * Shared subscription isolation: invitees can view only split-relevant metadata without exposing the host's entire ledger.\n3. **Encryption Standards**\n   * **In Transit:** Mandatory TLS 1.3 encryption across all client-server interactions with HSTS enabled.\n   * **At Rest:** Database instances and daily snapshots encrypted using industry-standard AES-256. …",
+    "role_context": "feat(legal): implement localized security overview & trust center (/[locale]/security) raizestudio/dripcatch enhancement, good first issue",
+    "published": "2026-11-10T21:34:15Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "raizestudio/dripcatch",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 44,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "opportunity_identity": "role::raizestudio dripcatch::feat legal implement localized security overview and trust center locale security::remote open source",
     "description_truncated": true
   },
   {
@@ -5819,11 +6207,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -5834,6 +6222,83 @@
       }
     ],
     "duplicate_count": 0
+  },
+  {
+    "title": "feat(contracts): expose a canonical public role-policy digest",
+    "url": "https://github.com/harpocrates-stellar/main/issues/1192",
+    "description": "Open-source contribution opportunity. Repository: harpocrates-stellar/main. Labels: help wanted, complexity/trivial, area/contracts, type/feature, Stellar Wave. ## Goal\n\nExpose a canonical public role-policy digest.\n\n## Context and starting points\n\nThe registry contains institutional roles, administrative governance and evidence authorization boundaries. This issue is a focused extension of that subsystem, against the reviewed `main` baseline `a9d2dd4bcb37`.\n\n- [`contracts/contracts/harpocrates-registry/src/lib.rs`](https://github.com/harpocrates-stellar/main/blob/a9d2dd4bcb37006a302053645f80a49ea873db06/contracts/contracts/harpocrates-registry/src/lib.rs)\n- [`contracts/contracts/harpocrates-registry/src/test_roles.rs`](https://github.com/harpocrates-stellar/main/blob/a9d2dd4bcb37006a302053645f80a49ea873db06/contracts/contracts/harpocrates-registry/src/test_roles.rs)\n\n## Scope and acceptance criteria\n\n- [ ] Hash the bounded policy fields with a versioned encoding.\n- [ ] return the same digest for equivalent policy state.\n- [ ] Include focused automated coverage for the requested behavior and its relevant failure or boundary case. Show the before/after result in the PR.\n- [ ] Keep existing supported behavior compatible, and update affected configuration or interface documentation in the same change.\n\n## Verification\n\nStart with the repository's `CONTRIBUTING.md`. Run the relevant focused checks, then the applicable workspace checks below. Use synthetic fixtures, fake transports and temporary state directories; no production credentials or live fund movement is required.\n\n```sh\ncd contracts\ncargo test\ncargo build --target wasm32v1-none --release\n```\n\n## Boundaries\n\nOne PR should deliver the behavior above. Preserve evidence privacy, fail-closed proof verification, canonical encodings and the separation of identity tiers. Never use real sensitive media in fixtures. Keep unrelated refactors and dependency upgrades out of scope. Do not change live deployments, signing au …",
+    "role_context": "feat(contracts): expose a canonical public role-policy digest harpocrates-stellar/main help wanted, complexity/trivial, area/contracts, type/feature, Stellar Wave",
+    "published": "2026-11-11T11:11:35Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "harpocrates-stellar/main",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 35,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong governance relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "opportunity_identity": "role::harpocrates stellar main::feat contracts expose a canonical public role policy digest::remote open source",
+    "description_truncated": true
   },
   {
     "title": "Choose original-code and asset contribution/reuse terms",
@@ -6144,11 +6609,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -6319,8 +6784,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -6648,8 +7113,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-28T11:21:08.429782+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::finos ai governance framework::proposal add positioning doc finos aig vs other frameworks standards and certifications::remote open source",
     "alternate_sources": [
       {
@@ -6970,8 +7435,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -7056,8 +7521,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::dallas",
     "description_truncated": true,
     "alternate_sources": [
@@ -7142,8 +7607,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::chicago",
     "description_truncated": true,
     "alternate_sources": [
@@ -7228,8 +7693,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::boston",
     "description_truncated": true,
     "alternate_sources": [
@@ -7314,8 +7779,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -7400,8 +7865,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::chicago",
     "description_truncated": true,
     "alternate_sources": [
@@ -7486,8 +7951,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::houston",
     "description_truncated": true,
     "alternate_sources": [
@@ -7572,8 +8037,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-13T05:33:49.839758+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::toronto",
     "description_truncated": true,
     "alternate_sources": [
@@ -7658,8 +8123,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -7744,8 +8209,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -8147,10 +8612,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::legora::legal data analyst::new york city",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "ashby:legora",
+        "url": "https://jobs.ashbyhq.com/legora/3a25045a-5b31-4fee-83d9-d64407485c57",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Add privacy, terms and contact links to the footer",
@@ -8947,6 +9421,177 @@
     "opportunity_identity": "role::semantic management framework::crosswalk dama dmbok data governance metadata and data quality knowledge areas::remote open source"
   },
   {
+    "title": "Law/Legal Internship Opportunities - LawBhoomi",
+    "url": "https://lawbhoomi.com/category/internship-opportunities/",
+    "description": "Online, paid and offline internship opportunities for law students and graduates are listed here.",
+    "published": "Wed, 11 Nov 2026 08:59:00 GMT",
+    "query": "site:reliefweb.int legal internship",
+    "source": "bing-rss-fallback",
+    "source_quality": "Web discovery",
+    "source_priority": 40,
+    "source_quality_label": "Search discovery",
+    "opportunity_type": "Internship",
+    "work_model": "Unspecified",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [
+      "Current law students"
+    ],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "source_type": "",
+    "score": 27,
+    "reasons": [
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
+      }
+    ],
+    "fit_score": 73,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Internship matches the target career stage",
+      "Explicitly open to current law students"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "opportunity_identity": "url::https://lawbhoomi.com/category/internship-opportunities"
+  },
+  {
+    "title": "Legal Internships for Law Students - Lawctopus",
+    "url": "https://www.lawctopus.com/category/opportunities-events/internships-small-projects/",
+    "description": "Find ‘Legal Internships’ That You Want! Internship Opportunity at Brave Souls Foundation, Delhi [1 Month; Offline]: Apply Now! Internship Opportunity at Rizwan Law Associates, Delhi [Offline]: Apply Now! Internship Opportunity at Law Chambers of Arjun Raghavendra M. [Long-Term; Paid]: Apply Now!",
+    "published": "Tue, 10 Nov 2026 12:57:00 GMT",
+    "query": "site:reliefweb.int legal internship",
+    "source": "bing-rss-fallback",
+    "source_quality": "Web discovery",
+    "source_priority": 40,
+    "source_quality_label": "Search discovery",
+    "opportunity_type": "Internship",
+    "work_model": "Unspecified",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "1 month",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [
+      "Current law students"
+    ],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "source_type": "",
+    "score": 27,
+    "reasons": [
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
+      }
+    ],
+    "fit_score": 73,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Internship matches the target career stage",
+      "Explicitly open to current law students"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "opportunity_identity": "url::https://www.lawctopus.com/category/opportunities-events/internships-small-projects"
+  },
+  {
+    "title": "Internships | Legal Aid - District of Columbia",
+    "url": "https://www.legalaiddc.org/node/889",
+    "description": "Legal Aid DC offers exciting internship opportunities to undergraduates and law students who want to gain experience in public interest work! Law Student Internships.",
+    "published": "Tue, 10 Nov 2026 08:03:00 GMT",
+    "query": "site:reliefweb.int legal internship",
+    "source": "bing-rss-fallback",
+    "source_quality": "Web discovery",
+    "source_priority": 40,
+    "source_quality_label": "Search discovery",
+    "opportunity_type": "Internship",
+    "work_model": "Unspecified",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [
+      "Current law students"
+    ],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "source_type": "",
+    "score": 27,
+    "reasons": [
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
+      }
+    ],
+    "fit_score": 73,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Internship matches the target career stage",
+      "Explicitly open to current law students"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "opportunity_identity": "url::https://www.legalaiddc.org/node/889"
+  },
+  {
     "title": "Legal Internship Program - Office of the Attorney General",
     "url": "https://law.georgia.gov/careers/legal-internship-program",
     "description": "The primary goal of our internship program is to give law students a hands-on opportunity to experience a unique public law practice. In addition to \"real life\" lawyering experiences, interns will also have the opportunity to attend out of office events.",
@@ -8999,9 +9644,18 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_checked": "2026-09-23T05:26:42.012100+00:00",
-    "opportunity_identity": "url::https://law.georgia.gov/careers/legal-internship-program"
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "opportunity_identity": "url::https://law.georgia.gov/careers/legal-internship-program",
+    "alternate_sources": [
+      {
+        "source": "bing-rss-fallback",
+        "url": "https://law.georgia.gov/careers/legal-internship-program",
+        "quality": "Web discovery",
+        "priority": 40
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Legal Engineering Operations Associate",
@@ -9481,6 +10135,84 @@
     "description_truncated": true
   },
   {
+    "title": "Associate Legal Engineer",
+    "url": "https://jobs.ashbyhq.com/harvey/4d3751fa-6080-431c-a431-6ac85ce713a8",
+    "description": "Organisation: Harvey. Location: Sydney. Department: Go to Market. Team: Go-to-Market. Commitment: FullTime. Work model: Hybrid. Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you. At Harvey, the future of professional services is being written today — and we’re just getting started. Role Overview As an Associate Legal Engineer, you’ll play a critical role in ensuring our law firm and in-house customer users are set up for success. You will deliver tailored training, create education strategies that align with legal workflows, and serve as a trusted guide to customers adopting Harvey across practice groups and legal departments. Your legal training and experience will allow you to connect deeply with our users, helping them to translate their own legal acumen into productive and innovative use of Harvey’s platform. You’ll work across a diverse range of clients, primarily mid-market and enterprise customers, and partner closely with Sale …",
+    "role_context": "Associate Legal Engineer Go to Market Go-to-Market FullTime",
+    "published": "2026-11-11T10:46:37.833+00:00",
+    "source": "ashby:harvey",
+    "source_type": "job_board",
+    "organization": "Harvey",
+    "location": "Sydney",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Hybrid",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "3 years",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "Additional Information Location: Sydney, NSW (Hybrid with flexibility) Work eligibility: Must have valid Australian work rights; Harvey does not currently offer visa sponsorship for this role What We Offer Structured hyb",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 77,
+    "reasons": [
+      {
+        "signal": "legal_tech",
+        "points": 18
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "remote",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 71,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong legal tech relevance",
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Early-career role matches the target career stage"
+    ],
+    "fit_gaps": [
+      "Verify work-authorisation wording: Additional Information Location: Sydney, NSW (Hybrid with flexibility) Work eligibility: Must have valid Australian work rights; Harvey does not currently offer visa sponsorship for this role What We Offer Structured hyb"
+    ],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "opportunity_identity": "role::harvey::associate legal engineer::sydney",
+    "description_truncated": true
+  },
+  {
     "title": "Native review of the German, French, Spanish and Chinese GDPR, retention and masking site strings",
     "url": "https://github.com/HodeTech/ForgeLM/issues/1055",
     "description": "Open-source contribution opportunity. Repository: HodeTech/ForgeLM. Labels: help wanted, area: site, i18n, severity: low, wave: 4. ## Summary\n\nThe German, French, Spanish and Chinese site strings about GDPR, retention and masking were written without a native-speaker review. English and Turkish are authoritative; the other four locales are a deferred tier (`docs/standards/localization.md`), and the owner accepted the exception for these strings in pull requests #1000 and #1050. They state legal facts (what `forgelm reverse-pii` and `forgelm purge` are for, what is and is not changed), so a wrong nuance in a translation is a compliance statement that nobody has checked.\n\n## Strings to review (key x locale `de`, `fr`, `es`, `zh`)\n\n- `home.cap.gdpr.body`, `home.use.domain.body`, `features.data.pii.body`\n- `compliance.gdpr15.body`, `compliance.gdpr17.body`, `compliance.art10.body`\n- `features.gov.access.title` / `.body`, `features.gov.purge.title` / `.body`\n- `privacy.body` (the \"Data-subject rights\" paragraph)\n- `wizard.retention.title`, `wizard.retention.hint`, `wizard.retention.audit_log.hint`, `.staging.hint`, `.ephemeral.hint`, `.raw_documents.hint`\n\n## What a reviewer checks\n\n- The legal terms: data subject (betroffene Person / personne concernée / interesado / 数据主体), access (Auskunft / droit d'accès / acceso), erasure (Löschung / effacement / supresión / 删除), and the citation style for GDPR articles and paragraphs.\n- The caveats survive: \"an input to an Article 15 response\", \"one step of an Article 17 erasure\", \"trained weights are not changed\", \"matching is literal and case-sensitive\", \"masking is opt-in (`--pii-mask`)\", \"a horizon is only reported, never enforced; `0` stops the report\".\n- Natural wording, consistent terminology within each locale (for example \"journal d'audit\" vs \"log d'audit\" in French).\n\n## Acceptance criteria\n\n- [ ] One native reviewer per locale (or a documented decision to leave a locale at English fallback) has read every string above and …",
@@ -9672,8 +10404,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -9732,9 +10464,18 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
-    "opportunity_identity": "url::https://legalalphabet.com/internships"
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "opportunity_identity": "url::https://legalalphabet.com/internships",
+    "alternate_sources": [
+      {
+        "source": "bing-rss-fallback",
+        "url": "https://legalalphabet.com/internships",
+        "quality": "Web discovery",
+        "priority": 40
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Applied Legal Researcher",
@@ -10068,6 +10809,83 @@
     "opportunity_identity": "url::https://www.acluga.org/internships"
   },
   {
+    "title": "Regulatory Operations Associate",
+    "url": "https://job-boards.greenhouse.io/via/jobs/8936661002",
+    "description": "Organisation: Via. Location: New York City. Department: Operations. Office: New York City. Via is using technology to transform transportation around the world. From changing a single person’s daily commute to reducing humanity’s collective environmental footprint — we’ve got huge goals. As a Regulatory Operations Associate , you will handle the day-to-day execution, tracking, and operational tasks required to keep Via’s transit partnerships fully compliant. You will monitor operational workflows, maintain audit-ready documentation, coordinate filings, and support the rollout of internal tools and automated reporting systems across our partner deployments. This role is based in NYC with a 3x per week office requirement. What You’ll Do Daily Compliance Execution: Coordinate and submit recurring regulatory filings, vehicle permits, driver credential verifications, and operational reports required by local transit agencies, federal standards (FTA), and accessibility mandates (ADA). Audit & Records Maintenance: Maintain centralized documentation systems, log compliance records, and perform routine audits of service data to ensure all partner markets remain 100% audit-ready. Tooling & Data Entry Workflows: Utilize internal operational tools, AI-assisted reporting workflows, and databases to extract compliance metrics, log discrepancies, and replace manual paperwork with structured digital tracking. Operational Monitoring: Track day-to-day Service Level Agreements (SLAs) and incident reports, flagging non-compliance issues or emerging operational bottlenecks directly to market operations managers. Project Coordination: Update and maintain project trackers, compliance calendars, and operational checklists to ensure all milestone dates, renewals, and partner deliverables are completed on schedule. Cross-Functional Support: Liaise directly with local Fleet Coordinators, Dispatch, Legal, and Market Operations teams to gather evidence, verify on-the-ground operational facts, a …",
+    "role_context": "Regulatory Operations Associate Operations",
+    "published": "2026-11-10T15:26:40-05:00",
+    "source": "greenhouse:via",
+    "source_type": "job_board",
+    "organization": "Via",
+    "location": "New York City",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Unspecified",
+    "compensation_status": "paid",
+    "compensation": "$65,000 – $85,000 / year",
+    "duration": "3 years",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [
+      "Degree required"
+    ],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 55,
+    "reasons": [
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 61,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [
+      "Completed degree may be required"
+    ],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "opportunity_identity": "role::via::regulatory operations associate::new york city",
+    "description_truncated": true
+  },
+  {
     "title": "Legal Internship Jobs in Atlanta, GA (NOW HIRING) - ZipRecruiter",
     "url": "https://www.ziprecruiter.com/Jobs/Legal-Internship/-in-Atlanta,GA",
     "description": "Browse 591 ATLANTA, GA LEGAL INTERNSHIP jobs ($15-$24/hr) hiring now. New openings posted daily. Apply early, get seen first & 1-click apply today!",
@@ -10258,8 +11076,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_checked": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
@@ -10424,6 +11242,168 @@
     "last_seen": "2026-09-24T05:26:35.754988+00:00",
     "last_checked": "2026-09-24T05:26:35.754988+00:00",
     "opportunity_identity": "url::https://www.linkedin.com/jobs/legal-intern-jobs-provo"
+  },
+  {
+    "title": "Now Hiring: 5,000 Law Internship Jobs | Indeed",
+    "url": "https://www.indeed.com/q-Law-Internship-jobs.html",
+    "description": "Browse 5,018 Law Internship jobs. New jobs posted today. Apply now and find your next opportunity on Indeed.com.",
+    "published": "Wed, 11 Nov 2026 10:54:00 GMT",
+    "query": "site:reliefweb.int legal internship",
+    "source": "bing-rss-fallback",
+    "source_quality": "Web discovery",
+    "source_priority": 40,
+    "source_quality_label": "Search discovery",
+    "opportunity_type": "Internship",
+    "work_model": "Unspecified",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "source_type": "",
+    "score": 27,
+    "reasons": [
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
+      }
+    ],
+    "fit_score": 57,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Internship matches the target career stage"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "opportunity_identity": "url::https://www.indeed.com/q-Law-Internship-jobs.html"
+  },
+  {
+    "title": "Now Hiring: 2,000 Legal Intern Jobs | Indeed",
+    "url": "https://www.indeed.com/q-Legal-Intern-jobs.html",
+    "description": "Browse 2,643 Legal Intern jobs. New jobs posted today. Apply now and find your next opportunity on Indeed.com.",
+    "published": "Wed, 11 Nov 2026 08:52:00 GMT",
+    "query": "site:reliefweb.int legal internship",
+    "source": "bing-rss-fallback",
+    "source_quality": "Web discovery",
+    "source_priority": 40,
+    "source_quality_label": "Search discovery",
+    "opportunity_type": "Internship",
+    "work_model": "Unspecified",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "source_type": "",
+    "score": 27,
+    "reasons": [
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
+      }
+    ],
+    "fit_score": 57,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Internship matches the target career stage"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "opportunity_identity": "url::https://www.indeed.com/q-Legal-Intern-jobs.html"
+  },
+  {
+    "title": "Summer Internships - NCDOJ",
+    "url": "https://ncdoj.gov/employment/summer-internships/",
+    "description": "An effective way to introduce students to public service is through our summer internship program. Serving as a legal summer intern gives students an opportunity to work alongside some of the state’s very best attorneys to see first-hand the challenges our lawyers face.",
+    "published": "Wed, 11 Nov 2026 02:18:00 GMT",
+    "query": "site:reliefweb.int legal internship",
+    "source": "bing-rss-fallback",
+    "source_quality": "Web discovery",
+    "source_priority": 40,
+    "source_quality_label": "Search discovery",
+    "opportunity_type": "Internship",
+    "work_model": "Unspecified",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "source_type": "",
+    "score": 27,
+    "reasons": [
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
+      }
+    ],
+    "fit_score": 57,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Internship matches the target career stage"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "opportunity_identity": "url::https://ncdoj.gov/employment/summer-internships"
   },
   {
     "title": "Law Internship Jobs in Utah (231 Open Roles) | LinkedIn",
@@ -10802,391 +11782,5 @@
     "last_seen": "2026-11-03T12:48:06.669792+00:00",
     "last_checked": "2026-11-03T12:48:06.669792+00:00",
     "opportunity_identity": "url::https://www.glassdoor.com/Job/baltimore-legal-intern-jobs-SRCH_IL.0,9_IC1153527_KO10,22.htm"
-  },
-  {
-    "title": "421 Law Internship jobs in Atlanta - LinkedIn",
-    "url": "https://www.linkedin.com/jobs/law-internship-jobs-atlanta-ga",
-    "description": "Leverage your professional network, and get hired. New Law Internship jobs added daily.",
-    "published": "Mon, 21 Sep 2026 01:24:00 GMT",
-    "query": "site:reliefweb.int legal internship",
-    "source": "bing-rss-fallback",
-    "source_quality": "Web discovery",
-    "source_priority": 40,
-    "source_quality_label": "Search discovery",
-    "opportunity_type": "Internship",
-    "work_model": "Unspecified",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "source_type": "",
-    "score": 27,
-    "reasons": [
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "opportunity_in_title",
-        "points": 12
-      }
-    ],
-    "fit_score": 57,
-    "fit_label": "Stretch",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Internship matches the target career stage"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_checked": "2026-09-23T05:26:42.012100+00:00",
-    "opportunity_identity": "url::https://www.linkedin.com/jobs/law-internship-jobs-atlanta-ga"
-  },
-  {
-    "title": "Legal Internship Law Jobs, Employment in Atlanta, GA | Indeed",
-    "url": "https://www.indeed.com/q-legal-internship-law-l-atlanta,-ga-jobs.html",
-    "description": "15 Legal Internship Law jobs in Atlanta, GA. Apply to Reporter, Shift Leader, Legal Secretary and more. Hiring now on Indeed.com.",
-    "published": "Mon, 14 Sep 2026 15:37:00 GMT",
-    "query": "site:reliefweb.int legal internship",
-    "source": "bing-rss-fallback",
-    "source_quality": "Web discovery",
-    "source_priority": 40,
-    "source_quality_label": "Search discovery",
-    "opportunity_type": "Internship",
-    "work_model": "Unspecified",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "source_type": "",
-    "score": 27,
-    "reasons": [
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "opportunity_in_title",
-        "points": 12
-      }
-    ],
-    "fit_score": 57,
-    "fit_label": "Stretch",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Internship matches the target career stage"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_checked": "2026-09-23T05:26:42.012100+00:00",
-    "opportunity_identity": "url::https://www.indeed.com/q-legal-internship-law-l-atlanta,-ga-jobs.html"
-  },
-  {
-    "title": "Legal Intern Jobs in Maryland (49 Open Roles) | LinkedIn",
-    "url": "https://www.linkedin.com/jobs/legal-intern-jobs-maryland",
-    "description": "Today’s top 49 Legal Intern jobs in Maryland. Leverage your professional network, and get hired. New Legal Intern jobs added daily.",
-    "published": "Fri, 30 Oct 2026 12:12:00 GMT",
-    "query": "site:reliefweb.int legal internship",
-    "source": "bing-rss-fallback",
-    "source_quality": "Web discovery",
-    "source_priority": 40,
-    "source_quality_label": "Search discovery",
-    "opportunity_type": "Internship",
-    "work_model": "Unspecified",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "source_type": "",
-    "score": 27,
-    "reasons": [
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "opportunity_in_title",
-        "points": 12
-      }
-    ],
-    "fit_score": 57,
-    "fit_label": "Stretch",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Internship matches the target career stage"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
-    "opportunity_identity": "url::https://www.linkedin.com/jobs/legal-intern-jobs-maryland"
-  },
-  {
-    "title": "Legal - englishinternships.byu.edu",
-    "url": "https://englishinternships.byu.edu/legal",
-    "description": "We are seeking a full-time Legal Intern to join our Aptive team! This position is located at our office in Provo, Utah. The individual we are looking for is someone who enjoys working in a team environment and excels working at an individual level.",
-    "published": "Fri, 29 May 2026 22:25:00 GMT",
-    "query": "site:reliefweb.int legal internship",
-    "source": "bing-rss-fallback",
-    "source_quality": "Web discovery",
-    "source_priority": 40,
-    "source_quality_label": "Search discovery",
-    "opportunity_type": "Internship",
-    "work_model": "Unspecified",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "Full-time",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "source_type": "",
-    "score": 27,
-    "reasons": [
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "opportunity_in_title",
-        "points": 12
-      }
-    ],
-    "fit_score": 57,
-    "fit_label": "Stretch",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Internship matches the target career stage"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
-    "opportunity_identity": "url::https://englishinternships.byu.edu/legal"
-  },
-  {
-    "title": "legal intern jobs in Provo, UT - Indeed",
-    "url": "https://www.indeed.com/q-legal-intern-l-provo,-ut-jobs.html",
-    "description": "11 Legal Intern jobs available in Provo, UT on Indeed.com. Apply to Associate Attorney, Law Clerk, Legal Intern and more!",
-    "published": "Fri, 18 Sep 2026 02:11:00 GMT",
-    "query": "site:reliefweb.int legal internship",
-    "source": "bing-rss-fallback",
-    "source_quality": "Web discovery",
-    "source_priority": 40,
-    "source_quality_label": "Search discovery",
-    "opportunity_type": "Internship",
-    "work_model": "Unspecified",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "source_type": "",
-    "score": 27,
-    "reasons": [
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "opportunity_in_title",
-        "points": 12
-      }
-    ],
-    "fit_score": 57,
-    "fit_label": "Stretch",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Internship matches the target career stage"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
-    "opportunity_identity": "url::https://www.indeed.com/q-legal-intern-l-provo,-ut-jobs.html"
-  },
-  {
-    "title": "HIRE LAW - Legal Internships",
-    "url": "https://www.hirelawstudentjobs.com/",
-    "description": "Our Platform Features Legal Internships (and Pre-Law Jobs & Internships) From Employers Across The Country In One Place! We help college students find undergraduate legal internships and gap year jobs before law school.",
-    "published": "Tue, 22 Sep 2026 06:24:00 GMT",
-    "query": "site:reliefweb.int legal internship",
-    "source": "bing-rss-fallback",
-    "source_quality": "Web discovery",
-    "source_priority": 40,
-    "source_quality_label": "Search discovery",
-    "opportunity_type": "Early-career role",
-    "work_model": "Unspecified",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "source_type": "",
-    "score": 27,
-    "reasons": [
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "opportunity_in_title",
-        "points": 12
-      }
-    ],
-    "fit_score": 53,
-    "fit_label": "Probably skip",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Early-career role matches the target career stage"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
-    "opportunity_identity": "url::https://www.hirelawstudentjobs.com/"
-  },
-  {
-    "title": "Legal Help Houston - Houston Volunteer Lawyers",
-    "url": "https://legalhelphouston.org/",
-    "description": "HVL provides free legal help to eligible low-income residents of the Greater Houston area. We specialize in family, housing, wills, veterans’ issues, taxes, and other non-criminal matters.",
-    "published": "Wed, 07 Oct 2026 05:23:00 GMT",
-    "query": "site:greenhouse.io legal trainee",
-    "source": "bing-rss-fallback",
-    "source_quality": "Web discovery",
-    "source_priority": 40,
-    "source_quality_label": "Search discovery",
-    "opportunity_type": "Volunteer",
-    "work_model": "Unspecified",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "source_type": "",
-    "score": 27,
-    "reasons": [
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "opportunity_in_title",
-        "points": 12
-      }
-    ],
-    "fit_score": 46,
-    "fit_label": "Probably skip",
-    "fit_reasons": [
-      "Strong legal relevance"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_checked": "2026-10-09T05:31:48.763325+00:00",
-    "opportunity_identity": "url::https://legalhelphouston.org/",
-    "alternate_sources": [
-      {
-        "source": "bing-rss-fallback",
-        "url": "https://legalhelphouston.org/",
-        "quality": "Web discovery",
-        "priority": 40
-      }
-    ],
-    "duplicate_count": 0
   }
 ]
