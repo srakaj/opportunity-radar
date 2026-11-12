@@ -101,8 +101,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -409,9 +409,9 @@
   {
     "title": "GDPR",
     "url": "https://github.com/cncf/techdocs/issues/134",
-    "description": "Open-source contribution opportunity. Repository: cncf/techdocs. Labels: good first issue, help wanted, stage/010-actionable. ### Resources\r\n\r\n- [Safeguarding your data - Analytics Help (google.com)](https://support.google.com/analytics/answer/6004245)\r\n- [**Google Analytics** GDPR Compliance Guide For Businesses (termly.io)](https://termly.io/resources/articles/google-analytics-gdpr/)\r\n  - [Data Protection Law Compliance - Business Data Responsibility (business.safety.google)](https://business.safety.google/compliance/)\r\n- [**Google Fonts** & GDPR – How You Can Stay Compliant (runcloud.io)](https://blog.runcloud.io/google-fonts-gdpr/)\r\n- For **CNCF project-specific** advice, open a ticket [Privacy Services Support | Help Center (linuxfoundation.org)](https://jira.linuxfoundation.org/plugins/servlet/desk/portal/38)\r\n\r\n### Related\r\n\r\n- [CNCFSD-1880](https://cncfservicedesk.atlassian.net/browse/CNCFSD-1880)\r\n\r\n/cc @caniszczyk",
-    "role_context": "GDPR cncf/techdocs good first issue, help wanted, stage/010-actionable",
-    "published": "2026-11-10T20:25:40Z",
+    "description": "Open-source contribution opportunity. Repository: cncf/techdocs. Labels: good first issue, help wanted, stage/010-actionable, stage/stalled. ### Resources\r\n\r\n- [Safeguarding your data - Analytics Help (google.com)](https://support.google.com/analytics/answer/6004245)\r\n- [**Google Analytics** GDPR Compliance Guide For Businesses (termly.io)](https://termly.io/resources/articles/google-analytics-gdpr/)\r\n  - [Data Protection Law Compliance - Business Data Responsibility (business.safety.google)](https://business.safety.google/compliance/)\r\n- [**Google Fonts** & GDPR – How You Can Stay Compliant (runcloud.io)](https://blog.runcloud.io/google-fonts-gdpr/)\r\n- For **CNCF project-specific** advice, open a ticket [Privacy Services Support | Help Center (linuxfoundation.org)](https://jira.linuxfoundation.org/plugins/servlet/desk/portal/38)\r\n\r\n### Related\r\n\r\n- [CNCFSD-1880](https://cncfservicedesk.atlassian.net/browse/CNCFSD-1880)\r\n\r\n/cc @caniszczyk",
+    "role_context": "GDPR cncf/techdocs good first issue, help wanted, stage/010-actionable, stage/stalled",
+    "published": "2026-11-11T19:42:10Z",
     "source": "github-issues-api",
     "source_type": "open_source",
     "organization": "cncf/techdocs",
@@ -477,9 +477,18 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
-    "opportunity_identity": "role::cncf techdocs::gdpr::remote open source"
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
+    "opportunity_identity": "role::cncf techdocs::gdpr::remote open source",
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/cncf/techdocs/issues/134",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "[Legal & Compliance] Privacy Data — Conduct data protection impact assessments",
@@ -874,10 +883,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::raizestudio dripcatch::feat legal implement localized privacy policy page locale privacy::remote open source",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "github-issues-api",
+        "url": "https://github.com/raizestudio/dripcatch/issues/1",
+        "quality": "Open source",
+        "priority": 65
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "[Roadmap v0.6.0] Pluggable Global & State Regulatory Packs (GDPR, CCPA/CPRA, FERPA, CJIS v6.0 & 50-State FOIA)",
@@ -2281,8 +2299,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::maziyarpanahi openmed::add an eu evidence index page that links the existing gdpr and ai act documents::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -2380,8 +2398,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -2651,8 +2669,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -3014,8 +3032,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::udaysharmagithub prompt engineering patterns::notebook 07 safety and alignment 05 privacy and sensitive data::remote open source",
     "description_truncated": true
   },
@@ -3337,6 +3355,83 @@
     "last_seen": "2026-09-27T05:26:33.839527+00:00",
     "last_checked": "2026-09-27T05:26:33.839527+00:00",
     "opportunity_identity": "role::arpahls skillware::new skill vasp counterparty screening hook for regulated operators::remote open source"
+  },
+  {
+    "title": "docs(frontend): replace broken Privacy, Terms, Science, and Contact links with real pages",
+    "url": "https://github.com/DineshDhanoki/Lumiqe/issues/38",
+    "description": "Open-source contribution opportunity. Repository: DineshDhanoki/Lumiqe. Labels: bug, documentation, help wanted, frontend, ux, testing, priority: high, size: medium, privacy. ## Problem\n\nThe application asks new users to agree to Terms and a Privacy Policy, but both links lead to missing routes (`frontend/src/components/SignInModal.tsx:326-339`). The site footer also links to missing `/privacy`, `/terms`, `/science`, and `/contact` pages (`frontend/src/components/Footer.tsx:7-11`). All currently resolve to the generic 404 page.\n\nBroken legal/consent links undermine informed signup and make the project look unfinished.\n\n## Scope\n\n- Add real routes for `/privacy`, `/terms`, `/science`, and `/contact`, or remove nonessential links until approved content exists.\n- Privacy and Terms copy must be supplied or explicitly approved by the maintainer; contributors must not invent legal promises.\n- Use a shared readable static-page layout with correct headings, metadata, mobile spacing, and last-updated information where appropriate.\n- The Science page must distinguish demonstrated behavior from unverified accuracy claims and link to issue #4 for evaluation work.\n- Contact must use an approved channel and must not expose private credentials or personal data.\n\n## Acceptance criteria\n\n- Signup consent links and every footer link resolve to intentional 200 pages, never the generic 404.\n- Privacy and Terms content is maintainer-approved before merge.\n- Pages are keyboard accessible and readable on mobile.\n- Add route-level metadata and meaningful page titles.\n- Add Playwright checks for each link and destination heading.\n- Add an internal-link integrity test covering static app links so future missing routes fail CI.\n\n## Contributor note\n\nPlease comment before drafting Privacy or Terms text. Engineering work can begin on the shared page shell and link tests, but legal language requires maintainer approval.",
+    "role_context": "docs(frontend): replace broken Privacy, Terms, Science, and Contact links with real pages DineshDhanoki/Lumiqe bug, documentation, help wanted, frontend, ux, testing, priority: high, size: medium, privacy",
+    "published": "2026-11-11T23:45:38Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "DineshDhanoki/Lumiqe",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 40,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
+    "opportunity_identity": "role::dineshdhanoki lumiqe::docs frontend replace broken privacy terms science and contact links with real pages::remote open source"
   },
   {
     "title": "Rename \"Privacy Policy\" as \"Privacy\"",
@@ -4519,106 +4614,6 @@
     "duplicate_count": 0
   },
   {
-    "title": "Legal Operations Associate",
-    "url": "https://job-boards.greenhouse.io/via/jobs/4130660002",
-    "description": "Organisation: Via. Location: New York, New York. Department: Legal. Office: New York City. Via is on a mission to create public transportation systems that provide far greater access to jobs, healthcare, and education. Our platform serves as the technology backbone for modern transit networks, transforming antiquated and siloed public transportation systems into smart, data-driven, and efficient digital networks. With hundreds of agency partners around the world, Via is recognized as the leading transportation technology and service provider globally. As a Legal Operations Associate , you will work closely with a team of highly dedicated and dynamic lawyers on a number of high impact topics like contracting, managing end-to-end processes, and other essential in-house legal functions. As a fully integrated member of the legal team, you will play a key cross functional role in driving success on a variety of exciting legal initiatives. About the Role: Prepare, review and mark up contracts, e.g. NDAs, SaaS licenses, vendor contracts, engagement letters, etc., and maintain the company’s forms and guideline documents. Research applicable federal, state and local laws, and regulations and ordinances, for a wide variety of domestic and international on-demand transit deployments. Communicate regulatory requirements to operations teams and build processes to ensure regulatory compliance, especially with Department of Transportation and Federal Transit Administration regulations. Develop working knowledge of internal databases and systems in order to pull and extract insights from data in making business decisions. Constantly help the legal team become more organized and efficient, through the implementation and management of ticketing systems, document management and filing systems, KPIs tracking, etc. Manage, organize and maintain files in the company’s contract database and shared cloud storage system. Ensure and track compliance with GDPR and other data privacy laws thro …",
-    "role_context": "Legal Operations Associate Legal",
-    "published": "2026-10-09T16:15:40-04:00",
-    "source": "greenhouse:via",
-    "source_type": "job_board",
-    "organization": "Via",
-    "location": "New York, New York",
-    "structured_opportunity": true,
-    "source_quality": "Official ATS",
-    "source_priority": 100,
-    "source_quality_label": "Direct employer ATS",
-    "opportunity_type": "Early-career role",
-    "work_model": "Unspecified",
-    "compensation_status": "paid",
-    "compensation": "$70,000-$85,000",
-    "duration": "0-2 years",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 109,
-    "reasons": [
-      {
-        "signal": "legal_operations",
-        "points": 18
-      },
-      {
-        "signal": "privacy",
-        "points": 16
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "compliance",
-        "points": 14
-      },
-      {
-        "signal": "research_writing",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "international",
-        "points": 8
-      },
-      {
-        "signal": "paid",
-        "points": 8
-      },
-      {
-        "signal": "leadership",
-        "points": 8
-      }
-    ],
-    "fit_score": 87,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal operations relevance",
-      "Strong legal relevance",
-      "Strong privacy relevance",
-      "Early-career role matches the target career stage",
-      "Explicit compensation signal",
-      "Relevant experience overlap: compliance",
-      "Relevant experience overlap: legal operations"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-10-01T05:29:54.078369+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
-    "opportunity_identity": "role::via::legal operations associate::new york new york",
-    "description_truncated": true,
-    "alternate_sources": [
-      {
-        "source": "greenhouse:via",
-        "url": "https://job-boards.greenhouse.io/via/jobs/4130660002",
-        "quality": "Official ATS",
-        "priority": 100
-      }
-    ],
-    "duplicate_count": 0
-  },
-  {
     "title": "Follow the reader's light or dark preference instead of forcing dark",
     "url": "https://github.com/blixvip/ai-broadcaster-privacy/issues/1",
     "description": "Open-source contribution opportunity. Repository: blixvip/ai-broadcaster-privacy. Labels: accessibility, good first issue. `style.css:1` sets `color-scheme: dark` with fixed dark colors, so the policy always renders light-on-dark, even for readers whose system is set to light mode. The only light styling is the print block at `style.css:19`.\n\n**Expected:** dark stays the default, and a `@media (prefers-color-scheme: light)` block gives a light palette with the same contrast. It can reuse the print colors as a starting point.\n\n**Scope:** CSS only. Please do not change any wording in `index.html`. The policy text is a legal statement and is edited only by the maintainer.\n\n**Done when:** switching the OS or devtools to light mode shows a light page, all text meets WCAG AA contrast (4.5:1) in both modes, and the page still prints correctly.",
@@ -5791,8 +5786,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-05T13:12:57.145457+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::m ridha indonesian linguist::feat domains add politics public policy governance and journalism glossary politics and news md::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -6052,8 +6047,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
     "description_truncated": true
   },
@@ -6133,8 +6128,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::raizestudio dripcatch::feat legal implement localized security overview and trust center locale security::remote open source",
     "description_truncated": true
   },
@@ -6207,11 +6202,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -6609,11 +6604,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -6784,8 +6779,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -6956,6 +6951,101 @@
     "description_truncated": true
   },
   {
+    "title": "Legal Operations Associate",
+    "url": "https://job-boards.greenhouse.io/via/jobs/4130660002",
+    "description": "Organisation: Via. Location: New York, New York. Department: Legal. Office: New York City. Via is on a mission to create public transportation systems that provide far greater access to jobs, healthcare, and education. Our platform serves as the technology backbone for modern transit networks, transforming antiquated and siloed public transportation systems into smart, data-driven, and efficient digital networks. With hundreds of agency partners around the world, Via is recognized as the leading transportation technology and service provider globally. As a Legal Operations Associate , you will work closely with a team of highly dedicated and dynamic lawyers on a number of high impact topics like contracting, managing end-to-end processes, and other essential in-house legal functions. As a fully integrated member of the legal team, you will play a key cross functional role in driving success on a variety of exciting legal initiatives. About the Role: Prepare, review and mark up contracts, e.g. NDAs, SaaS licenses, vendor contracts, engagement letters, etc., and maintain the company’s forms and guideline documents. Research applicable federal, state and local laws, and regulations and ordinances, for a wide variety of domestic and international on-demand transit deployments. Communicate regulatory requirements to operations teams and build processes to ensure regulatory compliance, especially with Department of Transportation and Federal Transit Administration regulations. Develop working knowledge of internal databases and systems in order to pull and extract insights from data in making business decisions. Constantly help the legal team become more organized and efficient, through the implementation and management of ticketing systems, document management and filing systems, KPIs tracking, etc. Manage, organize and maintain files in the company’s contract database and shared cloud storage system. Ensure and track compliance with GDPR and other data privacy laws thro …",
+    "role_context": "Legal Operations Associate Legal",
+    "published": "2026-10-09T16:15:40-04:00",
+    "source": "greenhouse:via",
+    "source_type": "job_board",
+    "organization": "Via",
+    "location": "New York, New York",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "Unspecified",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 101,
+    "reasons": [
+      {
+        "signal": "legal_operations",
+        "points": 18
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 83,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal operations relevance",
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Early-career role matches the target career stage",
+      "Relevant experience overlap: compliance",
+      "Relevant experience overlap: legal operations"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-10-01T05:29:54.078369+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "opportunity_identity": "role::via::legal operations associate::new york new york",
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "greenhouse:via",
+        "url": "https://job-boards.greenhouse.io/via/jobs/4130660002",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
+  },
+  {
     "title": "[Good First Issue] Cross-check Vietnamese Law on Electronic Transactions 2023 requirements for a \"Data Message\" against Layer A evidence logs",
     "url": "https://github.com/nan-nexus-network/ai2ai-research/issues/1",
     "description": "Open-source contribution opportunity. Repository: nan-nexus-network/ai2ai-research. Labels: good first issue, policy, vietnam-law. **Context:** For technical evidence from Layer A (`ai2ai-core`) to be usable in Layer B (commercial arbitration in Vietnam, such as at VIAC), the logged events must satisfy the statutory criteria of a trustworthy \"Thong diep du lieu\" (Data Message) under Vietnam's Law on Electronic Transactions 2023.\n\n**Task:** Add a structured Markdown comparison table in `docs/vn_etransaction_mapping.md` mapping each technical field produced by `ai2ai-core` to the corresponding statutory requirement.\n\n**Acceptance Criteria:**\n- [ ] Neutral, objective legal-technical mapping. No political commentary.\n- [ ] Every statutory citation carries a verifiable source link.\n- [ ] A bilingual (VI/EN) summary is preferred.",
@@ -7113,8 +7203,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-28T11:21:08.429782+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::finos ai governance framework::proposal add positioning doc finos aig vs other frameworks standards and certifications::remote open source",
     "alternate_sources": [
       {
@@ -7435,8 +7525,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -7521,8 +7611,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::dallas",
     "description_truncated": true,
     "alternate_sources": [
@@ -7607,8 +7697,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::chicago",
     "description_truncated": true,
     "alternate_sources": [
@@ -7693,8 +7783,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::boston",
     "description_truncated": true,
     "alternate_sources": [
@@ -7779,8 +7869,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -7865,8 +7955,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::chicago",
     "description_truncated": true,
     "alternate_sources": [
@@ -7951,8 +8041,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::houston",
     "description_truncated": true,
     "alternate_sources": [
@@ -8037,8 +8127,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-13T05:33:49.839758+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::toronto",
     "description_truncated": true,
     "alternate_sources": [
@@ -8123,8 +8213,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -8209,8 +8299,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -8541,10 +8631,10 @@
     "duplicate_count": 0
   },
   {
-    "title": "Legal Data Analyst",
+    "title": "Legal Analyst",
     "url": "https://jobs.ashbyhq.com/legora/3a25045a-5b31-4fee-83d9-d64407485c57",
-    "description": "Organisation: Legora. Location: New York City. Department: Product. Team: Product. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The role: World-class legal AI is built on world-class legal data. Getting that right is one of the most critical and complex challenges at Legora. Every jurisdiction holds billions of pages of critical legal text scattered across hundreds of sources – statutes, case law, regulatory guidance, secondary materials, and more. Only about 3% is publicly accessible on the web. The rest is buried across courts, agencies, and archives. Getting this right doesn't just improve a product feature — it shapes how lawyers around the world na …",
-    "role_context": "Legal Data Analyst Product Product FullTime",
+    "description": "Organisation: Legora. Location: New York City. Department: Product. Team: Product. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. Legal Data Analyst The role World-class legal AI is built on world-class legal data. Getting that right is one of the most critical and complex challenges at Legora. Every jurisdiction holds billions of pages of critical legal text scattered across hundreds of sources: statutes, case law, regulatory guidance, secondary materials, and more. Only about 3% is publicly accessible on the web. The rest is buried across courts, agencies, and archives. Getting this right doesn't just improve a product feature. It shapes how lawyers aro …",
+    "role_context": "Legal Analyst Product Product FullTime",
     "published": "2026-11-09T18:30:18.552+00:00",
     "source": "ashby:legora",
     "source_type": "job_board",
@@ -8572,7 +8662,7 @@
     "deadline_time_confidence": "unknown",
     "deadline_source_timezone": "",
     "deadline_original": "",
-    "score": 67,
+    "score": 79,
     "reasons": [
       {
         "signal": "legal",
@@ -8581,6 +8671,10 @@
       {
         "signal": "compliance",
         "points": 14
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
       },
       {
         "signal": "research_writing",
@@ -8612,19 +8706,10 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
-    "opportunity_identity": "role::legora::legal data analyst::new york city",
-    "description_truncated": true,
-    "alternate_sources": [
-      {
-        "source": "ashby:legora",
-        "url": "https://jobs.ashbyhq.com/legora/3a25045a-5b31-4fee-83d9-d64407485c57",
-        "quality": "Official ATS",
-        "priority": 100
-      }
-    ],
-    "duplicate_count": 0
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
+    "opportunity_identity": "role::legora::legal analyst::new york city",
+    "description_truncated": true
   },
   {
     "title": "Add privacy, terms and contact links to the footer",
@@ -10207,10 +10292,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::sydney",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "ashby:harvey",
+        "url": "https://jobs.ashbyhq.com/harvey/4d3751fa-6080-431c-a431-6ac85ce713a8",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Native review of the German, French, Spanish and Chinese GDPR, retention and masking site strings",
@@ -10404,10 +10498,87 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
+  },
+  {
+    "title": "Legal Data Analyst",
+    "url": "https://jobs.ashbyhq.com/legora/3a25045a-5b31-4fee-83d9-d64407485c57",
+    "description": "Organisation: Legora. Location: New York City. Department: Product. Team: Product. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. The role: World-class legal AI is built on world-class legal data. Getting that right is one of the most critical and complex challenges at Legora. Every jurisdiction holds billions of pages of critical legal text scattered across hundreds of sources – statutes, case law, regulatory guidance, secondary materials, and more. Only about 3% is publicly accessible on the web. The rest is buried across courts, agencies, and archives. Getting this right doesn't just improve a product feature — it shapes how lawyers around the world na …",
+    "role_context": "Legal Data Analyst Product Product FullTime",
+    "published": "2026-11-09T18:30:18.552+00:00",
+    "source": "ashby:legora",
+    "source_type": "job_board",
+    "organization": "Legora",
+    "location": "New York City",
+    "structured_opportunity": true,
+    "source_quality": "Official ATS",
+    "source_priority": 100,
+    "source_quality_label": "Direct employer ATS",
+    "opportunity_type": "Early-career role",
+    "work_model": "On-site",
+    "compensation_status": "paid",
+    "compensation": "$200",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 47,
+    "reasons": [
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      }
+    ],
+    "fit_score": 68,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Early-career role matches the target career stage",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-10T13:28:42.128603+00:00",
+    "last_seen": "2026-11-11T12:44:06.395835+00:00",
+    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "opportunity_identity": "role::legora::legal data analyst::new york city",
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "ashby:legora",
+        "url": "https://jobs.ashbyhq.com/legora/3a25045a-5b31-4fee-83d9-d64407485c57",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Summer & Law Legal Internships 2026 - 177 Paid Positions",
@@ -10880,10 +11051,19 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::via::regulatory operations associate::new york city",
-    "description_truncated": true
+    "description_truncated": true,
+    "alternate_sources": [
+      {
+        "source": "greenhouse:via",
+        "url": "https://job-boards.greenhouse.io/via/jobs/8936661002",
+        "quality": "Official ATS",
+        "priority": 100
+      }
+    ],
+    "duplicate_count": 0
   },
   {
     "title": "Legal Internship Jobs in Atlanta, GA (NOW HIRING) - ZipRecruiter",
@@ -11076,8 +11256,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
+    "last_seen": "2026-11-12T13:46:15.424509+00:00",
+    "last_checked": "2026-11-12T13:46:15.424509+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
@@ -11674,113 +11854,5 @@
     "last_seen": "2026-11-03T12:48:06.669792+00:00",
     "last_checked": "2026-11-03T12:48:06.669792+00:00",
     "opportunity_identity": "url::https://www.lawcrossing.com/jobs/jt-law-student-q-law-internship-l-Baltimore-MD-jobs.html"
-  },
-  {
-    "title": "Legal Intern Jobs in Baltimore (437 Open Roles) | LinkedIn",
-    "url": "https://www.linkedin.com/jobs/legal-intern-jobs-baltimore-md",
-    "description": "Today’s top 437 Legal Intern jobs in Baltimore. Leverage your professional network, and get hired. New Legal Intern jobs added daily.",
-    "published": "Sat, 31 Oct 2026 05:16:00 GMT",
-    "query": "site:reliefweb.int legal internship",
-    "source": "bing-rss-fallback",
-    "source_quality": "Web discovery",
-    "source_priority": 40,
-    "source_quality_label": "Search discovery",
-    "opportunity_type": "Internship",
-    "work_model": "Unspecified",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "source_type": "",
-    "score": 27,
-    "reasons": [
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "opportunity_in_title",
-        "points": 12
-      }
-    ],
-    "fit_score": 57,
-    "fit_label": "Stretch",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Internship matches the target career stage"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
-    "opportunity_identity": "url::https://www.linkedin.com/jobs/legal-intern-jobs-baltimore-md"
-  },
-  {
-    "title": "167 Legal intern jobs in Baltimore, MD - Glassdoor",
-    "url": "https://www.glassdoor.com/Job/baltimore-legal-intern-jobs-SRCH_IL.0,9_IC1153527_KO10,22.htm",
-    "description": "Search Legal intern jobs in Baltimore, MD with company ratings & salaries. 167 open jobs for Legal intern in Baltimore.",
-    "published": "Sat, 10 Oct 2026 06:38:00 GMT",
-    "query": "site:reliefweb.int legal internship",
-    "source": "bing-rss-fallback",
-    "source_quality": "Web discovery",
-    "source_priority": 40,
-    "source_quality_label": "Search discovery",
-    "opportunity_type": "Internship",
-    "work_model": "Unspecified",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "source_type": "",
-    "score": 27,
-    "reasons": [
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "opportunity_in_title",
-        "points": 12
-      }
-    ],
-    "fit_score": 57,
-    "fit_label": "Stretch",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Internship matches the target career stage"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_seen": "2026-11-03T12:48:06.669792+00:00",
-    "last_checked": "2026-11-03T12:48:06.669792+00:00",
-    "opportunity_identity": "url::https://www.glassdoor.com/Job/baltimore-legal-intern-jobs-SRCH_IL.0,9_IC1153527_KO10,22.htm"
   }
 ]
