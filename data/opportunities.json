@@ -101,8 +101,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::via::working student legal german speaking::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -717,93 +717,6 @@
     "opportunity_identity": "url::https://www.stjude.org/education-training/professional-development/internships/legal.html"
   },
   {
-    "title": "ethvm _apz_chain",
-    "url": "https://github.com/apzchain/EthVM-APZ-Chain/issues/1",
-    "description": "Open-source contribution opportunity. Repository: apzchain/EthVM-APZ-Chain. Labels: bug, accessibility, documentation, duplicate, enhancement, help wanted, good first issue, invalid, question, wontfix. 🚀 پروژه کامل ETHVM-APZ-CHAIN-COMPLETE با پشتیبانی DeepSeek\n\n📦 ساختار نهایی (تکمیل شده با کدهای کامل)\n\n```\nethvm-apz-chain-complete-20241210-1500.zip/\n├── 📁 core-system/                    # هسته اصلی پروژه\n│   ├── 📁 network-protocols/          # پروتکل‌های شبکه\n│   │   ├── ipx-adapter.ts\n│   │   ├── secure-tunnel.ts\n│   │   ├── crypto-engine.ts\n│   │   ├── isdn-integration.ts\n│   │   └── frame-relay.ts\n│   ├── 📁 cross-chain-bridge/         # پل بین‌زنجیره‌ای\n│   │   ├── bridge-protocol.ts\n│   │   ├── packet-exchange.ts\n│   │   └── multi-chain-orchestrator.ts\n│   ├── 📁 blockchain-core/            # هسته بلاک چین\n│   │   ├── consensus.ts\n│   │   ├── node-manager.ts\n│   │   ├── transaction-pool.ts\n│   │   └── chain-state.ts\n│   └── 📁 smart-contracts/            # قراردادهای هوشمند\n│       ├── APZToken.sol\n│       ├── Staking.sol\n│       └── Governance.sol\n├── 📁 ai-support-system/              # پشتیبانی هوش مصنوعی\n│   ├── 📁 deepseek-integration/       # یکپارچه‌سازی DeepSeek\n│   │   ├── support-engine.ts\n│   │   ├── ai-functions.ts\n│   │   └── model-training.ts\n│   ├── 📁 financial-management/       # مدیریت مالی\n│   │   ├── financial-authorizer.ts\n│   │   ├── invoice-manager.ts\n│   │   └── payment-processor.ts\n│   ├── 📁 legal-compliance/           # تطبیق قانونی\n│   │   ├── legal-validator.ts\n│   │   ├── contract-generator.ts\n│   │   └── compliance-checker.ts\n│   ├── 📁 customer-support/           # پشتیبانی مشتری\n│   │   ├── ticket-system.ts\n│   │   ├── live-chat.ts\n│   │   └── knowledge-base.ts\n│   └── 📁 billing-system/             # سیستم صورتحساب\n│       ├── smart-invoice.ts\n│       ├── subscription-manager.ts\n│       └── tax-calculator.ts\n├── 📁 deployment/                     # استقرار و نصب\n│   ├── 📁 docker/                     # کانفیگ Docker\n│   │   ├── Dockerfile …",
-    "role_context": "ethvm _apz_chain apzchain/EthVM-APZ-Chain bug, accessibility, documentation, duplicate, enhancement, help wanted, good first issue, invalid, question, wontfix",
-    "published": "2026-11-12T16:59:30Z",
-    "source": "github-issues-api",
-    "source_type": "open_source",
-    "organization": "apzchain/EthVM-APZ-Chain",
-    "location": "Remote / open source",
-    "structured_opportunity": true,
-    "source_quality": "Open source",
-    "source_priority": 65,
-    "source_quality_label": "Open-source project",
-    "opportunity_type": "Open-source contribution",
-    "work_model": "Remote",
-    "compensation_status": "paid",
-    "compensation": "$1",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "score": 52,
-    "reasons": [
-      {
-        "signal": "open_source_discovery",
-        "points": -25
-      },
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "compliance",
-        "points": 14
-      },
-      {
-        "signal": "governance",
-        "points": 12
-      },
-      {
-        "signal": "structured_source",
-        "points": 10
-      },
-      {
-        "signal": "published_output",
-        "points": 10
-      },
-      {
-        "signal": "paid",
-        "points": 8
-      },
-      {
-        "signal": "leadership",
-        "points": 8
-      }
-    ],
-    "fit_score": 92,
-    "fit_label": "Strong fit",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Strong compliance relevance",
-      "Strong governance relevance",
-      "Open-source contribution matches the target career stage",
-      "Remote-friendly",
-      "Explicit compensation signal",
-      "Relevant experience overlap: compliance"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
-    "opportunity_identity": "role::apzchain ethvm apz chain::ethvm apz chain::remote open source",
-    "description_truncated": true
-  },
-  {
     "title": "Native-speaker review of the German legal pages",
     "url": "https://github.com/openpak/website/issues/1",
     "description": "Open-source contribution opportunity. Repository: openpak/website. Labels: good first issue. ## Context\n\nThe Terms of use, Privacy policy, legal notices and operator terms were translated into German (commit 5bd4bcc). The English text is authoritative and each translation says so, but nobody who writes German natively has read them yet. A translation that reads badly or says something subtly different from the English is worse than none.\n\n## Files\n\n- `internal/pages/templates/terms_de.html` (English: `terms.html`)\n- `internal/pages/templates/privacy_de.html` (English: `privacy.html`)\n- `internal/pages/templates/legal_de.html` (English: `legal.html`)\n- `internal/pages/templates/operators_de.html` (English: `operators.html`)\n\n## What to do\n\nRead each page side by side with its English original. Fix grammar, unnatural phrasing and any place where the meaning drifted. Do not add, drop or reorder sections: the tests compare the structure with the English page.\n\n## Acceptance criteria\n\n- A pull request with the corrections, or a comment here saying the pages read correctly, from a native German speaker.\n- The section ids (`<h2 id=\"...\">`), list items and links match the English page.\n- `GOWORK=off go vet ./... && go test ./...` passes (`TestLegalPagesTranslated` in `internal/pages/legal_test.go` checks the structure).\n\n## Notes\n\nThis is a language review, not legal advice. If you think the English text itself is wrong, open a separate issue. Before you start, read [CONTRIBUTING](https://github.com/openpak/.github/blob/main/CONTRIBUTING.md). Keep the pull request to this one change.",
@@ -980,7 +893,7 @@
     "url": "https://github.com/raizestudio/dripcatch/issues/1",
     "description": "Open-source contribution opportunity. Repository: raizestudio/dripcatch. Labels: enhancement, good first issue. ### Description\nImplement the `/[locale]/privacy` page route to formalize DripCatch's privacy-first posture and ensure GDPR compliance. Because DripCatch differentiates itself by avoiding open-banking bridges (Plaid, Finicity, etc.), this document must clearly communicate our zero-credential data model, how split invitation emails are handled, and how Supabase auth records are stored.\n\n---\n\n### Context & Product Posture\n* **Core Value Proposition:** DripCatch does not connect to banks or scrape financial institutions. All ledger records are user-entered and stored in encrypted Supabase PostgreSQL tables.\n* **Localization:** DripCatch is localized using `next-intl` (currently `en` and `fr`). The policy content must support both locales.\n* **Target Audience:** EU/Global conscious spenders (GDPR compliant).\n\n---\n\n### Proposed Structure & Sections\n1. **Introduction & Data Controller**\n   * Controller: DripCatch (`contact@dripcatch.eu`)\n   * Scope: Web application, auth, and split invitation workflows.\n2. **The \"Zero Bank Connection\" Pledge**\n   * Explicit disclosure that DripCatch never requests, handles, or stores bank logins, account numbers, or open-banking tokens.\n3. **Information We Collect**\n   * **Account Information:** Email address, user metadata (avatar, name) retrieved via Supabase Auth / OAuth providers.\n   * **Ledger Data:** Subscription names, categories, billing intervals, cost figures, and custom dates.\n   * **Split Co-Payer Data:** Names and email addresses optionally provided by users to invite friends/roommates to split a cost.\n4. **How We Use Your Data**\n   * Calculating personal burn, price hike detection, and 12-month projections.\n   * Sending transactional split invitation notifications.\n   * Zero ads, zero tracking pixels, zero selling/renting of personal financial data.\n5. **Data Retention & Deletion Rights (GDPR / CCPA)**\n   * Right t …",
     "role_context": "feat(legal): implement localized privacy policy page (/[locale]/privacy) raizestudio/dripcatch enhancement, good first issue",
-    "published": "2026-11-10T21:34:42Z",
+    "published": "2026-11-14T08:48:36Z",
     "source": "github-issues-api",
     "source_type": "open_source",
     "organization": "raizestudio/dripcatch",
@@ -1053,8 +966,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_seen": "2026-11-12T13:46:15.424509+00:00",
-    "last_checked": "2026-11-12T13:46:15.424509+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::raizestudio dripcatch::feat legal implement localized privacy policy page locale privacy::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -2381,6 +2294,92 @@
     "duplicate_count": 0
   },
   {
+    "title": "Contextual AI: reconcile On-demand trial prompt policy and retention scope",
+    "url": "https://github.com/pacocartones/free-llm-api-hub/issues/490",
+    "description": "Open-source contribution opportunity. Repository: pacocartones/free-llm-api-hub. Labels: help wanted, data. ## Decision — source review on 2026-11-14 UTC\n\nKeep `contextual-ai.data_policy` absent for now. The missing facts are whether the **On-demand $25 signup credit used through the component APIs** permits model training on prompts/outputs, and what request/log retention applies to that access. Neither `false` nor a bare `30 days` is justified by the evidence below.\n\nThis is an evidence handoff, not a confirmed provider-data update. No account, payment, support request or private document was used.\n\n## Why this gap matters\n\nThe canonical entry has no policy; the field feeds the no-training collection, comparison pages and exports. Publishing an enterprise marketing statement as a trial guarantee, or a contractual deletion deadline as a request-retention window, would mislead API users.\n\nSnapshot at main `bff9e2a`: 68 providers, 66 verified, 0 beyond the 90-day verification SLA. Gaps are calculated with `scripts/lib/coverage.mjs`, using its applicable populations (trial credits are excluded from model-tier/free-limit counts):\n\n| Field | Confirmed / applicable | Open gaps |\n| --- | --- | --- |\n| Credit card requirement | 60 / 66 | 6 |\n| Phone requirement | 25 / 66 | 41 |\n| Commercial use (explicit boolean) | 36 / 66 | 30 |\n| OpenAI compatibility | 66 / 66 | 0 |\n| Model tier | 8 / 15 | 7 |\n| Structured free limits | 7 / 15 | 8 |\n| Free model sample | 15 / 33 | 18 |\n| Prompt data policy | 18 / 33 | 15 |\n\nThe commercial-use gap count includes a conditional value as unconfirmed for a boolean filter, following the existing coverage definition. It is not a request to erase that condition.\n\nThis issue was selected after checking all 45 open issues and the open PRs: it had no assignee, no comments and no `good first issue` label. Newcomer tasks, assigned issues and external discussions were excluded; this does not claim another provider or field.\n\n## Official evidence and s …",
+    "role_context": "Contextual AI: reconcile On-demand trial prompt policy and retention scope pacocartones/free-llm-api-hub help wanted, data",
+    "published": "2026-11-14T09:39:01Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "pacocartones/free-llm-api-hub",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "paid",
+    "compensation": "$25",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 58,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "paid",
+        "points": 8
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 89,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong compliance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Explicit compensation signal"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
+    "opportunity_identity": "role::pacocartones free llm api hub::contextual ai reconcile on demand trial prompt policy and retention scope::remote open source",
+    "description_truncated": true
+  },
+  {
     "title": "Add an EU evidence index page that links the existing GDPR and AI Act documents",
     "url": "https://github.com/maziyarpanahi/openmed/issues/5427",
     "description": "Open-source contribution opportunity. Repository: maziyarpanahi/openmed. Labels: documentation, help wanted, good first issue, P3, roadmap-v4. ## Problem and existing coverage\n\nEU-relevant pages are scattered through the Compliance nav: `dpia-template.md`, `dpa-template.md`, `gdpr-dsar-export.md`, `model-card-eu-ai-act-fields.md` and `iso-27701-control-evidence.md` under `docs/compliance/`. A reader preparing EU evidence has no entry point that lists them.\n\n## Implementation\n\n- Add `docs/compliance/eu-evidence.md` (new) with one short paragraph per existing EU-relevant page: what it is for and what it is not.\n- Add the page to the mkdocs Compliance nav, above the pages it links.\n\n## Acceptance criteria\n\n- [ ] Every linked page exists and the links resolve.\n- [ ] The page states that it is an index and not legal advice.\n- [ ] The strict docs build passes.\n- [ ] `make docs-build`\n\n## Independent development boundary\n\nOwns one index page linking existing docs; new EU pages link themselves when they land.\n\n## Starting points and validation\n\n`docs/compliance/eu-evidence.md` (new), `docs/compliance/`, `mkdocs.yml`.\n\nAdd focused offline unit and integration tests for this slice and document the public behavior. Use synthetic fixtures, injected transports/clocks/providers where needed, and negative controls. Record exact validation commands in the implementation PR.\n\n## For first-time contributors\n\nSkim the five pages named in the problem and the Compliance section of `mkdocs.yml`. Expect one Markdown page of 40-80 lines and a two-line nav change. Run `make docs-build` (after `uv pip install -e \".[dev,docs]\"`) to check links.\n\nComment on this issue if anything is unclear; questions are welcome.\n\n## Privacy and release limits\n\nKeep local-first defaults. Diagnostics and evidence contain only controlled codes, counts, offsets, opaque references and digests; never raw PHI, credentials, private paths or source payloads. Do not bundle restricted data or weights. This task adds no …",
@@ -2469,8 +2468,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::maziyarpanahi openmed::add an eu evidence index page that links the existing gdpr and ai act documents::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -2568,8 +2567,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::via::werkstudent in recht::berlin germany",
     "description_truncated": true,
     "alternate_sources": [
@@ -2839,8 +2838,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::aniruddhaadak80 skills::content new track proposals community sourced quant finance robotics telco automotive semiconductor climate tech space maritime actuarial legal tech::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -3202,8 +3201,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::udaysharmagithub prompt engineering patterns::notebook 07 safety and alignment 05 privacy and sensitive data::remote open source",
     "description_truncated": true
   },
@@ -3287,6 +3286,88 @@
     "last_seen": "2026-09-29T05:28:36.540202+00:00",
     "last_checked": "2026-09-29T05:28:36.540202+00:00",
     "opportunity_identity": "role::principled evolution gopal::implement a source mapped mas feat external accountability policy::remote open source",
+    "description_truncated": true
+  },
+  {
+    "title": "ethvm _apz_chain",
+    "url": "https://github.com/apzchain/EthVM-APZ-Chain/issues/1",
+    "description": "Open-source contribution opportunity. Repository: apzchain/EthVM-APZ-Chain. Labels: bug, accessibility, documentation, duplicate, enhancement, help wanted, good first issue, invalid, question, wontfix. 🚀 پروژه کامل ETHVM-APZ-CHAIN-COMPLETE با پشتیبانی DeepSeek\n\n📦 ساختار نهایی (تکمیل شده با کدهای کامل)\n\n```\nethvm-apz-chain-complete-20241210-1500.zip/\n├── 📁 core-system/                    # هسته اصلی پروژه\n│   ├── 📁 network-protocols/          # پروتکل‌های شبکه\n│   │   ├── ipx-adapter.ts\n│   │   ├── secure-tunnel.ts\n│   │   ├── crypto-engine.ts\n│   │   ├── isdn-integration.ts\n│   │   └── frame-relay.ts\n│   ├── 📁 cross-chain-bridge/         # پل بین‌زنجیره‌ای\n│   │   ├── bridge-protocol.ts\n│   │   ├── packet-exchange.ts\n│   │   └── multi-chain-orchestrator.ts\n│   ├── 📁 blockchain-core/            # هسته بلاک چین\n│   │   ├── consensus.ts\n│   │   ├── node-manager.ts\n│   │   ├── transaction-pool.ts\n│   │   └── chain-state.ts\n│   └── 📁 smart-contracts/            # قراردادهای هوشمند\n│       ├── APZToken.sol\n│       ├── Staking.sol\n│       └── Governance.sol\n├── 📁 ai-support-system/              # پشتیبانی هوش مصنوعی\n│   ├── 📁 deepseek-integration/       # یکپارچه‌سازی DeepSeek\n│   │   ├── support-engine.ts\n│   │   ├── ai-functions.ts\n│   │   └── model-training.ts\n│   ├── 📁 financial-management/       # مدیریت مالی\n│   │   ├── financial-authorizer.ts\n│   │   ├── invoice-manager.ts\n│   │   └── payment-processor.ts\n│   ├── 📁 legal-compliance/           # تطبیق قانونی\n│   │   ├── legal-validator.ts\n│   │   ├── contract-generator.ts\n│   │   └── compliance-checker.ts\n│   ├── 📁 customer-support/           # پشتیبانی مشتری\n│   │   ├── ticket-system.ts\n│   │   ├── live-chat.ts\n│   │   └── knowledge-base.ts\n│   └── 📁 billing-system/             # سیستم صورتحساب\n│       ├── smart-invoice.ts\n│       ├── subscription-manager.ts\n│       └── tax-calculator.ts\n├── 📁 deployment/                     # استقرار و نصب\n│   ├── 📁 docker/                     # کانفیگ Docker\n│   │   ├── Dockerfile …",
+    "role_context": "ethvm _apz_chain apzchain/EthVM-APZ-Chain bug, accessibility, documentation, duplicate, enhancement, help wanted, good first issue, invalid, question, wontfix",
+    "published": "2026-11-12T16:59:30Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "apzchain/EthVM-APZ-Chain",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 44,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "compliance",
+        "points": 14
+      },
+      {
+        "signal": "governance",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "published_output",
+        "points": 10
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 88,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong compliance relevance",
+      "Strong governance relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: compliance"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-13T13:07:27.772684+00:00",
+    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "opportunity_identity": "role::apzchain ethvm apz chain::ethvm apz chain::remote open source",
     "description_truncated": true
   },
   {
@@ -5860,8 +5941,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-07T05:31:29.026014+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::gsa masteringagenticaisystems supplementals::content review ch 9 8 standards and frameworks for ai governance::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -6034,8 +6115,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-05T13:12:57.145457+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::m ridha indonesian linguist::feat domains add politics public policy governance and journalism glossary politics and news md::remote open source",
     "description_truncated": true,
     "alternate_sources": [
@@ -6295,9 +6376,90 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-23T05:26:42.012100+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::visualize policy research writing admin::research steps to set up visualize policy as a tax exempt educational nonprofit::remote open source",
+    "description_truncated": true
+  },
+  {
+    "title": "feat(legal): implement localized security overview & trust center (/[locale]/security)",
+    "url": "https://github.com/raizestudio/dripcatch/issues/3",
+    "description": "Open-source contribution opportunity. Repository: raizestudio/dripcatch. Labels: enhancement, good first issue. ### Description\nImplement the `/[locale]/security` page route to transparently detail DripCatch's security architecture, data handling safeguards, and responsible disclosure policies. Because user trust is central to managing financial records, this page must outline how DripCatch protects user data using PostgreSQL Row Level Security (RLS), modern encryption, zero-credential access, and EU hosting.\n\n---\n\n### Context & Security Architecture\n* **The Zero-Credential Paradigm:** DripCatch deliberately eliminates attack surfaces associated with financial apps by having zero integrations with bank scraping APIs, open-banking credentials, credit card numbers, or card networks.\n* **Row Level Security (RLS):** Every subscription and split row in PostgreSQL is protected by strict RLS policies ensuring tenant isolation directly at the database engine level (`auth.uid() = user_id`).\n* **Session & Cookie Security:** Supabase authentication leverages HTTP-only, secure, `SameSite=Lax` cookies, preventing cross-site scripting (XSS) session theft.\n* **Localization:** Supports `en` and `fr` through `next-intl`.\n\n---\n\n### Proposed Structure & Sections\n1. **Security Philosophy (Defense in Depth)**\n   * Minimal data collection principle: what isn't collected cannot be breached.\n   * Total absence of banking credentials or payment processing tokens.\n2. **Database Architecture & Data Isolation**\n   * PostgreSQL Row Level Security (RLS) deep-dive: how subscriber queries are constrained to their own authenticated session ID.\n   * Shared subscription isolation: invitees can view only split-relevant metadata without exposing the host's entire ledger.\n3. **Encryption Standards**\n   * **In Transit:** Mandatory TLS 1.3 encryption across all client-server interactions with HSTS enabled.\n   * **At Rest:** Database instances and daily snapshots encrypted using industry-standard AES-256. …",
+    "role_context": "feat(legal): implement localized security overview & trust center (/[locale]/security) raizestudio/dripcatch enhancement, good first issue",
+    "published": "2026-11-14T08:48:29Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "raizestudio/dripcatch",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 44,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "legal",
+        "points": 15
+      },
+      {
+        "signal": "research_writing",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      },
+      {
+        "signal": "international",
+        "points": 8
+      },
+      {
+        "signal": "leadership",
+        "points": 8
+      }
+    ],
+    "fit_score": 85,
+    "fit_label": "Strong fit",
+    "fit_reasons": [
+      "Strong legal relevance",
+      "Strong privacy relevance",
+      "Strong research writing relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
+    "opportunity_identity": "role::raizestudio dripcatch::feat legal implement localized security overview and trust center locale security::remote open source",
     "description_truncated": true
   },
   {
@@ -6369,11 +6531,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::yenklabs dali::corpus tier1 expand court documented legal ai citation failures::remote open source",
     "alternate_sources": [
       {
@@ -6771,11 +6933,11 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-16T22:33:39.162877+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
     "source_quality": "Open source",
     "source_priority": 65,
     "source_quality_label": "Open-source project",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::glacierphonk naming::add industry file legal tech::remote open source",
     "alternate_sources": [
       {
@@ -6946,8 +7108,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::harvey::compliance analyst::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -7370,8 +7532,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-28T11:21:08.429782+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::finos ai governance framework::proposal add positioning doc finos aig vs other frameworks standards and certifications::remote open source",
     "alternate_sources": [
       {
@@ -7692,8 +7854,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -7778,8 +7940,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::dallas",
     "description_truncated": true,
     "alternate_sources": [
@@ -7864,8 +8026,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::chicago",
     "description_truncated": true,
     "alternate_sources": [
@@ -7950,8 +8112,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::boston",
     "description_truncated": true,
     "alternate_sources": [
@@ -8036,8 +8198,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-09T13:54:47.858752+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::new york",
     "description_truncated": true,
     "alternate_sources": [
@@ -8122,8 +8284,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::chicago",
     "description_truncated": true,
     "alternate_sources": [
@@ -8208,8 +8370,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-16T05:42:38.188097+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::houston",
     "description_truncated": true,
     "alternate_sources": [
@@ -8294,8 +8456,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-13T05:33:49.839758+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::toronto",
     "description_truncated": true,
     "alternate_sources": [
@@ -8380,8 +8542,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::san francisco",
     "description_truncated": true,
     "alternate_sources": [
@@ -8466,8 +8628,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-17T10:43:56.130260+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::legora::legal engineer associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -8873,8 +9035,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-10T13:28:42.128603+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::legora::legal analyst::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -9996,6 +10158,150 @@
     "duplicate_count": 0
   },
   {
+    "title": "Good first issue: document prompt data policy for one provider (Mixedbread to Pollinations)",
+    "url": "https://github.com/pacocartones/free-llm-api-hub/issues/559",
+    "description": "Open-source contribution opportunity. Repository: pacocartones/free-llm-api-hub. Labels: help wanted, good first issue, data. ## Pick one provider\n\nRecord what **one** provider publicly says about prompts submitted through its API—whether prompts are used for training and/or how long they are retained:\n\n- `mixedbread`\n- `clarifai`\n- `ai-horde`\n- `modelscope`\n- `pollinations`\n\nUse only public, provider-owned privacy policies, terms, or API documentation. Search for terms such as *prompt*, *log*, *retain*, *retention*, and *train*. If the official pages do not settle the question, report what you checked and leave the entry absent.\n\n## Change\n\n- Edit the selected provider in `data/providers.json`.\n- Add `data_policy` with `source`, UTC `checked` date, an exact supporting `quote`, and at least one of `trains_on_prompts` or `retention`.\n- Run the quote helper so `data/quotes.json` is updated.\n- Commit regenerated files from the build.\n\n## Verify\n\n```bash\nnpm run quotes:add -- <slug>\nnpm run build && npm test\nnpm run check\n```\n\nIn the pull request, link every official page used and give the UTC date checked (`YYYY-MM-DD`). See `CONTRIBUTING.md` and `docs/quotes.md` for the exact data shape.\n\nNo claim is needed for an issue labelled both `good first issue` and `data`: open the pull request when ready. The first correct, sourced PR for a provider is merged. AI-assisted work must follow `AI_POLICY.md`.",
+    "role_context": "Good first issue: document prompt data policy for one provider (Mixedbread to Pollinations) pacocartones/free-llm-api-hub help wanted, good first issue, data",
+    "published": "2026-11-14T06:56:38Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "pacocartones/free-llm-api-hub",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 25,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 73,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
+    "opportunity_identity": "role::pacocartones free llm api hub::good first issue document prompt data policy for one provider mixedbread to pollinations::remote open source"
+  },
+  {
+    "title": "Good first issue: document prompt data policy for one provider (OVHcloud to NVIDIA NIM)",
+    "url": "https://github.com/pacocartones/free-llm-api-hub/issues/558",
+    "description": "Open-source contribution opportunity. Repository: pacocartones/free-llm-api-hub. Labels: help wanted, good first issue, data. ## Pick one provider\n\nRecord what **one** provider publicly says about prompts submitted through its API—whether prompts are used for training and/or how long they are retained:\n\n- `ovhcloud-ai-endpoints`\n- `baseten`\n- `nlpcloud`\n- `alibaba-model-studio`\n- `nvidia-nim`\n\nUse only public, provider-owned privacy policies, terms, or API documentation. Search for terms such as *prompt*, *log*, *retain*, *retention*, and *train*. If the official pages do not settle the question, report what you checked and leave the entry absent.\n\n## Change\n\n- Edit the selected provider in `data/providers.json`.\n- Add `data_policy` with `source`, UTC `checked` date, an exact supporting `quote`, and at least one of `trains_on_prompts` or `retention`.\n- Run the quote helper so `data/quotes.json` is updated.\n- Commit regenerated files from the build.\n\n## Verify\n\n```bash\nnpm run quotes:add -- <slug>\nnpm run build && npm test\nnpm run check\n```\n\nIn the pull request, link every official page used and give the UTC date checked (`YYYY-MM-DD`). See `CONTRIBUTING.md` and `docs/quotes.md` for the exact data shape.\n\nNo claim is needed for an issue labelled both `good first issue` and `data`: open the pull request when ready. The first correct, sourced PR for a provider is merged. AI-assisted work must follow `AI_POLICY.md`.",
+    "role_context": "Good first issue: document prompt data policy for one provider (OVHcloud to NVIDIA NIM) pacocartones/free-llm-api-hub help wanted, good first issue, data",
+    "published": "2026-11-14T06:56:37Z",
+    "source": "github-issues-api",
+    "source_type": "open_source",
+    "organization": "pacocartones/free-llm-api-hub",
+    "location": "Remote / open source",
+    "structured_opportunity": true,
+    "source_quality": "Open source",
+    "source_priority": 65,
+    "source_quality_label": "Open-source project",
+    "opportunity_type": "Open-source contribution",
+    "work_model": "Remote",
+    "compensation_status": "unknown",
+    "compensation": "",
+    "duration": "",
+    "commitment": "",
+    "deadline": "",
+    "deadline_status": "unknown",
+    "start_date": "",
+    "languages": [],
+    "eligibility": [],
+    "work_authorization": "",
+    "enrichment_version": "0.3",
+    "deadline_berlin_iso": "",
+    "deadline_utc_iso": "",
+    "deadline_time_confidence": "unknown",
+    "deadline_source_timezone": "",
+    "deadline_original": "",
+    "score": 25,
+    "reasons": [
+      {
+        "signal": "open_source_discovery",
+        "points": -25
+      },
+      {
+        "signal": "privacy",
+        "points": 16
+      },
+      {
+        "signal": "opportunity_in_title",
+        "points": 12
+      },
+      {
+        "signal": "policy",
+        "points": 12
+      },
+      {
+        "signal": "structured_source",
+        "points": 10
+      }
+    ],
+    "fit_score": 73,
+    "fit_label": "Stretch",
+    "fit_reasons": [
+      "Strong privacy relevance",
+      "Strong policy relevance",
+      "Open-source contribution matches the target career stage",
+      "Remote-friendly",
+      "Relevant experience overlap: privacy"
+    ],
+    "fit_gaps": [],
+    "fit_blockers": [],
+    "fit_version": "0.4",
+    "first_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
+    "opportunity_identity": "role::pacocartones free llm api hub::good first issue document prompt data policy for one provider ovhcloud to nvidia nim::remote open source"
+  },
+  {
     "title": "Legal Engineering Operations Associate",
     "url": "https://jobs.ashbyhq.com/legora/3c75574c-f213-4e41-a172-ac08c85ed68e",
     "description": "Organisation: Legora. Location: Stockholm HQ. Department: Legal Engineering. Team: Legal Engineering. Commitment: FullTime. Work model: OnSite. About Us Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes. 2,100+ customers across 80+ countries trust us, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons, and Barclays. We’ve scaled to $200M+ in ARR , with teams across Europe, North America and APAC, and continue to expand through acquisitions including Qura, Walter AI, Graceview, Cadastral, and Wexler. We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law. Joining Legora means three things. We lean in: ownership over titles, outcomes over intentions. We fight for excellence: high standards, direct, ego-free feedback. We grow together: as a team and with our customers. Mission before ego. Everyone contributes. No one coasts. If you’re driven by impact, pace, and raising the bar. This is the place. About the role We are hiring a Legal Engineering Operations Associate to join the Global Legal Engineering Operations family in Stockholm, based in the office five days per week. You will report to the Global Legal Engineering Operations Lead and work with the Head of Legal Engineering EMEA as your clear primary regional stakeholder and executive sponsor. Legal Engineering EMEA is scaling quickly across markets, offices and customer segments. This role will help run the system around that growth. You will tur …",
@@ -10545,8 +10851,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::harvey::associate legal engineer::sydney",
     "description_truncated": true,
     "alternate_sources": [
@@ -10751,8 +11057,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-09-22T05:26:27.204052+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::legora::legal engineer law firms and in house dubai::dubai",
     "description_truncated": true
   },
@@ -11304,8 +11610,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::via::regulatory operations associate::new york city",
     "description_truncated": true,
     "alternate_sources": [
@@ -11509,8 +11815,8 @@
     "fit_blockers": [],
     "fit_version": "0.4",
     "first_seen": "2026-10-09T05:31:48.763325+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
+    "last_seen": "2026-11-14T12:11:56.016468+00:00",
+    "last_checked": "2026-11-14T12:11:56.016468+00:00",
     "opportunity_identity": "role::harvey::associate commercial counsel london::london",
     "description_truncated": true
   },
@@ -11729,230 +12035,5 @@
     "last_seen": "2026-11-13T13:07:27.772684+00:00",
     "last_checked": "2026-11-13T13:07:27.772684+00:00",
     "opportunity_identity": "url::https://www.simplyhired.com/q-legal-internship-jobs.html"
-  },
-  {
-    "title": "Now Hiring: 5,000 Law Internship Jobs | Indeed",
-    "url": "https://www.indeed.com/q-Law-Internship-jobs.html",
-    "description": "Browse 5,018 Law Internship jobs. New jobs posted today. Apply now and find your next opportunity on Indeed.com.",
-    "published": "Wed, 11 Nov 2026 10:54:00 GMT",
-    "query": "site:reliefweb.int legal internship",
-    "source": "bing-rss-fallback",
-    "source_quality": "Web discovery",
-    "source_priority": 40,
-    "source_quality_label": "Search discovery",
-    "opportunity_type": "Internship",
-    "work_model": "Unspecified",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "source_type": "",
-    "score": 27,
-    "reasons": [
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "opportunity_in_title",
-        "points": 12
-      }
-    ],
-    "fit_score": 57,
-    "fit_label": "Stretch",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Internship matches the target career stage"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
-    "opportunity_identity": "url::https://www.indeed.com/q-Law-Internship-jobs.html"
-  },
-  {
-    "title": "Now Hiring: 2,000 Legal Intern Jobs | Indeed",
-    "url": "https://www.indeed.com/q-Legal-Intern-jobs.html",
-    "description": "Browse 2,643 Legal Intern jobs. New jobs posted today. Apply now and find your next opportunity on Indeed.com.",
-    "published": "Wed, 11 Nov 2026 08:52:00 GMT",
-    "query": "site:reliefweb.int legal internship",
-    "source": "bing-rss-fallback",
-    "source_quality": "Web discovery",
-    "source_priority": 40,
-    "source_quality_label": "Search discovery",
-    "opportunity_type": "Internship",
-    "work_model": "Unspecified",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "source_type": "",
-    "score": 27,
-    "reasons": [
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "opportunity_in_title",
-        "points": 12
-      }
-    ],
-    "fit_score": 57,
-    "fit_label": "Stretch",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Internship matches the target career stage"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_seen": "2026-11-13T13:07:27.772684+00:00",
-    "last_checked": "2026-11-13T13:07:27.772684+00:00",
-    "opportunity_identity": "url::https://www.indeed.com/q-Legal-Intern-jobs.html",
-    "alternate_sources": [
-      {
-        "source": "bing-rss-fallback",
-        "url": "https://www.indeed.com/q-Legal-Intern-jobs.html",
-        "quality": "Web discovery",
-        "priority": 40
-      }
-    ],
-    "duplicate_count": 0
-  },
-  {
-    "title": "Summer Internships - NCDOJ",
-    "url": "https://ncdoj.gov/employment/summer-internships/",
-    "description": "An effective way to introduce students to public service is through our summer internship program. Serving as a legal summer intern gives students an opportunity to work alongside some of the state’s very best attorneys to see first-hand the challenges our lawyers face.",
-    "published": "Wed, 11 Nov 2026 02:18:00 GMT",
-    "query": "site:reliefweb.int legal internship",
-    "source": "bing-rss-fallback",
-    "source_quality": "Web discovery",
-    "source_priority": 40,
-    "source_quality_label": "Search discovery",
-    "opportunity_type": "Internship",
-    "work_model": "Unspecified",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "source_type": "",
-    "score": 27,
-    "reasons": [
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "opportunity_in_title",
-        "points": 12
-      }
-    ],
-    "fit_score": 57,
-    "fit_label": "Stretch",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Internship matches the target career stage"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_seen": "2026-11-11T12:44:06.395835+00:00",
-    "last_checked": "2026-11-11T12:44:06.395835+00:00",
-    "opportunity_identity": "url::https://ncdoj.gov/employment/summer-internships"
-  },
-  {
-    "title": "Law Internship Jobs in Utah (231 Open Roles) | LinkedIn",
-    "url": "https://www.linkedin.com/jobs/law-internship-jobs-utah",
-    "description": "Today's top 231 Law Internship jobs in Utah. Leverage your professional network, and get hired. New Law Internship jobs added daily.",
-    "published": "Tue, 22 Sep 2026 03:32:00 GMT",
-    "query": "site:reliefweb.int legal internship",
-    "source": "bing-rss-fallback",
-    "source_quality": "Web discovery",
-    "source_priority": 40,
-    "source_quality_label": "Search discovery",
-    "opportunity_type": "Internship",
-    "work_model": "Unspecified",
-    "compensation_status": "unknown",
-    "compensation": "",
-    "duration": "",
-    "commitment": "",
-    "deadline": "",
-    "deadline_status": "unknown",
-    "start_date": "",
-    "languages": [],
-    "eligibility": [],
-    "work_authorization": "",
-    "enrichment_version": "0.3",
-    "deadline_berlin_iso": "",
-    "deadline_utc_iso": "",
-    "deadline_time_confidence": "unknown",
-    "deadline_source_timezone": "",
-    "deadline_original": "",
-    "source_type": "",
-    "score": 27,
-    "reasons": [
-      {
-        "signal": "legal",
-        "points": 15
-      },
-      {
-        "signal": "opportunity_in_title",
-        "points": 12
-      }
-    ],
-    "fit_score": 57,
-    "fit_label": "Stretch",
-    "fit_reasons": [
-      "Strong legal relevance",
-      "Internship matches the target career stage"
-    ],
-    "fit_gaps": [],
-    "fit_blockers": [],
-    "fit_version": "0.4",
-    "first_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_seen": "2026-09-24T05:26:35.754988+00:00",
-    "last_checked": "2026-09-24T05:26:35.754988+00:00",
-    "opportunity_identity": "url::https://www.linkedin.com/jobs/law-internship-jobs-utah"
   }
 ]
